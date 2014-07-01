@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winQt_Test", "winQt_Test\winQt_Test.vcproj", "{640AAE42-691C-4B8C-B61A-7989DBA59B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugU|Win32 = DebugU|Win32
+		Release|Win32 = Release|Win32
+		ReleaseU|Win32 = ReleaseU|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.Debug|Win32.Build.0 = Debug|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.DebugU|Win32.ActiveCfg = Debug|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.DebugU|Win32.Build.0 = Debug|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.Release|Win32.ActiveCfg = Release|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.Release|Win32.Build.0 = Release|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.ReleaseU|Win32.ActiveCfg = Release|Win32
+		{640AAE42-691C-4B8C-B61A-7989DBA59B12}.ReleaseU|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,753 @@
+edge.size() 330
+ 80 -1 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 0 67 1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 80 1 67 2 82 2 -1
+ 67 2 67 -1 82 3 -1
+ 80 2 67 -1 82 3 -1
+ 80 4 67 3 82 4 -1
+ 67 2 67 3 82 4 -1
+ 67 4 67 -1 82 5 -1
+ 80 5 67 6 82 6 -1
+ 67 -1 67 6 82 6 -1
+ 80 5 67 7 82 7 -1
+ 67 4 67 7 82 7 -1
+ 80 6 67 -1 82 8 -1
+ 80 7 67 -1 82 8 -1
+ 80 8 67 -1 82 8 -1
+ 67 -1 67 -1 82 8 -1
+ 67 -1 67 8 82 9 -1
+ 67 -1 67 -1 82 9 -1
+ 67 8 67 9 82 10 -1
+ 80 1 67 9 82 10 -1
+ 67 9 67 10 82 11 -1
+ 80 2 67 10 82 11 -1
+ 80 -1 67 11 82 12 -1
+ 80 9 67 11 82 12 -1
+ 67 11 67 12 82 13 -1
+ 67 12 67 13 82 14 -1
+ 80 1 67 13 82 14 -1
+ 80 2 67 -1 82 15 -1
+ 67 13 67 -1 82 15 -1
+ 80 4 67 14 82 16 -1
+ 67 13 67 14 82 16 -1
+ 67 -1 67 -1 82 17 -1
+ 80 2 67 -1 82 17 -1
+ 67 -1 67 -1 82 18 -1
+ 80 2 67 -1 82 18 -1
+ 67 10 67 15 82 19 -1
+ 80 2 67 15 82 19 -1
+ 67 -1 67 -1 82 20 -1
+ 67 -1 67 16 82 20 -1
+ 67 10 67 17 82 21 -1
+ 80 13 67 17 82 21 -1
+ 67 -1 67 -1 82 22 -1
+ 80 13 67 -1 82 22 -1
+ 67 -1 67 -1 82 23 -1
+ 80 13 67 -1 82 23 -1
+ 67 -1 80 14 82 24 -1
+ 67 -1 67 -1 82 24 -1
+ 67 -1 67 -1 82 25 -1
+ 80 11 67 -1 82 25 -1
+ 80 15 80 16 82 26 -1
+ 80 15 80 16 82 27 -1
+ 80 16 80 18 82 28 -1
+ 80 18 80 20 82 29 -1
+ 83 -1 83 -1 82 30 -1
+ 80 21 80 22 82 30 -1
+ 80 21 80 22 82 30 -1
+ 67 18 67 19 82 31 -1
+ 80 22 67 19 82 31 -1
+ 67 19 83 -1 82 32 -1
+ 83 0 83 -1 82 32 -1
+ 83 1 67 18 82 32 -1
+ 67 19 67 18 82 32 -1
+ 83 2 80 21 82 32 -1
+ 67 19 80 21 82 32 -1
+ 80 21 80 24 82 33 -1
+ 67 21 67 22 82 34 -1
+ 80 24 67 22 82 34 -1
+ 80 24 80 20 82 34 -1
+ 67 21 80 20 82 34 -1
+ 68 0 67 24 82 35 -1
+ 67 23 67 24 82 35 -1
+ 68 -1 80 26 82 36 -1
+ 68 1 67 26 82 37 -1
+ 67 25 67 26 82 37 -1
+ 68 -1 80 26 82 38 -1
+ 80 26 80 -1 82 39 -1
+ 68 2 67 27 82 40 -1
+ 67 23 67 27 82 40 -1
+ 68 -1 80 27 82 41 -1
+ 68 3 67 28 82 42 -1
+ 67 25 67 28 82 42 -1
+ 68 -1 80 27 82 43 -1
+ 80 27 80 -1 82 44 -1
+ 67 -1 80 28 82 45 -1
+ 67 -1 67 -1 82 45 -1
+ 80 28 80 -1 82 46 -1
+ 67 -1 80 30 82 47 -1
+ 67 -1 67 -1 82 47 -1
+ 80 30 80 -1 82 48 -1
+ 80 31 67 29 82 49 -1
+ 80 25 67 29 82 49 -1
+ 80 25 67 21 82 50 -1
+ 80 20 67 21 82 50 -1
+ 80 32 67 30 82 51 -1
+ 80 33 67 30 82 51 -1
+ 80 16 67 31 82 52 -1
+ 80 34 67 31 82 52 -1
+ 67 31 80 16 82 53 -1
+ 67 31 80 35 82 53 -1
+ 80 35 80 36 82 54 -1
+ 80 36 67 32 82 55 -1
+ 80 37 67 33 82 56 -1
+ 80 20 67 33 82 56 -1
+ 67 33 80 38 82 57 -1
+ 67 33 80 20 82 57 -1
+ 80 38 67 34 82 58 -1
+ 80 -1 80 39 82 59 -1
+ 80 -1 80 40 82 60 -1
+ 80 41 67 35 82 61 -1
+ 80 39 67 35 82 61 -1
+ 80 42 67 36 82 62 -1
+ 67 35 67 36 82 62 -1
+ 83 -1 67 36 82 62 -1
+ 67 36 83 -1 82 63 -1
+ 67 36 67 37 82 63 -1
+ 80 43 83 -1 82 64 -1
+ 83 -1 67 39 82 64 -1
+ 80 43 67 39 82 64 -1
+ 83 -1 83 -1 82 65 -1
+ 80 44 67 40 82 65 -1
+ 80 44 67 40 82 65 -1
+ 67 41 67 42 82 66 -1
+ 80 40 67 42 82 66 -1
+ 67 43 67 44 82 67 -1
+ 80 40 67 44 82 67 -1
+ 80 40 67 46 82 68 -1
+ 67 45 67 46 82 68 -1
+ 67 42 67 39 82 69 -1
+ 67 42 67 47 82 69 -1
+ 67 44 67 40 82 70 -1
+ 67 44 67 47 82 70 -1
+ 67 46 67 38 82 71 -1
+ 67 46 67 47 82 71 -1
+ 80 45 80 46 82 72 -1
+ 80 45 80 47 82 72 -1
+ 80 48 80 49 82 73 -1
+ 80 48 80 50 82 73 -1
+ 80 51 80 52 82 74 -1
+ 80 51 80 53 82 74 -1
+ 80 54 80 55 82 75 -1
+ 80 54 80 56 82 75 -1
+ 80 57 80 58 82 76 -1
+ 80 57 80 59 82 76 -1
+ 80 57 80 60 82 77 -1
+ 80 57 80 61 82 77 -1
+ 80 57 80 62 82 78 -1
+ 80 57 80 63 82 78 -1
+ 80 64 80 65 82 79 -1
+ 80 64 80 66 82 79 -1
+ 80 67 80 68 82 80 -1
+ 80 67 80 69 82 80 -1
+ 80 70 80 71 82 81 -1
+ 80 70 80 72 82 81 -1
+ 80 73 80 74 82 82 -1
+ 80 73 80 75 82 82 -1
+ 80 76 80 77 82 83 -1
+ 80 76 80 78 82 83 -1
+ 80 -1 80 -1 82 84 -1
+ 80 -1 80 79 82 84 -1
+ 80 80 80 81 82 85 -1
+ 80 -1 80 -1 82 86 -1
+ 80 -1 80 82 82 86 -1
+ 80 83 80 84 82 87 -1
+ 80 -1 80 -1 82 88 -1
+ 80 -1 80 -1 82 89 -1
+ 80 -1 80 -1 82 90 -1
+ 80 85 80 86 82 91 -1
+ 80 85 80 87 82 91 -1
+ 80 -1 80 88 82 92 -1
+ 80 -1 80 89 82 92 -1
+ 80 -1 80 90 82 93 -1
+ 80 -1 80 91 82 93 -1
+ 80 92 80 93 82 94 -1
+ 80 92 80 94 82 94 -1
+ 80 95 80 96 82 95 -1
+ 80 95 80 97 82 95 -1
+ 80 98 80 99 82 96 -1
+ 80 98 80 100 82 96 -1
+ 80 101 80 102 82 97 -1
+ 80 101 80 103 82 97 -1
+ 80 104 80 105 82 98 -1
+ 80 104 80 106 82 98 -1
+ 80 107 80 108 82 99 -1
+ 80 107 80 109 82 99 -1
+ 80 110 80 111 82 100 -1
+ 80 110 80 112 82 100 -1
+ 80 113 80 114 82 101 -1
+ 80 113 80 115 82 101 -1
+ 80 -1 80 -1 82 102 -1
+ 80 -1 80 116 82 102 -1
+ 80 -1 80 -1 82 102 -1
+ 80 117 80 118 82 103 -1
+ 80 117 80 119 82 103 -1
+ 80 120 80 121 82 104 -1
+ 80 120 80 122 82 104 -1
+ 80 123 80 124 82 105 -1
+ 80 123 80 125 82 105 -1
+ 80 126 80 127 82 106 -1
+ 80 126 80 128 82 106 -1
+ 80 129 80 130 82 107 -1
+ 80 129 80 131 82 107 -1
+ 80 132 67 53 82 108 -1
+ 80 133 67 53 82 108 -1
+ 67 53 67 55 82 109 -1
+ 67 54 67 55 82 109 -1
+ 67 55 67 -1 82 110 -1
+ 67 39 67 57 82 111 -1
+ 67 56 67 58 82 112 -1
+ 67 58 67 59 82 113 -1
+ 67 59 80 136 82 114 -1
+ 67 59 80 134 82 114 -1
+ 67 59 80 135 82 114 -1
+ 67 59 80 137 82 114 -1
+ 80 134 67 60 82 115 -1
+ 69 0 67 62 82 116 -1
+ 67 61 67 62 82 116 -1
+ 80 138 67 63 82 117 -1
+ 69 1 67 63 82 117 -1
+ 67 62 69 0 82 118 -1
+ 67 62 67 64 82 118 -1
+ 80 139 80 140 82 119 -1
+ 80 139 80 141 82 119 -1
+ 80 141 83 -1 82 120 -1
+ 83 -1 80 142 82 120 -1
+ 80 141 80 142 82 120 -1
+ 80 142 80 -1 82 121 -1
+ 83 -1 83 -1 82 122 -1
+ 80 143 80 139 82 122 -1
+ 80 143 80 139 82 122 -1
+ 67 16 67 -1 82 123 -1
+ 80 144 80 -1 82 124 -1
+ 80 125 80 -1 82 125 -1
+ 80 145 80 146 82 126 -1
+ 80 142 80 146 82 126 -1
+ 80 146 80 145 82 127 -1
+ 80 147 67 66 82 128 -1
+ 80 142 67 66 82 128 -1
+ 67 66 67 67 82 129 -1
+ 80 -1 80 148 82 130 -1
+ 80 -1 80 149 82 130 -1
+ 80 -1 67 69 82 131 -1
+ 80 149 67 69 82 131 -1
+ 67 69 67 -1 82 132 -1
+ 67 38 67 -1 82 132 -1
+ 80 43 83 -1 82 133 -1
+ 83 -1 67 39 82 133 -1
+ 80 43 67 39 82 133 -1
+ 80 -1 80 150 82 134 -1
+ 80 -1 80 -1 82 134 -1
+ 80 150 67 70 82 135 -1
+ 80 151 67 70 82 135 -1
+ 80 -1 80 152 82 136 -1
+ 80 -1 80 -1 82 136 -1
+ 80 153 67 71 82 137 -1
+ 80 152 67 71 82 137 -1
+ 67 5 82 1 82 5 -1
+ 67 16 82 1 82 20 -1
+ 67 16 82 1 82 24 -1
+ 67 16 82 1 82 26 -1
+ 80 17 82 1 82 27 -1
+ 80 19 82 1 82 28 -1
+ 80 23 82 1 82 30 -1
+ 67 20 82 1 82 32 -1
+ 80 29 82 1 82 45 -1
+ 80 29 82 1 82 47 -1
+ 67 36 82 1 82 63 -1
+ 67 37 82 1 82 64 -1
+ 67 37 82 1 82 65 -1
+ 67 39 82 1 82 72 -1
+ 67 39 82 1 82 73 -1
+ 67 48 82 1 82 74 -1
+ 67 39 82 1 82 75 -1
+ 67 48 82 1 82 76 -1
+ 67 16 82 1 82 77 -1
+ 67 49 82 1 82 78 -1
+ 67 39 82 1 82 79 -1
+ 67 16 82 1 82 80 -1
+ 67 39 82 1 82 81 -1
+ 67 50 82 1 82 82 -1
+ 67 39 82 1 82 83 -1
+ 67 50 82 1 82 84 -1
+ 67 50 82 1 82 85 -1
+ 67 50 82 1 82 86 -1
+ 80 0 82 1 82 87 -1
+ 80 1 82 1 82 88 -1
+ 80 2 82 1 82 89 -1
+ 80 3 82 1 82 90 -1
+ 80 4 82 1 82 91 -1
+ 67 51 82 1 82 92 -1
+ 67 51 82 1 82 93 -1
+ 67 39 82 1 82 94 -1
+ 67 39 82 1 82 95 -1
+ 67 40 82 1 82 96 -1
+ 67 39 82 1 82 97 -1
+ 67 39 82 1 82 98 -1
+ 67 39 82 1 82 99 -1
+ 67 39 82 1 82 100 -1
+ 67 39 82 1 82 101 -1
+ 67 -1 82 1 82 102 -1
+ 67 39 82 1 82 103 -1
+ 67 39 82 1 82 104 -1
+ 80 -1 82 1 82 105 -1
+ 67 52 82 1 82 106 -1
+ 67 51 82 1 82 107 -1
+ 67 57 82 1 82 112 -1
+ 67 57 82 1 82 113 -1
+ 67 62 82 1 82 118 -1
+ 67 39 82 1 82 119 -1
+ 80 141 82 1 82 120 -1
+ 80 143 82 1 82 122 -1
+ 80 7 82 1 82 126 -1
+ 67 65 82 1 82 127 -1
+ 67 68 82 1 82 130 -1
+ 67 -1 82 1 82 133 -1
+ 67 39 82 1 82 134 -1
+ 67 39 82 1 82 136 -1
+ 80 3 82 0 82 3 -1
+ 80 3 82 0 82 8 -1
+ 80 10 82 0 82 14 -1
+ 80 3 82 0 82 15 -1
+ 80 11 82 0 82 17 -1
+ 80 11 82 0 82 18 -1
+ 80 11 82 0 82 19 -1
+ 80 12 82 0 82 20 -1
+ 67 24 82 1 82 36 -1
+ 67 26 82 1 82 38 -1
+ 67 27 82 1 82 41 -1
+ 67 28 82 1 82 43 -1
+_complexName.size()	72
+	FASL:FAS Receptor monomer	plasma membrane	Reactome DB_ID: 76564	
+	FASL:FAS Receptor Trimer	plasma membrane	Reactome DB_ID: 76195	
+	FASL:FAS Receptor Trimer:FADD	plasma membrane	Reactome DB_ID: 43124	
+	FASL:FAS Receptor Trimer:FADD:pro-Caspase-10	plasma membrane	Reactome DB_ID: 141315	
+	TNF-alpha trimer	plasma membrane	Reactome DB_ID: 3371351	
+	ADAM17	plasma membrane	Reactome DB_ID: 1251963	
+	soluble TNF-alpha:TNF-R1	plasma membrane	Reactome DB_ID: 3371397	
+	TNF-alpha:TNF-R1	plasma membrane	Reactome DB_ID: 74277	
+	TRAF2:TRADD:RIPK1	cytosol	Reactome DB_ID: 140935	
+	TRADD:TRAF2:RIP1:FADD	cytosol	Reactome DB_ID: 140977	
+	TRADD:TRAF2:RIP1:FADD:procaspase-8 	cytosol	Reactome DB_ID: 140976	
+	TRAIL receptor-2:TRAIL complex	plasma membrane	Reactome DB_ID: 141118	
+	TRAIL receptor-2:TRAIL Trimer	plasma membrane	Reactome DB_ID: 141126	
+	TRAIL:TRAIL receptor-2:FADD	plasma membrane	Reactome DB_ID: 141137	
+	TRAIL:TRAIL receptor-2 Trimer:FADD:Caspase-10 precursor complex	plasma membrane	Reactome DB_ID: 141304	
+	TRAF2:TRADD:RIP1:FADD:procaspase-8-dimer	cytosol	Reactome DB_ID: 2671812	
+	active caspase-8 	cytosol	Reactome DB_ID: 2562550	
+	TRADD:TRAF2:RIP1:FADD:procaspase-8:FLIP(L)	cytosol	Reactome DB_ID: 3465532	
+	14-3-3 eta dimer/14-3-3 gamma dimer/14-3-3 sigma dimer/14-3-3 theta dimer/14-3-3zeta dimer/YWHAB dimer/YWHAE dimer			
+	14-3-3 proteins:p-S99-BAD complex	cytosol	Reactome DB_ID: 139904	
+	Calcineurin B complex	cytosol	Reactome DB_ID: 140202	
+	tBID:BCL-2	mitochondrial outer membrane	Reactome DB_ID: 114339	
+	BAD:BCL-2	mitochondrial outer membrane	Reactome DB_ID: 114268	
+	p-S15-TP53 Tetramer	nucleoplasm	Reactome DB_ID: 349474	
+	p-S15-TP53 Tetramer:PMAIP1 Gene	nucleoplasm	Reactome DB_ID: 4331332	
+	E2F1:TFDP1	nucleoplasm	Reactome DB_ID: 68653	
+	E2F1:TFDP1:PMAIP1 Gene	nucleoplasm	Reactome DB_ID: 4331338	
+	p-S15-TP53 Tetramer:BBC3 Gene	nucleoplasm	Reactome DB_ID: 4331345	
+	E2F1:TFDP1:BBC3 Gene	nucleoplasm	Reactome DB_ID: 4331325	
+	Bcl2:BH3-only protein complex	mitochondrial outer membrane	Reactome DB_ID: 508158	
+	Bcl-XL:BH3-only protein complex	mitochondrial outer membrane	Reactome DB_ID: 508159	
+	tBID bound to inactive BAX	cytosol	Reactome DB_ID: 168850	
+	Activated BAX	mitochondrial outer membrane	Reactome DB_ID: 114269	
+	tBID bound to inactive BAK	mitochondrial outer membrane	Reactome DB_ID: 168847	
+	Active oligomeric BAK	mitochondrial outer membrane	Reactome DB_ID: 114262	
+	Apaf-1:Cytochrome C	cytosol	Reactome DB_ID: 114253	
+	Cytochrome C:Apaf-1:ATP:Procaspase-9	cytosol	Reactome DB_ID: 114255	
+	Apoptosome	cytosol	Reactome DB_ID: 114258	
+	Cleaved Caspase-9	cytosol	Reactome DB_ID: 141640	
+	active caspase-3	cytosol	Reactome DB_ID: 141647	
+	active caspase-7	cytosol	Reactome DB_ID: 141643	
+	XIAP:Caspase-3	cytosol	Reactome DB_ID: 114304	
+	SMAC:XIAP:Caspase-3	cytosol	Reactome DB_ID: 114305	
+	XIAP:Caspase-7	cytosol	Reactome DB_ID: 114308	
+	SMAC:XIAP:Caspase-7	cytosol	Reactome DB_ID: 114353	
+	XIAP:Caspase-9	cytosol	Reactome DB_ID: 114317	
+	SMAC:XIAP:Caspase-9	cytosol	Reactome DB_ID: 114318	
+	SMAC:XIAP	cytosol	Reactome DB_ID: 114391	
+	active caspase-3/active caspase-7			
+	active caspase-6	cytosol	Reactome DB_ID: 350324	
+	active caspase 3	plasma membrane	Reactome DB_ID: 202920	
+	active caspase-6	nucleoplasm	Reactome DB_ID: 352255	
+	active caspase-7	nucleoplasm	Reactome DB_ID: 351937	
+	DFFA:DFFB	cytosol	Reactome DB_ID: 211192	
+	importin-alpha:importin-beta	cytosol	Reactome DB_ID: 350277	
+	DFF:associated with the importin-alpha:importin-beta complex	cytosol	Reactome DB_ID: 350304	
+	DFF45:DFF40 complex	nucleoplasm	Reactome DB_ID: 211225	
+	active caspase-3	nucleoplasm	Reactome DB_ID: 211223	
+	Caspase cleaved DFF45 (117)	nucleoplasm	Reactome DB_ID: 211208	
+	caspase-3-cleaved DFF45 (117,224):DFF40 complex	nucleoplasm	Reactome DB_ID: 211196	
+	DFF40 homodimer	nucleoplasm	Reactome DB_ID: 350273	
+	Histone H1 bound chromatin DNA	nucleoplasm	Reactome DB_ID: 211238	
+	DFF40 associated with chromatin	nucleoplasm	Reactome DB_ID: 211253	
+	HMGB1/HMGB2- bound chromatin	nucleoplasm	Reactome DB_ID: 266207	
+	DFF cleaved DNA	nucleoplasm	Reactome DB_ID: 211254	
+	26S proteasome	cytosol	Reactome DB_ID: 68819	
+	PAK-2p34:RHG10 complex	cytosol	Reactome DB_ID: 211701	
+	perinuclear PAK-2p34:RHG10 complex	cytosol	Reactome DB_ID: 211729	
+	Active Caspase-3 heterotetramer	cytosol	Reactome DB_ID: 350870	
+	DCC:DIP13alpha	plasma membrane	Reactome DB_ID: 373668	
+	Unc5B with death domain:DAPK	cytosol	Reactome DB_ID: 418842	
+	UNC5A:NRAGE	cytosol	Reactome DB_ID: 374596	
+_physicalEntityName.size()	2
+	TACE/TACE	plasma membrane
+		
+_proteinName.size()	154
+	FAS	plasma membrane	Reactome DB_ID: 66248	UniProt:P25445	FAS
+	FADD	cytosol	Reactome DB_ID: 54639	UniProt:Q13158	FADD
+	MACH	cytosol	Reactome DB_ID: 57031	UniProt:Q14790	CASP8
+	E6	cytosol	Reactome DB_ID: 2671794	UniProt:P03126	E6
+	FLICE2	plasma membrane	Reactome DB_ID: 57035	UniProt:Q92851	CASP10
+	p60	plasma membrane	Reactome DB_ID: 66344	UniProt:P19438	TNFRSF1A
+	RIPK1	cytosol	Reactome DB_ID: 168651	UniProt:Q13546	RIPK1
+	TRADD	cytosol	Reactome DB_ID: 66376	UniProt:Q15628	TRADD
+	TRAF2	cytosol	Reactome DB_ID: 66370	UniProt:Q12933	TRAF2
+	TRAIL-R2	plasma membrane	Reactome DB_ID: 65505	UniProt:O14763	TNFRSF10B
+	MRIT	cytosol	Reactome DB_ID: 51925	UniProt:O15519	CFLAR
+	CLARP2	cytosol	Reactome DB_ID: 3465357	UniProt:O15519-2	CFLAR
+	ORF71	cytosol			
+	CLARP1	cytosol	Reactome DB_ID: 3371356	UniProt:O15519-1	CFLAR
+	CLARP1	cytosol	Reactome DB_ID: 3465483	UniProt:O15519-1	CFLAR
+	BID	cytosol	Reactome DB_ID: 50825	UniProt:P55957	BID
+	BID	cytosol	Reactome DB_ID: 139953	UniProt:P55957	BID
+	HLP	cytosol	Reactome DB_ID: 55915	UniProt:P10144	GZMB
+	tBID	cytosol	Reactome DB_ID: 141373	UniProt:P55957	BID
+	NMT 1	cytosol	Reactome DB_ID: 60306	UniProt:P30419	NMT1
+	tBID	mitochondrial outer membrane	Reactome DB_ID: 114266	UniProt:P55957	BID
+	BAD	cytosol	Reactome DB_ID: 50662	UniProt:Q92934	BAD
+	p-S99-BAD	cytosol	Reactome DB_ID: 198335	UniProt:Q92934	BAD
+	AKT3	cytosol			
+	BAD	mitochondrial outer membrane	Reactome DB_ID: 114242	UniProt:Q92934	BAD
+	BCL2	mitochondrial outer membrane	Reactome DB_ID: 50757	UniProt:P10415	BCL2
+	PMAIP1	cytosol	Reactome DB_ID: 140215	UniProt:Q13794	PMAIP1
+	BBC3	cytosol	Reactome DB_ID: 140220	UniProt:Q9BXH1	BBC3
+	p-BIM	cytosol	Reactome DB_ID: 140525	UniProt:O43521	BCL2L11
+	JNK1	cytosol	Reactome DB_ID: 168141	UniProt:P45983	MAPK8
+	p-BMF	cytosol	Reactome DB_ID: 140529	UniProt:Q96LC9	BMF
+	BAD	mitochondrial outer membrane			
+	p-BIM	mitochondrial outer membrane			
+	BCL2L1	mitochondrial outer membrane	Reactome DB_ID: 114236	UniProt:Q07817	BCL2L1
+	BAX	cytosol	Reactome DB_ID: 139916	UniProt:Q07812	BAX
+	BAX activated	cytosol	Reactome DB_ID: 139907	UniProt:Q07812	BAX
+	BAX	mitochondrial outer membrane	Reactome DB_ID: 139949	UniProt:Q07812	BAX
+	BAK1	mitochondrial outer membrane	Reactome DB_ID: 139896	UniProt:Q16611	BAK1
+	BAK1 activated	mitochondrial outer membrane	Reactome DB_ID: 50690	UniProt:Q16611	BAK1
+	CYCS	cytosol	Reactome DB_ID: 53259	UniProt:P99999	CYCS
+	SMAC	cytosol	Reactome DB_ID: 114298	UniProt:Q9NR28	DIABLO
+	APAF1	cytosol	Reactome DB_ID: 50099	UniProt:O14727	APAF1
+	CASP-9	cytosol	Reactome DB_ID: 57033	UniProt:P55211	CASP9
+	SCA-1	cytosol	Reactome DB_ID: 57021	UniProt:P42574	CASP3
+	CMH-1	cytosol	Reactome DB_ID: 57029	UniProt:P55210	CASP7
+	ADD1	cytosol	Reactome DB_ID: 201623	UniProt:P35611	ADD1
+	ADD1(634-737)	cytosol	Reactome DB_ID: 202890	UniProt:P35611	ADD1
+	ADD1(1-633)	cytosol	Reactome DB_ID: 202891	UniProt:P35611	ADD1
+	SPTAN1	cytosol	Reactome DB_ID: 201601	UniProt:Q13813	SPTAN1
+	SPTAN1(1-1185)	cytosol	Reactome DB_ID: 202944	UniProt:Q13813	SPTAN1
+	SPTAN1(1186-2472)	cytosol	Reactome DB_ID: 202964	UniProt:Q13813	SPTAN1
+	GAS2	cytosol	Reactome DB_ID: 201614	UniProt:O43903	GAS2
+	GAS2(280-313)	cytosol	Reactome DB_ID: 202887	UniProt:O43903	GAS2
+	GAS2(1-279)	cytosol	Reactome DB_ID: 202833	UniProt:O43903	GAS2
+	DBNL	cytosol	Reactome DB_ID: 202880	UniProt:Q9UJU6	DBNL
+	DBNL(1-361)	cytosol	Reactome DB_ID: 202925	UniProt:Q9UJU6	DBNL
+	DBNL(362-431)	cytosol	Reactome DB_ID: 202933	UniProt:Q9UJU6	DBNL
+	VIM (2-466)	cytosol	Reactome DB_ID: 201600	UniProt:P08670	VIM
+	VIM(86-466)	cytosol	Reactome DB_ID: 350294	UniProt:P08670	VIM
+	VIM(2-85)	cytosol	Reactome DB_ID: 350264	UniProt:P08670	VIM
+	VIM(260-466)	cytosol	Reactome DB_ID: 350314	UniProt:P08670	VIM
+	VIM(2-259)	cytosol	Reactome DB_ID: 350323	UniProt:P08670	VIM
+	VIM(430-466)	cytosol	Reactome DB_ID: 350316	UniProt:P08670	VIM
+	VIM(2-429)	cytosol	Reactome DB_ID: 350317	UniProt:P08670	VIM
+	Gelsolin	cytosol	Reactome DB_ID: 350275	UniProt:P06396	GSN
+	GSN(404-782)	cytosol	Reactome DB_ID: 350272	UniProt:P06396	GSN
+	GSN(27-403)	cytosol	Reactome DB_ID: 201618	UniProt:P06396	GSN
+	PLEC	cytosol	Reactome DB_ID: 201575	UniProt:Q15149	PLEC
+	PLEC(1-2395)	cytosol	Reactome DB_ID: 350638	UniProt:Q15149	PLEC
+	PLEC(2396-4684)	cytosol	Reactome DB_ID: 350618	UniProt:Q15149	PLEC
+	Tau	cytosol	Reactome DB_ID: 201574	UniProt:P10636	MAPT
+	MAPT(422-758)	cytosol	Reactome DB_ID: 350642	UniProt:P10636	MAPT
+	MAPT(2-421)	cytosol	Reactome DB_ID: 350628	UniProt:P10636	MAPT
+	CDH1	plasma membrane	Reactome DB_ID: 198003	UniProt:P12830	CDH1
+	CDH1	plasma membrane	Reactome DB_ID: 202940	UniProt:P12830	CDH1
+	CDH1	plasma membrane	Reactome DB_ID: 202929	UniProt:P12830	CDH1
+	CTNNB1-1	cytosol			
+	CTNNB1-1(116-376)	cytosol	Reactome DB_ID: 202950	UniProt:P35222-1	CTNNB1
+	CTNNB1-1(1-115)	cytosol	Reactome DB_ID: 202930	UniProt:P35222-1	CTNNB1
+	DSG3(782-999)	cytosol	Reactome DB_ID: 202797	UniProt:P32926	DSG3
+	DSG2	plasma membrane	Reactome DB_ID: 351896	UniProt:Q14126	DSG2
+	DSG2(?-1118)	plasma membrane	Reactome DB_ID: 351839	UniProt:Q14126	DSG2
+	DSG1(889-1049)	cytosol	Reactome DB_ID: 202921	UniProt:Q02413	DSG1
+	DSP	plasma membrane	Reactome DB_ID: 201580	UniProt:P15924	DSP
+	DSP(?-?)	plasma membrane	Reactome DB_ID: 351843	UniProt:P15924	DSP
+	OCLN	plasma membrane	Reactome DB_ID: 351846	UniProt:Q16625	OCLN
+	OCLN(1-320)	plasma membrane	Reactome DB_ID: 351854	UniProt:Q16625	OCLN
+	OCLN(321-522)	plasma membrane	Reactome DB_ID: 351873	UniProt:Q16625	OCLN
+	LMNA-1(1-230)	nuclear envelope	Reactome DB_ID: 352253	UniProt:P02545-1	LMNA
+	LMNA-1(231-664)	nuclear envelope	Reactome DB_ID: 352249	UniProt:P02545-1	LMNA
+	LMNB1(1-231)	nuclear envelope	Reactome DB_ID: 352244	UniProt:P20700	LMNB1
+	LMNB1(232-586)	nuclear envelope	Reactome DB_ID: 352248	UniProt:P20700	LMNB1
+	APC	cytosol	Reactome DB_ID: 2976015	UniProt:P25054	APC
+	APC	cytosol	Reactome DB_ID: 2976014	UniProt:P25054	APC
+	APC	cytosol	Reactome DB_ID: 2976013	UniProt:P25054	APC
+	BIRC2	cytosol	Reactome DB_ID: 50847	UniProt:Q13490	BIRC2
+	BIRC2(1-372)	cytosol	Reactome DB_ID: 202913	UniProt:Q13490	BIRC2
+	BIRC2(373-618)	cytosol	Reactome DB_ID: 202931	UniProt:Q13490	BIRC2
+	FAK	cytosol	Reactome DB_ID: 201621	UniProt:Q05397	PTK2
+	PTK2(773-1052)	cytosol	Reactome DB_ID: 202829	UniProt:Q05397	PTK2
+	PTK2(1-772)	cytosol	Reactome DB_ID: 202827	UniProt:Q05397	PTK2
+	PRKCD	cytosol	Reactome DB_ID: 58200	UniProt:Q05655	PRKCD
+	PRKCD(330-676)	cytosol	Reactome DB_ID: 212551	UniProt:Q05655	PRKCD
+	PRKCD(1-329)	cytosol	Reactome DB_ID: 212547	UniProt:Q05655	PRKCD
+	PRKCQ	cytosol	Reactome DB_ID: 58216	UniProt:Q04759	PRKCQ
+	nPKC-theta	cytosol	Reactome DB_ID: 212526	UniProt:Q04759	PRKCQ
+	nPKC-theta	cytosol	Reactome DB_ID: 212514	UniProt:Q04759	PRKCQ
+	ACIN1	cytosol	Reactome DB_ID: 212519	UniProt:Q9UKV3	ACIN1
+	ACIN1(1094-1341)	cytosol	Reactome DB_ID: 212516	UniProt:Q9UKV3	ACIN1
+	ACIN1(1-1093)	cytosol	Reactome DB_ID: 212520	UniProt:Q9UKV3	ACIN1
+	ROCK1	cytosol	Reactome DB_ID: 212509	UniProt:Q13464	ROCK1
+	ROCK1(1114-1354)	cytosol	Reactome DB_ID: 212524	UniProt:Q13464	ROCK1
+	ROCK1(1-1113)	cytosol	Reactome DB_ID: 212523	UniProt:Q13464	ROCK1
+	FNTA	cytosol	Reactome DB_ID: 2530516	UniProt:P49354	FNTA
+	FNTA(59-379)	cytosol	Reactome DB_ID: 202872	UniProt:P49354	FNTA
+	FNTA(1-59)	cytosol	Reactome DB_ID: 202869	UniProt:P49354	FNTA
+	BCAP31(238-246)	cytosol	Reactome DB_ID: 351912	UniProt:P51572	BCAP31
+	BMX	cytosol	Reactome DB_ID: 351917	UniProt:P51813	BMX
+	BMX(1-242)	cytosol	Reactome DB_ID: 351899	UniProt:P51813	BMX
+	BMX(243-675)	cytosol	Reactome DB_ID: 351875	UniProt:P51813	BMX
+	MST4	cytosol	Reactome DB_ID: 351918	UniProt:Q9P289	MST4
+	MST4(1-305)	cytosol	Reactome DB_ID: 351855	UniProt:Q9P289	MST4
+	MST4(306-416)	cytosol	Reactome DB_ID: 351903	UniProt:Q9P289	MST4
+	MST3	cytosol	Reactome DB_ID: 351829	UniProt:Q9Y6E0	STK24
+	STK24(314-443)	cytosol	Reactome DB_ID: 351898	UniProt:Q9Y6E0	STK24
+	STK24(1-313)	cytosol	Reactome DB_ID: 351892	UniProt:Q9Y6E0	STK24
+	CLSPN	nucleoplasm	Reactome DB_ID: 176282	UniProt:Q9HAW4	CLSPN
+	CLSPN(1-1072)	nucleoplasm	Reactome DB_ID: 351929	UniProt:Q9HAW4	CLSPN
+	CLSPN(1073-1332)	nucleoplasm	Reactome DB_ID: 351935	UniProt:Q9HAW4	CLSPN
+	SATB1	nucleoplasm	Reactome DB_ID: 201593	UniProt:Q01826	SATB1
+	SATB1(255-763)	nucleoplasm	Reactome DB_ID: 352264	UniProt:Q01826	SATB1
+	SATB1(1-254)	nucleoplasm	Reactome DB_ID: 352269	UniProt:Q01826	SATB1
+	DFFA	cytosol	Reactome DB_ID: 211221	UniProt:O00273	DFFA
+	DFFB	cytosol	Reactome DB_ID: 211211	UniProt:O76075	DFFB
+	DFFB	nucleoplasm	Reactome DB_ID: 211195	UniProt:O76075	DFFB
+	DFFA(1-117)	nucleoplasm	Reactome DB_ID: 211185	UniProt:O00273	DFFA
+	DFFA(225-331)	nucleoplasm	Reactome DB_ID: 211188	UniProt:O00273	DFFA
+	DFFA(118-224)	nucleoplasm	Reactome DB_ID: 211205	UniProt:O00273	DFFA
+	HMGB2	nucleoplasm			
+	p-5S-PAK2	cytosol	Reactome DB_ID: 211609	UniProt:Q13177	PAK2
+	p-5S-PAK-2p27	cytosol	Reactome DB_ID: 211588	UniProt:Q13177	PAK2
+	PAK-2p34	cytosol	Reactome DB_ID: 211653	UniProt:Q13177	PAK2
+	p-T402-PAK-2p34	cytosol	Reactome DB_ID: 211654	UniProt:Q13177	PAK2
+	PAK2	cytosol	Reactome DB_ID: 211604	UniProt:Q13177	PAK2
+	Drp1	cytosol	Reactome DB_ID: 351943	UniProt:O00429	DNM1L
+	UBC(609-684)	cytosol			
+	K48polyUb-p-T402-PAK-2p43	cytosol	Reactome DB_ID: 3095873	UniProt:Q13177	PAK2
+	ARHGAP10	cytosol	Reactome DB_ID: 195125	UniProt:A1A4S6	ARHGAP10
+	DCC(1291-1447)	cytosol	Reactome DB_ID: 373629	UniProt:P43146	DCC
+	DCC(26-1290)	plasma membrane	Reactome DB_ID: 373627	UniProt:P43146	DCC
+	UNC5B(413-945)	cytosol	Reactome DB_ID: 418801	UniProt:Q8IZJ1	UNC5B
+	DAPK3	cytosol			
+	UNC5A(341-842)	cytosol	Reactome DB_ID: 418784	UniProt:Q6ZN44	UNC5A
+	NRAGE	cytosol	Reactome DB_ID: 196002	UniProt:Q9Y5V3	MAGED1
+_reactionName.size()	138
+	D	FASL binds FAS Receptor
+	T	Trimerization of the FASL:FAS receptor complex
+	D	FasL:Fas binds FADD
+	D	FASL:FAS Receptor Trimer:FADD complex binds pro-Caspase-8
+	D	FASL:FAS Receptor Trimer:FADD complex binds pro-Caspase-10
+	T	TNF-alpha cleavage by TACE
+	D	Soluble TNF-alpha binds TNF-R1
+	D	Membrane-anchored TNF-alpha binds TNF-R1
+	D	TNF:TNF-R1 binds TRADD, TRAF2 and RIP 
+	B	TRADD:TRAF2:RIP1 complex dissociates from the TNF-alpha:TNF-R1 complex.
+	D	TRADD:TRAF2:RIP1 complex binds FADD
+	D	TRADD:TRAF2:RIP1:FADD complex binds Pro-Caspase 8  
+	D	TRAIL Binds TRAIL-Receptor2
+	T	Trimerization of TRAIL: TRAIL receptor-2 complex
+	D	TRAIL:TRAIL receptor-2 Trimer Binds FADD
+	D	TRAIL:TRAIL-Receptor2 Trimer:FADD complex binds Caspase-8
+	D	TRAIL:TRAIL-Receptor2 Trimer:FADD complex binds Caspase-10
+	D	FAS-mediated dimerization of procaspase-8
+	D	TRAIL-mediated dimerization of procaspase-8
+	D	TNF-mediated dimerization of procaspase-8
+	B	Caspase-8 processing 
+	D	FLIP(L) and procaspase-8 form heterodimer in TNF signaling
+	D	FLIP(L) and procaspase-8 form heterodimer in TRAIL signaling
+	D	FLIP(L) and procaspase-8 form heterodimer in FasL/CD95 signaling
+	B	Caspase-8 and FLIP(L) processing at DISC
+	D	FLIP(S) and procaspase-8 form heterodimer
+	T	Caspase-8 activates BID by cleavage
+	T	Granzyme-B activates BID by cleavage
+	T	Myristoylation of tBID by NMT1
+	T	Translocation of tBID to mitochondria
+	T	AKT phosphorylates BAD
+	D	Sequestration of BAD protein by 14-3-3
+	T	Activation of BAD by calcineurin
+	T	Translocation of activated BAD protein to mitochondria
+	T	BAD displaces tBID from BCL-2 sequestration
+	D	TP53 binds PMAIP1 (NOXA) promoter
+	T	Transactivation of PMAIP1 (NOXA) by p53
+	D	E2F1 binds PMAIP1 (NOXA) promoter
+	T	Transactivation of PMAIP1 (NOXA) by E2F1
+	T	Translocation of PMAIP1 (NOXA) to mitochondria
+	D	TP53 binds BBC3 (PUMA) promoter
+	T	Transactivation of BBC3 (PUMA) by p53
+	D	E2F1 binds BBC3 (PUMA) promoter
+	T	Transactivation of BBC3 (PUMA) by E2F1
+	T	Translocation of BBC3 (PUMA) protein to mitochondria
+	B	MAPK8 phosphorylates BCL2L11
+	T	Translocation of BIM to mitochondria
+	B	Phosphorylation of DLC2 by MAPK8
+	T	Translocation of BMF to mitochondria
+	D	BH3-only proteins associate with and inactivate anti-apoptotic BCL-2
+	D	Sequestration of tBID by BCL-2
+	D	BH3 only proteins associate with and inactivate anti-apoptotic BCL-XL
+	D	tBID binds to inactive BAX protein
+	B	tBID activates BAX protein
+	T	Translocation of activated BAX to the mitochondria
+	T	Oligomerization of BAX at the mitochondrial membrane
+	D	tBID binds to inactive BAK protein
+	B	tBID activates BAK protein
+	T	Oligomerization  of BAK at the mitochondrial membrane
+	T	Release of Cytochrome c from mitochondria
+	T	Release of SMAC from mitochondria
+	D	Cytochrome C Binds to Apaf-1
+	D	Cytochrome C:Apaf-1 binds Procaspase-9
+	B	Cleavage of Procaspase-9 to Caspase-9
+	T	Cleavage of Procaspase-3 by the apoptosome
+	T	Cleavage of Procaspase-7 by the apoptosome
+	D	SMAC binds XIAP:Caspase-3
+	D	SMAC binds XIAP:Caspase-7
+	D	SMAC binds XIAP:Caspase-9
+	B	Dissociation of Caspase-3 from SMAC:XIAP:Caspase-3
+	B	Dissociation of Caspase-7 from SMAC:XIAP:Caspase-7
+	B	Dissociation of Caspase-9 from SMAC:XIAP:Caspase-9
+	B	Caspase-mediated cleavage of alpha adducin
+	B	Caspase mediated cleavage of alpha-II-Fodrin
+	B	Caspase-mediated cleavage of GAS2
+	B	Caspase mediated cleavage of HIP-55
+	B	Caspase-mediated cleavage of vimentin at DSVD (85)
+	B	Caspase mediated cleavage of vimentin at IDVD (259)
+	B	Caspase-mediated cleavage of vimentin at TNLD (429)
+	B	Caspase-mediated cleavage of gelsolin
+	B	Caspase-mediated cleavage of plectin-1
+	B	Caspase-mediated cleavage of Tau
+	B	Caspase-mediated cleavage of E-Cadherin
+	B	Caspase mediated cleavage of beta-catenin
+	B	Caspase-mediated cleavage of Desmoglein 3
+	T	Caspase-mediated cleavage of Desmoglein 2
+	B	Caspase-mediated cleavage of Desmoglein 1
+	T	Caspase-mediated cleavage of Desmoplakin
+	T	Caspase-mediated cleavage of plakophilin-1
+	T	Caspase-mediated cleavage of TJP1
+	T	Caspase-mediated cleavage of Z0-2
+	B	Caspase-mediated cleavage of occludin
+	B	Caspase-mediated cleavage of Lamin A
+	B	Caspase-mediated cleavage of Lamin B1
+	B	Caspase mediated cleavage of APC
+	B	Caspase mediated cleavage of C-IAP1
+	B	Caspase-mediated cleavage of FADK 1
+	B	Caspase 3-mediated cleavage of PKC delta
+	B	Caspase-mediated cleavage of PKC theta
+	B	Caspase-mediated cleavage of Acinus
+	B	Caspase-mediated cleavage of Rock-1
+	B	Caspase-mediated cleavage of farnesyltransferase/geranyl- geranyltransferase subunit alpha 
+	B	Caspase mediated cleavage of BAP31
+	B	Caspase-mediated cleavage of Etk
+	B	Caspase-mediated cleavage of MASK
+	B	Caspase-mediated cleavage of MST3
+	B	Caspase-mediated cleavage of claspin
+	B	Cleavage of Satb1
+	D	Association of DFF40 with DFF45
+	D	Association of DFF with alpha:beta importin
+	T	Translocation of DFF to the nucleus
+	T	Translocation of caspase-3 to the nucleus
+	T	Caspase 3-mediated cleavage of DFF45 (117)
+	T	Cleavage of DFF45 (224) by caspase-3
+	B	Cleaved fragments of DFF45 dissociate from  DFF40
+	T	Homodimerization  of DFF40
+	D	Association of DFF40 with chromatin
+	D	Association of HMGB1/HMGB2 with chromatin
+	B	Cleavage of DNA by DFF40
+	B	Cleavage of PAK-2 at 212
+	T	Autophosphorylation of PAK-2p34 in the activation loop
+	T	Proteolytic PAK-2p34 fragment translocates to the nucleus
+	T	Partial autophosphorylation of PAK-2 at  Ser-19, Ser-20, Ser-55, Ser-192, and Ser-197
+	T	Translocation of active caspase-8 to the mitochondrial membrane
+	T	Mitochondrial recruitment of Drp1
+	T	Nuclear translocation of catalytic domain of Mst3
+	D	Ubiquitination of PAK-2p34
+	T	Proteasome mediated degradation of PAK-2p34
+	D	Rho GTPase-activating protein 10 (RHG10) interacts with caspase-activated PAK-2p34
+	T	Interaction of PAK-2p34 with RGH10/ PS-GAP results in accumulation of PAK-2p34 in the perinuclear region
+	B	Caspase cleavage of DCC
+	D	DCC interacts with DIP13alpha
+	D	Caspase-9 binds DCC:DIP13alpha complex
+	T	Activation of caspase-3
+	B	Caspase cleavage of UNC5B
+	D	DAPK binds UNC5B
+	B	Caspase cleavage of UNC5A
+	D	UNC5A binds NRAGE
+_smallMoleculeName.size()	3
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+_DnaName.size()	4
+	NOXA Gen	nucleoplasm	Reactome DB_ID: 4331342	ENSEMBL:ENSG00000141682 PMAIP1
+	NOXA Gen	nucleoplasm	Reactome DB_ID: 4331342	ENSEMBL:ENSG00000141682 PMAIP1
+	BBC3 Gen	nucleoplasm	Reactome DB_ID: 4331320	ENSEMBL:ENSG00000105327 BBC3
+	BBC3 Gen	nucleoplasm	Reactome DB_ID: 4331320	ENSEMBL:ENSG00000105327 BBC3
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

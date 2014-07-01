@@ -1,0 +1,164 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(119, 0, 94, 55)</CurrentViewRect>
+        <AllBookMark>
+            <BookMark MarkID="1">
+                <Name>the first analysis</Name>
+                <Rect>(11, 0, 94, 55)</Rect>
+                <Color>(214, 107, 41, 60)</Color>
+            </BookMark>
+        </AllBookMark>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0401</FileName>
+            <Position>(-2009, 504)</Position>
+            <Size>(334,312)</Size>
+            <BoarderColor>(244, 109, 67)</BoarderColor>
+            <HighlightColor>(50, 136, 189)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0402</FileName>
+            <Position>(-1407, 489)</Position>
+            <Size>(266,226)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>ComPlot</Type>
+            <LeftBat>
+                <FileName>2006-07-11_cbry_run0401</FileName>
+                <Position>(-2009, 504)</Position>
+            </LeftBat>
+            <RightBat>
+                <FileName>2006-07-11_cbry_run0402</FileName>
+                <Position>(-1407, 489)</Position>
+            </RightBat>
+        </Bubble>
+    </Group>
+    <Group groupID="4">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0413</FileName>
+            <Position>(-1383, 994)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="5">
+        <Bubble bubbleID="1">
+            <Type>ComPlot</Type>
+            <LeftBat>
+                <FileName>2006-07-11_cbry_run0401</FileName>
+                <Position>(-2009, 504)</Position>
+            </LeftBat>
+            <RightBat>
+                <FileName>2006-07-13_cbma_run0413</FileName>
+                <Position>(-1383, 994)</Position>
+            </RightBat>
+        </Bubble>
+    </Group>
+    <Group groupID="6">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0408</FileName>
+            <Position>(928, 697)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(253, 174, 97)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0406</FileName>
+            <Position>(728, 697)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(253, 174, 97)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0405</FileName>
+            <Position>(528, 697)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(253, 174, 97)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="4">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0402</FileName>
+            <Position>(328, 697)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(253, 174, 97)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="5">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0401</FileName>
+            <Position>(128, 697)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(253, 174, 97)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="6">
+            <Type>Parallel Coordinate</Type>
+            <Position>(328, 897)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-11_cbry_run0408_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="7">
+            <Type>Parallel Coordinate</Type>
+            <Position>(727.015, 896.212)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-11_cbry_run0406_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="8">
+            <Type>Parallel Coordinate</Type>
+            <Position>(927.09, 896.982)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-11_cbry_run0405_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="9">
+            <Type>Parallel Coordinate</Type>
+            <Position>(527.026, 896.963)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-11_cbry_run0402_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="10">
+            <Type>Parallel Coordinate</Type>
+            <Position>(127.015, 896.212)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(50, 136, 189)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-11_cbry_run0401_m2</FileName>
+        </Bubble>
+    </Group>
+    <Group groupID="7">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(1255, 581)</Position>
+            <Size>(300,100)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName></FileName>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+</Scene>

@@ -1,0 +1,85 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 94, 55)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Video</Type>
+            <Position>(304, 533)</Position>
+            <Size>(276,254)</Size>
+            <BoarderColor>(41, 107, 214)</BoarderColor>
+            <HighlightColor>(69, 77, 153)</HighlightColor>
+            <Path>data/Video/2006-07-13_cbma_run0413_camc.avi</Path>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(1288, 305)</Position>
+            <Size>(484,386)</Size>
+            <BoarderColor>(236, 190, 212)</BoarderColor>
+            <HighlightColor>(69, 77, 153)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>C:/Users/keqin/Downloads/VisBubble1.2/winQt_Test/fit_sine_series/fit_sine_series.m</FileName>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0413</FileName>
+            <Position>(260, 826)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(167, 34, 205)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0411</FileName>
+            <Position>(460, 826)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(167, 34, 205)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0415</FileName>
+            <Position>(660, 826)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(167, 34, 205)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="4">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0417</FileName>
+            <Position>(860, 826)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(167, 34, 205)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="5">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0419</FileName>
+            <Position>(1060, 826)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(167, 34, 205)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="4">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(873, 259)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(204, 143, 96)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>\</PathPre>
+            <FileName></FileName>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+</Scene>

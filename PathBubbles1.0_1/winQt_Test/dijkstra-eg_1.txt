@@ -1,0 +1,13 @@
+distances and parents:
+distance(A) = 0, parent(A) = A
+distance(B) = 6, parent(B) = E
+distance(C) = 1, parent(C) = A
+distance(D) = 4, parent(D) = C
+distance(E) = 5, parent(E) = D
+digraph D {
+  rankdir=LR
+  size="4,3"
+  ratio="fill"
+  edge[style="bold"]
+  node[shape="circle"]
+A -> C[label="1", color="black"]B -> B[label="2", color="grey"]B -> D[label="1", color="grey"]B -> E[label="2", color="grey"]C -> B[label="7", color="grey"]C -> D[label="3", color="black"]D -> E[label="1", color="black"]E -> A[label="1", color="grey"]E -> B[label="1", color="black"]}

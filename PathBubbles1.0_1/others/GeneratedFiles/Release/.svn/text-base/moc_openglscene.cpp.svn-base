@@ -1,0 +1,151 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'openglscene.h'
+**
+** Created: Tue Jun 28 09:47:23 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../openglscene.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'openglscene.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_OpenGLScene[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      25,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      18,   13,   12,   12, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      45,   36,   12,   12, 0x0a,
+      99,   81,   12,   12, 0x0a,
+     150,   12,   12,   12, 0x0a,
+     172,   12,   12,   12, 0x0a,
+     194,   12,   12,   12, 0x0a,
+     208,   12,   12,   12, 0x0a,
+     229,   12,   12,   12, 0x0a,
+     242,   12,   12,   12, 0x0a,
+     271,  265,   12,   12, 0x0a,
+     298,  291,   12,   12, 0x0a,
+     327,  320,   12,   12, 0x0a,
+     346,   12,   12,   12, 0x0a,
+     359,   12,   12,   12, 0x0a,
+     370,   12,   12,   12, 0x0a,
+     381,   12,   12,   12, 0x0a,
+     392,   12,   12,   12, 0x0a,
+     403,   12,   12,   12, 0x0a,
+     414,   12,   12,   12, 0x0a,
+     425,   12,   12,   12, 0x0a,
+     436,   12,   12,   12, 0x0a,
+     447,   12,   12,   12, 0x0a,
+     458,  320,   12,   12, 0x0a,
+     489,  320,   12,   12, 0x0a,
+     527,  516,   12,   12, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_OpenGLScene[] = {
+    "OpenGLScene\0\0flag\0item_clicked(int)\0"
+    "aGen,pos\0setWingShapePara(ArrowGen*,QPointF)\0"
+    "pos,manager,index\0"
+    "needStatisticalData(QPointF,StatisticManager*,int)\0"
+    "moveButtonState(bool)\0updateCoverage(float)\0"
+    "hideWebView()\0setBackgroundColor()\0"
+    "orderViews()\0floatingButtonPushed()\0"
+    "index\0index_recieved(int)\0offset\0"
+    "shiftViewport(QPoint)\0object\0"
+    "addCompare(QtBat*)\0openAllPCs()\0"
+    "mapViews()\0openCBRY()\0openCBOR()\0"
+    "openCBDG()\0openCBMA()\0openCBYR()\0"
+    "openPCM1()\0openPCM2()\0openPCM3()\0"
+    "setCurrentBatAttribute(QtBat*)\0"
+    "getNewBatAttribute(QtBat*)\0currentMat\0"
+    "setMatFileBubble(MatBlock*)\0"
+};
+
+const QMetaObject OpenGLScene::staticMetaObject = {
+    { &QGraphicsScene::staticMetaObject, qt_meta_stringdata_OpenGLScene,
+      qt_meta_data_OpenGLScene, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &OpenGLScene::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *OpenGLScene::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *OpenGLScene::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_OpenGLScene))
+        return static_cast<void*>(const_cast< OpenGLScene*>(this));
+    return QGraphicsScene::qt_metacast(_clname);
+}
+
+int OpenGLScene::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QGraphicsScene::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: item_clicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: setWingShapePara((*reinterpret_cast< ArrowGen*(*)>(_a[1])),(*reinterpret_cast< QPointF(*)>(_a[2]))); break;
+        case 2: needStatisticalData((*reinterpret_cast< QPointF(*)>(_a[1])),(*reinterpret_cast< StatisticManager*(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 3: moveButtonState((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 4: updateCoverage((*reinterpret_cast< float(*)>(_a[1]))); break;
+        case 5: hideWebView(); break;
+        case 6: setBackgroundColor(); break;
+        case 7: orderViews(); break;
+        case 8: floatingButtonPushed(); break;
+        case 9: index_recieved((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 10: shiftViewport((*reinterpret_cast< QPoint(*)>(_a[1]))); break;
+        case 11: addCompare((*reinterpret_cast< QtBat*(*)>(_a[1]))); break;
+        case 12: openAllPCs(); break;
+        case 13: mapViews(); break;
+        case 14: openCBRY(); break;
+        case 15: openCBOR(); break;
+        case 16: openCBDG(); break;
+        case 17: openCBMA(); break;
+        case 18: openCBYR(); break;
+        case 19: openPCM1(); break;
+        case 20: openPCM2(); break;
+        case 21: openPCM3(); break;
+        case 22: setCurrentBatAttribute((*reinterpret_cast< QtBat*(*)>(_a[1]))); break;
+        case 23: getNewBatAttribute((*reinterpret_cast< QtBat*(*)>(_a[1]))); break;
+        case 24: setMatFileBubble((*reinterpret_cast< MatBlock*(*)>(_a[1]))); break;
+        default: ;
+        }
+        _id -= 25;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void OpenGLScene::item_clicked(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+QT_END_MOC_NAMESPACE

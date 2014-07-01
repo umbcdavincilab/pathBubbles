@@ -1,0 +1,66 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 62, 46)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(436, 456)</Position>
+            <Size>(300,150)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+                    <Position>(752, 371)</Position>
+                </Descendant>
+                <Descendant descID="2">
+                    <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\wingbeat_frequency.m</FileName>
+                    <Position>(752, 541)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(41, -8)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(-23, 38)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Matlab</Type>
+            <Position>(752, 371)</Position>
+            <Size>(300,150)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+                <Position>(436, 456)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Matlab</Type>
+            <Position>(752, 541)</Position>
+            <Size>(300,136)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\wingbeat_frequency.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+                <Position>(436, 456)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+</Scene>

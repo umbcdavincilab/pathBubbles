@@ -1,0 +1,135 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'GroupManager.h'
+**
+** Created: Sun Oct 16 20:16:35 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../GroupManager.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'GroupManager.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_GroupManager[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      20,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      19,   14,   13,   13, 0x0a,
+      58,   47,   13,   13, 0x0a,
+      92,   14,   13,   13, 0x0a,
+     130,  118,   13,   13, 0x0a,
+     162,   14,   13,   13, 0x0a,
+     185,   14,   13,   13, 0x0a,
+     215,  204,   13,   13, 0x0a,
+     268,  251,   13,   13, 0x0a,
+     300,  295,   13,   13, 0x0a,
+     346,  341,   13,   13, 0x0a,
+     375,  341,   13,   13, 0x0a,
+     405,  341,   13,   13, 0x0a,
+     437,  341,   13,   13, 0x0a,
+     466,  341,   13,   13, 0x0a,
+     496,  341,   13,   13, 0x0a,
+     526,  341,   13,   13, 0x0a,
+     562,  556,   13,   13, 0x0a,
+     611,  601,   13,   13, 0x0a,
+     651,  601,   13,   13, 0x0a,
+     695,  690,   13,   13, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GroupManager[] = {
+    "GroupManager\0\0init\0updateLabelState(ItemBase*)\0"
+    "init,input\0updatePCColorState(ItemBase*,int)\0"
+    "itemPosUpdated(ItemBase*)\0init,offset\0"
+    "itemPosMoved(ItemBase*,QPointF)\0"
+    "itemRemoved(ItemBase*)\0unGroup(ItemBase*)\0"
+    "bat,offset\0updateSelectBats(ItemBase*,QPointF)\0"
+    "sm,source,target\0swapSelectPCs(SM*,int,int)\0"
+    "bats\0addBatsToScene(QList<QList<ItemBase*> >)\0"
+    "bat,\0sliderChanged(ItemBase*,int)\0"
+    "surfaceChecked(ItemBase*,int)\0"
+    "wireframeChecked(ItemBase*,int)\0"
+    "symbolChecked(ItemBase*,int)\0"
+    "camber1Checked(ItemBase*,int)\0"
+    "camber2Checked(ItemBase*,int)\0"
+    "camber3Checked(ItemBase*,int)\0item,\0"
+    "HighlightChangeinGroup(ItemBase*,bool)\0"
+    "item,rect\0pressHightlightinGroup(ItemBase*,QRect)\0"
+    "moveHightlightinGroup(ItemBase*,QRect)\0"
+    "item\0releaseHightlightinGroup(ItemBase*)\0"
+};
+
+const QMetaObject GroupManager::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_GroupManager,
+      qt_meta_data_GroupManager, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GroupManager::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GroupManager::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GroupManager::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GroupManager))
+        return static_cast<void*>(const_cast< GroupManager*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int GroupManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: updateLabelState((*reinterpret_cast< ItemBase*(*)>(_a[1]))); break;
+        case 1: updatePCColorState((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 2: itemPosUpdated((*reinterpret_cast< ItemBase*(*)>(_a[1]))); break;
+        case 3: itemPosMoved((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< QPointF(*)>(_a[2]))); break;
+        case 4: itemRemoved((*reinterpret_cast< ItemBase*(*)>(_a[1]))); break;
+        case 5: unGroup((*reinterpret_cast< ItemBase*(*)>(_a[1]))); break;
+        case 6: updateSelectBats((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< QPointF(*)>(_a[2]))); break;
+        case 7: swapSelectPCs((*reinterpret_cast< SM*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 8: addBatsToScene((*reinterpret_cast< QList<QList<ItemBase*> >(*)>(_a[1]))); break;
+        case 9: sliderChanged((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 10: surfaceChecked((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 11: wireframeChecked((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 12: symbolChecked((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 13: camber1Checked((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 14: camber2Checked((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 15: camber3Checked((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 16: HighlightChangeinGroup((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 17: pressHightlightinGroup((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< QRect(*)>(_a[2]))); break;
+        case 18: moveHightlightinGroup((*reinterpret_cast< ItemBase*(*)>(_a[1])),(*reinterpret_cast< QRect(*)>(_a[2]))); break;
+        case 19: releaseHightlightinGroup((*reinterpret_cast< ItemBase*(*)>(_a[1]))); break;
+        default: ;
+        }
+        _id -= 20;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,113 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 78, 40)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(522, 476)</Position>
+            <Size>(326,158)</Size>
+            <BoarderColor>(41, 107, 214)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/downstroke_ratio.m</FileName>
+                    <Position>(926, 310)</Position>
+                </Descendant>
+                <Descendant descID="2">
+                    <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/wingbeat_frequency.m</FileName>
+                    <Position>(952, 487)</Position>
+                </Descendant>
+                <Descendant descID="3">
+                    <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/spanonewing_chord.m</FileName>
+                    <Position>(947, 681)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(-69, -56)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(-26, -30)</ConPoint>
+                </Position>
+                <Position posID="3">
+                    <ConPoint>(58, -10)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(926, 310)</Position>
+            <Size>(286,146)</Size>
+            <BoarderColor>(3, 33, 187)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/downstroke_ratio.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+                <Position>(522, 476)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(952, 487)</Position>
+            <Size>(318,122)</Size>
+            <BoarderColor>(76, 252, 16)</BoarderColor>
+            <HighlightColor>(237, 81, 6)</HighlightColor>
+            <PathPre>ction [ f ] = wingbeat_frequency( run_num )
+%WINGBEAT_FREQUENCY Summary of this function goes here
+%   Detailed explanation goes here
+
+a=load_from_spreadsheet(run_num,1,1);
+a=a(:,1);
+period = 0.001 * (length(a)-1);
+f = period^-1\</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/wingbeat_frequency.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+                <Position>(522, 476)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="4">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(947, 681)</Position>
+            <Size>(322,184)</Size>
+            <BoarderColor>(237, 81, 6)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>ction [ span, chord ] = spanonewing_chord( run_num )
+%SPAN_CHORD Summary of this function goes here
+%   Detailed explanation goes here
+
+Sj03=load_from_spreadsheet(run_num,3 ,3); % body referenced
+Sj06=load_from_spreadsheet(run_num,6 ,3); % body referenced
+Sj12=load_from_spreadsheet(run_num,12,3); % body referenced
+
+span=Sj06(:,2);
+
+dist=Sj03-Sj12;
+
+chord=sqrt(dist(:,1).^2+dist(:,3).^2)\</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/data/Florida_2007_paper_I/spanonewing_chord.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/3.txt</FileName>
+                <Position>(522, 476)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+</Scene>

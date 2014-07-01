@@ -1,0 +1,583 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(344, 5, 78, 40)</CurrentViewRect>
+        <AllBookMark>
+            <BookMark MarkID="1">
+                <Name>Matlab</Name>
+                <Rect>(9, 9, 78, 40)</Rect>
+                <Color>(147, 218, 132, 60)</Color>
+            </BookMark>
+            <BookMark MarkID="2">
+                <Name>cbry data plot</Name>
+                <Rect>(130, 8, 78, 40)</Rect>
+                <Color>(79, 208, 114, 60)</Color>
+            </BookMark>
+            <BookMark MarkID="3">
+                <Name>cbry comparison</Name>
+                <Rect>(243, 4, 78, 40)</Rect>
+                <Color>(83, 183, 159, 60)</Color>
+            </BookMark>
+        </AllBookMark>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(-6535, 598)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(41, 107, 214)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>\</PathPre>
+            <FileName>D:/VisBubbles/trunk/MainApp/code.Hanyu/visBubbles/winQt_Test/2.txt</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+                    <Position>(-6236, 516)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(-64, -54)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(33, -23)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(-6227, 818)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(3, 33, 187)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>\</PathPre>
+            <FileName>E:\matlab code\Florida_2007_paper_I\wingbeat_frequency.m</FileName>
+            <ParentBubble>
+                <FileName>D:/VisBubbles/trunk/MainApp/code.Hanyu/visBubbles/winQt_Test/2.txt</FileName>
+                <Position>(-6535, 598)</Position>
+            </ParentBubble>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\load_from_spreadsheet.m</FileName>
+                    <Position>(-5930, 684)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(10, -23)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(-5930, 684)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(76, 252, 16)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>\</PathPre>
+            <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\load_from_spreadsheet.m</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\bat_file_name_loader.m</FileName>
+                    <Position>(-5629, 666)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(-33, 79)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="4">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(-5629, 666)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(237, 81, 6)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>\</PathPre>
+            <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\bat_file_name_loader.m</FileName>
+            <ParentBubble>
+                <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\load_from_spreadsheet.m</FileName>
+                <Position>(-5930, 684)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="5">
+        <Bubble bubbleID="1">
+            <Type>Scatter Plot</Type>
+            <BatName></BatName>
+            <xParaName>nFrames</xParaName>
+            <yParaName>camber_m1</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>2</yDataType>
+            <NameList>(2006-07-18_cbyr_run0434)</NameList>
+            <Position>(-3824, 265)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(63, 84, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="6">
+        <Bubble bubbleID="1">
+            <Type>Line Chart</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(-3835, 527)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(167, 34, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="7">
+        <Bubble bubbleID="1">
+            <Type>Line Chart</Type>
+            <BatName></BatName>
+            <xParaName>nFrames</xParaName>
+            <yParaName>camber_m1</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>2</yDataType>
+            <NameList>(2006-07-18_cbyr_run0436)</NameList>
+            <Position>(-3467, 465)</Position>
+            <Size>(326,326)</Size>
+            <BoarderColor>(204, 143, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="8">
+        <Bubble bubbleID="1">
+            <Type>Bar Chart</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(-3133, 457)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(212, 243, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="9">
+        <Bubble bubbleID="1">
+            <Type>Scatter Plot</Type>
+            <BatName></BatName>
+            <xParaName>nFrames</xParaName>
+            <yParaName>camber_m3</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>2</yDataType>
+            <NameList>(2006-07-17_cbdg_run0424)</NameList>
+            <Position>(-6526, 255)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(74, 96, 0)</BoarderColor>
+            <HighlightColor>(74, 96, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="10">
+        <Bubble bubbleID="1">
+            <Type>Line Chart</Type>
+            <BatName></BatName>
+            <xParaName>nFrames</xParaName>
+            <yParaName>camber_m1</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>2</yDataType>
+            <NameList>(2006-07-13_cbma_run0411)</NameList>
+            <Position>(-6326, 255)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(74, 96, 0)</BoarderColor>
+            <HighlightColor>(74, 96, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="11">
+        <Bubble bubbleID="1">
+            <Type>Bar Chart</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(-6126, 255)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(74, 96, 0)</BoarderColor>
+            <HighlightColor>(170, 15, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="12">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(-6236, 516)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(74, 96, 61)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>\</PathPre>
+            <FileName>H:\visualizationproject\matlab code\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+            <ParentBubble>
+                <FileName>D:/VisBubbles/trunk/MainApp/code.Hanyu/visBubbles/winQt_Test/2.txt</FileName>
+                <Position>(-6535, 598)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="13">
+        <Bubble bubbleID="1">
+            <Type>Web</Type>
+            <Position>(-5325, 712)</Position>
+            <Size>(236,236)</Size>
+            <BoarderColor>(104, 22, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path></Path>
+        </Bubble>
+    </Group>
+    <Group groupID="14">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0408</FileName>
+            <Position>(-972, 456)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(80, 99, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="15">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0406</FileName>
+            <Position>(-1172, 456)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(80, 99, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="16">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0405</FileName>
+            <Position>(-1372, 456)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(80, 99, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="17">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0402</FileName>
+            <Position>(-1572, 456)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(80, 99, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="18">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0401</FileName>
+            <Position>(-1772, 456)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(80, 99, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="19">
+        <Bubble bubbleID="1">
+            <Type>Video</Type>
+            <Position>(-1585, 220)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(53, 42, 0)</BoarderColor>
+            <HighlightColor>(53, 42, 0)</HighlightColor>
+            <Path>data/Video/2006-07-13_cbma_run0417_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0417</FileName>
+            <Position>(-1385, 220)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(53, 42, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="20">
+        <Bubble bubbleID="1">
+            <Type>Line Chart</Type>
+            <BatName></BatName>
+            <xParaName>nFrames</xParaName>
+            <yParaName>camber_m1</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>2</yDataType>
+            <NameList>(2006-07-18_cbyr_run0434)</NameList>
+            <Position>(827, 676)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(219, 93, 0)</BoarderColor>
+            <HighlightColor>(219, 93, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Scatter Plot</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>aspect_ratio</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(1027, 676)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(219, 93, 0)</BoarderColor>
+            <HighlightColor>(219, 93, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Bar Chart</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(1227, 676)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(219, 93, 0)</BoarderColor>
+            <HighlightColor>(219, 93, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="21">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-11_cbry_run0402</FileName>
+            <Position>(137.046, 238.622)</Position>
+            <Size>(234,226)</Size>
+            <BoarderColor>(28, 183, 0)</BoarderColor>
+            <HighlightColor>(62, 39, 135)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Parallel Coordinate</Type>
+            <Position>(132.954, 452.378)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(28, 183, 0)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-11_cbry_run0402_m2</FileName>
+        </Bubble>
+    </Group>
+    <Group groupID="22">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-06_cbor_run0441</FileName>
+            <Position>(646, 167)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(28, 183, 0)</BoarderColor>
+            <HighlightColor>(135, 206, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="23">
+        <Bubble bubbleID="1">
+            <Type>ComPlot</Type>
+            <LeftBat>
+                <FileName>2006-07-06_cbor_run0441</FileName>
+                <Position>(646, 167)</Position>
+            </LeftBat>
+            <RightBat>
+                <FileName>2006-07-11_cbry_run0402</FileName>
+                <Position>(137.046, 238.622)</Position>
+            </RightBat>
+        </Bubble>
+    </Group>
+    <Group groupID="24">
+        <Bubble bubbleID="1">
+            <Type>Note</Type>
+            <Position>(865, 141)</Position>
+            <Size>(168,100)</Size>
+            <BoarderColor>(185, 149, 202)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Content>Dan added a new cbry run 418 to the database.
+
+	--2011.8.1</Content>
+        </Bubble>
+    </Group>
+    <Group groupID="25">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(179, 691)</Position>
+            <Size>(326,100)</Size>
+            <BoarderColor>(111, 49, 196)</BoarderColor>
+            <HighlightColor>(223, 20, 33)</HighlightColor>
+            <PathPre>E:\lgx\matlab code\Florida_2007_paper_I\</PathPre>
+            <FileName>C:/Users/Administrator/Documents/Visual Studio 2008/Projects/visBubbles1.1/winQt_Test/1.txt</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>E:\lgx\matlab code\Florida_2007_paper_I\wingbeat_frequency.m</FileName>
+                    <Position>(551, 756)</Position>
+                </Descendant>
+                <Descendant descID="2">
+                    <FileName>E:\lgx\matlab code\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+                    <Position>(546, 627)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(-15, -8)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(62, -21)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="26">
+        <Bubble bubbleID="1">
+            <Type>ComPlot</Type>
+            <LeftBat>
+                <FileName>2006-07-06_cbor_run0441</FileName>
+                <Position>(646, 167)</Position>
+            </LeftBat>
+            <RightBat>
+                <FileName>2006-07-11_cbry_run0402</FileName>
+                <Position>(137.046, 238.622)</Position>
+            </RightBat>
+        </Bubble>
+    </Group>
+    <Group groupID="27">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(551, 756)</Position>
+            <Size>(294,100)</Size>
+            <BoarderColor>(223, 20, 33)</BoarderColor>
+            <HighlightColor>(245, 164, 67)</HighlightColor>
+            <PathPre>E:\lgx\matlab code\Florida_2007_paper_I\</PathPre>
+            <FileName>E:\lgx\matlab code\Florida_2007_paper_I\wingbeat_frequency.m</FileName>
+            <ParentBubble>
+                <FileName>C:/Users/Administrator/Documents/Visual Studio 2008/Projects/visBubbles1.1/winQt_Test/1.txt</FileName>
+                <Position>(179, 691)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="28">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(546, 627)</Position>
+            <Size>(304,100)</Size>
+            <BoarderColor>(245, 164, 67)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>ction [ dr_wrist , dr_wingtip ] = downstroke_ratio( run_num )
+%DOWNSTROKE_RATIO Duration of the downstroke divided by the total wingbeat period
+
+
+temp=csvread('../data/one_wingbeat_frame_numbers.csv',1,0);
+URPSj03=temp(run_num,7);
+LRPSj03=temp(run_num,8);
+URPSj06=temp(run_num,9);
+LRPSj06=temp(run_num,10);
+nFrames=temp(run_num,6);
+
+if URPSj03&lt;LRPSj03
+    dr_wrist=(LRPSj03-URPSj03+1)/nFrames;
+else
+    dr_wrist=((LRPSj03-1+1)+(nFrames-URPSj03+1))/nFrames;
+end
+
+if URPSj06&lt;LRPSj06
+    dr_wingtip=(LRPSj06-URPSj06+1)/nFrames;
+else
+    dr_wingtip=((LRPSj06-1+1)+(nFrames-URPSj06+1))/nFrames;
+end
+\</PathPre>
+            <FileName>E:\lgx\matlab code\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+            <ParentBubble>
+                <FileName>C:/Users/Administrator/Documents/Visual Studio 2008/Projects/visBubbles1.1/winQt_Test/1.txt</FileName>
+                <Position>(179, 691)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="29">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-13_cbma_run0413</FileName>
+            <Position>(426, 439)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(235, 249, 200)</BoarderColor>
+            <HighlightColor>(52, 108, 19)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Video</Type>
+            <Position>(626, 439)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(235, 249, 200)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-13_cbma_run0413_camc.avi</Path>
+        </Bubble>
+    </Group>
+    <Group groupID="30">
+        <Bubble bubbleID="1">
+            <Position>(873, 410)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(186, 247, 5)</BoarderColor>
+            <HighlightColor>(241, 6, 58)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0431</FileName>
+            <Position>(1073, 410)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(186, 247, 5)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="31">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0436</FileName>
+            <Position>(2100.21, 407.128)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(197, 42, 218)</BoarderColor>
+            <HighlightColor>(22, 91, 149)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0438</FileName>
+            <Position>(1900.21, 407.128)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(197, 42, 218)</BoarderColor>
+            <HighlightColor>(22, 91, 149)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0437</FileName>
+            <Position>(1700.21, 407.128)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(197, 42, 218)</BoarderColor>
+            <HighlightColor>(22, 91, 149)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="4">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0434</FileName>
+            <Position>(1500.21, 407.128)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(197, 42, 218)</BoarderColor>
+            <HighlightColor>(22, 91, 149)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="32">
+        <Bubble bubbleID="1">
+            <Type>Web</Type>
+            <Position>(1382.67, 379.129)</Position>
+            <Size>(344,183)</Size>
+            <BoarderColor>(22, 91, 149)</BoarderColor>
+            <HighlightColor>(241, 6, 58)</HighlightColor>
+            <Path>http://www.siggraph.org/asia2011/</Path>
+        </Bubble>
+    </Group>
+</Scene>

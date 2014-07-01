@@ -1,0 +1,285 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(219, 0, 62, 48)</CurrentViewRect>
+        <AllBookMark>
+            <BookMark MarkID="1">
+                <Name>123</Name>
+                <Rect>(0, 0, 62, 48)</Rect>
+                <Color>(22, 84, 63, 60)</Color>
+            </BookMark>
+            <BookMark MarkID="2">
+                <Name>New</Name>
+                <Rect>(73, 0, 62, 48)</Rect>
+                <Color>(205, 34, 167, 60)</Color>
+            </BookMark>
+            <BookMark MarkID="3">
+                <Name>PlotTest</Name>
+                <Rect>(144, 0, 62, 48)</Rect>
+                <Color>(121, 110, 141, 60)</Color>
+            </BookMark>
+        </AllBookMark>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Video</Type>
+            <Position>(-4251, 395)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(235, 44, 169)</BoarderColor>
+            <HighlightColor>(236, 190, 212)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0438_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0438</FileName>
+            <Position>(-4051.9, 395)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(235, 44, 169)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-4251, 652)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(239, 95, 95)</BoarderColor>
+            <HighlightColor>(76, 252, 16)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0438_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0438</FileName>
+            <Position>(-4051, 652)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(239, 95, 95)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-3453, 187)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0438_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Video</Type>
+            <Position>(-3653, 187)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0438_camc.avi</Path>
+        </Bubble>
+    </Group>
+    <Group groupID="4">
+        <Bubble bubbleID="1">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0438</FileName>
+            <Position>(-3390, 495)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(92, 51, 236)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Video</Type>
+            <Position>(-3590, 495)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(92, 51, 236)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0438_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-3790, 495)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(92, 51, 236)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0438_m2</FileName>
+        </Bubble>
+    </Group>
+    <Group groupID="5">
+        <Bubble bubbleID="1">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-1991, 780)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0437_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-2191, 780)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0436_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="3">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-2391, 780)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0438_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="4">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-2591, 780)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0434_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="5">
+            <Type>Parallel Coordinate</Type>
+            <Position>(-2791, 780)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <FileName>2006-07-18_cbyr_run0431_m2</FileName>
+        </Bubble>
+        <Bubble bubbleID="6">
+            <Type>Video</Type>
+            <Position>(-1991, 580)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0437_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="7">
+            <Type>Video</Type>
+            <Position>(-2191, 580)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0436_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="8">
+            <Type>Video</Type>
+            <Position>(-2391, 580)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0438_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="9">
+            <Type>Video</Type>
+            <Position>(-2591, 580)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0434_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="10">
+            <Type>Video</Type>
+            <Position>(-2791, 580)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path>data/Video/2006-07-18_cbyr_run0431_camc.avi</Path>
+        </Bubble>
+        <Bubble bubbleID="11">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0437</FileName>
+            <Position>(-1991, 380)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="12">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0436</FileName>
+            <Position>(-2191, 380)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="13">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0438</FileName>
+            <Position>(-2391, 380)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="14">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0434</FileName>
+            <Position>(-2591, 380)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+        <Bubble bubbleID="15">
+            <Type>Bat</Type>
+            <FileName>2006-07-18_cbyr_run0431</FileName>
+            <Position>(-2791, 380)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(128, 114, 64)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="6">
+        <Bubble bubbleID="1">
+            <Type>Bar Chart</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(-1042, 410)</Position>
+            <Size>(243,243)</Size>
+            <BoarderColor>(236, 161, 43)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="7">
+        <Bubble bubbleID="1">
+            <Type>Bar Chart</Type>
+            <BatName></BatName>
+            <xParaName>nFrames</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0438)</NameList>
+            <Position>(-681, 191)</Position>
+            <Size>(244,244)</Size>
+            <BoarderColor>(114, 54, 146)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="8">
+        <Bubble bubbleID="1">
+            <Type>Line Chart</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(-383, 572)</Position>
+            <Size>(442,442)</Size>
+            <BoarderColor>(103, 182, 118)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+    <Group groupID="9">
+        <Bubble bubbleID="1">
+            <Type>Scatter Plot</Type>
+            <BatName></BatName>
+            <xParaName>Species</xParaName>
+            <yParaName>chord(m)</yParaName>
+            <xDataType>0</xDataType>
+            <yDataType>1</yDataType>
+            <NameList>(2006-07-18_cbyr_run0431, 2006-07-18_cbyr_run0434, 2006-07-18_cbyr_run0438, 2006-07-18_cbyr_run0436, 2006-07-18_cbyr_run0437)</NameList>
+            <Position>(-967, 767)</Position>
+            <Size>(362,362)</Size>
+            <BoarderColor>(53, 42, 234)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+        </Bubble>
+    </Group>
+</Scene>

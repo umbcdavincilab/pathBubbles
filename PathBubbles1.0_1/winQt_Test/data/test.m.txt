@@ -1,0 +1,8 @@
+ fid=fopen('C:\Users\keqin\Desktop\PathBubble\igraph_20\winQt_Test\data\node_edge1.txt','r');
+ data = fread(fid);
+ data
+
+ C = textread('C:\Users\keqin\Desktop\PathBubble\igraph_20\winQt_Test\data\node_edge1.txt','%d')
+
+C1 = textread('C:\Users\keqin\Desktop\PathBubble\igraph_20\winQt_Test\data\node_edge1.txt','%d')
+ hist(C1,40)

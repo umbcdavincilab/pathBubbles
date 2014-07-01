@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\basic">
+      <UniqueIdentifier>{a03bfcb5-d92d-4d3e-af3f-9e13778e20a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\basic\control">
+      <UniqueIdentifier>{bc00d223-51a5-4462-bcf4-5e6c390bcdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module">
+      <UniqueIdentifier>{4f725b40-e3fd-44bf-b6c8-a4653f1eedac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\bat">
+      <UniqueIdentifier>{f448ba44-0ae6-456e-996a-7d2127df1940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\image">
+      <UniqueIdentifier>{299d359b-77a2-4897-b624-d772a96aaf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\pen">
+      <UniqueIdentifier>{424c9b45-c6ae-4654-858c-b73924a41207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\video">
+      <UniqueIdentifier>{2198ae00-61c3-4227-9d8d-3a17b2704d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\web">
+      <UniqueIdentifier>{608969d1-46a2-49e3-afcc-a3ae6353628b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\parallel coordinate">
+      <UniqueIdentifier>{6cf8fe7f-2ba9-4847-8bb1-e5a902dce700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\compare">
+      <UniqueIdentifier>{90cfc2ee-7e1d-414f-9112-1061d9543628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\plot">
+      <UniqueIdentifier>{8dea90b6-01fc-4b88-ad02-f8f84c82f791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function module\note">
+      <UniqueIdentifier>{b7040ffe-f7a7-490f-96f2-fe1375b9f983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager">
+      <UniqueIdentifier>{1331b57a-e057-4b65-943d-d08df1083289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager\bubble">
+      <UniqueIdentifier>{5357212f-7f68-4025-92b7-fe36adb5d3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager\UI">
+      <UniqueIdentifier>{9d50fd79-5f73-49f7-8498-7e0cb5409390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager\UI\statistic Bar">
+      <UniqueIdentifier>{e5167294-7770-4e50-b564-43698a054e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager\UI\navigation Bar">
+      <UniqueIdentifier>{830b2c34-5190-4ee6-9d73-cc8bcf9de5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager\UI\file control">
+      <UniqueIdentifier>{4c600397-5b10-4485-a6a4-dcac16463b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene manager\UI\data mapping">
+      <UniqueIdentifier>{1c2b0d45-22ab-409f-bf12-1062698ac52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\basic">
+      <UniqueIdentifier>{da8b719d-76bb-4a93-b2ce-bd9f2653cd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\basic\control">
+      <UniqueIdentifier>{2c83c30d-3e4c-4b6f-85da-605e05a48827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module">
+      <UniqueIdentifier>{0d0b19f7-7fe2-4f49-9d90-01bc71dad7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\bat">
+      <UniqueIdentifier>{f2fbd9ec-b723-4d60-8bb3-737713d71f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\image">
+      <UniqueIdentifier>{5f4e6763-d50f-4c13-8a02-a6c66e10f8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\pen">
+      <UniqueIdentifier>{593a8882-3227-46ea-9195-4b7758f49449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\video">
+      <UniqueIdentifier>{dcc324fc-a832-466e-b46e-d92c714d0a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\web">
+      <UniqueIdentifier>{0acf0f85-be61-4809-bae2-09bb037ca26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\parallel coordinate">
+      <UniqueIdentifier>{1448f6f6-7ffb-46e0-9b75-573b80714e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\compare">
+      <UniqueIdentifier>{03620c16-2647-4d71-b3e3-2da63f34f346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\plot">
+      <UniqueIdentifier>{2169b365-f30c-4bf8-a581-a703cb77272a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function module\note">
+      <UniqueIdentifier>{6a48f85b-1267-4703-9ea2-5cc6e57e47f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager">
+      <UniqueIdentifier>{29869eaf-a5fb-4b03-b91c-d1a5be6c20bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager\bubble">
+      <UniqueIdentifier>{9b87edff-4f5c-485a-8ec9-d068c452acee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager\UI">
+      <UniqueIdentifier>{a4b4e8c2-37f1-43ed-bed3-191533027546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager\UI\statistic Bar">
+      <UniqueIdentifier>{cd1ddd04-8702-45a4-beb1-97241a0e92bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager\UI\navigation Bar">
+      <UniqueIdentifier>{362d79cb-d6a3-4b47-ad2b-569fc548c4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager\UI\file control">
+      <UniqueIdentifier>{905bf520-1697-434e-a52f-8c68434ed2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene manager\UI\data mapping">
+      <UniqueIdentifier>{20115daf-a72c-4ebf-b87a-a5a4d2b5e148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{01200fab-ae29-4d7f-9868-173e4f8c6421}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e171efca-c626-412b-a1d3-67fb74293623}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moveButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtcolorbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winqt_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DHelper.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BatDataView.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="glbuffers.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="glextensions.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="highLighter.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemLabel.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="LabCut.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="LabObject.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="LCSVParser.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="myColor3.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="mySlider.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="myVector.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="qtbox.cpp">
+      <Filter>Source Files\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBlock.cpp">
+      <Filter>Source Files\basic\control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBubble.cpp">
+      <Filter>Source Files\basic\control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlManager.cpp">
+      <Filter>Source Files\basic\control</Filter>
+    </ClCompile>
+    <ClCompile Include="AllBats.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="Camber.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="CamberMenu.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkersMotion.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="qtbat.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="qtwake.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="ssv.cpp">
+      <Filter>Source Files\Function module\bat</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageBlock.cpp">
+      <Filter>Source Files\Function module\image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePlayer.cpp">
+      <Filter>Source Files\Function module\image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageWidget.cpp">
+      <Filter>Source Files\Function module\image</Filter>
+    </ClCompile>
+    <ClCompile Include="PenBars.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="PenBlock.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="PenCamber.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="PenDrawing.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="PenItem.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="PenSlider.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="PenText.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEngin.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumBlock.cpp">
+      <Filter>Source Files\Function module\pen</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoBlock.cpp">
+      <Filter>Source Files\Function module\video</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer.cpp">
+      <Filter>Source Files\Function module\video</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoWidget.cpp">
+      <Filter>Source Files\Function module\video</Filter>
+    </ClCompile>
+    <ClCompile Include="videoWidgetSurface.cpp">
+      <Filter>Source Files\Function module\video</Filter>
+    </ClCompile>
+    <ClCompile Include="webBlock.cpp">
+      <Filter>Source Files\Function module\web</Filter>
+    </ClCompile>
+    <ClCompile Include="webQuery.cpp">
+      <Filter>Source Files\Function module\web</Filter>
+    </ClCompile>
+    <ClCompile Include="qtsm.cpp">
+      <Filter>Source Files\Function module\parallel coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="SM.cpp">
+      <Filter>Source Files\Function module\parallel coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="SMObject.cpp">
+      <Filter>Source Files\Function module\parallel coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="qtLCom.cpp">
+      <Filter>Source Files\Function module\compare</Filter>
+    </ClCompile>
+    <ClCompile Include="BarChartBubble.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="LineChartBubble.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="plotBase.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="ScatterBubble.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteBlock.cpp">
+      <Filter>Source Files\Function module\note</Filter>
+    </ClCompile>
+    <ClCompile Include="TextNote.cpp">
+      <Filter>Source Files\Function module\note</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupManager.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="openglscene.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenManager.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderManager.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceManager.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetManager.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleInstance.cpp">
+      <Filter>Source Files\scene manager\bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleNode.cpp">
+      <Filter>Source Files\scene manager\bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceInitializer.cpp">
+      <Filter>Source Files\scene manager\bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceManager.cpp">
+      <Filter>Source Files\scene manager\bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="BarBase.cpp">
+      <Filter>Source Files\scene manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="animateit.cpp">
+      <Filter>Source Files\scene manager\UI\statistic Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticBar.cpp">
+      <Filter>Source Files\scene manager\UI\statistic Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticManager.cpp">
+      <Filter>Source Files\scene manager\UI\statistic Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationBlock.cpp">
+      <Filter>Source Files\scene manager\UI\navigation Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="FileItem.cpp">
+      <Filter>Source Files\scene manager\UI\file control</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files\scene manager\UI\file control</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowGen.cpp">
+      <Filter>Source Files\scene manager\UI\data mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ArrowGen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BarBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BarChartBubble.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ControlBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ControlBubble.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GroupManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_highLighter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImagePlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LineChartBubble.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>        
+    <ClCompile Include="GeneratedFiles\Release\moc_moveButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NavigationBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_openglscene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OpenManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PenBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PenSlider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_plotBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtbat.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtbox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtLCom.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtsm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtwake.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScatterBubble.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScriptEngin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SM.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StatisticBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_StatisticManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videoWidgetSurface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VolumBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webQuery.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_winqt_test.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ArrowGen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BarBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BarChartBubble.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ControlBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ControlBubble.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GroupManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_highLighter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImagePlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LineChartBubble.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>    
+    <ClCompile Include="GeneratedFiles\Debug\moc_moveButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NavigationBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_openglscene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OpenManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PenBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PenSlider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_plotBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtbat.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtLCom.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtsm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtwake.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScatterBubble.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScriptEngin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SM.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StatisticBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_StatisticManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>    
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videoWidgetSurface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VolumBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webQuery.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_winqt_test.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupBubble4.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionBubble3.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="PathBubble0.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="PathBubble1.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBubble2.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+    <ClCompile Include="PathBubble2.cpp">
+      <Filter>Source Files\Function module\plot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLViewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtcolorbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DHelper.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BatDataView.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Discreptor.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="glbuffers.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="glextensions.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemLabel.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Lab3D.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="LabCut.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="LabObject.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="LCSVParser.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="myColor3.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="mySlider.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="myVector.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="point3d.h">
+      <Filter>Header Files\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlManager.h">
+      <Filter>Header Files\basic\control</Filter>
+    </ClInclude>
+    <ClInclude Include="AllBats.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="BatContext.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="Camber.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="CamberMenu.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkersMotion.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="ssv.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageBlock.h">
+      <Filter>Header Files\Function module\image</Filter>
+    </ClInclude>
+    <ClInclude Include="PenBars.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </ClInclude>
+    <ClInclude Include="PenCamber.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </ClInclude>
+    <ClInclude Include="PenDrawing.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </ClInclude>
+    <ClInclude Include="PenItem.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </ClInclude>
+    <ClInclude Include="PenText.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </ClInclude>
+    <ClInclude Include="SMObject.h">
+      <Filter>Header Files\Function module\parallel coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="TextNote.h">
+      <Filter>Header Files\Function module\note</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files\scene manager</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderManager.h">
+      <Filter>Header Files\scene manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceManager.h">
+      <Filter>Header Files\scene manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetManager.h">
+      <Filter>Header Files\scene manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleInstance.h">
+      <Filter>Header Files\scene manager\bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleNode.h">
+      <Filter>Header Files\scene manager\bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceInitializer.h">
+      <Filter>Header Files\scene manager\bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceManager.h">
+      <Filter>Header Files\scene manager\bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="animateit.h">
+      <Filter>Header Files\scene manager\UI\statistic Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="FileItem.h">
+      <Filter>Header Files\scene manager\UI\file control</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wiiConsole.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_winqt_test.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textBubble2.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </ClInclude>
+    <ClInclude Include="PathBubble0.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </ClInclude>
+    <ClInclude Include="PathBubble1.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </ClInclude>
+    <ClInclude Include="PathBubble2.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupBubble4.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactionBubble3.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winQt_Test.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="moveButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="winqt_test.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="highLighter.h">
+      <Filter>Header Files\basic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtbox.h">
+      <Filter>Header Files\basic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ControlBlock.h">
+      <Filter>Header Files\basic\control</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ControlBubble.h">
+      <Filter>Header Files\basic\control</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtbat.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtwake.h">
+      <Filter>Header Files\Function module\bat</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImagePlayer.h">
+      <Filter>Header Files\Function module\image</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImageWidget.h">
+      <Filter>Header Files\Function module\image</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PenBlock.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PenSlider.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScriptEngin.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VolumBlock.h">
+      <Filter>Header Files\Function module\pen</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoBlock.h">
+      <Filter>Header Files\Function module\video</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoPlayer.h">
+      <Filter>Header Files\Function module\video</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoWidget.h">
+      <Filter>Header Files\Function module\video</Filter>
+    </CustomBuild>
+    <CustomBuild Include="videoWidgetSurface.h">
+      <Filter>Header Files\Function module\video</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webBlock.h">
+      <Filter>Header Files\Function module\web</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webQuery.h">
+      <Filter>Header Files\Function module\web</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtsm.h">
+      <Filter>Header Files\Function module\parallel coordinate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SM.h">
+      <Filter>Header Files\Function module\parallel coordinate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtLCom.h">
+      <Filter>Header Files\Function module\compare</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BarChartBubble.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LineChartBubble.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plotBase.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScatterBubble.h">
+      <Filter>Header Files\Function module\plot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NoteBlock.h">
+      <Filter>Header Files\Function module\note</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GroupManager.h">
+      <Filter>Header Files\scene manager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openglscene.h">
+      <Filter>Header Files\scene manager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenManager.h">
+      <Filter>Header Files\scene manager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BarBase.h">
+      <Filter>Header Files\scene manager\UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StatisticBar.h">
+      <Filter>Header Files\scene manager\UI\statistic Bar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="StatisticManager.h">
+      <Filter>Header Files\scene manager\UI\statistic Bar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NavigationBlock.h">
+      <Filter>Header Files\scene manager\UI\navigation Bar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FileManager.h">
+      <Filter>Header Files\scene manager\UI\file control</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ArrowGen.h">
+      <Filter>Header Files\scene manager\UI\data mapping</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wiiConsole.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="winqt_test.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

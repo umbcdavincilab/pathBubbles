@@ -1,0 +1,3 @@
+cd('H:\visualizationproject\matlab code\Florida_2007_paper_I');
+[ dr_wrist , dr_wingtip ] = downstroke_ratio( 30 );
+[ f ] = wingbeat_frequency( 30 );

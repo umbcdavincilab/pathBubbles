@@ -1,0 +1,61 @@
+<<<<<<< .mine
+# libsvl makefile for Macintosh
+# Mike Erwin, October 2010
+
+TARGETS = libphyParser.a
+
+OBJECTS = TreeNameParser.o TreeNameParser2.o GraphIndexParser2.o
+
+CXXFLAGS = -Os -I.  -I/usr/include -I/usr/X11R6/include -I/usr/local/include -I./Parser -I/$(HOME)/locallibs/glui-2.36/src/include
+
+libphyParser.a: ${OBJECTS}
+	libtool -static -o $@ ${OBJECTS}
+
+# -- older form --
+# ar -ru $@ ${OBJECTS}
+
+depend:
+	${CXX} ${CXXFLAGS} -MM *.cpp
+
+tidy:
+	rm -f *.o
+
+clean:
+	rm -f ${TARGETS} *.o
+
+# -- from 'make depend' --
+
+TreeNameParser.o: TreeNameParser.cpp TreeNameParser.h
+TreeNameParser2.o: TreeNameParser2.cpp TreeNameParser2.h
+GraphIndexParser2.o: GraphIndexParser2.cpp GraphIndexParser2.h
+=======
+# libsvl makefile for Macintosh
+# Mike Erwin, October 2010
+
+TARGETS = libphyParser.a
+
+OBJECTS = TreeNameParser.o TreeNameParser2.o GraphIndexParser2.o
+
+CXXFLAGS = -Os -I.
+
+libphyParser.a: ${OBJECTS}
+	libtool -static -o $@ ${OBJECTS}
+
+# -- older form --
+# ar -ru $@ ${OBJECTS}
+
+depend:
+	${CXX} ${CXXFLAGS} -MM *.cpp
+
+tidy:
+	rm -f *.o
+
+clean:
+	rm -f ${TARGETS} *.o
+
+# -- from 'make depend' --
+
+TreeNameParser.o: TreeNameParser.cpp TreeNameParser.h
+TreeNameParser2.o: TreeNameParser2.cpp TreeNameParser2.h
+GraphIndexParser2.o: GraphIndexParser2.cpp GraphIndexParser2.h
+>>>>>>> .r262
