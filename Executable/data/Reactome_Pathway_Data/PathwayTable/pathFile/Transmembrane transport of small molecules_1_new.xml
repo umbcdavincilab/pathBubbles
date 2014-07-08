@@ -1,0 +1,4208 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Pathway>
+    <ANodeBlock Num="0"/>
+    <compartmentBlock Num="48">
+        <compartment j="0">
+            <Name>cytosol</Name>
+            <Position>(0.251867, 0.0996516, 0.0941909, 0.107317)</Position>
+            <Contain>(C, 11, C, 31, C, 41, E, 1, P, 50, P, 101, P, 102, P, 110, R, 65, R, 69, R, 159)</Contain>
+        </compartment>
+        <compartment j="1">
+            <Name>Golgi lumen</Name>
+            <Position>(0.508299, 0.601742, 0.0439834, 0.071777)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="2">
+            <Name>Golgi membrane</Name>
+            <Position>(0.419087, 0.00174216, 0.0705394, 0.0885017)</Position>
+            <Contain>(C, 32, P, 15, P, 95, R, 21, R, 144, R, 148)</Contain>
+        </compartment>
+        <compartment j="3">
+            <Name>early endosome</Name>
+            <Position>(0.390041, -0.0393728, -0.414938, 0.0327526)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="4">
+            <Name></Name>
+            <Position>(0.458921, 0.450174, 0.033195, 0.071777)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="5">
+            <Name>early endosome membrane</Name>
+            <Position>(0.462656, 0.28676, 0.10083, 0.0773519)</Position>
+            <Contain>(P, 14)</Contain>
+        </compartment>
+        <compartment j="6">
+            <Name>mitochondrial inner membrane</Name>
+            <Position>(0.577178, 0.00174216, 0.112033, 0.0885017)</Position>
+            <Contain>(C, 5, R, 8)</Contain>
+        </compartment>
+        <compartment j="7">
+            <Name>mitochondrial outer membrane</Name>
+            <Position>(0.56888, 0.28676, 0.112448, 0.0773519)</Position>
+            <Contain>(C, 6, R, 9)</Contain>
+        </compartment>
+        <compartment j="8">
+            <Name>photoreceptor disc membrane</Name>
+            <Position>(0.255187, 0.28676, 0.110373, 0.0773519)</Position>
+            <Contain>(P, 6, R, 12)</Contain>
+        </compartment>
+        <compartment j="9">
+            <Name>lysosomal membrane</Name>
+            <Position>(0.493361, 0.00174216, 0.0792531, 0.0885017)</Position>
+            <Contain>(C, 43, P, 43, P, 104, R, 57, R, 161, R, 166)</Contain>
+        </compartment>
+        <compartment j="10">
+            <Name>endoplasmic reticulum membrane</Name>
+            <Position>(0.330705, 0.0327526, 0.0817427, 0.0578397)</Position>
+            <Contain>(P, 91, P, 98, P, 111, R, 134, R, 137, R, 147, R, 172)</Contain>
+        </compartment>
+        <compartment j="11">
+            <Name>plasma membrane</Name>
+            <Position>(-1000, 0.782578, 1.10664, 0.138328)</Position>
+            <Contain>(C, 0, C, 2, C, 3, C, 4, C, 8, C, 9, C, 16, C, 17, C, 18, C, 19, C, 20, C, 21, C, 22, C, 29, C, 33, C, 34, C, 35, C, 36, C, 37, C, 38, C, 39, C, 40, C, 42, P, 0, P, 1, P, 2, P, 3, P, 4, P, 5, P, 7, P, 8, P, 9, P, 10, P, 11, P, 12, P, 13, P, 17, P, 18, P, 19, P, 20, P, 21, P, 22, P, 23, P, 24, P, 25, P, 26, P, 27, P, 28, P, 29, P, 30, P, 31, P, 33, P, 34, P, 35, P, 36, P, 37, P, 38, P, 39, P, 40, P, 41, P, 44, P, 45, P, 46, P, 48, P, 49, P, 59, P, 60, P, 61, P, 62, P, 63, P, 64, P, 65, P, 66, P, 67, P, 68, P, 69, P, 70, P, 72, P, 74, P, 76, P, 77, P, 78, P, 79, P, 80, P, 81, P, 82, P, 84, P, 85, P, 86, P, 87, P, 88, P, 89, P, 90, P, 94, P, 96, P, 99, P, 100, P, 103, P, 107, P, 108, P, 109, P, 112, P, 113, P, 114, R, 1, R, 2, R, 3, R, 5, R, 6, R, 7, R, 10, R, 11, R, 14, R, 18, R, 25, R, 26, R, 27, R, 28, R, 29, R, 30, R, 31, R, 32, R, 33, R, 34, R, 35, R, 36, R, 37, R, 39, R, 40, R, 41, R, 42, R, 43, R, 44, R, 45, R, 46, R, 47, R, 48, R, 49, R, 50, R, 55, R, 58, R, 59, R, 60, R, 61, R, 66, R, 79, R, 80, R, 81, R, 83, R, 85, R, 86, R, 87, R, 90, R, 91, R, 94, R, 97, R, 99, R, 100, R, 101, R, 103, R, 104, R, 108, R, 109, R, 113, R, 114, R, 115, R, 116, R, 117, R, 118, R, 119, R, 120, R, 121, R, 129, R, 130, R, 131, R, 132, R, 133, R, 135, R, 136, R, 138, R, 143, R, 145, R, 150, R, 151, R, 152, R, 153, R, 154, R, 155, R, 156, R, 157, R, 158, R, 160, R, 162, R, 163, R, 167, R, 168, R, 169, R, 170, R, 173, R, 176)</Contain>
+        </compartment>
+        <compartment j="12">
+            <Name>endosome membrane</Name>
+            <Position>(0.429046, 0.677352, 0.080083, 0.0996516)</Position>
+            <Contain>(C, 30, P, 93, P, 106, R, 19, R, 95, R, 102, R, 105, R, 106, R, 107, R, 139, R, 141, R, 165)</Contain>
+        </compartment>
+        <compartment j="13">
+            <Name>Golgi-associated vesicle membrane</Name>
+            <Position>(0.393776, 0.212195, -0.414938, 0.0369338)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="14">
+            <Name>cytoplasmic vesicle membrane</Name>
+            <Position>(0.387967, 0.601742, 0.114523, 0.071777)</Position>
+            <Contain>(C, 28, R, 128)</Contain>
+        </compartment>
+        <compartment j="15">
+            <Name>nuclear envelope</Name>
+            <Position>(0.439004, 0.0947735, 0.0614108, 0.0163763)</Position>
+            <Contain>(C, 15, R, 70)</Contain>
+        </compartment>
+        <compartment j="16">
+            <Name>chromosome, centromeric region</Name>
+            <Position>(0.39751, -0.00452962, -0.414938, 0.00592334)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="17">
+            <Name>chromosome</Name>
+            <Position>(0.39751, -0.00452962, -0.414938, 0.00592334)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="18">
+            <Name>endosome</Name>
+            <Position>(0.39751, -0.00452962, -0.414938, 0.00592334)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="19">
+            <Name>nucleoplasm</Name>
+            <Position>(0.56971, 0.21115, 0.046888, 0.071777)</Position>
+            <Contain>(C, 14, P, 51, P, 52, R, 71, R, 72)</Contain>
+        </compartment>
+        <compartment j="20">
+            <Name>extracellular region</Name>
+            <Position>(0.43444, 0.368641, 0.0697095, 0.0773519)</Position>
+            <Contain>(C, 10, R, 64)</Contain>
+        </compartment>
+        <compartment j="21">
+            <Name>cell junction</Name>
+            <Position>(0.395851, 0.097561, -0.414938, 0.0285714)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="22">
+            <Name>peroxisomal matrix</Name>
+            <Position>(0.344398, 0.0989547, 0.0887967, 0.101742)</Position>
+            <Contain>(R, 124)</Contain>
+        </compartment>
+        <compartment j="23">
+            <Name>mitochondrial matrix</Name>
+            <Position>(0.431535, 0.928223, 0.0751037, 0.071777)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="24">
+            <Name>endosome lumen</Name>
+            <Position>(0.184647, 0.112544, 0.0630705, 0.0940767)</Position>
+            <Contain>(R, 84)</Contain>
+        </compartment>
+        <compartment j="25">
+            <Name>endocytic vesicle membrane</Name>
+            <Position>(0.30249, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="26">
+            <Name>phagocytic vesicle membrane</Name>
+            <Position>(0.30249, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="27">
+            <Name>phagocytic vesicle lumen</Name>
+            <Position>(0.30249, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="28">
+            <Name>lysosomal lumen</Name>
+            <Position>(0.449378, 0.112544, 0.0626556, 0.0940767)</Position>
+            <Contain>(R, 82)</Contain>
+        </compartment>
+        <compartment j="29">
+            <Name>photoreceptor outer segment membrane</Name>
+            <Position>(0.401245, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="30">
+            <Name>photoreceptor inner segment membrane</Name>
+            <Position>(0.401245, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="31">
+            <Name>mitochondrial intermembrane space</Name>
+            <Position>(0.429876, 0.21115, 0.132365, 0.071777)</Position>
+            <Contain>(R, 89)</Contain>
+        </compartment>
+        <compartment j="32">
+            <Name>secretory granule membrane</Name>
+            <Position>(0.393776, 0.038676, -0.414938, 0.0264808)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="33">
+            <Name>secretory granule lumen</Name>
+            <Position>(0.393776, 0.038676, -0.414938, 0.0264808)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="34">
+            <Name>endoplasmic reticulum lumen</Name>
+            <Position>(0.414108, 0.525784, 0.108714, 0.071777)</Position>
+            <Contain>(R, 88)</Contain>
+        </compartment>
+        <compartment j="35">
+            <Name>endoplasmic reticulum quality control compartment</Name>
+            <Position>(0.387967, 0.155749, -0.414938, 0.0264808)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="36">
+            <Name>ER to Golgi transport vesicle membrane</Name>
+            <Position>(0.387967, 0.155749, -0.414938, 0.0264808)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="37">
+            <Name>clathrin-coated endocytic vesicle</Name>
+            <Position>(0.387967, 0.155749, -0.414938, 0.0264808)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="38">
+            <Name>platelet dense tubular network membrane</Name>
+            <Position>(0.0240664, 0.00174216, 0.153112, 0.0885017)</Position>
+            <Contain>(P, 97, R, 146)</Contain>
+        </compartment>
+        <compartment j="39">
+            <Name>peroxisomal membrane</Name>
+            <Position>(0.371784, 0.28676, 0.086722, 0.0773519)</Position>
+            <Contain>(C, 1, R, 4)</Contain>
+        </compartment>
+        <compartment j="40">
+            <Name>synaptic vesicle membrane</Name>
+            <Position>(0.323651, 0.21115, 0.10083, 0.071777)</Position>
+            <Contain>(P, 42, R, 56)</Contain>
+        </compartment>
+        <compartment j="41">
+            <Name>late endosome membrane</Name>
+            <Position>(0.218257, 0.0139373, 0.0962656, 0.0885017)</Position>
+            <Contain>(P, 16, P, 105, R, 17, R, 22, R, 149, R, 164, R, 175)</Contain>
+        </compartment>
+        <compartment j="42">
+            <Name>clathrin-sculpted monoamine transport vesicle membrane</Name>
+            <Position>(0.695436, 0.00174216, 0.212448, 0.0885017)</Position>
+            <Contain>(P, 71, R, 92)</Contain>
+        </compartment>
+        <compartment j="43">
+            <Name>transport vesicle membrane</Name>
+            <Position>(0.515353, 0.112544, 0.102075, 0.0940767)</Position>
+            <Contain>(C, 23, R, 122, R, 123)</Contain>
+        </compartment>
+        <compartment j="44">
+            <Name>sarcoplasmic reticulum membrane</Name>
+            <Position>(0.623237, 0.112544, 0.128216, 0.0940767)</Position>
+            <Contain>(C, 44, R, 0, R, 13, R, 15, R, 16, R, 20, R, 23, R, 24, R, 52, R, 53, R, 54, R, 93, R, 142, R, 171)</Contain>
+        </compartment>
+        <compartment j="45">
+            <Name>sarcoplasmic reticulum lumen</Name>
+            <Position>(0.46556, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="46">
+            <Name>cilium membrane</Name>
+            <Position>(0.46556, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="47">
+            <Name>whole</Name>
+            <Position>(0.46556, 0.00174216, -0.414938, 0.0348432)</Position>
+            <Contain>()</Contain>
+        </compartment>
+    </compartmentBlock>
+    <complexBlock Num="45">
+        <complex j="0">
+            <Name>ABCA7-1:ApoA1 complex</Name>
+            <Position>(0.32171, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="1">
+            <Name>ALDP/ABCD1:ABCD2/ABCD1:ABCD3/ABCD2:ABCD3</Name>
+            <Position>(0.0956938, 0.112613, 0.0717703, 0.0315315)</Position>
+        </complex>
+        <complex j="2">
+            <Name>ABCG5:ABCG8 heterodimer</Name>
+            <Position>(0.334458, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="3">
+            <Name>ABCG1 dimer</Name>
+            <Position>(0.347582, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="4">
+            <Name>ABCG4 dimer</Name>
+            <Position>(0.24372, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="5">
+            <Name>ABC7 dimer/mABC2 dimer/mABC1 dimer</Name>
+            <Position>(0.0962963, 0.110236, 0.0555556, 0.0275591)</Position>
+        </complex>
+        <complex j="6">
+            <Name>MTABC3 dimer</Name>
+            <Position>(0.099631, 0.112613, 0.0553506, 0.0315315)</Position>
+        </complex>
+        <complex j="7">
+            <Name>SLC7A11:SLC3A2 heterodimer</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="8">
+            <Name>SLC7A6:SLC3A2 heterodimer</Name>
+            <Position>(-1000, -0.00251889, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="9">
+            <Name>SLC7A7:SLC3A2 heterodimer</Name>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </complex>
+        <complex j="10">
+            <Name>Di-peptides/Tri-peptides</Name>
+            <Position>(0.208333, -0.0135135, 0.0892857, 0.0315315)</Position>
+        </complex>
+        <complex j="11">
+            <Name>Di-peptides/Tri-peptides</Name>
+            <Position>(0.848064, 0.314701, 0.0660793, 0.0227273)</Position>
+        </complex>
+        <complex j="12">
+            <Name>GLUT1 tetramer/GLUT2 tetramer/GLUT3 tetramer/GLUT4 tetramer</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="13">
+            <Name>GLUT1:ATP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="14">
+            <Name>GCK1:GKRP complex</Name>
+            <Position>(0.238938, 0.106796, 0.132743, 0.0339806)</Position>
+        </complex>
+        <complex j="15">
+            <Name>Nuclear Pore Complex (NPC)</Name>
+            <Position>(0.493243, 0.0638298, 0.101351, 0.148936)</Position>
+        </complex>
+        <complex j="16">
+            <Name>MTP1:HEPH:6Cu2+</Name>
+            <Position>(0.415073, 0.143577, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="17">
+            <Name>MTP1:CP:6Cu2+</Name>
+            <Position>(0.785527, 0.143577, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="18">
+            <Name>Lens fiber major intrinsic protein (AQP0) tetramer/AQP1 tetramer/p-S256-AQP2/AQP3 tetramer/AQP4 tetramer/AQP5 tetramer/AQP7 tetramer/Aquaporin-8 tetramer/AQP9 tetramer/AQP10 tetramer/AQP11 tetramer</Name>
+            <Position>(0.518185, 0.289673, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="19">
+            <Name>AQP1 tetramer</Name>
+            <Position>(0.530934, 0.289673, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="20">
+            <Name>p-S256-AQP2</Name>
+            <Position>(0.55718, 0.289673, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="21">
+            <Name>AQP3 tetramer</Name>
+            <Position>(0.36033, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="22">
+            <Name>AQP4 tetramer</Name>
+            <Position>(0.368204, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="23">
+            <Name>AQP6 tetramer</Name>
+            <Position>(0.747967, 0.0777778, 0.0609756, 0.0259259)</Position>
+        </complex>
+        <complex j="24">
+            <Name>G-beta:G-gamma (candidates)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="25">
+            <Name>G-protein alpha (s):GTP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="26">
+            <Name>Adenylate cyclase (Mg2+ cofactor)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="27">
+            <Name>Gs-activated adenylate cyclase</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </complex>
+        <complex j="28">
+            <Name>MYO5B:RABFIP2:RAB11A</Name>
+            <Position>(0.496377, 0.15534, 0.0543478, 0.0339806)</Position>
+        </complex>
+        <complex j="29">
+            <Name>ABCG2 dimer</Name>
+            <Position>(0.256468, 0.36272, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="30">
+            <Name>V-ATPase</Name>
+            <Position>(0.0362694, 0.181818, 0.0777202, 0.0244755)</Position>
+        </complex>
+        <complex j="31">
+            <Name>Ferritin Complex</Name>
+            <Position>(0.177278, -0.019715, 0.0660793, 0.0227273)</Position>
+        </complex>
+        <complex j="32">
+            <Name>ATP2C1/2:Mg2+</Name>
+            <Position>(0.0529412, 0.271654, 0.0882353, 0.0275591)</Position>
+        </complex>
+        <complex j="33">
+            <Name>ATP1A:ATP1B:FXYD</Name>
+            <Position>(0.428196, 0.070529, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="34">
+            <Name>ATP4A/12A:ATP4B</Name>
+            <Position>(0.619048, 0.143577, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="35">
+            <Name>HTR3:5HT</Name>
+            <Position>(0.912636, 0.070529, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="36">
+            <Name>2GABRA:2GABRB:GABRG:GABA</Name>
+            <Position>(0.463817, 0.508816, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="37">
+            <Name>GABRR pentamer:GABA</Name>
+            <Position>(0.471691, 0.508816, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="38">
+            <Name>GLRA:GLRB:Gly</Name>
+            <Position>(0.474316, 0.508816, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="39">
+            <Name>ASIC1 trimer:H+/ASIC2 trimer:H+/ASIC3 trimer:H+/ASIC5 trimer:H+</Name>
+            <Position>(0.943757, -0.00251889, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="40">
+            <Name>SCNN channels</Name>
+            <Position>(0.998125, -0.00251889, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="41">
+            <Name>RAF1:SGK:TSC22D3:WPP</Name>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </complex>
+        <complex j="42">
+            <Name>NALCN:UNC79:UNC80</Name>
+            <Position>(0.915261, 0.070529, 0.0056243, 0.0176322)</Position>
+        </complex>
+        <complex j="43">
+            <Name>CLCN7:OSTM1</Name>
+            <Position>(0.157068, -0.011811, 0.078534, 0.0275591)</Position>
+        </complex>
+        <complex j="44">
+            <Name>RYR tetramer:CASQ polymer:TRDN:junctin</Name>
+            <Position>(0.902913, -0.0148148, 0.0485437, 0.0259259)</Position>
+        </complex>
+    </complexBlock>
+    <proteinBlock Num="115">
+        <protein j="0">
+            <Name>CFTR</Name>
+            <Position>(0.651294, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="1">
+            <Name>ABCA10</Name>
+            <Position>(0.374203, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="2">
+            <Name>ABCA3</Name>
+            <Position>(-1000, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="3">
+            <Name>ABCA12</Name>
+            <Position>(0.503562, 0.445844, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="4">
+            <Name>ABCC11</Name>
+            <Position>(0.387327, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="5">
+            <Name>ABCB5</Name>
+            <Position>(0.400075, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="6">
+            <Name>ABCA4</Name>
+            <Position>(0.139098, 0.207207, 0.0789474, 0.0630631)</Position>
+        </protein>
+        <protein j="7">
+            <Name>SLC4A3</Name>
+            <Position>(0.413573, 0.445844, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="8">
+            <Name>SLC4A9</Name>
+            <Position>(0.87739, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="9">
+            <Name>SLC4A10</Name>
+            <Position>(0.594301, 0.153652, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="10">
+            <Name>SLC8A3</Name>
+            <Position>(0.617548, 0.664987, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="11">
+            <Name>SLC24A5</Name>
+            <Position>(0.581177, 0.811083, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="12">
+            <Name>SLC24A6</Name>
+            <Position>(0.542557, 0.664987, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="13">
+            <Name>SLC9A5</Name>
+            <Position>(0.976003, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="14">
+            <Name>SLC9A9</Name>
+            <Position>(0.54321, -0.0045045, 0.0864198, 0.0630631)</Position>
+        </protein>
+        <protein j="15">
+            <Name>SLC9A8</Name>
+            <Position>(0.0294118, -0.00393701, 0.123529, 0.0551181)</Position>
+        </protein>
+        <protein j="16">
+            <Name>SLC9A9</Name>
+            <Position>(0.0258621, -0.00393701, 0.0905172, 0.0551181)</Position>
+        </protein>
+        <protein j="17">
+            <Name>SLC12A3</Name>
+            <Position>(0.555681, 0.518892, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="18">
+            <Name>SLC12A2</Name>
+            <Position>(0.542557, 0.59194, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="19">
+            <Name>SLC12A7</Name>
+            <Position>(0.462692, 0.59194, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="20">
+            <Name>SLC26A2</Name>
+            <Position>(0.529434, 0.153652, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="21">
+            <Name>SLC26A6</Name>
+            <Position>(0.426697, 0.445844, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="22">
+            <Name>SLC26A9</Name>
+            <Position>(0.480315, 0.518892, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="23">
+            <Name>SLC34A2</Name>
+            <Position>(-1000, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="24">
+            <Name>SLC34A3</Name>
+            <Position>(-1000, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="25">
+            <Name>SLC20A2</Name>
+            <Position>(0.921635, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="26">
+            <Name>SLC38A1</Name>
+            <Position>(-1000, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="27">
+            <Name>ATA2</Name>
+            <Position>(-1000, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="28">
+            <Name>SN1</Name>
+            <Position>(0.84102, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="29">
+            <Name>SN2</Name>
+            <Position>(0.853768, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="30">
+            <Name>BGT-1</Name>
+            <Position>(0.934758, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="31">
+            <Name>SLC6A15</Name>
+            <Position>(0.100112, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="32">
+            <Name>SLC6A18</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="33">
+            <Name>SLC6A20</Name>
+            <Position>(0.687664, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="34">
+            <Name>SLC6A6</Name>
+            <Position>(0.791901, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="35">
+            <Name>ASCT1</Name>
+            <Position>(0.776153, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="36">
+            <Name>ASCT2</Name>
+            <Position>(-1000, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="37">
+            <Name>PAT1</Name>
+            <Position>(0.32021, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="38">
+            <Name>PAT2</Name>
+            <Position>(0.332958, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="39">
+            <Name>SLC6A14</Name>
+            <Position>(0.804649, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="40">
+            <Name>SLC6A19</Name>
+            <Position>(0.113236, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="41">
+            <Name>EAAT5</Name>
+            <Position>(0.216348, 0.2267, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="42">
+            <Name>SLC17A8</Name>
+            <Position>(0.259259, 0.11165, 0.0864198, 0.0679612)</Position>
+        </protein>
+        <protein j="43">
+            <Name>Sialin</Name>
+            <Position>(0.0471204, -0.00393701, 0.109948, 0.0551181)</Position>
+        </protein>
+        <protein j="44">
+            <Name>SLC17A1</Name>
+            <Position>(0.125984, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="45">
+            <Name>NIS</Name>
+            <Position>(0.890139, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="46">
+            <Name>AIT</Name>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </protein>
+        <protein j="47">
+            <Name>SLC25A10</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="48">
+            <Name>SMIT</Name>
+            <Position>(0.138733, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="49">
+            <Name>SGLT4</Name>
+            <Position>(0.151856, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="50">
+            <Name>HK3</Name>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </protein>
+        <protein j="51">
+            <Name>GCK</Name>
+            <Position>(0.20354, 0.417476, 0.185841, 0.0679612)</Position>
+        </protein>
+        <protein j="52">
+            <Name>GCKR</Name>
+            <Position>(0.707965, 0.417476, 0.185841, 0.0679612)</Position>
+        </protein>
+        <protein j="53">
+            <Name>SLC37A4</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="54">
+            <Name>G6PC</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="55">
+            <Name>G6PC2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="56">
+            <Name>G6PC3</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="57">
+            <Name>GLUT4</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="58">
+            <Name>GLUT8</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="59">
+            <Name>SGLT1</Name>
+            <Position>(0.903262, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="60">
+            <Name>SLC5A4</Name>
+            <Position>(0.664417, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="61">
+            <Name>SMIT2</Name>
+            <Position>(0.164604, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="62">
+            <Name>SLC2A13</Name>
+            <Position>(0.542557, 0.153652, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="63">
+            <Name>SOAT</Name>
+            <Position>(0.177728, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="64">
+            <Name>NaS1</Name>
+            <Position>(0.700412, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="65">
+            <Name>NaS2</Name>
+            <Position>(0.713536, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="66">
+            <Name>NaDC1</Name>
+            <Position>(0.190476, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="67">
+            <Name>NaDC3</Name>
+            <Position>(0.2036, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="68">
+            <Name>SLC13A5</Name>
+            <Position>(0.216348, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="69">
+            <Name>MATE2</Name>
+            <Position>(0.346082, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="70">
+            <Name>SLC16A3</Name>
+            <Position>(0.35883, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="71">
+            <Name>NRAMP1</Name>
+            <Position>(0.267578, 0.114173, 0.0410156, 0.0551181)</Position>
+        </protein>
+        <protein j="72">
+            <Name>DCT1</Name>
+            <Position>(0.762655, 0.2267, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="73">
+            <Name>hCTR1</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="74">
+            <Name>SLC6A13</Name>
+            <Position>(0.817773, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="75">
+            <Name>OCT1</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="76">
+            <Name>NAT1</Name>
+            <Position>(0.726284, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="77">
+            <Name>SLC6A3</Name>
+            <Position>(0.229096, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="78">
+            <Name>GLYT2</Name>
+            <Position>(0.791901, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="79">
+            <Name>PROT</Name>
+            <Position>(0.804649, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="80">
+            <Name>CHT</Name>
+            <Position>(0.817773, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="81">
+            <Name>RHBG</Name>
+            <Position>(0.516685, 0.0780856, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="82">
+            <Name>RHCG</Name>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </protein>
+        <protein j="83">
+            <Name>CTL5</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="84">
+            <Name>ETT</Name>
+            <Position>(0.24222, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="85">
+            <Name>FLIPT1</Name>
+            <Position>(0.254968, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="86">
+            <Name>ORCTL2</Name>
+            <Position>(0.449944, 0.153652, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="87">
+            <Name>SMVT</Name>
+            <Position>(0.268091, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="88">
+            <Name>CNT1</Name>
+            <Position>(0.28084, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="89">
+            <Name>SLC28A3</Name>
+            <Position>(0.293588, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="90">
+            <Name>CNT2</Name>
+            <Position>(0.306712, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="91">
+            <Name>HMOX2</Name>
+            <Position>(-0.121827, -0.566265, 0.106599, 0.0843373)</Position>
+        </protein>
+        <protein j="92">
+            <Name>STEAP2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </protein>
+        <protein j="93">
+            <Name>MCOLN1</Name>
+            <Position>(0.243523, 0, 0.108808, 0.048951)</Position>
+        </protein>
+        <protein j="94">
+            <Name>ATP7A</Name>
+            <Position>(0.268091, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="95">
+            <Name>ATP7B</Name>
+            <Position>(0.147059, 0.279528, 0.123529, 0.0551181)</Position>
+        </protein>
+        <protein j="96">
+            <Name>PMCA4</Name>
+            <Position>(0.568429, 0.664987, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="97">
+            <Name>ATP2A3</Name>
+            <Position>(0.0379404, -0.00393701, 0.0569106, 0.0551181)</Position>
+        </protein>
+        <protein j="98">
+            <Name>ATP2A3</Name>
+            <Position>(0.206206, 0.234916, 0.106599, 0.0843373)</Position>
+        </protein>
+        <protein j="99">
+            <Name>ATP8A2</Name>
+            <Position>(0.28084, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="100">
+            <Name>ASIC4</Name>
+            <Position>(0.950131, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="101">
+            <Name>UBC(609-684)</Name>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </protein>
+        <protein j="102">
+            <Name>WNK4</Name>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </protein>
+        <protein j="103">
+            <Name>ANO9</Name>
+            <Position>(0.516685, 0.445844, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="104">
+            <Name>TPCN2</Name>
+            <Position>(0.335079, 0.704724, 0.109948, 0.0551181)</Position>
+        </protein>
+        <protein j="105">
+            <Name>H</Name>
+            <Position>(0.12069, 0.0669291, 0.0905172, 0.0551181)</Position>
+        </protein>
+        <protein j="106">
+            <Name>CLCN6</Name>
+            <Position>(0.015544, 0.125874, 0.108808, 0.048951)</Position>
+        </protein>
+        <protein j="107">
+            <Name>TTYH1-3</Name>
+            <Position>(0.529434, 0.445844, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="108">
+            <Name>TTYH2</Name>
+            <Position>(0.542557, 0.445844, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="109">
+            <Name>BEST4</Name>
+            <Position>(0.739408, 0.372796, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="110">
+            <Name>CLIC2</Name>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </protein>
+        <protein j="111">
+            <Name>SLC17A3</Name>
+            <Position>(0.106364, 0.234916, 0.106599, 0.0843373)</Position>
+        </protein>
+        <protein j="112">
+            <Name>SLC9C2</Name>
+            <Position>(0.988751, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="113">
+            <Name>TRPV6</Name>
+            <Position>(0.555681, 0.738035, 0.00787402, 0.0352645)</Position>
+        </protein>
+        <protein j="114">
+            <Name>TRPM5</Name>
+            <Position>(0.96288, 0.00503778, 0.00787402, 0.0352645)</Position>
+        </protein>
+    </proteinBlock>
+    <physicalEntityBlock Num="2">
+        <physicalEntity j="0">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="1">
+            <Name></Name>
+            <Position>(0.594714, 0.50974, 0.092511, 0.0454545)</Position>
+        </physicalEntity>
+    </physicalEntityBlock>
+    <smallMoleculeBlock Num="454">
+        <smallMolecule j="0">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="1">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="2">
+            <Name>ATP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="3">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="4">
+            <Name>H2O</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="5">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="6">
+            <Name>ADP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="7">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="8">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="9">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="10">
+            <Name>H2O</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="11">
+            <Name>ATP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="12">
+            <Name>ADP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="13">
+            <Name>ATP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="14">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="15">
+            <Name>heme</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="16">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="17">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="18">
+            <Name>Glc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="19">
+            <Name>Glc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="20">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="21">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="22">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="23">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="24">
+            <Name>Ins</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="25">
+            <Name>Ins</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="26">
+            <Name>Ins</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="27">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="28">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="29">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="30">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="31">
+            <Name>Ins</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="32">
+            <Name>Ins</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="33">
+            <Name>taurolithocholate sulfate</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="34">
+            <Name>taurolithocholate sulfate</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="35">
+            <Name>taurolithocholate sulfate</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="36">
+            <Name>taurolithocholate sulfate</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="37">
+            <Name>SO4(2-)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="38">
+            <Name>SO4(2-)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="39">
+            <Name>SO4(2-)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="40">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="41">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="42">
+            <Name>porphyrin</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="43">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="44">
+            <Name>porphyrin</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="45">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="46">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="47">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="48">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="49">
+            <Name>SUCCA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="50">
+            <Name>SUCCA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="51">
+            <Name>SUCCA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="52">
+            <Name>SUCCA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="53">
+            <Name>CIT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="54">
+            <Name>CIT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="55">
+            <Name>CIT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="56">
+            <Name>CIT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="57">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="58">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="59">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="60">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="61">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="62">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="63">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="64">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="65">
+            <Name>Fe2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="66">
+            <Name>Fe2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="67">
+            <Name>Fe3+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="68">
+            <Name>Fe3+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="69">
+            <Name>organic anion</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="70">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="71">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="72">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="73">
+            <Name>organic anion</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="74">
+            <Name>organic anion</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="75">
+            <Name>organic anion</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="76">
+            <Name>organic anion</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="77">
+            <Name>Zn2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="78">
+            <Name>Zn2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="79">
+            <Name>Zn2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="80">
+            <Name>a xenobiotic</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="81">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="82">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="83">
+            <Name>a xenobiotic</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="84">
+            <Name>a xenobiotic</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="85">
+            <Name>a xenobiotic</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="86">
+            <Name>Cu2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="87">
+            <Name>Cu2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="88">
+            <Name>Mg2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="89">
+            <Name>Mg2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="90">
+            <Name>Cl-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="91">
+            <Name>GABA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="92">
+            <Name>GABA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="93">
+            <Name>Cl-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="94">
+            <Name>GABA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="95">
+            <Name>GABA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="96">
+            <Name>GABA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="97">
+            <Name>GABA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="98">
+            <Name>NAd</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="99">
+            <Name>NAd</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="100">
+            <Name>NAd</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="101">
+            <Name>NAd</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="102">
+            <Name>DA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="103">
+            <Name>DA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="104">
+            <Name>DA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="105">
+            <Name>DA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="106">
+            <Name>5HT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="107">
+            <Name>5HT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="108">
+            <Name>5HT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="109">
+            <Name>Gly</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="110">
+            <Name>Gly</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="111">
+            <Name>Gly</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="112">
+            <Name>atRAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="113">
+            <Name>atRAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="114">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="115">
+            <Name>atRAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="116">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="117">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="118">
+            <Name>atRAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="119">
+            <Name>L-Pro</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="120">
+            <Name>L-Pro</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="121">
+            <Name>L-Pro</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="122">
+            <Name>L-Pro</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="123">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="124">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="125">
+            <Name>Cho</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="126">
+            <Name>Cho</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="127">
+            <Name>Urea</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="128">
+            <Name>Urea</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="129">
+            <Name>NH4+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="130">
+            <Name>NH4+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="131">
+            <Name>Cho</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="132">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="133">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="134">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="135">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="136">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="137">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="138">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="139">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="140">
+            <Name>ERGT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="141">
+            <Name>ERGT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="142">
+            <Name>CAR</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="143">
+            <Name>CAR</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="144">
+            <Name>CAR</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="145">
+            <Name>CAR</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="146">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="147">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="148">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="149">
+            <Name>2OG</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="150">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="151">
+            <Name>2OG</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="152">
+            <Name>2OG</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="153">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="154">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="155">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="156">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="157">
+            <Name>2OG</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="158">
+            <Name>2OG</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="159">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="160">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="161">
+            <Name>Urate</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="162">
+            <Name>LACT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="163">
+            <Name>LACT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="164">
+            <Name>LACT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="165">
+            <Name>LACT</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="166">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="167">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="168">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="169">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="170">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="171">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="172">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="173">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="174">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="175">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="176">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="177">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="178">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="179">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="180">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="181">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="182">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="183">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="184">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="185">
+            <Name>Ac-CoA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="186">
+            <Name>CMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="187">
+            <Name>CMP-SA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="188">
+            <Name>CMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="189">
+            <Name>CMP-SA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="190">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="191">
+            <Name>UMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="192">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="193">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="194">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="195">
+            <Name>UDP-GlcNAc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="196">
+            <Name>PAPS</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="197">
+            <Name>UDP-Xyl</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="198">
+            <Name>Ca2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="199">
+            <Name>Ca2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="200">
+            <Name>GDP-Fuc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="201">
+            <Name>UDP-GlcA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="202">
+            <Name>UDP-GlcA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="203">
+            <Name>UDP-GlcA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="204">
+            <Name>UDP-GlcNAc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="205">
+            <Name>UDP-GlcA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="206">
+            <Name>UDP-GlcNAc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="207">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="208">
+            <Name>GDP-Man</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="209">
+            <Name>GMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="210">
+            <Name>GDP-Man</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="211">
+            <Name>GMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="212">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="213">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="214">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="215">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="216">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="217">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="218">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="219">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="220">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="221">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="222">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="223">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="224">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="225">
+            <Name>DIGX</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="226">
+            <Name>DIGX</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="227">
+            <Name>H2O</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="228">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="229">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="230">
+            <Name>Glycerol</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="231">
+            <Name>Glycerol</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="232">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="233">
+            <Name>CHOL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="234">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="235">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="236">
+            <Name>CHOL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="237">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="238">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="239">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="240">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="241">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="242">
+            <Name>FeHM</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="243">
+            <Name>FeHM</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="244">
+            <Name>TPNH</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="245">
+            <Name>TPN</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="246">
+            <Name>BV</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="247">
+            <Name>CO</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="248">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="249">
+            <Name>CO</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="250">
+            <Name>TPNH</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="251">
+            <Name>CO</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="252">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="253">
+            <Name>TPNH</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="254">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="255">
+            <Name>TPNH</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="256">
+            <Name>heme</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="257">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="258">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="259">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="260">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="261">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="262">
+            <Name>Fe3+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="263">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="264">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="265">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="266">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="267">
+            <Name>Fe2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="268">
+            <Name>e-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="269">
+            <Name>Fe3+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="270">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="271">
+            <Name>Fe3+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="272">
+            <Name>Fe3+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="273">
+            <Name>O2</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="274">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="275">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="276">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="277">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="278">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="279">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="280">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="281">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="282">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="283">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="284">
+            <Name>AMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="285">
+            <Name>AMP</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="286">
+            <Name>Ca2+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="287">
+            <Name>Cl-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="288">
+            <Name>Cl-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="289">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="290">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="291">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="292">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="293">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="294">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="295">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="296">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="297">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="298">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="299">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="300">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="301">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="302">
+            <Name>Na+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="303">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="304">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="305">
+            <Name>SO4(2-)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="306">
+            <Name>SO4(2-)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="307">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="308">
+            <Name>HCO3-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="309">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="310">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="311">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="312">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="313">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="314">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="315">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="316">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="317">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="318">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="319">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="320">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="321">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="322">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="323">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="324">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="325">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="326">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="327">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="328">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="329">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="330">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="331">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="332">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="333">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="334">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="335">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="336">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="337">
+            <Name>Gly</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="338">
+            <Name>L-Pro</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="339">
+            <Name>L-Pro</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="340">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="341">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="342">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="343">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="344">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="345">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="346">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="347">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="348">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="349">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="350">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="351">
+            <Name>Cys</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="352">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="353">
+            <Name>Cys</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="354">
+            <Name>Cys</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="355">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="356">
+            <Name>Cys</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="357">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="358">
+            <Name>L-Ser</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="359">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="360">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="361">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="362">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="363">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="364">
+            <Name>L-Ser</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="365">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="366">
+            <Name>LCFA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="367">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="368">
+            <Name>LFCA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="369">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="370">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="371">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="372">
+            <Name>Cys</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="373">
+            <Name>Glu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="374">
+            <Name>L-Glu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="375">
+            <Name>Glu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="376">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="377">
+            <Name>L-Leu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="378">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="379">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="380">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="381">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="382">
+            <Name>L-Leu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="383">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="384">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="385">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="386">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="387">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="388">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="389">
+            <Name>L-Arg</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="390">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="391">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="392">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="393">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="394">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="395">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="396">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="397">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="398">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="399">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="400">
+            <Name>K+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="401">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="402">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="403">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="404">
+            <Name>Glu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="405">
+            <Name>L-Glu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="406">
+            <Name>L-Glu</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="407">
+            <Name>H+</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="408">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="409">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="410">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="411">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="412">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="413">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="414">
+            <Name>SA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="415">
+            <Name>SA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="416">
+            <Name>SA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="417">
+            <Name>SA</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="418">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="419">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="420">
+            <Name>I-</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="421">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="422">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="423">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="424">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="425">
+            <Name>MAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="426">
+            <Name>MAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="427">
+            <Name>SO4(2-)</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="428">
+            <Name>MAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="429">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="430">
+            <Name>MAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="431">
+            <Name>MAL</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="432">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="433">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="434">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="435">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="436">
+            <Name>cholesterol</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="437">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="438">
+            <Name>cholesterol</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="439">
+            <Name>cholesterol</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="440">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="441">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="442">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="443">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="444">
+            <Name></Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="445">
+            <Name>G6P</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="446">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="447">
+            <Name>Pi</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="448">
+            <Name>G6P</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="449">
+            <Name>H2O</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="450">
+            <Name>Glc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="451">
+            <Name>Glc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="452">
+            <Name>H2O</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="453">
+            <Name>Glc</Name>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </smallMolecule>
+    </smallMoleculeBlock>
+    <DnaBlock Num="0"/>
+    <reactionBlock Num="177">
+        <reaction j="0">
+            <Name>HCO3- transport through ion channel</Name>
+            <Type>T</Type>
+            <Position>(0.614887, 0.411111, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="1">
+            <Name>ABCAs mediate lipid efflux</Name>
+            <Type>T</Type>
+            <Position>(0.388076, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="2">
+            <Name>ABCAs mediate lipid influx</Name>
+            <Type>T</Type>
+            <Position>(0.407949, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="3">
+            <Name>ABCA7:Apo1A-mediated phospholipid efflux</Name>
+            <Type>T</Type>
+            <Position>(0.407949, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="4">
+            <Name>ABCD1/D2/D3 mediate long chain fatty acid transport in to peroxisomes</Name>
+            <Type>T</Type>
+            <Position>(0.583732, 0.288288, 0.0287081, 0.027027)</Position>
+        </reaction>
+        <reaction j="5">
+            <Name>ABCG5:ABCG8-mediated export of cholesterol and phytosterols</Name>
+            <Type>T</Type>
+            <Position>(0.414698, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="6">
+            <Name>ABCG1-mediated transport of intracellular cholesterol to the cell surface</Name>
+            <Type>T</Type>
+            <Position>(0.427447, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="7">
+            <Name>ABCG4 may mediate cholesterol efflux</Name>
+            <Type>T</Type>
+            <Position>(0.4012, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="8">
+            <Name>ABC7, mABC1 and mABC2 mediate heme transport</Name>
+            <Type>T</Type>
+            <Position>(0.592593, 0.287402, 0.0222222, 0.023622)</Position>
+        </reaction>
+        <reaction j="9">
+            <Name>MTABC3 transports porphyrin into mitochondria</Name>
+            <Type>T</Type>
+            <Position>(0.594096, 0.288288, 0.0221402, 0.027027)</Position>
+        </reaction>
+        <reaction j="10">
+            <Name>The ABCC family mediates organic anion transport</Name>
+            <Type>T</Type>
+            <Position>(0.43907, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="11">
+            <Name>ABCA8, B1 and B5 mediate xenobiotic efflux</Name>
+            <Type>T</Type>
+            <Position>(0.832021, 0.463476, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="12">
+            <Name>ABCA4 mediates atRAL transport</Name>
+            <Type>T</Type>
+            <Position>(0.210526, 0.27027, 0.0225564, 0.027027)</Position>
+        </reaction>
+        <reaction j="13">
+            <Name>Cl-/HCO3- exchanger transport</Name>
+            <Type>T</Type>
+            <Position>(0.614887, 0.481481, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="14">
+            <Name>Na+-coupled HCO3- cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.770154, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="15">
+            <Name>Na+-driven Cl-/HCO3- exchanger transport</Name>
+            <Type>T</Type>
+            <Position>(0.990291, 0.196296, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="16">
+            <Name>Na+/Ca2+ exchanger transport</Name>
+            <Type>T</Type>
+            <Position>(0.7411, 0.688889, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="17">
+            <Name>K+-dependent Na+/Ca2+ exchanger transport</Name>
+            <Type>T</Type>
+            <Position>(0.616379, 0.834646, 0.0258621, 0.023622)</Position>
+        </reaction>
+        <reaction j="18">
+            <Name>K+-independent Li+/Ca2+ exchanger transport</Name>
+            <Type>T</Type>
+            <Position>(0.550056, 0.720403, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="19">
+            <Name>Na+/H+ exchanger transport (at cell membrane)</Name>
+            <Type>T</Type>
+            <Position>(0.92228, 0.695804, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="20">
+            <Name>Na+/H+ exchanger transport (at early endosome membrane)</Name>
+            <Type>T</Type>
+            <Position>(0.0776699, 0.125926, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="21">
+            <Name>Na+/H+ exchanger transport (at trans-golgi membrane)</Name>
+            <Type>T</Type>
+            <Position>(0.164706, 0.0551181, 0.0352941, 0.023622)</Position>
+        </reaction>
+        <reaction j="22">
+            <Name>Na+/H+ exchanger transport (at late endosome membrane)</Name>
+            <Type>T</Type>
+            <Position>(0.0818966, 0.0551181, 0.0258621, 0.023622)</Position>
+        </reaction>
+        <reaction j="23">
+            <Name>Na+/Cl- cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.909385, 0.551852, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="24">
+            <Name>Na+, K+/2Cl- cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.825243, 0.622222, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="25">
+            <Name>K+/Cl- cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.473566, 0.647355, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="26">
+            <Name>SLC26A1,2 transport extracellular SO4(2-) to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.569554, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="27">
+            <Name>Group 2 - Cl-/HCO3- exchanger transport</Name>
+            <Type>T</Type>
+            <Position>(0.450694, 0.501259, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="28">
+            <Name>Group 3 - Selective Cl- transport</Name>
+            <Type>T</Type>
+            <Position>(0.463817, 0.574307, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="29">
+            <Name>Electrogenic Na+/Pi cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.375328, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="30">
+            <Name>Electroneutral Na+/Pi cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.388076, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="31">
+            <Name>Type III Na+/Pi cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.861267, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="32">
+            <Name>SLC38A1 (ATA1)-mediated uptake of neutral amino acids</Name>
+            <Type>T</Type>
+            <Position>(0.4012, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="33">
+            <Name>SLC38A2 (ATA2)-mediated uptake of neutral amino acids</Name>
+            <Type>T</Type>
+            <Position>(0.407574, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="34">
+            <Name>SLC38A3-mediated uptake of glutamine, histidine, asparagine, and alanine</Name>
+            <Type>T</Type>
+            <Position>(0.714286, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="35">
+            <Name>SLC38A5-mediated uptake of glutamine, histidine, asparagine, and serine</Name>
+            <Type>T</Type>
+            <Position>(0.727409, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="36">
+            <Name>SLC6A12 (BGT-1)-mediated uptake of GABA and betaine</Name>
+            <Type>T</Type>
+            <Position>(0.861642, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="37">
+            <Name>SLC6A15-mediated amino acid uptake</Name>
+            <Type>T</Type>
+            <Position>(0.407574, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="38">
+            <Name>SLC6A18-mediated glycine uptake</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="39">
+            <Name>SLC6A20-mediated uptake of proline</Name>
+            <Type>T</Type>
+            <Position>(0.658793, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="40">
+            <Name>SLC6A6-mediated uptake of taurine and beta-alanine</Name>
+            <Type>T</Type>
+            <Position>(0.677165, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="41">
+            <Name>SLC1A4-mediated exchange of extracellular alanine for cytosolic serine, threonine, or cysteine</Name>
+            <Type>T</Type>
+            <Position>(0.55643, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="42">
+            <Name>SLC1A4-mediated exchange of extracellular cysteine for cytosolic alanine, serine, or threonine</Name>
+            <Type>T</Type>
+            <Position>(0.569554, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="43">
+            <Name>SLC1A4-mediated exchange of extracellular serine for cytosolic alanine, threonine, or cysteine</Name>
+            <Type>T</Type>
+            <Position>(0.777278, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="44">
+            <Name>SLC1A4-mediated exchange of extracellular threonine for cytosolic alanine, serine, or cysteine</Name>
+            <Type>T</Type>
+            <Position>(0.314586, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="45">
+            <Name>SLC1A5-mediated exchange of alanine and glutamine across the plasma membrane</Name>
+            <Type>T</Type>
+            <Position>(0.582302, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="46">
+            <Name>SLC1A5-mediated exchange of glutamine and alanine across the plasma membrane</Name>
+            <Type>T</Type>
+            <Position>(-1000, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="47">
+            <Name>SLC36A1-mediated uptake of glycine, proline, and alanine</Name>
+            <Type>T</Type>
+            <Position>(0.414698, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="48">
+            <Name>SLC36A2-mediated uptake of glycine and proline</Name>
+            <Type>T</Type>
+            <Position>(0.427447, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="49">
+            <Name>SLC6A14-mediated uptake of basic and neutral amino acids and of beta-alanine</Name>
+            <Type>T</Type>
+            <Position>(0.688789, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="50">
+            <Name>SLC6A19-mediated uptake of neutral amino acids</Name>
+            <Type>T</Type>
+            <Position>(0.407949, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="51">
+            <Name>SLC7A11-mediated exchange of extracellular cysteine and cytosolic glutamate</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="52">
+            <Name>SLC7A6 (y+LAT2)-mediated exchange of extracellular leucine for cytosolic arginine</Name>
+            <Type>T</Type>
+            <Position>(0.197411, 0.703704, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="53">
+            <Name>SLC7A7 (y+LAT1)-mediated exchange of extracellular leucine for cytosolic arginine</Name>
+            <Type>T</Type>
+            <Position>(0.440129, 0.837037, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="54">
+            <Name>SLC7A9-mediated exchange of extracellular arginine, lysine, or cystine for cytosolic leucine</Name>
+            <Type>T</Type>
+            <Position>(0.278317, 0.77037, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="55">
+            <Name>Glutamate transport</Name>
+            <Type>T</Type>
+            <Position>(0.268841, 0.282116, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="56">
+            <Name>Vesicular glutamate transport</Name>
+            <Type>T</Type>
+            <Position>(0.769547, 0.286408, 0.0246914, 0.0291262)</Position>
+        </reaction>
+        <reaction j="57">
+            <Name>Proton-coupled sialic acid co-transport</Name>
+            <Type>T</Type>
+            <Position>(0.13089, 0.0551181, 0.0314136, 0.023622)</Position>
+        </reaction>
+        <reaction j="58">
+            <Name>Type I Na+-coupled phosphate co-transport</Name>
+            <Type>T</Type>
+            <Position>(0.407949, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="59">
+            <Name>Na+/I- cotransport (influx) by the Na+/I- symporter</Name>
+            <Type>T</Type>
+            <Position>(0.770154, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="60">
+            <Name>Passive I- efflux mediated by SMCT1</Name>
+            <Type>T</Type>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </reaction>
+        <reaction j="61">
+            <Name>Na+-dependent monocarboxylate transport by SMCT</Name>
+            <Type>T</Type>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </reaction>
+        <reaction j="62">
+            <Name>Sulfate is exported to the cytosol in exchange for dicarboxylate</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="63">
+            <Name>malate [mitochondrial matrix] + orthophosphate [cytosol] &lt;=> malate [cytosol] + orthophosphate [mitochondrial matrix]</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="64">
+            <Name>Proton-coupled di- and tri-peptide cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.208333, 0.0540541, 0.0357143, 0.027027)</Position>
+        </reaction>
+        <reaction j="65">
+            <Name>Proton-coupled histidine and di-peptide cotransport</Name>
+            <Type>T</Type>
+            <Position>(0.763189, 0.314466, 0.0264317, 0.0194805)</Position>
+        </reaction>
+        <reaction j="66">
+            <Name>Transport (influx) of glucose, galactose, and sodium ions by SGLT1</Name>
+            <Type>T</Type>
+            <Position>(0.414698, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="67">
+            <Name>alpha-D-glucose (extracellular) &lt;=> alpha-D-glucose (cytosol)</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="68">
+            <Name>GLUT1:ATP &lt;=> GLUT1 + ATP</Name>
+            <Type>B</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="69">
+            <Name>alpha-D-Glucose + ATP => alpha-D-glucose 6-phosphate + ADP</Name>
+            <Type>T</Type>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </reaction>
+        <reaction j="70">
+            <Name>GCK1:GKRP [cytosol] => GCK1:GKRP [nucleoplasm]</Name>
+            <Type>T</Type>
+            <Position>(0.47973, 0.361702, 0.0405405, 0.12766)</Position>
+        </reaction>
+        <reaction j="71">
+            <Name>Dissociation of the nucleoplasmic GCK1:GKRP complex</Name>
+            <Type>B</Type>
+            <Position>(0.707965, 0.281553, 0.0619469, 0.0339806)</Position>
+        </reaction>
+        <reaction j="72">
+            <Name>glucokinase [nucleoplasm] => glucokinase [cytosol]</Name>
+            <Type>T</Type>
+            <Position>(0.725664, 0.592233, 0.0530973, 0.0291262)</Position>
+        </reaction>
+        <reaction j="73">
+            <Name>Cytosolic glucose 6-phosphate is exchanged for orthophosphate from the endoplasmic reticulum lumen by SLC37A4</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="74">
+            <Name>G6PC hydrolyzes glucose 6-phosphate to form glucose and orthophosphate (liver)</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="75">
+            <Name>G6PC2 hydrolyzes glucose 6-phosphate to form glucose and orthophosphate (islet)</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="76">
+            <Name>G6PC3 hydrolyzes glucose 6-phosphate to form glucose and orthophosphate (ubiquitous)</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="77">
+            <Name>Glucose transport by class I GLUTs</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="78">
+            <Name>Glucose transport by class III GLUTs</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="79">
+            <Name>Co-transport (influx) of glucose and Na+ ions by SGLT2</Name>
+            <Type>T</Type>
+            <Position>(0.770529, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="80">
+            <Name>Co-transport (influx) of glucose/mannose and Na+ ions by SGLT4</Name>
+            <Type>T</Type>
+            <Position>(0.427447, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="81">
+            <Name>Co-transport (influx) of myo-inositol and two Na+ ions by SMIT</Name>
+            <Type>T</Type>
+            <Position>(0.652043, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="82">
+            <Name>Co-transport (influx) of myo-inositol/D-chiro-inositol and two Na+ ions by SGLT6</Name>
+            <Type>T</Type>
+            <Position>(0.0662252, 0.0555556, 0.0397351, 0.0222222)</Position>
+        </reaction>
+        <reaction j="83">
+            <Name>HMIT co-transports myo-inositol with a proton</Name>
+            <Type>T</Type>
+            <Position>(0.582302, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="84">
+            <Name>SOAT can transport taurolithocholate-3-sulphate</Name>
+            <Type>T</Type>
+            <Position>(0.0592105, 0.0555556, 0.0394737, 0.0222222)</Position>
+        </reaction>
+        <reaction j="85">
+            <Name>NaS1 co-transports sulphate and a sodium ion</Name>
+            <Type>T</Type>
+            <Position>(0.658793, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="86">
+            <Name>NaS2 co-transports sulphate and two sodium ions</Name>
+            <Type>T</Type>
+            <Position>(0.658793, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="87">
+            <Name>NaDC1 co-transports dicarboxylic acids and a sodium ion</Name>
+            <Type>T</Type>
+            <Position>(-1000, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="88">
+            <Name>NaDC3 co-transports the dicarboxylic acid succinate and three sodium ion</Name>
+            <Type>T</Type>
+            <Position>(0.0725191, 0.0533981, 0.0229008, 0.0291262)</Position>
+        </reaction>
+        <reaction j="89">
+            <Name>NACT co-transports trivalent citrate and a sodium ion</Name>
+            <Type>T</Type>
+            <Position>(0.0752351, 0.0533981, 0.0188088, 0.0291262)</Position>
+        </reaction>
+        <reaction j="90">
+            <Name>MATEs mediate extrusion of xenobiotics</Name>
+            <Type>T</Type>
+            <Position>(0.43907, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="91">
+            <Name>MCTs mediate proton-coupled transport of monocarboxylates and ketone bodies</Name>
+            <Type>T</Type>
+            <Position>(0.450694, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="92">
+            <Name>NRAMP1 transports divalent metal ions across phagosomal membranes of macrophages</Name>
+            <Type>T</Type>
+            <Position>(0.771484, 0.287402, 0.0117188, 0.023622)</Position>
+        </reaction>
+        <reaction j="93">
+            <Name>DCT1 (NRAMP2) mediates divalent iron uptake across the apical membrane of enterocytes</Name>
+            <Type>T</Type>
+            <Position>(0.242718, 0.266667, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="94">
+            <Name>Ferroportin mediates iron influx across the basolateral membrane of enterocytes</Name>
+            <Type>T</Type>
+            <Position>(0.314211, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="95">
+            <Name>Ferroportin mediates iron efflux on macrophages</Name>
+            <Type>T</Type>
+            <Position>(0.92228, 0.115385, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="96">
+            <Name>Cellular copper transport is mediated by human copper transporter 1 hCTR1</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="97">
+            <Name>GAT1-3 mediate Na+/Cl- dependent GABA transport</Name>
+            <Type>T</Type>
+            <Position>(0.701537, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="98">
+            <Name>Uptake of Noradrenaline</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="99">
+            <Name>NAT1 mediates norepinephrine uptake</Name>
+            <Type>T</Type>
+            <Position>(0.665542, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="100">
+            <Name>Reuptake of dopamine from the synaptic cleft into neurons</Name>
+            <Type>T</Type>
+            <Position>(0.48144, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="101">
+            <Name>Reuptake of serotonin from the synapse</Name>
+            <Type>T</Type>
+            <Position>(0.493063, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="102">
+            <Name>GLYT1/2 mediate glycine uptake</Name>
+            <Type>T</Type>
+            <Position>(0.440415, 0.632867, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="103">
+            <Name>PROT mediates L-proline uptake</Name>
+            <Type>T</Type>
+            <Position>(0.770529, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="104">
+            <Name>Sodium- and chloride-dependent choline transport by CHT</Name>
+            <Type>T</Type>
+            <Position>(0.770904, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="105">
+            <Name>RhAG mediates ammounium export from red blood cells</Name>
+            <Type>T</Type>
+            <Position>(0.678756, 0.888112, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="106">
+            <Name>RhBG mediates ammonium effflux out of kidney collecting duct cells</Name>
+            <Type>T</Type>
+            <Position>(0.57513, 0.762238, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="107">
+            <Name>RhBG mediates ammonium influx into kidney collecting duct cells</Name>
+            <Type>T</Type>
+            <Position>(0.678756, 0.825175, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="108">
+            <Name>RhCG mediates ammonium influx into kidney collecting duct cells</Name>
+            <Type>T</Type>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </reaction>
+        <reaction j="109">
+            <Name>RhCG mediates ammonium efflux out of kidney collecting duct cells</Name>
+            <Type>T</Type>
+            <Position>(0.463442, -4.77582, -0.374953, 0)</Position>
+        </reaction>
+        <reaction j="110">
+            <Name>CTL1-5 can mediate the uptake of choline</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="111">
+            <Name>OCT2 mediates tubular uptake of organic cations in the kidney</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="112">
+            <Name>OCT2 mediates tubular secretion of organic cations in the kidney</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="113">
+            <Name>OCT4 mediates transport of ergothioneine</Name>
+            <Type>T</Type>
+            <Position>(0.498313, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="114">
+            <Name>Carnitine transporters mediates sodium-dependent uptake of carnitine</Name>
+            <Type>T</Type>
+            <Position>(0.504687, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="115">
+            <Name>ORCTL2 mediates the transport of chloroquine and quinidine with efflux of protons</Name>
+            <Type>T</Type>
+            <Position>(0.498313, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="116">
+            <Name>Na+-dependent multivitamin transporter</Name>
+            <Type>T</Type>
+            <Position>(0.51781, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="117">
+            <Name>Concentrative transport (import) of a nucleoside and a sodium ions by solute carrier family 28 (sodium-coupled nucleoside transporter), member 1</Name>
+            <Type>T</Type>
+            <Position>(0.530559, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="118">
+            <Name>Concentrative transport (import) of a nucleoside and two sodium ions by solute carrier family 28 (sodium-coupled nucleoside transporter), member 3</Name>
+            <Type>T</Type>
+            <Position>(0.543307, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="119">
+            <Name>Concentrative transport (import) of nucleosides plus sodium ions by solute carrier family 28 (sodium-coupled nucleoside transporter), member 2</Name>
+            <Type>T</Type>
+            <Position>(0.550056, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="120">
+            <Name>Passive Transport of Water into Cells by Aquaporins</Name>
+            <Type>T</Type>
+            <Position>(0.582302, 0.355164, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="121">
+            <Name>Passive Transport of Water out of Cells by Aquaporins</Name>
+            <Type>T</Type>
+            <Position>(0.32096, 0.355164, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="122">
+            <Name>Passive Transport of Anions into Vesicles by Aquaporin-6</Name>
+            <Type>T</Type>
+            <Position>(0.243902, 0.218519, 0.0243902, 0.0222222)</Position>
+        </reaction>
+        <reaction j="123">
+            <Name>Passive Transport of Anions out of Vesicles by Aquaporin-6</Name>
+            <Type>T</Type>
+            <Position>(0.743902, 0.451852, 0.0243902, 0.0222222)</Position>
+        </reaction>
+        <reaction j="124">
+            <Name>Exchange of GDP for GTP by AVP:AVPR2:Heterotrimeric G(s) Complex</Name>
+            <Type>T</Type>
+            <Position>(0.649533, 0.226027, -4.6729, 0)</Position>
+        </reaction>
+        <reaction j="125">
+            <Name>G alpha (s) activates adenylate cyclase</Name>
+            <Type>K</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="126">
+            <Name>Activated Adenylate cyclase catalyses cAMP synthesis</Name>
+            <Type>B</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="127">
+            <Name>cAMP induces dissociation of inactive PKA tetramers</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="128">
+            <Name>Translocation of Aquaporin-2 from Intracellular Vesicles to the Apical Plasma Membrane</Name>
+            <Type>T</Type>
+            <Position>(0.48913, 0.38835, 0.0217391, 0.0291262)</Position>
+        </reaction>
+        <reaction j="129">
+            <Name>Passive Transport of Water into Cell by Aquaporin-1</Name>
+            <Type>T</Type>
+            <Position>(0.595051, 0.355164, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="130">
+            <Name>Passive Transport of Water into Cell by Aquaporin-2 Phosphorylated on Serine256</Name>
+            <Type>T</Type>
+            <Position>(0.606674, 0.355164, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="131">
+            <Name>Passive Transport of Water out of Cell by Aquaporin-1</Name>
+            <Type>T</Type>
+            <Position>(0.334083, 0.355164, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="132">
+            <Name>Passive Transport of Water out of Cell by Aquaporin-3</Name>
+            <Type>T</Type>
+            <Position>(0.463817, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="133">
+            <Name>Passive Transport of Water out of Cell by Aquaporin-4</Name>
+            <Type>T</Type>
+            <Position>(0.470941, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="134">
+            <Name>Reduction of extracellular Fe3+</Name>
+            <Type>K</Type>
+            <Position>(0.867415, 0.764954, 0.035533, 0.0421687)</Position>
+        </reaction>
+        <reaction j="135">
+            <Name>Oxidation of Fe2+ by ceruloplasmin</Name>
+            <Type>T</Type>
+            <Position>(0.770904, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="136">
+            <Name>Oxidation of Fe2+ by hephaestin</Name>
+            <Type>T</Type>
+            <Position>(0.595051, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="137">
+            <Name>The heme ring is cleaved by heme oxygenase</Name>
+            <Type>T</Type>
+            <Position>(0.279221, 0.0332512, 0.0304569, 0.0361446)</Position>
+        </reaction>
+        <reaction j="138">
+            <Name>Export of heme to the blood by ABCG2</Name>
+            <Type>T</Type>
+            <Position>(0.407574, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="139">
+            <Name>Acidification of Tf:TfR1 containing endosome</Name>
+            <Type>T</Type>
+            <Position>(0.0725389, 0.244755, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="140">
+            <Name>Reduction of Fe3+ in the endosome</Name>
+            <Type>K</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="141">
+            <Name>Iron diffuses out of the endosome</Name>
+            <Type>T</Type>
+            <Position>(0.331606, 0.0524476, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="142">
+            <Name>Ferritin stores iron</Name>
+            <Type>T</Type>
+            <Position>(0.158576, 0.340741, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="143">
+            <Name>ATP7A transports cytosolic Cu2+ to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.407574, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="144">
+            <Name>ATP7B transports cytosolic Cu2+ to Golgi lumen</Name>
+            <Type>T</Type>
+            <Position>(0.223529, 0.338583, 0.0352941, 0.023622)</Position>
+        </reaction>
+        <reaction j="145">
+            <Name>PMCA extrusion of Ca2+ </Name>
+            <Type>T</Type>
+            <Position>(0.55643, 0.720403, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="146">
+            <Name>Sequestration of Ca2+ to dense tubular network lumen</Name>
+            <Type>T</Type>
+            <Position>(0.0948509, 0.0551181, 0.0162602, 0.023622)</Position>
+        </reaction>
+        <reaction j="147">
+            <Name>ATP2A1-3 transport cytosolic Ca2+ to ER lumen</Name>
+            <Type>T</Type>
+            <Position>(0.319158, 0.29862, 0.0304569, 0.0361446)</Position>
+        </reaction>
+        <reaction j="148">
+            <Name>ATP2C1/2:Mg2+ transport cytosolic Ca2+ to Golgi lumen</Name>
+            <Type>T</Type>
+            <Position>(0.223529, 0.338583, 0.0352941, 0.023622)</Position>
+        </reaction>
+        <reaction j="149">
+            <Name>ATP1A:ATP1B:FXYD exchanges Na+ for K+</Name>
+            <Type>T</Type>
+            <Position>(0.327586, 0.551181, 0.0258621, 0.023622)</Position>
+        </reaction>
+        <reaction j="150">
+            <Name>ATP4A/12A:ATP4B exchanges K+ for H+</Name>
+            <Type>T</Type>
+            <Position>(0.618298, 0.209068, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="151">
+            <Name>P-type ATPase type IV subfamily transporters may mediate phospholipid transfer</Name>
+            <Type>T</Type>
+            <Position>(0.407949, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="152">
+            <Name>P-type ATPases type IV transport internal-facing APLs to external side of the plasma membrane</Name>
+            <Type>T</Type>
+            <Position>(0.473566, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="153">
+            <Name>HTR3:5HT transports Na+,K+, and Ca2+</Name>
+            <Type>T</Type>
+            <Position>(0.861267, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="154">
+            <Name>2GABRA:2GABRB:GABRG:GABA transports extracellular Cl- to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.470941, 0.574307, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="155">
+            <Name>GABRR pentamer:GABA transports extracellular Cl- to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.473566, 0.574307, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="156">
+            <Name>GLRA:GLRB:Gly transports extracellular Cl- to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.48144, 0.574307, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="157">
+            <Name>ASICs transport extracellular Na+ to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.910761, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="158">
+            <Name>SCNN channels transport extracellular Na+ to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.911886, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="159">
+            <Name>RAF1:SGK:TSC22D3:WPP ubiquitinates SCNN channels</Name>
+            <Type>T</Type>
+            <Position>(1.59471, 0.207792, -4.40529, 0)</Position>
+        </reaction>
+        <reaction j="160">
+            <Name>ANOs transport cytosolic Cl- to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.51781, 0.501259, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="161">
+            <Name>TPCN1/2 transport lysosomal Ca2+ to cytosol </Name>
+            <Type>T</Type>
+            <Position>(0.47644, 0.76378, 0.0314136, 0.023622)</Position>
+        </reaction>
+        <reaction j="162">
+            <Name>UNC79:UNC80:NALCN transports cytosolic Na+ to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.861267, 0.133501, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="163">
+            <Name>CLCN1/2/KA/KB transport cytosolic Cl- to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.530559, 0.501259, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="164">
+            <Name>CLCN3 exchanges Cl- for H+</Name>
+            <Type>T</Type>
+            <Position>(0.176724, 0.125984, 0.0258621, 0.023622)</Position>
+        </reaction>
+        <reaction j="165">
+            <Name>CLCN4/5/6 exchange Cl- for H+</Name>
+            <Type>T</Type>
+            <Position>(0.0725389, 0.181818, 0.0310881, 0.020979)</Position>
+        </reaction>
+        <reaction j="166">
+            <Name>CLCN7:OSTM1 exchanges Cl- for H+</Name>
+            <Type>T</Type>
+            <Position>(0.13089, 0.0551181, 0.0314136, 0.023622)</Position>
+        </reaction>
+        <reaction j="167">
+            <Name>TTYH1 transports cytosolic Cl- to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.543307, 0.501259, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="168">
+            <Name>TTYH2/3 transport cytosolic Cl- to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.550056, 0.501259, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="169">
+            <Name>BESTs transport cytosolic Cl- to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.606674, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="170">
+            <Name>BESTs transport cytosolic HCO3- to extracellular region</Name>
+            <Type>T</Type>
+            <Position>(0.51781, 0.428212, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="171">
+            <Name>RYR tetramers transport sarcoplasmic Ca2+ to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.909385, 0.0518519, 0.0194175, 0.0222222)</Position>
+        </reaction>
+        <reaction j="172">
+            <Name>SLC17A3-1 cotransports extracellular Na+ and Pi to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.279221, 0.29862, 0.0304569, 0.0361446)</Position>
+        </reaction>
+        <reaction j="173">
+            <Name>SLC9B1/C2 exchange Na+ for H+</Name>
+            <Type>T</Type>
+            <Position>(0.916385, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+        <reaction j="174">
+            <Name>SLC9C1 exchanges Na+ for H+</Name>
+            <Type>T</Type>
+            <Position>(0.402075, 0.121951, -0.414938, 0)</Position>
+        </reaction>
+        <reaction j="175">
+            <Name>TRPs transport extracellular Ca2+ to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.616379, 0.76378, 0.0258621, 0.023622)</Position>
+        </reaction>
+        <reaction j="176">
+            <Name>TRPM4,5 transport extracellular Na+ to cytosol</Name>
+            <Type>T</Type>
+            <Position>(0.913386, 0.0604534, 0.00224972, 0.0151134)</Position>
+        </reaction>
+    </reactionBlock>
+    <edgeBlock Num="904">
+        <edge j="0">
+            <Name>J</Name>
+            <Ends>(R, 64, C, 11)</Ends>
+        </edge>
+        <edge j="1">
+            <Name>J</Name>
+            <Ends>(R, 70, C, 14)</Ends>
+        </edge>
+        <edge j="2">
+            <Name>J</Name>
+            <Ends>(R, 128, C, 20)</Ends>
+        </edge>
+        <edge j="3">
+            <Name>J</Name>
+            <Ends>(R, 65, E, 1)</Ends>
+        </edge>
+        <edge j="4">
+            <Name>J</Name>
+            <Ends>(R, 71, P, 51)</Ends>
+        </edge>
+        <edge j="5">
+            <Name>J</Name>
+            <Ends>(R, 71, P, 52)</Ends>
+        </edge>
+        <edge j="6">
+            <Name>J</Name>
+            <Ends>(C, 10, R, 64)</Ends>
+        </edge>
+        <edge j="7">
+            <Name>J</Name>
+            <Ends>(C, 14, R, 71)</Ends>
+        </edge>
+        <edge j="8">
+            <Name>J</Name>
+            <Ends>(P, 51, R, 72)</Ends>
+        </edge>
+        <edge j="9">
+            <Name>A</Name>
+            <Ends>(P, 0, R, 0)</Ends>
+        </edge>
+        <edge j="10">
+            <Name>A</Name>
+            <Ends>(P, 1, R, 1)</Ends>
+        </edge>
+        <edge j="11">
+            <Name>A</Name>
+            <Ends>(P, 1, R, 2)</Ends>
+        </edge>
+        <edge j="12">
+            <Name>A</Name>
+            <Ends>(C, 0, R, 3)</Ends>
+        </edge>
+        <edge j="13">
+            <Name>A</Name>
+            <Ends>(C, 1, R, 4)</Ends>
+        </edge>
+        <edge j="14">
+            <Name>A</Name>
+            <Ends>(C, 2, R, 5)</Ends>
+        </edge>
+        <edge j="15">
+            <Name>A</Name>
+            <Ends>(C, 3, R, 6)</Ends>
+        </edge>
+        <edge j="16">
+            <Name>A</Name>
+            <Ends>(C, 4, R, 7)</Ends>
+        </edge>
+        <edge j="17">
+            <Name>A</Name>
+            <Ends>(C, 5, R, 8)</Ends>
+        </edge>
+        <edge j="18">
+            <Name>A</Name>
+            <Ends>(C, 6, R, 9)</Ends>
+        </edge>
+        <edge j="19">
+            <Name>A</Name>
+            <Ends>(P, 4, R, 10)</Ends>
+        </edge>
+        <edge j="20">
+            <Name>A</Name>
+            <Ends>(P, 5, R, 11)</Ends>
+        </edge>
+        <edge j="21">
+            <Name>A</Name>
+            <Ends>(P, 6, R, 12)</Ends>
+        </edge>
+        <edge j="22">
+            <Name>A</Name>
+            <Ends>(P, 7, R, 13)</Ends>
+        </edge>
+        <edge j="23">
+            <Name>A</Name>
+            <Ends>(P, 8, R, 14)</Ends>
+        </edge>
+        <edge j="24">
+            <Name>A</Name>
+            <Ends>(P, 9, R, 15)</Ends>
+        </edge>
+        <edge j="25">
+            <Name>A</Name>
+            <Ends>(P, 10, R, 16)</Ends>
+        </edge>
+        <edge j="26">
+            <Name>A</Name>
+            <Ends>(P, 11, R, 17)</Ends>
+        </edge>
+        <edge j="27">
+            <Name>A</Name>
+            <Ends>(P, 12, R, 18)</Ends>
+        </edge>
+        <edge j="28">
+            <Name>A</Name>
+            <Ends>(P, 13, R, 19)</Ends>
+        </edge>
+        <edge j="29">
+            <Name>A</Name>
+            <Ends>(P, 14, R, 20)</Ends>
+        </edge>
+        <edge j="30">
+            <Name>A</Name>
+            <Ends>(P, 15, R, 21)</Ends>
+        </edge>
+        <edge j="31">
+            <Name>A</Name>
+            <Ends>(P, 16, R, 22)</Ends>
+        </edge>
+        <edge j="32">
+            <Name>A</Name>
+            <Ends>(P, 17, R, 23)</Ends>
+        </edge>
+        <edge j="33">
+            <Name>A</Name>
+            <Ends>(P, 18, R, 24)</Ends>
+        </edge>
+        <edge j="34">
+            <Name>A</Name>
+            <Ends>(P, 19, R, 25)</Ends>
+        </edge>
+        <edge j="35">
+            <Name>A</Name>
+            <Ends>(P, 20, R, 26)</Ends>
+        </edge>
+        <edge j="36">
+            <Name>A</Name>
+            <Ends>(P, 21, R, 27)</Ends>
+        </edge>
+        <edge j="37">
+            <Name>A</Name>
+            <Ends>(P, 22, R, 28)</Ends>
+        </edge>
+        <edge j="38">
+            <Name>A</Name>
+            <Ends>(P, 23, R, 29)</Ends>
+        </edge>
+        <edge j="39">
+            <Name>A</Name>
+            <Ends>(P, 24, R, 30)</Ends>
+        </edge>
+        <edge j="40">
+            <Name>A</Name>
+            <Ends>(P, 25, R, 31)</Ends>
+        </edge>
+        <edge j="41">
+            <Name>A</Name>
+            <Ends>(P, 26, R, 32)</Ends>
+        </edge>
+        <edge j="42">
+            <Name>A</Name>
+            <Ends>(P, 27, R, 33)</Ends>
+        </edge>
+        <edge j="43">
+            <Name>A</Name>
+            <Ends>(P, 28, R, 34)</Ends>
+        </edge>
+        <edge j="44">
+            <Name>A</Name>
+            <Ends>(P, 29, R, 35)</Ends>
+        </edge>
+        <edge j="45">
+            <Name>A</Name>
+            <Ends>(P, 30, R, 36)</Ends>
+        </edge>
+        <edge j="46">
+            <Name>A</Name>
+            <Ends>(P, 31, R, 37)</Ends>
+        </edge>
+        <edge j="47">
+            <Name>A</Name>
+            <Ends>(P, 33, R, 39)</Ends>
+        </edge>
+        <edge j="48">
+            <Name>A</Name>
+            <Ends>(P, 34, R, 40)</Ends>
+        </edge>
+        <edge j="49">
+            <Name>A</Name>
+            <Ends>(P, 35, R, 41)</Ends>
+        </edge>
+        <edge j="50">
+            <Name>A</Name>
+            <Ends>(P, 35, R, 42)</Ends>
+        </edge>
+        <edge j="51">
+            <Name>A</Name>
+            <Ends>(P, 35, R, 43)</Ends>
+        </edge>
+        <edge j="52">
+            <Name>A</Name>
+            <Ends>(P, 35, R, 44)</Ends>
+        </edge>
+        <edge j="53">
+            <Name>A</Name>
+            <Ends>(P, 36, R, 45)</Ends>
+        </edge>
+        <edge j="54">
+            <Name>A</Name>
+            <Ends>(P, 36, R, 46)</Ends>
+        </edge>
+        <edge j="55">
+            <Name>A</Name>
+            <Ends>(P, 37, R, 47)</Ends>
+        </edge>
+        <edge j="56">
+            <Name>A</Name>
+            <Ends>(P, 38, R, 48)</Ends>
+        </edge>
+        <edge j="57">
+            <Name>A</Name>
+            <Ends>(P, 39, R, 49)</Ends>
+        </edge>
+        <edge j="58">
+            <Name>A</Name>
+            <Ends>(P, 40, R, 50)</Ends>
+        </edge>
+        <edge j="59">
+            <Name>A</Name>
+            <Ends>(C, 8, R, 52)</Ends>
+        </edge>
+        <edge j="60">
+            <Name>A</Name>
+            <Ends>(P, 41, R, 55)</Ends>
+        </edge>
+        <edge j="61">
+            <Name>A</Name>
+            <Ends>(P, 42, R, 56)</Ends>
+        </edge>
+        <edge j="62">
+            <Name>A</Name>
+            <Ends>(P, 43, R, 57)</Ends>
+        </edge>
+        <edge j="63">
+            <Name>A</Name>
+            <Ends>(P, 44, R, 58)</Ends>
+        </edge>
+        <edge j="64">
+            <Name>A</Name>
+            <Ends>(P, 45, R, 59)</Ends>
+        </edge>
+        <edge j="65">
+            <Name>A</Name>
+            <Ends>(P, 48, R, 66)</Ends>
+        </edge>
+        <edge j="66">
+            <Name>A</Name>
+            <Ends>(C, 15, R, 70)</Ends>
+        </edge>
+        <edge j="67">
+            <Name>A</Name>
+            <Ends>(P, 59, R, 79)</Ends>
+        </edge>
+        <edge j="68">
+            <Name>A</Name>
+            <Ends>(P, 49, R, 80)</Ends>
+        </edge>
+        <edge j="69">
+            <Name>A</Name>
+            <Ends>(P, 60, R, 81)</Ends>
+        </edge>
+        <edge j="70">
+            <Name>A</Name>
+            <Ends>(P, 61, R, 82)</Ends>
+        </edge>
+        <edge j="71">
+            <Name>A</Name>
+            <Ends>(P, 62, R, 83)</Ends>
+        </edge>
+        <edge j="72">
+            <Name>A</Name>
+            <Ends>(P, 63, R, 84)</Ends>
+        </edge>
+        <edge j="73">
+            <Name>A</Name>
+            <Ends>(P, 64, R, 85)</Ends>
+        </edge>
+        <edge j="74">
+            <Name>A</Name>
+            <Ends>(P, 65, R, 86)</Ends>
+        </edge>
+        <edge j="75">
+            <Name>A</Name>
+            <Ends>(P, 66, R, 87)</Ends>
+        </edge>
+        <edge j="76">
+            <Name>A</Name>
+            <Ends>(P, 67, R, 88)</Ends>
+        </edge>
+        <edge j="77">
+            <Name>A</Name>
+            <Ends>(P, 68, R, 89)</Ends>
+        </edge>
+        <edge j="78">
+            <Name>A</Name>
+            <Ends>(P, 69, R, 90)</Ends>
+        </edge>
+        <edge j="79">
+            <Name>A</Name>
+            <Ends>(P, 70, R, 91)</Ends>
+        </edge>
+        <edge j="80">
+            <Name>A</Name>
+            <Ends>(P, 71, R, 92)</Ends>
+        </edge>
+        <edge j="81">
+            <Name>A</Name>
+            <Ends>(P, 72, R, 93)</Ends>
+        </edge>
+        <edge j="82">
+            <Name>A</Name>
+            <Ends>(C, 16, R, 94)</Ends>
+        </edge>
+        <edge j="83">
+            <Name>A</Name>
+            <Ends>(C, 17, R, 95)</Ends>
+        </edge>
+        <edge j="84">
+            <Name>A</Name>
+            <Ends>(P, 74, R, 97)</Ends>
+        </edge>
+        <edge j="85">
+            <Name>A</Name>
+            <Ends>(P, 76, R, 99)</Ends>
+        </edge>
+        <edge j="86">
+            <Name>A</Name>
+            <Ends>(P, 77, R, 100)</Ends>
+        </edge>
+        <edge j="87">
+            <Name>A</Name>
+            <Ends>(P, 2, R, 101)</Ends>
+        </edge>
+        <edge j="88">
+            <Name>A</Name>
+            <Ends>(P, 78, R, 102)</Ends>
+        </edge>
+        <edge j="89">
+            <Name>A</Name>
+            <Ends>(P, 79, R, 103)</Ends>
+        </edge>
+        <edge j="90">
+            <Name>A</Name>
+            <Ends>(P, 80, R, 104)</Ends>
+        </edge>
+        <edge j="91">
+            <Name>A</Name>
+            <Ends>(P, 81, R, 106)</Ends>
+        </edge>
+        <edge j="92">
+            <Name>A</Name>
+            <Ends>(P, 81, R, 107)</Ends>
+        </edge>
+        <edge j="93">
+            <Name>A</Name>
+            <Ends>(P, 84, R, 113)</Ends>
+        </edge>
+        <edge j="94">
+            <Name>A</Name>
+            <Ends>(P, 85, R, 114)</Ends>
+        </edge>
+        <edge j="95">
+            <Name>A</Name>
+            <Ends>(P, 86, R, 115)</Ends>
+        </edge>
+        <edge j="96">
+            <Name>A</Name>
+            <Ends>(P, 87, R, 116)</Ends>
+        </edge>
+        <edge j="97">
+            <Name>A</Name>
+            <Ends>(P, 88, R, 117)</Ends>
+        </edge>
+        <edge j="98">
+            <Name>A</Name>
+            <Ends>(P, 89, R, 118)</Ends>
+        </edge>
+        <edge j="99">
+            <Name>A</Name>
+            <Ends>(P, 90, R, 119)</Ends>
+        </edge>
+        <edge j="100">
+            <Name>A</Name>
+            <Ends>(C, 18, R, 120)</Ends>
+        </edge>
+        <edge j="101">
+            <Name>A</Name>
+            <Ends>(C, 18, R, 121)</Ends>
+        </edge>
+        <edge j="102">
+            <Name>A</Name>
+            <Ends>(C, 23, R, 122)</Ends>
+        </edge>
+        <edge j="103">
+            <Name>A</Name>
+            <Ends>(C, 23, R, 123)</Ends>
+        </edge>
+        <edge j="104">
+            <Name>A</Name>
+            <Ends>(C, 28, R, 128)</Ends>
+        </edge>
+        <edge j="105">
+            <Name>A</Name>
+            <Ends>(C, 19, R, 129)</Ends>
+        </edge>
+        <edge j="106">
+            <Name>A</Name>
+            <Ends>(C, 20, R, 130)</Ends>
+        </edge>
+        <edge j="107">
+            <Name>A</Name>
+            <Ends>(C, 19, R, 131)</Ends>
+        </edge>
+        <edge j="108">
+            <Name>A</Name>
+            <Ends>(C, 21, R, 132)</Ends>
+        </edge>
+        <edge j="109">
+            <Name>A</Name>
+            <Ends>(C, 22, R, 133)</Ends>
+        </edge>
+        <edge j="110">
+            <Name>A</Name>
+            <Ends>(C, 17, R, 135)</Ends>
+        </edge>
+        <edge j="111">
+            <Name>A</Name>
+            <Ends>(C, 16, R, 136)</Ends>
+        </edge>
+        <edge j="112">
+            <Name>A</Name>
+            <Ends>(P, 91, R, 137)</Ends>
+        </edge>
+        <edge j="113">
+            <Name>A</Name>
+            <Ends>(C, 29, R, 138)</Ends>
+        </edge>
+        <edge j="114">
+            <Name>A</Name>
+            <Ends>(C, 30, R, 139)</Ends>
+        </edge>
+        <edge j="115">
+            <Name>A</Name>
+            <Ends>(P, 93, R, 141)</Ends>
+        </edge>
+        <edge j="116">
+            <Name>A</Name>
+            <Ends>(C, 31, R, 142)</Ends>
+        </edge>
+        <edge j="117">
+            <Name>A</Name>
+            <Ends>(P, 94, R, 143)</Ends>
+        </edge>
+        <edge j="118">
+            <Name>A</Name>
+            <Ends>(P, 95, R, 144)</Ends>
+        </edge>
+        <edge j="119">
+            <Name>A</Name>
+            <Ends>(P, 96, R, 145)</Ends>
+        </edge>
+        <edge j="120">
+            <Name>A</Name>
+            <Ends>(P, 97, R, 146)</Ends>
+        </edge>
+        <edge j="121">
+            <Name>A</Name>
+            <Ends>(P, 98, R, 147)</Ends>
+        </edge>
+        <edge j="122">
+            <Name>A</Name>
+            <Ends>(C, 32, R, 148)</Ends>
+        </edge>
+        <edge j="123">
+            <Name>A</Name>
+            <Ends>(C, 33, R, 149)</Ends>
+        </edge>
+        <edge j="124">
+            <Name>A</Name>
+            <Ends>(C, 34, R, 150)</Ends>
+        </edge>
+        <edge j="125">
+            <Name>A</Name>
+            <Ends>(P, 99, R, 151)</Ends>
+        </edge>
+        <edge j="126">
+            <Name>A</Name>
+            <Ends>(P, 99, R, 152)</Ends>
+        </edge>
+        <edge j="127">
+            <Name>A</Name>
+            <Ends>(C, 35, R, 153)</Ends>
+        </edge>
+        <edge j="128">
+            <Name>A</Name>
+            <Ends>(C, 36, R, 154)</Ends>
+        </edge>
+        <edge j="129">
+            <Name>A</Name>
+            <Ends>(C, 37, R, 155)</Ends>
+        </edge>
+        <edge j="130">
+            <Name>A</Name>
+            <Ends>(C, 38, R, 156)</Ends>
+        </edge>
+        <edge j="131">
+            <Name>A</Name>
+            <Ends>(C, 39, R, 157)</Ends>
+        </edge>
+        <edge j="132">
+            <Name>A</Name>
+            <Ends>(C, 40, R, 158)</Ends>
+        </edge>
+        <edge j="133">
+            <Name>A</Name>
+            <Ends>(P, 103, R, 160)</Ends>
+        </edge>
+        <edge j="134">
+            <Name>A</Name>
+            <Ends>(P, 104, R, 161)</Ends>
+        </edge>
+        <edge j="135">
+            <Name>A</Name>
+            <Ends>(C, 42, R, 162)</Ends>
+        </edge>
+        <edge j="136">
+            <Name>A</Name>
+            <Ends>(P, 3, R, 163)</Ends>
+        </edge>
+        <edge j="137">
+            <Name>A</Name>
+            <Ends>(P, 105, R, 164)</Ends>
+        </edge>
+        <edge j="138">
+            <Name>A</Name>
+            <Ends>(P, 106, R, 165)</Ends>
+        </edge>
+        <edge j="139">
+            <Name>A</Name>
+            <Ends>(C, 43, R, 166)</Ends>
+        </edge>
+        <edge j="140">
+            <Name>A</Name>
+            <Ends>(P, 107, R, 167)</Ends>
+        </edge>
+        <edge j="141">
+            <Name>A</Name>
+            <Ends>(P, 108, R, 168)</Ends>
+        </edge>
+        <edge j="142">
+            <Name>A</Name>
+            <Ends>(P, 109, R, 169)</Ends>
+        </edge>
+        <edge j="143">
+            <Name>A</Name>
+            <Ends>(P, 109, R, 170)</Ends>
+        </edge>
+        <edge j="144">
+            <Name>A</Name>
+            <Ends>(C, 44, R, 171)</Ends>
+        </edge>
+        <edge j="145">
+            <Name>A</Name>
+            <Ends>(P, 111, R, 172)</Ends>
+        </edge>
+        <edge j="146">
+            <Name>A</Name>
+            <Ends>(P, 112, R, 173)</Ends>
+        </edge>
+        <edge j="147">
+            <Name>A</Name>
+            <Ends>(P, 113, R, 175)</Ends>
+        </edge>
+        <edge j="148">
+            <Name>A</Name>
+            <Ends>(P, 114, R, 176)</Ends>
+        </edge>
+        <edge j="149">
+            <Name>I</Name>
+            <Ends>(P, 100, R, 157)</Ends>
+        </edge>
+    </edgeBlock>
+</Pathway>

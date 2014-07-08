@@ -1,60 +1,91 @@
 edge.size() 36
- 80 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 67 -1 67 -1 82 -1 -1
- 69 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 69 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 83 -1 67 -1 82 -1 -1
- 67 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 67 -1 67 -1 82 -1 -1
- 67 -1 67 -1 82 -1 -1
- 67 -1 67 -1 82 -1 -1
- 67 -1 67 -1 82 -1 -1
- 80 2 67 0 82 0 -1
- 80 0 67 0 82 0 -1
- 80 3 67 1 82 1 -1
- 80 1 67 1 82 1 -1
- 67 1 80 3 82 2 -1
- 80 4 80 3 82 2 -1
- 80 4 80 5 82 2 -1
- 67 1 80 5 82 2 -1
- 80 6 80 7 82 3 -1
- 67 0 80 7 82 3 -1
- 67 0 80 2 82 3 -1
- 80 6 80 2 82 3 -1
- 80 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 69 -1 67 -1 82 -1 -1
- 80 -1 67 -1 82 -1 -1
- 80 -1 82 1 82 -1 -1
- 67 2 82 1 82 3 -1
-_complexName.size()	3
+ 80 7 67 2 82 0 -1
+ 80 0 67 2 82 0 -1
+ 67 2 67 3 82 1 -1
+ 69 -1 67 3 82 1 -1
+ 80 1 67 0 82 2 -1
+ 69 0 67 0 82 2 -1
+ 80 2 67 0 82 2 -1
+ 80 3 67 0 82 2 -1
+ 83 0 67 0 82 2 -1
+ 67 2 67 4 82 3 -1
+ 80 8 67 4 82 3 -1
+ 80 9 67 5 82 4 -1
+ 80 10 67 5 82 4 -1
+ 80 8 67 5 82 4 -1
+ 67 5 67 6 82 5 -1
+ 67 6 67 7 82 6 -1
+ 67 3 67 8 82 7 -1
+ 67 7 67 8 82 7 -1
+ 80 13 67 9 82 8 -1
+ 80 11 67 9 82 8 -1
+ 80 14 67 10 82 9 -1
+ 80 12 67 10 82 9 -1
+ 67 10 80 14 82 10 -1
+ 80 15 80 14 82 10 -1
+ 80 15 80 16 82 10 -1
+ 67 10 80 16 82 10 -1
+ 80 17 80 18 82 11 -1
+ 67 9 80 18 82 11 -1
+ 67 9 80 13 82 11 -1
+ 80 17 80 13 82 11 -1
+ 80 4 67 1 82 12 -1
+ 80 5 67 1 82 12 -1
+ 69 0 67 1 82 12 -1
+ 80 6 67 1 82 12 -1
+ 80 9 82 1 82 5 -1
+ 67 11 82 1 82 11 -1
+_complexName.size()	12
+	NR1D1 (REV-ERBA):heme:Corepressor	nucleoplasm	Reactome DB_ID: 1368079	
+	ROR-alpha:Coactivator	nucleoplasm	Reactome DB_ID: 1368124	
+	BMAL1:CLOCK/NPAS2	cytosol	Reactome DB_ID: 400360	
+	p-BMAL1:p-CLOCK/NPAS2:DNA	nucleoplasm	Reactome DB_ID: 421315	
+	BMAL1:CLOCK/NPAS2:CRY	cytosol	Reactome DB_ID: 549449	
+	CRY:PER:Kinase	cytosol	Reactome DB_ID: 421287	
+	p-CRY:p-PER:Kinase	cytosol	Reactome DB_ID: 421296	
+	p-CRY:p-PER:Kinase	nucleoplasm	Reactome DB_ID: 400277	
+	BMAL1:CLOCK/NPAS2:CRY:PER	nucleoplasm	Reactome DB_ID: 400273	
 	Beta-TrCP1:PER	cytosol	Reactome DB_ID: 400368	
 	FBXL3:CRY	nucleoplasm	Reactome DB_ID: 400351	
 	SCF-beta-TrCP1 complex	cytosol	Reactome DB_ID: 174155	
-_physicalEntityName.size()	0
-_proteinName.size()	8
-	p-PER2	cytosol			
-	p-CRY2	nucleoplasm			
+_physicalEntityName.size()	1
+		
+_proteinName.size()	19
+	ARNTL	cytosol	Reactome DB_ID: 400353	UniProt:O00327	ARNTL
+	NR1D1	nucleoplasm	Reactome DB_ID: 375499	UniProt:P20393	NR1D1
+	NCOR1	nucleoplasm	Reactome DB_ID: 442501	UniProt:O75376	NCOR1
+	HDAC3	nucleoplasm	Reactome DB_ID: 442464	UniProt:O15379	HDAC3
+	p300	nucleoplasm	Reactome DB_ID: 381325	UniProt:Q09472	EP300
+	PPARGC1A	nucleoplasm	Reactome DB_ID: 442481	UniProt:Q9UBK2	PPARGC1A
+	RORA	nucleoplasm	Reactome DB_ID: 400325	UniProt:P35398	RORA
+	NPAS2	cytosol	Reactome DB_ID: 400314	UniProt:Q99743	NPAS2
+	CRY2	cytosol	Reactome DB_ID: 400255	UniProt:Q49AN0	CRY2
+	CSNK1D	cytosol	Reactome DB_ID: 400304	UniProt:P48730	CSNK1D
+	PER2	cytosol	Reactome DB_ID: 400399	UniProt:O15055	PER2
+	p-PER2	cytosol	Reactome DB_ID: 400331	UniProt:O15055	PER2
+	p-CRY2	nucleoplasm	Reactome DB_ID: 400328	UniProt:Q49AN0	CRY2
 	BTRC	cytosol	Reactome DB_ID: 174237	UniProt:Q9Y297	BTRC
 	FBXL3	nucleoplasm	Reactome DB_ID: 400380	UniProt:Q9UKT7	FBXL3
-	UBC(609-684)	nucleoplasm			
-	ub-p-CRY2	nucleoplasm			
-	UBC(609-684)	cytosol			
-	ub-p-PER2	cytosol			
-_reactionName.size()	4
+	UBC(609-684)	nucleoplasm	Reactome DB_ID: 939868	UniProt:P0CG48	UBC
+	ub-p-CRY2	nucleoplasm	Reactome DB_ID: 517935	UniProt:Q49AN0	CRY2
+	UBC(609-684)	cytosol	Reactome DB_ID: 939165	UniProt:P0CG48	UBC
+	ub-p-PER2	cytosol	Reactome DB_ID: 517835	UniProt:O15055	PER2
+_reactionName.size()	13
+	D	Formation of BMAL1:CLOCK/NPAS2 Heterodimer
+	D	Phosphorylation and Nuclear Translocation of the BMAL1:CLOCK/NPAS2 Heterodimer
+	D	NR1D1 (REV-ERBA) Binds Heme and Corepressors
+	D	Stabilization of Unphosphorylated BMAL1:CLOCK/NPAS2 Heterodimer by CRY Proteins
+	D	Formation of CRY:PER:Kinase Complex
+	T	Phosphorylation of CRY and PER Proteins
+	T	Translocation of CRY:PER:Kinase Ternary Complex into the Nucleus
+	D	Binding of CRY:PER Heterodimer to the BMAL1:CLOCK/NPAS2 Heterodimer
 	D	Binding of Beta-TrCP1 to phosphorylated PER proteins
 	D	Binding of FBXL3 to Phosphorylated CRY proteins
 	T	Ubiquitination of CRY Proteins
 	T	Ubiquitination of PER Proteins
-_smallMoleculeName.size()	0
+	D	Formation of ROR-alpha Coactivator Complex
+_smallMoleculeName.size()	1
+	ferriheme b	cytosol	Reactome DB_ID: 1237011	ferriheme b [ChEBI:36144]
 _DnaName.size()	0
 _EmptyName.size()	0
 _ANodeName.size()	0
