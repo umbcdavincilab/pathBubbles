@@ -1,0 +1,207 @@
+edge.size() 99
+ 67 0 67 1 82 0 -1
+ 80 1 67 1 82 0 -1
+ 83 1 83 0 82 1 -1
+ 67 2 67 1 82 1 -1
+ 67 2 67 1 82 1 -1
+ 83 1 83 2 82 2 -1
+ 67 4 67 2 82 2 -1
+ 67 4 67 2 82 2 -1
+ 67 4 67 5 82 -1 -1
+ 80 -1 67 5 82 -1 -1
+ 83 1 67 5 82 3 -1
+ 67 6 83 -1 82 3 -1
+ 67 6 83 -1 82 3 -1
+ 80 -1 67 7 82 -1 -1
+ 67 4 67 7 82 -1 -1
+ 83 1 83 3 82 4 -1
+ 67 8 67 7 82 4 -1
+ 67 8 67 7 82 4 -1
+ 67 8 80 -1 82 5 -1
+ 67 8 67 4 82 5 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 4 67 9 82 -1 -1
+ 80 -1 67 9 82 -1 -1
+ 83 1 67 9 82 6 -1
+ 67 10 83 -1 82 6 -1
+ 67 10 83 -1 82 6 -1
+ 67 10 67 4 82 -1 -1
+ 67 10 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 4 67 -1 82 -1 -1
+ 67 -1 67 11 82 -1 -1
+ 80 -1 67 11 82 -1 -1
+ 83 1 83 -1 82 7 -1
+ 67 12 67 11 82 7 -1
+ 67 12 67 11 82 7 -1
+ 80 -1 67 3 82 -1 -1
+ 67 4 67 3 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 13 82 -1 -1
+ 80 -1 67 13 82 -1 -1
+ 67 14 83 -1 82 8 -1
+ 67 14 67 13 82 8 -1
+ 83 1 67 13 82 8 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 14 67 -1 82 -1 -1
+ 80 2 83 4 82 9 -1
+ 80 2 67 -1 82 9 -1
+ 67 14 67 -1 82 9 -1
+ 67 14 83 5 82 9 -1
+ 83 1 67 -1 82 9 -1
+ 67 14 67 -1 82 10 -1
+ 67 14 83 -1 82 10 -1
+ 83 1 83 -1 82 10 -1
+ 80 3 67 -1 82 10 -1
+ 80 3 83 -1 82 10 -1
+ 83 1 80 4 82 11 -1
+ 80 5 83 6 82 11 -1
+ 80 5 83 7 82 11 -1
+ 80 2 67 15 82 12 -1
+ 80 7 67 15 82 12 -1
+ 67 16 67 15 82 13 -1
+ 67 16 83 8 82 13 -1
+ 83 1 83 9 82 13 -1
+ 67 16 80 2 82 14 -1
+ 67 16 80 8 82 14 -1
+ 80 8 67 17 82 15 -1
+ 67 17 67 -1 82 -1 -1
+ 80 3 67 18 82 -1 -1
+ 80 -1 67 18 82 -1 -1
+ 83 1 67 18 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 80 3 82 -1 -1
+ 67 -1 80 9 82 -1 -1
+ 80 9 67 19 82 16 -1
+ 67 19 67 -1 82 17 -1
+ 67 1 82 1 82 1 -1
+ 67 2 82 1 82 2 -1
+ 67 5 82 1 82 3 -1
+ 67 7 82 1 82 4 -1
+ 67 9 82 1 82 6 -1
+ 80 0 82 1 82 8 -1
+ 67 -1 82 1 82 9 -1
+ 67 -1 82 1 82 10 -1
+ 80 6 82 1 82 11 -1
+ 67 15 82 1 82 13 -1
+ 67 18 82 1 82 -1 -1
+ 67 3 82 0 82 1 -1
+ 80 5 82 0 82 13 -1
+_complexName.size()	20
+	LEPR:JAK2	plasma membrane	Reactome DB_ID: 2586523	
+	LEP:LEPR:JAK2	plasma membrane	Reactome DB_ID: 2586512	
+	LEP:LEPR:p-JAK2	plasma membrane	Reactome DB_ID: 2586521	
+	LEP:p-LEPR:p-JAK2:SOCS3	plasma membrane	Reactome DB_ID: 2672301	
+	LEP:p-LEPR:p-JAK2	plasma membrane	Reactome DB_ID: 2586541	
+	LEP:p-LEPR:p-JAK2:SHP2	plasma membrane	Reactome DB_ID: 2671758	
+	LEP:p-LEPR:p-JAK2:p-SHP2	plasma membrane	Reactome DB_ID: 2671749	
+	LEP:p-LEPR:p-JAK2:STAT5	plasma membrane	Reactome DB_ID: 2671867	
+	LEP:p-LEPR:p-JAK2:p-STAT5	plasma membrane	Reactome DB_ID: 2671835	
+	LEP:p-LEPR:p-JAK2:STAT3	plasma membrane	Reactome DB_ID: 2671864	
+	LEP:p-LEPR:p-JAK2:p-STAT3	plasma membrane	Reactome DB_ID: 2671874	
+	LEP:p-LEPR:p-JAK2:SH2B1:IRS1/2	plasma membrane	Reactome DB_ID: 2671846	
+	LEP:p-LEPR:p-JAK2:SH2B1:p-IRS1/2	plasma membrane	Reactome DB_ID: 2671844	
+	RAS:RAF:14-3-3	plasma membrane	Reactome DB_ID: 109789	
+	Activated RAF1 complex	plasma membrane	Reactome DB_ID: 109793	
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1:MEK1	cytosol	Reactome DB_ID: 109843	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+_physicalEntityName.size()	0
+_proteinName.size()	10
+	OBRl	plasma membrane	Reactome DB_ID: 2586526	UniProt:P48357-1	LEPR
+	LEP	extracellular region	Reactome DB_ID: 400490	UniProt:P41159	LEP
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	p-S218,222-MEK1	cytosol			
+	p-T286,292-MEK1	cytosol			
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERK1	cytosol	Reactome DB_ID: 59284	UniProt:P27361	MAPK3
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+_reactionName.size()	18
+	D	LEP Binds LEPR:JAK2
+	T	JAK2 Autophosphorylates in Response to Leptin
+	T	JAK2 Phosphorylates LEPR
+	T	JAK2 Phosphorylates SHP2 (PTPN11) in Response to Leptin
+	T	JAK2 Phosphorylates STAT5 in Response to Leptin
+	B	Phosphorylated STAT5 Dissociates from Leptin Receptor
+	T	JAK2 Phosphoryates STAT3 in Response to Leptin
+	T	JAK2 Phosphorylates IRS in Response to Leptin
+	T	Stabilisation of RAF by further phosphorylation
+	T	RAF1  phosphorylates MEK1
+	T	RAF1 phosphorylates MEK2
+	T	Inactivation of MEK1 by p34cdc2
+	D	MEK1 binds ERK-1
+	T	MEK1 phosphorylates ERK-1
+	B	Dissociation of phospho-ERK-1:MEK1
+	T	Dimerisation of phospho-ERK-1
+	T	Dimerisation of phospho-ERK-2
+	T	Nuclear translocation of phospho-ERK-2 dimer
+_smallMoleculeName.size()	10
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

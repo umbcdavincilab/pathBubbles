@@ -97,8 +97,7 @@ PathBubble1::PathBubble1(int pathwayID, int size, int x, int y, OpenGLScene* Sce
 	
 	//menuType=-1;
 	//_pieMenuState=0;
-	_mousePressed=false;
-	_scene->controlKeyisOn=false;
+	_mousePressed=false;	
 	highlighted.clear();	
 }
 
@@ -593,17 +592,16 @@ bool PathBubble1::PathWayDataInitiation()
 				_Dna.resize(DnaNum);
 				_reaction.resize(reactionNum);
 				_compartment.resize(compartmentNum);
-				_Empty.resize(EmptyNum);
-					
+				_Empty.resize(EmptyNum);					
 			}
 
 			preLocateNodes(complexPos,proteinPos,smallMoleculePos);
 
 			updateVisibleNodes(); 	
 			
-			QFile file1("before_HierarchicalLayout()");
+			/*QFile file1("before_HierarchicalLayout()");
 			file1.open(QIODevice::WriteOnly | QIODevice::Truncate);
-			file1.close();
+			file1.close();*/
 
 			vector<QRectF> reactionPos1;
 			HierarchicalLayout(_whole, reactionPos1);	
@@ -709,9 +707,7 @@ bool PathBubble1::PathWayDataInitiation()
 		else
 			dataID=0;
 	}
-	
-
-	
+		
 	if(drawOrthology)
 	{
 		pwdParser->readOrthologySymbol(getOrthFileName(), orthologySymbol);
@@ -719,9 +715,7 @@ bool PathBubble1::PathWayDataInitiation()
 	}
 	crossTalk = _scene->pwdParser->matchSymbol(_scene->crossTalkSymbol,  _proteinName);
 	rateLimit = _scene->pwdParser->matchSymbol(_scene->rateLimitSymbol,  _proteinName);	
-	
-	
-	
+			
 	//work right place to set -scale 	
 	_scene->_ANodeContain.resize(_scene->_proteinPos.size());
 	if(toplevel)
@@ -823,35 +817,39 @@ bool PathBubble1::PathWayDataInitiation()
 			_scale=_ScaleBackup;
 		}
 		loadPreStoredGraph();
-		getGraphToBePaint();
-		//_scene->backupItemPos(m_pathwayID, complexPos, proteinPos, smallMoleculePos, DnaPos, EmptyPos, reactionPos, physicalEntityPos, compartmentPos, ANodePos, _scale, dCenter, drawSmallmolecule);				
+		
+		getGraphToBePaint();		
 		QString pathName = _scene->pwdParser->getPathGraphHie(_pathName); 	
 	}
 	return true;
 }
 
-void PathBubble1::loadPreStoredGraph()
+bool PathBubble1::loadPreStoredGraph()
 {
     if(lastStoredfileName.size()==0)
 	{
 		lastStoredfileName = _scene->pwdParser->loadPathGraphPreparation(_pathName, drawSmallmolecule);
 	}		
 	bool hflag=false;
-	if(lastStoredfileName!="data/Reactome_Pathway_Data/pathwayTable" || lastStoredfileName.size()!=0)
+	if(lastStoredfileName!="data/Reactome_Pathway_Data/pathwayTable/pathFile" || lastStoredfileName.size()!=0)
 	{
 		if(!lastStoredfileName.contains(".xml"))
 		    lastStoredfileName=lastStoredfileName+".xml";
-			hflag=readPathWay(lastStoredfileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, ANodePos, edge);	
+
+		hflag=readPathWay(lastStoredfileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, ANodePos, edge);	
+		
+		if(hflag)
+		{	
 			_scene->resetItemPos_afterReadPathway(m_pathwayID, complexPos, proteinPos,  smallMoleculePos,  DnaPos,  EmptyPos,  reactionPos,  physicalEntityPos, compartmentPos,  ANodePos);
 			for (int i = 0; i < _scene->_pathBubbles.size(); i ++)		
 			{
-			int size=_scene->_pathBubbles.size();
-			PathBubble1 * tmp =_scene->_pathBubbles[i];			
-			if(_scene->_pathBubbles[i])
-			if(_scene->_pathBubbles[i]!=NULL && _scene->_pathBubbles[i]!=this)
-			if(_scene->_pathBubbles[i]->m_pathwayID>=0 && _scene->_pathBubbles[i]->m_pathwayID < _scene->_pathBubbles.size())
-			if(_scene->_pathBubbles[i]->getPathwayName().compare(_pathName)==0 )
-			{   
+				int size=_scene->_pathBubbles.size();
+				PathBubble1 * tmp =_scene->_pathBubbles[i];			
+				if(_scene->_pathBubbles[i])
+				if(_scene->_pathBubbles[i]!=NULL && _scene->_pathBubbles[i]!=this)
+				if(_scene->_pathBubbles[i]->m_pathwayID>=0 && _scene->_pathBubbles[i]->m_pathwayID < _scene->_pathBubbles.size())
+				if(_scene->_pathBubbles[i]->getPathwayName().compare(_pathName)==0 )
+				{   
 					ANodeRect.resize(ANodePos.size());
 					for(int i=0; i<ANodePos.size(); i++)
 					{
@@ -859,8 +857,9 @@ void PathBubble1::loadPreStoredGraph()
 						ANodeRect[i] = QRectF(-2000,-2000,-1000,-1000);
 					}	
 					break;
-			}
-		}			
+				}
+		    }
+		}
 	}		
 	if(hflag)
 	{
@@ -877,6 +876,8 @@ void PathBubble1::loadPreStoredGraph()
 	}
 	else 
 		_labelName=_name;
+
+	return hflag;
 }
 
 void PathBubble1::shrinkData(
@@ -1209,22 +1210,27 @@ void PathBubble1::shrinkData(
 	//start from 1
 bool PathBubble1::readOriPathWayData(vector<vector<QString>> &_complexName, vector<vector<QString>> &_physicalEntityName, vector<vector<QString>> &_proteinName, vector<vector<QString>> &_reactionName, vector<vector<QString>> &_degradationName, vector<vector<QString>> &_smallMoleculeName, vector<vector<QString>> &_EmptyName, vector<vector<QString>> &_DnaName, vector<vector<QString>> &_ANodeName)  
 {	
-        QString tname;
+        QString tname,cname;
 		const char * ename;
 		string sname;
 		vector<vector<int>> _8convertedProtein, _8convertedComplex, _8convertedEntity;		
 	    vector<vector<int>> _stepRoot; 
-
-		tname = _name + "1pathway.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		/*int dis=_name.lastIndexOf("/");
+	    QString pathpart=_name.mid(0,dis), namepart=_name.mid(dis,_name.size()-dis);
+	    cname = pathpart + "tableFile/" + namepart;
+		*/
+		cname =  _name;
+		
+		tname = cname + "1pathway.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		stepNum=_scene->pwdParser->read1pathway(ename, _1pathway);			
 
-		tname = _name + "2pathwayStepOrder.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "2pathwayStepOrder.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		stepNum=_scene->pwdParser->read2pathwayStepOrder(ename, stepNum, _pathwayStep);		
 
-		tname = _name + "3pathwayStepReactionControl.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "3pathwayStepReactionControl.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		_scene->pwdParser->read3pathwayStep_reactionAndcontrol(ename, stepNum, _3pathwayStepCatalysis, _3pathwayStepReaction);    	
 
-		tname = _name + "4biochemicalReaction.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "4biochemicalReaction.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		vector<int> temp = _scene->pwdParser->read4biochemicalReaction(ename, _scene->_biochemicalReaction[m_pathwayID], _reactionName, _scene->_degradation[m_pathwayID], _degradationName, _EmptyName, smallMolecule, Dna, reactionNum, physicalEntityNum, smallMoleculeNum, DnaNum, degradationNum);
 		int tcount=0;
 		for(int j=0; j<temp.size(); j++)
@@ -1236,26 +1242,25 @@ bool PathBubble1::readOriPathWayData(vector<vector<QString>> &_complexName, vect
 
 		manuLocateCompartment(compartmentPos);	
 
-		tname = _name + "5catalysisControl.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "5catalysisControl.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		_scene->pwdParser->read5catalysisANDcontrol(ename, _Catalysis, _5Control);
 
-		tname = _name + "6complex.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "6complex.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		complexNum = _scene->pwdParser->read6complex(ename, _complexName, _scene->_complexContain[m_pathwayID], _scene->CompartmentContain[m_pathwayID], _scene->_compartmentName[m_pathwayID]);
 		//processComplexContains(_scene->_complexContain[m_pathwayID]);
 
 		processComplexContains(_scene->_complexContain[m_pathwayID]);
 
-		tname = _name + "7protein.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "7protein.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		//proteinNum = read7protein(ename, _scene->_proteinName[m_pathwayID]);
 		proteinNum = _scene->pwdParser->read7protein(ename, _proteinName, _scene->CompartmentContain[m_pathwayID], _scene->_compartmentName[m_pathwayID], compartmentPos);
 
 			
-		tname = _name + "8convertedEntity.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "8convertedEntity.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		_scene->pwdParser->read8convertedEntity(ename, proteinNum, complexNum, physicalEntityNum, _8convertedProtein, _8convertedComplex, _8convertedEntity, _scene->CompartmentContain[m_pathwayID], _scene->_compartmentName[m_pathwayID]);
 
-		tname = _name + "9smallEntity.txt"; sname= tname.toStdString();  ename=sname.c_str();
+		tname = cname + "9smallEntity.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		_scene->pwdParser->read9smallEntity(ename,  _smallMoleculeName, _DnaName, _scene->CompartmentContain[m_pathwayID], _scene->_compartmentName[m_pathwayID], smallMoleculeNum, DnaNum);		
-				
 			
 		EmptyNum=_EmptyName.size();
 
@@ -1268,7 +1273,7 @@ bool PathBubble1::readOriPathWayData(vector<vector<QString>> &_complexName, vect
 		
 		complexNum = complexNum +1;   proteinNum = proteinNum +1;   smallMoleculeNum = smallMoleculeNum+1;
 		DnaNum = DnaNum + 1;          EmptyNum = EmptyNum+1;        reactionNum = reactionNum+1;             physicalEntityNum = physicalEntityNum+1;
-		ANodeNum = ANodeNum+1;        degradationNum = degradationNum+1;
+		ANodeNum = ANodeNum+1;        degradationNum = degradationNum<0? 1: degradationNum+1;
 
 		QRectF rect(-1000,-1000,0,0);
 		vector<QRectF> temp1(complexNum, rect);
@@ -1298,8 +1303,7 @@ bool PathBubble1::readOriPathWayData(vector<vector<QString>> &_complexName, vect
 		ANodeNum=0;
 		vector<QRectF> temp99(ANodeNum, rect);
 		ANodePos=temp99;
-					
-		
+			
 		compartmentNum=_scene->_compartmentName[m_pathwayID].size();
 		_protein.resize(proteinNum);
 		_complex.resize(complexNum);	
@@ -2192,10 +2196,10 @@ void PathBubble1::HierarchicalLayout(bool whole, vector<QRectF> reactionPos1, bo
 	{
 	   Rank0=EdgetoNode(edge, _compartment, rflag); //for compartment	
 	}
-	QFile file1("after_HierarchicalLayout()");
+	/*QFile file1("after_HierarchicalLayout()");
 	file1.open(QIODevice::WriteOnly | QIODevice::Truncate);
 	file1.close();
-
+	*/
 	
 	/*for(int i=0; i<edge.size(); i++)
 	{	
@@ -2568,7 +2572,7 @@ void PathBubble1::pathWayPoiRecord(vector<QRectF> complexPos, vector<QRectF> pro
 	    pathName= pathName + "_S";
 	}
 	pathName= pathName + ".poi";
-	//QString fileName = QFileDialog::getSaveFileName(0, tr("Save Pathway Graph as xml file"), pathName,".xml (*.xml)");//"c:\\file.x", "X files (*.x)"
+	
 	QFile file(pathName);
 	if(!file.open(QIODevice::WriteOnly | QIODevice::Truncate))
 		return;
@@ -2820,7 +2824,7 @@ bool PathBubble1::pathWayPoiRead(vector<QRectF> &complexPos, vector<QRectF> &pro
 	    pathName= pathName + "_S";
 	}
 	pathName= pathName + ".poi";
-	//QString fileName = QFileDialog::getSaveFileName(0, tr("Save Pathway Graph as xml file"), pathName,".xml (*.xml)");//"c:\\file.x", "X files (*.x)"
+	
 	QFile file(pathName);
 	if(!file.open(QIODevice::ReadOnly | QIODevice::Text))
 		return false;
@@ -3288,7 +3292,7 @@ void PathBubble1::pathWayRecord(vector<vector<int>> edge, vector<vector<QString>
 	
     QTextStream out(&file);
 
-		out << "edge.size()" << " " <<  edge.size() << "\n";	
+	out << "edge.size()" << " " <<  edge.size() << "\n";	
 	for(int i=0; i<edge.size(); i++)
 	{
 		for(int j=0; j<edge[i].size(); j++)
@@ -4337,7 +4341,7 @@ PathBubble1::~PathBubble1()
 	}	
 	//_pieMenuState=0;
 	_mousePressed=false;
-	_scene->controlKeyisOn=false;
+	//_scene->controlKeyisOn=false;
 	highlighted.clear();	
 	for(int i=0; i<_scene->_pathBubbles.size();	i++)
 	{
@@ -4442,57 +4446,14 @@ PathBubble1::~PathBubble1()
 	_Catalysis.clear(); _5Control.clear(); 		
 	//XL.clear(); YB.clear(); XR.clear(); YT.clear();
 
-	//_scene->pwdParser->findFillsinFolder("data/Reactome_Pathway_Data/pathwayGraph", _pathName);
-
-	 QString fileName = "";//fileComboBox->currentText();//"_1pathway" only work on emapty "" case
-     QString text = "";//textComboBox->currentText();
-    
-     //First we eliminate any previous search results by setting the table widgets row count to zero. Then we retrieve the specified file name, text and directory path from the respective comboboxes.
-	 int count=0;
-     QDir currentDir = QDir("data/Reactome_Pathway_Data/pathwayGraph");
-     QStringList files;
-     if (fileName.isEmpty())
-         fileName = "*";
-    files = currentDir.entryList(QStringList(fileName),
-                                  QDir::Files | QDir::NoSymLinks);
-
-    if (!text.isEmpty())
-         files = _scene->pwdParser->findFiles(currentDir, files, text);
 	
-	QString pureName;
-	QString num;
-	int lid;	
-
-	num = _curFileName;
-	lid = num.lastIndexOf('/');
-	num = num.mid(lid+1,num.size()-lid);
-	lid = num.indexOf('_');
-	num = num.mid(0,lid);
-
-	_pathName = _pathName + "_" + QString::number(m_pathwayID);
-	num = num + "_" + QString::number(m_pathwayID);
-
-	for (int i = 0; i < files.size(); ++i) 
-	{
-	        lid=files[i].lastIndexOf('.');
-			pureName = files[i];
-			pureName = pureName.mid(0, lid);
-            lid = pureName.lastIndexOf('_');
-			pureName = pureName.mid(0, lid);
-			if(pureName==_pathName || pureName==num) //remove this line if use folder
-			{
-		        //count = num.toInt(); //convert QString to ini/ convert QString to num
-				currentDir.remove(files[i]);
-			}
-	}
-
 	m_pathwayID=-1;
-	/* QDir currentDir= QDir("data/Reactome_Pathway_Data/pathwayGraph");
+	/* QDir currentDir= QDir("data/Reactome_Pathway_Data/temp_PathwayGraph");
     //QDir currentDir = QDir(path);
     char filepath[256];
 	 QStringList files;
 
-    //theFolder = QOpenDir("data/Reactome_Pathway_Data/pathwayGraph");
+    //theFolder = QOpenDir("data/Reactome_Pathway_Data/temp_PathwayGraph");
 	 files = currentDir.entryList(QStringList(""),
                                   QDir::Files | QDir::NoSymLinks);
 
@@ -4881,8 +4842,8 @@ void PathBubble1::reMoveNotShared(vector<set<vector<int>>> HBackup)
 				name.resize(5);
 			for(int k=0; k< mList.size(); k++) 
 			{
-				if(k==i)
-					continue;
+				//if(k==i)
+				//	continue;
 				PathBubble1* pbubble1 = mList[k];	
 				switch(type)
 				{
@@ -4900,10 +4861,13 @@ void PathBubble1::reMoveNotShared(vector<set<vector<int>>> HBackup)
 				{
 					if(_scene->_pathBubbles[j]==NULL || !_scene->_pathBubbles[j]->isVisible())
 						continue;
-					int pid1=j, did1=_scene->_pathBubbles[j]->dataID;			
+					int pid1=j, did1=_scene->_pathBubbles[j]->dataID;	
+					
 					for(set<int>::iterator it=shared[j].begin(); it!=shared[j].end(); it++)
 					{
 						int id1=*it;
+						if(k==i && id1 == id)
+							continue;
 						vector<QString> name1;				
 						switch(type)
 						{
@@ -5475,7 +5439,6 @@ bool PathBubble1::storeExpressed()
 int PathBubble1::findLinkedLevel(int pid, int type, int id)
 {	//return if there are linked found	
 	
-
 	PathBubble1* pbubble = _scene->_pathBubbles[pid];		 								 		   		 
 	if(pbubble->linkedStored.empty())
 		return 0;
@@ -6671,13 +6634,59 @@ void PathBubble1::ExtendLinkedNodesSize()
 		} 
 }
 
+set<vector<int>> PathBubble1::findNeighorsForAProtein(int type, int id)
+{
+	set<vector<int>> nodes;
+	vector<vector<int>> edgeRecord;
+	if(id>=0)
+	switch(type)
+	{
+		case 'P': edgeRecord = _protein[id]; break;
+		case 'L': edgeRecord = _ANode[id]; break;
+		case 'S': edgeRecord = _smallMolecule[id]; break;
+		case 'C': edgeRecord = _complex[id]; break;
+		case 'D': edgeRecord = _Dna[id]; break;
+		case 'R': edgeRecord = _reaction[id]; break;
+		case 'E': edgeRecord = _entity[id]; break;
+	}
+	for(int i=0; i<edgeRecord.size(); i++)
+	{
+	    vector<int> item = edgeRecord[i];
+		vector<vector<int>> edgeRecord1;
+		int type1=item[0], id1=item[1];
+		if(id1>=0)
+		switch(type1)
+		{
+			case 'P': edgeRecord1 = _protein[id1]; break;
+			case 'L': edgeRecord1 = _ANode[id1]; break;
+			case 'S': edgeRecord1 = _smallMolecule[id1]; break;
+			case 'C': edgeRecord1 = _complex[id1]; break;
+			case 'D': edgeRecord1 = _Dna[id1]; break;
+			case 'R': edgeRecord1 = _reaction[id1]; break;
+			case 'E': edgeRecord1 = _entity[id1]; break;
+		}
+		for(int j=0; j<edgeRecord1.size(); j++)
+		{
+			vector<int> item1 = edgeRecord1[j];
+			if(item1[1]>=0)
+		       nodes.insert(item1);		
+		}
+	}
+	for(int j=0; j<edgeRecord.size(); j++)
+	{
+		vector<int> item1 = edgeRecord[j];
+		if(item1[1]>=0)
+		  nodes.insert(item1);		
+	}
+	return nodes;
+}
 
 void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int cflag, int wflag, bool Andflag)
 {       
 	//expand the sharedprotein lenghth as needed
 	if(pflag*cflag!=0||pflag*wflag!=0||cflag*wflag!=0)
 		return;
-
+	
 	set<vector<int>> sID;
     for(int i=0; i<mlist.size(); i++) 
 	{
@@ -6716,12 +6725,21 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 				sID.insert(tmp);			
 			}
 	}
-
-
+	if(sID.size()>0)
+	{
+		for(int i=0; i<mlist.size(); i++) 
+	    {
+			for(int j=0; j<mlist[i]->linkedEdge.size();j++)
+		    { 
+			    mlist[i]->linkedEdge[j].clear();
+			    mlist[i]->clearLinked();
+			}
+	    }
+	}
 	for(int i=0; i<mlist.size(); i++) 
 	{
 			PathBubble1* pbubble = mlist[i];	
-			vector<int> temp1(3,0),temp2(3,0);		
+			vector<int> temp1(3,0),temp2(3,0), temp5(3,0);	
 			vector<vector<int>> edge1(2,temp1),edge2(2,temp1);			  
 			//pbubble->ExtendLinkedNodesSize();
 			//put edges in edgeconnections edge to myEdge	
@@ -6749,6 +6767,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 					int Pid=item[0], pid=item[1],cid=item[2], id=item[3], type=item[4];
 					vector<int> PidVector, idVector, typeVector;
 					PidVector.push_back(Pid), idVector.push_back(id), typeVector.push_back(type);
+					vector<int> Node1(3,-1), Node2(3,-1);
 					if(type == 'M')
 					{
 						idVector[0]=cid;
@@ -6757,6 +6776,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 							vector<int> temp=*it;
 							PidVector.push_back(Pid), idVector.push_back(temp[1]), typeVector.push_back(temp[0]);
 						}
+						Node1[0]=Pid;  Node1[1]='M'; Node1[2]=cid; 						
 					}
 					//vector<int> node1(2,0),node2(2,0);
 					//node1[0]=type,  node1[1]=id;						
@@ -6764,8 +6784,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 					for(set<vector<int>>::iterator jt=sID.begin(); jt!=sID.end(); jt++)
 					{	
 						//count2++;
-						//countid=count1<=count2?count1:count2;
-						
+						//countid=count1<=count2?count1:count2;						
 						vector<int> item1=*jt;
 						int Pid1=item1[0], pid1=item1[1], cid1=item1[2], id1=item1[3], type1=item1[4];
 						vector<int> PidVector1, idVector1, typeVector1;
@@ -6781,47 +6800,140 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 							for(set<vector<int>>::iterator it=_scene->CompartmentContain[Pid1][cid1].begin(); it!=_scene->CompartmentContain[Pid1][cid1].end(); it++)
 							{   
 								vector<int> temp=*it;
-								PidVector1.push_back(Pid1), idVector1.push_back(temp[1]), typeVector1.push_back(temp[0]);
+								PidVector1.push_back(Pid1), typeVector1.push_back(temp[0]), idVector1.push_back(temp[1]);
 							}
+							Node2[0]=Pid1;  Node2[1]='M'; Node2[2]=cid1; 		
 						}
-						//PathBubble1 *cbubble = _scene->_pathBubbles[Pid1];						
+						//PathBubble1 *cbubble = _scene->_pathBubbles[Pid1];	
+						//prune away interset pathes
+						set< vector< vector<int> > > miniPathSet;
+
 						for(int k=0; k<PidVector.size(); k++)
 						for(int l=0; l<PidVector1.size(); l++)
 						{	
 							if(!_scene->_pathBubbles[PidVector[k]]->isItemVisible(typeVector[k], idVector[k]) || !_scene->_pathBubbles[PidVector1[l]]->isItemVisible(typeVector1[l], idVector1[l]) )
 								continue;
 
+							vector< vector<int> > endsVector;
+							vector<int> end1, end2;  
+							end1.push_back(PidVector[k]);   end1.push_back(typeVector[k]); end1.push_back(idVector[k]);  
+							end2.push_back(PidVector1[l]);  end2.push_back(typeVector1[l]); end2.push_back(idVector1[l]);
+
+							//endsVector.push_back(end1);  endsVector.push_back(end2);							
 							vector< vector< set< vector< vector<int> > > > > pathVector = _scene->_wholeGraph->findPathforTwoNodes(PidVector[k], typeVector[k], idVector[k], PidVector1[l], typeVector1[l], idVector1[l]); //cbubble->findPathforTwoNodes(type, id, type1, id1, cbubble->edge);
 							//if(pflag==1 && !cflag && !wflag)
+							//prune away previously search							
 							{
 								for(int pi=0; pi<pathVector.size(); pi++)
 								{
 									for(int ri=0; ri<pathVector[pi].size(); ri++)
-									for(set< vector< vector<int> > >::iterator it1 = pathVector[pi][ri].begin(); it1 !=pathVector[pi][ri].end(); it1++)
 									{
-										_scene->_pathBubbles[pi]->linkedEdge[pi].insert(*it1);
-										vector< vector<int> > AEdge = *it1;					
-										linkedNode.insert(AEdge[0]);
-										linkedNode.insert(AEdge[1]);
-										edgeSet.insert(AEdge);	
-									}
-									//store them into vector < vector< vector<int> > >  pathVectors; //pathVectors[0] record major pathes, different color will be assigned to show branches of pathes
+										set< vector< vector<int> > > newPathSet;
+										for(set< vector< vector<int> > >::iterator it1 = pathVector[pi][ri].begin(); it1 !=pathVector[pi][ri].end(); it1++)
+										{
+											//_scene->_pathBubbles[pi]->linkedEdge[pi].insert(*it1);
+											vector< vector<int> > AEdge = *it1;					
+											linkedNode.insert(AEdge[0]);
+											linkedNode.insert(AEdge[1]);
+											edgeSet.insert(AEdge);	
+											if(miniPathSet.find(AEdge)==miniPathSet.end())
+											{
+												newPathSet.insert(AEdge);	
+												miniPathSet.insert(AEdge);	
+											}
+										}
+										pathVector[pi][ri]= newPathSet;
+									}									
+									if(type1 == 'M' || type == 'M') //remove path inside it
+									{
+										for(int ri=0; ri<pathVector[pi].size(); ri++)
+										{
+											set< vector< vector<int> > > newPathSet;
+											for(set< vector< vector<int> > >::iterator it1 = pathVector[pi][ri].begin(); it1 !=pathVector[pi][ri].end(); it1++)
+											{
+												//_scene->_pathBubbles[pi]->linkedEdge[pi].insert(*it1);
+												vector< vector<int> > AEdge = *it1;					
+												int _pid0 = AEdge[0][0], _type0 = AEdge[0][1], _id0 = AEdge[0][2];
+												int _pid1 = AEdge[1][0], _type1 = AEdge[1][1], _id1 = AEdge[1][2];
+												bool flag0=false, flag1=false;
+												vector<int> node, node0, node1;
+												node0.push_back(_type0), node0.push_back(_id0);
+												node1.push_back(_type1), node1.push_back(_id1);
+
+												if(type1 == 'M')
+												{
+													if(_pid0==Pid1 )
+													{
+														node = node0;
+														if(_scene->CompartmentContain[Pid1][cid1].find(node)!=_scene->CompartmentContain[Pid1][cid1].end())
+															flag0=true;
+													}
+													if(flag0 && _pid1==Pid1)
+													{
+														node = node1;														    
+														if(_scene->CompartmentContain[Pid1][cid1].find(node)!=_scene->CompartmentContain[Pid1][cid1].end())
+															flag1=true;
+													}															
+												}
+												if(type == 'M' && !(flag1 && flag0))
+												{
+													flag0=false, flag1=false;
+													if(_pid0==Pid)
+													{
+														node = node0;														    
+														if(_scene->CompartmentContain[Pid][cid].find(node)!=_scene->CompartmentContain[Pid][cid].end())
+															flag0=true;
+													}
+													if(flag0 && _pid1==Pid)
+													{
+														node = node1;														    
+														if(_scene->CompartmentContain[Pid][cid].find(node)!=_scene->CompartmentContain[Pid][cid].end())
+															flag1=true;
+													}
+												}
+												if(!flag0 || !flag1)
+													newPathSet.insert(AEdge);
+											}
+											pathVector[pi][ri]= newPathSet;
+										}	
+									} //if(type1 == 'M')
+
+									//store them into vector < vector< vector<int> > >  pathVectors; //pathVectors[0] record major pathes, different color will be assigned to show branches of pathes									
 									//branch nodes                      				
 									if(_scene->pathVectors.size()<=pi)
+									{
 										_scene->pathVectors.resize(pi+1);
+										_scene->pathEnds.resize(pi+1);
+									}
 
-									//int branchsize = pathVector[pi].size();
-
+									//int branchsize = pathVector[pi].size();										
 									for(int ri=0; ri<pathVector[pi].size(); ri++)
 						    		//for(set< vector< vector<int> > >::iterator it1 = pathVector[pi][ri].begin(); it1 !=pathVector[pi][ri].end(); it1++)
 									{
-										//vector< vector<int> > AEdge = *it1;		
-										_scene->pathVectors[pi].push_back(pathVector[pi][ri]);
+										for(set< vector< vector<int> > >::iterator it1 = pathVector[pi][ri].begin(); it1 !=pathVector[pi][ri].end(); it1++)
+										     _scene->_pathBubbles[pi]->linkedEdge[pi].insert(*it1);
 										
-									}
+										endsVector.clear();
+										if(type == 'M')
+											endsVector.push_back(Node1);
+										endsVector.push_back(end1);
+										for(set< vector< vector<int> > >::iterator it1 = pathVector[pi][ri].begin(); it1 !=pathVector[pi][ri].end(); it1++)
+										{
+											vector<vector<int>> ends = *it1;
+											endsVector.push_back(ends[0]);	
+											endsVector.push_back(ends[1]);	
+										}
+										endsVector.push_back(end2);	
+										if(type1 == 'M')
+											endsVector.push_back(Node2); //start and end point of path stored in the begining and the end
+										_scene->pathEnds[pi].push_back(endsVector);
+										_scene->pathVectors[pi].push_back(pathVector[pi][ri]);	
+									}																		
 								}						
 							}
-						}
+						}//for(int k=0; k<PidVector.size(); k++) //for(int l=0; l<PidVector1.size(); l++)
+						//remove those within the same compartment if type == 'M'
+						
 					}//for(set<vector<int>>::iterator jt=sID.begin(); jt!=sID.end(); jt++)				
 			    }
 				
@@ -6835,7 +6947,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 						int Pid=item[0], pid=item[1],cid=item[2], id=item[3], type=item[4];
 					    
 						vector<int> starter(3,0);	
-						starter[0]=Pid, starter[1]=type, starter[2]=id;		
+						starter[0]=Pid, starter[1]=type, starter[2]= type=='M'? cid:id;		
 
 						for(set<vector<int>>::iterator it=sID.begin(); it!=sID.end(); it++)
 						{
@@ -6987,6 +7099,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 									edgeRecord3.clear();
 									node=edgeRecord2[k][l];
 									temp2[0]=pbubble->m_pathwayID; temp2[1]=node[0]; temp2[2]=node[1];	
+									temp5[0]=pbubble->m_pathwayID; temp5[1]=type; temp5[2]=id;
 									if(temp2[1]=='R')
 									{   
 										if( temp2[2]>=0 && _scene->_reactionPos[pbubble->m_pathwayID][temp2[2]].x()>-999.99)         edgeRecord3=pbubble->_reaction[temp2[2]];      
@@ -7010,10 +7123,10 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 											
 										vector<vector<vector<int>>> tEdge;
 										tEdge.resize(4);
-										tEdge[0]=findSpannedEdge(scene->edgeconnections, temp2);
-										tEdge[1]=findSpannedEdge(scene->edgeconnections_A, temp2);
-										tEdge[2]=findSpannedEdge(scene->edgeconnections_I, temp2);
-										tEdge[3]=findSpannedEdge(scene->edgeconnections_4, temp2);   
+										tEdge[0]=findSpannedEdge(scene->edgeconnections, temp5);
+										tEdge[1]=findSpannedEdge(scene->edgeconnections_A, temp5);
+										tEdge[2]=findSpannedEdge(scene->edgeconnections_I, temp5);
+										tEdge[3]=findSpannedEdge(scene->edgeconnections_4, temp5);   
 										for(int i=0; i<4; i++)
 										{
 											vector<vector<int>> sEdge=tEdge[i];//=findSpannedEdge(scene->edgeconnections, temp2);
@@ -7157,6 +7270,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 							}	
 							else if(node[4] == 'W')
 							{
+
 							}
 							else
 							{
@@ -7221,6 +7335,23 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 					   linkedNode=linkedNode1;
 				}	
 
+				if(_scene->pathVectors.size()<=Pid)
+				{
+					_scene->pathVectors.resize(Pid+1);
+				    _scene->pathEnds.resize(Pid+1);
+				}
+				if( !linkedNode.empty() && type=='M')
+				{
+						vector < vector<int> >  _endsVector;
+						vector<int> node;
+						node.push_back(pbubble->m_pathwayID); 
+						node.push_back(type);
+						node.push_back(cid);
+						_endsVector.push_back(node);
+						_scene->pathEnds[Pid].push_back(_endsVector);					   
+					
+				}
+				
 				//4. ////// store linked
 				 //for c link, p link, and pa link
 				for(set<vector<int>>::iterator it=linkedNode.begin(); it!=linkedNode.end(); it++)
@@ -7243,6 +7374,7 @@ void PathBubble1::searchLinkedNode(vector<PathBubble1 *> mlist, int pflag, int c
 						case 'M': _scene->_pathBubbles[pid]->linkedCompartment[pid].insert(id);  break;
 					}		
 				}
+				
 	        }//for(set<vector<int>>::iterator it=sID.begin(); it!=sID.end(); it++)
 	  } //else if(_scene->linkSearchType == 0)			
 	  /////////////////
@@ -9402,7 +9534,10 @@ void PathBubble1::multiplyDna(vector<vector<QString> > &_DnaName)
 	 vector<vector<int>> record(_scene->CompartmentContain[m_pathwayID].size(), unit);
 	
 	 vector<vector<QString>> newName;	
-	 newName.push_back(_DnaName[0]);
+	 if(_DnaName.size()==0)
+		 return; 
+	 
+
 	 set<int> sset;
 	 for(int i=0; i<_DnaName.size(); i++)
 	 {
@@ -9794,6 +9929,8 @@ bool PathBubble1::newSmallmolecularNameRead(vector<vector<QString>> &_smallMolec
 void PathBubble1::smallMoleculetoNewName(vector<vector<QString>> &_smallMoleculeName, vector<int> smallMoleculeNameID)
 {		 
 	vector<vector<QString>> newName;	
+	if(_smallMoleculeName.size()<=0)
+		return;
 	for(int i=0; i<smallMoleculeNameID.size(); i++)
 	{
 		newName.push_back(_smallMoleculeName[smallMoleculeNameID[i]]);	
@@ -9988,25 +10125,6 @@ vector<vector<vector<int>>> PathBubble1::EdgetoNode(vector<vector<int>> edge, ve
 			 }
 		}	
 	}
-		// change small moleculer compartmentcontain
-		//vector<vector<vector<vector<int>>>>
-		//_smallMolecule, _reaction
-
-		/*for(int i=0; i<_scene->_biochemicalReaction[m_pathwayID].size(); i++)
-		{
-			if(reactionPos[i].x()>-10000)
-			{
-				for(int j=0; j<_scene->_biochemicalReaction[m_pathwayID][i].size(); j++)
-				{
-					vector<int> nodes = _scene->_biochemicalReaction[m_pathwayID][i][j];
-					for(int k=0; k<nodes.size(); k=k+2)		
-					{
-						 _smallMolecule
-						 _reaction
-					}
-				}
-			}
-		}*/
 	
 
 	CompartmentContain[CompartmentContain.size()-1].clear();
@@ -12098,7 +12216,7 @@ vector< set< vector< vector<int> > > > PathBubble1::findPathforTwoNodes(int type
 			GRAPH[edge_t[0]].push_back(edge_t[1]);
 		}
 	}
-	glEnd();
+	
 	
 	for(set<vector<vector<int> > >::iterator it=updatedEdge_3.begin(); it!=updatedEdge_3.end(); it++)
 	{
@@ -12125,7 +12243,7 @@ vector< set< vector< vector<int> > > > PathBubble1::findPathforTwoNodes(int type
 			GRAPH[edge_t[0]].push_back(edge_t[1]);
 		}	
 	}			     
-	glEnd();
+
 	
 	int eid=0;
 	for(set<vector<vector<int> > >::iterator it=updatedEdge_4.begin(); it!=updatedEdge_4.end(); it++)
@@ -13051,7 +13169,42 @@ vector<vector<vector<int>>> PathBubble1::recordEdge(vector<vector<vector<int>>> 
 	return edge;
 }
 
+void PathBubble1::addItemSelectedtoHighLighted(vector<int> itemSelected, set<vector<int>> &highlighted)
+{
+	vector<int> item(2,0);
+	for(int i=0; i<itemSelected.size(); i=i+2)
+	{
+		item[0] = itemSelected[i], item[1]=itemSelected[i+1];		
+			highlighted.insert(item);
+	}
 
+}
+
+bool PathBubble1::highLightedtoItemSelected(set<vector<int>> highlighted, vector<int> &itemSelected)
+{
+	if(highlighted.empty())
+		return false;
+	vector<int> item(2,0);
+	set<vector<int>> haveIt;
+	for(int i=0; i<itemSelected.size(); i=i+2)
+	{
+		item[0]=itemSelected[i], item[1]=itemSelected[i+1];
+		//if(highlighted.find(item)!=highlighted.end())
+		haveIt.insert(item);
+	}
+	for(set<vector<int>>::iterator it=highlighted.begin(); it!=highlighted.end(); it++)
+	{
+		vector<int> item=*it;	
+		item.resize(2);
+		if(haveIt.find(item)==haveIt.end())
+		{
+			itemSelected.push_back(item[0]);
+		    itemSelected.push_back(item[1]);
+			haveIt.insert(item);
+		}
+	}
+	return true;
+}
 
 
 QPointF PathBubble1::getLocation(int pathwayid, int stepid)
@@ -13423,9 +13576,7 @@ int PathBubble1::whichPathway(int id)
 }
 
 
-
-
-int PathBubble1::read1pathway(const char *name, vector<set<int>> &_1pathway)
+/*int PathBubble1::read1pathway(const char *name, vector<set<int>> &_1pathway)
 {//return maximum step
 	char ch[100];
 	FILE *fp = fopen(name,"r"); 	
@@ -13490,1003 +13641,7 @@ int PathBubble1::read1pathway(const char *name, vector<set<int>> &_1pathway)
 	 fclose(fp);	
 	 return max;
 }
-
-int PathBubble1::read2pathwayStepOrder(const char *name, int stepNum, vector<vector<int>> &_pathwayStep)
-{
-	char ch[100];
-	FILE *fp = fopen(name,"r"); 	
-	char e;			
-	int pid, cid, pid2=-1, cid2=-1;
-	int max=-100000;	
-	do
-	{
-		  //fscanf(fp,"Pathway Step%d Pathway Step%d\n",&pid, &cid);		
-		 vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			  if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else if(e>-1) phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		 if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 pid= atoi(result.c_str());  
-			  else if(i==1) cid= atoi(result.c_str());
-		  }
-
-	      if(pid2==pid&&cid2==cid)
-		      break;
-		  if(cid>max)
-			  max=cid;			  
-
-		  if(pid>max)
-			  max=pid;			  
-		  
-	      pid2=pid;   		  
-		  cid2=cid;  
-	 }while(true);
-	 fclose(fp);
-
-	 if(max>stepNum)
-		 stepNum=max;
-
-	_pathwayStep.clear();
-	vector<int> empty;
-	vector<vector<int>> temp(stepNum+1,empty);
-	_pathwayStep=temp;
-
-	fp = fopen(name,"r"); 
-
-	pid2=-1, cid2=-1;
-	do
-	{
-		  //fscanf(fp,"Pathway Step%d Pathway Step%d\n",&pid, &cid);	
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			  if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else if(e>-1) phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		 if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 pid= atoi(result.c_str());  
-			  else if(i==1) cid= atoi(result.c_str());
-		  }
-
-	      if(pid2==pid&&cid2==cid)
-		      break;
-
-		  _pathwayStep[pid].push_back(cid);			  
-		  
-	      pid2=pid;   		  
-		  cid2=cid;  
-	 }while(true);
-	 fclose(fp);
-
-	 return stepNum;
-}
-
-void PathBubble1::read3pathwayStep_reactionAndcontrol(const char *name, int stepNum, vector<vector<int>> &_3pathwayStepCatalysis, vector<int> &_3pathwayStepReaction)
-{//return maximum step
-	char ch[100];
-	char c,o,c2,o2;
-	FILE *fp = fopen(name,"r"); 
-	char e;			
-	int pid, sid, pid2=-1, sid2=-1;
-	c2='x';
-	o2='x';
-
-	vector<int> temp(stepNum+1, -1);
-	vector<int> unit(4,-1);
-	vector<vector<int>> utemp(stepNum+1, unit);
-
-	_3pathwayStepCatalysis.clear();
-	_3pathwayStepCatalysis=utemp;
-	_3pathwayStepReaction=temp;
-
-	do
-	{
-		  //fscanf(fp,"Pathway Step%d %c",&pid, &c);	
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 pid= atoi(result.c_str());  
-			  else if(i==1) sid= atoi(result.c_str());
-		  }
-		  if(pid==9&&sid==9)
-			  pid=pid;
-		  c=buffer[1][0];
-		  o=buffer[1][1]; 	     		 
-		  if(c=='C') 
-		  {
-			  //fscanf(fp,"%c", &o);					 
-			  if(o=='a')//related to Control
-			  {
-				  string result;
-				  for(unsigned int j = 0; j < buffer[1].size();j++)
-                  if(isdigit(buffer[1][j]))
-                  {   
-				     result.append(1,buffer[1][j]);                 
-			      }	
-			      sid= atoi(result.c_str());  
-				  //fscanf(fp,"talysis%d\n", &sid);		
-			      _3pathwayStepCatalysis[pid][0]=sid;
-			  }
-			  else if(o=='o')//related to Catalysis
-			  {
-				  string result;
-				  for(unsigned int j = 0; j < buffer[1].size();j++)
-                  if(isdigit(buffer[1][j]))
-                  {   
-				     result.append(1,buffer[1][j]);                 
-			      }	
-			      sid= atoi(result.c_str()); 
-				  //fscanf(fp,"ntrol%d\n", &sid);		
-			      _3pathwayStepCatalysis[pid][1]=sid;
-			  }
-		  }
-		  else if(c=='D') //related to degradation
-		  {
-			  string result;
-			  for(unsigned int j = 0; j < buffer[1].size();j++)
-              if(isdigit(buffer[1][j]))
-              {   
-			     result.append(1, buffer[1][j]);                 
-			  }	
-			  sid= atoi(result.c_str()); 
-			  //fscanf(fp,"egradation%d\n", &sid);		
-			  _3pathwayStepCatalysis[pid][2]=sid;
-		  }
-		  else if(c=='P') //connected to new pathway
-		  {
-			   string result;
-			   for(unsigned int j = 0; j < buffer[1].size();j++)
-               if(isdigit(buffer[1][j]))
-               {   
-				     result.append(1,buffer[1][j]);                 
-			   }	
-			   sid= atoi(result.c_str()); 
-			   //fscanf(fp,"athway%d\n", &sid);		
-			  _3pathwayStepCatalysis[pid][3]=sid;
-		  }		 
-		  else if(c=='B')//connected to a reaction
-		  {    
-			   string result;
-			   for(unsigned int j = 0; j < buffer[1].size();j++)
-               if(isdigit(buffer[1][j]))
-               {   
-				     result.append(1,buffer[1][j]);                 
-			   }	
-			   sid= atoi(result.c_str()); 
-			   //fscanf(fp,"iochemical Reaction%d\n", &sid);		
-			  _3pathwayStepReaction[pid]=sid;
-		  }
-		  else
-		  {
-		    sid=sid;		  
-		  }
-
-		  if(pid2==pid&&sid2==sid&&(c=='C'?(c==c2&&o==o2):c==c2))
-		 	  break;
-	      pid2=pid;   		  
-		  sid2=sid;  
-		  c2=c; 
-		  o2=o; 
-	 }while(true);	
-}
-
-
-vector<int> PathBubble1::read4biochemicalReaction(const char *name, vector<vector<vector<int>>> &_biochemicalReaction, vector<vector<QString>> &_reactionName, vector<vector<vector<int>>> &_degradation, vector<vector<QString>> &_degradationName, vector<vector<QString>> &_EmptyName, int &reactionNum, int &physicalEntityNum, int &smallMoleculeNum, int &DnaNum, int &degradationNum)
-{   //complex/Dna/Physical Entity/protein/small molecule
-	vector<int> empty;	
-	char ch[100];
-	char c1,c2,o1,o2,c12,c22,o12,o22;
-	FILE *fp = fopen(name,"r"); 
-	if(!fp)
-		return empty;
-	//vector<vector<QString>> _EmptyName;
-	char e;	
-	int bid, lid, rid, bid2=-1, lid2=-1, rid2=-1;
-	c12='x'; c22='x';
-	o12='x'; o22='x';
-	int max=0, demax=0, smax=0, dmax=0, emax=0, nmax=0;
-	do
-	{
-	      //fscanf(fp,"Biochemical Reaction%d",&bid);	
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  if(buffer[0][0]=='D')
-			  e=e;
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);  
-				  
-			  }	
-			  if(i==0)	 bid= atoi(result.c_str());  
-			  else if(i==2) lid= atoi(result.c_str());
-			  else if(i==3) rid= atoi(result.c_str());
-		  }
-          if(bid==40)
-			  bid=bid;
-		  	  
-		  c1=buffer[2][0];
-		  if(buffer.size()>3&&buffer[3].size()>0)
-		     c2=buffer[3][0];
-		  else c2='n';
-
-		  o1=buffer[2][1];
-		  
-		  if(buffer.size()>3&&buffer[3].size()>0)
-			  o2=buffer[3][1];
-		  else o2='n';
-
-		  if(c1=='C')
-		  {
-			  //fscanf(fp,"omplex%d", &lid);				  	  
-		  }
-		  else if(c1=='D')
-		  {
-			    //fscanf(fp,"na%d", &lid);	
-			  	if(lid>dmax)
-			        dmax=lid;
-		  }	
-		  else if(c1=='P')
-		  {
-			  //fscanf(fp,"%c",&o1);	
-			  if(o1=='h')
-			  {
-				 if(lid>emax)
-			        emax=lid;	
-		      }
-			   
-		  }
-          else if(c1=='S')
-		  {
-			  //fscanf(fp,"mall Molecule%d", &lid);	
-			    if(lid>smax)
-			    smax=lid;
-		  }			   
-		  //fscanf(fp," %c",&c2);	
-		  if(c2=='C')
-		  {
-			  //fscanf(fp,"omplex%d", &rid);				    
-		  }
-		  else if(c2=='D')
-		  {
-			  //fscanf(fp,"na%d", &rid);	
-			  if(rid>dmax)
-			    dmax=rid;	
-		  }	
-		  else if(c2=='P')
-		  {
-			   if(o2=='h')
-			  {
-				 if(rid>emax)
-			        emax=rid;	
-		      }			   
-		  }
-          else if(c2=='S')
-		  {
-			  if(rid>smax)
-			    smax=rid;	
-		  }	
-		  else if(c2=='n') //empty for some case
-		  {
-			  if(buffer[0][0]=='B')
-			  {
-				  nmax++;
-				  //_biochemicalReaction[bid][1].push_back('N');				  
-			      //_biochemicalReaction[bid][1].push_back(1);				  
-			  }
-		  }		
-		  bid2=bid;   		  
-		  lid2=lid;  
-		  rid2=rid; 
-		  o12=o1;   o22=o2;  
-		  c12=c1;   c22=c2;  
-		  rid2=rid; 
-		  if(buffer[0][0]=='B')
-		  {
-			  if(bid>max)
-			      max=bid;	
-		  }
-		  else if(buffer[0][0]=='D')
-		  {
-			  if(bid>demax)
-				  demax=bid;
-		  }
-	 }while(true);	
-	 
-	 fclose(fp);	
-
-	 smallMolecule.clear(); Dna.clear();
-
-	_biochemicalReaction.clear();
-	
-	vector<vector<int>> temp2(2,empty);
-	vector<vector<vector<int>>> temp3(max+1,temp2);
-	_biochemicalReaction=temp3;
-
-	vector<vector<vector<int>>> temp4(demax+1,temp2);
-	_degradation=temp4;
-
-	 QString a;
-	vector<QString> empty3(2,a);
-	vector<vector<QString>> temps(max+1,empty3);
-	_reactionName = temps;
-
-	vector<vector<QString>> temps4(demax+1,empty3);
-	_degradationName = temps4;
-
-      vector<QString> tempE; 
-      _EmptyName.push_back(tempE);
-	//vector<vector<QString>> tempN(nmax+1,empty);
-    //_EmptyName = tempN;
-
-	fp = fopen(name,"r"); 
-	
-	bid2=-1, lid2=-1, rid2=-1;
-	do
-	{
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 bid= atoi(result.c_str());  
-			  else if(i==2) lid= atoi(result.c_str());
-			  else if(i==3) rid= atoi(result.c_str());
-		  }     
-		  //fscanf(fp," %c",&c1);	
-		  c1=buffer[2][0];
-		  if(buffer.size()>3&&buffer[3].size()>0)
-		     c2=buffer[3][0];
-		  else 
-		  {
-			  c2='n';
-			
-		  }
-	
-		  if(buffer[0][0]=='B')
-			 _reactionName[bid][1]=buffer[1].c_str();
-		  else if(buffer[0][0]=='D')
-			 _degradationName[bid][1]=buffer[1].c_str();
-
-	      //fscanf(fp,"Biochemical Reaction%d",&bid);		  	     
-		  //fscanf(fp," %c",&c1);		  
-		  if(c1=='C')
-		  {
-			  //fscanf(fp,"omplex%d", &lid);
-			  if(buffer[0][0]=='B')
-			  {	
-				_biochemicalReaction[bid][0].push_back('C');	
-				_biochemicalReaction[bid][0].push_back(lid);				  
-			  }
-			  else if(buffer[0][0]=='D')
-			  {
-			    _degradation[bid][0].push_back('C');	
-				_degradation[bid][0].push_back(lid);	
-			  }
-		  }
-		  else if(c1=='D')
-		  {
-			  //fscanf(fp,"na%d", &lid);	
-			  Dna.push_back(lid);
-			   if(buffer[0][0]=='B')
-			   {
-				   _biochemicalReaction[bid][0].push_back('D');					  
-			       _biochemicalReaction[bid][0].push_back(lid);					  
-			   }
-			    else if(buffer[0][0]=='D')
-			  {
-			    _degradation[bid][0].push_back('D');	
-				_degradation[bid][0].push_back(lid);	
-			  }
-
-		  }	
-		  else if(c1=='P')
-		  {
-			  //fscanf(fp,"%c",&o1);	
-			  o1=buffer[2][1];
-			  if(o1=='h')
-			  {
-				  if(buffer[0][0]=='B')
-				  {
-					_biochemicalReaction[bid][0].push_back('E');	
-					_biochemicalReaction[bid][0].push_back(lid);		
-				  }
-				  else if(buffer[0][0]=='D')
-				  {
-					_degradation[bid][0].push_back('E');	
-					_degradation[bid][0].push_back(lid);	
-				  }
-		      }
-			  else if(o1=='r')
-			  {
-				  //fscanf(fp,"otein%d", &lid);	
-				  if(buffer[0][0]=='B')
-				  {
-					_biochemicalReaction[bid][0].push_back('P');	
-					_biochemicalReaction[bid][0].push_back(lid);		
-				  }
-				  else if(buffer[0][0]=='D')
-				  {
-					_degradation[bid][0].push_back('P');	
-					_degradation[bid][0].push_back(lid);	
-				  }
-			  }			  
-		  }
-          else if(c1=='S')
-		  {
-			  //fscanf(fp,"mall Molecule%d", &lid);	
-			  smallMolecule.push_back(lid);
-			  if(buffer[0][0]=='B')
-			  {
-				  _biochemicalReaction[bid][0].push_back('S');				  
-				_biochemicalReaction[bid][0].push_back(lid);				  
-			  }
-			  else if(buffer[0][0]=='D')
-			  {
-					_degradation[bid][0].push_back('S');	
-					_degradation[bid][0].push_back(lid);	
-			  }
-		  }	   
-		  //fscanf(fp," %c",&c2);	
-		  if(c2=='C')
-		  {
-			  //fscanf(fp,"omplex%d", &rid);	
-			  _biochemicalReaction[bid][1].push_back('C');				  
-			  _biochemicalReaction[bid][1].push_back(rid);				  
-		  }
-		   else if(c2=='D')
-		  {
-			  //fscanf(fp,"na%d", &rid);
-			  Dna.push_back(rid);
-			  _biochemicalReaction[bid][1].push_back('D');				  
-			  _biochemicalReaction[bid][1].push_back(rid);				  				  
-		  }	
-		  else if(c2=='P')
-		  {
-			  //fscanf(fp,"%c",&o2);
-			  if(buffer.size()>3&&buffer[3].size()>0)
-			  o2=buffer[3][1];
-		      else o2='n';
-			  if(o2=='h')
-			  {
-				  //fscanf(fp,"ysical Entity%d", &rid);	
-				  _biochemicalReaction[bid][1].push_back('E');				  
-			      _biochemicalReaction[bid][1].push_back(rid);				  	
-		      }
-			  else if(o2=='r')
-			  {
-				  //fscanf(fp,"otein%d", &rid);		
-				  _biochemicalReaction[bid][1].push_back('P');				  
-			      _biochemicalReaction[bid][1].push_back(rid);				  	
-			  }			  
-		  }
-          else if(c2=='S')
-		  {
-			  //fscanf(fp,"mall Molecule%d", &rid);	
-			  smallMolecule.push_back(rid);
-			  _biochemicalReaction[bid][1].push_back('S');				  
-			  _biochemicalReaction[bid][1].push_back(rid);				  
-		  }	
-		  else if(c2=='n') //empty for some case
-		  {
-			  if(buffer[0][0]=='B')
-			  {
-				  vector<QString> tempE; tempE.push_back(buffer[1].c_str());
-				  _EmptyName.push_back(tempE);
-				  _biochemicalReaction[bid][1].push_back('N');				  
-			      _biochemicalReaction[bid][1].push_back(_EmptyName.size());				  
-			  }
-		  }			  
-		  //fscanf(fp,"\n");	
-		  //if(bid2==bid&&lid2==lid&&rid2==rid&&( c1=='P'? (c1==c12 && o1==o12):c1==c12) && (c2=='P'?(c2==c22 && o2==o22):c2==c22))
-		  //  break;
-
-		  bid2=bid;   		  
-		  lid2=lid;  
-		  rid2=rid; 
-		  o12=o1;   o22=o2;  
-		  c12=c1;   c22=c2;  
-		  rid2=rid; 
-	 }while(true);
-
-	 fclose(fp);
-
-	 empty.clear();
-	 empty.push_back(max);
-	 empty.push_back(emax);
-	 empty.push_back(smax);
-	 empty.push_back(dmax);
-	 empty.push_back(nmax);
-
-	 for(int i=0; i<_reactionName.size(); i++)
-	 {
-	    int lcount=1, rcount=1;
-		for(int j=2; j<_biochemicalReaction[i][0].size(); j=j+2)	    
-		{
-		  if(_biochemicalReaction[i][0][j]!=_biochemicalReaction[i][0][j-2] || _biochemicalReaction[i][0][j+1]!=_biochemicalReaction[i][0][j-1])
-		    lcount++;
-		}	 
-		for(int j=2; j<_biochemicalReaction[i][1].size(); j=j+2)	    
-		{
-		  if(_biochemicalReaction[i][1][j]!=_biochemicalReaction[i][1][j-2] || _biochemicalReaction[i][1][j+1]!=_biochemicalReaction[i][1][j-1])
-		    rcount++;
-		}	
-		if(lcount==rcount)
-              _reactionName[i][0]='T';//transition/process
-		else 
-		{
-			if(lcount==1)
-               _reactionName[i][0]='D';  //disscociation
-		    else if(rcount==1)
-			  _reactionName[i][0]='B';  //bind
-			else  _reactionName[i][0]='T';//transition/process
-		}
-	 }
-	 reactionNum = empty[0], physicalEntityNum=empty[1], smallMoleculeNum=empty[2], DnaNum=empty[3]; degradationNum=empty[3];  ANodeNum=0;
-	 return empty;
-}
-
-
-void PathBubble1::read5catalysisANDcontrol(const char *name, vector<vector<int>> &_Catalysis, vector<vector<int>> &_5Control)
-{//return maximum step
-	char ch[100];
-	char C, c1, c2, C2;
-	FILE *fp;
-	char e;	
-	int cid, mid, bid, cid2, mid2, bid2;
-	int count=-1;
-	int max1=0,max2=0;
-	fp = fopen(name,"r"); 	
-	if(!fp)
-		return;
-	C2='x';
-	cid2=-1, mid2=-1, bid2=-1;	
-	do
-	{	
-		  //fscanf(fp,"%c%c", &C, &C);	
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 cid= atoi(result.c_str());  
-			  else if(i==1) mid= atoi(result.c_str());
-			  else if(i==2) bid= atoi(result.c_str());
-		  }     
-		  //fscanf(fp," %c",&c1);	
-		  C=buffer[0][1];
-		  //cid=buffer[3][0];
-		 
-
-	      if(C=='a')
-		  {
-		      //fscanf(fp,"talysis%d", &cid);	
-			  //fscanf(fp," %c", &c1);	
-			  //fscanf(fp," %c", &c2);				  
-			  //fscanf(fp," %s", ch);
-			  if(cid>max1)
-				  max1=cid;			  
-		  }
-		  else if(C=='o')
-		  {		  
-			  //fscanf(fp,"ntrol%d", &cid);	
-			  //fscanf(fp," %c", &c1);	
-			  //fscanf(fp," %c", &c2);				  
-			  if(cid>max2)
-				  max2=cid;			  
-		  }
-		  if(bid2==bid&&cid2==cid&&mid2==mid&&C2==C)
-		 	  break;
-
-		  cid2=cid, mid2=mid, bid2=bid;	 C2=C;
-	 }while(true);	
-	 
-	fclose(fp);
-
-	 vector<int> empty(5,-1);
-	vector<vector<int>> temp1(max1+1,empty);
-	vector<vector<int>> temp2(max2+1,empty);
-	_Catalysis=temp1;
-	_5Control=temp2;
-
-	fp = fopen(name,"r"); 
-		
-	C2='x';
-	cid2=-1, mid2=-1, bid2=-1;	
-	do
-	{
-		  //fscanf(fp,"%c%c", &C, &C);	
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 cid= atoi(result.c_str());  
-			  else if(i==1) mid= atoi(result.c_str());
-			  else if(i==2) bid= atoi(result.c_str());
-		  }     
-		  //fscanf(fp," %c",&c1);	
-		  C=buffer[0][1];
-		  //cid=buffer[3][0];
-		  c1=buffer[1][0];
-		  c2=buffer[2][0];
-
-	      if(C=='a')
-		  {
-		      //fscanf(fp,"talysis%d", &cid);	
-			  //fscanf(fp," %c", &c1);	
-			  if(c1=='P')
-			  {
-				  //fscanf(fp,"rotein%d", &mid);
-				  _Catalysis[cid][0]='P';
-				  _Catalysis[cid][1]=mid;
-			  }
-			  else if(c1=='C')
-			  {
-				  //fscanf(fp,"omplex%d", &mid);
-				  _Catalysis[cid][0]='C';
-				  _Catalysis[cid][1]=mid;
-			  }
-
-			  //fscanf(fp," %c", &c2);				  
-			  if(c2=='B')
-			  {
-				  //fscanf(fp,"iochemical Reaction%d", &bid);
-				  _Catalysis[cid][2]='R';
-				  _Catalysis[cid][3]=bid;
-			  }
-			  else if(c2=='D')
-			  {
-				  //fscanf(fp,"egradation%d", &bid);
-				  _Catalysis[cid][2]='D';
-				  _Catalysis[cid][3]=bid;
-			  }
-
-			  //fscanf(fp," %s", ch);
-			  if(buffer[3][0]=='A')
-				  _Catalysis[cid][4]=1;
-			  else _Catalysis[cid][4]=0;
-		  }
-		  else if(C=='o')
-		  {		  
-			  //fscanf(fp,"ntrol%d", &cid);	
-			  //fscanf(fp," %c", &c1);	
-			  if(c1=='P')
-			  {
-				  //fscanf(fp,"rotein%d", &mid);
-				  _5Control[cid][0]='P';
-				  _5Control[cid][1]=mid;
-			  }
-			  else if(c1=='C')
-			  {
-				  //fscanf(fp,"omplex%d", &mid);
-				  _5Control[cid][0]='C';
-				  _5Control[cid][1]=mid;
-			  }
-			  //fscanf(fp," %c", &c2);				  
-			  if(c2=='B')
-			  {
-				  //fscanf(fp,"iochemical Reaction%d", &bid);
-				  _5Control[cid][2]='R';
-				  _5Control[cid][3]=bid;
-			  }
-			  else if(c2=='D')
-			  {
-				  //fscanf(fp,"egradation%d", &bid);
-				  _5Control[cid][2]='D';
-				  _5Control[cid][3]=bid;
-			  }
-			  //fscanf(fp," %s", ch);
-			  if(buffer[3][0]=='A')
-				  _5Control[cid][4]=1;
-			  else _5Control[cid][4]=0;			  
-		  }
-		  //fscanf(fp,"\n");
-		  if(bid2==bid&&cid2==cid&&mid2==mid&&C2==C)
-		 	  break;
-
-		  cid2=cid, mid2=mid, bid2=bid;	 C2=C;
-	 }while(true);	
-	 fclose(fp);	 
-}
-
-int PathBubble1::read6complex(const char *name, vector<vector<QString>> &_complexName, vector<vector<int>> &_complexContain)
-{
-	char ch[100];
-	char c,o,c2,o2;
-	char e;	
-	string cname;
-	FILE *fp = fopen(name,"r"); 
-	if(!fp)
-		return 0;
-	
-	int cid, pid, pid2, cid2;
-	int max=-100000;
-
-	pid2=-1, cid2=-1;
-	c2='x',o2='x';
-	do
-	{
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 cid= atoi(result.c_str());  
-			  else if(i==4) pid= atoi(result.c_str());
-		  }     		 
-		  c=buffer[3][0];
-		  o=buffer[3][1];
-
-		  			
-		 if(cid>max)
-			    max=cid; 
-	        
-	 }while(true);
-	 fclose(fp);	
-
-	QString a;
-	vector<QString> empty3(1,a);
-	vector<vector<QString>> temps(max+1,empty3);
-	_complexName = temps;
-
-	vector<int> empty;
-	vector<vector<int>> temp(max+1,empty);
-	_complexContain = temp;	
-		
-	fp = fopen(name,"r"); 
-	
-	pid2=-1, cid2=-1;
-	c2='x',o2='x';
-	do
-	{
-		 //fscanf(fp,"Complex%d",&cid);		  
-
-		  //fgets(ch, 72, fp); 
-
-		  vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			 if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
-
-		  if(e<0||(e=='\n'&&buffer[0].empty()))
-			  break;
-
-		  //process phrase
-		  //check pid2 
-		  for(int i=0; i<buffer.size(); i++)
-		  {
-			  string result;
-		      for(unsigned int j = 0; j < buffer[i].size();j++)
-              if(isdigit(buffer[i][j]))
-              {   
-				  result.append(1,buffer[i][j]);                 
-			  }	
-			  if(i==0)	 cid= atoi(result.c_str());  
-			  else if(i==4) pid= atoi(result.c_str());
-		  }     
-		  //fscanf(fp," %c",&c1);	
-		  //C=buffer[0][1];
-		  //cid=buffer[3][0];
-		  c=buffer[4][0];
-		  o=buffer[4][1];
-
- 		  _complexName[cid][0]= buffer[1].c_str();
-          //?complexLocation 
-		  //fgets(ch, 30, fp); 
-
-			cname=buffer[2].c_str();
-
-			for(int i=0;i<_scene->_compartmentName[m_pathwayID].size();i++)
-			{
-			   if(_scene->_compartmentName[m_pathwayID][i][0]==cname.c_str())
-			   {
-				   vector<int> item;
-				   item.push_back('C'); item.push_back(cid);
-			      _scene->CompartmentContain[m_pathwayID][i].insert(item);		
-				   break;
-			   }			
-			}
-			
-			if(c=='C')
-		    {
-				 _complexContain[cid].push_back('C');
-				 _complexContain[cid].push_back(pid);						  
-		    }		   
-		    else if(c=='P')
-		    {
-			    if(o=='h')
-			    {
-				  _complexContain[cid].push_back('E');
-				  _complexContain[cid].push_back(pid);		
-		        }
-			    else if(o=='r')
-			    {
-				   _complexContain[cid].push_back('P');
-				   _complexContain[cid].push_back(pid);				
-			    }			  
-		    }		 		    
-	 }while(true);
-
-	 fclose(fp);	
-	 return max;
-}
-
-
+*/
 void PathBubble1::processComplexContains(vector<vector<int>> &_complexContain)
 {//replace the complex with proteins contained according to _complexContain
 	//there are cases that you can not find proteins contained by complex
@@ -14497,33 +13652,32 @@ void PathBubble1::processComplexContains(vector<vector<int>> &_complexContain)
 		vector<int> set=_scene->_complexContain[m_pathwayID][i];		
 		for(int k=0; k<set.size();)
 	    {
-		             int type=set[k], id=set[k+1];
-					 vector<QString> name;	 	                     
-			         switch(type)
-					 {
-						 case 'C':  size=_scene->_complexContain[m_pathwayID][id].size(); 
-							        if(size==0)
-									{
-									   k=k+2;
-									}
-									else
-									{									
-									   set[k]  = _scene->_complexContain[m_pathwayID][id][0];
-									   set[k+1]= _scene->_complexContain[m_pathwayID][id][1];	
-									   for(int l=2; l<size;l=l+2)
-									   {
-									       set.push_back(_scene->_complexContain[m_pathwayID][id][l]);									   
-										   set.push_back(_scene->_complexContain[m_pathwayID][id][l+1]);									   
-									   }
-									}
-							        break;													
-						 case 'E': k=k+2;  break; 
-						 case 'P': k=k+2;   break;						 
-					 }						 
+		    int type=set[k], id=set[k+1];
+			vector<QString> name;	 	                     
+			switch(type)
+			{
+				case 'C':  size=_scene->_complexContain[m_pathwayID][id].size(); 
+						if(size==0)
+						{
+							k=k+2;
+						}
+						else
+						{									
+							set[k]  = _scene->_complexContain[m_pathwayID][id][0];
+							set[k+1]= _scene->_complexContain[m_pathwayID][id][1];	
+							for(int l=2; l<size;l=l+2)
+							{
+								set.push_back(_scene->_complexContain[m_pathwayID][id][l]);									   
+								set.push_back(_scene->_complexContain[m_pathwayID][id][l+1]);									   
+							}
+						}
+						break;													
+				case 'E': k=k+2;  break; 
+				case 'P': k=k+2;   break;						 
+			}						 
 		}
 		_scene->_complexContain[m_pathwayID][i]=set;
-	}
-		 
+	}		 
 }
 
 
@@ -16203,27 +15357,27 @@ void PathBubble1::getBoundingBoxToBePaint()
 				switch(type)
 				{
 					case 'C':   
-						        bRect=_scene->_complexPos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);
-						        Rect=getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);	
+						        bRect =_scene->_complexPos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);
+						        Rect =getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);	
 						        text =  _scene->_complexNameD[B1->dataID][id1][0];
 								nodePos = _scene->_complexPos[pid1][id1]; 
 						        break;
 					case 'E':   
-						        bRect=_scene->_physicalEntityPos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);
-						        Rect=getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);
+						        bRect =_scene->_physicalEntityPos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);
+						        Rect = getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);
 						        text = _scene->_physicalEntityNameD[B1->dataID][id1][0];
 								nodePos = _scene->_physicalEntityPos[pid1][id1]; 
 								break;
 					case 'P':   
-						        bRect=_scene->_proteinPos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);
-						        Rect=getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);	
+						        bRect = _scene->_proteinPos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);
+						        Rect = getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);	
 						        text = _scene->_proteinNameD[B1->dataID][id1][0];
 								nodePos = _scene->_proteinPos[pid1][id1];
 								break;
 					case 'S': 	
-						        bRect=_scene->_smallMoleculePos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);							
-						        Rect=getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);	
-						        text=_scene->_smallMoleculeNameD[B1->dataID][id1][0];
+						        bRect = _scene->_smallMoleculePos[pid1][id1]; bRect.moveCenter(bRect.center()+Dis);							
+						        Rect = getNodeRect( bRect, "", type,  fixedSize,  dCenter, _scale);	
+						        text = _scene->_smallMoleculeNameD[B1->dataID][id1][0];
 								nodePos = _scene->_smallMoleculePos[pid1][id1]; 
 								break;
 					case 'D':  	
@@ -16331,14 +15485,26 @@ void PathBubble1::removeFromGraph()
 }
 
 void PathBubble1::paint( QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget )
-{    		
+{    	
+
+	/*for(int j=0; j<edge.size(); j++)
+	{
+		if(j==59 || j==60)
+			j=j;
+
+	    if( (edge[j][0]==80 &&  edge[j][1]==11) || (edge[j][2]==80 &&  edge[j][3]==11) || (edge[j][4]==80 &&  edge[j][5]==11))
+		{
+		    j=j;		
+		
+		}
+	}*/
     updateLabel();
 	
 	PlotBase::paint( painter, option, widget );
 
 	addtoGraph();
 
-	painter->save();
+	painter->save(); //start
 	
 	if(!itemSelected.empty() && draggingItem==1 )
 	{
@@ -16408,7 +15574,7 @@ void PathBubble1::paint( QPainter *painter, const QStyleOptionGraphicsItem *opti
 	painter->setClipping(true);
 	renderColorLegend(painter);
 	//drawConnections(painter, QPointF(0,0)); //sceneBoundingRect().center()
-	painter->restore();
+	painter->restore(); //start
 }
 
 void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
@@ -16446,8 +15612,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 	float x,y,w,h;
 	QPen pen;	
 	
-
-		painter->setPen(pen);		
+	painter->setPen(pen);		
 		QFont f("Arial", 10);
 		painter->setFont (f);
 	
@@ -16457,7 +15622,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 			
 		if(drawHighLighting)
 		{
-			QColor color=HIGHLIGHTCOLOR;
+			QColor color=LIGHT_HIGHLIGHTCOLOR;
 			painter->setPen(color);	
 			glColor4f(color.redF()/255.0, color.greenF()/255.0, color.blueF()/255.0, color.alphaF()/255.0);			
 		}
@@ -16466,9 +15631,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 			glColor4f(0, 0, 0, 1.0);
 			painter->setPen(QColor(0,0,0,255));	
 		}
-
 		painter->drawLine(0,1,0,1);
-
 		
 		for(set<vector<vector<int> > >::iterator it=updatedEdge_1.begin(); it!=updatedEdge_1.end(); it++)
 		{		
@@ -16477,20 +15640,13 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 				if(!inUpdatedEdge(edge, updatedEdge_4))
 				{
 					int pid1=edge[0][0], type1=edge[0][1], id1=edge[0][2], pid2=edge[1][0], type2=edge[1][1], id2=edge[1][2];				 
-					QColor bc; 
+					vector<QColor> bc; 
 					bool drawIt=false;
 					if( drawHighLighting && linkedEdge.size()> m_pathwayID && linkedEdge[m_pathwayID].find(edge)!=linkedEdge[m_pathwayID].end()) //keqin
 					{
-						
-						/*float level=findLinkedLevel(pid1, type1, id1, pid2, type2, id2);
-						float totalLevel=getTotalLinkLevel();											
-						if(level<0)
-						{
-							level=findLinkedLevel(pid2, type2, id2, pid1, type1, id1);				
-						}*/
 						bc=_scene->getPathColor(pid1,  type1,  id1,  pid2,  type2,  id2);//assignColorToLinkedItems(level, totalLevel,1);
-						glColor4f(bc.red()/255.0, bc.green()/255.0, bc.blue()/255.0, 1.0);
-			            painter->setPen(bc);			
+						glColor4f(bc[0].red()/255.0, bc[0].green()/255.0, bc[0].blue()/255.0, 1.0);
+			            painter->setPen(bc[0]);			
 		                painter->drawLine(0,1,0,1);
 
 						drawIt=true;
@@ -16498,50 +15654,49 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 					else if( !drawHighLighting)
 					{
 						drawIt=true;
-						bc=QColor(50, 50, 50, 255);
+						bc.clear();
+						bc.push_back(QColor(50, 50, 50, 255));
 					}
 					if(!drawIt)
 						continue;
 
 					if(pid1==pid2 && pid1==m_pathwayID)
 					{
-						QPointF start, end;
+						QRectF start, end;
 						switch(type1)
 						{
-							case 'C': start=complexRect[id1].center();        break;
-							case 'D': start=DnaRect[id1].center();            break;
-							case 'E': start=physicalEntityRect[id1].center(); break; 
-							case 'L': start=ANodeRect[id1].center();          break; 
-							case 'P': start=proteinRect[id1].center();        break;
-							case 'S': start=smallMoleculeRect[id1].center();  break;			
-							case 'R': start=reactionRect[id1].center();       break;  //catalysis for bio reaction	
+							case 'C': start=complexRect[id1];        break;
+							case 'D': start=DnaRect[id1];            break;
+							case 'E': start=physicalEntityRect[id1]; break; 
+							case 'L': start=ANodeRect[id1];          break; 
+							case 'P': start=proteinRect[id1];        break;
+							case 'S': start=smallMoleculeRect[id1];  break;			
+							case 'R': start=reactionRect[id1];       break;  //catalysis for bio reaction	
 						}
 						switch(type2)
 						{
-							case 'C': end=complexRect[id2].center();    	  break;
-							case 'D': end=DnaRect[id2].center();             break;
-							case 'E': end=physicalEntityRect[id2].center();  break;
-							case 'L': end=ANodeRect[id2].center();           break; 
-							case 'P': end=proteinRect[id2].center();         break;
-							case 'S': end=smallMoleculeRect[id2].center();   break;			
-							case 'R': end=reactionRect[id2].center();        break;  //catalysis for bio reaction	
+							case 'C': end=complexRect[id2];    	  break;
+							case 'D': end=DnaRect[id2];             break;
+							case 'E': end=physicalEntityRect[id2];  break;
+							case 'L': end=ANodeRect[id2];           break; 
+							case 'P': end=proteinRect[id2];         break;
+							case 'S': end=smallMoleculeRect[id2];   break;			
+							case 'R': end=reactionRect[id2];        break;  //catalysis for bio reaction	
 						}	
-						glBegin(GL_QUADS);
-
-						if(drawHighLighting)
-						    drawArrow_GL_H(painter, start, end, width, height,_scale);	//end
-						else
-							drawArrow_GL(painter, start, end, width, height);	//end
-
-						glEnd();
+						if(start.width()>-990 && end.width()>-990)
+						{
+							if(drawHighLighting)
+						       drawArrow_GL_H_2(painter, start.center(), end.center(), bc, width, height,_scale);	//end
+						    else
+							   drawArrow_GL(painter, start.center(), end.center(), width, height);	//end
+						}
 					}
 				}	
-	}
-	
+	}	
 
 	if(drawHighLighting)
 	{
-		QColor color=HIGHLIGHTCOLOR;
+		QColor color=LIGHT_HIGHLIGHTCOLOR;
 		painter->setPen(color);	
 		glColor4f(color.redF()/255.0, color.greenF()/255.0, color.blueF()/255.0, color.alphaF()/255.0);			
 	}
@@ -16552,33 +15707,28 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 	}
 	painter->drawLine(0, 1,0,1);
 	int count1=0;
-	//glBegin(GL_QUADS);  	
+	
 	for(set<vector<vector<int> > >::iterator it=updatedEdge_2.begin(); it!=updatedEdge_2.end(); it++)
     {   //activation
 		vector<vector<int> > edge=*it;
 		if(!inUpdatedEdge(edge, updatedEdge_4))
 		{
 			int pid1=edge[0][0], type1=edge[0][1], id1=edge[0][2], pid2=edge[1][0], type2=edge[1][1], id2=edge[1][2];
-			QColor bc;
+			vector<QColor> bc;
 			bool drawIt=false;
 			if( drawHighLighting && linkedEdge.size()> m_pathwayID && linkedEdge[m_pathwayID].find(edge)!=linkedEdge[m_pathwayID].end()) //keqin
 			{
-				/*float level=findLinkedLevel(pid1, type1, id1, pid2, type2, id2);
-				float totalLevel=getTotalLinkLevel();											
-				if(level<0)
-				{
-					level=findLinkedLevel(pid2, type2, id2, pid1, type1, id1);				
-				}
-				bc=assignColorToLinkedItems(level, totalLevel,1);*/
-				bc=_scene->getPathColor(pid1,  type1,  id1,  pid2,  type2,  id2);//assignColorToLinkedItems(level, totalLevel,1);
-				glColor4f(bc.red()/255.0, bc.green()/255.0, bc.blue()/255.0, 1.0);
-			    painter->setPen(bc);			
+				
+				bc=_scene->getPathColor(pid1,  type1,  id1,  pid2,  type2,  id2);//assignColorToLinkedItems(level, totalLevel,1);				
+				glColor4f(bc[0].red()/255.0, bc[0].green()/255.0, bc[0].blue()/255.0, 1.0);
+			    painter->setPen(bc[0]);			
 		        painter->drawLine(0,1,0,1);
 				drawIt=true;
 			}
 			else if( !drawHighLighting)
 			{
-				bc=QColor(50, 50, 50, 255);
+				bc.clear();
+				bc.push_back(QColor(50, 50, 50, 255));
 				drawIt=true;
 			}
 
@@ -16586,41 +15736,42 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 				continue;
 			if(pid1==pid2 && pid1==m_pathwayID)
 			{
-				QPointF start, end;
+				QRectF start, end;
 				switch(type1)
 				{
-					case 'C': start=complexRect[id1].center();        break;
-					case 'D': start=DnaRect[id1].center();            break;
-					case 'E': start=physicalEntityRect[id1].center(); break; 
-					case 'L': start=ANodeRect[id1].center();          break; 
-					case 'P': start=proteinRect[id1].center();        break;
-					case 'S': start=smallMoleculeRect[id1].center();  break;			
-					case 'R': start=reactionRect[id1].center();       break; //catalysis for bio reaction	
+					case 'C': start=complexRect[id1];       break;
+					case 'D': start=DnaRect[id1];           break;
+					case 'E': start=physicalEntityRect[id1];break; 
+					case 'L': start=ANodeRect[id1];         break; 
+					case 'P': start=proteinRect[id1];       break;
+					case 'S': start=smallMoleculeRect[id1]; break;			
+					case 'R': start=reactionRect[id1];      break; //catalysis for bio reaction	
 				}
 				switch(type2)
 				{
-					case 'C': end=complexRect[id2].center();    	 break;
-					case 'D': end=DnaRect[id2].center();             break;
-					case 'E': end=physicalEntityRect[id2].center();  break; 
-					case 'L': end=ANodeRect[id2].center();           break; 
-					case 'P': end=proteinRect[id2].center();         break;
-					case 'S': end=smallMoleculeRect[id2].center();   break;			
-					case 'R': end=reactionRect[id2].center();        break;  //catalysis for bio reaction	
+					case 'C': end=complexRect[id2];   	 break;
+					case 'D': end=DnaRect[id2];            break;
+					case 'E': end=physicalEntityRect[id2]; break; 
+					case 'L': end=ANodeRect[id2];          break; 
+					case 'P': end=proteinRect[id2];        break;
+					case 'S': end=smallMoleculeRect[id2];  break;			
+					case 'R': end=reactionRect[id2];       break;  //catalysis for bio reaction	
 				}	
-				glBegin(GL_QUADS);
-				if(drawHighLighting)
-					drawArrow_GL_H(painter, start, end, width, height,_scale);	//end
-				else
-					drawArrow_GL(painter, start, end, width, height);	//end
-				glEnd();				
+				if(start.width()>-990 && end.width()>-990)
+				{
+					if(drawHighLighting)
+						drawArrow_GL_H_2(painter, start.center(), end.center(), bc, width, height,_scale);	//end
+					else
+						drawArrow_4_GL(painter, start.center(), end.center(), width, height);	//end
+				}				
 			}
 		}
 	}
-	//glEnd();
+
 	
 	if(drawHighLighting)
 	{
-		QColor color=HIGHLIGHTCOLOR;
+		QColor color=LIGHT_HIGHLIGHTCOLOR;
 		painter->setPen(color);	
 		glColor4f(color.redF()/255.0, color.greenF()/255.0, color.blueF()/255.0, color.alphaF()/255.0);			
 	}
@@ -16630,7 +15781,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		painter->setPen(QColor(255, 128, 0, 255));		
 	}	
 	painter->drawLine(0,1,0,1);
-	//glBegin(GL_QUADS);  	
+	
 	
 	for(set<vector<vector<int> > >::iterator it=updatedEdge_3.begin(); it!=updatedEdge_3.end(); it++)
 	{
@@ -16638,65 +15789,62 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 			if(!inUpdatedEdge(edge, updatedEdge_4))
 			{
 				int pid1=edge[0][0], type1=edge[0][1], id1=edge[0][2], pid2=edge[1][0], type2=edge[1][1], id2=edge[1][2];
-				QColor bc; 
+				vector<QColor> bc; 
 				bool drawIt=false;
 			    if( drawHighLighting && linkedEdge.size()> m_pathwayID && linkedEdge[m_pathwayID].find(edge)!=linkedEdge[m_pathwayID].end()) //keqin
 				{
-					/*float level=findLinkedLevel(pid1, type1, id1, pid2, type2, id2);
-					float totalLevel=getTotalLinkLevel();											
-					if(level<0)
-					{
-						level=findLinkedLevel(pid2, type2, id2, pid1, type1, id1);				
-					}
-					bc=assignColorToLinkedItems(level, totalLevel,1);*/
 					bc=_scene->getPathColor(pid1,  type1,  id1,  pid2,  type2,  id2);//assignColorToLinkedItems(level, totalLevel,1);
-					glColor4f(bc.red()/255.0, bc.green()/255.0, bc.blue()/255.0, 1.0);
-					painter->setPen(bc);			
+					glColor4f(bc[0].red()/255.0, bc[0].green()/255.0, bc[0].blue()/255.0, 1.0);
+					painter->setPen(bc[0]);			
 					painter->drawLine(0,1,0,1);
 					drawIt=true;
 				}
 				else if( !drawHighLighting)
 				{
-					bc=QColor(50, 50, 50, 255);
+					//bc=QColor(50, 50, 50, 255);
+					bc.clear();
+				     bc.push_back(QColor(50, 50, 50, 255));
 					drawIt=true;
 				}
 
 				if(!drawIt)
 				    continue;
 
+
 				if(pid1==pid2 && pid1==m_pathwayID)
 				{
-					QPointF start, end;
+					QRectF start, end;
 					switch(type1)
 					{
-						case 'C': start=complexRect[id1].center();        break;
-						case 'D': start=DnaRect[id1].center();            break;
-						case 'E': start=physicalEntityRect[id1].center(); break; 
-						case 'L': start=ANodeRect[id1].center();          break; 
-						case 'P': start=proteinRect[id1].center();        break;
-						case 'S': start=smallMoleculeRect[id1].center();  break;			
-						case 'R': start=reactionRect[id1].center();       break;  //catalysis for bio reaction	
+						case 'C': start=complexRect[id1];       break;
+						case 'D': start=DnaRect[id1];           break;
+						case 'E': start=physicalEntityRect[id1];break; 
+						case 'L': start=ANodeRect[id1];         break; 
+						case 'P': start=proteinRect[id1];       break;
+						case 'S': start=smallMoleculeRect[id1]; break;			
+						case 'R': start=reactionRect[id1];      break; //catalysis for bio reaction	
 					}
 					switch(type2)
 					{
-						case 'C': end=complexRect[id2].center();    	  break;
-						case 'D': end=DnaRect[id2].center();            break;
-						case 'E': end=physicalEntityRect[id2].center();  break; 
-						case 'L': end=ANodeRect[id2].center();            break;
-						case 'P': end=proteinRect[id2].center();         break;
-						case 'S': end=smallMoleculeRect[id2].center();   break;			
-						case 'R': end=reactionRect[id2].center();      break;  //catalysis for bio reaction	
+						case 'C': end=complexRect[id2];   	 break;
+						case 'D': end=DnaRect[id2];            break;
+						case 'E': end=physicalEntityRect[id2]; break; 
+						case 'L': end=ANodeRect[id2];          break; 
+						case 'P': end=proteinRect[id2];        break;
+						case 'S': end=smallMoleculeRect[id2];  break;			
+						case 'R': end=reactionRect[id2];       break;  //catalysis for bio reaction	
+					}	
+					if(start.width()>-990 && end.width()>-990)
+				    {
+             			if(drawHighLighting)
+							drawArrow_GL_H_2(painter, start.center(), end.center(), bc, width, height,_scale);	//end
+						else
+							drawArrow_4_GL(painter, start.center(), end.center(), width, height);	//end
 					}
-					glBegin(GL_QUADS);
-					if(drawHighLighting)
-						drawArrow_GL_H(painter, start, end, width, height,_scale);	//end
-					else
-						drawArrow_GL(painter, start, end, width, height);	//end
-					glEnd();
 				}
 			}	
 	}			     
-	//glEnd();
+
 
 	
 	int eid=0;
@@ -16706,7 +15854,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 				vector<vector<int> > edge=*it, redge;
 				redge.push_back(edge[1]); redge.push_back(edge[0]);
 				int pid1=edge[0][0], type1=edge[0][1], id1=edge[0][2], pid2=edge[1][0], type2=edge[1][1], id2=edge[1][2];
-				QColor bc;
+				vector<QColor> bc;
 				bool drawIt=false;
 			    if( drawHighLighting && linkedEdge.size()> m_pathwayID && linkedEdge[m_pathwayID].find(edge)!=linkedEdge[m_pathwayID].end()) //keqin
 				{
@@ -16726,7 +15874,8 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 				}
 				else if( !drawHighLighting)
 				{
-					bc=QColor(50, 50, 50, 255);
+					bc.clear();
+				    bc.push_back(QColor(50, 50, 50, 255));
 					drawIt=true;
 				}
 				if(!drawIt)
@@ -16734,27 +15883,27 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 				int Aid=-1;
 				if(pid1==pid2 && pid1==m_pathwayID)
 				{
-					QPointF start, end;
+					QRectF start, end;
 					float height=0;
 					switch(type1)
 					{
-						case 'C': start=complexRect[id1].center();  height=complexRect[id1].height();     break;
-						case 'D': start=DnaRect[id1].center();  height=DnaRect[id1].height();           break;
-						case 'E': start=physicalEntityRect[id1].center(); height=physicalEntityRect[id1].height(); break; 
-						case 'L': start=ANodeRect[id1].center();   height=ANodeRect[id1].height();   Aid=id1;     break; 
-						case 'P': start=proteinRect[id1].center();   height=proteinRect[id1].height();      break;
-						case 'S': start=smallMoleculeRect[id1].center(); height=smallMoleculeRect[id1].height();  break;			
-						case 'R': start=reactionRect[id1].center();   height=reactionRect[id1].height();     break;  //catalysis for bio reaction	
+						case 'C': start=complexRect[id1];  height=complexRect[id1].height();     break;
+						case 'D': start=DnaRect[id1];  height=DnaRect[id1].height();           break;
+						case 'E': start=physicalEntityRect[id1]; height=physicalEntityRect[id1].height(); break; 
+						case 'L': start=ANodeRect[id1];   height=ANodeRect[id1].height();   Aid=id1;     break; 
+						case 'P': start=proteinRect[id1];   height=proteinRect[id1].height();      break;
+						case 'S': start=smallMoleculeRect[id1]; height=smallMoleculeRect[id1].height();  break;			
+						case 'R': start=reactionRect[id1];   height=reactionRect[id1].height();     break;  //catalysis for bio reaction	
 					}
 					switch(type2)
 					{
-						case 'C': end=complexRect[id2].center();    height+=complexRect[id2].height(); 	  break;
-						case 'D': end=DnaRect[id2].center();     height+=DnaRect[id2].height(); 	       break;
-						case 'E': end=physicalEntityRect[id2].center();  height+=physicalEntityRect[id2].height(); 	break; 
-						case 'L': end=ANodeRect[id2].center();  Aid=id2; height+=ANodeRect[id2].height(); 	break;
-						case 'P': end=proteinRect[id2].center();         height+=proteinRect[id2].height(); 	break;
-						case 'S': end=smallMoleculeRect[id2].center();   height+=smallMoleculeRect[id2].height(); 	break;			
-						case 'R': end=reactionRect[id2].center();     height+=reactionRect[id2].height(); 	 break;  //catalysis for bio reaction	
+						case 'C': end=complexRect[id2];    height+=complexRect[id2].height(); 	  break;
+						case 'D': end=DnaRect[id2];     height+=DnaRect[id2].height(); 	       break;
+						case 'E': end=physicalEntityRect[id2];  height+=physicalEntityRect[id2].height(); 	break; 
+						case 'L': end=ANodeRect[id2];  Aid=id2; height+=ANodeRect[id2].height(); 	break;
+						case 'P': end=proteinRect[id2];         height+=proteinRect[id2].height(); 	break;
+						case 'S': end=smallMoleculeRect[id2];   height+=smallMoleculeRect[id2].height(); 	break;			
+						case 'R': end=reactionRect[id2];     height+=reactionRect[id2].height(); 	 break;  //catalysis for bio reaction	
 					}				 
 				int encode = updatedEdge_5[eid++];
 				set<int> Code;
@@ -16770,11 +15919,16 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 					drawCurvedArrow_GL_H(painter, Code, height/2, start, end, width, height, _scale);
 				else  
 					drawCurvedArrow_GL(painter, Code, height/2, start, end, width, height);*/
-
-				if(drawHighLighting)
-					drawCurvedArrow_GL_H(painter, Code, height/2, start, end, width, height, _scale, bc);
-				else  
-					drawCurvedArrow_GL(painter, Code, height/2, start, end, width, height);
+				if(start.width()>-990 && end.width()>-990)
+				{
+					if(drawHighLighting)
+					{
+						//drawCurvedArrow_GL_H(painter, Code, height/2, start, end, width, height, _scale, bc[0]);
+						drawArrow_GL_H_2(painter, start.center(), end.center(), bc, width, height,_scale);	//end
+					}
+					else  
+						drawCurvedArrow_GL(painter, Code, height/2, start.center(), end.center(), width, height);
+				}
 			}
 	}			     	
 	
@@ -16784,15 +15938,15 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 	int size=compartmentPos.size()-1;
     for(int i=0; i<size ; i++) //size?
 	{
-		    //if(!drawHighLighting && boundaryColor[oCount] == HIGHLIGHTCOLOR )
+		    //if(!drawHighLighting && boundaryColor[oCount] == LIGHT_HIGHLIGHTCOLOR )
 			//	continue;
 			if(i<compartmentRect.size() && compartmentRect[i].width()>=0 )
 			{   
 				if(drawHighLighting)
 				{
-					 //if(boundaryColor[oCount]==HIGHLIGHTCOLOR)
+					 //if(boundaryColor[oCount]==LIGHT_HIGHLIGHTCOLOR)
 					if(insideColor[oCount].size()>0)
-					if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+					if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				  	    paintPreComputedCompartment_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount], compartmentRect[i], compartmentPos, _scene->_compartmentName[m_pathwayID], i, _scene->getGroup(this)->sharedSets, dCenter, _scale);	        					
 				}
 				else 
@@ -16800,8 +15954,6 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 			}			 
 			oCount++;		    
 	}
-	
-
 	temp[0]='C';	
 	for(int i=0; i<complexPos.size(); i++)
 	{
@@ -16809,7 +15961,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		{  	
 			if(drawHighLighting)
 			{
-				if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+				if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				    paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount], complexRect[i], complexPos[i], _scene->_complexNameD[dataID][i][0], 'C', i, _scene->getGroup(this)->sharedSets, dCenter, _scale);	        
 			}
 			else 
@@ -16824,7 +15976,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		{
 			if(drawHighLighting)
 			{
-				if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+				if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				    paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount], reactionRect[i],reactionPos[i], _scene->_reactionNameD[dataID][i][1], 'R', i, _scene->getGroup(this)->sharedSets,dCenter, _scale, _scene->_reactionNameD[dataID][i][0] );			
 			}
 			else 
@@ -16839,7 +15991,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		{
 			if(drawHighLighting)
 			{
-				if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+				if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				    paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount], smallMoleculeRect[i], smallMoleculePos[i], _scene->_smallMoleculeNameD[dataID][i][0], 'S', i, _scene->getGroup(this)->sharedSets, dCenter, _scale);
 			}
 			else 
@@ -16855,7 +16007,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		{	
 			if(drawHighLighting)
 			{
-				if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+				if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				    paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount], DnaRect[i], DnaPos[i], _scene->_DnaNameD[dataID][i][0], 'D', i, _scene->getGroup(this)->sharedSets, dCenter, _scale);
 			}
 			else 
@@ -16872,7 +16024,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		{
 			if(drawHighLighting)
 			{
-				if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+				if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				    paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount],  physicalEntityRect[i], physicalEntityPos[i], _scene->_physicalEntityNameD[dataID][i][0], 'E', i, _scene->getGroup(this)->sharedSets,dCenter, _scale);			  
 			}
 			else
@@ -16887,7 +16039,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 		{
 			if(drawHighLighting)
 			{
-				 if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+				 if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 				     paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount], proteinRect[i], proteinPos[i], _scene->_proteinNameD[dataID][i][0], 'P', i, _scene->getGroup(this)->sharedSets, dCenter, _scale);	 
 			}
 			else 
@@ -16907,7 +16059,7 @@ void PathBubble1::paintGraph(QPainter *painter, bool drawHighLighting)
 				QString A=_scene->_ANodeName[m_pathwayID][i][0];
 				if(drawHighLighting)
 				{
-					if(insideColor[oCount][0]==HIGHLIGHTCOLOR)
+					if(insideColor[oCount][0]==LIGHT_HIGHLIGHTCOLOR)
 					    paintPreComputedNode_H( painter, boundaryWidth[oCount], fontSize[oCount], insideColor[oCount], boundaryColor[oCount], fontColor[oCount], fontRect[oCount],  ANodeRect[i], ANodePos[i], _scene->_ANodeName[m_pathwayID][i][0], 'L', i, _scene->getGroup(this)->sharedSets, dCenter, _scale);			  
 				}
 				else 
@@ -17419,7 +16571,6 @@ void PathBubble1::hoverMoveEvent( QGraphicsSceneHoverEvent *event )
 	//hoverMoveEvent
 	//labelArea
 	
-
 	QPoint tPos=QPoint(event->pos().x(),event->pos().y());	
 	if(getCalloutNoteRect().contains(tPos))
 		return;
@@ -17452,47 +16603,58 @@ void PathBubble1::hoverMoveEvent( QGraphicsSceneHoverEvent *event )
 				_scene->hoveredItem.clear();
 		}
 	}
-	else if(!groupSelected)
+	else if(!groupSelected )
 	{
-		if(event->pos().x()>120)
-			groupSelected=groupSelected;
-		vector<int> item=whichItem(event->pos(),this->Width()*_scale, this->Height()*_scale);
 		int resizeflag =  0;
-		if(!item.empty() )		
-		{	
-			int type=item[0], id=item[1];
-			if(type!='W')
-			{
-				QRectF rect;
-				switch(type)
-				{ 
-					case 'C': rect=complexRect[id];
-							  break;
-					case 'E': rect=physicalEntityRect[id]; 
-							  break;
-					case 'L': rect=ANodeRect[id]; 
-							  break;
-					case 'P': rect=proteinRect[id]; 
-							  break;
-					case 'S': rect=smallMoleculeRect[id]; 
-							  break;	
-					case 'D': rect=DnaRect[id]; 
-							  break;	 	
-					case 'R': rect=reactionRect[id]; 
-							  break;	 	
-					case 'M':
-						      rect=compartmentRect[id]; 
-							  break;	
-				}	
-				resizeflag = isInResizeArea(event->pos(), rect);
-				if(resizeflag==1 || resizeflag==3)
+		vector<int> item;
+	    if( !_penisOn)
+		{
+			item=whichItem(event->pos(),this->Width()*_scale, this->Height()*_scale);
+			resizeflag =  0;
+			if(!item.empty() )		
+			{	
+				int type=item[0], id=item[1];
+				if(type!='W' && type!='C' && type !='R')
 				{
-					setCursor(Qt::SizeFDiagCursor);
+					QRectF rect;
+					switch(type)
+					{ 
+						case 'C': rect=complexRect[id];
+								  break;
+						case 'E': rect=physicalEntityRect[id]; 
+								  break;
+						case 'L': rect=ANodeRect[id]; 
+								  break;
+						case 'P': rect=proteinRect[id]; 
+								  break;
+						case 'S': rect=smallMoleculeRect[id]; 
+								  break;	
+						case 'D': rect=DnaRect[id]; 
+								  break;	 	
+						case 'R': rect=reactionRect[id]; 
+								  break;	 	
+						case 'M':
+								  rect=compartmentRect[id]; 
+								  break;	
+					}	
+					resizeflag = isInResizeArea(event->pos(), rect, type);
+					if(resizeflag==1 || resizeflag==3)
+					{
+						setCursor(Qt::SizeFDiagCursor);
+					}
+					else if(resizeflag==2 || resizeflag==4)
+					{
+						setCursor(Qt::SizeBDiagCursor);
+					}	
+					else if(resizeflag==5 || resizeflag==6)
+					{
+						setCursor(Qt::SizeVerCursor);
+					}
+					else if(resizeflag==7 || resizeflag==8)
+					{
+						setCursor(Qt::SizeHorCursor);
+					}						
 				}
-				else if(resizeflag==2 || resizeflag==4)
-				{
-					setCursor(Qt::SizeBDiagCursor);
-				}					
 			}
 		}
 		if(resizeflag)
@@ -17596,6 +16758,18 @@ void PathBubble1::hoverMoveEvent( QGraphicsSceneHoverEvent *event )
 int PathBubble1::whichCorner(const QPointF pos, QRectF rect)
 {
 	float x=pos.x()-rect.center().x(), y=pos.y()-rect.center().y();
+	float w4=rect.width()/4, h4=rect.height()/4;
+
+	if(x<0 && y<h4 && y>-h4)
+		return 5;
+	if(x>0 && y<h4 && y>-h4)
+		return 6;
+
+	if(y<0 && x<w4 && x>-w4)
+		return 7;
+	if(y>0 && x<w4 && x>-w4)
+		return 8;
+
 	bool result0  = x < 0;
 	bool result1 =  y < 0;
 	
@@ -17615,42 +16789,103 @@ int PathBubble1::whichCorner(const QPointF pos, QRectF rect)
 	if(result4 && result5) 
 		return 3;
 	if(result6 && result7) 
-		return 4;
+		return 4;	
 	return (0);
 }
 
-int PathBubble1::isInResizeArea(const QPointF pos, QRectF rect)
+int PathBubble1::isInResizeArea(const QPointF pos, QRectF rect, int type)
 {
 	float w=rect.width(), h=rect.height()+4;
-	float margin = 12;
+	float margin;
+	if(type == 'M')
+	   margin = 24;
+	else 
+		margin = 12;
+
 	if(margin>w/4)
 	    margin=w/4;
 
 	if(margin>h/3)
 	    margin=h/3;
 
-
 	float x=pos.x()-rect.center().x(), y=pos.y()-rect.center().y();
-	bool result0  = x >-w/2-margin && x< (-w/2+margin);
-	bool result1 = y >-h/2-margin && y< (-h/2+margin);
-	
-	bool result2  = x> - w/2-margin && x< (- w/2+margin);
-	bool result3 = y< h/2+margin && y> (h/2-margin);
-	
-	bool result4  = x<w/2 +margin  && x> (w/2-margin);
-	bool result5 = y<h/2 +margin && y> (h/2-margin);
-	
-	bool result6  = x<w/2 +margin && x> (w/2-margin);
-	bool result7 = y> - h/2 -margin && y< (-h/2+margin);
+	bool result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10, result11, result12, result13, result14, result15;
 
+	result0 = x >-w/2-margin && x< (-w/2+margin);
+	result1 = y >-h/2-margin && y< (-h/2+margin);
+	
 	if(result0 && result1) 
+	{
 		return 1;
-	if(result2 && result3) 
-		return 2;
-	if(result4 && result5) 
-		return 3;
-	if(result6 && result7) 
-		return 4;
+	}
+	else
+	{
+		result2 = x > - w/2-margin && x < (- w/2+margin);
+	    result3 = y < h/2+margin && y > (h/2-margin);
+		if(result2 && result3) 
+			return 2;
+		else 
+		{
+			result4  = x<w/2 +margin  && x> (w/2-margin);
+	        result5 = y<h/2 +margin && y> (h/2-margin);
+	        if(result4 && result5) 
+		        return 3;
+	        else
+			{
+				result6  = x<w/2 +margin && x> (w/2-margin);
+	            result7 = y> - h/2 -margin && y< (-h/2+margin);
+				if(result6 && result7) 
+		            return 4;
+				else if(type == 'M')
+				{
+					int margin2=48, margin3=6;
+					if(margin2>w/4)
+	                    margin2=w/4;
+
+					if(margin3>h/4)
+	                    margin3=h/4;
+					if(margin3<3)
+						margin3=3;
+
+				    result8 = x < margin2 && x > -margin2;
+	                result9 = y > - h/2 - margin3  && y < -h/2 + margin3;
+					if(result8 && result9) 
+		                 return 5;
+					else
+					{
+						  result10 = x < margin2 && x > -margin2;
+						  result11 = y > h/2 - margin3  && y < h/2 + margin3;
+						  if(result10 && result11) 
+							 return 6;
+						  else
+						  {
+							  margin3=48, margin2=6;
+							  if(margin3>w/4)
+									margin3=w/4;
+
+							  if(margin2>h/4)
+									margin2=h/4;
+							  if(margin2<3)
+									margin2=3;
+
+							   result12 = x > w/2 - margin2  && x < w/2 + margin2;
+							   result13 = y < margin3 && y > -margin3;							   
+							   if(result12 && result13) 
+								   return 7;
+							   else
+							   {
+									result14 = x > -w/2 - margin2 && x < -w/2 + margin2;
+									result15 = y < margin3 && y > -margin3;							   
+									if(result14 && result15) 
+										return 8;
+							   }
+						  }
+
+					}
+				}
+			}
+		}
+	}
 	return (0);
 }
 
@@ -17928,24 +17163,24 @@ void PathBubble1::keyPressEvent(QKeyEvent *event)
 	}
 	int keyname=event->key();
 	keyname=keyname;*/
-    switch (event->key()) 
+    /*switch (event->key()) 
 	{
 		 case Qt::Key_Control: 
 			 _scene->controlKeyisOn=true;
 			 break;
 		 //default: controlKeyisOn=false; break;
-	}
+	}*/
 }
 
 void PathBubble1::keyReleaseEvent(QKeyEvent *event)
 {
     ItemBase::keyReleaseEvent(event);
-    switch (event->key()) 
+    /*switch (event->key()) 
 	{
 		 case Qt::Key_Control: 
 			_scene->controlKeyisOn=false;
 			 break;		 		
-	}
+	}*/
 }
 
 void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
@@ -17964,7 +17199,6 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 		return;
 
 	ItemBase::mousePressEvent(event);
-
 	if (event->button() == Qt::LeftButton )
 	{	
 		if(insideBubble(event->pos()))
@@ -17986,14 +17220,6 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 				}
 				else if(_queryisOn)
 				{
-					/*itemSelected = whichItem(event->pos(),this->Width()*_scale, this->Height()*_scale);
-   					if(!itemSelected.empty()) 
-					{
-					    setAItemDragged(itemSelected[0], itemSelected[1]);	
-						bubbleRect.setWidth(0), bubbleRect.setHeight(0);
-					}*/
-					
-
 					Qt::CursorShape shape = Qt::ClosedHandCursor;
 					setCursor(shape);  
 				}
@@ -18052,6 +17278,7 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 					initPos = event->pos();
 				else 
 				{
+					////////////
 					vector<int> pre;//=itemSelected;
 					for(set<vector<int>>::iterator it=highlighted.begin(); it!=highlighted.end(); it++)
 	                {
@@ -18079,7 +17306,7 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 						{
 							int type=itemSelected[0], id=itemSelected[1];
 							int resizeflag=0;
-							if(type!='W')
+							if(type!='W' && type!='R' && type!='C')
 							{
 								QRectF rect;
 								switch(type)
@@ -18101,7 +17328,7 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 									case 'M': rect=compartmentRect[id]; 
 											  break;	
 								}	
-								resizeflag = isInResizeArea(event->pos(), rect);
+								resizeflag = isInResizeArea(event->pos(), rect, type);
 							}
 							if(resizeflag!=0)
 							{
@@ -18121,13 +17348,23 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 																								
 									highlighted.insert(itemSelected);
 								}
+								if(_scene->shiftKeyisOn)
+								if(itemSelected.size()==2)
+								if(itemSelected[0]=='P' || itemSelected[0]=='C')
+								{
+									set<vector<int>> nodes = findNeighorsForAProtein(itemSelected[0], itemSelected[1]);
+									highLightedtoItemSelected(nodes, itemSelected);
+									addItemSelectedtoHighLighted(itemSelected, highlighted);
+								}
 							}
 							else
 							{
-							   if(highlighted.find(itemSelected)!=highlighted.end())
+							   /*if(highlighted.find(itemSelected)!=highlighted.end())
 								 highlighted.erase(itemSelected);
 							   else
 								   highlighted.insert(itemSelected);
+							   
+								highlighted=highlighted;*/
 							}
 						}
 						else 
@@ -18135,16 +17372,19 @@ void PathBubble1::mousePressEvent(QGraphicsSceneMouseEvent *event)
 						   if(!_scene->controlKeyisOn)
 						   {
 							   itemDragged.clear();
-							   highlighted.clear();						   
+							   highlighted.clear();
+						   
 						   }
 						}
 					}
-					graphupdated=true;
 
+					graphupdated=true;
 					getPartUpdateSelectedNodetoBePaint(pre, itemSelected);
+					//////////////
+					
 				}	
 				if(!graphupdated)
-				  getGraphToBePaint();
+				   getGraphToBePaint();
 			}
 			else //group seleted after pen drawing
 			{
@@ -18227,7 +17467,7 @@ int PathBubble1::assignANodeName(QString Name, QString Name2, int Aid)
     if(Aid>=0)
 	    ID=Aid;
 	else
-	while(true)
+	//while(true)
 	{
 		if(Aid<0)
 		{
@@ -18263,7 +17503,7 @@ int PathBubble1::assignANodeName(QString Name, QString Name2, int Aid)
 		}
 		vector<QString> A;
 		QString AName=Name2; //'A'+ QString::number(ID);		
-		if(!_scene->CheckANodeIDinAllBubbles(AName))
+		//if(!_scene->CheckANodeIDinAllBubbles(AName))
 		{
 			A.push_back(AName);  A.push_back(Name);
 			if( ID > _scene->_ANodeName[m_pathwayID].size()-1)
@@ -18284,10 +17524,10 @@ int PathBubble1::assignANodeName(QString Name, QString Name2, int Aid)
 				_scene->_ANodeName[m_pathwayID][ID]=A;    			
 				_scene->_ANodeName[m_pathwayID][ID].resize(5);
 			}
-			break;
+			//break;
 		}	
-		else 
-			start=true;
+		//else 
+		//	start=true;
 	}
 	return ID;
 }
@@ -18568,14 +17808,28 @@ bool PathBubble1::aggregation()
 		return false;
 
 
-	set<vector<int>> highlightedT=highlighted;
+	set<vector<int>> highlightedT;//=highlighted;
 	for(set<vector<int>>::iterator it=highlighted.begin(); it!=highlighted.end(); it++)
 	{
 		vector<int> item = *it;
-		int type=item[0], id=item[1];		
+		int type=item[0], id=item[1];	
+
+		switch(type)
+		{ 
+			case 'C': if(complexPos[id].x()>-990)        highlightedT.insert(item); break;
+			case 'E': if(physicalEntityPos[id].x()>-990)  highlightedT.insert(item); break;
+			case 'L': if( ANodePos[id].x()>-990)          highlightedT.insert(item); break;
+			case 'P': if(proteinPos[id].x()>-990)        highlightedT.insert(item); break;
+			case 'S': if(smallMoleculePos[id].x()>-990)  highlightedT.insert(item); break;		
+			case 'D': if(DnaPos[id].x()>-990)         highlightedT.insert(item); break;	 				     	
+			case 'N': if(EmptyPos[id].x()>-990)       highlightedT.insert(item); break;	
+			case 'R': if(reactionPos[id].x()>-990)    highlightedT.insert(item); break;
+			case 'M': if(compartmentPos[id].x()>-990)   highlightedT.insert(item); break;
+		}		
 		if(type=='M')
 		{
-		    compartmentToItemHighlighted(id, highlightedT);	
+			if(compartmentPos[id].x()>-990)
+		      compartmentToItemHighlighted(id, highlightedT);	
 		}
 	}
 	highlighted = highlightedT;
@@ -18976,16 +18230,34 @@ bool PathBubble1::isItemVisible(int type, int id)
 
     switch(type)
 	{
-		case 'C': if(id>complexPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");        return complexPos[id].x()>-0.99;  break;
-		case 'D': if(id>DnaPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");            return DnaPos[id].x()>-0.99; break;
-		case 'E': if(id>physicalEntityPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)"); return physicalEntityPos[id].x()>-0.99; break;
-		case 'P': if(id>proteinPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");        return proteinPos[id].x()>-0.99;  break;
-		case 'S': if(id>smallMoleculePos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");  return smallMoleculePos[id].x()>-0.99; break;
-		case 'R': if(id>reactionPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");       return reactionPos[id].x()>-0.99;   break; 
-		case 'L': if(id>ANodePos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");          return ANodePos[id].x()>-0.99;   break; 
+		case 'C': if(id>complexPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");        return complexPos[id].x()>-990;  break;
+		case 'D': if(id>DnaPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");            return DnaPos[id].x()>-990; break;
+		case 'E': if(id>physicalEntityPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)"); return physicalEntityPos[id].x()>-990; break;
+		case 'P': if(id>proteinPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");        return proteinPos[id].x()>-990;  break;
+		case 'S': if(id>smallMoleculePos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");  return smallMoleculePos[id].x()>-990; break;
+		case 'R': if(id>reactionPos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");       return reactionPos[id].x()>-990;   break; 
+		case 'L': if(id>ANodePos.size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");          return ANodePos[id].x()>-990;   break; 
 	}
 	return false;
-}	
+}
+
+bool PathBubble1::isItemVisible_1(int type, int id)
+{
+	if(id<0)
+		return false;
+
+    switch(type)
+	{
+		case 'C': if(id>_scene->_complexPos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");        return _scene->_complexPos[m_pathwayID][id].x()>-990;  break;
+		case 'D': if(id>_scene->_DnaPos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");            return _scene->_DnaPos[m_pathwayID][id].x()>-990; break;
+		case 'E': if(id>_scene->_physicalEntityPos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)"); return _scene->_physicalEntityPos[m_pathwayID][id].x()>-990; break;
+		case 'P': if(id>_scene->_proteinPos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");        return _scene->_proteinPos[m_pathwayID][id].x()>-990;  break;
+		case 'S': if(id>_scene->_smallMoleculePos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");  return _scene->_smallMoleculePos[m_pathwayID][id].x()>-990; break;
+		case 'R': if(id>_scene->_reactionPos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");       return _scene->_reactionPos[m_pathwayID][id].x()>-990;   break; 
+		case 'L': if(id>_scene->_ANodePos[m_pathwayID].size()) myErrorMessage("error in PathBubble1::isItemVisible(int type, int id)");          return _scene->_ANodePos[m_pathwayID][id].x()>-990;   break; 
+	}
+	return false;
+}
 
 void PathBubble1::updateSpanEdgesWhenCollapse(int Aid)
 {
@@ -19004,33 +18276,35 @@ void PathBubble1::updateSpanEdgesWhenCollapse(int Aid)
 			{        
 					int type = _scene->_ANodeContain[m_pathwayID][Aid][i], id = _scene->_ANodeContain[m_pathwayID][Aid][i+1];		
 					aid1=getOriNodeID(_pathBubbleParent->m_pathwayID, m_pathwayID, type, id);
+					
 					//bool flag=false;
 					for(int j=0; j < tEdge.size(); j++)
 					{	
+						if( (j==59 || j==60) && type==82 && id==3)
+							j=j;
 						int mtype=tEdge[j][4], mid=tEdge[j][5];
-						//if(mtype, mid is 
-						if(_pathBubbleParent->isItemVisible(mtype, mid))
+						if(_pathBubbleParent->isItemVisible_1(mtype, mid))
 						{
 							for(int k=0; k<4; k=k+2)
 							{
-								int type1=tEdge[j][k], id1=tEdge[j][k+1];	
-  								if(type1==type && id1==aid1)
+								int type1=tEdge[j][k], id1=tEdge[j][k+1];									
+  								if( (type1==type && id1==aid1) || (mtype==type && mid ==aid1))
 								{
 									//tEdge[j][k]=type, tEdge[j][k+1]=id1;	
 									vector<vector<int>> edge;
 									vector<int> n1(3,0), n2(3,0); 
 									if(k==2 && (type1!=mtype || type1!='R') )
 									{
-										n1[0]=pid1, n1[1]=type, n1[2]=id1;
+										n1[0]=pid1, n1[1]=type1, n1[2]=id1;
 										n2[0]=pid1, n2[1]=mtype, n2[2]=mid;
 									
 									}
 									else if(k==0)
 									{
-										n2[0]=pid1, n2[1]=type, n2[2]=id1;
+										n2[0]=pid1, n2[1]=type1, n2[2]=id1;
 										n1[0]=pid1, n1[1]=mtype, n1[2]=mid;
 										
-									}									
+									}
 									edge.push_back(n1), edge.push_back(n2);
 									edge1.push_back(edge);
 								}
@@ -19061,6 +18335,8 @@ void PathBubble1::reCoverEdgeConnection(int Aid, int pid1, vector<vector<vector<
 	{        
 		bool flag;
 	    int type = _ANodeContain[Aid][i], id = _ANodeContain[Aid][i+1];
+		if(type==82 && id==3)
+			id = id;
 		//update connections span pathways
 		if(pid1>=0)
 		{
@@ -19774,8 +19050,7 @@ bool PathBubble1::collapse(int Aid)
 	updateSpanEdgesWhenCollapse(Aid);
 	updateEdgeAfterCollapse(Aid);
 	vector<int> start(2,0), middle(2,0), end(2,0);
-
-	
+		
 	//also remove those redudent ANode		
 	vector<int> temp;
 	temp.push_back('L');  temp.push_back(Aid);
@@ -19956,6 +19231,11 @@ if(name.size()==0)
 void PathBubble1::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 {
 	ItemBase::mouseReleaseEvent( event );
+	if(isInnerResizing)
+	{
+	   recordItemGrid();	
+	}
+
 	isInnerResizing=false;
 
 	if(draggingItem && !m_isInnerMoving)
@@ -20106,7 +19386,7 @@ void PathBubble1::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 			   if(cname.size()==0)
 			   {
 				    int tindex= name.lastIndexOf("\\");
-					name = name.mid(14, name.size()-1);
+					//name = name.mid(14, name.size()-1);
 					name= "Sub(" + name;	
 					name = name + ")";	
 			   }
@@ -20114,8 +19394,6 @@ void PathBubble1::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 		 
 			   QRectF rect=_contain.boundingRect();
 			   iPos=rect.center();
-
-				
 
 			   iPos=event->scenePos();
 			   //find bubble location
@@ -20215,23 +19493,13 @@ void PathBubble1::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 					   }				   
 					   itemDragged.clear();
 					   itemSelected.clear();
-					   highlighted.clear();
-					   //the bubble became empty
+					   highlighted.clear();					   
 					   getGraphToBePaint();		
 				   }
 				   else if(sb)
 				   {
 						selfDelection(sb, this);
-						unGroupbyDelection();
-						/*int size=_pathBubbles.size(),psize=-1;	
-						QRectF result(-10000,-10000,-10000,-10000);
-						if(_pathBubbleParent!=NULL)
-						{
-							result=_pathBubbleParent->realRectF();
-						}					
-						_scene->bubbleDeleted(this, result);					
-						emit bubbleDeleteItself(this);
-						//deleteSelectedItems(_scene);			*/
+						unGroupbyDelection();						
 				   }
 				 }
 			}
@@ -20263,13 +19531,150 @@ void PathBubble1::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 				}
 				highlighted=highlightedT;
 				vector<int> pre;
-				getPartUpdateSelectedNodetoBePaintWhenMoved(pre, itemSelected,event->pos()-event->lastPos());	///getPartUpdateSelectedNodetoBePaint(pre, itemSelected);			
+				//getPartUpdateSelectedNodetoBePaintWhenMoved(pre, itemSelected,event->pos()-event->lastPos());	///
+				getPartUpdateSelectedNodetoBePaint(pre, itemSelected);			
 			}
 		}
 		else if(!_penisOn && groupSelected)
 	    {
 		    groupSelected=0;	
-	    }		
+	    }
+		else
+		{	
+			if(_scene->controlKeyisOn)
+			{
+				
+				itemSelected = whichItem(event->pos(),this->Width()*_scale, this->Height()*_scale);   
+
+				if(!itemSelected.empty())
+				{
+					vector<int> pre;//=itemSelected;
+					for(set<vector<int>>::iterator it=highlighted.begin(); it!=highlighted.end(); it++)
+					{
+						vector<int> item = *it;
+						int type=item[0], id=item[1];		
+						pre.push_back(type); pre.push_back(id);
+					}
+					if(highlighted.find(itemSelected)!=highlighted.end())
+					{
+						highlighted.erase(itemSelected);					
+					}
+					else
+					{
+						highlighted.insert(itemSelected);
+					}					
+				    getPartUpdateSelectedNodetoBePaint(pre, itemSelected);
+				}
+			}
+			
+			///////////////
+			/*bool graphupdated=false;					
+			vector<int> pre;//=itemSelected;
+			for(set<vector<int>>::iterator it=highlighted.begin(); it!=highlighted.end(); it++)
+	        {
+		        vector<int> item = *it;
+		        int type=item[0], id=item[1];		
+				pre.push_back(type); pre.push_back(id);
+			}
+			itemSelected = whichItem(event->pos(),this->Width()*_scale, this->Height()*_scale);   
+			if(!itemSelected.empty() && onNoteMark(m_pathwayID,  itemSelected[0], itemSelected[1], event->scenePos()))
+			{
+				vector<QString> text;
+				vector<int> Cid;
+				_scene->openNodeNote(m_pathwayID, itemSelected[0], itemSelected[1], this, event->scenePos(),text,Cid, true);
+				graphupdated=true;
+			}
+			else
+			{
+				if(itemSelected.empty() && onTagArea( event->pos()))					
+				{
+					vector<int> twm;
+					twm.push_back('W'); twm.push_back(m_pathwayID);
+					if(!m_isResizing)
+						itemSelected=twm;						
+				}
+				if(!itemSelected.empty())
+				{
+					int type=itemSelected[0], id=itemSelected[1];
+					int resizeflag=0;
+					if(type!='W')
+					{
+						QRectF rect;
+						switch(type)
+						{ 
+							case 'C': rect=complexRect[id];
+										break;
+							case 'E': rect=physicalEntityRect[id]; 
+										break;
+							case 'P': rect=proteinRect[id]; 
+										break;
+							case 'S': rect=smallMoleculeRect[id]; 
+										break;	
+							case 'L': rect=ANodeRect[id]; 
+										break;	
+							case 'D': rect=DnaRect[id]; 
+										break;	 	
+							case 'R': rect=reactionRect[id]; 
+										break;	 	
+							case 'M': rect=compartmentRect[id]; 
+										break;	
+						}	
+						resizeflag = isInResizeArea(event->pos(), rect, type);
+					}
+					if(resizeflag!=0)
+					{
+						isInnerResizing=true;
+						graphupdated=true;	
+					}
+					else if(!_scene->controlKeyisOn)
+					{	
+						_upisOn=_downisOn=_evenisOn=false;					
+						itemDragged.clear();
+						highlighted.clear();	
+
+						if(highlighted.size()==0)
+								highlighted.insert(itemSelected);
+						else
+						{
+							itemDragged.clear();																								
+							highlighted.insert(itemSelected);
+						}
+						if(_scene->shiftKeyisOn)
+						if(itemSelected.size()==2)
+						if(itemSelected[0]=='P' || itemSelected[0]=='C')
+						{
+							set<vector<int>> nodes = findNeighorsForAProtein(itemSelected[0], itemSelected[1]);
+							highLightedtoItemSelected(nodes, itemSelected);
+							addItemSelectedtoHighLighted(itemSelected, highlighted);
+						}
+						graphupdated=true;
+						getPartUpdateSelectedNodetoBePaint(pre, itemSelected);
+					}
+					else
+					{
+						if(highlighted.find(itemSelected)!=highlighted.end())
+						    highlighted.erase(itemSelected);
+						
+						graphupdated=true;
+						getPartUpdateSelectedNodetoBePaint(pre, itemSelected);
+					}
+				}
+				else 
+				{
+					if(!_scene->controlKeyisOn)
+					{
+						itemDragged.clear();
+						highlighted.clear();	
+
+						graphupdated=true;
+						getPartUpdateSelectedNodetoBePaint(pre, itemSelected);
+					}
+				}
+			}	
+			if(!graphupdated)
+				 getGraphToBePaint();*/
+			//////////////
+		}
 	}
 	if (event->button() == Qt::RightButton )
 	{
@@ -20281,8 +19686,7 @@ void PathBubble1::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 		itemDragged.clear();
 		itemSelected.clear();	
 		edgeSelected.clear();
-	}	
-	
+	}		
 
 	draggingItem=0;
 	if(dragout!=0) //update pathwayGraph record
@@ -20412,7 +19816,7 @@ QString PathBubble1::getPathwayGraphName(deque< QString > pathwayGraphStored)
 	int tindex = _curFilePath.lastIndexOf("/");
 	_curFilePath.remove(0, tindex+1);	
 
-	base = "data/Reactome_Pathway_Data/pathwayGraph/" + _curFilePath;
+	base = "data/Reactome_Pathway_Data/tempPathwayGraph/" + _curFilePath;
 	if(base[base.size()-1]=='_')
 		base=base.mid(0,base.size()-1);
 	if(drawSmallmolecule)
@@ -20714,41 +20118,45 @@ bool PathBubble1::groupSelection(QVector<QLineF> _lines)
 	
 	for(int id=0; id<compartmentPos.size()&&id<compartmentRect.size(); id++)
 	{
-		X=compartmentPos[id].x(), Y=compartmentPos[id].y(), W=compartmentPos[id].width(), H=compartmentPos[id].height();  
+		X=compartmentRect[id].x(), Y=compartmentRect[id].y(), W=compartmentRect[id].width(), H=compartmentRect[id].height();  
 		if(compartmentRect[id].width()>0)
-		{			
-			QPolygonF s=_contain.intersected(compartmentRect[id]);			
+		{	
+			QPolygonF newc=_contain;
+			QPolygonF s=newc.intersected(compartmentRect[id]);						
 			if(s.size()!=0)
 			{
-				int count=0;
-				bool flag=false;
-				for(int i=0; i<_contain.size(); i++)
+				//get n * n nodes of compartment
+				int n=3;
+				float dx=W/(n-1),dy=H/(n-1);
+				vector<vector<QPointF>> cnodes;				
+				cnodes.resize(n);
+				for(int i=0; i<n; i++)
 				{
-					if(compartmentRect[id].contains(_contain[i]))
+					cnodes[i].resize(n);
+					for(int j=0; j<n; j++)
 					{
-						if(count>0)
-						{
-							flag=true;
-							break;
-						}
-						else count=-1;
-					}
-					else 
-					{
-						if(count<0)
-						{
-							flag=true;
-							break;
-						}
-						else count=1;				
+						float nx, ny;
+						nx=X+i*dx;
+						ny=Y+j*dy;
+						cnodes[i][j]=QPoint(nx,ny);
 					}
 				}
-				if(flag)
+				int count=0;
+				for(int i=0; i<n; i++)
+				{
+					for(int j=0; j<n; j++)
+					{
+						if(_contain.containsPoint(cnodes[i][j],Qt::WindingFill))
+						   count++;
+					}
+				}
+				if(count>n*n*0.7)
 				{
 					//itemSelected.push_back('C'), itemSelected.push_back(id);
 					vector<int> item; item.push_back('M'); item.push_back(id);
 					highlighted.insert(item);
 				}
+				cnodes.clear();
 			}
 		}
 	}
@@ -21294,11 +20702,11 @@ void PathBubble1::drawABubbleConnectioninArrow_H(QPainter *painter, QPointF cent
 			p2=QPointF(x2,y2);		
 	}
 	if(arrowType==0)
-		drawArrow_H(painter, p1+Dis, p2+Dis, width, height, _scale, color);//HIGHLIGHTCOLOR ); 	
+		drawArrow_H(painter, p1+Dis, p2+Dis, width, height, _scale, color);//LIGHT_HIGHLIGHTCOLOR ); 	
 	else if(arrowType==1) 
-		drawArrow_H(painter, p1+Dis, p2+Dis, width, height, _scale, color);//HIGHLIGHTCOLOR ); //drawArrow_4(painter, p1+Dis, p2+Dis, width, height, QColor(0, 210, 50, 255) );	
+		drawArrow_H(painter, p1+Dis, p2+Dis, width, height, _scale, color);//LIGHT_HIGHLIGHTCOLOR ); //drawArrow_4(painter, p1+Dis, p2+Dis, width, height, QColor(0, 210, 50, 255) );	
 	else if(arrowType==2) 
-		drawArrow_H(painter, p1+Dis, p2+Dis, width, height, _scale, color);//HIGHLIGHTCOLOR ); //drawArrow_4_H(painter, p1+Dis, p2+Dis, width, height, 3, QColor(255, 128, 0, 255) );	
+		drawArrow_H(painter, p1+Dis, p2+Dis, width, height, _scale, color);//LIGHT_HIGHLIGHTCOLOR ); //drawArrow_4_H(painter, p1+Dis, p2+Dis, width, height, 3, QColor(255, 128, 0, 255) );	
 	else if(arrowType==3) 
 	{
 		//int encode = 3;//updatedEdge_5[0];
@@ -21642,7 +21050,6 @@ void PathBubble1::drawConnections_H(QPainter *painter, QPointF dis)
 
 			if(!path1->isVisible() || !path2->isVisible())
 				continue;
-
 			
 			//int pid1, int type1, int id1, int pid2, int type2, int id2
 			//if(_scene->linkSearchType == 1)	
@@ -21676,7 +21083,7 @@ void PathBubble1::drawConnections_H(QPainter *painter, QPointF dis)
 					 break;
 				}
 			}	
-			QColor bc;
+			vector<QColor> bc;
 			if(isLinkedEdge)
 			{
 				/*float level=findLinkedLevel(pid1, type1, id1, pid2, type2, id2);
@@ -21686,8 +21093,8 @@ void PathBubble1::drawConnections_H(QPainter *painter, QPointF dis)
 					level=findLinkedLevel(pid2, type2, id2, pid1, type1, id1);				
 				}*/			
 				bc=_scene->getPathColor(pid1,  type1,  id1,  pid2,  type2,  id2); //assignColorToLinkedItems(level, totalLevel,1);			
-				painter->setBrush(bc);					
-				painter->setPen(bc);					
+				painter->setBrush(bc[0]);					
+				painter->setPen(bc[0]);					
 			}
 			else 
 			{
@@ -21723,7 +21130,7 @@ void PathBubble1::drawConnections_H(QPainter *painter, QPointF dis)
 				{
 					if(!inUpdatedEdge(link, _scene->edgeconnections_4))
 					{
-						drawABubbleConnectioninArrow_H(painter, center1, path1, center2, path2, dis, bc, i, _scale);	
+						drawABubbleConnectioninArrow_H(painter, center1, path1, center2, path2, dis, bc[0], i, _scale);	
 					}
 				}
 				else
@@ -21746,7 +21153,7 @@ void PathBubble1::drawConnections_H(QPainter *painter, QPointF dis)
 						eid++;
 					  }
 					  encode=_scene->edgeconnections_5[eid];					 					  
-					  drawABubbleConnectioninArrow_H(painter, center1, path1, center2, path2, dis, bc, 3, encode, h, _scale);						
+					  drawABubbleConnectioninArrow_H(painter, center1, path1, center2, path2, dis, bc[0], 3, encode, h, _scale);						
 				}
 			}		
 		}	
@@ -21803,34 +21210,7 @@ void PathBubble1::drawConnections(QPainter *painter, QPointF dis)
 		
 			tEdge.push_back(link0);  tEdge.push_back(link1);	
 
-			/*
-			for(int j=0; j<linkedEdge.size();j++)
-			{
-				if(linkedEdge[j].find(tEdge)!=linkedEdge[j].end())
-				{
-					isLinkedEdge=true;				
-				   break;
-				}
-			}			
-			for(int k=0; k<_scene->_pathBubbles[pid2]->linkedEdge.size();k++)
-			{
-				if(_scene->_pathBubbles[pid2]->linkedEdge[k].find(tEdge)!=_scene->_pathBubbles[pid2]->linkedEdge[k].end())
-				{
-					 isLinkedEdge=true;				 
-					 break;
-				}
-			}			
-			if(!isLinkedEdge)
-			for(int j=0; j<_scene->_pathBubbles[pid1]->linkedEdge.size();j++)
-			{
-				if(_scene->_pathBubbles[pid1]->linkedEdge[j].find(tEdge)!=_scene->_pathBubbles[pid1]->linkedEdge[j].end())
-				{
-					 isLinkedEdge=true;				 
-					 break;
-				}
-			}
-			*/
-
+		
 			QColor bc;			
 			
 			bc=QColor(40, 40, 40, 255);
@@ -21873,10 +21253,7 @@ void PathBubble1::drawConnections(QPainter *painter, QPointF dis)
 				{
 					 float h;
 					 int encode;
-					 /*if( type1 == 'L')
-						  h=_scene->_pathBubbles[pid1]->ANodeRect[id1].height();
-					 else if( type2 == 'L')
-						  h=_scene->_pathBubbles[pid2]->ANodeRect[id2].height();*/
+					
 					if(h!=0)
 					{
 						h=(itemPos1.height()+itemPos2.height())/2;
@@ -21901,9 +21278,9 @@ void PathBubble1::drawConnections(QPainter *painter, QPointF dis)
 			}		
 		}	
 	}
-	for (int i = 0; i < _codeBubbles.size(); i ++)
+	/*for (int i = 0; i < _eGiftBubbles.size(); i ++)
 	{
-		color = this->_codeBubbles[i]->getColor();
+		color = this->_eGiftBubbles[i]->getColor();
 		
 		pen.setColor( QColor(0, 0, 0, 200) );
 		painter->setPen( pen );
@@ -21913,8 +21290,8 @@ void PathBubble1::drawConnections(QPainter *painter, QPointF dis)
 		constart.setY( constart.y()*height - height/2 + dis.y());
 		constart=constart+dCenter;
 		
-		conend = _codeBubbles[i]->pos();
-		conend.setX( conend.x() - _codeBubbles[i]->Width()/2 + dis.x());
+		conend = _eGiftBubbles[i]->pos();
+		conend.setX( conend.x() - _eGiftBubbles[i]->Width()/2 + dis.x());
 		conend.setY( conend.y() + dis.y());
 		conend -= this->pos();
 
@@ -21928,167 +21305,7 @@ void PathBubble1::drawConnections(QPainter *painter, QPointF dis)
 				paintItem(painter, temp[0], temp[1], true, dCenter, _scale, QColor(color.a, color.b, color.c, 200), dis);			
 			}	
 		}
-	}
-	
-	for (int i = 0; i < _reactionBubbles.size(); i ++)
-	{
-		color = this->_reactionBubbles[i]->getColor();
-		pen.setColor( QColor(color.a, color.b, color.c, 200) );
-		painter->setPen( pen );
-
-		constart = this->_reactionPoint[i];
-		constart.setX( this->Width()/2 + dis.x());
-		constart.setY( constart.y()*height - height/2 + dis.y() );
-		constart=constart+dCenter;
-
-		conend = _reactionBubbles[i]->pos();
-		conend.setX( conend.x() - _reactionBubbles[i]->Width()/2 + dis.x());
-		conend.setY( conend.y() + dis.y());
-		conend -= this->pos();
-	
-		float width = conend.x() - constart.x();
-
-		tmpmid.setX( constart.x() + width/2 );
-		tmpmid.setY( constart.y() );
-
-		if ( fabs(conend.y()-constart.y()) > 20)
-		{
-			painter->drawLine( constart, tmpmid - QPointF( 10.0, 0) );
-
-			if ( conend.y() > constart.y() )
-			{
-				painter->drawArc( tmpmid.x()-20.0, tmpmid.y(), 20.0, 20.0, 0, 90*16 );
-				painter->drawLine( tmpmid+QPointF( 0, 10.0), QPointF(tmpmid.x(), conend.y()-10.0));
-				tmpmid.setY( conend.y() );
-				painter->drawArc( tmpmid.x(), tmpmid.y()-20.0, 20.0, 20.0, 180*16, 90*16 );
-			}
-			else
-			{
-				painter->drawArc( tmpmid.x()-20.0, tmpmid.y()-20.0, 20.0, 20.0, 270*16, 90*16 );
-				painter->drawLine( tmpmid-QPointF( 0, 10.0), QPointF(tmpmid.x(), conend.y()+10.0));
-				tmpmid.setY( conend.y() );
-				painter->drawArc( tmpmid.x(), tmpmid.y(), 20.0, 20.0, 90*16, 90*16 );
-			}
-			painter->drawLine( tmpmid + QPointF( 10.0, 0), conend );
-		}
-		else
-		{
-			painter->drawLine( constart, tmpmid);
-			painter->drawLine( tmpmid, QPointF(tmpmid.x(), conend.y()));
-			tmpmid.setY( conend.y() );
-			painter->drawLine( tmpmid, conend );
-		}
-		
-		//arrow
-		if (conend.x() > constart.x())
-		{
-			painter->drawLine( conend, QPointF(conend.x()-10, conend.y()-4) );
-			painter->drawLine( conend, QPointF(conend.x()-10, conend.y()+4) );
-		}
-		else
-		{
- 			painter->drawLine( conend, QPointF(conend.x()+10, conend.y()-4) );
- 			painter->drawLine( conend, QPointF(conend.x()+10, conend.y()+4) );
-		}	
-
-		if(i<_reactionhighlight.size())
-		{
-			set<vector<int>> hi=_reactionhighlight[i];
-		    for(set<vector<int>>::iterator it=hi.begin(); it!=hi.end(); it++) 
-		    {
-			vector<int> temp=*it;
-            paintItem(painter, temp[0], temp[1], true, dCenter, _scale, QColor(color.a, color.b, color.c, 200), dis);					
-		    }	
-		}
-	}
-	
-	for (int i = 0; i < _groupBubbles.size(); i ++)
-	{
-		color = this->_groupBubbles[i]->getColor();
-		pen.setColor( QColor(color.a, color.b, color.c, 200) );
-		painter->setPen( pen );
-
-		constart = this->_groupPoint[i];
-		constart.setX( this->Width()/2 + dis.x());
-		constart.setY( constart.y()*height - height/2 + dis.y());
-		constart=constart+dCenter;
-
-		conend = _groupBubbles[i]->pos();
-		conend.setX( conend.x() - _groupBubbles[i]->Width()/2 + dis.x());
-		conend.setY( conend.y() + dis.y());
-		conend -= this->pos();
-	
-		int wid = conend.x() - constart.x();
-
-		tmpmid.setX( constart.x() + wid/2 );
-		tmpmid.setY( constart.y() );
-
-		if(i<_grouphighlight.size())  
-		{
-            int j=0;
-			vector<int> node(2,0), temp;
-			vector<vector<int>> ed(2, node);
-			set<vector<int>> hi=_grouphighlight[i];
-
-			set<vector<vector<int>>> Af=_groupEdgeAffected[i];
-
-			for(set<vector<int>>::iterator it=hi.begin(); it!=hi.end(); it++) 
-			{
-				vector<int> temp=*it;				
-								
-				QPointF center,center1;
-				QRectF rect;
-		        switch(temp[0])
-		        {
-					case 'C': nodes = _complex[temp[1]]; break;
-					case 'D': nodes = _Dna[temp[1]]; break;
-					case 'E': nodes = _entity[temp[1]]; break;
-					case 'L': nodes = _ANode[temp[1]]; break;
-					case 'P': nodes = _protein[temp[1]]; break;
-					case 'S': nodes = _smallMolecule[temp[1]]; break;
-					case 'R': nodes = _reaction[temp[1]]; break;
-				}
-				center1=this->_groupBubbles[i]->itemPos[j].center();
-				ed[0][0]=temp[0];  ed[0][1]=temp[1];
-
-				for(int k=0; k<nodes.size(); k++)
-				{	
-					int it=nodes[k][1];
-					switch(nodes[k][0])
-					{
-						case 'C': rect=complexPos[it]; break;
-						case 'D': rect=DnaPos[it]; break;
-						case 'E': rect=physicalEntityPos[it]; break;
-						case 'L': rect=ANodePos[it]; break;
-						case 'P': rect=proteinPos[it]; break;
-						case 'S': rect=smallMoleculePos[it]; break;
-						case 'R': rect=reactionPos[it]; break;
-					}					
-					if(rect.x()>-999.99)
-					{
-						center=rect.center();	
-					
-						center.setX(center.x()*width-width/2);
-						center.setY(center.y()*height-height/2);
-
-						ed[1][0]=nodes[k][0];  ed[1][1]=nodes[k][1];
-
-						if(nodes[k][3]==-1)
-						{
-			                 temp=ed[1]; ed[1]=ed[0]; ed[0]=temp;
-						}
-
-						if(center.x()>=-width*1.3&&center1.x()>=-width*1.3)			
-						{
-							if(Af.find(ed)!=Af.end())
-								painter->drawLine(center+dCenter, center1+this->_groupBubbles[i]->sceneBoundingRect().center()-this->sceneBoundingRect().center());
-						}
-					}				
-				}				
-				j++;
-			}
-		}		
-	}
+	}*/
 	painter->restore();
 }
 
@@ -22518,6 +21735,7 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 		int type=B1->itemInfo[i][0];//B1->_itemSelected[i];
 		int id0=B1->itemInfo[i][1], id1=B1->itemInfo[i][2];//B1->_itemSelected[i+1];	
 		vector<int> item;
+		bool haveit=false;
 		item.push_back(type); item.push_back(id1);
 		if(pid0==B1->itemInfo[i][5])
 		switch(type)
@@ -22525,7 +21743,7 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 		    case 'C': // item.push_back(Cnum);
 				      if(itemSet.find(item)!=itemSet.end())
 					  {
-						  CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+						  haveit=true;
 						  rect=_scene->_complexPos[pid1][id1];
 				          rect.moveCenter(rect.center() + Dis);
 				          B0->complexPos[id0]=rect;
@@ -22534,7 +21752,7 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 		    case 'E': //item.push_back(Enum);
 				      if(itemSet.find(item)!=itemSet.end())
 					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+						  haveit=true;
 						  rect=_scene->_physicalEntityPos[pid1][id1];
 						  rect.moveCenter(rect.center() + Dis);
 						  B0->physicalEntityPos[id0] =  rect;  			
@@ -22542,8 +21760,8 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 					  break; 
 			case 'L': //item.push_back(Anum);
 				      if(itemSet.find(item)!=itemSet.end())
-					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+					  {		
+						  haveit=true;
 						  rect=_scene->_ANodePos[pid1][id1];
 						  rect.moveCenter(rect.center() + Dis);
 						  B0->ANodePos[id0] = rect; 
@@ -22551,8 +21769,8 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 					  break; 
 		    case 'P': //item.push_back(Pnum);
 				      if(itemSet.find(item)!=itemSet.end())
-					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+					  {  
+						  haveit=true;
 						  rect = _scene->_proteinPos[pid1][id1]; 					  
 						  rect.moveCenter(rect.center() + Dis);
 						  B0->proteinPos[id0] = rect;
@@ -22561,7 +21779,7 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 		    case 'S': //item.push_back(Snum);
 				      if(itemSet.find(item)!=itemSet.end())
 					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+						  haveit=true;
 						  rect= _scene->_smallMoleculePos[pid1][id1]; 
 						   rect.moveCenter(rect.center() + Dis);
 						   B0->smallMoleculePos[id0]=rect;
@@ -22570,7 +21788,7 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 		    case 'D': //item.push_back(Dnum);
 				      if(itemSet.find(item)!=itemSet.end())
 					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+						 haveit=true;
 						 rect= _scene->_DnaPos[pid1][id1];  
 				         rect.moveCenter(rect.center() + Dis);
 					     B0->DnaPos[id0] = rect;
@@ -22578,8 +21796,8 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 					  break;  
 		    case 'R': //item.push_back(Rnum);
 				      if(itemSet.find(item)!=itemSet.end())
-					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+					  {  
+						  haveit=true;
 						  rect = _scene->_reactionPos[pid1][id1];
 				          rect.moveCenter(rect.center() + Dis);
 					      B0->reactionPos[id0] = rect ;
@@ -22587,14 +21805,19 @@ bool PathBubble1::getPartItemBack(PathBubble1 *cBubble, vector<int> partItem)
 					  break; 
 			case 'M': //item.push_back(id1);
 				      if(itemSet.find(item)!=itemSet.end())
-					  {
-						   CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+					  {   
+						  haveit=true;
 						  rect = _scene->_compartmentPos[pid1][id1]; 
 				          rect.moveCenter(rect.center() + Dis);
 					      B0->compartmentPos[id0] = rect;
 					  }
 					  break; 
-		}			
+		}	
+		if(haveit)
+		{
+			CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+			WebBlock* egBubble=_scene->findEgiftBubble(pid1, type, id1);	if(egBubble!=NULL)  egBubble->_pid=pid0, egBubble->_id=id0;
+		}
 	}
 	/*for(int i=0; i<B1->_itemSelected.size(); i+=2)
 	{
@@ -22786,6 +22009,9 @@ void PathBubble1::PathBubbleDelectionUpdate(int m_pathwayID)
 		int id0=B1->itemInfo[i][1], id1=B1->itemInfo[i][2];//B1->_itemSelected[i+1];	
 		CalloutNote* nodeNote=_scene->findNote(pid1, type, id1);	             					
 		if(nodeNote!=NULL)  nodeNote->_pid=pid0, nodeNote->_id=id0;
+
+		WebBlock* egBubble=_scene->findEgiftBubble(pid1, type, id1);	
+		if(egBubble!=NULL)  egBubble->_pid=pid0, egBubble->_id=id0;
 
 		//vector<int> item;
 		//item.push_back(type); item.push_back(B1->itemInfo[i][2]);
@@ -23291,12 +22517,10 @@ QSizeF PathBubble1::getItemSize(QString name, int type, int id)
 
 void PathBubble1::drawfills( QPainter* painter )
 {
-	/*painter->save();
-	painter->setPen( QPen( QBrush( QColor( 0, 0, 255, 10) ), 2 ) );
-	painter->drawLines( fills );
-	painter->restore();*/
+	//after pen selection
+	painter->setPen( QColor( 0, 0, 0, 100) );	
 	painter->setBrush( QColor( 0, 0, 255, 100) );	
-	painter->drawPolygon(_contain);
+	painter->drawPolygon(_contain, Qt::WindingFill);
 }
 
 void PathBubble1::addLine( QPointF pos1, QPointF pos2 )
@@ -23404,7 +22628,7 @@ QRectF PathBubble1::resizeNode( QRectF oriRect, QRectF curRect, QRectF rect)
 
 
 void PathBubble1::resizeItem_1( int type, int id, QPointF Pos, QPointF lastPos)
-{//resize node when dragging it
+{//resize a node when dragging it
 	QPointF  dis = Pos- lastPos;
 	float Px,Py,disx,disy;
 	float sizew,sizeh,w,h,cx,cy;	
@@ -23426,8 +22650,7 @@ void PathBubble1::resizeItem_1( int type, int id, QPointF Pos, QPointF lastPos)
 		case 'D': rect=DnaRect[id]; pPos=DnaPos[id];
 					break;	 	
 		case 'R': rect=reactionRect[id]; pPos=reactionPos[id];
-					break;	 	
-		
+					break;	 			
 		case 'M': rect=compartmentRect[id]; pPos=compartmentPos[id]; oriRect=compartmentRect[id]; oriPos=compartmentPos[id];
 					break;	
 	}
@@ -23450,7 +22673,27 @@ void PathBubble1::resizeItem_1( int type, int id, QPointF Pos, QPointF lastPos)
     {
 		disy=-disy;			
 	}
+	else if(cornerID==5)
+    {
+		disy=0;	
+		disx=-disx;
+	}
+	else if(cornerID==6)	
+    {
+		disy=0;			
+	}
+	else if(cornerID==7)
+    {
+		disx=0;	
+		disy=-disy;
+	}
+	else if(cornerID==8)	
+    {
+		disx=0;		
+		
+	}
 
+	
 	sizew =  rect.width() + disx;
 	sizeh =  rect.height() + disy;
 
@@ -23467,6 +22710,23 @@ void PathBubble1::resizeItem_1( int type, int id, QPointF Pos, QPointF lastPos)
 	else if(cornerID==4)
     {
 		disy=-disy;			
+	}
+	else if(cornerID==5)
+    {
+		
+		disx=-disx;
+	}
+	else if(cornerID==6)	
+    {
+				
+	}
+	else if(cornerID==7)
+    {
+		disy=-disy;
+	}
+	else if(cornerID==8)	
+    {			
+		
 	}
 	
 	dis=QPointF(disx,disy);
@@ -23545,7 +22805,7 @@ void PathBubble1::resizeItem_1( int type, int id, QPointF Pos, QPointF lastPos)
 				  break;	
 	}		
     
-	if(type=='M')
+	if(type=='M' && cornerID<5)
 	{
 		curRect=compartmentRect[id];
 		curPos=compartmentPos[id];
@@ -23656,13 +22916,14 @@ void PathBubble1::mouseMoveEvent( QGraphicsSceneMouseEvent *event )
 	if(_scene->_fileSelection!=NULL && _scene->_fileSelection->getDiaSceneRect().contains(event->scenePos()))
 		return;
 
-	if( UNGROUPBYMENU || (m_isMoving || m_isResizing || onBoarder( event->pos() ) || pressOnBoarder || pressOnUngroup || onUnGroupArea(event->pos()) ) && !draggingItem )
+	if( UNGROUPBYMENU || (m_isMoving || m_isResizing || onBoarder( event->pos() ) || pressOnBoarder || pressOnUngroup || onUnGroupArea(event->pos()) ) && !draggingItem && !_penisOn && !isInnerResizing)
 	{
 		ItemBase::mouseMoveEvent( event );  //when scale is enabled
 		return;
 	}
 	if(m_pathwayID>=0&&_penisOn)
-	{
+	{ 
+
 	    addLine( initPos, event->pos() );
 		initPos = event->pos();
 	}
@@ -23730,22 +22991,30 @@ void PathBubble1::mouseMoveEvent( QGraphicsSceneMouseEvent *event )
 				bool flag1=false;				
 				if( verifyItemSelected(itemSelected) )
 				{
-					if(groupSelected) //for pen selection case
-					    flag1 = updateGroupedItemPos(itemSelected, event->pos()-event->lastPos());
+					if(groupSelected || _scene->controlKeyisOn || _scene->shiftKeyisOn) //for pen selection case
+					{
+						if(_scene->controlKeyisOn || _scene->shiftKeyisOn)
+						   highLightedtoItemSelected(highlighted, itemSelected);
+						flag1 = updateGroupedItemPos(itemSelected, event->pos()-event->lastPos());
+					}
 					else 
 					{
-						flag1 = updateAItemPos(itemSelected[0], itemSelected[1], event->pos()-event->lastPos());
-						
+						flag1 = updateAItemPos(itemSelected[0], itemSelected[1], event->pos()-event->lastPos());						
 					}
 				}
 				else if( insideBubble(event->pos() ) )
 				{
-					if(groupSelected) //for pen selection case
-					   flag1 = updateGroupedItemPos(itemSelected, event->pos()-event->lastPos());
+					if(groupSelected || _scene->controlKeyisOn || _scene->shiftKeyisOn) //for pen selection case
+					{
+
+						if(_scene->controlKeyisOn || _scene->shiftKeyisOn)
+						   highLightedtoItemSelected(highlighted, itemSelected);
+						flag1 = updateGroupedItemPos(itemSelected, event->pos()-event->lastPos());
+					}
 					else flag1 = updateAItemPos(itemSelected[0], itemSelected[1], event->pos()-event->lastPos());
 				}
 
-				if( flag1 && !groupSelected && itemSelected[0]=='M' )
+				if( flag1 && !(groupSelected || _scene->controlKeyisOn || _scene->shiftKeyisOn) && itemSelected[0]=='M' )
 				{
 					//put item in the compartment in itemselected	
 					int mid=itemSelected[1];
@@ -23777,7 +23046,7 @@ void PathBubble1::mouseMoveEvent( QGraphicsSceneMouseEvent *event )
 					}
 					else dragout=1;				
 				}
-				else if(flag1 && !groupSelected && !itemSelected.empty() && itemSelected[0]!='W' && itemSelected[0]!='M')
+				else if(flag1 && !(groupSelected || _scene->controlKeyisOn || _scene->shiftKeyisOn) && !itemSelected.empty() && itemSelected[0]!='W' && itemSelected[0]!='M')
 			    {
 					if(dragout==0)
 					{
@@ -23789,7 +23058,7 @@ void PathBubble1::mouseMoveEvent( QGraphicsSceneMouseEvent *event )
 					   dragout=3;
 					else dragout=1;
 			    }
-				else if(flag1 && groupSelected && !itemSelected.empty() )
+				else if(flag1 && (groupSelected || _scene->controlKeyisOn || _scene->shiftKeyisOn) && !itemSelected.empty() )
 			    {
 					//int mid=itemSelected[1];
 					if(dragout==0)
@@ -25648,6 +24917,9 @@ vector< vector < set< vector <int> > > > PathBubble1::searchSharedItems(bool And
 		{
 			vector<int> tmp,item=*it;
 			int type=item[0],id=item[1];		
+		    int level=pbubble->findLinkedLevel(pbubble->m_pathwayID, type, id);		
+			if(level!=0)
+				continue;
 			tmp.push_back(pbubble->m_pathwayID); 
 			if(type=='W')
 			{
@@ -25813,10 +25085,19 @@ void PathBubble1::PL(vector<PathBubble1 *> mlist)
 		{
 			int pid=mlist[i]->m_pathwayID;
 			if(pid>=_scene->pathVectors.size())
+			{	
 				_scene->pathVectors.resize(pid+1);
-			
+			    
+			}
+			if(pid>=_scene->pathEnds.size())
+			{	
+				_scene->pathEnds.resize(pid+1);
+			}
 			if(pid>=0)
-		        _scene->pathVectors[pid].clear();
+		    {
+				_scene->pathVectors[pid].clear();
+				_scene->pathEnds[pid].clear();
+			}
 		}
 	}
 	
@@ -25944,10 +25225,19 @@ void PathBubble1::CL(vector<PathBubble1 *> mlist)
 		{
 			int pid=mlist[i]->m_pathwayID;
 			if(pid>=_scene->pathVectors.size())
+			{	
 				_scene->pathVectors.resize(pid+1);
-			
+			    
+			}
+			if(pid>=_scene->pathEnds.size())
+			{	
+				_scene->pathEnds.resize(pid+1);
+			}
 			if(pid>=0)
-		        _scene->pathVectors[pid].clear();
+		    {
+				_scene->pathVectors[pid].clear();
+				_scene->pathEnds[pid].clear();
+			}
 		}
 	
 		searchSharedItems(false);
@@ -26082,7 +25372,7 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	{   //P U
 		//high
         vector<set<vector<int>>> HBackup=getHighlightedBackuped();
-		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
 
 		vector< vector < set< vector <int> > > > cItem=getContainedSets(1,0,0, index==0?true:false);			
 		
@@ -26093,18 +25383,18 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 		}
 		PU(mlist, cItem);	
 
-		for(int i=0; i<mlist.size(); i++) 
+		/*for(int i=0; i<mlist.size(); i++) 
 	    {
 			PathBubble1* pbubble = mlist[i];
 			i=i;
-		}
+		}*/
 		reMoveNotShared(HBackup);
 
-		for(int i=0; i<mlist.size(); i++) 
+		/*for(int i=0; i<mlist.size(); i++) 
 	    {
 			PathBubble1* pbubble = mlist[i];
 			i=i;
-		}
+		}*/
 		
 		searchedNodetoStored(SEARCHSHARED);
 
@@ -26121,7 +25411,7 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	{
 		//P N	
 		vector<set<vector<int>>> hBackUp=getHighlightedBackuped();
-		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
 		vector< vector < set< vector <int> > > > cItem1=getContainedSets(1,0,0, index==0?true:false);	
 		vector< vector < set< vector <int> > > > cItem2=getContainedSets_1(1,0,0, true);	
 		
@@ -26135,19 +25425,24 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 		//vector<set<vector<int>>> hBackUp=getHighlightedBackuped();
 		int cnum=1;
 		if(_scene->linkSearchType == 0)	
-			cnum=4;
+			cnum=2;
 		for(int i=0; i<cnum; i++)
 		{
 			bool addPathHighlight;
 			
 			if(_scene->linkSearchType == 0)	
-			   addPathHighlight = sharedDifferedLinkedExpressedtoHighlighted(true, false, false, true, false);
-			else if(_scene->linkSearchType == 1)	
+			   addPathHighlight = sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
+			else if(_scene->linkSearchType == 1 || _scene->linkSearchType == 3)	
+			{
 				addPathHighlight = sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+			}
+			if(_scene->linkSearchType == 3)
+				_scene->linkSearchType = 0;
 			//vector< vector < set< vector <int> > > > cItem=getContainedProteinSets(index==0?true:false);		
 			//searchsharedP(mlist, cItem);		
-			//sharedNodetoHighlighted();		
-			searchSharedItems(index==0?true:false);
+			//sharedNodetoHighlighted();
+			if(i==0)
+			   searchSharedItems(index==0?true:false);
 		
 			PL(mlist);
 			searchedNodetoStored(SEARCHLINKED);
@@ -26159,7 +25454,7 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	else if(index==1)	
 	{ //C U
 		//high
-		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
 
 		vector< vector < set< vector <int> > > > cItem = getContainedSets(0, 1, 0, index==0?true:false);
 		CU(mlist, cItem);
@@ -26170,7 +25465,7 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	}
 	else if( index==11)
 	{ //C N
-		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
 		vector< vector < set< vector <int> > > > cItem = getContainedSets(0, 1, 0, index==0?true:false);
 		CN(mlist, cItem);
 		searchedNodetoStored(SEARCHDIFFERED);
@@ -26179,7 +25474,18 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	}
 	else if(index==21)
 	{   //C L
-		bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, true, false);
+		bool addPathHighlight;
+
+		if(_scene->linkSearchType == 0)	
+			   addPathHighlight = sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
+
+		else if(_scene->linkSearchType == 1 || _scene->linkSearchType == 3)	
+		{
+			addPathHighlight = sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+		}
+		if(_scene->linkSearchType == 3)
+			_scene->linkSearchType = 0;
+
 		CL(mlist);		
 		searchedNodetoStored(SEARCHLINKED);
 		if(addPathHighlight) cleanPathHighlight();
@@ -26187,7 +25493,7 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	}
 	else if(index==2)	
 	{ //PA U
-        bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+        bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
 		PAU(mlist);
 		
 		searchedNodetoStored(SEARCHSHARED);
@@ -26197,7 +25503,7 @@ bool PathBubble1::menuSelection_1(QPointF pos, QPointF scenePos, int index)
 	}	
 	else if(index ==12)	
 	{  //PA N
-        bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, false, false, false, false);
+        bool addPathHighlight=sharedDifferedLinkedExpressedtoHighlighted(true, true, true, true, false);
 		PAN(mlist);
 		
 		searchedNodetoStored(SEARCHDIFFERED);
@@ -26239,7 +25545,7 @@ void PathBubble1::menuSelection(QPointF pos, QPointF scenePos, int index)
 			expressionBubble* EBubble = dynamic_cast<expressionBubble*>(item);			
 			//EBubble->m_bindPathwayID = -1;	
 			QString tname = name + "0expression.txt";  
-	        readexpression(tname.toUtf8().data(), EBubble->quantityName, EBubble->geneInfo, EBubble->quantity, EBubble->minmax);
+	        _scene->pwdParser->readexpression(tname.toUtf8().data(), EBubble->quantityName, EBubble->geneInfo, EBubble->quantity, EBubble->minmax);
 			EBubble->clearExpressed();
 			EBubble->searchExpressedProtein();
 			//EBubble->setExpressedGenePos(2);
@@ -26316,16 +25622,35 @@ void PathBubble1::menuSelection(QPointF pos, QPointF scenePos, int index)
 	{
 		dCenter.setX(0);
 		dCenter.setY(0);
-
 		//if there are aggregated node, extend them all		
 
 		collapseALL();
 
-       _scene->resetItemPos(m_pathwayID, complexPos, proteinPos, smallMoleculePos, DnaPos, EmptyPos, reactionPos, physicalEntityPos, compartmentPos, ANodePos, edge, _scale, dCenter, drawSmallmolecule);
-	   if(drawSmallmolecule)
-	      _scale=_ScaleBackup_S;
-	   else 
-		  _scale=_ScaleBackup;
+	   //if graph_O.xml is stored
+		QString fileName = _scene->pwdParser->loadPathGraphPreparation(_pathName, drawSmallmolecule);
+		bool flag=false;
+		if(fileName.size()!=0)
+		{
+			//fileName = QFileDialog::getOpenFileName(NULL , tr("Open PathWay"), "", tr("(*.xml)"));		
+			int lidx = fileName.lastIndexOf("_");
+			fileName = fileName.remove(lidx, fileName.size() - lidx);
+			fileName = fileName + "_O";
+			
+			if(!fileName.contains(".xml"))
+				fileName = fileName+".xml";
+
+			flag = readPathWay(fileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, ANodePos, edge);	
+			
+		}	
+		if(!flag)
+		{
+		   _scene->resetItemPos(m_pathwayID, complexPos, proteinPos, smallMoleculePos, DnaPos, EmptyPos, reactionPos, physicalEntityPos, compartmentPos, ANodePos, edge, _scale, dCenter, drawSmallmolecule);
+		   if(drawSmallmolecule)
+			  _scale=_ScaleBackup_S;
+		   else 
+			  _scale=_ScaleBackup;
+		}
+
 	   x0y0=QPoint(-this->Width()/2.0,-this->Height()/2.0);	
 	   x1y1=QPoint(this->Width()/2.0,this->Height()/2.0);
 	   _penisOn=false;	
@@ -26336,7 +25661,7 @@ void PathBubble1::menuSelection(QPointF pos, QPointF scenePos, int index)
 	   _itemColored.clear();
 	   getGraphToBePaint();
 	   itemGrid=recordItemGrid(visibleItemNum, visibleCompartmentNum);
-	   QString fileName = getPathwayGraphName(pathwayGraphStored);
+	   fileName = getPathwayGraphName(pathwayGraphStored);
 	   if(fileName.size()>0)
 	   {
 		   savePathWay(fileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, ANodePos);	//edge
@@ -26356,6 +25681,9 @@ void PathBubble1::menuSelection(QPointF pos, QPointF scenePos, int index)
 		QString fileName = QFileDialog::getSaveFileName(0, tr("Save Pathway Graph as xml file"), pathName,".xml (*.xml)");//"c:\\file.x", "X files (*.x)"
        
 		savePathWay(fileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, ANodePos, true);
+		
+		//savePathWayforOthers(fileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, ANodePos, true); //others are the same except that the edge storage will be a bit different.
+
 		//savePathWayinJSFile(fileName, complexPos, proteinPos, smallMoleculePos, DnaPos, reactionPos, physicalEntityPos, edge);
 		_penisOn=false;	
 	   _grabisOn=false;	
@@ -26811,7 +26139,7 @@ void PathBubble1::savePathWayforTreeRing(QString filename,  vector<vector<int>> 
 	vector<vector<QString>> geneInfo;
 	vector<vector<float>> quantity;
 	vector<vector<float>> minmax;
-	readexpression("data/Reactome_Pathway_Data/expressionData/lib15-Heat0expression.txt", quantityName, geneInfo, quantity, minmax);//TGF0expression
+	_scene->pwdParser->readexpression("data/Reactome_Pathway_Data/expressionData/lib15-Heat0expression.txt", quantityName, geneInfo, quantity, minmax);//TGF0expression
 	Estart=count;
 	for (int j = 0; j < _scene->_physicalEntityNameD[dataID].size(); j++)
 	{
@@ -27510,7 +26838,7 @@ void PathBubble1::savePathWayforTreeRing_1(QString filename,  vector<vector<int>
 	vector<vector<QString>> geneInfo;
 	vector<vector<float>> quantity;
 	vector<vector<float>> minmax;
-	readexpression("data/Reactome_Pathway_Data/expressionData/lib15-Heat0expression.txt", quantityName, geneInfo, quantity, minmax);//TGF0expression
+	_scene->pwdParser->readexpression("data/Reactome_Pathway_Data/expressionData/lib15-Heat0expression.txt", quantityName, geneInfo, quantity, minmax);//TGF0expression
 	Estart=count;
 	for (int j = 0; j < _scene->_physicalEntityNameD[dataID].size(); j++)
 	{
@@ -28662,6 +27990,808 @@ void PathBubble1::savePathWayinJSFile(QString filename, vector<QRectF> complexPo
 	    //XML
 }
 
+void PathBubble1::GraphSize(float &X, float &Y, float &W, float &H)
+{
+	
+	float L=100000, B=100000;
+	float R=-100000, T=-100000;
+	float XL, XR, YB, YT;		
+	int size=compartmentPos.size()-1;
+	QRectF nPos;
+    for(int i=0; i<size ; i++) //size?
+	{
+		if(i<compartmentRect.size() && compartmentRect[i].width()>=0 )
+		{   
+				
+			nPos = compartmentPos[i];       					
+
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+		}			 
+			
+	}
+	
+	for(int i=0; i<complexPos.size(); i++)
+	{
+		if(complexRect[i].width()>=0)
+		{  	
+			nPos = complexPos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+		}	
+		
+	}	
+	
+	for(int i=0; i<reactionPos.size(); i++)
+	{
+		if(reactionRect[i].width()>=0)
+		{			
+			nPos = reactionPos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+		}		
+		
+	}
+	
+	for(int i=0; i<smallMoleculePos.size(); i++)
+	{
+		if(smallMoleculeRect[i].width()>=0)
+		{
+			nPos = smallMoleculePos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+		}				
+	}
+	
+	
+	for(int i=0; i<DnaPos.size(); i++)
+	{		
+		if(DnaRect[i].width()>=0)	
+		{	
+			nPos = DnaPos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+		}	
+		
+	}
+
+	
+	for(int i=0; i<physicalEntityPos.size(); i++)
+	{		
+		if( physicalEntityRect[i].width()>=0)
+		{			
+			nPos = physicalEntityPos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+			
+		}			  
+	}	
+	
+	for(int i=0; i<proteinPos.size(); i++)
+	{	
+		if(proteinRect[i].width()>=0)
+		{
+			nPos = proteinPos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
+		}		
+	}
+	
+	for(int i=0; i<ANodePos.size()&& i<_scene->_ANodeName[m_pathwayID].size() && i<ANodeRect.size(); i++)
+	{
+		
+		if( ANodeRect[i].width()>=0)
+		{
+			nPos = ANodePos[i];
+			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
+			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
+			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;				
+		}
+	}
+	 W=R-L, H=T-B;
+	 X=L, Y=B;
+
+}
+
+void PathBubble1::savePathWayforOthers(QString filename, vector<QRectF> complexPos, vector<QRectF> proteinPos, vector<QRectF> smallMoleculePos, vector<QRectF> DnaPos, vector<QRectF> reactionPos, vector<QRectF> physicalEntityPos, vector<QRectF> ANodePos, bool saveANode)
+{
+	float X1, Y1, W1, H1;
+	float X,Y,W,H;
+	GraphSize(X1, Y1, W1, H1);
+	
+	//QString filename;
+	filename.remove(".xml");
+	filename = filename + "_new";
+
+	if(!filename.contains(".xml"))
+	    filename +=".xml";
+	QFile file( filename );
+
+	if(!file.open(QIODevice::WriteOnly | QIODevice::Truncate))
+		return;
+
+	QDomDocument doc;
+	QDomProcessingInstruction instruction;
+
+	instruction = doc.createProcessingInstruction("xml", " version=\"1.0\" encoding=\"UTF-8\" ");
+	doc.appendChild( instruction );
+
+	QDomElement root = doc.createElement( tr("Pathway") );
+	doc.appendChild( root );
+
+	//group
+	//QList<Group*> gList = this->_manager->groupList();
+	
+	QDomElement iGroup, iBubble;
+	QDomAttr gId, bId;
+
+	QString str,tmpStr;
+	QDomText text;
+	
+	//first record anode
+	//then collapse then record others
+	//Aggredated Node	
+	iGroup = doc.createElement( tr("ANodeBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( ANodeNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	if(m_pathwayID < _scene->_ANodeName.size())
+	for (int j = 0; j < _scene->_ANodeName[m_pathwayID].size() && j<ANodePos.size(); j ++)
+	{
+		iBubble = doc.createElement( tr("ANode") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString name0;
+		
+		if(_scene-> _ANodeName[m_pathwayID][j].size()>=1)
+			name0=_scene-> _ANodeName[m_pathwayID][j][0];
+		else name0="";
+	    QString cstr(name0); 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+	   ////
+		parePos = doc.createElement( tr("Position") );
+		int cid = whichCompartment(m_pathwayID, 'L',j);
+		if(cid>=0)
+		    X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();	    
+		else 
+			X=X1, Y=Y1, W=W1, H=H1;
+
+		str = "(";
+		tmpStr.setNum( ANodePos[j].x()>-990?(ANodePos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (ANodePos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( ANodePos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( ANodePos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );	
+		
+		//////
+		/*if(ANodePos[j].width()>0)
+		{
+			parePos = doc.createElement( tr("Contain") );
+			str = "(";
+			tmpStr.setNum( ANodePos[j].x()>-990?(ANodePos[j].x()-X)/W:-1000 );
+			str += tmpStr;
+			str += ", ";
+			tmpStr.setNum( (ANodePos[j].y()-Y)/H  );
+			str += tmpStr;
+				str += ", ";
+			tmpStr.setNum( ANodePos[j].width()/W  );
+			str += tmpStr;
+				str += ", ";
+			tmpStr.setNum( ANodePos[j].height()/H  );
+			str += tmpStr;
+			str += ")";
+			text = doc.createTextNode( str );
+			parePos.appendChild( text );
+			iBubble.appendChild( parePos );
+		}*/
+	    //////
+
+	iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+	
+	vector<QRectF> backUpAPos;
+	vector<vector<vector<int>>> _sceneANodeContain;
+	if(saveANode)
+	   tempCollapseALL(backUpAPos, _sceneANodeContain); 
+	//compartment
+	iGroup = doc.createElement( tr("compartmentBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	compartmentNum = compartmentNum<_scene->_compartmentName[m_pathwayID].size()?_scene->_compartmentName[m_pathwayID].size():compartmentNum;
+	str.setNum( compartmentNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j < compartmentNum; j ++)
+	{
+		iBubble = doc.createElement( tr("compartment") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+		
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene->_compartmentName[m_pathwayID][j][0]); ///a bug when loading "2160456", "917937" "425397" "210744" "2644602"" pathway after opening certain path bubbles, solved by modifying "compartmentNum = compartmentNum<_scene->_compartmentName.size()?_scene->_compartmentName.size():compartmentNum;"
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		
+		////		
+		X=X1, Y=Y1, W=W1, H=H1;
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( compartmentPos[j].x()>-990?(compartmentPos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (compartmentPos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( compartmentPos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( compartmentPos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		//////
+
+		parePos = doc.createElement( tr("Contain") );
+		str = "(";		
+		for(set<vector<int>>::iterator it=CompartmentContain[j].begin(); it!=CompartmentContain[j].end(); it++)
+		{
+			vector<int> node = *it;
+			set<vector<int>>::iterator it1=it;
+			char type=node[0];
+			tmpStr = type;
+			str += tmpStr;
+			str += ", ";
+			tmpStr.setNum( node[1] );
+			str += tmpStr;	
+			it1++;
+			if(it1!=CompartmentContain[j].end())
+				str += ", ";	
+		}		
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		//////
+
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+
+
+//complex
+	iGroup = doc.createElement( tr("complexBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( complexNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j <_scene->_complexNameD[dataID].size(); j ++)//complexNum+1
+	{
+		iBubble = doc.createElement( tr("complex") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene->_complexNameD[dataID][j].size()>0?_scene->_complexNameD[dataID][j][0]:""); //keqin may has a bug here
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		int cid = whichCompartment(m_pathwayID, 'C',j);
+		if(cid>=0)
+			X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();
+		else 
+			X=X1, Y=Y1, W=W1, H=H1;
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		
+		tmpStr.setNum( complexPos[j].x()>-990?(complexPos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (complexPos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( complexPos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( complexPos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+	
+
+//protein		
+	iGroup = doc.createElement( tr("proteinBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( proteinNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j < _scene->_proteinNameD[dataID].size(); j ++)
+	{
+		iBubble = doc.createElement( tr("protein") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+			
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene->_proteinNameD[dataID][j][0]); 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		int cid = whichCompartment(m_pathwayID, 'P',j);
+		if(cid>=0) 
+			X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();
+		else 
+			X=X1, Y=Y1, W=W1, H=H1;
+		////
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		
+		tmpStr.setNum( proteinPos[j].x()>-990?(proteinPos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (proteinPos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( proteinPos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( proteinPos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+    
+	//physical Entity	
+	iGroup = doc.createElement( tr("physicalEntityBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( physicalEntityNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j < _scene-> _physicalEntityNameD[dataID].size(); j ++)
+	{
+		iBubble = doc.createElement( tr("physicalEntity") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene-> _physicalEntityNameD[dataID][j][0]); 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		int cid = whichCompartment(m_pathwayID, 'E',j);
+		if(cid>=0)
+			X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();
+		else 
+			X=X1, Y=Y1, W=W1, H=H1;
+		////
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		
+		tmpStr.setNum( physicalEntityPos[j].x()>-990?(physicalEntityPos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (physicalEntityPos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( physicalEntityPos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( physicalEntityPos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+	
+    //smallMolecule			
+	iGroup = doc.createElement( tr("smallMoleculeBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( smallMoleculeNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j < _scene-> _smallMoleculeNameD[dataID].size(); j ++)
+	{
+		iBubble = doc.createElement( tr("smallMolecule") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene-> _smallMoleculeNameD[dataID][j][0]); 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		////
+
+		int cid = whichCompartment(m_pathwayID, 'S',j);
+		if(cid>=0)
+			X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();
+		else 
+			X=X1, Y=Y1, W=W1, H=H1;
+
+		parePos = doc.createElement( tr("Position") );
+		str = "(";		
+		tmpStr.setNum( smallMoleculePos[j].x()>-990?(smallMoleculePos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (smallMoleculePos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( smallMoleculePos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( smallMoleculePos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+	
+	
+	//Dna	
+	iGroup = doc.createElement( tr("DnaBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( DnaNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j < _scene-> _DnaNameD[dataID].size(); j ++)
+	{
+		iBubble = doc.createElement( tr("Dna") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene-> _DnaNameD[dataID][j][0]); 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		////
+
+		int cid = whichCompartment(m_pathwayID, 'D',j);
+	    if(cid>=0) 
+			X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();
+		else 
+			X=X1, Y=Y1, W=W1, H=H1;
+
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( DnaPos[j].x()>-990?(DnaPos[j].x()-X)/W:1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (DnaPos[j].y()-Y)/H  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( DnaPos[j].width()/W  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( DnaPos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+		
+	////////////////
+	//reaction	
+	iGroup = doc.createElement( tr("reactionBlock") );
+	gId = doc.createAttribute( tr("Num") );
+
+	str.setNum( reactionNum );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	for (int j = 0; j < reactionPos.size(); j ++)
+	{
+		iBubble = doc.createElement( tr("reaction") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr(_scene-> _reactionNameD[dataID][j][1]); 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		//////
+		parePos = doc.createElement( tr("Type") );		
+		text = doc.createTextNode( _scene-> _reactionNameD[dataID][j][0]=="D"?"K":_scene-> _reactionNameD[dataID][j][0]);
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		////
+
+		int cid = whichCompartment(m_pathwayID, 'R',j);
+        if(cid>0)
+			X=compartmentPos[cid].x(), Y=compartmentPos[cid].y(), W=compartmentPos[cid].width(), H=compartmentPos[cid].height();
+		else 
+		    X=X1, Y=Y1, W=W1, H=H1;
+
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( reactionPos[j].x()>-990?(reactionPos[j].x()-X)/W:-1000 );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( (reactionPos[j].y()-Y)/H  );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( reactionPos[j].width()/W  );
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( reactionPos[j].height()/H  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		iGroup.appendChild( iBubble );			
+	}		
+	root.appendChild( iGroup );
+
+	//////////////////
+	//edgeblock	
+    iGroup = doc.createElement( tr("edgeBlock") );
+	gId = doc.createAttribute( tr("Num") );
+	str.setNum( edge.size() );
+	gId.setValue( str );
+	iGroup.setAttributeNode( gId );
+
+	vector<vector<vector<int>>> dEdge;
+	vector<int> item(2,-1);
+	vector<QString> edgeName;
+
+	set<vector<vector<int>>> eEdge_t,eEdge_a,eEdge_i;
+		
+	for(int i=0; i<edge.size(); i++)
+	{
+		int type, id, id1;
+		bool flag=true;
+		if((edge[i][2]=='R'&&edge[i][4]=='R')||(edge[i][3]<0))
+			flag=false;
+
+		vector<int> node1(3,-1),node2(3,-1),node3(3,-1);
+
+		node1[0]=node2[0]=node3[0]=m_pathwayID;
+
+		node1[1]=edge[i][0]; node1[2]=edge[i][1];
+		node2[1]=edge[i][2]; node2[2]=edge[i][3];
+		node3[1]=edge[i][4]; node3[2]=edge[i][5];
+
+		vector<vector<int>> tedge1, tedge2;
+		
+		tedge1.push_back(node3); tedge1.push_back(node1);
+		
+		if( tedge1[1][1]==82 && tedge1[1][2]== 47)
+			flag=flag;
+
+		if( tedge1[0][1]==82 && tedge1[0][2]== 47)
+			flag=flag;
+		
+		if(updatedEdge_2.find(tedge1)!=updatedEdge_2.end()) 
+		{	
+			if(eEdge_a.find(tedge1) == eEdge_a.end())
+			{
+				eEdge_a.insert(tedge1);
+				dEdge.push_back(tedge1);
+				edgeName.push_back("A");
+			}
+		}
+		else if(updatedEdge_3.find(tedge1)!=updatedEdge_3.end())
+		{
+			
+			if(eEdge_i.find(tedge1) == eEdge_i.end())
+			{
+				eEdge_i.insert(tedge1);
+				dEdge.push_back(tedge1);
+				edgeName.push_back("I");
+			}
+		}
+		else 
+		{			
+			if(eEdge_t.find(tedge1) == eEdge_t.end())
+			{
+				eEdge_t.insert(tedge1);
+				dEdge.push_back(tedge1);
+				edgeName.push_back("T");
+			}
+		}		
+		
+
+		if(flag)
+		{
+			tedge2.push_back(node2); tedge2.push_back(node3);
+
+			if( tedge2[1][1]==82 && tedge2[1][2]== 47)
+ 			   flag=flag;
+
+			if( tedge2[0][1]==82 && tedge2[0][2]== 47)
+ 			   flag=flag;
+
+			if(updatedEdge_2.find(tedge2)!=updatedEdge_2.end()) 
+			{				
+				if(eEdge_a.find(tedge2) == eEdge_a.end())
+				{
+					eEdge_a.insert(tedge2);
+					dEdge.push_back(tedge2);
+					edgeName.push_back("A");
+				}
+			}
+			else if(updatedEdge_3.find(tedge2)!=updatedEdge_3.end())
+			{				
+				if(eEdge_i.find(tedge2) == eEdge_i.end())
+				{
+					eEdge_i.insert(tedge2);
+					dEdge.push_back(tedge2);
+					edgeName.push_back("I");
+				}
+			}
+			else 
+			{				
+				if(eEdge_t.find(tedge2) == eEdge_t.end())
+				{
+					eEdge_t.insert(tedge2);
+					dEdge.push_back(tedge2);
+					edgeName.push_back("J");
+				}
+			}			    
+		}	
+	}
+
+	for(int j=0; j<dEdge.size(); j++)
+	{      
+		iBubble = doc.createElement( tr("edge") );
+		bId = doc.createAttribute( tr("j") );
+
+		str.setNum( j );
+		bId.setValue( str );
+		iBubble.setAttributeNode( bId );
+
+		//////
+		QDomElement parePos = doc.createElement( tr("Name") );
+		QString cstr= edgeName[j]; 
+		
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+
+		parePos = doc.createElement( tr("Ends") );
+		str = "(";
+		//tmpStr.setNum( dEdge[j][0][1] );
+		tmpStr=char(dEdge[j][0][1]);
+		str += tmpStr;
+		str += ", ";
+		tmpStr.setNum( dEdge[j][0][2] );
+		str += tmpStr;
+			str += ", ";
+		//tmpStr.setNum( dEdge[j][1][1] );
+		tmpStr=char(dEdge[j][1][1]);
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum(dEdge[j][1][2] );
+		str += tmpStr;			
+		str += ")";
+
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		iGroup.appendChild( iBubble );	
+	////		
+	}
+	
+	root.appendChild( iGroup );
+
+	if(saveANode)
+	    reAggregateAll(backUpAPos, _sceneANodeContain);
+
+/////////////////////////////
+	QTextStream out(&file);
+	doc.save( out, 4 );
+	file.close();
+}
+
 void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vector<QRectF> proteinPos, vector<QRectF> smallMoleculePos, vector<QRectF> DnaPos, vector<QRectF> reactionPos, vector<QRectF> physicalEntityPos, vector<QRectF> ANodePos, bool saveANode)
 {
 	/*QString inforstr = "Save the current scene as the xml file ";
@@ -28799,7 +28929,6 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		str.setNum( j );
 		bId.setValue( str );
 		iBubble.setAttributeNode( bId );
-
 		
 		//////
 		QDomElement parePos = doc.createElement( tr("Name") );
@@ -28877,31 +29006,31 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		QDomElement parePos = doc.createElement( tr("Name") );
 		QString cstr(_scene->_complexNameD[dataID][j].size()>0?_scene->_complexNameD[dataID][j][0]:""); //keqin may has a bug here
 		
-	text = doc.createTextNode( cstr );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	////
+		////
 
-	parePos = doc.createElement( tr("Position") );
-	str = "(";
-	tmpStr.setNum( complexPos[j].x() );
-	str += tmpStr;
-	str += ", ";
-	tmpStr.setNum( complexPos[j].y()  );
-	str += tmpStr;
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( complexPos[j].x() );
+		str += tmpStr;
 		str += ", ";
-	tmpStr.setNum( complexPos[j].width()  );
-	str += tmpStr;
-		str += ", ";
-	tmpStr.setNum( complexPos[j].height()  );
-	str += tmpStr;
-	str += ")";
-	text = doc.createTextNode( str );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		tmpStr.setNum( complexPos[j].y()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( complexPos[j].width()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( complexPos[j].height()  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	iGroup.appendChild( iBubble );			
+		iGroup.appendChild( iBubble );			
 	}		
 	root.appendChild( iGroup );
 	
@@ -28928,37 +29057,34 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		QDomElement parePos = doc.createElement( tr("Name") );
 		QString cstr(_scene->_proteinNameD[dataID][j][0]); 
 		
-	text = doc.createTextNode( cstr );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	////
-
-	parePos = doc.createElement( tr("Position") );
-	str = "(";
-	tmpStr.setNum( proteinPos[j].x() );
-	str += tmpStr;
-	str += ", ";
-	tmpStr.setNum( proteinPos[j].y()  );
-	str += tmpStr;
+		////
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( proteinPos[j].x() );
+		str += tmpStr;
 		str += ", ";
-	tmpStr.setNum( proteinPos[j].width()  );
-	str += tmpStr;
-		str += ", ";
-	tmpStr.setNum( proteinPos[j].height()  );
-	str += tmpStr;
-	str += ")";
-	text = doc.createTextNode( str );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		tmpStr.setNum( proteinPos[j].y()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( proteinPos[j].width()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( proteinPos[j].height()  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	iGroup.appendChild( iBubble );			
+		iGroup.appendChild( iBubble );			
 	}		
 	root.appendChild( iGroup );
-
     
-	//physical Entity		
-	
+	//physical Entity	
 	iGroup = doc.createElement( tr("physicalEntityBlock") );
 	gId = doc.createAttribute( tr("Num") );
 
@@ -28979,37 +29105,34 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		QDomElement parePos = doc.createElement( tr("Name") );
 		QString cstr(_scene-> _physicalEntityNameD[dataID][j][0]); 
 		
-	text = doc.createTextNode( cstr );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	////
-
-	parePos = doc.createElement( tr("Position") );
-	str = "(";
-	tmpStr.setNum( physicalEntityPos[j].x() );
-	str += tmpStr;
-	str += ", ";
-	tmpStr.setNum( physicalEntityPos[j].y()  );
-	str += tmpStr;
+		////
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( physicalEntityPos[j].x() );
+		str += tmpStr;
 		str += ", ";
-	tmpStr.setNum( physicalEntityPos[j].width()  );
-	str += tmpStr;
-		str += ", ";
-	tmpStr.setNum( physicalEntityPos[j].height()  );
-	str += tmpStr;
-	str += ")";
-	text = doc.createTextNode( str );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		tmpStr.setNum( physicalEntityPos[j].y()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( physicalEntityPos[j].width()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( physicalEntityPos[j].height()  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	iGroup.appendChild( iBubble );			
+		iGroup.appendChild( iBubble );			
 	}		
 	root.appendChild( iGroup );
-
 	
-//smallMolecule		
-	
+    //smallMolecule			
 	iGroup = doc.createElement( tr("smallMoleculeBlock") );
 	gId = doc.createAttribute( tr("Num") );
 
@@ -29030,38 +29153,35 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		QDomElement parePos = doc.createElement( tr("Name") );
 		QString cstr(_scene-> _smallMoleculeNameD[dataID][j][0]); 
 		
-	text = doc.createTextNode( cstr );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		////
 
-	////
-
-	parePos = doc.createElement( tr("Position") );
-	str = "(";
-	tmpStr.setNum( smallMoleculePos[j].x() );
-	str += tmpStr;
-	str += ", ";
-	tmpStr.setNum( smallMoleculePos[j].y()  );
-	str += tmpStr;
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( smallMoleculePos[j].x() );
+		str += tmpStr;
 		str += ", ";
-	tmpStr.setNum( smallMoleculePos[j].width()  );
-	str += tmpStr;
-		str += ", ";
-	tmpStr.setNum( smallMoleculePos[j].height()  );
-	str += tmpStr;
-	str += ")";
-	text = doc.createTextNode( str );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		tmpStr.setNum( smallMoleculePos[j].y()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( smallMoleculePos[j].width()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( smallMoleculePos[j].height()  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	iGroup.appendChild( iBubble );			
+		iGroup.appendChild( iBubble );			
 	}		
 	root.appendChild( iGroup );
+		
 
-	
-
-	//Dna
-	
+	//Dna	
 	iGroup = doc.createElement( tr("DnaBlock") );
 	gId = doc.createAttribute( tr("Num") );
 
@@ -29082,30 +29202,30 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		QDomElement parePos = doc.createElement( tr("Name") );
 		QString cstr(_scene-> _DnaNameD[dataID][j][0]); 
 		
-	text = doc.createTextNode( cstr );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
-	////
+		text = doc.createTextNode( cstr );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		////
 
-	parePos = doc.createElement( tr("Position") );
-	str = "(";
-	tmpStr.setNum( DnaPos[j].x() );
-	str += tmpStr;
-	str += ", ";
-	tmpStr.setNum( DnaPos[j].y()  );
-	str += tmpStr;
+		parePos = doc.createElement( tr("Position") );
+		str = "(";
+		tmpStr.setNum( DnaPos[j].x() );
+		str += tmpStr;
 		str += ", ";
-	tmpStr.setNum( DnaPos[j].width()  );
-	str += tmpStr;
-		str += ", ";
-	tmpStr.setNum( DnaPos[j].height()  );
-	str += tmpStr;
-	str += ")";
-	text = doc.createTextNode( str );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
+		tmpStr.setNum( DnaPos[j].y()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( DnaPos[j].width()  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( DnaPos[j].height()  );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
 
-	iGroup.appendChild( iBubble );			
+		iGroup.appendChild( iBubble );			
 	}		
 	root.appendChild( iGroup );
 		
@@ -29184,32 +29304,32 @@ void PathBubble1::savePathWay(QString filename, vector<QRectF> complexPos, vecto
 		iBubble.appendChild( parePos );
 
 		parePos = doc.createElement( tr("Position") );
-	str = "(";
-	tmpStr.setNum( edge[j][0] );
-	str += tmpStr;
-	str += ", ";
-	tmpStr.setNum( edge[j][1]  );
-	str += tmpStr;
+		str = "(";
+		tmpStr.setNum( edge[j][0] );
+		str += tmpStr;
 		str += ", ";
-	tmpStr.setNum( edge[j][4] );
-	str += tmpStr;
-		str += ", ";
-		tmpStr.setNum( edge[j][5] );
-	str += tmpStr;
-		str += ", ";
-		tmpStr.setNum(edge[j][2] );
-	str += tmpStr;
-		str += ", ";
-		tmpStr.setNum(edge[j][3] );
-	str += tmpStr;
-		str += ", ";
-	tmpStr.setNum( edge[j][6] );
-	str += tmpStr;
-	str += ")";
-	text = doc.createTextNode( str );
-	parePos.appendChild( text );
-	iBubble.appendChild( parePos );
-	iGroup.appendChild( iBubble );	
+		tmpStr.setNum( edge[j][1]  );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( edge[j][4] );
+		str += tmpStr;
+			str += ", ";
+			tmpStr.setNum( edge[j][5] );
+		str += tmpStr;
+			str += ", ";
+			tmpStr.setNum(edge[j][2] );
+		str += tmpStr;
+			str += ", ";
+			tmpStr.setNum(edge[j][3] );
+		str += tmpStr;
+			str += ", ";
+		tmpStr.setNum( edge[j][6] );
+		str += tmpStr;
+		str += ")";
+		text = doc.createTextNode( str );
+		parePos.appendChild( text );
+		iBubble.appendChild( parePos );
+		iGroup.appendChild( iBubble );	
 
 	////		
 	}		
@@ -29550,7 +29670,7 @@ bool PathBubble1::readPathWay(QString filename, vector<QRectF> &complexPos, vect
 	}
 	for(int i=0; i<DnaPos.size() && i<_DnaPos.size(); i++)
 	{
-		if(DnaPos[i].x()>=-990 && _DnaPos[i].x()>=-990 && _scene->_reactionNameD[dataID][i][0] == _reactionName[i][0])
+		if(DnaPos[i].x()>=-990 && _DnaPos[i].x()>=-990 && _scene->_DnaNameD[dataID][i][0] == _DnaName[i][0])
 		   DnaPos[i]=_DnaPos[i];
 	}
 	for(int i=0; i<physicalEntityPos.size() && i<_physicalEntityPos.size(); i++)
@@ -29584,12 +29704,17 @@ bool PathBubble1::readPathWay(QString filename, vector<QRectF> &complexPos, vect
 		   reactionPos[i]=_reactionPos[i];
 	}
 
-	int esize = edge.size();
-	if( esize < _edge.size() )
-		edge.resize(_edge.size());
-	for(int i=0; i<edge.size() && i<_edge.size(); i++)
+	if(edge.size()==_edge.size())
 	{
-		edge[i] = _edge[i];
+		int esize = edge.size();
+		if( esize < _edge.size() )
+			edge.resize(_edge.size());
+
+
+		for(int i=0; i<edge.size() && i<_edge.size(); i++)
+		{
+			edge[i] = _edge[i];
+		}
 	}
 	/*  keqin temporory comment out bug when reading apoptosis graph file
 	vector<int> start(4,0), middle(4,0), end(4,0);

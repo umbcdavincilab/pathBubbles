@@ -8,8 +8,7 @@
 #include <QMap>
 
 #define BUDDLINGSTRENGTH 0.1
-#define MAX(a,b) a>=b?a:b
-#define MIDIUM_HIGHLIGHTcolor Color(255,128,0) //Color(20,20,255)
+#define MAX(a,b) a>=b?a:b //may cause variable around become statics
 //#include <config.hpp>  
 //#include <boost/graph/adjacency_list.hpp>  
 
@@ -18,6 +17,7 @@
 treeRingBubble::treeRingBubble( int size, int x, int y, OpenGLScene* Scene, StatisticManager* manager, OpenManager* open, QString name)
 : PlotBase (size, x, y, Scene, manager)
 {
+	_treeRingBubbleParent=NULL;
 	spanIsOn=false;
 	bubbleDraggedout=false;
 	lastPressedPos = QPointF(0,-1000000);
@@ -240,12 +240,12 @@ void treeRingBubble::drawCurve( QPainter* painter)
 {
 	if(_lines.size()>0)
 		_lines=_lines;
-	painter->save();
+	painter->save();//start
 	//*************************************************************************
 	painter->setPen( QPen( QBrush( QColor( 0, 0, 255, 255) ), 2 ) );
 	painter->drawLines( _lines );
 	//*************************************************************************
-	painter->restore();
+	painter->restore();//start
 	return;
 }
 
@@ -264,6 +264,7 @@ void treeRingBubble::selfDelection(treeRingBubble* b0, treeRingBubble* b1)
 		_lines.clear();	
 
 		//_pathBubbleParent=NULL;
+		float _zoom_t = b0->_treeRing->_ring[0]._ring_radius;
 		MergeTreeRings(b0, b1, window_w, window_h);
 
 		updateConnectionAfterMerge(b0,b1);
@@ -280,10 +281,15 @@ void treeRingBubble::selfDelection(treeRingBubble* b0, treeRingBubble* b1)
 			b0->searchSharedProtein();
 		    b0->searchExpressed();	
 		}
+
+		_zoom_t = _zoom_t/b0->_treeRing->_ring[0]._ring_radius-1;
+
+		b0->Zoom(_zoom_t);
 		//b1->updateConnectionAfterDeletion();		
 	    b1->setVisible(false);
 		b1->hide();		
 		b1->m_treeRingBubbleID=-1;
+		
 		//tmp2->deleteSelectedItems(_scene);
 		return;	
 }
@@ -535,14 +541,94 @@ set< vector< int > > treeRingBubble::whichSegment( QPointF pos )
 	if(item.size()<2 || item[0]<0)
 		return output;
 	int pl=item[0],pid=item[1];
-	while(pl>0 && pl<_num_layers)
+	output = whichSegment(pl, pid);
+	return output;
+}
+
+bool treeRingBubble::isSegPreSelected(int layer, int id, set<vector<int>> preItemSelected)
+{
+	if(_hl<0 || _hn<0)
 	{
-		pid = _treeRing->GetParentIndex(pl, pid);
-		pl=pl-1;
+		return false;
+	}
+	vector<int> item;
+	set< vector< int > > segs = whichSegment(layer, id);
+	bool flag;
+	for(set<vector<int>>::iterator it=segs.begin(); it!=segs.end(); it++)
+	{
+		flag=false;
+		vector<int> item = *it;			
+		if (preItemSelected.find(item) != preItemSelected.end() )
+		{
+				flag=true;
+		}	
+		else if( searched.find(item) != searched.end() )
+		{
+			flag=true;
+		}									
+		/*if(_treeRing->_itemClicked.find(item)!=_treeRing->_itemClicked.end() )
+		{
+			flag=true;				
+		}*/
+		for (int j = 0; j <_connections.size(); j++)
+        {	
+			if(_connections[j].itemSelected.find(item)!=_connections[j].itemSelected.end())
+		    {
+				flag=true;
+				break;
+		    }		    
+		}
+		if(!flag)
+			return false;
+	}
+	return true;
+}
+
+
+
+bool treeRingBubble::isSegHighlighted(set< vector< int > > segs)
+{
+	bool flag=true;
+	//set< vector< int > > segs = whichSegment(layer, id);
+	for(set<vector<int>>::iterator it=segs.begin(); it!=segs.end(); it++)
+	{
+	    vector<int> item = *it;
+		int layer=item[0], id=item[1];
+	    if(!_treeRing->isNodeHighlighted(layer, id))
+		{
+		   flag=false;
+		   break;
+		}
+	}
+	return flag;
+}
+
+bool treeRingBubble::isSegHighlighted(int layer, int id)
+{
+	if(layer<0 || id<0)
+		return false;
+	bool flag=true;
+	set< vector< int > > segs = whichSegment(layer, id);
+	return(isSegHighlighted(segs));
+}
+
+set< vector< int > > treeRingBubble::whichSegment( int layer, int id )
+{
+	set< vector< int > > output;
+	
+	if(layer<0 || id<0)
+		return output;
+
+	vector<int> item(2,0);
+	
+	while(layer>0 && layer<_num_layers)
+	{
+		id = _treeRing->GetParentIndex(layer, id);
+		layer = layer-1;
 	}
 	vector<vector<int>> output1;	
-	_treeRing->findAllDescendantNodes(pl, pid, output1);	
-	item[0]=pl, item[1]=pid;
+	_treeRing->findAllDescendantNodes(layer, id, output1);	
+	item[0]=layer, item[1]=id;
 	output.insert(item);
 	for(int i = 0; i<output1.size(); i++)
 	for(int j = 0; j<output1[i].size(); j++)
@@ -703,10 +789,10 @@ void treeRingBubble::SetEdgeBy(int newToken)
 	{
 		if(_treeRingBubbleParent==NULL)
 		{
-		_orthologyFileName=_treeRing->_orthName;
-		_name = "Species Reactome Pathway (" + _orthologyFileName + ")";
-		if(_labelInitiated)
-		    resetLabel("Species Reactome Pathway (" + _orthologyFileName + ")");
+			_orthologyFileName=_treeRing->_orthName;
+			_name = "Species Reactome Pathway (" + _orthologyFileName + ")";
+			if(_labelInitiated)
+				resetLabel("Species Reactome Pathway (" + _orthologyFileName + ")");
 		}
 	}
 	_treeRing->SetColorBy(newToken);
@@ -1347,7 +1433,9 @@ void treeRingBubble::MergeTreeRings(treeRingBubble *treeRing1, treeRingBubble *t
 	delete [] treeRing1->_treeRing;
 	treeRing1->_treeRing =  new TreeRing(inputTree, inputPathID, inputNodeSize, rateLimitNum, treeRing1->ringRadius, treeRing1->ringWidth, treeRing1->_simData, treeRing1->EDGE_BY, treeRing1->_centre, oFileName);
 	treeRing1->_node_num = treeRing1->_treeRing->GetNumOfNodes(); // nodes count
-		
+	
+	float min=_treeRing->eMin, max=_treeRing->eMax;
+
 	// bundle information ----------------------------------
 	//int br = treeRing1->_treeRing->GetRingRadius(treeRing1->_treeRing->GetNrLayers()-1);
 	int br = _treeRing->GetRingRadius(0); //changed when switching inner ring out
@@ -1488,6 +1576,19 @@ int treeRingBubble::getNewNodeID(int layer, int oID, vector<int> nodeIDs, set<in
 			}	
 		}
 	}
+	return oid;
+}
+
+int treeRingBubble::getNewNodeID(int layer, int oID, TreeRing *_preTreeRing, TreeRing *_curtreeRing)
+{
+    int oid=-1;
+	int ID;
+	
+	//search inputTree
+	//get name list
+	vector<string> Names = _preTreeRing-> findNameList(layer, oID);
+	//oid = oID;
+	_curtreeRing->locateNodeByNameList(Names, 0, oid, 0, 0);	
 	return oid;
 }
 
@@ -2345,10 +2446,9 @@ void treeRingBubble::drawConnections(QPainter *painter, QPointF dis)
 		int layer,idx; //start
 		QPointF start1, end1, start2, end2, tmpmid;
 		ItemBase *bubble=node.childBubble;
-		
-		
+				
 		layer=node.layer; idx=node.idx;
-		if(layer<0)
+		if(layer<0 || idx<0)
 			continue;
 		
 		QRectF sRect = realRect();
@@ -2363,7 +2463,8 @@ void treeRingBubble::drawConnections(QPainter *painter, QPointF dis)
 			
 			for(int j=0; j<segPoints.size(); j++)
 			{
-				pen.setColor( MIDIUM_HIGHLIGHTCOLOR);
+				pen.setColor( MEDIUM_HIGHLIGHTCOLOR);
+				pen.setWidth(3);
 				painter->setPen( pen );
 
 				int cSize = segPoints[j].size();
@@ -2393,6 +2494,7 @@ void treeRingBubble::drawConnections(QPainter *painter, QPointF dis)
 					drawABubbleConnection(painter, start1, this, end1, bubble, dis);
 				else
 					drawABubbleConnection(painter, start2, this, end2, bubble, dis);
+				
 			}
 		}
 	    else if(bubble->getType()==SUBPATHBUBBLE1 || bubble->getType()== PATHBUBBLE1)
@@ -2402,7 +2504,7 @@ void treeRingBubble::drawConnections(QPainter *painter, QPointF dis)
 			QPolygon segPoint = _treeRing->getSegPoint(node.layer, node.layer, node.idx, node.idx, this->pos().x(), this->pos().y(), cornerID1, cornerID2);	
 			
 			
-			pen.setColor( MIDIUM_HIGHLIGHTCOLOR);
+			pen.setColor( MEDIUM_HIGHLIGHTCOLOR);
 			painter->setPen( pen );
 			
 			painter->drawPolygon(segPoint.intersected(fRect));
@@ -2427,6 +2529,7 @@ void treeRingBubble::drawConnections(QPainter *painter, QPointF dis)
 				drawABubbleConnection(painter, start1, this, end1, bubble, dis);
 			else
 				drawABubbleConnection(painter, start2, this, end2, bubble, dis);
+			
 		}
 	}	
 	painter->restore();
@@ -2481,6 +2584,9 @@ void treeRingBubble::getStartSegsNodes(set<vector<int>> itemSelected, vector<QPo
 		{
 			for(int j=ends[0][0]; j<=ends[0][1]; j++)
 			{
+				if(ends[0][0] == ends[0][1])
+					j=j;
+
 				 item[1]=j; item2[1]=j-1; item3[1]=j+1;
 				 if(item2[1]<0)
 					 item2[1]=maxj-1;
@@ -2524,8 +2630,12 @@ void treeRingBubble::getStartSegsNodes(set<vector<int>> itemSelected, vector<QPo
 					 }
 					 if(j==ends[0][1] && !flag1 && !flag2 )
 					 {
-						
-						 if(segEnds[0]==-1)
+						 if(segEnds.size()==0)
+						 {
+							segEnds.push_back(j);
+							segEnds.push_back(j);
+						 }
+						 else if(segEnds[0]==-1)
 						 {
 							 segEnds[0]=segEnds[segEnds.size()-1];	
 							 segEnds.resize(segEnds.size()-1);
@@ -2549,115 +2659,6 @@ void treeRingBubble::getStartSegsNodes(set<vector<int>> itemSelected, vector<QPo
 
 }
 
-void treeRingBubble::drawABubbleConnection(QPainter *painter, QPointF center1, ItemBase* bubble1, QPointF center2, ItemBase* bubble2, QPointF Dis)
-{//paint use the scene global coordinate
-	//painter->drawLine(center1, center2);
-	QLineF l1;
-	QPointF p1,p2,c1,c2;
-	QRectF rect1, rect2;
-	
-	rect1=bubble1->realRect(), 
-	rect2=bubble2->realRect();
-	
-	//c1 = rect1.center() + QPointF(rect1.width()/2,rect1.height()/2); //bubble1->sceneBoundingRect().center()-this->sceneBoundingRect().center();
-	//c2 = rect2.center() + QPointF(rect2.width()/2,rect2.height()/2) + bubble2->sceneBoundingRect().center()-bubble1->sceneBoundingRect().center();
-	c1 = rect1.center() + bubble1->pos();// + dis - this->pos
-	c2 = rect2.center() + bubble2->pos() + Dis - bubble1->pos();
-
-	rect1.moveCenter(c1); 
-	rect2.moveCenter(c2);
-	QPointF p=bubble1->pos();
-	p1 = center1; //center1+bubble1->sceneBoundingRect().center()-this->sceneBoundingRect().center();
-	p2 = center2;// + Dis;//bubble2->sceneBoundingRect().center()-bubble1->sceneBoundingRect().center();
-	if(rect1.contains(p1) && rect2.contains(p2))
-	{
-		//painter->drawLine(p1, p2);
-		drawLinkArrow_2(painter, p1, p2);
-	}
-	else if(!rect1.contains(p1) && rect2.contains(p2))
-	{
-		//p1=rect1.intersect
-		//get intersection of line p1-p2 and rect1
-		//painter->drawLine(p1,p2);
-		float x1=p1.x(), y1=p1.y(), x2=p2.x(), y2=p2.y();
-        int flag=CSLineClip(x1, y1, x2, y2, rect1.left(), rect1.right(), rect1.top(), rect1.bottom());
-		if(flag==1)
-			p1=QPointF(x1,y1);
-		else if(flag==2)
-			p1=QPointF(x2,y2);		
-		else if(flag==0) //no intersection
-		{
-			 float x2=rect1.center().x(),y2=rect1.center().y();
-		     int flag2=CSLineClip(x1, y1, x2, y2, rect1.left(), rect1.right(), rect1.top(), rect1.bottom());
-			 if(flag2==1)
-				p1=QPointF(x1,y1);
-			 else if(flag2==2)
-				p1=QPointF(x2,y2);
-			 else 
-				p1=QPointF(x1,y1);		
-		}	
-		else 
-			p1=QPointF(x1,y1);
-		
-		
-		//painter->drawLine(p1, p2);
-		drawLinkArrow_2(painter, p1, p2);
-	}
-	else if(rect1.contains(p1) && !rect2.contains(p2))
-	{
-		//p1=rect1.intersect
-		//get intersection of line p1-p2 and rect1
-		//painter->drawLine(p1,p2);
-		float x1=p1.x(), y1=p1.y(), x2=p2.x(), y2=p2.y();
-        int flag=CSLineClip(x1, y1, x2, y2, rect2.left(), rect2.right(), rect2.top(), rect2.bottom());
-		if(flag==1)
-			p2=QPointF(x1,y1);
-		else if(flag==2)
-			p2=QPointF(x2,y2);		
-		else if(flag==0) //no intersection
-		{
-			 float x1=rect2.center().x(),y1=rect2.center().y();
-		     int flag2=CSLineClip(x1, y1, x2, y2, rect2.left(), rect2.right(), rect2.top(), rect2.bottom());
-			 if(flag2==1)
-				p2=QPointF(x1,y1);
-			 else if(flag2==2)
-				p2=QPointF(x2,y2);
-			 else 
-				p2=QPointF(x2,y2);		
-		}	
-		else
-			p2=QPointF(x2,y2);
-		//painter->setPen(QColor(0,0,0,255));
-		//painter->drawLine(p1, p2);
-		drawLinkArrow_2(painter, p1, p2);
-	}
-	else
-	{	
-		float x1=p1.x(), y1=p1.y(), x2=p2.x(), y2=p2.y();
-	    float cx1=rect1.center().x(),cy1=rect1.center().y(), cx2=rect2.center().x(),cy2=rect2.center().y();
-		int flag1,flag2;
-		
-		flag1=CSLineClip(cx1, cy1, x1, y1, rect1.left(), rect1.right(), rect1.top(), rect1.bottom());
-		if(flag1==1)
-			p1=QPointF(cx1,cy1);
-		else if(flag1==2)
-			p1=QPointF(x1,y1);
-		else
-			p1=QPointF(x1,y1);
-		
-		flag2=CSLineClip(cx2, cy2, x2, y2, rect2.left(), rect2.right(), rect2.top(), rect2.bottom());
-		if(flag2==1)
-			p2=QPointF(cx2,cy2);
-		else if(flag2==2)
-			p2=QPointF(x2,y2);
-		else 
-			p2=QPointF(x2,y2);
-		
-		//painter->setPen(QColor(0,0,0,255));
-	    //painter->drawLine(p1, p2);
-		drawLinkArrow_2(painter, p1, p2);
-	}
-}
 
 
 void treeRingBubble::Render(QPainter *painter)
@@ -2717,7 +2718,7 @@ void treeRingBubble::Render(QPainter *painter)
 		if(!flag)
 			nodeIdx.push_back(_hn); 		
 		
-		_Label->RenderHighLighted(painter, _treeRing, _hl, nodeIdx, MIDIUM_HIGHLIGHTcolor); 	
+		_Label->RenderHighLighted(painter, _treeRing, _hl, nodeIdx, MEDIUM_HIGHLIGHTcolor); 	
 
  	} // end if(_hl)	
 	
@@ -2749,43 +2750,42 @@ void treeRingBubble::drawStatisticsText(QPainter *painter, float x, float y, flo
 	QFont f("Arial",10);					
 	QFontMetrics fontMetrics(f);
 	QRect fontRect, fontRect1, fontRect2;
-
 	painter->setPen(Qt::NoPen);	
 
 	QString eInfo, cInfo="Number of cross-talking proteins: " + QString::number(_treeRing->_ring[layer]._node_crossTalk[idx]);
-	fontRect1 = fontMetrics.boundingRect(cInfo); 
-	
+	fontRect1 = fontMetrics.boundingRect(cInfo); 	
 
-	/*painter->setPen(Qt::NoPen);
-	painter->setBrush(QColor(255,255,255,221));
-	painter->drawRect(fontRect);
-
-	painter->setPen(MIDIUM_HIGHLIGHTCOLOR);
-	painter->drawText(x,y,cInfo);	*/
 	if(!_expressionName.isEmpty())
 	{
 		eInfo="Expression level: " + QString::number(_treeRing->_ring[layer]._node_expression[idx]);
-		fontRect2 = fontMetrics.boundingRect(eInfo); 
-		/*if(angle>=0 && angle<=3.1415926)
-			y=y-dy;
-		else 
-			y=y+dy;
-
-		fontRect = fontMetrics.boundingRect(eInfo); 
-		fontRect = QRect(x,y+3, fontRect.width(), -fontRect.height());
-		*/
-	    //cInfo = cInfo + "\n" + eInfo;
+		fontRect2 = fontMetrics.boundingRect(eInfo); 		
 	}
 	float h=fontRect1.height()+fontRect2.height();
 	float w=fontRect1.width()>fontRect2.width() ? fontRect1.width() : fontRect2.width();
 	fontRect = QRect(x, y+3-fontRect1.height(), w, h);
-	painter->setPen(Qt::NoPen);
-	painter->setBrush(QColor(255,255,255,221));
-	painter->drawRect(fontRect);
+	
+	float dx=0;
+	angle = angle/3.1415926 * 180;	
+	if(angle> 135 && angle <= 180)
+		//angle = 60;
+		dx = -fontRect1.width()*0.9;
+	else if(angle> 180 && angle < 225)
+		dx = -fontRect1.width()*0.9;
+		//angle = 60;
+	/*else if(angle< 45)
+		angle = 60;
+	else if (angle > 315)
+		angle = 60;
+	else
+		angle=0;*/
 
-	painter->setPen(MIDIUM_HIGHLIGHTCOLOR);
-	painter->drawText(x,y,cInfo);	
-	painter->drawText(x,y+fontRect1.height(),eInfo);	
+	painter->setPen(Qt::NoPen);
+	painter->setBrush(QColor(255,255,255,187));
+	drawAngleRect(painter, QRectF(fontRect.x()+dx, fontRect.y(), fontRect.width(), fontRect.height()), 0);
+
+	painter->setPen(MEDIUM_HIGHLIGHTCOLOR);
+	drawAngleText(painter, x+dx, y, cInfo, 0);
+	drawAngleText(painter, x+dx, y+fontRect1.height(), eInfo, 0);
 
 }
 
@@ -2793,9 +2793,10 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 {
 	float width= this->Width()/2-60;//_treeRing->GetRingWidth() * _treeRing->_ring.size() * 2.1; //4.5; //2.1
 	float height= this->Height()/2-30;
+	//float cwidth=this->Width()/2;
 	QFont f1("Arial", 10);
 	painter->setFont (f1);	
-			
+	int sx,sy;		
 	if(_treeRing->GetColorBy() == EDGE_BY_EXPRESSION)
 	{
 		float min=_treeRing->eMin, max=_treeRing->eMax;//_treeRing->expressionMin, max=_treeRing->expressionMax;
@@ -2810,7 +2811,7 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 		//float scale = length2==0? 0: length/length2;
 		//mitv=(max-min)/num;		
 		int itv=180/num;
-		int sx=width-30-70, sy=height;
+		sx=width-30-70, sy=height;
 		if(num<=10)		
 			itv=18;
 		//painter->drawText(sx-10, sy-itv*(num-0.55), );
@@ -2822,11 +2823,14 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 			tName = "Data:";					
 			tName = tName + eName;	
 			QFontMetrics fontMetrics(f1); 
-			QRectF rect3 = fontMetrics.boundingRect(0, 0, 200, 0, Qt::TextExpandTabs|Qt::TextWrapAnywhere, tName); 
-			QRectF rect4 = fontMetrics.boundingRect(0, 0, 200, 0, Qt::TextExpandTabs|Qt::TextWrapAnywhere, "Expression Level"); 			
-			float tx = this->Width()/2 -  MAX(rect4.width(),rect3.width()) - 60;
-			//if(tx<sx)
-			//	sx=tx;
+			QRectF rect3 = fontMetrics.boundingRect(tName); 
+			QRectF rect4 = fontMetrics.boundingRect("Expression Level"); 			
+			//int mad = rect4.width()> rect3.width()
+			if(rect3.width()>rect4.width())
+			   sx = width - 64 - rect3.width();// - MAX(rect4.width(),rect3.width());
+			else
+			   sx = width - 64 - rect4.width();// - MAX(rect4.width(),rect3.width());
+			
 		}	
 
 		painter->setPen(Qt::NoPen);
@@ -2846,7 +2850,8 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 		else 
 			painter->drawText(sx-10, sy-itv*(num + 0.2-0.25), str);
 		
-		painter->drawText(sx+20, sy-itv*(-1-0.1), markers[0]);//QString::number(mark,'g',dl));
+		if(markers.size()>0)
+		   painter->drawText(sx+20, sy-itv*(-1-0.1), markers[0]);//QString::number(mark,'g',dl));
 		painter->setPen(Qt::NoPen);
 		float gitv = itv / 5.0;
 		int grad = 5;
@@ -2898,7 +2903,7 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 		float scale = length1==0?0:length/length1;
 
 		int itv=18;
-		int sx=width-54, sy=height;
+		sx=width-54, sy=height;
 							
         int size = length1==0? 1:num;
 		int grad= length1/size;
@@ -2940,22 +2945,17 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 
 		if(grad==1)
 		{
-			painter->drawRect(QRect(sx-15, sy-itv*(size1 - 0.5)-20, this->Width()/2-sx+13, 27+itv*(size1 + 0.5)+20));
-			
+			painter->drawRect(QRect(sx-15, sy-itv*(size1 + 0.6), this->Width()/2-sx+13, 27+itv*(size1 + 0.6)+16));			
 			painter->setPen(QColor(50,50,50,255));
 			painter->drawText(sx-10, sy-itv*(size)-10, "Number of");		
-		    painter->drawText(sx-10, sy-itv*(size)+3, "Cross-talking Proteins");	
-			
+		    painter->drawText(sx-10, sy-itv*(size)+3, "Cross-talking Proteins");				
 		}
 		else
-        {
-
-			painter->drawRect(QRect(sx-15, sy-itv*(size1 - 0.5), this->Width()/2-sx+13, 27+itv*(size1 + 0.5)));
-			
+        {	
+			painter->drawRect(QRect(sx-15, sy-itv*(size1 - 0.8)-20, this->Width()/2-sx+13, 27+itv*(size1 - 0.8)+56));
 			painter->setPen(QColor(50,50,50,255));
 			painter->drawText(sx-10, sy-itv*(size)+27, "Number of");		
-		    painter->drawText(sx-10, sy-itv*(size)+40, "Cross-talking Proteins");	
-			
+		    painter->drawText(sx-10, sy-itv*(size)+40, "Cross-talking Proteins");				
 		}
 
 		sy = sy+0.5*itv; 
@@ -3037,12 +3037,300 @@ void treeRingBubble::renderColorLegend(QPainter *painter)
 	}	
 }
 
+void treeRingBubble::keyReleaseEvent(QKeyEvent *event)
+{
+	int a=1;
+	a=0;
+	//set< vector<int > > segs = whichSegment( _hl, _hn ); 
+	if(event->key() == Qt::Key_Delete)
+	{
+		subStarctTreeRing();		
+	}
+}
+
+void treeRingBubble::subStarctTreeRing()
+{//remove a tree ring segment
+	set< vector<int > > segs = whichSegment( _hl, _hn ); 
+	if(segs.size()>=1)
+	{
+		QMessageBox msgBox;		
+		msgBox.setWindowTitle("Delete Ring Segment");
+		msgBox.setText("Delete this ring segment?");
+		msgBox.setStandardButtons(QMessageBox::Yes);
+		msgBox.addButton (QMessageBox::No);
+		msgBox.move(this->scenePos().x(),this->scenePos().y());
+		if(msgBox.exec() == QMessageBox::No)
+			return;
+	}
+	else
+	{
+		QMessageBox msgBox;				
+		msgBox.setWindowTitle("Select Ring Segment");
+		msgBox.setText("Please select a ring segment");
+		msgBox.move(this->scenePos().x(),this->scenePos().y());
+		msgBox.setStandardButtons(QMessageBox::Yes);
+		if(msgBox.exec() == QMessageBox::Yes)
+			return ;
+	    
+	}
+	//if(isSegPreSelected(_hl,_hn))
+	{
+		nodePicked.clear();
+        subStarctTreeRing(segs);
+		
+	}
+}
+
+void treeRingBubble::subStarctTreeRing(set<vector<int>> itemSelected)
+{
+    /*  this->_ring_radius = ringRadius;
+	this->_ring_width = ringWidth;*/
+	this->_hl = -1;
+	this->_hn = -1;
+	//this->EDGE_BY = parent->EDGE_BY; //EDGE_BY_V; //EDGE_BY_ORTHOLOGY;	//keqin
+	
+	//this->_centre.x=x, this->_centre.y=y;
+	set<vector<int>> tempSelected;
+	for(int layer=0; layer<_treeRing->_ring.size(); layer++)
+    {	
+		for(int id=0; id<_treeRing->_ring[layer]._node_num; ++id)
+		{
+			vector<int> item(2,0);
+			item[0]=layer; item[1]=id;
+			if(itemSelected.find(item)==itemSelected.end())
+			{
+			   tempSelected.insert(item);		
+			}
+		}  		
+    }
+	itemSelected = tempSelected;
+
+	// load the simulation results--------------------------
+	vector<vector<double>> inputData;
+	vector<vector<int>> inputNodeSize;
+	vector<vector<string>> inputTree;
+	vector<vector<QString>> inputPathID;
+	vector<vector<int>> rateLimitNum;
+	vector<vector<int>> outList, inList;// //_out_list/in_node_list//_rr
+	vector<bool> markerFlag;
+	//int edgeNum=parent->_bun->_rr;
+	int layerNum=_treeRing->_ring.size();
+	//inputData.resize(layerNum);
+	inputTree.resize(layerNum);
+	inputPathID.resize(layerNum);
+
+	inputNodeSize.resize(layerNum);
+	rateLimitNum.resize(layerNum);
+	vector < SimDataElem > _data = _treeRing->GetData();
+	int totalNodes0=0,totalNodes1=0;
+	int nodeCount=0;
+	vector<int> nodeIDs;
+	set<int> nodeIDSet;
+	for(set<vector<int>>::iterator it=itemSelected.begin(); it!=itemSelected.end(); it++)
+	{
+	    vector<int> item = *it;
+		int layer=item[0], id=item[1];
+		inputTree[layer].push_back(_treeRing->_ring[layer]._node_name[id]);	
+		inputPathID[layer].push_back(_treeRing->_ring[layer]._node_pathID[id]);
+		
+		int nodesize = reCountNodeSize(_treeRing, layer, id, itemSelected, false);
+		int testsize=_treeRing->_ring[layer]._node_size[id];
+		
+		inputNodeSize[layer].push_back(nodesize); //_treeRing->_ring[layer]._node_size[id]
+		rateLimitNum[layer].push_back(_treeRing->_ring[layer]._rateLimitNum[id]);	
+
+		if(layer==layerNum-2)
+		    totalNodes1 = totalNodes1 + _treeRing->_ring[layer]._node_size[id];
+		if(layer==layerNum-3)
+		    totalNodes0 = totalNodes0 + _treeRing->_ring[layer]._node_size[id];
+		if(layer==layerNum-1)
+		{
+			nodeCount++;
+		}
+        if(layer==layerNum-1)
+		{
+			vector<double> variables = _data[id]._elem;			
+			inputData.push_back(variables);	
+			nodeIDs.push_back(id);
+			nodeIDSet.insert(id);
+			//outList.push_back(_bun->GetOutList(id));
+		    //inList.push_back(_bun->GetInList(id));
+			markerFlag.push_back(_lMarker->getMarkerFlag(id));
+		}
+	}
+	//edge list
+	for(set<vector<int>>::iterator it=itemSelected.begin(); it!=itemSelected.end(); it++)
+	{
+	    vector<int> item = *it;
+		int layer=item[0], id=item[1];
+		if(layer==layerNum-1)
+		{	
+			vector<int> oID=_bun[layer]->GetOutList(id), iID=_bun[layer]->GetInList(id), oid, iid;
+			if(!oID.empty())
+			{
+				for(int j =0 ; j< oID.size(); j++ )
+				{
+					if(nodeIDSet.find(oID[j])!=nodeIDSet.end())
+					{
+						for(int i=0;i<nodeIDs.size(); i++)
+						{
+							if(nodeIDs[i] == oID[j])
+							{	
+								oid.push_back(i);									
+								break;
+							}
+						}	
+					}
+				}
+			}
+			
+			if(!iID.empty())
+			{
+				for(int j =0 ; j< iID.size(); j++ )
+				{
+					if(nodeIDSet.find(iID[j])!=nodeIDSet.end())
+					{
+						for(int i=0;i<nodeIDs.size(); i++)
+						{
+							if(nodeIDs[i] == iID[j])
+							{	
+								iid.push_back(iID[j]);									
+								break;
+							}
+						}	
+					}
+				}
+			}
+			outList.push_back(oid);			
+		    inList.push_back(iid);			
+		}
+	}
+	//get ride of link on included
+	//updateEdgeList(_treeRing->_ring[layerNum-1]._node_name, inputTree[layerNum-1], outList);
+	//updateEdgeList(_treeRing->_ring[layerNum-1]._node_name, inputTree[layerNum-1], inList);
+
+	_simData = new SimData(inputData, 18, 0, 18); // keqin's data only has 2 values (2,0,2)
+	//_simData = new SimData(dataName, 18, 0, 18); // TODO: OK fixed to 18.
+	_simData->PrintIntervalDistribution();
+	
+	//TreeRing----------------------------------------------
+	//_treeRing = new TreeRing(inputTree, ringRadius, ringWidth, _simData, EDGE_BY, _centre);
+
+	//getNewNodeID(
+	
+	float _zoom_t = _treeRing->_ring[0]._ring_radius;
+	
+
+	TreeRing *_preTreeRing=_treeRing;
+	_treeRing =  new TreeRing(inputTree, inputPathID, inputNodeSize, rateLimitNum, ringRadius, ringWidth, _simData, EDGE_BY, _centre, _treeRing->getOrthFileName());
+	this->_node_num = _treeRing->GetNumOfNodes(); // nodes count
+	_num_layers = _treeRing->GetNrLayers();
+	
+	
+	updateConnectionAfterSubstraction(_preTreeRing);
+
+	// bundle information ----------------------------------
+	//int br = _treeRing->GetRingRadius(_treeRing->GetNrLayers()-1);
+	int br = _treeRing->GetRingRadius(0); //changed when switching inner ring out
+	
+	_bun.resize(_num_layers);
+	for(int i=0; i<_num_layers; i++)
+	{
+		_bun[i] = new BundlesPrimitive(_treeRing, outList, inList, _treeRing->_ring[i]._node_num, i, br, _simData, EDGE_BY, _centre);
+		//_bun->_num_layers= _treeRing->GetNrLayers();
+		//_bun = new BundlesPrimitive(_treeRing, edgeNum, outList, inList, graphName, _node_num, br, _simData, EDGE_BY, _centre);
+		_bun[i]->GenerateCurveBundles(_treeRing, BUDDLINGSTRENGTH/*bundling strength*/);
+	}
+	//_bun[0]->CalModel();
+
+
+	// makers ----------------------------------
+	//delete [] _lMarker;
+	_lMarker = new ExtraLayerMarker(_treeRing, markerFlag, _node_num, br, _simData, _centre);
+	//_lMarker->GenerateMarkers(_treeRing);
+
+	// labels ----------------------------------
+	
+	_Label = new Label(window_w, window_h, compoudgraph_centre);
+	
+	_treeRing->CalculateLabelDisplayOrder();
+	_Label->BuildScreenGrid(_treeRing);
+	_Label->_num_layers= _treeRing->GetNrLayers();
+	//FINISH_INIT = true;
+	itemSelected.clear();
+
+	int edge_by=GetEdgeBy();
+	if(edge_by==EDGE_BY_ORTHOLOGY)
+	{				
+		_treeRing->ComputeNodeColorByO(_treeRing->getOrthFileName());	
+		_treeRing->SetColorBy(EDGE_BY_ORTHOLOGY);
+		//b0->EDGE_BY=EDGE_BY_ORTHOLOGY;		
+	}
+	else if(edge_by==EDGE_BY_EXPRESSION)
+	{
+		searchSharedProtein();
+		searchExpressed();	
+	}
+	_zoom_t = _zoom_t/_treeRing->_ring[0]._ring_radius-1;
+	Zoom(_zoom_t);	
+
+	//Zoom(_zoom);
+}
+
+void treeRingBubble::updateConnectionAfterSubstraction(TreeRing *_preTreeRing)
+{ 
+	//let child bubble of _preTreeRing to be child bubble of _curTreeRing
+	vector<struct treeRingConnector> nconnections;
+	for (int j = 0; j <_connections.size(); j++)
+	{
+		struct treeRingConnector node=_connections[j];		
+		int nidx;
+		set<vector<int>> nItemSelected;
+
+		nidx = getNewNodeID(node.layer, node.idx, _preTreeRing, _treeRing); //node.layer, 
+		node.idx = nidx;
+		
+		for(set<vector<int>>::iterator it=node.itemSelected.begin(); it!=node.itemSelected.end(); it++)
+		{
+			vector<int> item = *it;
+			int layer= item[0], id=item[1];
+			nidx = getNewNodeID(layer, id, _preTreeRing, _treeRing); 
+			item[1]=nidx;
+			if(nidx>-1)
+			  nItemSelected.insert(item);
+		}
+		node.itemSelected = nItemSelected;
+
+		ItemBase *bubble=node.childBubble;
+		if(bubble!=NULL)
+		{
+			if( bubble->getType()==SUBPATHBUBBLE1 || bubble->getType()==PATHBUBBLE1)
+			{	
+				treeRingBubble* tbubble= dynamic_cast<treeRingBubble*>(bubble);
+				if(tbubble!=this)
+				{
+					nconnections.push_back(node);					
+				}				
+			}
+			else if(bubble->getType()==TREERING)
+			{
+				treeRingBubble* tbubble= dynamic_cast<treeRingBubble*>(bubble);
+				if(tbubble!=this)
+				{
+					nconnections.push_back(node);					
+				}						
+			}
+		}		
+	}	
+	_connections = nconnections;
+}
+
 
 void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
 	ItemBase::mousePressEvent(event);			
 	_mousePressed=true;
-
+	preItemSelected = _treeRing->_itemClicked;
 	if( !onBoarder( event->pos() ) )
 	{
 		if (event->button() == Qt::RightButton) 
@@ -3068,7 +3356,7 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 					_treeRing->_itemDragged.clear();
 	                _treeRing->_itemClicked.clear();	
 				}
-			}
+			}			
 			else 
 			{
 				
@@ -3080,6 +3368,7 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 					_hl=nodePicked[0], _hn=nodePicked[1];
 					if(_hl>=0)
 					{
+						multiItemSelected.clear();
 						setItemDragged(nodePicked);
 						draggingItem=0;
 
@@ -3098,45 +3387,71 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 							_treeRing->shrinked = true;
 						}
 					}
-
 					if(_hl<0)
 					{
 						_treeRing->_itemDragged.clear();
 						_treeRing->_itemClicked.clear();	
 					}
-				
-				if(_scene->controlKeyisOn)
-				{
-					vector<int> item(2,-1);
-					itemSelected.clear();				
-					bool flag=false;
-					for(int li=0; li<_treeRing->respondLayer.size(); li++)
-					{
-						item[0] = _treeRing->respondLayer[li]; 
-						item[1] = _treeRing->respondIndex[li];
-						itemSelected.insert(item);
-						if(_treeRing->respondIndex[li] == _hn)
-						{   
-							nodePicked.resize(2);				
-							nodePicked[0]=_hl; nodePicked[1]=_hn;					
-							flag=true;
-						}
-						if(!flag && _hn>_treeRing->respondIndex[li]) 
-						{
-							flag=true;
-						}			
-					}
-					if(!flag)
-					{
-						item[0]=_hl, item[1] = _hn;
-						itemSelected.insert(item);
-						//nodePicked = whichItem( event->pos() );					
-					}
-
-					multiItemSelected.clear();
-					setItemDragged(itemSelected);
 					draggingItem=0;
-				}
+					if(_scene->controlKeyisOn)
+					{
+						vector < set< vector<int > > > tempSelected;
+						set< vector<int > > segs;
+						segs.insert(nodePicked);
+						//itemSelected.clear();			
+						int di=-1;
+						for(int j = 0; j<multiItemSelected.size(); j++)
+						{
+							if(multiItemSelected[j]==segs)
+							{
+								di=j;						
+							}
+							else
+							   tempSelected.push_back(multiItemSelected[j]);
+						}	
+						if(di<0)
+						   tempSelected.push_back(segs);
+
+						multiItemSelected=tempSelected;
+						for(int j = 0; j<multiItemSelected.size(); j++)
+						{
+							for(set< vector<int > >::iterator it = multiItemSelected[j].begin(); it != multiItemSelected[j].end(); it++)
+							{
+									itemSelected.insert(*it);
+							}	
+						}									
+						setItemDragged(itemSelected);					
+					}
+					else if(_scene->shiftKeyisOn)
+					{
+						vector<int> item(2,-1);
+						itemSelected.clear();				
+						bool flag=false;
+						for(int li=0; li<_treeRing->respondLayer.size(); li++)
+						{
+							item[0] = _treeRing->respondLayer[li]; 
+							item[1] = _treeRing->respondIndex[li];
+							itemSelected.insert(item);
+							if(_treeRing->respondIndex[li] == _hn)
+							{   
+								nodePicked.resize(2);				
+								nodePicked[0]=_hl; nodePicked[1]=_hn;					
+								flag=true;
+							}
+							if(!flag && _hn>_treeRing->respondIndex[li]) 
+							{
+								flag=true;
+							}			
+						}
+						if(!flag)
+						{
+							item[0]=_hl, item[1] = _hn;
+							itemSelected.insert(item);									
+						}
+						multiItemSelected.clear();
+						setItemDragged(itemSelected);
+					
+					}
 			    
 			}
 		}
@@ -3147,8 +3462,10 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 				_penisOn=false;
 				groupSelected=false;
 				set< vector<int > > segs = whichSegment( event->pos() ); 
+
 				if(!segs.empty())
 				{
+					itemSelected.clear();
 					//_scene->rightClickFlag=true;
 					vector < set< vector<int > > > tempSelected;
 					//itemSelected.clear();			
@@ -3170,7 +3487,7 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 					{
 						for(set< vector<int > >::iterator it = multiItemSelected[j].begin(); it != multiItemSelected[j].end(); it++)
 						{
-								itemSelected.insert(*it);
+							itemSelected.insert(*it);
 						}	
 					}									
 					setItemDragged(itemSelected);
@@ -3182,7 +3499,6 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 				}
 				draggingItem=0;	
 				nodePicked.clear();
-
 			}
 			else 
 			{
@@ -3194,25 +3510,148 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 	            _treeRing->_itemClicked.clear();	
 				nodePicked.clear();
 				
-				set< vector<int > > segs = whichSegment( event->pos() ); 				
-				if(!segs.empty())
-				{
-					//_scene->rightClickFlag=true;
-					vector < set< vector<int > > > tempSelected;					
-					tempSelected.push_back(segs);
 
-					multiItemSelected=tempSelected;
-					for(int j = 0; j<multiItemSelected.size(); j++)
+				nodePicked = whichItem( event->pos() );
+				_hl=nodePicked[0], _hn=nodePicked[1];
+				nodePicked.clear();
+				if(_hl>=0)
+				{
+					setItemDragged(nodePicked);
+					draggingItem=0;
+
+					if(_hl>=0 && _hn>=0)
 					{
-						for(set< vector<int > >::iterator it = multiItemSelected[j].begin(); it != multiItemSelected[j].end(); it++)
+						if(_treeRing->respondLayer.size()==0)
 						{
+							_treeRing->respondLayer.push_back(_hl);
+							_treeRing->respondIndex.push_back(_hn);
+						}
+						_treeRing->shrinkNodes(_treeRing->respondLayer, _treeRing->respondIndex);
+						
+						_bun[_hl]->reGenerateCurveBundles(_treeRing, BUDDLINGSTRENGTH);
+						if(_hl==_num_layers-1)
+							_lMarker->updateMarkerAngle(_treeRing);
+						_treeRing->shrinked = true;
+					}
+				}
+				if(_scene->shiftKeyisOn)
+				{
+					/////////////////
+					vector<int> item(2,-1);
+					bool flag=false;
+
+					vector<int> respondLayer = _treeRing->respondLayer;
+					vector<int> respondIndex = _treeRing->respondIndex;
+					for(int li=0; li<respondLayer.size(); li++)
+					{
+						if(respondLayer[li]==_hl && respondIndex[li]==_hn)
+						{
+							flag = true;
+						}
+					}
+					if(!flag && _hl>=0 && _hn>=0)
+					{
+					   respondLayer.push_back(_hl);
+					   respondIndex.push_back(_hn);
+					}
+
+					for(int li=0; li<respondLayer.size(); li++)
+					{
+						item[0] = respondLayer[li]; 
+						item[1] = respondIndex[li];
+						//itemSelected.insert(item);
+						/*if(_treeRing->respondIndex[li] == _hn)
+						{   
+							nodePicked.resize(2);				
+							nodePicked[0]=_hl; nodePicked[1]=_hn;					
+							flag=true;
+						}*/
+						///////////////////
+						
+						set< vector<int > > segs = whichSegment( item[0], item[1] ); 
+						if(!segs.empty())
+						{
+							vector < set< vector<int > > > tempSelected;								
+							int di=-1;
+							for(int j = 0; j<multiItemSelected.size(); j++)
+							{
+								if(_scene->controlKeyisOn && multiItemSelected[j]==segs)
+								{
+									di=j;						
+								}
+								else
+								   tempSelected.push_back(multiItemSelected[j]);
+							}	
+							if(di<0)
+							   tempSelected.push_back(segs);
+
+							multiItemSelected=tempSelected;
+							for(int j = 0; j<multiItemSelected.size(); j++)
+							{
+								for(set< vector<int > >::iterator it = multiItemSelected[j].begin(); it != multiItemSelected[j].end(); it++)
+								{
+									 itemSelected.insert(*it);
+								}	
+							}									
+							setItemDragged(itemSelected);
+						}  
+						else
+						{
+							_treeRing->_itemDragged.clear();
+							_treeRing->_itemClicked.clear();	
+						}
+						
+						///////////////////
+							
+					}
+					
+					
+					/////////////////
+					/*vector<int> item(2,-1);
+					itemSelected.clear();				
+					bool flag=false;
+					for(int li=0; li<_treeRing->respondLayer.size(); li++)
+					{
+						item[0] = _treeRing->respondLayer[li]; 
+						item[1] = _treeRing->respondIndex[li];
+						itemSelected.insert(item);
+						if(_treeRing->respondIndex[li] == _hn)
+						{   
+							nodePicked.resize(2);				
+							nodePicked[0]=_hl; nodePicked[1]=_hn;					
+							flag=true;
+						}
+						if(!flag && _hn>_treeRing->respondIndex[li]) 
+						{
+							flag=true;
+						}			
+					}
+					if(!flag)
+					{
+						item[0]=_hl, item[1] = _hn;
+						itemSelected.insert(item);									
+					}
+					multiItemSelected.clear();
+					setItemDragged(itemSelected);	*/				
+				}
+				else
+				{
+					set< vector<int > > segs = whichSegment( event->pos() ); 				
+					if(!segs.empty())
+					{
+						vector < set< vector<int > > > tempSelected;					
+						tempSelected.push_back(segs);
+						multiItemSelected=tempSelected;
+						for(int j = 0; j<multiItemSelected.size(); j++)
+						{
+							for(set< vector<int > >::iterator it = multiItemSelected[j].begin(); it != multiItemSelected[j].end(); it++)
+							{
 								itemSelected.insert(*it);
-						}	
-					}									
-					setItemDragged(itemSelected);
-				}  
-				
-				draggingItem=0;	
+							}	
+						}									
+						setItemDragged(itemSelected);
+					} 
+				}				
 			}
 		}
 	} 
@@ -3222,8 +3661,6 @@ void treeRingBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 		//_treeRing->_itemDragged.clear();
 	    //_treeRing->_itemClicked.clear();
 	}
-
-
 
     stroke_tracking = GL_TRUE;
 	if(onBoarder( event->pos() ))
@@ -3326,7 +3763,8 @@ void treeRingBubble::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 				QPointF iPos;
 				iPos=event->scenePos();
 				bubbleDraggedout=true;
-				treeRingBubble *rb = dynamic_cast <treeRingBubble*> (_open->openSubTreeRing(this, 400, iPos.x(), iPos.y(), itemSelected));	
+				treeRingBubble *rb = dynamic_cast <treeRingBubble*> (_open->openSubTreeRing(this, 400, iPos.x(), iPos.y(), itemSelected));
+				rb->_treeRingBubbleParent=this;
 				if(rb)
 				{
 					for (int j = 0; j <this->_connections.size(); j++)
@@ -3454,7 +3892,7 @@ void treeRingBubble::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 
 					if(num !="")
 					{	
-						QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";					
+						QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";					
 						bool opened = _open->openPathwayByPath(nitem, _treeRing->getOrthFileName(), 200, iPos.x(), iPos.y(), fname, pathName, lastStoredfileName);	
 						if(opened && nitem)
 						{
@@ -3465,10 +3903,10 @@ void treeRingBubble::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 					
 							struct treeRingConnector node;
 							//get center
-							vector<int> anode=nodePicked;
+							//vector<int> anode=nodePicked;
 							node.itemSelected=itemSelected;
-							node.layer=anode[0];
-							node.idx=anode[1];
+							node.layer=layer;
+							node.idx=id;
 							node.childBubble=nitem;
 							_connections.push_back(node);	
 							nodePicked[0] = nodePicked[1] = -1;								
@@ -3523,6 +3961,19 @@ void treeRingBubble::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
          _treeRing->shrinked = false;
 		 _treeRing->unShrinkNodes();
 	}
+}
+
+bool treeRingBubble::clearSearchSelection()
+{
+	_treeRing->clearHighLight();
+	nodePicked.clear();	
+	itemSelected.clear();
+	multiItemSelected.clear();	
+	searched.clear();
+	_treeRing->searched.clear();
+	_treeRing->_itemClicked.clear();
+
+	return true;
 }
 
 bool treeRingBubble::isMissingFile(QString pathID)
@@ -3692,6 +4143,9 @@ void treeRingBubble::hoverMoveEvent( QGraphicsSceneHoverEvent *event )
 			int gnode[2], fromTo[2];
 			if(hl>-1 && hi>-1)
 			{	
+				if(hl==0 && hi ==14)
+					hl = hl;
+
 				_treeRing->GetNodeIndexByLayer( hl, hi, hl, tmp); //changed when switching inner ring out
 				_treeRing->GetGlobalNodeIndexByLayer( hl, hi, hl, gnode);//global index
 				
@@ -3707,6 +4161,8 @@ void treeRingBubble::hoverMoveEvent( QGraphicsSceneHoverEvent *event )
 					
 				_treeRing->respondLayer.clear(), _treeRing->respondIndex.clear();					
 				_bun[hl]->respondNodes(fromTo[0], fromTo[1], hl, _treeRing->respondLayer, _treeRing->respondIndex);
+				if(_treeRing->respondIndex.size()>2)
+					_hl = _hl;
 								
 				_hl = hl;
 				_hn = hi;
@@ -3730,8 +4186,7 @@ void treeRingBubble::hoverMoveEvent( QGraphicsSceneHoverEvent *event )
 				_lMarker->clearHighlight();
 				for(int i=0; i<_num_layers; i++)
 				     _bun[i]->Highlight(-1, -1);
-			}
-			//glutPostRedisplay();
+			}			
 		}
 		else
 		{
@@ -3784,26 +4239,15 @@ void treeRingBubble::contextMenuEvent(QGraphicsSceneContextMenuEvent *event)
 	if(_scene->controlKeyisOn)
 		return;
 
-	vector<int> node;
-	/*vector<int> node=whichItem(event->pos(),this->Width()*_scale, this->Height()*_scale);
-	vector<int> node2;
-	if(!node.empty())
+	vector<int> node;	
+	
+	if( ((_hl>=0 || _hn>=0) && isSegPreSelected(_hl, _hn, preItemSelected) ) || _hl<0 || _hn<0)	
 	{
-		node2.push_back(m_pathwayID); node2.push_back(node[0]); node2.push_back(node[1]);
-	}*/
-
-	if(_hl!=-1 && _hn>=0)
-	{
-		node.push_back(_hl);
-		node.push_back(_hn);
+		_scene->dropDownMenu0(event, this, node);
 	}
-
-	//set< vector<int > > segs = whichSegment( event->pos() ); 
-	if(!node.empty())
-	{
-		return;
-	}
-	_scene->dropDownMenu0(event, this, node);
+	
+	
+	
 	//itemSelected.clear();
 	//_treeRing->itemSelected.clear();
 }
@@ -3827,6 +4271,9 @@ void treeRingBubble::wheelEvent(QGraphicsSceneWheelEvent *event)
 
 void treeRingBubble::Zoom(float zoom)
 {
+	if(_treeRing->_ring.size()==0 || _treeRing->_ring[0]._radius.size()==0)
+		return;
+	   
 	_zoom = zoom;
 	Point center = _treeRing->GetTreeRingCenter();
 	float dx = -center.x;

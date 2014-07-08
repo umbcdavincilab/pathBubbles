@@ -1,0 +1,287 @@
+edge.size() 99
+ 83 2 83 0 82 0 -1
+ 83 3 83 1 82 0 -1
+ 83 3 83 -1 82 1 -1
+ 83 -1 83 -1 82 2 -1
+ 83 4 83 10 82 3 -1
+ 83 -1 83 11 82 3 -1
+ 83 5 83 12 82 3 -1
+ 83 6 83 13 82 3 -1
+ 83 7 83 14 82 3 -1
+ 83 8 83 15 82 3 -1
+ 83 9 83 16 82 3 -1
+ 83 10 83 17 82 4 -1
+ 83 -1 83 18 82 5 -1
+ 83 17 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 19 83 22 82 6 -1
+ 83 20 83 23 82 6 -1
+ 83 21 83 24 82 6 -1
+ 83 33 83 25 82 7 -1
+ 83 34 83 26 82 7 -1
+ 83 35 83 27 82 7 -1
+ 83 36 83 20 82 7 -1
+ 83 37 83 28 82 7 -1
+ 83 38 83 29 82 7 -1
+ 83 39 83 30 82 7 -1
+ 83 40 83 31 82 7 -1
+ 83 41 83 32 82 7 -1
+ 83 45 83 42 82 8 -1
+ 83 46 83 43 82 8 -1
+ 83 47 83 44 82 8 -1
+ 83 48 83 51 82 9 -1
+ 83 47 83 52 82 9 -1
+ 83 49 83 53 82 9 -1
+ 83 50 83 54 82 9 -1
+ 83 65 83 55 82 10 -1
+ 83 66 83 56 82 10 -1
+ 83 67 83 57 82 10 -1
+ 83 68 83 58 82 10 -1
+ 83 69 83 20 82 10 -1
+ 83 70 83 59 82 10 -1
+ 83 71 83 60 82 10 -1
+ 83 72 83 61 82 10 -1
+ 83 73 83 62 82 10 -1
+ 83 74 83 63 82 10 -1
+ 83 41 83 64 82 10 -1
+ 83 80 83 75 82 11 -1
+ 83 81 83 76 82 11 -1
+ 83 82 83 77 82 11 -1
+ 83 83 83 78 82 11 -1
+ 83 20 83 79 82 11 -1
+ 83 47 83 86 82 12 -1
+ 83 84 83 87 82 12 -1
+ 83 85 83 88 82 12 -1
+ 83 89 83 86 82 13 -1
+ 83 90 83 91 82 13 -1
+ 83 96 83 92 82 14 -1
+ 83 97 83 93 82 14 -1
+ 83 98 83 -1 82 14 -1
+ 83 24 83 94 82 14 -1
+ 83 99 83 95 82 14 -1
+ 83 105 83 100 82 15 -1
+ 83 106 83 101 82 15 -1
+ 83 107 83 102 82 15 -1
+ 83 24 83 103 82 15 -1
+ 83 99 83 104 82 15 -1
+ 83 -1 83 108 82 16 -1
+ 83 -1 83 109 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 2 83 -1 82 16 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+ 67 2 82 1 82 3 -1
+ 80 -1 82 1 82 5 -1
+ 80 0 82 1 82 6 -1
+ 80 1 82 1 82 7 -1
+ 80 1 82 1 82 8 -1
+ 67 3 82 1 82 9 -1
+ 80 1 82 1 82 10 -1
+ 67 3 82 1 82 11 -1
+ 80 1 82 1 82 12 -1
+ 80 1 82 1 82 13 -1
+ 67 5 82 1 82 14 -1
+ 80 2 82 1 82 15 -1
+ 67 6 82 1 82 16 -1
+ 67 1 82 1 82 17 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 4 82 1 82 12 -1
+ 67 4 82 1 82 13 -1
+_complexName.size()	7
+	TH:Fe2+	cytosol	Reactome DB_ID: 209926	
+	DDC dimer	cytosol	Reactome DB_ID: 209895	
+	DBH tetramer	secretory granule lumen	Reactome DB_ID: 209957	
+	DEHAL1:FMN	plasma membrane	Reactome DB_ID: 209777	
+	Thyrotropin	extracellular region	Reactome DB_ID: 378994	
+	DIO1 homodimer/DIO2 homodimer			
+	TPH:Fe++	cytosol	Reactome DB_ID: 976249	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	NIS	plasma membrane	Reactome DB_ID: 209833	UniProt:Q92911	SLC5A5
+	TPO	plasma membrane	Reactome DB_ID: 2980604	UniProt:P07202	TPO
+	DIO3	plasma membrane	Reactome DB_ID: 350873	UniProt:P55073	DIO3
+_reactionName.size()	18
+	T	Tyrosine is hydroxylated to dopa
+	B	Dopa is decarboxylated to dopamine
+	T	Dopamine translocates to a secretory vesicle
+	T	Dopamine is oxidised to noradrenaline
+	T	Noradrenaline translocates to the cytosol
+	T	Noradrenaline is converted to adrenaline
+	T	Iodide is taken up by thyroid epithelial cells
+	T	Iodide is organified
+	T	Tyrosine is monoiodinated
+	T	Monoiodinated tyrosine can be deiodinated
+	T	Tyrosine is diiodinated
+	T	Diiodinated tyrosine can be deiodinated
+	T	DIT and MIT combine to form triiodothyronine
+	B	Two DITs combine to form thyroxine
+	T	Thyroxine is deiodinated to triiodothyronine
+	T	Thyroxine is deiodinated to reverse triiodothyronine (RT3)
+	T	Tryptophan is hydroxylated
+	B	Decarboxylation of 5-hydroxytryptophan forms serotonin
+_smallMoleculeName.size()	110
+	L-Tyr	cytosol	Reactome DB_ID: 29506	L-Tyrosine [ChEBI:17895]
+	4a-hydroxytetrahydrobiopterin	cytosol	Reactome DB_ID: 71112	4a-hydroxytetrahydrobiopterin [ChEBI:15374]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	L-Tyr	cytosol	Reactome DB_ID: 29506	L-Tyrosine [ChEBI:17895]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	L-Tyr	extracellular region	Reactome DB_ID: 352030	L-Tyrosine [ChEBI:17895]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	L-Tyr	extracellular region	Reactome DB_ID: 352030	L-Tyrosine [ChEBI:17895]
+	I-	extracellular region	Reactome DB_ID: 209818	Iodide [ChEBI:5946]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	H+	extracellular region	Reactome DB_ID: 351626	H+ [ChEBI:15378]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	L-Tyr	extracellular region	Reactome DB_ID: 352030	L-Tyrosine [ChEBI:17895]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	L-Tyr	extracellular region	Reactome DB_ID: 352030	L-Tyrosine [ChEBI:17895]
+	H+	extracellular region	Reactome DB_ID: 351626	H+ [ChEBI:15378]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	TPN	extracellular region	Reactome DB_ID: 351628	NADP+ [ChEBI:18009]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	L-Tyr	extracellular region	Reactome DB_ID: 352030	L-Tyrosine [ChEBI:17895]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	TPNH	extracellular region	Reactome DB_ID: 351627	NADPH [ChEBI:16474]
+	L-Ala	extracellular region	Reactome DB_ID: 352036	L-Alanine [ChEBI:16977]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	T3	extracellular region	Reactome DB_ID: 352331	3,3',5'-Triiodothyronine [ChEBI:28774]
+	T3	extracellular region	Reactome DB_ID: 352331	3,3',5'-Triiodothyronine [ChEBI:28774]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	DIT	extracellular region	Reactome DB_ID: 352329	3,5-Diiodo-L-tyrosine [ChEBI:1405]
+	T4	extracellular region	Reactome DB_ID: 352326	O-(4-Hydroxy-3,5-diidophenyl)-3,5-diiodo-L-tyrosine [ChEBI:7663]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	T4	cytosol	Reactome DB_ID: 209937	O-(4-Hydroxy-3,5-diidophenyl)-3,5-diiodo-L-tyrosine [ChEBI:7663]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	T4	cytosol	Reactome DB_ID: 209937	O-(4-Hydroxy-3,5-diidophenyl)-3,5-diiodo-L-tyrosine [ChEBI:7663]
+	I-	cytosol	Reactome DB_ID: 209785	Iodide [ChEBI:5946]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	T4	cytosol	Reactome DB_ID: 209937	O-(4-Hydroxy-3,5-diidophenyl)-3,5-diiodo-L-tyrosine [ChEBI:7663]
+	T3	cytosol	Reactome DB_ID: 176667	3,3',5'-Triiodothyronine [ChEBI:28774]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	T4	cytosol	Reactome DB_ID: 209937	O-(4-Hydroxy-3,5-diidophenyl)-3,5-diiodo-L-tyrosine [ChEBI:7663]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	T4	cytosol	Reactome DB_ID: 209937	O-(4-Hydroxy-3,5-diidophenyl)-3,5-diiodo-L-tyrosine [ChEBI:7663]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	L-Trp	cytosol	Reactome DB_ID: 29500	L-Tryptophan [ChEBI:16828]
+	5HTP	cytosol	Reactome DB_ID: 209911	5-Hydroxy-L-tryptophan [ChEBI:2064]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	5HTP	cytosol	Reactome DB_ID: 209911	5-Hydroxy-L-tryptophan [ChEBI:2064]
+	BH4	cytosol	Reactome DB_ID: 29870	Tetrahydrobiopterin [ChEBI:15372]
+	5HTP	cytosol	Reactome DB_ID: 209911	5-Hydroxy-L-tryptophan [ChEBI:2064]
+	BH4	cytosol	Reactome DB_ID: 29870	Tetrahydrobiopterin [ChEBI:15372]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	L-Trp	cytosol	Reactome DB_ID: 29500	L-Tryptophan [ChEBI:16828]
+	5HTP	cytosol	Reactome DB_ID: 209911	5-Hydroxy-L-tryptophan [ChEBI:2064]
+	5HT	cytosol	Reactome DB_ID: 209914	3-(2-Aminoethyl)-1H-indol-5-ol [ChEBI:28790]
+	5HTP	cytosol	Reactome DB_ID: 209911	5-Hydroxy-L-tryptophan [ChEBI:2064]
+	CO2	cytosol	Reactome DB_ID: 113528	CO2 [ChEBI:16526]
+	5HT	cytosol	Reactome DB_ID: 209914	3-(2-Aminoethyl)-1H-indol-5-ol [ChEBI:28790]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	CoA-SH	cytosol	Reactome DB_ID: 76194	CoA [ChEBI:15346]
+	5HT	cytosol	Reactome DB_ID: 209914	3-(2-Aminoethyl)-1H-indol-5-ol [ChEBI:28790]
+	CoA-SH	cytosol	Reactome DB_ID: 76194	CoA [ChEBI:15346]
+	DA	cytosol	Reactome DB_ID: 159362	4-(2-Aminoethyl)-1,2-benzenediol [ChEBI:18243]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	MLT	cytosol	Reactome DB_ID: 209934	Melatonin [ChEBI:6730]
+	MLT	cytosol	Reactome DB_ID: 209934	Melatonin [ChEBI:6730]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	AdoHcy	cytosol	Reactome DB_ID: 71285	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	O2	secretory granule lumen	Reactome DB_ID: 351593	Oxygen [ChEBI:15379]
+	NAd	secretory granule lumen	Reactome DB_ID: 351597	4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol [ChEBI:1]
+	O2	secretory granule lumen	Reactome DB_ID: 351593	Oxygen [ChEBI:15379]
+	DHA	secretory granule lumen	Reactome DB_ID: 351599	Dehydroascorbate [ChEBI:4358]
+	VitC	secretory granule lumen	Reactome DB_ID: 351595	Ascorbate [ChEBI:2868]
+	H2O	secretory granule lumen	Reactome DB_ID: 351603	H2O [ChEBI:15377]
+	H2O	secretory granule lumen	Reactome DB_ID: 351603	H2O [ChEBI:15377]
+	O2	secretory granule lumen	Reactome DB_ID: 351593	Oxygen [ChEBI:15379]
+	H2O	secretory granule lumen	Reactome DB_ID: 351603	H2O [ChEBI:15377]
+	NAd	cytosol	Reactome DB_ID: 209789	4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol [ChEBI:1]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	ADR	cytosol	Reactome DB_ID: 209794	4-[(1R)-1-Hydroxy-2-(methylamino)ethyl]-1,2-benzenediol [ChEBI:1942]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

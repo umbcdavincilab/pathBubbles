@@ -11,9 +11,11 @@
 #include "PenItem.h"
 #include "FileItem.h"
 #include <QImage>
+#include "3DHelper.h"
+//#include "TreeRing.h"
 
 
-
+//class TreeRing;
 class OpenGLScene;
 class OpenManager;
 //class ItemBase;
@@ -30,8 +32,11 @@ public:
 	QRegion roundRect(QRect &rect, int radius);
 	void drawArrow_4(QPainter *painter, QPointF start, QPointF end, float width, float height, QColor color);
 	void drawAFan(QPainter *painter, QPoint center, float radius1, float radius2, float angle1, float angle2, QColor color, int fanShape=0);
+	void drawAFan(QPainter *painter, QPoint center, float radius1, float radius2, float angle1, float angle2, vector<QColor> color, int fanShape=0);
+
 	void drawDissociation(QPainter *painter, QRectF rect);
 
+	
 	void drawOrthologyPanel(QPainter *painter, int sx , int sy);		
     void drawPathwayNodeTypes(QPainter *painter, int sx , int sy);
 	void drawPathwayNodeAttributes(QPainter *painter, int sx , int sy);

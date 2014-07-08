@@ -1,0 +1,66 @@
+edge.size() 6
+ 67 0 80 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 80 1 80 2 82 1 -1
+ 80 2 67 3 82 2 -1
+ 67 2 67 3 82 2 -1
+ 80 0 82 1 82 1 -1
+_complexName.size()	4
+	60S ribosomal complex	cytosol	Reactome DB_ID: 72499	
+	60s ribosomal complex lacking L13a subunit	cytosol	Reactome DB_ID: 156817	
+	43S: Ceruloplasmin mRNA:eIF4F:eIF4B:eIF4H:PABP	cytosol	Reactome DB_ID: 156804	
+	phospho-L13a associated wth the  3' UTR GAIT element of ceruloplasmin mRNA within  the translation initiation complex	cytosol	Reactome DB_ID: 156824	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	RPL10A	cytosol	Reactome DB_ID: 72404	UniProt:P62906	RPL10A
+	RPL13A	cytosol	Reactome DB_ID: 72412	UniProt:P40429	RPL13A
+	p-RPL13A	cytosol	Reactome DB_ID: 156829	UniProt:P40429	RPL13A
+_reactionName.size()	3
+	B	Dissociation of L13a from the 60s ribosomal subunit
+	T	INF-gamma induced phosphorylation of L13a
+	D	Association of phospho-L13a with GAIT element of Ceruloplasmin mRNA
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

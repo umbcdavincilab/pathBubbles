@@ -1,0 +1,110 @@
+edge.size() 47
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 1 82 0 -1
+ 80 -1 67 1 82 0 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 2 82 1 -1
+ 80 1 67 2 82 1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 67 -1 82 -1 -1
+ 80 0 67 4 82 2 -1
+ 67 3 67 4 82 2 -1
+ 80 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 5 82 3 -1
+ 69 0 67 5 82 3 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+_complexName.size()	6
+	Integrin alphaVbeta1/Integrin alphaVbeta3/Integrin alphaVbeta5/Integrin alpha2bbeta3			
+	Vitronectin:VTN-binding integrins	plasma membrane	Reactome DB_ID: 2466116	
+	AGRN:Alpha-dystroglycan	extracellular region	Reactome DB_ID: 2467717	
+	Laminin-1/Laminin-3/Merosin/Laminin-4/Laminin-6/Laminin-7/Laminin-8/Laminin-9/Laminin-10/Laminin-11			
+	AGRN:Laminins with gamma-1	extracellular region	Reactome DB_ID: 2467087	
+	AGRN:Beta amyloid fibril	extracellular region	Reactome DB_ID: 2467662	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	2
+	AGRN	extracellular region	Reactome DB_ID: 375056	UniProt:O00468	AGRN
+	DAG1	extracellular region	Reactome DB_ID: 2328152	UniProt:Q14118	DAG1
+_reactionName.size()	4
+	D	VTN binds integrins
+	D	AGRN binds Alpha-dystroglycan
+	D	AGRN binds Laminins with gamma-1 subunit
+	D	AGRN binds Beta amyloid fibril via GAG chains
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

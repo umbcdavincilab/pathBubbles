@@ -1,0 +1,143 @@
+edge.size() 52
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 67 1 82 0 -1
+ 80 1 67 1 82 0 -1
+ 80 2 67 2 82 1 -1
+ 80 3 67 2 82 1 -1
+ 80 4 67 3 82 2 -1
+ 80 5 67 3 82 2 -1
+ 80 6 67 4 82 3 -1
+ 80 7 67 4 82 3 -1
+ 80 8 67 4 82 3 -1
+ 80 9 67 4 82 3 -1
+ 80 10 67 5 82 4 -1
+ 80 11 67 5 82 4 -1
+ 80 12 67 5 82 4 -1
+ 80 13 67 6 82 5 -1
+ 67 2 67 6 82 5 -1
+ 67 7 67 9 82 6 -1
+ 67 9 67 7 82 -1 -1
+ 67 9 67 10 82 -1 -1
+ 67 10 67 9 82 7 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 10 67 11 82 8 -1
+ 67 9 69 0 82 9 -1
+ 67 9 67 8 82 9 -1
+ 67 9 67 0 82 9 -1
+ 67 9 67 5 82 9 -1
+ 67 9 67 4 82 9 -1
+ 67 9 80 14 82 9 -1
+ 67 9 67 3 82 9 -1
+ 67 9 80 15 82 9 -1
+ 67 9 83 0 82 9 -1
+ 67 9 80 16 82 9 -1
+ 67 9 67 6 82 9 -1
+ 67 9 67 1 82 9 -1
+ 67 -1 67 -1 82 -1 -1
+_complexName.size()	12
+	TFIIF	nucleoplasm	Reactome DB_ID: 109631	
+	DSIF complex	nucleoplasm	Reactome DB_ID: 112420	
+	Elongin B:C complex	nucleoplasm	Reactome DB_ID: 112424	
+	FACT complex	nucleoplasm	Reactome DB_ID: 112417	
+	NELF complex	nucleoplasm	Reactome DB_ID: 112432	
+	P-TEFb complex	nucleoplasm	Reactome DB_ID: 112431	
+	Elongin Complex	nucleoplasm	Reactome DB_ID: 112425	
+	Paused processive elongation complex	nucleoplasm	Reactome DB_ID: 113720	
+	RNA Polymerase II holoenzyme complex (hyperphosphorylated)	nucleoplasm	Reactome DB_ID: 109909	
+	Processive elongation complex	nucleoplasm	Reactome DB_ID: 113719	
+	Arrested processive elongation complex	nucleoplasm	Reactome DB_ID: 113721	
+	Aborted elongation complex after arrest	nucleoplasm	Reactome DB_ID: 113722	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	17
+	SUPT5H	nucleoplasm	Reactome DB_ID: 3009372	UniProt:O00267	SUPT5H
+	SUPT4H1	nucleoplasm	Reactome DB_ID: 64905	UniProt:P63272	SUPT4H1
+	EloB	nucleoplasm	Reactome DB_ID: 112423	UniProt:Q15370	TCEB2
+	EloC	nucleoplasm	Reactome DB_ID: 112422	UniProt:Q15369	TCEB1
+	SUPT16H	nucleoplasm	Reactome DB_ID: 112415	UniProt:Q9Y5B9	SUPT16H
+	T160	nucleoplasm	Reactome DB_ID: 65105	UniProt:Q08945	SSRP1
+	NELFB	nucleoplasm	Reactome DB_ID: 112427	UniProt:Q8WX92	NELFB
+	NELFCD	nucleoplasm	Reactome DB_ID: 112428	UniProt:Q8IXH7	NELFCD
+	NELFA	nucleoplasm	Reactome DB_ID: 112426	UniProt:Q9H3P2	NELFA
+	RDBP	nucleoplasm	Reactome DB_ID: 62907	UniProt:P18615	NELFE
+	CCNT1	nucleoplasm	Reactome DB_ID: 51611	UniProt:O60563	CCNT1
+	CDK9	nucleoplasm	Reactome DB_ID: 51801	UniProt:P50750	CDK9
+	CCNT2	nucleoplasm	Reactome DB_ID: 51613	UniProt:O60583	CCNT2
+	EloA	nucleoplasm	Reactome DB_ID: 112421	UniProt:Q14241	TCEB3
+	CTDP1	nucleoplasm	Reactome DB_ID: 113416	UniProt:Q9Y5B0	CTDP1
+	TCEA1	nucleoplasm	Reactome DB_ID: 65748	UniProt:P23193	TCEA1
+	ELL	nucleoplasm	Reactome DB_ID: 54257	UniProt:P55199	ELL
+_reactionName.size()	10
+	D	Formation of DSIF complex 
+	D	Formation of Elongin BC complex
+	D	Formation of FACT complex
+	D	Formation of NELF complex 
+	D	Formation of P-TEFb complex
+	D	Formation of elongin complex
+	T	Resumption of elongation after recovery from pausing
+	T	TFIIS-mediated recovery of elongation from arrest
+	T	Abortive termination of elongation after arrest
+	B	Elongating transcript encounters a lesion in the template
+_smallMoleculeName.size()	1
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

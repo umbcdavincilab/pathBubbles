@@ -1,0 +1,426 @@
+edge.size() 231
+ 80 -1 80 0 82 0 -1
+ 80 -1 80 1 82 0 -1
+ 80 1 67 0 82 1 -1
+ 67 0 67 1 82 2 -1
+ 80 -1 67 1 82 2 -1
+ 67 1 67 2 82 3 -1
+ 80 -1 67 2 82 3 -1
+ 83 2 67 2 82 4 -1
+ 67 3 83 0 82 4 -1
+ 67 3 83 1 82 4 -1
+ 67 -1 67 5 82 5 -1
+ 67 3 67 5 82 5 -1
+ 83 2 83 3 82 6 -1
+ 83 5 83 4 82 6 -1
+ 83 2 83 3 82 7 -1
+ 83 5 83 6 82 7 -1
+ 80 4 67 7 82 8 -1
+ 83 5 67 7 82 8 -1
+ 80 5 67 8 82 9 -1
+ 83 5 67 8 82 9 -1
+ 83 2 83 7 82 10 -1
+ 67 9 67 7 82 10 -1
+ 67 9 67 7 82 10 -1
+ 67 8 67 12 82 11 -1
+ 67 9 67 12 82 11 -1
+ 67 8 67 12 82 12 -1
+ 67 8 83 8 82 12 -1
+ 83 2 83 9 82 12 -1
+ 80 7 67 12 82 12 -1
+ 80 7 83 10 82 12 -1
+ 83 2 83 11 82 13 -1
+ 80 9 80 8 82 13 -1
+ 80 9 80 8 82 13 -1
+ 83 2 83 12 82 14 -1
+ 80 11 80 10 82 14 -1
+ 80 11 80 10 82 14 -1
+ 83 2 80 12 82 15 -1
+ 80 13 83 13 82 15 -1
+ 80 13 83 14 82 15 -1
+ 80 15 83 15 82 16 -1
+ 80 15 80 14 82 16 -1
+ 83 2 80 14 82 16 -1
+ 83 2 80 16 82 17 -1
+ 80 17 83 16 82 17 -1
+ 80 17 83 17 82 17 -1
+ 80 19 80 18 82 18 -1
+ 80 19 83 18 82 18 -1
+ 83 2 83 19 82 18 -1
+ 83 2 80 20 82 19 -1
+ 80 21 83 20 82 19 -1
+ 80 21 83 21 82 19 -1
+ 80 23 80 22 82 20 -1
+ 80 23 83 22 82 20 -1
+ 83 2 83 23 82 20 -1
+ 80 7 80 -1 82 21 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 25 83 24 82 22 -1
+ 83 3 83 5 82 22 -1
+ 80 6 67 11 82 23 -1
+ 67 7 67 11 82 23 -1
+ 83 25 80 7 82 24 -1
+ 80 24 83 26 82 24 -1
+ 80 24 83 27 82 24 -1
+ 83 3 67 -1 82 25 -1
+ 80 5 67 -1 82 25 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 2 83 28 82 26 -1
+ 67 -1 80 25 82 26 -1
+ 67 -1 83 5 82 26 -1
+ 67 -1 80 25 82 26 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 3 67 15 82 -1 -1
+ 80 -1 67 15 82 -1 -1
+ 83 2 67 15 82 27 -1
+ 67 16 83 -1 82 27 -1
+ 67 16 83 -1 82 27 -1
+ 67 3 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 15 67 17 82 -1 -1
+ 80 -1 67 17 82 -1 -1
+ 83 2 83 -1 82 28 -1
+ 67 18 67 17 82 28 -1
+ 67 18 67 17 82 28 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 18 67 -1 82 -1 -1
+ 80 -1 67 19 82 -1 -1
+ 67 -1 67 19 82 -1 -1
+ 83 2 83 -1 82 29 -1
+ 67 20 67 19 82 29 -1
+ 67 20 67 19 82 29 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 20 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 21 82 -1 -1
+ 80 -1 67 21 82 -1 -1
+ 67 22 83 -1 82 30 -1
+ 67 22 67 21 82 30 -1
+ 83 2 67 21 82 30 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 22 67 -1 82 -1 -1
+ 80 26 83 -1 82 31 -1
+ 80 26 67 -1 82 31 -1
+ 67 22 67 -1 82 31 -1
+ 67 22 83 -1 82 31 -1
+ 83 2 67 -1 82 31 -1
+ 67 22 67 -1 82 32 -1
+ 67 22 83 -1 82 32 -1
+ 83 2 83 -1 82 32 -1
+ 80 27 67 -1 82 32 -1
+ 80 27 83 -1 82 32 -1
+ 83 2 80 28 82 33 -1
+ 80 29 83 -1 82 33 -1
+ 80 29 83 -1 82 33 -1
+ 80 26 67 23 82 34 -1
+ 80 31 67 23 82 34 -1
+ 67 24 67 23 82 35 -1
+ 67 24 83 -1 82 35 -1
+ 83 2 83 -1 82 35 -1
+ 67 24 80 26 82 36 -1
+ 67 24 80 32 82 36 -1
+ 80 32 67 25 82 37 -1
+ 67 25 67 -1 82 38 -1
+ 80 27 67 26 82 39 -1
+ 80 33 67 26 82 39 -1
+ 83 2 67 26 82 40 -1
+ 67 27 83 -1 82 40 -1
+ 67 27 83 -1 82 40 -1
+ 67 27 80 27 82 41 -1
+ 67 27 80 34 82 41 -1
+ 80 34 67 28 82 42 -1
+ 67 28 67 -1 82 43 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 67 15 67 29 82 -1 -1
+ 80 -1 67 29 82 -1 -1
+ 83 2 67 29 82 44 -1
+ 67 30 83 -1 82 44 -1
+ 67 30 83 -1 82 44 -1
+ 67 30 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 30 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 2 80 3 82 45 -1
+ 67 4 83 -1 82 45 -1
+ 67 4 80 -1 82 45 -1
+ 67 4 80 -1 82 45 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 15 67 31 82 -1 -1
+ 67 -1 67 31 82 -1 -1
+ 83 2 83 -1 82 46 -1
+ 67 32 67 31 82 46 -1
+ 67 32 67 31 82 46 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 80 -1 67 33 82 -1 -1
+ 80 -1 67 33 82 -1 -1
+ 80 2 82 1 82 0 -1
+ 67 2 82 1 82 4 -1
+ 67 5 82 1 82 6 -1
+ 67 6 82 1 82 7 -1
+ 67 10 82 1 82 10 -1
+ 67 12 82 1 82 12 -1
+ 80 7 82 1 82 13 -1
+ 80 7 82 1 82 14 -1
+ 80 7 82 1 82 15 -1
+ 80 7 82 1 82 16 -1
+ 80 7 82 1 82 17 -1
+ 80 7 82 1 82 18 -1
+ 80 7 82 1 82 19 -1
+ 80 7 82 1 82 20 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 13 82 1 82 22 -1
+ 67 14 82 1 82 24 -1
+ 67 15 82 1 82 26 -1
+ 67 -1 82 1 82 -1 -1
+ 67 17 82 1 82 28 -1
+ 67 19 82 1 82 29 -1
+ 80 -1 82 1 82 30 -1
+ 67 -1 82 1 82 31 -1
+ 67 -1 82 1 82 32 -1
+ 80 30 82 1 82 33 -1
+ 67 23 82 1 82 35 -1
+ 67 26 82 1 82 40 -1
+ 67 -1 82 1 82 -1 -1
+ 67 29 82 1 82 44 -1
+ 67 -1 82 1 82 -1 -1
+ 80 3 82 1 82 45 -1
+ 67 31 82 1 82 46 -1
+ 67 4 82 0 82 4 -1
+ 67 11 82 0 82 10 -1
+ 67 -1 82 0 82 -1 -1
+ 80 29 82 0 82 35 -1
+_complexName.size()	34
+	sSCF dimer	extracellular region	Reactome DB_ID: 1433307	
+	KIT:sSCF dimer	plasma membrane	Reactome DB_ID: 205166	
+	KIT:sSCF dimer:KIT	plasma membrane	Reactome DB_ID: 205208	
+	p-KIT complex	plasma membrane	Reactome DB_ID: 205310	
+	p-KIT (S741,746):PKC alpha	plasma membrane	Reactome DB_ID: 1433473	
+	PI3K:p-KIT:sSCF dimer:p-KIT	plasma membrane	Reactome DB_ID: 205177	
+	Activated FGFR:p-FRS2alpha:GRB2:GAB1:PI3K/Activated FGFR:p-FRS2alpha:p-SHP2:GRB2:GAB1:PI3K/PI3K:p-KIT:sSCF dimer:p-KIT/CD28:PI3K/PDGF:Phospho-PDGF receptor dimer:PI3K/PI3K bound to TRAT/Phospho-IRS1/2:PI3K(p85:p110)/PI3K:GRB2:GAB1:P-ERBB2:P-EGFR/NRG1/2:p-ERBB3:p-ERBB2:PI3K/NRGs/EGFLs:p-ERBB4cyt1:p-ERBB2:PI3K/PI3K:p-ERBB4cyt1/EGF:p-6Y-EGFR:GRB2:GAB1:PIK3/CD19 Signalosome			
+	AKT:PIP3	plasma membrane	Reactome DB_ID: 2317329	
+	PDK1:PIP3	plasma membrane	Reactome DB_ID: 377179	
+	p-S-AKT:PIP3	plasma membrane	Reactome DB_ID: 2317310	
+	TORC2 complex	cytosol	Reactome DB_ID: 198626	
+	AKT:PIP3:THEM4/TRIB3	plasma membrane	Reactome DB_ID: 199453	
+	p-S-AKT:PDPK1:PIP3	plasma membrane	Reactome DB_ID: 2317313	
+	PTEN:Mg2+	cytosol	Reactome DB_ID: 199426	
+	PHLPP (Mn2+ cofactor)	cytosol	Reactome DB_ID: 199450	
+	SFKs:p-KIT complex	plasma membrane	Reactome DB_ID: 205271	
+	SFKs:p-8Y-KIT:sSCF dimer:p-8Y-KIT	plasma membrane	Reactome DB_ID: 1472120	
+	SHP2:SFKs:p-KIT:sSCF dimer:p-KIT	plasma membrane	Reactome DB_ID: 205267	
+	p-SHP2:p-KIT complex	plasma membrane	Reactome DB_ID: 1433530	
+	GAB2:GRB2:p-SHP2:p-KIT complex	plasma membrane	Reactome DB_ID: 1433545	
+	p(Y)-GAB2:GRB2:p-SHP2:p-KIT complex	plasma membrane	Reactome DB_ID: 1562560	
+	RAS:RAF:14-3-3	plasma membrane	Reactome DB_ID: 109789	
+	Activated RAF1 complex	plasma membrane	Reactome DB_ID: 109793	
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1:MEK1	cytosol	Reactome DB_ID: 109843	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2:MEK2	cytosol	Reactome DB_ID: 109854	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+	JAK2:SFKS:p-KIT complex	plasma membrane	Reactome DB_ID: 1433493	
+	p-JAK2:SFKs:p-KIT complex	plasma membrane	Reactome DB_ID: 1433552	
+	APS dimer:p-c-Kit:SFKs complex	plasma membrane	Reactome DB_ID: 205257	
+	p-APS dimer:p-KIT complex	plasma membrane	Reactome DB_ID: 1433276	
+	PTPRO:KIT	plasma membrane	Reactome DB_ID: 1433419	
+_physicalEntityName.size()	0
+_proteinName.size()	35
+	KITLG-1(192-273)	extracellular region	Reactome DB_ID: 708322	UniProt:P21583-1	KITLG
+	sSCF	extracellular region	Reactome DB_ID: 708330	UniProt:P21583-1	KITLG
+	MMP9	extracellular region			
+	PRKCA	cytosol	Reactome DB_ID: 58196	UniProt:P17252	PRKCA
+	AKT2	cytosol			
+	PDK1	cytosol	Reactome DB_ID: 202210	UniProt:O15530	PDPK1
+	TRIB3	plasma membrane			
+	AKT3	cytosol			
+	BAD	cytosol	Reactome DB_ID: 50662	UniProt:Q92934	BAD
+	p-S99-BAD	cytosol	Reactome DB_ID: 198335	UniProt:Q92934	BAD
+	GSK3B	cytosol			
+	GSK3B	cytosol			
+	CASP9	cytosol	Reactome DB_ID: 114257	UniProt:P55211	CASP9
+	p-S196-CASP9	cytosol	Reactome DB_ID: 198636	UniProt:P55211	CASP9
+	MDM2	cytosol	Reactome DB_ID: 198644	UniProt:Q00987	MDM2
+	p-MDM2	cytosol	Reactome DB_ID: 198638	UniProt:Q00987	MDM2
+	CHUK	cytosol	Reactome DB_ID: 168104	UniProt:O15111	CHUK
+	p-T23-CHUK	cytosol	Reactome DB_ID: 198615	UniProt:O15111	CHUK
+	glnA	cytosol			
+	glnA	cytosol			
+	TSC2	cytosol	Reactome DB_ID: 2980548	UniProt:P49815	TSC2
+	Phospho-TSC2	cytosol	Reactome DB_ID: 199484	UniProt:P49815	TSC2
+	AKT1S1	cytosol	Reactome DB_ID: 200155	UniProt:Q96B36	AKT1S1
+	AKT1S1	cytosol	Reactome DB_ID: 200163	UniProt:Q96B36	AKT1S1
+	AKT3	cytosol			
+	VAV1	cytosol	Reactome DB_ID: 195066	UniProt:P15498	VAV1
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	p-S218,222-MEK1	cytosol			
+	p-T286,292-MEK1	cytosol			
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERK1	cytosol	Reactome DB_ID: 59284	UniProt:P27361	MAPK3
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	ERK2	cytosol	Reactome DB_ID: 59282	UniProt:P28482	MAPK1
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+_reactionName.size()	47
+	B	Processing of SCF isoform 1
+	T	Dimerization of sSCF
+	D	Interaction of KIT and sSCF
+	D	Dimerization of KIT upon SCF binding
+	T	Autophosphorylation of KIT
+	D	Direct recruitment of PI3K to p-KIT
+	T	Synthesis of PIP3 from PIP2 by PI3K
+	T	PI3K phosphorylates PIP2 to PIP3
+	D	PIP3 recruits AKT to the membrane
+	D	PIP3 recruits PDPK1 to the membrane
+	T	TORC2 (mTOR) phosphorylates AKT at S473
+	D	AKT binds PDPK1
+	T	PDPK1 phosphorylates AKT at T308
+	T	AKT phosphorylates BAD
+	T	AKT phosphorylates GSK3
+	T	AKT phosphorylates caspase-9
+	T	AKT phosphorylates MDM2
+	T	AKT phosphorylates IKKalpha
+	T	AKT phosphorylates p21Cip1 and p27Kip1
+	T	AKT phosphorylates TSC2, inhibiting it
+	T	AKT phosphorylates AKT1S1 (PRAS40)
+	T	AKT translocates to the nucleus
+	T	PTEN dephosphorylates PIP3
+	D	THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation
+	T	PHLPP dephosphorylates S473 in AKT
+	D	PDPK1 binds PIP2
+	T	Phosphorylation and activation of VAV1
+	T	Phosphorylation of p-KIT on Y900 by Src kinases
+	T	Phosphorylation of SHP2 by SFKs
+	T	Phosphorylation of GAB2 by SFKs
+	T	Stabilisation of RAF by further phosphorylation
+	T	RAF1  phosphorylates MEK1
+	T	RAF1 phosphorylates MEK2
+	T	Inactivation of MEK1 by p34cdc2
+	D	MEK1 binds ERK-1
+	T	MEK1 phosphorylates ERK-1
+	B	Dissociation of phospho-ERK-1:MEK1
+	T	Dimerisation of phospho-ERK-1
+	T	Nuclear translocation of phospho-ERK-1 dimer
+	D	MEK2 binds ERK-2
+	T	MEK2 phosphorylates ERK-2
+	B	Dissociation of phospho-ERK-2:MEK2
+	T	Dimerisation of phospho-ERK-2
+	T	Nuclear translocation of phospho-ERK-2 dimer
+	T	Phosphorylation of JAK2
+	T	PKC alpha interacts with and phosphorylates KIT
+	T	Phosphorylation of APS
+_smallMoleculeName.size()	29
+	PIP3	plasma membrane	Reactome DB_ID: 179838	ChEBI:16618 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

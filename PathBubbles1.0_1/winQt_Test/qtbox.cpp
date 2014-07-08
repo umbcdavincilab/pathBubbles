@@ -364,7 +364,7 @@ QRegion ItemBase::getCalloutNoteRect()
 
 void ItemBase::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {	
-	painter->save();
+	painter->save(); //start
 	painter->setRenderHint(QPainter::Antialiasing, true);
 	painter->setPen( Qt::NoPen );
 
@@ -473,14 +473,14 @@ void ItemBase::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 			}
 	        if( this->_pathwayHighlight)
 		    {
-			    QPen pen(QColor( 100, 100, 100, 200));
-		        pen.setWidthF(4);	
+			    QPen pen(MEDIUM_HIGHLIGHTCOLOR);
+		        pen.setWidthF(2);	
 				painter->setPen(pen); //else if(sharedL>=0)
 			    
 	        }
 			if(highlighted.find(item)!=highlighted.end())	//pathway			
 		    {
-			    QPen pen(MIDIUM_HIGHLIGHTCOLOR);
+			    QPen pen(MEDIUM_HIGHLIGHTCOLOR);
 		        pen.setWidthF(4);	
 				painter->setPen(pen);					
 	         }
@@ -488,11 +488,11 @@ void ItemBase::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 			 {
 				QPen pen;
 				if(sharedS || highlighted.find(item)!=highlighted.end() )
-					pen.setColor(assignColorToSharedItems(m_pathwayID, 'W', m_pathwayID, tmp->_scene->getGroup(this)->sharedSets));  					
+					pen.setColor(_scene->_wholeGraph->getPathColor(5));  					
 				else if (sharedD)			        
-					pen.setColor(assignColorToDifferedItems(m_pathwayID, 'W', m_pathwayID));
+					pen.setColor(_scene->_wholeGraph->getPathColor(5));
 				else if (sharedE)			        
-					pen.setColor(assignColorToExpressedItems(m_pathwayID, 'W', m_pathwayID, tmp->_scene->getGroup(this)->expressedSets,_itemColored,QColor(230,234,172,255)));
+					pen.setColor(_scene->_wholeGraph->getPathColor(5));
 				
 				pen.setWidthF(6);
 				painter->setPen(pen);	
@@ -513,7 +513,7 @@ void ItemBase::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, 
 	painter->drawRoundedRect( pRect, 16, 16 );*/
 
 	ControlAutoHide();
-	painter->restore();
+	painter->restore(); //start
 }
 
 QRegion ItemBase::AllRegionSmallHalo()
@@ -1329,6 +1329,116 @@ void ItemBase::drawLinkArrow( QPainter *painter, QPointF start, QPointF end)
 	}
 }
 
+void ItemBase::drawABubbleConnection(QPainter *painter, QPointF center1, ItemBase* bubble1, QPointF center2, ItemBase* bubble2, QPointF Dis)
+{//paint use the scene global coordinate
+	//painter->drawLine(center1, center2);
+	QLineF l1;
+	QPointF p1,p2,c1,c2;
+	QRectF rect1, rect2;
+	
+	rect1=bubble1->realRect(), 
+	rect2=bubble2->realRect();
+	
+	//c1 = rect1.center() + QPointF(rect1.width()/2,rect1.height()/2); //bubble1->sceneBoundingRect().center()-this->sceneBoundingRect().center();
+	//c2 = rect2.center() + QPointF(rect2.width()/2,rect2.height()/2) + bubble2->sceneBoundingRect().center()-bubble1->sceneBoundingRect().center();
+	c1 = rect1.center() + bubble1->pos();// + dis - this->pos
+	c2 = rect2.center() + bubble2->pos() + Dis - bubble1->pos();
+
+	rect1.moveCenter(c1); 
+	rect2.moveCenter(c2);
+	QPointF p=bubble1->pos();
+	p1 = center1; //center1+bubble1->sceneBoundingRect().center()-this->sceneBoundingRect().center();
+	p2 = center2;// + Dis;//bubble2->sceneBoundingRect().center()-bubble1->sceneBoundingRect().center();
+	if(rect1.contains(p1) && rect2.contains(p2))
+	{
+		//painter->drawLine(p1, p2);
+		drawLinkArrow_2(painter, p1, p2);
+	}
+	else if(!rect1.contains(p1) && rect2.contains(p2))
+	{
+		//p1=rect1.intersect
+		//get intersection of line p1-p2 and rect1
+		//painter->drawLine(p1,p2);
+		float x1=p1.x(), y1=p1.y(), x2=p2.x(), y2=p2.y();
+        int flag=CSLineClip(x1, y1, x2, y2, rect1.left(), rect1.right(), rect1.top(), rect1.bottom());
+		if(flag==1)
+			p1=QPointF(x1,y1);
+		else if(flag==2)
+			p1=QPointF(x2,y2);		
+		else if(flag==0) //no intersection
+		{
+			 float x2=rect1.center().x(),y2=rect1.center().y();
+		     int flag2=CSLineClip(x1, y1, x2, y2, rect1.left(), rect1.right(), rect1.top(), rect1.bottom());
+			 if(flag2==1)
+				p1=QPointF(x1,y1);
+			 else if(flag2==2)
+				p1=QPointF(x2,y2);
+			 else 
+				p1=QPointF(x1,y1);		
+		}	
+		else 
+			p1=QPointF(x1,y1);
+		
+		
+		//painter->drawLine(p1, p2);
+		drawLinkArrow_2(painter, p1, p2);
+	}
+	else if(rect1.contains(p1) && !rect2.contains(p2))
+	{
+		//p1=rect1.intersect
+		//get intersection of line p1-p2 and rect1
+		//painter->drawLine(p1,p2);
+		float x1=p1.x(), y1=p1.y(), x2=p2.x(), y2=p2.y();
+        int flag=CSLineClip(x1, y1, x2, y2, rect2.left(), rect2.right(), rect2.top(), rect2.bottom());
+		if(flag==1)
+			p2=QPointF(x1,y1);
+		else if(flag==2)
+			p2=QPointF(x2,y2);		
+		else if(flag==0) //no intersection
+		{
+			 float x1=rect2.center().x(),y1=rect2.center().y();
+		     int flag2=CSLineClip(x1, y1, x2, y2, rect2.left(), rect2.right(), rect2.top(), rect2.bottom());
+			 if(flag2==1)
+				p2=QPointF(x1,y1);
+			 else if(flag2==2)
+				p2=QPointF(x2,y2);
+			 else 
+				p2=QPointF(x2,y2);		
+		}	
+		else
+			p2=QPointF(x2,y2);
+		//painter->setPen(QColor(0,0,0,255));
+		//painter->drawLine(p1, p2);
+		drawLinkArrow_2(painter, p1, p2);
+	}
+	else
+	{	
+		float x1=p1.x(), y1=p1.y(), x2=p2.x(), y2=p2.y();
+	    float cx1=rect1.center().x(),cy1=rect1.center().y(), cx2=rect2.center().x(),cy2=rect2.center().y();
+		int flag1,flag2;
+		
+		flag1=CSLineClip(cx1, cy1, x1, y1, rect1.left(), rect1.right(), rect1.top(), rect1.bottom());
+		if(flag1==1)
+			p1=QPointF(cx1,cy1);
+		else if(flag1==2)
+			p1=QPointF(x1,y1);
+		else
+			p1=QPointF(x1,y1);
+		
+		flag2=CSLineClip(cx2, cy2, x2, y2, rect2.left(), rect2.right(), rect2.top(), rect2.bottom());
+		if(flag2==1)
+			p2=QPointF(cx2,cy2);
+		else if(flag2==2)
+			p2=QPointF(x2,y2);
+		else 
+			p2=QPointF(x2,y2);
+		
+		//painter->setPen(QColor(0,0,0,255));
+	    //painter->drawLine(p1, p2);
+		drawLinkArrow_2(painter, p1, p2);
+	}
+}
+
 void ItemBase::drawLinkArrow_2( QPainter *painter, QPointF start, QPointF end)
 {//simple arrow connector
     /*start=QPointF(x0,y0);
@@ -1418,11 +1528,14 @@ bool ItemBase::onTagArea( QPointF pos )
 	int y = pos.y();
 	int half = this->Width()/2;
 	int half2 = this->Height()/2;
-	if( (x > half - (BOARDERSIZE + half*0.05+2) && x < half - (BOARDERSIZE - 12) ) || (x < -half + (BOARDERSIZE + half*0.05+2) && x > -half + (BOARDERSIZE - 12) ) )
+	int margin=half*0.05+2, margin2=half2*0.05+2;
+	if(margin>8) margin=8;
+	if(margin2>8) margin2=8;
+	if( (x > half - (BOARDERSIZE + margin) && x < half - (BOARDERSIZE - 12) ) || (x < -half + (BOARDERSIZE + margin) && x > -half + (BOARDERSIZE - 12) ) )
 	{
 		 return true;
 	}
-	if( (y > half2 - (BOARDERSIZE + half2*0.05+2) && y < half2 - (BOARDERSIZE - 12) ) || (y < -half2 + (BOARDERSIZE + half2*0.05+2) && y > -half2 + (BOARDERSIZE - 12) ) )
+	if( (y > half2 - (BOARDERSIZE + margin2) && y < half2 - (BOARDERSIZE - 12) ) || (y < -half2 + (BOARDERSIZE + margin2) && y > -half2 + (BOARDERSIZE - 12) ) )
 	{
 	 	 return true;
 	}
@@ -1713,9 +1826,10 @@ QRectF ItemBase::paintPreComputedCompartment_H( QPainter *painter,float boundary
    int width = graphReferenceSize * scale;
    int  height = graphReferenceSize * scale; 
    float exWidth=HBWIDTH*scale-2;
-
+   if(exWidth<4)
+		exWidth=4;
    painter->setBrush(Qt::NoBrush);
-   QPen pen(HIGHLIGHTCOLOR);              
+   QPen pen(_scene->_wholeGraph->getPathColor(5));              
    pen.setWidthF(exWidth+2);
 
    int rw=nodeRect.width(), rh=nodeRect.height();
@@ -1725,7 +1839,7 @@ QRectF ItemBase::paintPreComputedCompartment_H( QPainter *painter,float boundary
    QFont f("Arial",fontSize);
    painter->setFont(f);	   
    
-   //if(boundaryColor == HIGHLIGHTCOLOR ) //draw it a background bubble set mode
+   //if(boundaryColor == LIGHT_HIGHLIGHTCOLOR ) //draw it a background bubble set mode
    {
 	   QRectF rect=QRectF(nodeRect.x()-exWidth,nodeRect.y()-exWidth,nodeRect.width()+exWidth*2,nodeRect.height()+exWidth*2);
        painter->drawRoundedRect( rect, rw, rh);
@@ -1916,7 +2030,7 @@ QColor ItemBase::assignColorToSharedItems(int pid, int type, int id, vector<set<
 	item[0]=pid, item[1]=type, item[2]=id;
 	int cid=-1;
 	
-	color=HIGHLIGHTCOLOR;//QColor( 255, 255, 67, 255); //light yellow
+	color=LIGHT_HIGHLIGHTCOLOR;//QColor( 255, 255, 67, 255); //light yellow
 	return color;
 	/*cid=(cid+24)%28;	
 	if(cid>=0)
@@ -1984,7 +2098,7 @@ QString ItemBase::getPathID(QString pathName)
 		//struct expressedPathwayInfo infor;
 
 		//pathName = pathName.replace(",","");
-		QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName + ".path";
+		QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName + ".path";
 		QString num;
 		QFile inputFile(fileName);
 		if(inputFile.open(QIODevice::ReadOnly))
@@ -2552,9 +2666,7 @@ QRectF ItemBase::paintPreComputedNode( QPainter *painter,  float boundaryWidth, 
 	h2=h-(h<edgescale?h:edgescale); 
 	w2=w-(w<edgescale?w:edgescale);  
 
-	if(type=='C')
-		type=type;
-
+	
     const QPointF points[8] = 
 	{
 		QPointF(cx-w2, cy-h),
@@ -2583,8 +2695,7 @@ QRectF ItemBase::paintPreComputedNode( QPainter *painter,  float boundaryWidth, 
 		case 'P':
 	            if(insideColor.size()>1 )//&& insideColor[0]!=QColor(255,255,204, 0)) // 180, 255, 180, 0 //insideColor[0]=QColor(255,255,204, 0): orthology
 				{
-					//insideColor	
-								
+					//insideColor									
 					float dx=5;	//the colored ribbon width	
 					int ladd=0, radd=0;
 					bool uflag=false, dflag=false, rflag=false, cflag=false, oflag=false, hflag=false;
@@ -2601,7 +2712,7 @@ QRectF ItemBase::paintPreComputedNode( QPainter *painter,  float boundaryWidth, 
 							cflag=true;
 						else if(insideColor[i]==ORTHOLOGYCOLOR ) //QColor(180, 180, 255, 255)); str= "Cross-talking";	
 							oflag=true;
-						else if(insideColor[i]==HIGHLIGHTCOLOR ) //QColor(180, 180, 255, 255)); str= "highlight";	
+						else if(insideColor[i]==LIGHT_HIGHLIGHTCOLOR ) //QColor(180, 180, 255, 255)); str= "highlight";	
 							hflag=true;
 					}
 				    if(uflag || dflag)
@@ -2614,9 +2725,7 @@ QRectF ItemBase::paintPreComputedNode( QPainter *painter,  float boundaryWidth, 
 						radd++;
 
 
-					QRectF rect1=QRectF(rect.x()-dx*ladd, rect.y(), rect.width()+dx*(ladd+radd), rect.height());
-
-					
+					QRectF rect1=QRectF(rect.x()-dx*ladd, rect.y(), rect.width()+dx*(ladd+radd), rect.height());										
 					
 					painter->setPen(pen);	
 					painter->setBrush(PROTEINCOLOR);  		
@@ -2702,8 +2811,9 @@ QRectF ItemBase::paintPreComputedNode( QPainter *painter,  float boundaryWidth, 
    painter->setPen(fontColor);  
    
    if(!flag) 
-    { 
-		
+    { 		
+		if(type=='P' && id==8)
+			id = id;
 		if(type!='R' && type!='C')
 		{
 			QFont f("Arial",fontSize);	
@@ -2745,7 +2855,9 @@ QRectF ItemBase::paintPreComputedNode_H( QPainter *painter,  float boundaryWidth
 	vector<int> item; 
 	item.push_back(type); item.push_back(id);
 
-	float exWidth=(HBWIDTH-2)*scale;
+	float exWidth=HBWIDTH*scale;
+	if(exWidth<4)
+		exWidth=4;
 	QRectF rect = QRect(nodeRect.x()-exWidth, nodeRect.y()-exWidth, nodeRect.width()+exWidth*2, nodeRect.height()+exWidth*2);
 	nodeRect=rect;
 	h=nodeRect.height();
@@ -2796,7 +2908,14 @@ QRectF ItemBase::paintPreComputedNode_H( QPainter *painter,  float boundaryWidth
 	}; 
 	
 	painter->setPen(Qt::NoPen);
-	painter->setBrush(PRIME_PATH_COLOR);  				
+
+    vector<QColor> hColor = _scene->getPathEndsColor(m_pathwayID, type, id);
+
+	if(hColor.size()>0)
+		painter->setBrush(hColor[0]);  	
+	else 
+	   painter->setBrush(PRIME_PATH_COLOR);  	
+	int roundRadious = rect.height()*0.3;
 	switch(type)
 	{
 		case 'P':
@@ -2819,7 +2938,7 @@ QRectF ItemBase::paintPreComputedNode_H( QPainter *painter,  float boundaryWidth
 							cflag=true;
 						else if(insideColor[i]==ORTHOLOGYCOLOR ) //QColor(180, 180, 255, 255)); str= "Cross-talking";	
 							oflag=true;
-						else if(insideColor[i]==HIGHLIGHTCOLOR ) //QColor(180, 180, 255, 255)); str= "highlight";	
+						else if(insideColor[i]==LIGHT_HIGHLIGHTCOLOR ) //QColor(180, 180, 255, 255)); str= "highlight";	
 							hflag=true;
 					}
 				    if(uflag || dflag)
@@ -2832,18 +2951,12 @@ QRectF ItemBase::paintPreComputedNode_H( QPainter *painter,  float boundaryWidth
 						radd++;
 
 					QRectF rect1=QRectF(rect.x()-dx*ladd, rect.y(), rect.width()+dx*(ladd+radd), rect.height());					
-						
-					//painter->setBrush(HIGHLIGHTCOLOR); 
-					painter->drawRoundedRect( rect1, 6, 6 ); 
 				}
-				else
-				{   //painter->setPen(pen);	
-					//painter->setBrush(HIGHLIGHTCOLOR);  		
-					painter->drawRoundedRect( rect, 6, 6 );  		
-				}
+				painter->drawRoundedRect( rect, roundRadious, roundRadious );  		
 		        break; 
 		case 'C':			
-				painter->drawPolygon(points, 8);
+				//painter->drawPolygon(points, 8);
+			    painter->drawRoundedRect( rect, roundRadious, roundRadious );  		
 				break;
 		case 'S':  
 		   	
@@ -2856,7 +2969,7 @@ QRectF ItemBase::paintPreComputedNode_H( QPainter *painter,  float boundaryWidth
 		case 'R':
 			   if(reactionType=="D") // dissociation
 			   {
-                   drawDissociation(painter, rect);	    
+                   drawDissociation_H(painter, rect);	    
 			   }
 			   // binding
 			   else if(reactionType=="B")
@@ -2865,7 +2978,7 @@ QRectF ItemBase::paintPreComputedNode_H( QPainter *painter,  float boundaryWidth
 			   }
 			   else if(reactionType=="T")
 			   {   
-			       painter->drawRect( rect );
+			       painter->drawRoundedRect( rect, 6, 6);
 			   }  		      		   
 			   break;
 		case 'L':			 
@@ -2930,7 +3043,7 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 	
 	if(flag || (!hoveredItem.empty()&&hoveredItem[0]==m_pathwayID && hoveredItem[1]==item[0] && hoveredItem[2]==item[1]) )
 	{
-		QPen pen(c);
+		QPen pen(MEDIUM_HIGHLIGHTCOLOR);
 		pen.setWidthF(4);
 		painter->setPen(pen);			
 		//oflag=true;
@@ -3029,7 +3142,8 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 	   switch(type)
 	   {
 		   case 'P':
-		   if(sharedP==-1 )
+		   sharedS=-1;
+		   //if(sharedP==-1 )
 		   {
 				for(int i=0; i<Protein.size();i++)
 				{
@@ -3062,7 +3176,8 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 			} 
 		   break; 
 		   case 'C':
-		   if(sharedC==-1 )
+		   sharedS=-1;
+		   //if(sharedC==-1 )
 		   {
 				for(int i=0; i<Complex.size();i++)
 				{
@@ -3095,7 +3210,8 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 		   }
 		   break;
 		case 'S':  
-		   if(sharedS==-1 )
+		   sharedS=-1;
+		   //if(sharedS==-1 )
 		   {
 				for(int i=0; i<SmallMolecule.size();i++)
 				{
@@ -3124,7 +3240,8 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 		  }
 		  break;
 		case 'D':   
-		   if(sharedD==-1 )
+		   sharedD=-1;
+		   //if(sharedD==-1 )
 		   {
 				for(int i=0; i<Dna.size();i++)
 				{
@@ -3150,8 +3267,9 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 				painter->drawRect( rect );  
 		   }
 		   break; 
-		case 'R':   
-		   if(sharedR==-1 )
+		case 'R': 
+		   sharedR=-1;
+		   //if(sharedR==-1 )
 		   {
 			   for(int i=0; i<Reaction.size();i++)
 			   {
@@ -3212,8 +3330,9 @@ QRectF ItemBase::paintNode( QPainter *painter, QRectF nodePos, QString nodeName,
 			   }  		      
 		   }
 		   break;
-		case 'E':    
-		   if(sharedE==-1 )
+		case 'E':   
+		   sharedE=-1;
+		   //if(sharedE==-1 )
 		   {
 			  for(int i=0; i<PhysicalEntity.size();i++)
 			  {
@@ -3352,7 +3471,7 @@ QRectF ItemBase::getCompartmentToBePaint(float &boundaryWidth, int &fontSize, ve
    if(((!hoveredItem.empty()&&hoveredItem[0]==m_pathwayID && hoveredItem[1]==item[0] && hoveredItem[2]==item[1]))||foundlist.find(item)!=foundlist.end()||highlighted.find(item)!=highlighted.end())
    {
 	   //pen.setWidthF(4);
-	   boundaryColor = QColor(96,96,96,255);
+	   boundaryColor = MEDIUM_HIGHLIGHTCOLOR;
 	   boundaryWidth=4;
    }
    else 
@@ -3360,8 +3479,7 @@ QRectF ItemBase::getCompartmentToBePaint(float &boundaryWidth, int &fontSize, ve
 	   //pen.setWidthF(2);
 	   boundaryWidth=2;
    }
-   //painter->setPen(pen);	
-    
+   //painter->setPen(pen);	    
 
    //***
    insideColor[0]=QColor(0,0,0,255);
@@ -3385,15 +3503,31 @@ QRectF ItemBase::getCompartmentToBePaint(float &boundaryWidth, int &fontSize, ve
 	    item.push_back('M');  item.push_back(id);
 		
 		if(sharedS>=0)		
-			color=HIGHLIGHTCOLOR; //assignColorToSharedItems(m_pathwayID, 'M', id, sharedSets);
+			color=LIGHT_HIGHLIGHTCOLOR; //assignColorToSharedItems(m_pathwayID, 'M', id, sharedSets);
 		else if(sharedD>=0)
-			color=HIGHLIGHTCOLOR; //assignColorToDifferedItems(m_pathwayID, 'M', id);
+			color=LIGHT_HIGHLIGHTCOLOR; //assignColorToDifferedItems(m_pathwayID, 'M', id);
 		else if(sharedL>=0)
 		{
 			PathBubble1* pbubble = dynamic_cast<PathBubble1 *> (this);
-			level=pbubble->findLinkedLevel(m_pathwayID, 'M', id);
-			float totalLevel=pbubble->getTotalLinkLevel();			
-			color=HIGHLIGHTCOLOR; //assignColorToLinkedItems(level, totalLevel); 
+			
+			if(_scene->linkSearchType == 0)
+			{
+				level=pbubble->findLinkedLevel(m_pathwayID, 'M', id);							
+				color=LIGHT_HIGHLIGHTCOLOR; 
+			}
+			else
+			{
+				if(_scene->isPathEnds(m_pathwayID, 'M', id))
+				{
+					level=0;
+					color=LIGHT_HIGHLIGHTCOLOR; 
+				}
+				else
+					color=PHYSICALENTITYCOLOR; 							
+			}			
+			
+			//float totalLevel=pbubble->getTotalLinkLevel();			
+			color=LIGHT_HIGHLIGHTCOLOR; //assignColorToLinkedItems(level, totalLevel); 
 		}
 		else if(sharedE>=0)
 			color=assignColorToExpressedItems(m_pathwayID, 'M', id, expressedSets,_itemColored, QColor(0,0,0,255)); 		
@@ -3410,19 +3544,25 @@ QRectF ItemBase::getCompartmentToBePaint(float &boundaryWidth, int &fontSize, ve
 	}
    else if(highlighted.find(item)!=highlighted.end())
    {		
-		c= MIDIUM_HIGHLIGHTCOLOR;
+		c= MEDIUM_HIGHLIGHTCOLOR;
 		boundaryColor=c;
 		boundaryWidth=3;		
 	}
 	else if(searched.find(item)!=searched.end())
 	{
-		c= MIDIUM_HIGHLIGHTCOLOR;	
+		c= MEDIUM_HIGHLIGHTCOLOR;	
 		boundaryWidth=3;
 		boundaryColor=c;
 	}
     else if(level==0)
 	{
-		c= MIDIUM_HIGHLIGHTCOLOR;
+		c= MEDIUM_HIGHLIGHTCOLOR;
+		boundaryColor=c;
+		boundaryWidth=3;		
+	}
+	else if(_scene->isPathEnds(m_pathwayID, 'M', id))
+	{
+		c= MEDIUM_HIGHLIGHTCOLOR;
 		boundaryColor=c;
 		boundaryWidth=3;		
 	}
@@ -3492,7 +3632,7 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 	PathBubble1* pbubble = dynamic_cast<PathBubble1 *> (this);
 	insideColor.resize(1);
 	//bool oflag=false; //make if the shared node are the origin
-	int sharedP,sharedE,sharedS,sharedD,sharedR,sharedC,sharedA;
+	int sharedP, backHighlight;
 	int width=graphReferenceSize*scale, height=graphReferenceSize*scale;
 	
 	QRectF rect = getNewNodeRect(nodePos, type, dCenter, scale, reactionType);	
@@ -3525,8 +3665,8 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
  
   //bool shared, differed, expressed, linked;
   //shared = differed = expressed = linked=false;
-  sharedP = sharedC = sharedS = sharedD = sharedR = sharedE = sharedA=-1;
-  vector< set<int> > Protein, Complex, SmallMolecule, Dna, Reaction, PhysicalEntity, ANode;//, sharedCompartment;   
+  backHighlight = sharedP =-1;
+  vector< set<int> > Protein, Complex, SmallMolecule, Dna, Reaction, PhysicalEntity, ANode;//, sharedPompartment;   
   if(!linkedProtein.empty()&& !linkedProtein[0].empty())
 	  linkedProtein=linkedProtein;
   for(int j=0; j<4; j++)
@@ -3542,34 +3682,57 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 	   switch(type)
 	   {
 		   case 'P':
-		   if(sharedP==-1 )
+		   if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=PROTEINCOLOR;				    
+				}				
+				if(j==3)
+					sharedP=-1;
+
 			    for(int i=0; i<Protein.size();i++)
 				{
 					set<int> record=Protein[i];
 					if(record.find(id)!=record.end())
 					{
 						sharedP=i;
+						if(j!=3)
+						  backHighlight=1;
 					}   
 				}
 				if(sharedP!=-1)
 				{
-					insideColor[0]=QColor(204,235,197,255);
 					if(j==0)//||highlighted.find(item)!=highlighted.end())
 					{
-                        //insideColor.push_back(HIGHLIGHTCOLOR); //assignColorToSharedItems(m_pathwayID, type, id, sharedSets));						
-						insideColor[0]=HIGHLIGHTCOLOR;
+                        //insideColor.push_back(LIGHT_HIGHLIGHTCOLOR); //assignColorToSharedItems(m_pathwayID, type, id, sharedPets));						
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;
 					}
 					else if(j==1)
 					{
 						//insideColor.push_back(assignColorToDifferedItems(m_pathwayID, type, id));
-						insideColor[0]=HIGHLIGHTCOLOR; //=assignColorToDifferedItems(m_pathwayID, type, id);
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR; //=assignColorToDifferedItems(m_pathwayID, type, id);
 					}
 					else if(j==2)
 					{
-						level=pbubble->findLinkedLevel(m_pathwayID, type, id);					
+						if(_scene->linkSearchType == 0)
+						{
+							level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+							insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+						}
+						else
+						{
+							if(_scene->isPathEnds(m_pathwayID, type, id))
+							{
+								level=0;
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+							}
+							else
+								insideColor[0]=PROTEINCOLOR; 							
+						}
+						
 						//float totalLevel=pbubble->getTotalLinkLevel();
-						insideColor[0]=HIGHLIGHTCOLOR; //assignColorToLinkedItems(level, totalLevel);
+						//assignColorToLinkedItems(level, totalLevel);
 						//insideColor.push_back(assignColorToLinkedItems(level, totalLevel));						
 					}
 					else if(j==3)
@@ -3578,7 +3741,7 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 						//insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,PROTEINCOLOR);
 					}	
 				}
-				else
+				if(j==3 && sharedP==-1)		   
 				{
 					if( expressedProtein_Edit.find(id)!=expressedProtein_Edit.end())
 					{
@@ -3592,47 +3755,69 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 						else
 							insideColor[0]=PROTEINCOLOR;//QColor(204,235,197,255);					
 					}
-					else insideColor[0]=PROTEINCOLOR;//QColor(204,235,197,255);			
+					else if(backHighlight == -1)
+						insideColor[0]=PROTEINCOLOR;//QColor(204,235,197,255);			
 				}
 				//painter->drawRoundedRect( rect, 6, 6 );   
 			} 
 		   break; 
-		   case 'C':
-		   if(sharedC==-1 )
+		   case 'C':		   
+		   if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=COMPLEXCOLOR;				    
+				}				
+				if(j==3)
+					sharedP=-1;
+
 				for(int i=0; i<Complex.size();i++)
 				{
 					set<int> record=Complex[i];
 					if(record.find(id)!=record.end())
 					{
-						sharedC=i;
+						sharedP=i;
+						if(j!=3)
+						  backHighlight=1;
 					}   
 				} 
-				if(sharedC!=-1)
+				if(sharedP!=-1)
 				{	
 					if(j==0)//||highlighted.find(item)!=highlighted.end())
 					{
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedSets);	
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedPets);	
 						
 					}
 					else if(j==1)
 					{
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);							
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);							
 					}
 					else if(j==2)
 					{
-						level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-						//float totalLevel=pbubble->getTotalLinkLevel();						
-						//insideColor[0]=QColor(255.0, 255.0, 255.0*level, totalLevel,255);		
-						insideColor[0]=HIGHLIGHTCOLOR;
+						if(_scene->linkSearchType == 0)
+						{
+							level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+							insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+						}
+						else
+						{
+							if(_scene->isPathEnds(m_pathwayID, type, id))
+							{
+								level=0;
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+							}
+							else
+								insideColor[0]=COMPLEXCOLOR; 							
+						}
+						
 						//insideColor[0]=QColor(assignColorToLinkedItems(level, totalLevel));						
 					}
 					else if(j==3)
 					{
-						insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,COMPLEXCOLOR);						
+						insideColor.push_back(assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,COMPLEXCOLOR));							
 					}					
 				}
-				else
+				if(j==3 && sharedP == -1)
 				{
 					if( expressedComplex_Edit.find(id)!= expressedComplex_Edit.end())
 					{
@@ -3640,47 +3825,67 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 						 //insideColor.resize(1);						 
 					     //insideColor.push_back(assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,COMPLEXCOLOR));			
 					}
-					else
+					else if(backHighlight==-1)
 						insideColor[0]=COMPLEXCOLOR;					
 				}				
 		   }
 		   break;
-		case 'S':  
-		   if(sharedS==-1 )
+		case 'S': 			
+		   if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=SMALLMOLECULECOLOR;				    
+				}				
+				if(j==3)
+					sharedP=-1;
+		  
 				for(int i=0; i<SmallMolecule.size();i++)
 				{
 					set<int> record=SmallMolecule[i];
 					if(record.find(id)!=record.end())
 					{
-						sharedS=i;
+						sharedP=i;
+						if(j!=3)
+						  backHighlight=1;
 					}   
 				}
-				if(sharedS!=-1)
+				if(sharedP!=-1)
 				{	
 					if(j==0)//||highlighted.find(item)!=highlighted.end())
 					{
 						//insideColor[0]=QColor(255,255,100,255);
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedSets);							
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedPets);							
 					}						
 					else if(j==1)
 					{
 						//insideColor[0]=QColor(255,255,100,255);
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);							
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);							
 					}					    
 					else if(j==2)
 					{
-						level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-						//float totalLevel=pbubble->getTotalLinkLevel();						
-						
-						insideColor[0] = HIGHLIGHTCOLOR;//QColor(assignColorToLinkedItems(level, totalLevel));
+						if(_scene->linkSearchType == 0)
+						{
+							level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+							insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+						}
+						else
+						{
+							if(_scene->isPathEnds(m_pathwayID, type, id))
+							{
+								level=0;
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+							}
+							else
+								insideColor[0]=SMALLMOLECULECOLOR; 							
+						}
 					}					    
 					else if(j==3)
 					{
                        insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,SMALLMOLECULECOLOR );
 					}					   
 				}	 
-				else
+				if(j==3 && sharedP==-1 && backHighlight==-1)
 				{					
 					/*if( expressedSmallMolecule_Edit.find(id)!= expressedSmallMolecule_Edit.end())
 					{
@@ -3688,243 +3893,335 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 					    insideColor.push_back(assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,SMALLMOLECULECOLOR ));			
 					}
 					else*/
-					insideColor[0]=SMALLMOLECULECOLOR ;
+					insideColor[0]=SMALLMOLECULECOLOR;
 				}
 				//float th=rect.height(),tw=rect.width();
-				//float tth=nodePos.height(),ttw=nodePos.width();
-				
+				//float tth=nodePos.height(),ttw=nodePos.width();				
 		  }
 		  break;
-		case 'D':   
-		   if(sharedD==-1 )
+		case 'D':   			
+		  if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=DNACOLOR;				    
+				}				
+				if(j==3)
+					sharedP=-1;
+
 				for(int i=0; i<Dna.size();i++)
 				{
 					set<int> record=Dna[i];
 					if(record.find(id)!=record.end())
 					{
-						sharedD=i;
+						sharedP=i;
+						if(j!=3)
+						  backHighlight=1;
 					}   
 				} 
-				if(sharedD!=-1)
+				if(sharedP!=-1)
 				{	
 					if(j==0)//||highlighted.find(item)!=highlighted.end())
 					{
-						insideColor[0]=HIGHLIGHTCOLOR;//QColor(255,255,100,255);  
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//QColor(255,255,100,255);  
 						
 					}
 					else if(j==1)
 					{
 						
-						insideColor[0]=HIGHLIGHTCOLOR;//QColor(255,255,100,255);  //painter->setBrush(QColor(190,186,218,255));  
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//QColor(255,255,100,255);  //painter->setBrush(QColor(190,186,218,255));  
 						
 					}
 					else if(j==2)
 					{
-						level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-						insideColor[0]=QColor(255,255,100,255);  //painter->setBrush(QColor(251,128,114,255)); 
+						if(_scene->linkSearchType == 0)
+						{
+							level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+							insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+						}
+						else
+						{
+							if(_scene->isPathEnds(m_pathwayID, type, id))
+							{
+								level=0;
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+							}
+							else
+								insideColor[0]=DNACOLOR; 							
+						}
 						
 					}
 					else if(j==3)
 					{
-						insideColor[0]=QColor(255,255,100,255); 
-						
+						insideColor[0]=DNACOLOR; 
 					}
 				}	
-				else
+				if(j==3 && sharedP==-1 && backHighlight==-1)
 				{									
-					/*if( expressedDna_Edit.find(id)!= expressedDna_Edit.end())
-					{
-						
-					    insideColor.push_back(assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,DNACOLOR));			
-					}
-					else*/
-						insideColor[0]=DNACOLOR;			  				
+					insideColor[0]=DNACOLOR;			  				
 				}
 		   }
 		   break; 
 		case 'R':   
-		   if(sharedR==-1 )
+           if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=QColor(255,255,255,255);				    
+				}				
+				if(j==3)
+					sharedP=-1;
+
 			   for(int i=0; i<Reaction.size();i++)
 			   {
 		  		  set<int> record=Reaction[i];
 				  if(record.find(id)!=record.end())
-				   		sharedR=i;   
-			   }   
-			   if(reactionType=="D") // dissociation
-			   {
-					 if(sharedR==-1)
-						 insideColor[0]=QColor(255,255,255,255);	   
-					 else 
-					 {
-						if(j==0)//||highlighted.find(item)!=highlighted.end())
-						{
-							//insideColor[0]=QColor(255,255,100,255);
-							insideColor[0]=HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedSets);	
-							
-						}						
-						else if(j==1)
-						{
-							insideColor[0]=HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);								
-						}					    
-						else if(j==2)
-						{
-							level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-							insideColor[0]=HIGHLIGHTCOLOR;//=QColor(assignColorToLinkedItems(level, totalLevel));		
-						}					    
-						else if(j==3)
-						{
-							insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored, QColor(255,255,255,255));
-						}	
-					 }					
-			   }
-			   // binding
-			   else if(reactionType=="B")
-			   {
-				 if(sharedR==-1)
-					 insideColor[0]=QColor(255,255,255,255);		
-				 else
-				 {
-						if(j==0)//||highlighted.find(item)!=highlighted.end())
-						{
-							insideColor[0]=HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedSets);								
-						}						
-						else if(j==1)
-						{
-							insideColor[0]=HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);								
-						}					    
-						else if(j==2)
-						{
-							level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-							insideColor[0] = HIGHLIGHTCOLOR;//QColor(assignColorToLinkedItems(level, totalLevel));						
-						}					    
-						else if(j==3)
-						{
-							insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored, QColor(255,255,255,255));
-						}	
-				 }		
-				
-			   }
-			   else if(reactionType=="T")
-			   {   if(sharedR==-1)
-				        insideColor[0]=QColor(255,255,255,255);					 
-				   else 
 				   {
-						if(j==0)//||highlighted.find(item)!=highlighted.end())
-						{
-							//insideColor[0]=QColor(255,255,100,255);
-							insideColor[0]=HIGHLIGHTCOLOR; //assignColorToSharedItems(m_pathwayID, type, id, sharedSets);	
+					   sharedP=i;   
+					   if(j!=3)
+						  backHighlight=1;
+				  }
+			   } 
+			   if(sharedP!=-1)
+			   {
+				   if(reactionType=="D") // dissociation
+				   {
+					
+							if(j==0)//||highlighted.find(item)!=highlighted.end())
+							{
+								//insideColor[0]=QColor(255,255,100,255);
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedPets);	
 							
-						}						
-						else if(j==1)
-						{
-							//insideColor[0]=QColor(255,255,100,255);
-							insideColor[0] = HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);	
+							}						
+							else if(j==1)
+							{
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);								
+							}					    
+							else if(j==2)
+							{
+								if(_scene->linkSearchType == 0)
+								{
+									level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+									insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+								}
+								else
+								{
+									if(_scene->isPathEnds(m_pathwayID, type, id))
+									{
+										level=0;
+										insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+									}
+									else
+										insideColor[0]=QColor(255,255,255,255); 							
+								}	
+							}					    
+							else if(j==3)
+							{
+								insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored, QColor(255,255,255,255));
+							}	
+										
+				   }
+				   // binding
+				   else if(reactionType=="B")
+				   {
+				 
+							if(j==0)//||highlighted.find(item)!=highlighted.end())
+							{
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedPets);								
+							}						
+							else if(j==1)
+							{
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);								
+							}					    
+							else if(j==2)
+							{
+								if(_scene->linkSearchType == 0)
+								{
+									level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+									insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+								}
+								else
+								{
+									if(_scene->isPathEnds(m_pathwayID, type, id))
+									{
+										level=0;
+										insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+									}
+									else
+										insideColor[0]=QColor(255,255,255,255); 							
+								}				
+							}					    
+							else if(j==3)
+							{
+								insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored, QColor(255,255,255,255));
+							}	
+					
+				
+				   }
+				   else if(reactionType=="T")
+				   {   
+				   		if(j==0)//||highlighted.find(item)!=highlighted.end())
+							{
+								//insideColor[0]=QColor(255,255,100,255);
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; //assignColorToSharedItems(m_pathwayID, type, id, sharedPets);	
 							
-						}					    
-						else if(j==2)
-						{
-							level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-							//float totalLevel=pbubble->getTotalLinkLevel();													
-							insideColor[0]=HIGHLIGHTCOLOR;//=QColor(assignColorToLinkedItems(level, totalLevel));	
-						}					    
-						else if(j==3)
-						{
-							insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,QColor(255,255,255,255));
+							}						
+							else if(j==1)
+							{
+								//insideColor[0]=QColor(255,255,100,255);
+								insideColor[0] = LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);	
 							
-						}	
-				  }	 
-			   
-			   }  
-			   
+							}					    
+							else if(j==2)
+							{
+								if(_scene->linkSearchType == 0)
+								{
+									level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+									insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+								}
+								else
+								{
+									if(_scene->isPathEnds(m_pathwayID, type, id))
+									{
+										level=0;
+										insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+									}
+									else
+										insideColor[0]=QColor(255,255,255,255); 							
+								}	
+							}					    
+							else if(j==3)
+							{
+								insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,QColor(255,255,255,255));
+							
+							}	
+				   } 
+			   }
+			   if(j==3 && sharedP==-1 && backHighlight==-1)
+				{									
+					insideColor[0]=QColor(255,255,255,255);			  				
+				}			   
 		   }
 		   break;
 		case 'E':    
-		   if(sharedE==-1 )
+		   if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=PHYSICALENTITYCOLOR;				    
+				}				
+				if(j==3)
+					sharedP=-1;
+		   
 			  for(int i=0; i<PhysicalEntity.size();i++)
 			  {
 				 set<int> record=PhysicalEntity[i];
 				 if(record.find(id)!=record.end())
 				 {
-					 sharedE=i;
+					 sharedP=i;
+					 if(j!=3)
+						  backHighlight=1;
 				 }   
 			  } 
-			  if(sharedE!=-1)
+			  if(sharedP!=-1)
 			  {	
 					if(j==0)//||highlighted.find(item)!=highlighted.end())
 					{
 						//insideColor[0]=QColor(255,255,100,255);
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedSets);	
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedPets);	
 						
 					}						
 					else if(j==1)
 					{
 						//insideColor[0]=QColor(255,255,100,255);
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);	
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);	
 						
 					}					    
 					else if(j==2)
 					{
-						level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-						//float totalLevel=pbubble->getTotalLinkLevel();												
-						insideColor[0]=HIGHLIGHTCOLOR;//=QColor(assignColorToLinkedItems(level, totalLevel));												
+						if(_scene->linkSearchType == 0)
+						{
+							level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+							insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+						}
+						else
+						{
+							if(_scene->isPathEnds(m_pathwayID, type, id))
+							{
+								level=0;
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+							}
+							else
+								insideColor[0]=PHYSICALENTITYCOLOR; 							
+						}											
 					}					    
 					else if(j==3)
 					{
-						insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets, _itemColored,PHYSICALENTITYCOLOR );
-						
+						insideColor[0]=assignColorToExpressedItems(m_pathwayID, type, id, expressedSets, _itemColored,PHYSICALENTITYCOLOR );						
 					}	
 			  }	
-			  else
-			  {
-					
-									
+			  if(j==3 && sharedP==-1 )
+			  {						
 					if( expressedPhysicalEntity_Edit.find(id)!= expressedPhysicalEntity_Edit.end())
 					{
-						 //insideColor[0]=PHYSICALENTITYCOLOR ;  
-						 //insideColor.resize(1);
-					     //insideColor.push_back(assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,PHYSICALENTITYCOLOR ));			
 						insideColor[0]= assignColorToExpressedItems(m_pathwayID, type, id, expressedSets,_itemColored,PHYSICALENTITYCOLOR );			
 					}
-					else
+					else if (backHighlight==-1)
 						insideColor[0]=PHYSICALENTITYCOLOR;  
-			  }
-			  
-			 
+			  }			 
 		   }
 		   break;		   
 		case 'L':    
-		   if(sharedA==-1 )
+		    if(sharedP==-1 || j==3)		   		   
 		   {
+			    if(sharedP==-1)
+				{
+					insideColor[0]=SETCOLOR;				    
+				}				
+				if(j==3)
+					sharedP=-1;
+
 			  for(int i=0; i<ANode.size();i++)
 			  {
 				 set<int> record=ANode[i];
 				 if(record.find(id)!=record.end())
 				 {
-					 sharedA=i;
+					 sharedP=i;
+					 if(j!=3)
+						  backHighlight=1;
 				 }   
 			  } 
-			  if(sharedA!=-1)
+			  if(sharedP!=-1)
 			  {	
 					if(j==0)//||highlighted.find(item)!=highlighted.end())
 					{
 						//insideColor[0]=QColor(255,255,100,255);
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedSets);	
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToSharedItems(m_pathwayID, type, id, sharedPets);	
 						
 					}						
 					else if(j==1)
 					{
 						//insideColor[0]=QColor(255,255,100,255);
-						insideColor[0]=HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);	
+						insideColor[0]=LIGHT_HIGHLIGHTCOLOR;//assignColorToDifferedItems(m_pathwayID, type, id);	
 						
 					}					    
 					else if(j==2)
 					{
-						level=pbubble->findLinkedLevel(m_pathwayID, type, id);
-						//float totalLevel=pbubble->getTotalLinkLevel();												
-						insideColor[0]=HIGHLIGHTCOLOR; //=QColor(assignColorToLinkedItems(level, totalLevel));						
+						if(_scene->linkSearchType == 0)
+						{
+							level=pbubble->findLinkedLevel(m_pathwayID, type, id);							
+							insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+						}
+						else
+						{
+							if(_scene->isPathEnds(m_pathwayID, type, id))
+							{
+								level=0;
+								insideColor[0]=LIGHT_HIGHLIGHTCOLOR; 
+							}
+							else
+								insideColor[0]=SETCOLOR; 							
+						}								
 						
 					}					    
 					else if(j==3)
@@ -3933,7 +4230,7 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 						
 					}	
 				}	
-			  else
+			  if(j==3 && sharedP==-1 && backHighlight==-1)
 			  {
 				    /*if( expressedDna_Edit.find(id)!= expressedDna_Edit.end())
 					{
@@ -3977,26 +4274,28 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
 	boundaryWidth=1;
 	if(flag || (!hoveredItem.empty() && hoveredItem[0]==m_pathwayID && hoveredItem[1]==item[0] && hoveredItem[2]==item[1]) )
 	{
+		c= MEDIUM_HIGHLIGHTCOLOR;
 		boundaryWidth=3; 		
+		boundaryColor=c;
 	}	
 	else if(highlighted.find(item)!=highlighted.end())
 	{
 		//if(level==0)
 		{
-			c= MIDIUM_HIGHLIGHTCOLOR;
+			c= MEDIUM_HIGHLIGHTCOLOR;
 			boundaryColor=c;
 		}
 		boundaryWidth=3;		
 	}
 	else if(searched.find(item)!=searched.end())
 	{
-		c= MIDIUM_HIGHLIGHTCOLOR;	
+		c= MEDIUM_HIGHLIGHTCOLOR;	
 		boundaryWidth=3;
 		boundaryColor=c;
 	}
     else if(level==0)
 	{
-			c= MIDIUM_HIGHLIGHTCOLOR;
+			c= MEDIUM_HIGHLIGHTCOLOR;
 			boundaryColor=c;
 			boundaryWidth=3;		
 	}
@@ -4009,32 +4308,7 @@ QRectF ItemBase::getNodetoBePaint(float &boundaryWidth, int &fontSize, vector<QC
    w=w*width;   
    if(!flag) 
     { 
-		/*bool flag=0;
-		vector<int> temp;	 temp.push_back(m_pathwayID);  temp.push_back(type);    temp.push_back(id);   temp.push_back(GO_UP);
-		if(_itemColored.find(temp)!=_itemColored.end())
-		{
-			fontColor=QColor(231,78,120);			
-			flag=1;
-		}
-		else
-		{
-			temp[3]=_DOWN;
-		    if(_itemColored.find(temp)!=_itemColored.end())
-		    {
-				fontColor=QColor(64,64,255);				
-				flag=1;
-			}
-			else 
-			{
-			    temp[3]=_EVEN;
-				if(_itemColored.find(temp)!=_itemColored.end())
-		        {
-					//painter->setPen(QColor(0,0,0,255));			
-					flag=1;
-				}				
-				fontColor=QColor(0,0,0,255);				
-			}
-		}	*/		
+		
 		fontColor=QColor(0,0,0,255); //keqin: do not color font according to up and down
 		getNodeFont(fontSize, fontRect, rect, nodeName, type, width, height, fixedSize, scale);				
    }   
@@ -4053,11 +4327,11 @@ void ItemBase::getNodeFont(int &fontSize, QRectF &fontRect, QRectF nodeRect, QSt
 		{
 			QString testName=nodeName;
 			fontRect=nodeRect;
-			 if(nodeName.size()<8)
+			 if(nodeName.size()<9)
 			 {    
                 if(type=='P')
 				{
-					testName="protein1";
+					testName="protein12";
 				}
 				else  if(type=='L')
 				{
@@ -4364,12 +4638,7 @@ void ItemBase::paintProtein( QPainter *painter, vector<QRectF> proteinPos, vecto
    int fontsize=6*width/graphReferenceSize; if(fontsize<6) fontsize=6; else if(fontsize>10) fontsize=10; 
    QFont f("Arial",fontsize);
 
-   /*doc.setDefaultFont(f);
-   doc.setTextWidth( rect.width() );
-   painter->save();
-   painter->translate( rect.topLeft() );
-   doc.setDefaultStyleSheet("a {text-decoration: none;text-align:center;}");*/  
-   
+      
    painter->save();
    if(!flag) 
     { 
@@ -4478,24 +4747,9 @@ QRectF ItemBase::paintProtein( QPainter *painter, vector<QRectF> proteinPos, vec
    
    painter->setPen(QColor(0,0,0,255));
 
-  /* QTextDocument doc;
-  
-    QString html= "<body> <p align=center>";
-	html += _proteinName[id][0];
-	html.append("</body>");	
-	
-	doc.setHtml(html);
-	*/
-
    //QFont f("Arial",4*width/500.0/W);
    int fontsize=6*width/graphReferenceSize/W; if(fontsize<6) fontsize=6; else if(fontsize>10) fontsize=10; 
    QFont f("Arial",fontsize);
-
-   /*doc.setDefaultFont(f);
-   doc.setTextWidth( rect.width() );
-   painter->save();
-   painter->translate( rect.topLeft() );
-   doc.setDefaultStyleSheet("a {text-decoration: none;text-align:center;}");*/
 
    painter->save();
    if(!flag)
@@ -4503,7 +4757,7 @@ QRectF ItemBase::paintProtein( QPainter *painter, vector<QRectF> proteinPos, vec
       painter->setFont(f);	 	  
       painter->drawText(QRect(rect.x()+3, rect.y()+3,rect.width()-6, rect.height()-6), Qt::AlignCenter|Qt::TextWrapAnywhere, _proteinName[id][0]);//_complexName[id]);
    }
-   //doc.drawContents( painter, rect.translated( -rect.topLeft() ) );
+  
    painter->restore();
    return rect;
 }
@@ -4566,6 +4820,35 @@ void ItemBase::drawDissociation(QPainter *painter, QRectF rect)
 	painter->drawPolygon(whole);
 }
 
+void ItemBase::drawDissociation_H(QPainter *painter, QRectF rect)
+{
+	QVector<QPoint> points;	         
+	/*points.append(QPoint(rect.x()-1, rect.y()));
+	points.append(QPoint(rect.x()+rect.width()+1, rect.y()));
+	points.append(QPoint(rect.center().x(), rect.y()+rect.height()));*/
+
+	float w=rect.width(), h=rect.height();
+	float cx=rect.center().x(), cy=rect.center().y();
+	
+	points.append(QPoint(cx-w*0.6,cy+h*0.4));
+	points.append(QPoint(cx-w*0.4,cy+h*0.6));	
+	points.append(QPoint(cx+w*0.4,cy+h*0.6));
+	points.append(QPoint(cx+w*0.6,cy+h*0.4));
+	points.append(QPoint(cx+w*0.15,cy-h*0.5));
+	points.append(QPoint(cx-w*0.15,cy-h*0.5));
+	
+	/*float w=rect.width(), h=rect.height();
+	float cx=rect.center().x(), cy=rect.center().y();
+	points.append(QPoint(cx-w*0.65,cy));
+	points.append(QPoint(cx,cy-h*0.65));
+	points.append(QPoint(cx+w*0.65,cy));
+	points.append(QPoint(cx,cy+h*0.65));*/
+
+	QPolygon whole(points);
+	painter->drawPolygon(whole);
+}
+
+
 void ItemBase::drawArrow_2(QPainter *painter, QPointF start, QPointF end, float width, float height, QColor color2)
 {//single edge
 	painter->save(); 
@@ -4609,7 +4892,7 @@ void ItemBase::drawATrapezoid(QPainter *painter, QPointF start, QPointF end, flo
 	destArrowP2 = destArrowP2 + dis;
 	
 	painter->drawPolygon(QPolygonF() << destArrowP1 << sourceArrowP1 << sourceArrowP2 << destArrowP2);
-    //painter->restore(); 
+   
 
 }
 
@@ -4654,41 +4937,6 @@ void ItemBase::drawATrapezoid_GL(QPainter *painter, QPointF start, QPointF end, 
 
 }
 
-/*void ItemBase::drawATrapezoid(QPainter *painter, QPointF start, QPointF end, float size1, float size2, QColor color)
-{
-	//painter->save(); 
-	painter->setPen(color);
-	painter->setBrush(color);
-
-	static const double Pi = 3.14159265358979323846264338327950288419717; 
-    static double TwoPi = 2.0 * Pi;
-
-    QLineF line(start, end);
-    double angle = ::acos(line.dx() / line.length());
-    if (line.dy() >= 0)
-		angle = TwoPi - angle;
-
-	QPointF sourceArrowP1 = start + QPointF(sin(angle - Pi / 2.5) * size1,
-													  cos(angle - Pi / 2.5) * size1);                                                  
-	QPointF sourceArrowP2 = start + QPointF(sin(angle - Pi + Pi / 2.5) * size1,
-													cos(angle - Pi + Pi / 2.5) * size1);   
-	QPointF dis = (sourceArrowP1 + sourceArrowP2)/2;
-	dis=start-dis;
-	sourceArrowP1 = sourceArrowP1 + dis;
-	sourceArrowP2 = sourceArrowP2 + dis;
-				
-	QPointF destArrowP1 = end + QPointF(sin(angle - Pi / 2.6) * size2, cos(angle - Pi / 2.6) * size2);
-	QPointF destArrowP2 = end + QPointF(sin(angle - Pi + Pi / 2.6) * size2, cos(angle - Pi + Pi / 2.6) * size2);
-
-	dis = (destArrowP1 + destArrowP2)/2;
-	dis=end-dis;
-	destArrowP1 = destArrowP1 + dis;
-	destArrowP2 = destArrowP2 + dis;
-	
-	painter->drawPolygon(QPolygonF() << destArrowP1 << sourceArrowP1 << sourceArrowP2 << destArrowP2);
-    painter->restore(); 
-}　*/
-
 QVector<QPointF> ItemBase::getArrow_4(QPointF start, QPointF end, float width, float height, float _scale)
 {//doted line
 	QPointF temp;
@@ -4699,14 +4947,7 @@ QVector<QPointF> ItemBase::getArrow_4(QPointF start, QPointF end, float width, f
 
 	float ds = line.length(); //sqrt(line.dx()*line.dx() + line.dy()*line.dy());  
 	
-    //if (qFuzzyCompare(line.length(), qreal(0.)))
-   //     return;
-
 	float size=1+4*(width+height)/graphReferenceSize*_scale;	
-	//qreal arrowSize(size);
-
-	//static const double Pi = 3.14159265358979323846264338327950288419717; 
-    //static double TwoPi = 2.0 * Pi;
 	
 	float itv;
 	float dotSize=size*2.6;
@@ -4752,7 +4993,7 @@ QVector<QPointF> ItemBase::getArrow_4(QPointF start, QPointF end, float width, f
 			//painter->drawLine(source, dest);
 		}*/		
 	}	
-	//painter->restore(); 
+
 	return points;
 }
 
@@ -4898,6 +5139,8 @@ QVector<QPointF> ItemBase::getArrow_4_H(QPointF start, float h, QPointF end, flo
 	//if(size/ds<0.2)
 	//   flag=false;
 	float exWidth=HBWIDTH*_scale*2;
+	if(exWidth<4)
+		exWidth=4;
 	float l1,l2, as1, as2, Dx=0;
 	QPointF source, dest;	
 	vector<QPointF>::iterator sIt=points.begin(); 
@@ -4925,7 +5168,7 @@ QVector<QPointF> ItemBase::getArrow_4_H(QPointF start, float h, QPointF end, flo
 
 void ItemBase::getATrapezoid(QPointF start, QPointF end, float size1, float size2, QVector<QPointF> &points)
 {
-	//painter->save(); 
+	 
 	if(size1<1)	size1=1;
 	if(size2<1)	size2=1;
 
@@ -4958,8 +5201,7 @@ void ItemBase::getATrapezoid(QPointF start, QPointF end, float size1, float size
 	points.push_back(sourceArrowP1);
 	points.push_back(sourceArrowP2);
 	points.push_back(destArrowP2);
-	//painter->drawPolygon(QPolygonF() << destArrowP1 << sourceArrowP1 << sourceArrowP2 << destArrowP2);
-    //painter->restore(); 
+
 }
 
 void ItemBase::drawArrow_4(QPainter *painter, QPointF start, QPointF end, float width, float height, QColor color)
@@ -5041,6 +5283,8 @@ void ItemBase::drawArrow_4_GL(QPainter *painter, QPointF start, QPointF end, flo
 	count=count*2;
 	itv=ds/count;
 
+	glBegin(GL_QUADS);//start
+
 	float l1,l2, as1, as2, scale;
 	QPointF source, dest;	
 	for(int i=0; i<count; i=i+2)
@@ -5056,6 +5300,9 @@ void ItemBase::drawArrow_4_GL(QPainter *painter, QPointF start, QPointF end, flo
 		dest= end + (start - end)*scale;
 		drawATrapezoid_GL(painter, source, dest, as1, as2);		
 	}
+
+	glEnd();//start
+
 	painter->restore(); 
 }
 
@@ -5209,16 +5456,14 @@ void ItemBase::drawArrow_3(QPainter *painter, QPointF start, QPointF end, float 
 	QPointF start1;
 	start1= (end-start)*scale + start;
 	
-	painter->save (); 
+	
 	painter->setRenderHint(QPainter::Antialiasing, true);
     QLineF line(start, end);
 
 	float ds = sqrt(line.dx()*line.dx() + line.dy()*line.dy());  
 	QPointF Dis = QPointF(6*line.dx()/ds, 6*line.dy()/ds);
 	//start=start-Dis;
-
-  
-
+	
 	painter->save (); 
 
 	float size=(1+4*(width+height)/graphReferenceSize)*(1-scale)*15;	
@@ -5529,19 +5774,14 @@ void ItemBase::drawCurvedArrow_GL(QPainter *painter, set<int> code, float h, QPo
 
 void ItemBase::drawCurvedArrow_GL_H(QPainter *painter, set<int> code, float h, QPointF start, QPointF end, float width, float height, float _scale, QColor color)
 {   
-	//switch all the start and and // keqin
-	
-	
 	QVector<QPointF> points;
 	if(code.size()==0)
-	{
-		
+	{		
 		return;
 	}
-
 	painter->save(); 
 
-	//QColor color=HIGHLIGHTCOLOR;
+	//QColor color=LIGHT_HIGHLIGHTCOLOR;
 	painter->setPen(color);	
 	glColor4f(color.redF()/255.0, color.greenF()/255.0, color.blueF()/255.0, color.alphaF()/255.0);		
 	painter->drawLine(0,1,0,1);
@@ -5569,12 +5809,13 @@ void ItemBase::drawCurvedArrow_GL_H(QPainter *painter, set<int> code, float h, Q
 					 break;//,  QColor(255, 128, 0, 255));	break;
 		}	
 		
-		glBegin(GL_QUADS); 
+		/*glBegin(GL_QUADS); 
 		glVertex2f(points[0].x(),points[0].y());
 		glVertex2f(points[1].x(),points[1].y());
 		glVertex2f(points[2].x(),points[2].y());
 		glVertex2f(points[3].x(),points[3].y());
-		glEnd();
+		glEnd();*/
+
 	}
 	else 
 	{	
@@ -5650,9 +5891,8 @@ void ItemBase::drawCurvedArrow_H(QPainter *painter, set<int> code, float h, QPoi
 	{
 		return;
 	}
-
 	painter->save(); 
-	//QColor color=HIGHLIGHTCOLOR;
+	//QColor color=LIGHT_HIGHLIGHTCOLOR;
 	painter->setPen(Qt::NoPen);	
 	painter->setBrush(color);		
 
@@ -5675,12 +5915,6 @@ void ItemBase::drawCurvedArrow_H(QPainter *painter, set<int> code, float h, QPoi
 					 break;//,  QColor(255, 128, 0, 255));	break;
 		}	
 		
-		/*glBegin(GL_QUADS); 
-		glVertex2f(points[0].x(),points[0].y());
-		glVertex2f(points[1].x(),points[1].y());
-		glVertex2f(points[2].x(),points[2].y());
-		glVertex2f(points[3].x(),points[3].y());
-		glEnd();*/
 		painter->drawPolygon(QPolygonF() << points[0] << points[1] << points[2] << points[3]);
 	}
 	else 
@@ -5920,8 +6154,7 @@ void ItemBase::drawArrow(QPainter *painter, QPointF start, float h, QPointF end,
 		//painter->drawLine(start, end);
 		//break;
 	}
-	//painter->drawLine(start,sourceArrowP1);
-	//painter->drawLine(sourceArrowP1,end);
+	
 	painter->restore(); 
 }
 
@@ -6011,12 +6244,6 @@ void ItemBase::drawArrow_GL(QPainter *painter, QPointF start, QPointF end, float
 	sourceArrowP1 = sourceArrowP1 + dis;
 	sourceArrowP2 = sourceArrowP2 + dis;
 	
-	//glBegin(GL_POLYGON);    
-	/*glVertex2f(line.p2().x(),line.p2().y());
-	glVertex2f(sourceArrowP1.x(), sourceArrowP1.y());
-	glVertex2f(sourceArrowP2.x(), sourceArrowP2.y());
-	glVertex2f(line.p2().x(),line.p2().y());*/
-	
 	QPointF destArrowP1 = end + QPointF(sin(angle - Pi / 2.6) * arrowSize2, cos(angle - Pi / 2.6) * arrowSize2);
 	QPointF destArrowP2 = end + QPointF(sin(angle - Pi + Pi / 2.6) * arrowSize2, cos(angle - Pi + Pi / 2.6) * arrowSize2);
 
@@ -6025,12 +6252,12 @@ void ItemBase::drawArrow_GL(QPainter *painter, QPointF start, QPointF end, float
 	destArrowP1 = destArrowP1 + dis;
 	destArrowP2 = destArrowP2 + dis;
 	
-	//glBegin(GL_POLYGON);    
+	glBegin(GL_POLYGON);    
 	glVertex2f(destArrowP1.x(), destArrowP1.y());
 	glVertex2f(sourceArrowP1.x(), sourceArrowP1.y());
 	glVertex2f(sourceArrowP2.x(), sourceArrowP2.y());
 	glVertex2f(destArrowP2.x(), destArrowP2.y());
-		
+	glEnd();	
 	painter->restore(); 	
 }
 
@@ -6047,6 +6274,9 @@ void ItemBase::drawArrow_GL_H(QPainter *painter, QPointF start, QPointF end, flo
 	  
 	//painter->setRenderHint(QPainter::Antialiasing, true);
     float exWidth = HBWIDTH*_scale*2;
+	if(exWidth<4)
+		exWidth=4;
+
 	float size= (1+4*(width+height)/graphReferenceSize)*1.5 + exWidth;	
 	float sd = exWidth;//size - (1+4*(width+height)/graphReferenceSize)*1.5;
 	qreal arrowSize(size);
@@ -6092,13 +6322,142 @@ void ItemBase::drawArrow_GL_H(QPainter *painter, QPointF start, QPointF end, flo
 	points.append(QPoint(sourceArrowP2.x(), sourceArrowP2.y()));*/
 	//QRegion arrow(points);
 	
-	//glBegin(GL_POLYGON);    
+	glBegin(GL_POLYGON);    
 	glVertex2f(destArrowP1.x(), destArrowP1.y());
 	glVertex2f(sourceArrowP1.x(), sourceArrowP1.y());
 	glVertex2f(sourceArrowP2.x(), sourceArrowP2.y());
 	glVertex2f(destArrowP2.x(), destArrowP2.y());
-	//glEnd();
+	glEnd();
 
+	painter->restore(); 
+	
+}
+
+
+void ItemBase::drawArrow_GL_H_2(QPainter *painter, QPointF start, QPointF end, vector<QColor> bc, float width, float height, float _scale)
+{//highlight Background multiple edges
+	painter->save(); 
+	QPointF temp;
+	temp = start; start =end; end =temp;
+	QLineF line(start, end);
+
+	float ds = sqrt(line.dx()*line.dx() + line.dy()*line.dy());  
+	QPointF Dis = QPointF(6*line.dx()/ds, 6*line.dy()/ds);
+	//start=start-Dis;
+	  
+	//painter->setRenderHint(QPainter::Antialiasing, true);
+    float exWidth = HBWIDTH*_scale*2;
+	if(exWidth<4)
+		exWidth=4;
+	float size= (1+4*(width+height)/graphReferenceSize)*1.5 + exWidth;	
+	float sd = exWidth;//size - (1+4*(width+height)/graphReferenceSize)*1.5;
+	qreal arrowSize(size);
+	qreal arrowSize2(sd);
+
+	static const double Pi = 3.14159265358979323846264338327950288419717; 
+    static double TwoPi = 2.0 * Pi;
+
+    //painter->setPen(QPen(Qt::black, 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
+    //painter->drawLine(line);
+
+	double angle = ::acos(line.dx() / line.length());
+    if (line.dy() >= 0)
+		angle = TwoPi - angle;
+
+    QPointF sourceArrowP1 = start + QPointF(sin(angle - Pi / 2.5) * arrowSize,
+                                                  cos(angle - Pi / 2.5) * arrowSize);                                                  
+    QPointF sourceArrowP2 = start + QPointF(sin(angle - Pi + Pi / 2.5) * arrowSize,
+                                                  cos(angle - Pi + Pi / 2.5) * arrowSize);   
+    //QPointF destArrowP1 = end + QPointF(sin(angle - Pi / 2.6) * arrowSize, cos(angle - Pi / 2.6) * arrowSize);
+    //QPointF destArrowP2 = end + QPointF(sin(angle - Pi + Pi / 2.6) * arrowSize, cos(angle - Pi + Pi / 2.6) * arrowSize);
+	
+	QPointF dis = (sourceArrowP1 + sourceArrowP2)/2;
+    dis=start-dis;
+	sourceArrowP1 = sourceArrowP1 + dis;
+	sourceArrowP2 = sourceArrowP2 + dis;
+
+
+
+	QPointF destArrowP1 = end + QPointF(sin(angle - Pi / 2.6) * arrowSize2, cos(angle - Pi / 2.6) * arrowSize2);
+	QPointF destArrowP2 = end + QPointF(sin(angle - Pi + Pi / 2.6) * arrowSize2, cos(angle - Pi + Pi / 2.6) * arrowSize2);
+
+	dis = (destArrowP1 + destArrowP2)/2;
+	dis=end-dis;
+	destArrowP1 = destArrowP1 + dis;
+	destArrowP2 = destArrowP2 + dis;
+
+	//painter->drawPolygon(QPolygonF() << destArrowP1 << sourceArrowP1 << sourceArrowP2 << destArrowP2);
+
+	/*QVector<QPointF> points;	         
+	points.append(QPoint(line.p2().x(),line.p2().y()));
+	points.append(QPoint(sourceArrowP1.x(), sourceArrowP1.y()));
+	points.append(QPoint(sourceArrowP2.x(), sourceArrowP2.y()));*/
+	//QRegion arrow(points);
+
+	//split the polygon
+	if(bc.size()>1)
+	{
+		int bsize = bc.size();
+	    vector<QPointF> start, end; //sourceArrowP1, start0=sourceArrowP2, end1=sourceArrowP1, end0=sourceArrowP2;
+		start.resize(bsize+1), end.resize(bsize+1);
+		
+		start[0] = sourceArrowP1;
+		start[bsize] = sourceArrowP2;
+
+		end[0] = destArrowP1;
+		end[bsize] = destArrowP2;
+
+		float dsx = start[bsize].x() - start[0].x(), dsy = start[bsize].y() - start[0].y();
+		float ddx = end[bsize].x() - end[0].x(), ddy = end[bsize].y() - end[0].y();
+
+		//painter->setPen(bc[0]);
+		//painter->setBrush(bc[0]);	//painter->setPen(QColor(0,0,0,255));	
+	    //painter->drawLine(0, 1,0,1);
+
+		
+
+	    for(int i=1; i<=bsize; i++)
+		{
+			//glColor4f(0.0, 0.825, 0.196, 1.0);
+		   painter->setPen(bc[i-1]);
+		   painter->setBrush(bc[i-1]);	//painter->setPen(QColor(0,0,0,255));	
+	       painter->drawLine(0, 1,0,1);
+
+			float red=bc[i-1].red(), green=bc[i-1].green(), blue=bc[i-1].blue();
+
+		    start[i].setX(start[0].x() + dsx*i*1.0/bsize);
+			start[i].setY(start[0].y() + dsy*i*1.0/bsize);
+
+			end[i].setX(end[0].x() + ddx*i*1.0/bsize);
+			end[i].setY(end[0].y() + ddy*i*1.0/bsize);
+
+			glBegin(GL_POLYGON); 
+			glVertex2f(end[i-1].x(), end[i-1].y());
+			glVertex2f(start[i-1].x(), start[i-1].y());
+			glVertex2f(start[i].x(), start[i].y());
+			glVertex2f(end[i].x(), end[i].y());
+			glEnd();
+		}
+		
+	}
+	  
+	else
+	{
+		if(bc.size()>0)
+		{
+			painter->setPen(bc[0]);	//painter->setPen(QColor(0,0,0,255));		        
+			painter->setBrush(bc[0]);
+			painter->drawLine(0, 1,0,1);
+		}
+
+		glBegin(GL_POLYGON);   
+		glVertex2f(destArrowP1.x(), destArrowP1.y());
+	    glVertex2f(sourceArrowP1.x(), sourceArrowP1.y());
+	    glVertex2f(sourceArrowP2.x(), sourceArrowP2.y());
+	    glVertex2f(destArrowP2.x(), destArrowP2.y());
+		glEnd();
+	}
+	
 	painter->restore(); 
 	
 }
@@ -6120,6 +6479,8 @@ void ItemBase::drawArrow_H(QPainter *painter, QPointF start, QPointF end, float 
 	painter->setBrush(color);
 
     float exWidth=HBWIDTH*_scale*2;
+	if(exWidth<4)
+		exWidth=4;
 	float size= (1+4*(width+height)/graphReferenceSize)*1.5 + exWidth;	
 	float sd = exWidth; //size - (1+4*(width+height)/graphReferenceSize)*1.5;
 	qreal arrowSize(size);
@@ -6172,18 +6533,7 @@ void ItemBase::drawArrow_H(QPainter *painter, QPointF start, QPointF end, float 
  	painter->fillPath( path, QBrush( color ) );
 
 	painter->restore(); 	
-	/*QVector<QPointF> points;	         
-	points.append(QPoint(line.p2().x(),line.p2().y()));
-	points.append(QPoint(sourceArrowP1.x(), sourceArrowP1.y()));
-	points.append(QPoint(sourceArrowP2.x(), sourceArrowP2.y()));*/
-	//QRegion arrow(points);
 	
-	//glBegin(GL_POLYGON);    
-	/*glVertex2f(destArrowP1.x(), destArrowP1.y());
-	glVertex2f(sourceArrowP1.x(), sourceArrowP1.y());
-	glVertex2f(sourceArrowP2.x(), sourceArrowP2.y());
-	glVertex2f(destArrowP2.x(), destArrowP2.y());*/
-	//glEnd();
 	
 }
 
@@ -6352,6 +6702,8 @@ QVector<QPointF> ItemBase::getArrow_H(QPointF start, float h, QPointF end, float
 	vector<QPointF> points = getCurveLine(start, sourceArrowP1, end);
 
 	float exWidth=HBWIDTH*_scale*2;
+	if(exWidth<4)
+		exWidth=4;
 	float itv=size/(points.size()-1)*_scale;
 	float as1, as2;
 	int count=points.size()-1;
@@ -6418,7 +6770,7 @@ QVector<QPointF> ItemBase::getArrow(QPointF start, QPointF end, float width, flo
 
 	return points;
  	//painter->fillPath( path, QBrush( color ) );
-	//painter->restore(); 	
+
 }
 
 QVector<QPointF> ItemBase::getArrow_H(QPointF start, QPointF end, float width, float height, float _scale)
@@ -6431,6 +6783,8 @@ QVector<QPointF> ItemBase::getArrow_H(QPointF start, QPointF end, float width, f
 	QPointF Dis = QPointF(6*line.dx()/ds, 6*line.dy()/ds);
 	
 	float exWidth=HBWIDTH*_scale*2;
+	if(exWidth<4)
+		exWidth=4;
 	float size=(1+4*(width+height)/graphReferenceSize)*1.5 + exWidth;	
 	float sd = exWidth;//size - (1+4*(width+height)/graphReferenceSize)*1.5;
 	qreal arrowSize(size);
@@ -6511,7 +6865,7 @@ void ItemBase::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 void ItemBase::keyReleaseEvent(QKeyEvent *event)
 {
 
-
+	QGraphicsItem::keyReleaseEvent(event);
 }
 
 
@@ -7780,7 +8134,7 @@ void ItemBase::logUnGroup()
 	emit logInfor( logtext );
 }
 
-void ItemBase::readexpression(const char *name, vector<QString> &quantityName, vector<vector<QString>> &geneInfo, vector<vector<float>> &quantity, vector<vector<float>> &minmax)
+/*void ItemBase::readexpression(const char *name, vector<QString> &quantityName, vector<vector<QString>> &geneInfo, vector<vector<float>> &quantity, vector<vector<float>> &minmax)
 {//return maximum step
 	char ch[100];
 	FILE *fp = fopen(name,"r"); 	
@@ -7797,19 +8151,24 @@ void ItemBase::readexpression(const char *name, vector<QString> &quantityName, v
 	    min.push_back(100000), max.push_back(-100000);
 	}
 
+	bool switchcolumn=false;// it is supposed that second column are treated and first column are controled, but lib15-Heat0expression switched this order for some reason
+
     // read head
 	vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			  if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else if(e>-1) phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
+	string phrase; 
+	e='x';
+	do
+	{   e=fgetc(fp);			 
+		if(e=='\t'||e=='\n')
+		{
+			buffer.push_back(phrase);
+			phrase.clear();
+		}
+		else if(e>-1) phrase.append(1,e);
+		QString qstr = QString::fromStdString(phrase);
+		if(qstr.contains("heat"))
+			qstr=qstr;
+	}while(e!='\n'&&e>-1); 
 
 		 //if(e<0||(e=='\n'&&buffer[0].empty()))
 		//	  break;
@@ -7868,3 +8227,4 @@ void ItemBase::readexpression(const char *name, vector<QString> &quantityName, v
 	 
 	 fclose(fp);	 
 }
+*/

@@ -1,0 +1,69 @@
+edge.size() 8
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 80 2 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 83 0 67 1 82 1 -1
+ 67 1 83 1 82 2 -1
+ 67 1 67 2 82 2 -1
+ 67 1 82 1 82 2 -1
+_complexName.size()	3
+	Apaf-1:Cytochrome C	cytosol	Reactome DB_ID: 114253	
+	Cytochrome C:Apaf-1:ATP:Procaspase-9	cytosol	Reactome DB_ID: 114255	
+	Apoptosome	cytosol	Reactome DB_ID: 114258	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	APAF1	cytosol	Reactome DB_ID: 50099	UniProt:O14727	APAF1
+	CYCS	cytosol	Reactome DB_ID: 53259	UniProt:P99999	CYCS
+	CASP-9	cytosol	Reactome DB_ID: 57033	UniProt:P55211	CASP9
+_reactionName.size()	3
+	D	Cytochrome C Binds to Apaf-1
+	D	Cytochrome C:Apaf-1 binds Procaspase-9
+	B	Cleavage of Procaspase-9 to Caspase-9
+_smallMoleculeName.size()	2
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

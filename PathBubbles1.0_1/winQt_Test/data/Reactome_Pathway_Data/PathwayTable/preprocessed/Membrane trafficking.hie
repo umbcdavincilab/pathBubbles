@@ -1,0 +1,503 @@
+edge.size() 314
+ 67 1 83 -1 82 0 -1
+ 67 1 67 0 82 0 -1
+ 83 -1 67 0 82 0 -1
+ 67 1 67 3 82 1 -1
+ 67 2 67 3 82 1 -1
+ 67 3 83 0 82 2 -1
+ 67 3 67 2 82 2 -1
+ 67 3 67 0 82 2 -1
+ 80 2 67 -1 82 3 -1
+ 67 3 67 -1 82 3 -1
+ 80 3 67 -1 82 3 -1
+ 67 -1 67 4 82 -1 -1
+ 67 4 83 0 82 4 -1
+ 67 4 80 2 82 4 -1
+ 67 4 80 -1 82 4 -1
+ 67 4 80 0 82 4 -1
+ 67 4 80 3 82 4 -1
+ 67 4 80 1 82 4 -1
+ 67 6 83 1 82 5 -1
+ 67 6 67 5 82 5 -1
+ 83 -1 67 5 82 5 -1
+ 67 7 67 8 82 6 -1
+ 67 6 67 8 82 6 -1
+ 67 8 67 9 82 7 -1
+ 80 5 67 9 82 7 -1
+ 67 9 69 0 82 8 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 9 83 0 82 9 -1
+ 67 9 69 1 82 9 -1
+ 69 1 67 10 82 10 -1
+ 69 1 69 -1 82 10 -1
+ 69 -1 67 7 82 -1 -1
+ 69 -1 80 5 82 -1 -1
+ 67 6 83 -1 82 11 -1
+ 67 6 67 10 82 11 -1
+ 83 -1 67 10 82 11 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 80 -1 69 -1 82 -1 -1
+ 80 -1 69 -1 82 -1 -1
+ 80 -1 69 -1 82 -1 -1
+ 80 -1 69 -1 82 -1 -1
+ 80 -1 67 12 82 12 -1
+ 80 6 67 12 82 12 -1
+ 67 6 67 12 82 12 -1
+ 80 -1 67 12 82 12 -1
+ 80 7 67 12 82 12 -1
+ 67 11 67 12 82 12 -1
+ 83 0 80 8 82 13 -1
+ 67 14 67 13 82 13 -1
+ 67 14 67 12 82 13 -1
+ 67 14 80 9 82 13 -1
+ 67 14 80 9 82 13 -1
+ 67 10 67 12 82 13 -1
+ 67 10 67 13 82 13 -1
+ 67 10 80 8 82 13 -1
+ 67 10 80 9 82 13 -1
+ 83 0 67 -1 82 14 -1
+ 80 -1 83 2 82 14 -1
+ 80 -1 67 15 82 14 -1
+ 80 -1 67 15 82 14 -1
+ 80 -1 83 -1 82 14 -1
+ 80 -1 67 -1 82 14 -1
+ 80 -1 67 15 82 14 -1
+ 83 3 83 -1 82 14 -1
+ 80 7 67 -1 82 14 -1
+ 80 7 67 15 82 14 -1
+ 80 7 83 -1 82 14 -1
+ 80 -1 67 -1 82 14 -1
+ 80 -1 67 15 82 14 -1
+ 80 -1 83 -1 82 14 -1
+ 67 13 67 -1 82 14 -1
+ 67 13 67 15 82 14 -1
+ 67 13 83 -1 82 14 -1
+ 67 11 67 -1 82 14 -1
+ 67 11 67 15 82 14 -1
+ 67 11 83 -1 82 14 -1
+ 67 15 67 -1 82 14 -1
+ 67 15 67 15 82 14 -1
+ 67 15 83 -1 82 14 -1
+ 83 0 67 14 82 15 -1
+ 80 8 83 -1 82 15 -1
+ 80 8 83 -1 82 15 -1
+ 67 -1 67 14 82 15 -1
+ 67 -1 83 -1 82 15 -1
+ 80 9 67 14 82 15 -1
+ 80 9 83 -1 82 15 -1
+ 83 -1 67 14 82 15 -1
+ 67 6 67 -1 82 16 -1
+ 80 -1 67 -1 82 16 -1
+ 80 7 67 -1 82 16 -1
+ 67 11 67 -1 82 16 -1
+ 80 -1 67 -1 82 16 -1
+ 80 -1 67 -1 82 16 -1
+ 83 0 80 8 82 17 -1
+ 67 -1 67 -1 82 17 -1
+ 67 -1 67 13 82 17 -1
+ 67 -1 80 9 82 17 -1
+ 67 -1 80 9 82 17 -1
+ 67 10 67 13 82 17 -1
+ 67 10 67 -1 82 17 -1
+ 67 10 80 8 82 17 -1
+ 67 10 80 9 82 17 -1
+ 83 0 67 -1 82 18 -1
+ 80 8 83 4 82 18 -1
+ 80 8 83 -1 82 18 -1
+ 67 16 67 -1 82 18 -1
+ 67 16 83 -1 82 18 -1
+ 80 9 67 -1 82 18 -1
+ 80 9 83 -1 82 18 -1
+ 83 -1 67 -1 82 18 -1
+ 80 10 67 16 82 19 -1
+ 80 10 83 -1 82 19 -1
+ 80 10 67 15 82 19 -1
+ 83 0 67 15 82 19 -1
+ 83 3 83 -1 82 19 -1
+ 80 -1 67 16 82 19 -1
+ 80 -1 67 15 82 19 -1
+ 80 -1 83 -1 82 19 -1
+ 80 7 67 16 82 19 -1
+ 80 7 67 15 82 19 -1
+ 80 7 83 -1 82 19 -1
+ 67 13 67 16 82 19 -1
+ 67 13 67 15 82 19 -1
+ 67 13 83 -1 82 19 -1
+ 67 11 67 16 82 19 -1
+ 67 11 67 15 82 19 -1
+ 67 11 83 -1 82 19 -1
+ 80 11 67 16 82 19 -1
+ 80 11 67 15 82 19 -1
+ 80 11 83 -1 82 19 -1
+ 67 15 67 16 82 19 -1
+ 67 15 67 15 82 19 -1
+ 67 15 83 -1 82 19 -1
+ 80 12 80 12 82 20 -1
+ 80 -1 80 12 82 20 -1
+ 80 13 80 12 82 20 -1
+ 80 13 80 14 82 20 -1
+ 80 -1 80 14 82 20 -1
+ 80 12 80 14 82 20 -1
+ 80 13 80 13 82 20 -1
+ 80 -1 80 13 82 20 -1
+ 80 12 80 13 82 20 -1
+ 80 12 80 12 82 21 -1
+ 80 -1 80 12 82 21 -1
+ 80 13 80 12 82 21 -1
+ 80 13 80 13 82 21 -1
+ 80 -1 80 13 82 21 -1
+ 80 12 80 13 82 21 -1
+ 80 13 80 15 82 21 -1
+ 80 -1 80 15 82 21 -1
+ 80 12 80 15 82 21 -1
+ 80 -1 80 16 82 22 -1
+ 80 12 80 16 82 22 -1
+ 80 13 80 16 82 22 -1
+ 80 13 80 12 82 22 -1
+ 80 12 80 12 82 22 -1
+ 80 -1 80 12 82 22 -1
+ 80 13 80 13 82 22 -1
+ 80 12 80 13 82 22 -1
+ 80 -1 80 13 82 22 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 17 67 20 82 23 -1
+ 80 -1 67 20 82 23 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 21 82 -1 -1
+ 67 21 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 22 82 24 -1
+ 67 21 67 22 82 24 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 3 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 23 67 25 82 25 -1
+ 67 24 67 25 82 25 -1
+ 67 24 67 -1 82 25 -1
+ 67 23 67 -1 82 25 -1
+ 67 25 67 26 82 26 -1
+ 67 -1 67 26 82 26 -1
+ 67 -1 67 24 82 26 -1
+ 67 25 67 24 82 26 -1
+ 67 26 67 -1 82 27 -1
+ 67 -1 67 -1 82 27 -1
+ 67 -1 67 27 82 27 -1
+ 67 26 67 27 82 27 -1
+ 83 0 67 27 82 28 -1
+ 67 -1 83 -1 82 28 -1
+ 67 -1 83 -1 82 28 -1
+ 83 3 67 27 82 28 -1
+ 80 18 83 -1 82 28 -1
+ 80 18 67 27 82 28 -1
+ 80 19 83 -1 82 28 -1
+ 80 19 67 27 82 28 -1
+ 80 20 83 -1 82 28 -1
+ 80 20 67 27 82 28 -1
+ 80 21 83 -1 82 28 -1
+ 80 21 67 27 82 28 -1
+ 80 22 83 -1 82 28 -1
+ 80 22 67 27 82 28 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 3 83 -1 82 -1 -1
+ 67 -1 67 -1 82 29 -1
+ 67 29 67 -1 82 29 -1
+ 83 3 80 24 82 30 -1
+ 80 25 83 5 82 30 -1
+ 80 25 83 6 82 30 -1
+ 67 29 67 31 82 31 -1
+ 80 25 67 31 82 31 -1
+ 67 33 83 7 82 32 -1
+ 67 33 67 32 82 32 -1
+ 83 8 67 32 82 32 -1
+ 67 33 67 32 82 33 -1
+ 67 35 67 34 82 34 -1
+ 67 35 83 9 82 34 -1
+ 83 3 83 10 82 34 -1
+ 83 8 67 36 82 35 -1
+ 67 37 83 11 82 35 -1
+ 67 37 83 12 82 35 -1
+ 67 37 67 39 82 36 -1
+ 67 38 67 39 82 36 -1
+ 69 2 67 39 82 36 -1
+ 67 37 67 36 82 37 -1
+ 67 37 83 -1 82 37 -1
+ 83 3 80 26 82 38 -1
+ 67 40 83 -1 82 38 -1
+ 67 40 69 2 82 38 -1
+ 67 40 69 2 82 38 -1
+ 67 -1 67 41 82 39 -1
+ 67 39 67 41 82 39 -1
+ 80 29 80 -1 82 40 -1
+ 80 29 67 -1 82 40 -1
+ 80 29 83 13 82 40 -1
+ 80 29 80 13 82 40 -1
+ 80 29 67 43 82 40 -1
+ 80 -1 67 43 82 40 -1
+ 80 -1 80 13 82 40 -1
+ 80 -1 83 14 82 40 -1
+ 80 -1 67 -1 82 40 -1
+ 80 -1 80 -1 82 40 -1
+ 83 3 67 43 82 40 -1
+ 80 30 80 13 82 40 -1
+ 80 30 83 15 82 40 -1
+ 80 30 67 -1 82 40 -1
+ 80 30 80 -1 82 40 -1
+ 80 30 67 43 82 40 -1
+ 67 44 80 13 82 40 -1
+ 67 44 83 16 82 40 -1
+ 67 44 67 -1 82 40 -1
+ 67 44 80 -1 82 40 -1
+ 67 44 67 43 82 40 -1
+ 80 -1 82 1 82 0 -1
+ 67 3 82 1 82 2 -1
+ 67 4 82 1 82 4 -1
+ 80 4 82 1 82 5 -1
+ 80 5 82 1 82 9 -1
+ 80 4 82 1 82 11 -1
+ 67 14 82 1 82 15 -1
+ 67 -1 82 1 82 18 -1
+ 67 17 82 1 82 20 -1
+ 67 18 82 1 82 21 -1
+ 67 19 82 1 82 22 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 28 82 1 82 28 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 30 82 1 82 30 -1
+ 67 33 82 1 82 33 -1
+ 80 -1 82 1 82 34 -1
+ 67 37 82 1 82 37 -1
+ 80 -1 82 1 82 38 -1
+ 80 27 82 1 82 39 -1
+ 80 28 82 1 82 39 -1
+ 67 40 82 1 82 39 -1
+ 67 39 82 1 82 39 -1
+ 80 24 82 1 82 33 -1
+ 80 23 82 1 82 33 -1
+ 67 34 82 1 82 37 -1
+ 67 42 82 1 82 39 -1
+ 67 -1 82 1 82 39 -1
+ 67 33 82 1 82 39 -1
+ 67 -1 82 1 82 39 -1
+_complexName.size()	45
+	Sar1b:GDP Complex	cytosol	Reactome DB_ID: 203989	
+	Sar1b:GTP Complex	endoplasmic reticulum membrane	Reactome DB_ID: 204003	
+	Sec23p:Sec24p Complex	cytosol	Reactome DB_ID: 203975	
+	Sar1b:GTP:Sec23p:Sec24p	endoplasmic reticulum membrane	Reactome DB_ID: 203997	
+	Sar1b:Sec23p:Sec24p:Sec13p:Sec31p Complex	ER to Golgi transport vesicle membrane	Reactome DB_ID: 204019	
+	Arf1-GDP	Golgi membrane	Reactome DB_ID: 199988	
+	Arf1-GTP	Golgi membrane	Reactome DB_ID: 199981	
+	Coatomer	cytosol	Reactome DB_ID: 199996	
+	Coatomer:Arf1-GTP Complex	Golgi membrane	Reactome DB_ID: 200463	
+	Coatomer:Arf1-GTP:GAP Complex	Golgi membrane	Reactome DB_ID: 200466	
+	Arf1-GDP	cytosol	Reactome DB_ID: 201340	
+	AP-1 Complex	cytosol	Reactome DB_ID: 167717	
+	Cargo:AP-1:Arf1-GTP:beta-Arrestin-1:Vamp Complex	Golgi membrane	Reactome DB_ID: 432669	
+	Clathrin Triskelion	cytosol	Reactome DB_ID: 350827	
+	Cargo:AP-1:Beta-arrestin:Vamp:Clathrin Triskelion:Dynamin:Endophilin Complex	Golgi membrane	Reactome DB_ID: 350825	
+	HSC70:Auxillin Complex	cytosol	Reactome DB_ID: 351175	
+	Lysosome Cargo:AP-1:Beta-arrestin:Clathrin Triskelion:Vamp Complex	lysosomal membrane	Reactome DB_ID: 432691	
+	Vamp2:SNAP23:Syn4 Secretory granule docking and fusion complex	plasma membrane	Reactome DB_ID: 376372	
+	Vamp7:SNAP23:Syn4 Plasma membrane vesicle docking and fusion complex	plasma membrane	Reactome DB_ID: 376340	
+	Vamp8:SNAP23:Syn4 Secretory granule docking and fusion complex	plasma membrane	Reactome DB_ID: 376367	
+	Connexin 26:Connexin 32 connexon	endoplasmic reticulum-Golgi intermediate compartment	Reactome DB_ID: 190632	
+	Connexin 43 connexon in Golgi transport vesicle	Golgi-associated vesicle membrane	Reactome DB_ID: 190583	
+	Cx43:TJP1	Golgi-associated vesicle membrane	Reactome DB_ID: 191615	
+	ESCRT-0/Cargo Complex	endosome membrane	Reactome DB_ID: 917704	
+	ESCRT-I	endosome membrane	Reactome DB_ID: 184398	
+	ESCRT-I/Cargo Complex	endosome membrane	Reactome DB_ID: 917702	
+	ESCRT-II/Cargo Complex	endosome membrane	Reactome DB_ID: 917698	
+	ESCRT-III/Cargo Complex	endosome membrane	Reactome DB_ID: 917699	
+	Vps/Vta1	cytosol	Reactome DB_ID: 917724	
+	14-3-3 eta dimer/14-3-3 gamma dimer/14-3-3 sigma dimer/14-3-3 theta dimer/14-3-3zeta dimer/YWHAB dimer/YWHAE dimer			
+	AMPK-alpha2:AMPK-beta:AMPK-gamma:AMP	cytosol	Reactome DB_ID: 1454683	
+	p-S237-TBC1D1:14-3-3	cytosol	Reactome DB_ID: 1454696	
+	RAB8A/10/13/14:GDP	cytoplasmic vesicle membrane	Reactome DB_ID: 1445130	
+	RAB8A/10/13/14:GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1445137	
+	RGC1:RGC2	cytosol	Reactome DB_ID: 1458509	
+	RGC1:phospho-RGC2	cytosol	Reactome DB_ID: 1458472	
+	RALA:GDP	cytoplasmic vesicle membrane	Reactome DB_ID: 1458466	
+	RALA:GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1458506	
+	MYO1C:CALM1	cytosol	Reactome DB_ID: 2316345	
+	RALA:GTP:MYO1C:Calmodulin:F-actin	cytoplasmic vesicle membrane	Reactome DB_ID: 2316344	
+	p-S1652-MYO5A:F-actin	cytosol	Reactome DB_ID: 2316339	
+	RALA:GTP:MYO1C:Exocyst	cytoplasmic vesicle membrane	Reactome DB_ID: 2316343	
+	RAB11A:GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1458542	
+	STX4:STXBP3 (MUNC18C)	plasma membrane	Reactome DB_ID: 2263479	
+	VAMP2:STX4:SNAP23	plasma membrane	Reactome DB_ID: 1449628	
+_physicalEntityName.size()	3
+		
+		
+		
+_proteinName.size()	31
+	SAR1B	cytosol	Reactome DB_ID: 174678	UniProt:Q9Y6B6	SAR1B
+	SEC24D	cytosol			
+	SEC13	cytosol	Reactome DB_ID: 203981	UniProt:P55735	SEC13
+	SEC31A	cytosol	Reactome DB_ID: 203983	UniProt:O94979	SEC31A
+	GBF1	Golgi membrane	Reactome DB_ID: 199994	UniProt:Q92538	GBF1
+	GAP	cytosol	Reactome DB_ID: 200464	UniProt:Q8N6T3	ARFGAP1
+	TBC1D8B	Golgi lumen			
+	ARRB1	cytosol	Reactome DB_ID: 264470	UniProt:P49407	ARRB1
+	SH3GL2	cytosol	Reactome DB_ID: 182958	UniProt:Q99962	SH3GL2
+	DNM2	cytosol	Reactome DB_ID: 2213180	UniProt:P50570	DNM2
+	VAMP8	lysosomal membrane			
+	BLOC1S1	lysosomal membrane			
+	STX4	plasma membrane	Reactome DB_ID: 181519	UniProt:Q12846	STX4
+	SNAP23	plasma membrane	Reactome DB_ID: 376345	UniProt:O00161	SNAP23
+	VAMP2	plasma membrane	Reactome DB_ID: 210516	UniProt:P63027	VAMP2
+	VAMP7	plasma membrane	Reactome DB_ID: 376361	UniProt:P51809	VAMP7
+	VAMP8	plasma membrane	Reactome DB_ID: 376365	UniProt:Q9BV40	VAMP8
+	GJB1	endoplasmic reticulum-Golgi intermediate compartment	Reactome DB_ID: 190636	UniProt:P08034	GJB1
+	CHMP4C	cytosol			
+	CHMP7	cytosol	Reactome DB_ID: 917703	UniProt:Q8WUX9	CHMP7
+	CHMP6	cytosol	Reactome DB_ID: 917736	UniProt:Q96FZ7	CHMP6
+	CHMP3	cytosol	Reactome DB_ID: 917722	UniProt:Q9Y3E7	CHMP3
+	CHMP2B	cytosol			
+	AS160	cytoplasmic vesicle membrane	Reactome DB_ID: 1445122	UniProt:O60343	TBC1D4
+	TBC1D1	cytoplasmic vesicle membrane	Reactome DB_ID: 1454718	UniProt:Q86TI0	TBC1D1
+	TBC1D1	cytosol	Reactome DB_ID: 1454673	UniProt:Q86TI0	TBC1D1
+	MYO5A	cytosol	Reactome DB_ID: 1428499	UniProt:Q9Y4I1	MYO5A
+	MYH15	cytosol			
+	MYH13	cytosol			
+	STXBP3	plasma membrane	Reactome DB_ID: 2263472	UniProt:O00186	STXBP3
+	GLUT4	plasma membrane	Reactome DB_ID: 70383	UniProt:P14672	SLC2A4
+_reactionName.size()	41
+	T	Sar1p Activation And Membrane Binding
+	D	Coat Assembly
+	B	Loss of Sar1b GTPase
+	D	Cargo, Sec31p:Sec13p, and v-SNARE recruitment
+	B	Vesicle Uncoating
+	T	Arf1 Activation by GBF1
+	D	Coat Complex Formation
+	D	GAP Recruitment to the Coatomer:Arf1-GTP Complex
+	T	Coatomer:Arf1-GTP:GAP lattice formation on golgi membrane
+	B	Hydrolysis of Arf1-GTP to Arf1-GDP
+	B	Diffusion of inactive Arf1-GDP from membrane
+	T	trans-Golgi Network Coat Activation
+	D	Vamp And trans-Golgi Network AP-1 Binding Coupled With Cargo Capture
+	T	trans-Golgi Network Coat Assembly
+	T	trans-Golgi Network Derived Vesicle Uncoating
+	T	trans-Golgi Network Vesicle Scission
+	D	Vamp And trans-Golgi Network AP-1 Binding Coupled With Cargo Capture On Lysosome Vesicle Destined Golgi Membrane
+	T	trans-Golgi Network Lysosome Vesicle Destined Membrane Coat Assembly
+	T	trans-Golgi Network Lysosomal Vesicle Scission
+	T	trans-Golgi Network Derived Lysosomal Vesicle Uncoating
+	T	Vamp2 associated secretory vesicle to plasma membrane transport
+	T	Vamp7 associated Lysosome to Plasma membrane transport
+	T	Vamp8 associated secretory vesicle to plasma membrane transport
+	D	Connexin oligomerization in  ER-Golgi-Intermediate Compartment
+	D	Association of Cx43  with TJP1
+	T	Cargo Recognition And Sorting
+	T	Cargo Sequestration
+	T	MVB Vesicle Formation
+	T	ESCRT Disassembly
+	D	14-3-3 Binds Phosphorylated AS160 (TBC1D4)
+	T	AMPK-alpha2 Phosphorylates TBC1D1
+	D	14-3-3 Binds Phosphorylated TBC1D1
+	T	RAB8A/10/13/14 Exchange GDP for GTP
+	T	RAB8A/10/13/14 Hydrolyze GTP
+	T	AKT2 Phosphorylates RGC2
+	T	Activation of RALA
+	D	RALA:GTP Activates MYO1C
+	B	RALA Hydrolyzes GTP
+	T	AKT2 Phosphorylates Myosin 5A
+	D	Translocation of GLUT4 Vesicle and Docking at the Plasma Membrane
+	T	Fusion of GLUT4 Vesicle with the Plasma Membrane
+_smallMoleculeName.size()	17
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+	GDP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996292	GDP [ChEBI:17552]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+	Pi	cytoplasmic vesicle membrane	Reactome DB_ID: 2255331	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	42
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	cytoplasmic membrane-bounded vesicle lumen
+	endoplasmic reticulum-Golgi intermediate compartment
+	whole

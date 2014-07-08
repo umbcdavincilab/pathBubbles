@@ -1,0 +1,113 @@
+edge.size() 31
+ 80 0 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 67 2 67 4 82 1 -1
+ 67 3 67 4 82 1 -1
+ 67 4 67 5 82 2 -1
+ 67 0 67 5 82 2 -1
+ 83 2 67 5 82 3 -1
+ 67 6 83 0 82 3 -1
+ 67 6 83 1 82 3 -1
+ 67 6 67 7 82 -1 -1
+ 80 -1 67 7 82 -1 -1
+ 80 -1 67 7 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 6 67 -1 82 -1 -1
+ 83 2 83 3 82 4 -1
+ 67 8 67 7 82 4 -1
+ 67 8 67 7 82 4 -1
+ 67 8 67 -1 82 -1 -1
+ 67 8 80 2 82 -1 -1
+ 80 2 67 9 82 5 -1
+ 80 1 67 9 82 5 -1
+ 80 3 67 10 82 6 -1
+ 80 2 67 10 82 6 -1
+ 67 10 67 11 82 7 -1
+ 80 4 67 12 82 8 -1
+ 67 11 67 12 82 8 -1
+ 80 1 67 -1 82 9 -1
+ 67 6 67 -1 82 9 -1
+ 67 0 82 1 82 2 -1
+ 67 5 82 1 82 3 -1
+ 67 6 82 1 82 4 -1
+_complexName.size()	13
+	Dimeric BMP2	extracellular region	Reactome DB_ID: 201463	
+	Ligand Trap:BMP2	extracellular region	Reactome DB_ID: 201806	
+	BMPRII dimer	plasma membrane	Reactome DB_ID: 201465	
+	BMPRI dimer	plasma membrane	Reactome DB_ID: 201428	
+	BMPRII:BMPRI	plasma membrane	Reactome DB_ID: 202640	
+	BMP:BMPR	plasma membrane	Reactome DB_ID: 201459	
+	BMP:BMPRII:P-BMPRI	plasma membrane	Reactome DB_ID: 201426	
+	BMP:p-BMPR:Endofin:SMAD1/5/8	early endosome membrane	Reactome DB_ID: 201477	
+	BMP:p-BMPR:Endofin:p-2S-SMAD1/5/8	early endosome membrane	Reactome DB_ID: 201467	
+	I-SMAD:p-2S-SMAD1/5/8	cytosol	Reactome DB_ID: 202644	
+	p-2S-SMAD1/5/8:SMAD4	cytosol	Reactome DB_ID: 201419	
+	p-2S-SMAD1/5/8:SMAD4	nucleoplasm	Reactome DB_ID: 201450	
+	p-2S-SMAD1/5/8:SMAD4:SKI	nucleoplasm	Reactome DB_ID: 201427	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	NOG	extracellular region			
+	SMAD7	cytosol			
+	SMA9_HUMAN	cytosol			
+	SMAD4	cytosol	Reactome DB_ID: 170862	UniProt:Q13485	SMAD4
+	SKI	nucleoplasm	Reactome DB_ID: 173473	UniProt:P12755	SKI
+_reactionName.size()	10
+	D	The ligand trap binds the ligand BMP2, blocking BMP signalling
+	D	Formation of a heteromeric BMP receptor complex
+	D	BMP2 binds to the receptor complex
+	T	Type II receptor phosphorylates type I receptor
+	T	Activated type I receptor phosphorylates R-Smad1/5/8 directly
+	D	I-Smad competes with Co-Smad for R-Smad1/5/8
+	D	Phospho-R-Smad1/5/8 forms a complex with Co-Smad
+	T	The phospho-R-Smad1/5/8:Co-Smad transfers to the nucleus
+	D	SKI complexes with the Smad complex, suppressing BMP2 signalling
+	D	I-Smad competes with R-Smad1/5/8 for type I receptor
+_smallMoleculeName.size()	4
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,101 @@
+edge.size() 36
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 2 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 80 3 67 1 82 1 -1
+ 80 1 67 1 82 1 -1
+ 67 1 80 3 82 2 -1
+ 80 4 80 3 82 2 -1
+ 80 4 80 5 82 2 -1
+ 67 1 80 5 82 2 -1
+ 80 6 80 7 82 3 -1
+ 67 0 80 7 82 3 -1
+ 67 0 80 2 82 3 -1
+ 80 6 80 2 82 3 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 2 82 1 82 3 -1
+_complexName.size()	3
+	Beta-TrCP1:PER	cytosol	Reactome DB_ID: 400368	
+	FBXL3:CRY	nucleoplasm	Reactome DB_ID: 400351	
+	SCF-beta-TrCP1 complex	cytosol	Reactome DB_ID: 174155	
+_physicalEntityName.size()	0
+_proteinName.size()	8
+	p-PER2	cytosol			
+	p-CRY2	nucleoplasm			
+	BTRC	cytosol	Reactome DB_ID: 174237	UniProt:Q9Y297	BTRC
+	FBXL3	nucleoplasm	Reactome DB_ID: 400380	UniProt:Q9UKT7	FBXL3
+	UBC(609-684)	nucleoplasm			
+	ub-p-CRY2	nucleoplasm			
+	UBC(609-684)	cytosol			
+	ub-p-PER2	cytosol			
+_reactionName.size()	4
+	D	Binding of Beta-TrCP1 to phosphorylated PER proteins
+	D	Binding of FBXL3 to Phosphorylated CRY proteins
+	T	Ubiquitination of CRY Proteins
+	T	Ubiquitination of PER Proteins
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

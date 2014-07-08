@@ -1,0 +1,3182 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Pathway>
+    <ANodeBlock Num="0"/>
+    <compartmentBlock Num="40">
+        <compartment j="0">
+            <Name>cytosol</Name>
+            <Position>(-0.984375, -0.025, 2.96875, 0.7315)</Position>
+            <Contain>(C, 0, C, 1, C, 2, C, 3, C, 4, C, 5, C, 6, C, 7, C, 8, C, 10, C, 11, C, 12, C, 13, C, 14, C, 15, C, 17, C, 18, C, 19, C, 20, C, 21, C, 22, C, 24, C, 26, C, 27, C, 29, C, 30, C, 31, C, 32, C, 33, C, 34, C, 35, C, 36, C, 37, C, 38, C, 39, C, 40, C, 41, C, 42, C, 43, C, 45, C, 46, C, 47, C, 48, C, 49, P, 0, P, 1, P, 2, P, 3, P, 4, P, 6, P, 7, P, 8, P, 9, P, 10, P, 11, P, 12, P, 13, P, 14, R, 0, R, 1, R, 4, R, 9, R, 10, R, 11, R, 15, R, 16, R, 17, R, 20, R, 21, R, 22, R, 23, R, 24, R, 25, R, 28, R, 31, R, 32, R, 33, R, 34, R, 35, R, 39, R, 40, R, 41, R, 44, R, 47, R, 48, R, 49, R, 50, R, 51, R, 52, R, 54, R, 55, R, 57, R, 58, R, 59, R, 60, R, 61, R, 62, R, 63, R, 64, R, 65, R, 66, R, 67, R, 69, R, 70, R, 71, R, 72, R, 73, R, 74, R, 75, R, 76, R, 77, R, 78, R, 79, R, 80, R, 81, R, 82, R, 83, R, 85, R, 86, R, 87, R, 88, R, 89, R, 92, R, 93, R, 95, R, 96, R, 97, R, 98, R, 99, R, 100, R, 101, R, 102)</Contain>
+        </compartment>
+        <compartment j="1">
+            <Name>Golgi lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="2">
+            <Name>Golgi membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="3">
+            <Name>early endosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="4">
+            <Name></Name>
+            <Position>(0.33, -0.41, 0.11875, 0.36575)</Position>
+            <Contain>(R, 30, R, 94)</Contain>
+        </compartment>
+        <compartment j="5">
+            <Name>early endosome membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="6">
+            <Name>mitochondrial inner membrane</Name>
+            <Position>(0.280781, 1.48, 0.564953, 0.43225)</Position>
+            <Contain>(C, 25, R, 42, R, 43)</Contain>
+        </compartment>
+        <compartment j="7">
+            <Name>mitochondrial outer membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="8">
+            <Name>photoreceptor disc membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="9">
+            <Name>lysosomal membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="10">
+            <Name>endoplasmic reticulum membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="11">
+            <Name>plasma membrane</Name>
+            <Position>(0.395938, -0.865, 0.346156, 0.09975)</Position>
+            <Contain>(C, 16, R, 27, R, 56)</Contain>
+        </compartment>
+        <compartment j="12">
+            <Name>endosome membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="13">
+            <Name>Golgi-associated vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="14">
+            <Name>cytoplasmic vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="15">
+            <Name>nuclear envelope</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="16">
+            <Name>chromosome, centromeric region</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="17">
+            <Name>chromosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="18">
+            <Name>endosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="19">
+            <Name>nucleoplasm</Name>
+            <Position>(0.454375, 0.745, 0.235125, 0.3325)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="20">
+            <Name>extracellular region</Name>
+            <Position>(0.455, -0.41, 0.352688, 0.36575)</Position>
+            <Contain>(R, 36, R, 37)</Contain>
+        </compartment>
+        <compartment j="21">
+            <Name>cell junction</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="22">
+            <Name>peroxisomal matrix</Name>
+            <Position>(0.390781, -0.76, 0.355953, 0.3325)</Position>
+            <Contain>(R, 5, R, 6, R, 26, R, 45)</Contain>
+        </compartment>
+        <compartment j="23">
+            <Name>mitochondrial matrix</Name>
+            <Position>(0.37875, 1.095, 0.378812, 0.36575)</Position>
+            <Contain>(R, 2, R, 3, R, 7, R, 8, R, 12, R, 13, R, 14, R, 18, R, 29, R, 103)</Contain>
+        </compartment>
+        <compartment j="24">
+            <Name>endosome lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="25">
+            <Name>endocytic vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="26">
+            <Name>phagocytic vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="27">
+            <Name>phagocytic vesicle lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="28">
+            <Name>lysosomal lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="29">
+            <Name>photoreceptor outer segment membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="30">
+            <Name>photoreceptor inner segment membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="31">
+            <Name>mitochondrial intermembrane space</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="32">
+            <Name>secretory granule membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="33">
+            <Name>secretory granule lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="34">
+            <Name>endoplasmic reticulum lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="35">
+            <Name>endoplasmic reticulum quality control compartment</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="36">
+            <Name>ER to Golgi transport vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="37">
+            <Name>clathrin-coated endocytic vesicle</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="38">
+            <Name>platelet dense tubular network membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="39">
+            <Name>whole</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+    </compartmentBlock>
+    <complexBlock Num="50">
+        <complex j="0">
+            <Name>PPAT dimer</Name>
+            <Position>(0.72236, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="1">
+            <Name>PPAT tetramer</Name>
+            <Position>(0.547152, 0.15029, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="2">
+            <Name>PAICS octamer</Name>
+            <Position>(0.377097, -0.0226099, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="3">
+            <Name>adenylosuccinate lyase tetramer</Name>
+            <Position>(1.19645, -0.0226099, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="4">
+            <Name>ATIC dimer</Name>
+            <Position>(0.588377, 0.0350234, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="5">
+            <Name>IMP (inosine monophosphate) dehydrogenase 1 tetramer/IMP (inosine monophosphate) dehydrogenase 2 tetramer</Name>
+            <Position>(-0.323736, 0.0926567, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="6">
+            <Name>adenylosuccinate synthetase like 1 holoenzyme dimer/adenylosuccinate synthetase holoenzyme dimer</Name>
+            <Position>(-0.772064, 0.0350234, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="7">
+            <Name>adenosine kinase holoenzyme</Name>
+            <Position>(0.160663, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="8">
+            <Name>DCK dimer</Name>
+            <Position>(0.073059, 0.438457, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="9">
+            <Name>deoxyguanosine kinase holoenzyme</Name>
+            <Position>(-1000, -1000, 0.2, 0.05)</Position>
+        </complex>
+        <complex j="10">
+            <Name>AMPD1 tetramer/AMPD2 tetramer/AMPD3 tetramer</Name>
+            <Position>(0.423476, 0.265557, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="11">
+            <Name>ADAL:Zn</Name>
+            <Position>(1.114, 0.0350234, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="12">
+            <Name>NP trimer</Name>
+            <Position>(0.114285, 0.0926567, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="13">
+            <Name>APRT homodimer</Name>
+            <Position>(-0.973553, 0.0926567, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="14">
+            <Name>HGPRT homotetramer</Name>
+            <Position>(-0.98386, 0.0926567, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="15">
+            <Name>GMPR tetramer/GMPR2 tetramer</Name>
+            <Position>(-0.890587, 0.0926567, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="16">
+            <Name>5'-nucleotidase, ecto (CD73) holoenzyme</Name>
+            <Position>(0.566515, -0.86067, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="17">
+            <Name>NT5C2 tetramer</Name>
+            <Position>(-0.916353, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="18">
+            <Name>NT5C1A tetramer</Name>
+            <Position>(1.15523, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="19">
+            <Name>NT5C dimer</Name>
+            <Position>(0.160663, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="20">
+            <Name>Guanine deaminase homodimer</Name>
+            <Position>(-0.1846, 0.15029, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="21">
+            <Name>XDH dimer</Name>
+            <Position>(-0.813289, 0.15029, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="22">
+            <Name>GPX1 tetramer</Name>
+            <Position>(-0.890587, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="23">
+            <Name>CAT tetramer</Name>
+            <Position>(-1000, -1000, 0.2, 0.05)</Position>
+        </complex>
+        <complex j="24">
+            <Name>CAD hexamer</Name>
+            <Position>(-0.942634, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="25">
+            <Name>DHOdeHase-Fe-FMN complex</Name>
+            <Position>(0.285735, 1.4774, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="26">
+            <Name>UMPS dimer</Name>
+            <Position>(0.289493, 0.0350234, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="27">
+            <Name>DCTD hexamer</Name>
+            <Position>(-0.864821, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="28">
+            <Name>DUT trimer</Name>
+            <Position>(-1000, -1000, 0.2, 0.05)</Position>
+        </complex>
+        <complex j="29">
+            <Name>TS dimer</Name>
+            <Position>(0.248267, 0.32319, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="30">
+            <Name>TYMP dimer</Name>
+            <Position>(0.72236, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="31">
+            <Name>UCK1 tetramer</Name>
+            <Position>(0.289493, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="32">
+            <Name>UCK2 tetramer</Name>
+            <Position>(0.377097, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="33">
+            <Name>TK1 tetramer</Name>
+            <Position>(0.423476, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="34">
+            <Name>CDA tetramer</Name>
+            <Position>(0.892415, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="35">
+            <Name>NT5C3 holoenzyme</Name>
+            <Position>(0.804811, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="36">
+            <Name>DPYD dimer</Name>
+            <Position>(-0.952941, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="37">
+            <Name>Dihydropyriminidase-Zn complex</Name>
+            <Position>(-0.839055, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="38">
+            <Name>3-ureidopropionase-Zn complex</Name>
+            <Position>(-0.963247, 0.265557, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="39">
+            <Name>AK5 dimer</Name>
+            <Position>(0.073059, 0.32319, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="40">
+            <Name>dTMP kinase-Mg complex</Name>
+            <Position>(-0.143375, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="41">
+            <Name>CTPS tetramer</Name>
+            <Position>(0.763586, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="42">
+            <Name>CTPS2 tetramer</Name>
+            <Position>(-0.730838, 0.207923, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="43">
+            <Name>ribonucleotide reductase</Name>
+            <Position>(-0.519557, 0.265557, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="44">
+            <Name>glutathione reductase holoenzyme</Name>
+            <Position>(-1000, -1000, 0.2, 0.05)</Position>
+        </complex>
+        <complex j="45">
+            <Name>thioredoxin reductase holoenzyme</Name>
+            <Position>(-0.41134, 0.32319, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="46">
+            <Name>nucleoside diphosphate kinase 1A:5B heterohexamer/nucleoside diphosphate kinase 2A:4B heterohexamer/nucleoside diphosphate kinase 3A:3B heterohexamer/nucleoside diphosphate kinase 4A:2B heterohexamer/nucleoside diphosphate kinase 5A:1B heterohexamer/nucleoside diphosphate kinase A hexamer/nucleoside diphosphate kinase B hexamer</Name>
+            <Position>(-0.370115, 0.380823, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="47">
+            <Name>ITPA dimer</Name>
+            <Position>(0.207042, 0.0926567, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="48">
+            <Name>NUDT1p18:Mg2+/NUDT1p21:Mg2+/NUDT1p22:Mg2+/NUDT1p26:Mg2+</Name>
+            <Position>(0.073059, 0.0350234, 0.00927574, 0.0182732)</Position>
+        </complex>
+        <complex j="49">
+            <Name>NUDT5 dimer</Name>
+            <Position>(-0.839055, 0.265557, 0.00927574, 0.0182732)</Position>
+        </complex>
+    </complexBlock>
+    <proteinBlock Num="15">
+        <protein j="0">
+            <Name>GART</Name>
+            <Position>(1.77052, 0.211948, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="1">
+            <Name>PFAS</Name>
+            <Position>(0.925396, 0.211948, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="2">
+            <Name>GMPS</Name>
+            <Position>(-0.115548, 0.154315, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="3">
+            <Name>ADA</Name>
+            <Position>(0.873864, 0.0966815, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="4">
+            <Name>NT5C1B</Name>
+            <Position>(-0.342288, 0.327215, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="5">
+            <Name>TK2</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="6">
+            <Name>CMPK1</Name>
+            <Position>(0.142112, 0.500115, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="7">
+            <Name>GUK1</Name>
+            <Position>(-0.24953, 0.384848, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="8">
+            <Name>AK1</Name>
+            <Position>(-0.24953, 0.442481, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="9">
+            <Name>GLRX</Name>
+            <Position>(0.616205, 0.327215, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="10">
+            <Name>TTase</Name>
+            <Position>(-0.569028, 0.269582, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="11">
+            <Name>TXN</Name>
+            <Position>(-0.62056, 0.327215, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="12">
+            <Name>ADF</Name>
+            <Position>(0.616205, 0.384848, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="13">
+            <Name>MTH2</Name>
+            <Position>(1.38918, 0.0390482, 0.0463787, 0.0240557)</Position>
+        </protein>
+        <protein j="14">
+            <Name>MTH3</Name>
+            <Position>(0.358545, 0.0390482, 0.0463787, 0.0240557)</Position>
+        </protein>
+    </proteinBlock>
+    <physicalEntityBlock Num="0"/>
+    <smallMoleculeBlock Num="151">
+        <smallMolecule j="0">
+            <Name>FUMA</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="1">
+            <Name>ADP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="2">
+            <Name>GDP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="3">
+            <Name>UDP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="4">
+            <Name>ITP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="5">
+            <Name>PPi</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="6">
+            <Name>dITP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="7">
+            <Name>8-oxo-dGTP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="8">
+            <Name>10-formyl-THF</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="9">
+            <Name>THF</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="10">
+            <Name>AICAR</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="11">
+            <Name>FAICAR</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="12">
+            <Name>2-hydroxy-AMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="13">
+            <Name>dIDP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="14">
+            <Name>dIMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="15">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="16">
+            <Name>dIDP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="17">
+            <Name>IDP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="18">
+            <Name>IMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="19">
+            <Name>IDP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="20">
+            <Name>IMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="21">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="22">
+            <Name>AMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="23">
+            <Name>ADP-D-ribose</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="24">
+            <Name>R5P</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="25">
+            <Name>R5P</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="26">
+            <Name>NAD</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="27">
+            <Name>NAD</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="28">
+            <Name>L-Gln</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="29">
+            <Name>L-Asp</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="30">
+            <Name>GTP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="31">
+            <Name>ADS</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="32">
+            <Name>NH3</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="33">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="34">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="35">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="36">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="37">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="38">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="39">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="40">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="41">
+            <Name>ATP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="42">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="43">
+            <Name>ADP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="44">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="45">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="46">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="47">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="48">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="49">
+            <Name>Hyp</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="50">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="51">
+            <Name>PRPP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="52">
+            <Name>PRPP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="53">
+            <Name>Ade</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="54">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="55">
+            <Name>PRPP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="56">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="57">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="58">
+            <Name>NH4+</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="59">
+            <Name>GMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="60">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="61">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="62">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="63">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="64">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="65">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="66">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="67">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="68">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="69">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="70">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="71">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="72">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="73">
+            <Name>XAN</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="74">
+            <Name>O2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="75">
+            <Name>H2O2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="76">
+            <Name>O2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="77">
+            <Name>O2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="78">
+            <Name>H2O2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="79">
+            <Name>O2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="80">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="81">
+            <Name>Gly</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="82">
+            <Name>HCO3-</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="83">
+            <Name>HCO3-</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="84">
+            <Name>H+</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="85">
+            <Name>QH2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="86">
+            <Name>QH2</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="87">
+            <Name>PRPP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="88">
+            <Name>dUTP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="89">
+            <Name>dUMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="90">
+            <Name>dUTP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="91">
+            <Name>PPi</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="92">
+            <Name>THF</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="93">
+            <Name>DHF</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="94">
+            <Name>TMP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="95">
+            <Name>THF</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="96">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="97">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="98">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="99">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="100">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="101">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="102">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="103">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="104">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="105">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="106">
+            <Name>Pi</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="107">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="108">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="109">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="110">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="111">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="112">
+            <Name>L-Gln</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="113">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="114">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="115">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="116">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="117">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="118">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="119">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="120">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="121">
+            <Name>b-Ala</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="122">
+            <Name>L-Ala</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="123">
+            <Name>AIR</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="124">
+            <Name>AIR</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="125">
+            <Name>3AIB</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="126">
+            <Name>3AIB</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="127">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="128">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="129">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="130">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="131">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="132">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="133">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="134">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="135">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="136">
+            <Name>L-Gln</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="137">
+            <Name>L-Gln</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="138">
+            <Name>UTP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="139">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="140">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="141">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="142">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="143">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="144">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="145">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="146">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="147">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="148">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="149">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="150">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+    </smallMoleculeBlock>
+    <DnaBlock Num="0"/>
+    <reactionBlock Num="104">
+        <reaction j="0">
+            <Name>Formation of phosphoribosyl pyrophosphate amidotransferase tetramer</Name>
+            <Position>(0.721998, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="1">
+            <Name>Dissociation of phosphoribosyl pyrophosphate amidotransferase tetramer</Name>
+            <Position>(0.763224, 0.197075, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="2">
+            <Name>PRPP + H2O + L-Glutamine => 5-Phosphoribosylamine + L-Glutamate + PPi</Name>
+            <Position>(0.705567, 1.3056, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="3">
+            <Name>5-Phosphoribosylamine + Glycine + ATP => GAR + ADP + Pi</Name>
+            <Position>(0.578047, 1.29573, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="4">
+            <Name>GAR + 10-Formyl-THF => FGAR + THF</Name>
+            <Position>(1.31977, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="5">
+            <Name>FGAR + L-Glutamine + ATP + H2O => FGAM + L-Glutamate + ADP + Pi</Name>
+            <Position>(0.741467, -0.66893, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="6">
+            <Name>FGAM + ATP => AIR + ADP + Pi</Name>
+            <Position>(0.546897, -0.701441, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="7">
+            <Name>AIR + CO2 => CAIR</Name>
+            <Position>(0.475808, 1.3846, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="8">
+            <Name>CAIR + Aspartate + ATP => SAICAR + ADP + Pi</Name>
+            <Position>(0.475808, 1.35498, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="9">
+            <Name>SAICAR => AICAR + Fumarate</Name>
+            <Position>(1.31977, 0.0241754, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="10">
+            <Name>AICAR + 10-Formyl-THF => FAICAR + THF</Name>
+            <Position>(1.40737, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="11">
+            <Name>FAICAR => IMP + H2O</Name>
+            <Position>(0.0726969, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="12">
+            <Name>IMP + H2O + NAD+ => XMP + NADH + H+ [IMPDH1,2]</Name>
+            <Position>(0.499641, 1.23319, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="13">
+            <Name>XMP + L-Glutamine + ATP + H2O => GMP + L-Glutamate + AMP + pyrophosphate</Name>
+            <Position>(0.706137, 1.2694, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="14">
+            <Name>IMP + L-Aspartate + GTP => Adenylosuccinate + GDP + Pi [ADSS]</Name>
+            <Position>(0.659426, 1.34181, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="15">
+            <Name>Adenylosuccinate => AMP + Fumarate</Name>
+            <Position>(0.943585, 0.0241754, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="16">
+            <Name>(2'-deoxy)adenosine + H2O => (2'-deoxy)inosine + NH3 [ADA]</Name>
+            <Position>(0.892053, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="17">
+            <Name>(2'-deoxy)adenosine + ATP => (d)AMP + ADP [ADK]</Name>
+            <Position>(0.289131, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="18">
+            <Name>deoxyadenosine or deoxyguanosine + ATP => dAMP or dGMP + ADP [DCK]</Name>
+            <Position>(0.475808, 1.32535, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="19">
+            <Name>dA, dG, or dI + ATP => dAMP, dGMP, or dIMP + ADP [DGUOK]</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="20">
+            <Name>AMP + H2O => IMP + NH3 [AMPD]</Name>
+            <Position>(0.634394, 0.312342, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="21">
+            <Name>N6-methyl-AMP + H2O => IMP + methylamine</Name>
+            <Position>(0.763224, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="22">
+            <Name>guanine + (deoxy)ribose 1-phosphate &lt;=> (deoxy)guanosine + orthophosphate [NP]</Name>
+            <Position>(0.763224, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="23">
+            <Name>hypoxanthine + (deoxy)ribose 1-phosphate &lt;=> (deoxy)inosine + orthophosphate [NP]</Name>
+            <Position>(-0.916715, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="24">
+            <Name>Adenine + PRPP => AMP + PPi</Name>
+            <Position>(-0.890949, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="25">
+            <Name>guanine or hypoxanthine + PRPP => GMP or IMP + PPi [HPRT1]</Name>
+            <Position>(-0.937585, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="26">
+            <Name>GMP + NADPH + H+ => IMP + NADP+ + NH4+ [GMPR,GMPR2]</Name>
+            <Position>(0.63254, -0.506374, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="27">
+            <Name>AMP, dAMP, GMP, or IMP + H2O => adenosine, deoxyadenosine, guanosine, or inosine + orthophosphate [NT5E]</Name>
+            <Position>(0.393074, -0.840374, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="28">
+            <Name>(d)GMP or (d)IMP + H2O => (2'-deoxy)guanosine or (2'-deoxy)inosine + orthophosphate [NT5C2]</Name>
+            <Position>(-0.550839, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="29">
+            <Name>AMP + H2O => adenosine + orthophosphate [NT5C1B]</Name>
+            <Position>(0.373932, 1.26611, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="30">
+            <Name>(2'-deoxy)purine nucleoside 5'-monophosphate + H2O => (2'-deoxy)purine nucleoside + orthophosphate [NT5C1A]</Name>
+            <Position>(0.418063, -0.381365, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="31">
+            <Name>(d)GMP or (d)IMP + H2O => (d)G or (d)I + orthophosphate [NT5C]</Name>
+            <Position>(0.505564, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="32">
+            <Name>(deoxy)guanosine + orthophosphate &lt;=> guanine + (deoxy)ribose 1-phosphate [NP]</Name>
+            <Position>(1.40737, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="33">
+            <Name>(deoxy)inosine + orthophosphate &lt;=> hypoxanthine + (deoxy)ribose 1-phosphate [NP]</Name>
+            <Position>(1.27854, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="34">
+            <Name>Guanine + H2O => Xanthine + NH3</Name>
+            <Position>(0.247905, 0.197075, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="35">
+            <Name>Hypoxanthine + H2O + O2 => Xanthine + H2O2</Name>
+            <Position>(-0.27772, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="36">
+            <Name>Xanthine + H2O + O2 => Urate + H2O2</Name>
+            <Position>(0.485269, -0.387006, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="37">
+            <Name>2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O</Name>
+            <Position>(0.467525, -0.357384, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="38">
+            <Name>2 H2O2 => O2 + 2 H2O</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="39">
+            <Name>bicarbonate and glutamine combine to form carbamoyl phosphate</Name>
+            <Position>(0.845675, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="40">
+            <Name>carbamoyl phosphate and L-aspartate combine to form N-Carbamoyl-L-aspartate</Name>
+            <Position>(-0.890949, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="41">
+            <Name>N-carbamoyl L-aspartate + H+ &lt;=> (S)-dihydroorotate + H2O</Name>
+            <Position>(-0.865183, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="42">
+            <Name>oxidation of (S)-Dihydroorotate to form Orotate</Name>
+            <Position>(0.295444, 1.50573, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="43">
+            <Name>phosphoribosylation of orotate to form oritidine 5'-phosphate (OMP)</Name>
+            <Position>(0.762562, 1.53843, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="44">
+            <Name>orotidine 5'-monophosphate => uridine 5'-monophosphate + CO2</Name>
+            <Position>(-0.370477, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="45">
+            <Name>dCMP + H2O => dUMP + NH4+</Name>
+            <Position>(0.741489, -0.737203, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="46">
+            <Name>dUTP + H2O => dUMP + pyrophosphate</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="47">
+            <Name>conversion of dUMP to dTMP</Name>
+            <Position>(0.423113, 0.369975, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="48">
+            <Name>uracil + (deoxy)ribose 1-phosphate &lt;=> (deoxy)uridine + orthophosphate [UPP]</Name>
+            <Position>(1.23732, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="49">
+            <Name>thymine or uracil + 2-deoxy-D-ribose 1-phosphate &lt;=> thymidine or deoxyuridine + orthophosphate [TYMP]</Name>
+            <Position>(0.634394, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="50">
+            <Name>cytidine or uridine + ATP => CMP or UMP + ADP [UCK1]</Name>
+            <Position>(0.376735, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="51">
+            <Name>cytidine or uridine + ATP => CMP or UMP + ADP [UCK2]</Name>
+            <Position>(0.423113, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="52">
+            <Name>phosphorylation of 2'-Deoxythymidine to dTMP</Name>
+            <Position>(0.464339, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="53">
+            <Name>deoxycytidine, thymidine, or deoxyuridine + ATP => dCMP, TMP, or dUMP + ADP [TK2]</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="54">
+            <Name>(2'-deoxy)cytidine + ATP => (d)CMP + ADP [DCK]</Name>
+            <Position>(0.289131, 0.485242, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="55">
+            <Name>deamination of 2'-Deoxycytidine to 2'-Deoxyuridine</Name>
+            <Position>(0.680773, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="56">
+            <Name>CMP or TMP or UMP + H2O => cytidine, thymidine, or uridine + orthophosphate [NT5E]</Name>
+            <Position>(0.566152, -0.840374, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="57">
+            <Name>(d)CMP, TMP, or (d)UMP + H2O => (deoxy)cytidine, thymidine, or (deoxy)uridine + orthophosphate [NT5C3]</Name>
+            <Position>(0.588015, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="58">
+            <Name>(d)CMP, TMP, or (d)UMP + H2O => (deoxy)cytidine, thymidine, or (deoxy)uridine + orthophosphate [NT5C1A]</Name>
+            <Position>(0.464339, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="59">
+            <Name>TMP, uridine 2', 3', or 5' monophosphates, or deoxyuridine 3' or 5' monophosphates + H2O => thymidine or (deoxy)uridine + orthophosphate [NT5C]</Name>
+            <Position>(-0.0973582, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="60">
+            <Name>(deoxy)uridine + orthophosphate &lt;=> uracil + (deoxy)ribose 1-phosphate [UPP]</Name>
+            <Position>(1.27854, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="61">
+            <Name>thymidine or deoxyuridine + orthophosphate &lt;=> thymine or uracil + 2-deoxy-D-ribose 1-phosphate [TYMP]</Name>
+            <Position>(0.680773, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="62">
+            <Name>reduction of uracil to form dihydrouracil</Name>
+            <Position>(-0.231341, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="63">
+            <Name>5,6-dihydrouracil + H2O => beta-ureidopropionate</Name>
+            <Position>(0.0726969, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="64">
+            <Name>conversion of 3-ureidopropionate to beta-alanine</Name>
+            <Position>(-0.494154, 0.312342, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="65">
+            <Name>reduction of thymine to form 5,6-Dihydrothymine</Name>
+            <Position>(-0.839417, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="66">
+            <Name>5,6-dihydrothymine + H2O => beta-ureidoisobutyrate</Name>
+            <Position>(-0.813651, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="67">
+            <Name>conversion of 3-Ureidoiosbutyrate to 3-Aminoisobutyrate</Name>
+            <Position>(-0.452928, 0.312342, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="68">
+            <Name>(R)-3-aminoisobutyric acid + pyruvate => 2-methyl-3-oxopropanoate + alanine</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="69">
+            <Name>(d)AMP + ATP &lt;=> (d)ADP + ADP [AK1]</Name>
+            <Position>(0.20668, 0.600509, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="70">
+            <Name>(d)ADP + ADP &lt;=> (d)AMP + ATP [AK1]</Name>
+            <Position>(0.247905, 0.542875, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="71">
+            <Name>(d)AMP or (d)CMP + ATP &lt;=> (d)ADP or (d)CDP + ADP [AK5]</Name>
+            <Position>(0.20668, 0.369975, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="72">
+            <Name>(d)ADP or (d)CDP + ADP &lt;=> (d)AMP or (d)CMP + ATP [AK5]</Name>
+            <Position>(0.330356, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="73">
+            <Name>(d)GMP + ATP &lt;=> (d)GDP + ADP [GUK1]</Name>
+            <Position>(0.247905, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="74">
+            <Name>(d)GDP + ADP &lt;=> (d)GMP + ATP [GUK1]</Name>
+            <Position>(-0.27772, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="75">
+            <Name>(d)CMP or UMP + ATP &lt;=> (d)CDP or UDP + ADP [CMPK1]</Name>
+            <Position>(0.0726969, 0.485242, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="76">
+            <Name>(d)CDP or UDP + ADP &lt;=> (d)CMP or UMP + ATP [CMPK1]</Name>
+            <Position>(0.113922, 0.485242, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="77">
+            <Name>phosphorylation of dUMP or TMP to dUDP or TDP</Name>
+            <Position>(-0.0973582, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="78">
+            <Name>dUDP or TDP + ADP &lt;=> dUMP or TMP + ATP [DTYMK]</Name>
+            <Position>(0.588015, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="79">
+            <Name>UTP + glutamine + ATP + H2O => CTP + glutamate + ADP + orthophosphate [CTPS]</Name>
+            <Position>(0.54679, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="80">
+            <Name>UTP + glutamine + ATP + H2O => CTP + glutamate + ADP + orthophosphate [CTPS2]</Name>
+            <Position>(-0.452928, 0.254709, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="81">
+            <Name>NDP + reduced glutaredoxin => dNDP + oxidized glutaredoxin + H2O</Name>
+            <Position>(0.588015, 0.312342, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="82">
+            <Name>NDP + reduced thioredoxin => dNDP + oxidized thioredoxin + H2O</Name>
+            <Position>(-0.0509795, 0.312342, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="83">
+            <Name>glutaredoxin (oxidized) + glutathione (reduced) => glutaredoxin (reduced) + glutathione (oxidized)</Name>
+            <Position>(-0.00975399, 0.312342, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="84">
+            <Name>glutathione (oxidized) + NADPH + H+ => 2 glutathione (reduced) + NADP+</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="85">
+            <Name>thioredoxin, oxidized (nucleus) &lt;=> thioredoxin, oxidized (cytosol)</Name>
+            <Position>(0.464339, 0.369975, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="86">
+            <Name>regeneration of active (reduced) Thioredoxin</Name>
+            <Position>(-0.0973582, 0.369975, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="87">
+            <Name>thioredoxin, reduced (cytosol) &lt;=> thioredoxin, reduced (nucleus)</Name>
+            <Position>(-0.324098, 0.369975, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="88">
+            <Name>(d)NDP + ATP &lt;=> (d)NTP + ADP [NME1,2,3]</Name>
+            <Position>(-0.184962, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="89">
+            <Name>(d)NTP + ADP &lt;=> (d)NDP + ATP [NME1,2,3]</Name>
+            <Position>(-0.0509795, 0.427609, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="90">
+            <Name>(d)NDP + ATP &lt;=> (d)NTP + ADP [NME4]</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="91">
+            <Name>(d)NTP + ADP &lt;=> (d)NDP + ATP [NME4]</Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="92">
+            <Name>ITP + H2O => IMP + PPi</Name>
+            <Position>(-0.370477, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="93">
+            <Name>dITP + H2O => dIMP + PPi</Name>
+            <Position>(1.36099, 0.139442, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="94">
+            <Name>XTP + H2O => XMP + PPi</Name>
+            <Position>(0.350687, -0.134822, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="95">
+            <Name>NUDT1 hydrolyses 8-oxo-dGTP to 8-oxo-dGMP</Name>
+            <Position>(0.943585, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="96">
+            <Name>NUDT15 hydrolyses 8-oxo-dGTP to 8-oxo-dGMP</Name>
+            <Position>(1.07241, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="97">
+            <Name>NUDT15 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP</Name>
+            <Position>(1.03119, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="98">
+            <Name>NUDT18 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP</Name>
+            <Position>(0.989964, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="99">
+            <Name>8-oxo-GDP + H2O => 8-oxo-GMP + Pi</Name>
+            <Position>(-0.411703, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="100">
+            <Name>NUDT1 hydrolyses 2-OH-dATP to 2-OH-dAMP</Name>
+            <Position>(-0.51992, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="101">
+            <Name>NUDT1 hydrolyses 2-OH-ATP to 2-OH-AMP</Name>
+            <Position>(-0.494154, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="102">
+            <Name>NUDT18 hydrolyses 8-OH-dADP to 8-OH-dAMP</Name>
+            <Position>(0.376735, 0.0818087, 0.00999999, 0.00999999)</Position>
+        </reaction>
+        <reaction j="103">
+            <Name>Cytosolic NUDT5 hydrolyses ADP-ribose to R5P and AMP</Name>
+            <Position>(0.373932, 1.23648, 0.00999999, 0.00999999)</Position>
+        </reaction>
+    </reactionBlock>
+    <edgeBlock Num="421">
+        <edge j="0">
+            <Name></Name>
+            <Position>(67, 0, 82, 0, 67, 1, -1)</Position>
+        </edge>
+        <edge j="1">
+            <Name></Name>
+            <Position>(67, 1, 82, 1, 67, 0, -1)</Position>
+        </edge>
+        <edge j="2">
+            <Name></Name>
+            <Position>(83, -1, 82, 2, 83, -1, -1)</Position>
+        </edge>
+        <edge j="3">
+            <Name></Name>
+            <Position>(83, 2, 82, 2, 83, -1, -1)</Position>
+        </edge>
+        <edge j="4">
+            <Name></Name>
+            <Position>(83, -1, 82, 2, 83, 0, -1)</Position>
+        </edge>
+        <edge j="5">
+            <Name></Name>
+            <Position>(83, 3, 82, 2, 83, -1, -1)</Position>
+        </edge>
+        <edge j="6">
+            <Name></Name>
+            <Position>(83, 4, 82, 2, 83, 1, -1)</Position>
+        </edge>
+        <edge j="7">
+            <Name></Name>
+            <Position>(83, 6, 82, 3, 83, -1, -1)</Position>
+        </edge>
+        <edge j="8">
+            <Name></Name>
+            <Position>(83, -1, 82, 3, 83, -1, -1)</Position>
+        </edge>
+        <edge j="9">
+            <Name></Name>
+            <Position>(83, -1, 82, 3, 83, 5, -1)</Position>
+        </edge>
+        <edge j="10">
+            <Name></Name>
+            <Position>(83, -1, 82, 4, 83, -1, -1)</Position>
+        </edge>
+        <edge j="11">
+            <Name></Name>
+            <Position>(83, -1, 82, 4, 83, -1, -1)</Position>
+        </edge>
+        <edge j="12">
+            <Name></Name>
+            <Position>(83, -1, 82, 4, 83, -1, -1)</Position>
+        </edge>
+        <edge j="13">
+            <Name></Name>
+            <Position>(83, 6, 82, 5, 83, 7, -1)</Position>
+        </edge>
+        <edge j="14">
+            <Name></Name>
+            <Position>(83, -1, 82, 5, 83, -1, -1)</Position>
+        </edge>
+        <edge j="15">
+            <Name></Name>
+            <Position>(83, 3, 82, 5, 83, 5, -1)</Position>
+        </edge>
+        <edge j="16">
+            <Name></Name>
+            <Position>(83, 8, 82, 5, 83, 0, -1)</Position>
+        </edge>
+        <edge j="17">
+            <Name></Name>
+            <Position>(83, 8, 82, 6, 83, 6, -1)</Position>
+        </edge>
+        <edge j="18">
+            <Name></Name>
+            <Position>(83, 5, 82, 6, 83, -1, -1)</Position>
+        </edge>
+        <edge j="19">
+            <Name></Name>
+            <Position>(83, 11, 82, 7, 83, 9, -1)</Position>
+        </edge>
+        <edge j="20">
+            <Name></Name>
+            <Position>(83, 6, 82, 8, 83, -1, -1)</Position>
+        </edge>
+        <edge j="21">
+            <Name></Name>
+            <Position>(83, -1, 82, 8, 83, 5, -1)</Position>
+        </edge>
+        <edge j="22">
+            <Name></Name>
+            <Position>(83, -1, 82, 8, 83, 11, -1)</Position>
+        </edge>
+        <edge j="23">
+            <Name></Name>
+            <Position>(83, -1, 82, 9, 83, -1, -1)</Position>
+        </edge>
+        <edge j="24">
+            <Name></Name>
+            <Position>(83, -1, 82, 10, 83, -1, -1)</Position>
+        </edge>
+        <edge j="25">
+            <Name></Name>
+            <Position>(83, -1, 82, 10, 83, -1, -1)</Position>
+        </edge>
+        <edge j="26">
+            <Name></Name>
+            <Position>(83, -1, 82, 10, 83, -1, -1)</Position>
+        </edge>
+        <edge j="27">
+            <Name></Name>
+            <Position>(83, -1, 82, 11, 83, 12, -1)</Position>
+        </edge>
+        <edge j="28">
+            <Name></Name>
+            <Position>(83, 12, 82, 12, 83, -1, -1)</Position>
+        </edge>
+        <edge j="29">
+            <Name></Name>
+            <Position>(83, -1, 82, 12, 83, -1, -1)</Position>
+        </edge>
+        <edge j="30">
+            <Name></Name>
+            <Position>(83, 0, 82, 12, 83, 13, -1)</Position>
+        </edge>
+        <edge j="31">
+            <Name></Name>
+            <Position>(83, -1, 82, 12, 83, 14, -1)</Position>
+        </edge>
+        <edge j="32">
+            <Name></Name>
+            <Position>(83, -1, 82, 12, 83, 15, -1)</Position>
+        </edge>
+        <edge j="33">
+            <Name></Name>
+            <Position>(83, 16, 82, 13, 83, 20, -1)</Position>
+        </edge>
+        <edge j="34">
+            <Name></Name>
+            <Position>(83, 5, 82, 13, 83, -1, -1)</Position>
+        </edge>
+        <edge j="35">
+            <Name></Name>
+            <Position>(83, 14, 82, 13, 83, -1, -1)</Position>
+        </edge>
+        <edge j="36">
+            <Name></Name>
+            <Position>(83, 0, 82, 13, 83, -1, -1)</Position>
+        </edge>
+        <edge j="37">
+            <Name></Name>
+            <Position>(83, 17, 82, 13, 83, 3, -1)</Position>
+        </edge>
+        <edge j="38">
+            <Name></Name>
+            <Position>(83, 18, 82, 13, 83, -1, -1)</Position>
+        </edge>
+        <edge j="39">
+            <Name></Name>
+            <Position>(83, 19, 82, 13, 83, 4, -1)</Position>
+        </edge>
+        <edge j="40">
+            <Name></Name>
+            <Position>(83, 6, 82, 14, 83, -1, -1)</Position>
+        </edge>
+        <edge j="41">
+            <Name></Name>
+            <Position>(83, 24, 82, 14, 83, 21, -1)</Position>
+        </edge>
+        <edge j="42">
+            <Name></Name>
+            <Position>(83, 25, 82, 14, 83, 12, -1)</Position>
+        </edge>
+        <edge j="43">
+            <Name></Name>
+            <Position>(83, -1, 82, 14, 83, 22, -1)</Position>
+        </edge>
+        <edge j="44">
+            <Name></Name>
+            <Position>(83, 26, 82, 14, 83, 23, -1)</Position>
+        </edge>
+        <edge j="45">
+            <Name></Name>
+            <Position>(83, -1, 82, 15, 83, -1, -1)</Position>
+        </edge>
+        <edge j="46">
+            <Name></Name>
+            <Position>(83, -1, 82, 15, 83, -1, -1)</Position>
+        </edge>
+        <edge j="47">
+            <Name></Name>
+            <Position>(83, 27, 82, 16, 83, 0, -1)</Position>
+        </edge>
+        <edge j="48">
+            <Name></Name>
+            <Position>(83, -1, 82, 16, 83, -1, -1)</Position>
+        </edge>
+        <edge j="49">
+            <Name></Name>
+            <Position>(83, -1, 82, 17, 83, 5, -1)</Position>
+        </edge>
+        <edge j="50">
+            <Name></Name>
+            <Position>(83, -1, 82, 17, 83, -1, -1)</Position>
+        </edge>
+        <edge j="51">
+            <Name></Name>
+            <Position>(83, 5, 82, 18, 83, -1, -1)</Position>
+        </edge>
+        <edge j="52">
+            <Name></Name>
+            <Position>(83, -1, 82, 18, 83, -1, -1)</Position>
+        </edge>
+        <edge j="53">
+            <Name></Name>
+            <Position>(83, -1, 82, 18, 83, -1, -1)</Position>
+        </edge>
+        <edge j="54">
+            <Name></Name>
+            <Position>(83, -1, 82, 19, 83, -1, -1)</Position>
+        </edge>
+        <edge j="55">
+            <Name></Name>
+            <Position>(83, 28, 82, 19, 83, -1, -1)</Position>
+        </edge>
+        <edge j="56">
+            <Name></Name>
+            <Position>(83, -1, 82, 19, 83, 29, -1)</Position>
+        </edge>
+        <edge j="57">
+            <Name></Name>
+            <Position>(83, -1, 82, 20, 83, -1, -1)</Position>
+        </edge>
+        <edge j="58">
+            <Name></Name>
+            <Position>(83, 0, 82, 20, 83, -1, -1)</Position>
+        </edge>
+        <edge j="59">
+            <Name></Name>
+            <Position>(83, -1, 82, 21, 83, -1, -1)</Position>
+        </edge>
+        <edge j="60">
+            <Name></Name>
+            <Position>(83, 0, 82, 21, 83, -1, -1)</Position>
+        </edge>
+        <edge j="61">
+            <Name></Name>
+            <Position>(83, -1, 82, 21, 83, 12, -1)</Position>
+        </edge>
+        <edge j="62">
+            <Name></Name>
+            <Position>(83, 6, 82, 22, 83, 30, -1)</Position>
+        </edge>
+        <edge j="63">
+            <Name></Name>
+            <Position>(83, 32, 82, 22, 83, 31, -1)</Position>
+        </edge>
+        <edge j="64">
+            <Name></Name>
+            <Position>(83, 6, 82, 23, 83, 33, -1)</Position>
+        </edge>
+        <edge j="65">
+            <Name></Name>
+            <Position>(83, -1, 82, 23, 83, 34, -1)</Position>
+        </edge>
+        <edge j="66">
+            <Name></Name>
+            <Position>(83, -1, 82, 24, 83, 35, -1)</Position>
+        </edge>
+        <edge j="67">
+            <Name></Name>
+            <Position>(83, 4, 82, 24, 83, 36, -1)</Position>
+        </edge>
+        <edge j="68">
+            <Name></Name>
+            <Position>(83, 40, 82, 25, 83, 37, -1)</Position>
+        </edge>
+        <edge j="69">
+            <Name></Name>
+            <Position>(83, 41, 82, 25, 83, 38, -1)</Position>
+        </edge>
+        <edge j="70">
+            <Name></Name>
+            <Position>(83, 4, 82, 25, 83, 39, -1)</Position>
+        </edge>
+        <edge j="71">
+            <Name></Name>
+            <Position>(83, 45, 82, 26, 83, 42, -1)</Position>
+        </edge>
+        <edge j="72">
+            <Name></Name>
+            <Position>(83, -1, 82, 26, 83, 43, -1)</Position>
+        </edge>
+        <edge j="73">
+            <Name></Name>
+            <Position>(83, 46, 82, 26, 83, 44, -1)</Position>
+        </edge>
+        <edge j="74">
+            <Name></Name>
+            <Position>(83, 47, 82, 26, 83, -1, -1)</Position>
+        </edge>
+        <edge j="75">
+            <Name></Name>
+            <Position>(83, 12, 82, 26, 83, -1, -1)</Position>
+        </edge>
+        <edge j="76">
+            <Name></Name>
+            <Position>(83, 51, 82, 27, 83, 48, -1)</Position>
+        </edge>
+        <edge j="77">
+            <Name></Name>
+            <Position>(83, 52, 82, 27, 83, 49, -1)</Position>
+        </edge>
+        <edge j="78">
+            <Name></Name>
+            <Position>(83, 53, 82, 27, 83, 50, -1)</Position>
+        </edge>
+        <edge j="79">
+            <Name></Name>
+            <Position>(83, 6, 82, 28, 83, 0, -1)</Position>
+        </edge>
+        <edge j="80">
+            <Name></Name>
+            <Position>(83, 55, 82, 28, 83, 54, -1)</Position>
+        </edge>
+        <edge j="81">
+            <Name></Name>
+            <Position>(83, -1, 82, 29, 83, 6, -1)</Position>
+        </edge>
+        <edge j="82">
+            <Name></Name>
+            <Position>(83, 0, 82, 29, 83, 56, -1)</Position>
+        </edge>
+        <edge j="83">
+            <Name></Name>
+            <Position>(83, 0, 82, 30, 83, 6, -1)</Position>
+        </edge>
+        <edge j="84">
+            <Name></Name>
+            <Position>(83, 57, 82, 30, 83, -1, -1)</Position>
+        </edge>
+        <edge j="85">
+            <Name></Name>
+            <Position>(83, -1, 82, 30, 83, -1, -1)</Position>
+        </edge>
+        <edge j="86">
+            <Name></Name>
+            <Position>(83, 6, 82, 31, 83, 0, -1)</Position>
+        </edge>
+        <edge j="87">
+            <Name></Name>
+            <Position>(83, 55, 82, 31, 83, -1, -1)</Position>
+        </edge>
+        <edge j="88">
+            <Name></Name>
+            <Position>(83, 6, 82, 32, 83, 58, -1)</Position>
+        </edge>
+        <edge j="89">
+            <Name></Name>
+            <Position>(83, 32, 82, 32, 83, -1, -1)</Position>
+        </edge>
+        <edge j="90">
+            <Name></Name>
+            <Position>(83, 6, 82, 33, 83, -1, -1)</Position>
+        </edge>
+        <edge j="91">
+            <Name></Name>
+            <Position>(83, -1, 82, 33, 83, -1, -1)</Position>
+        </edge>
+        <edge j="92">
+            <Name></Name>
+            <Position>(83, 31, 82, 34, 83, 27, -1)</Position>
+        </edge>
+        <edge j="93">
+            <Name></Name>
+            <Position>(83, 0, 82, 34, 83, -1, -1)</Position>
+        </edge>
+        <edge j="94">
+            <Name></Name>
+            <Position>(83, -1, 82, 35, 83, 59, -1)</Position>
+        </edge>
+        <edge j="95">
+            <Name></Name>
+            <Position>(83, -1, 82, 35, 83, 34, -1)</Position>
+        </edge>
+        <edge j="96">
+            <Name></Name>
+            <Position>(83, -1, 82, 36, 83, -1, -1)</Position>
+        </edge>
+        <edge j="97">
+            <Name></Name>
+            <Position>(83, -1, 82, 36, 83, 60, -1)</Position>
+        </edge>
+        <edge j="98">
+            <Name></Name>
+            <Position>(83, 0, 82, 36, 83, 61, -1)</Position>
+        </edge>
+        <edge j="99">
+            <Name></Name>
+            <Position>(83, -1, 82, 36, 83, 62, -1)</Position>
+        </edge>
+        <edge j="100">
+            <Name></Name>
+            <Position>(83, -1, 82, 37, 83, 64, -1)</Position>
+        </edge>
+        <edge j="101">
+            <Name></Name>
+            <Position>(83, 63, 82, 37, 83, 0, -1)</Position>
+        </edge>
+        <edge j="102">
+            <Name></Name>
+            <Position>(83, -1, 82, 38, 83, 65, -1)</Position>
+        </edge>
+        <edge j="103">
+            <Name></Name>
+            <Position>(83, -1, 82, 38, 83, -1, -1)</Position>
+        </edge>
+        <edge j="104">
+            <Name></Name>
+            <Position>(83, 6, 82, 39, 83, -1, -1)</Position>
+        </edge>
+        <edge j="105">
+            <Name></Name>
+            <Position>(83, -1, 82, 39, 83, -1, -1)</Position>
+        </edge>
+        <edge j="106">
+            <Name></Name>
+            <Position>(83, -1, 82, 39, 83, 5, -1)</Position>
+        </edge>
+        <edge j="107">
+            <Name></Name>
+            <Position>(83, 66, 82, 39, 83, 0, -1)</Position>
+        </edge>
+        <edge j="108">
+            <Name></Name>
+            <Position>(83, 67, 82, 39, 83, -1, -1)</Position>
+        </edge>
+        <edge j="109">
+            <Name></Name>
+            <Position>(83, -1, 82, 39, 83, -1, -1)</Position>
+        </edge>
+        <edge j="110">
+            <Name></Name>
+            <Position>(83, 3, 82, 39, 83, -1, -1)</Position>
+        </edge>
+        <edge j="111">
+            <Name></Name>
+            <Position>(83, 6, 82, 40, 83, 68, -1)</Position>
+        </edge>
+        <edge j="112">
+            <Name></Name>
+            <Position>(83, 70, 82, 40, 83, 69, -1)</Position>
+        </edge>
+        <edge j="113">
+            <Name></Name>
+            <Position>(83, 0, 82, 41, 83, 70, -1)</Position>
+        </edge>
+        <edge j="114">
+            <Name></Name>
+            <Position>(83, 72, 82, 41, 83, 71, -1)</Position>
+        </edge>
+        <edge j="115">
+            <Name></Name>
+            <Position>(83, 73, 82, 42, 83, 75, -1)</Position>
+        </edge>
+        <edge j="116">
+            <Name></Name>
+            <Position>(83, 72, 82, 42, 83, 76, -1)</Position>
+        </edge>
+        <edge j="117">
+            <Name></Name>
+            <Position>(83, 74, 82, 42, 83, 77, -1)</Position>
+        </edge>
+        <edge j="118">
+            <Name></Name>
+            <Position>(83, -1, 82, 43, 83, -1, -1)</Position>
+        </edge>
+        <edge j="119">
+            <Name></Name>
+            <Position>(83, 75, 82, 43, 83, -1, -1)</Position>
+        </edge>
+        <edge j="120">
+            <Name></Name>
+            <Position>(83, -1, 82, 43, 83, 4, -1)</Position>
+        </edge>
+        <edge j="121">
+            <Name></Name>
+            <Position>(83, -1, 82, 44, 83, 78, -1)</Position>
+        </edge>
+        <edge j="122">
+            <Name></Name>
+            <Position>(83, -1, 82, 44, 83, 10, -1)</Position>
+        </edge>
+        <edge j="123">
+            <Name></Name>
+            <Position>(83, 27, 82, 45, 83, 79, -1)</Position>
+        </edge>
+        <edge j="124">
+            <Name></Name>
+            <Position>(83, 80, 82, 45, 83, 0, -1)</Position>
+        </edge>
+        <edge j="125">
+            <Name></Name>
+            <Position>(83, -1, 82, 46, 83, 81, -1)</Position>
+        </edge>
+        <edge j="126">
+            <Name></Name>
+            <Position>(83, -1, 82, 46, 83, -1, -1)</Position>
+        </edge>
+        <edge j="127">
+            <Name></Name>
+            <Position>(83, -1, 82, 46, 83, -1, -1)</Position>
+        </edge>
+        <edge j="128">
+            <Name></Name>
+            <Position>(83, -1, 82, 47, 83, -1, -1)</Position>
+        </edge>
+        <edge j="129">
+            <Name></Name>
+            <Position>(83, 80, 82, 47, 83, -1, -1)</Position>
+        </edge>
+        <edge j="130">
+            <Name></Name>
+            <Position>(83, -1, 82, 47, 83, 82, -1)</Position>
+        </edge>
+        <edge j="131">
+            <Name></Name>
+            <Position>(83, 6, 82, 48, 83, -1, -1)</Position>
+        </edge>
+        <edge j="132">
+            <Name></Name>
+            <Position>(83, 83, 82, 48, 83, -1, -1)</Position>
+        </edge>
+        <edge j="133">
+            <Name></Name>
+            <Position>(83, 6, 82, 49, 83, -1, -1)</Position>
+        </edge>
+        <edge j="134">
+            <Name></Name>
+            <Position>(83, -1, 82, 49, 83, -1, -1)</Position>
+        </edge>
+        <edge j="135">
+            <Name></Name>
+            <Position>(83, -1, 82, 50, 83, 5, -1)</Position>
+        </edge>
+        <edge j="136">
+            <Name></Name>
+            <Position>(83, -1, 82, 50, 83, -1, -1)</Position>
+        </edge>
+        <edge j="137">
+            <Name></Name>
+            <Position>(83, -1, 82, 51, 83, 5, -1)</Position>
+        </edge>
+        <edge j="138">
+            <Name></Name>
+            <Position>(83, -1, 82, 51, 83, -1, -1)</Position>
+        </edge>
+        <edge j="139">
+            <Name></Name>
+            <Position>(83, -1, 82, 52, 83, 5, -1)</Position>
+        </edge>
+        <edge j="140">
+            <Name></Name>
+            <Position>(83, 82, 82, 52, 83, 84, -1)</Position>
+        </edge>
+        <edge j="141">
+            <Name></Name>
+            <Position>(83, -1, 82, 53, 83, 29, -1)</Position>
+        </edge>
+        <edge j="142">
+            <Name></Name>
+            <Position>(83, 28, 82, 53, 83, 85, -1)</Position>
+        </edge>
+        <edge j="143">
+            <Name></Name>
+            <Position>(83, -1, 82, 53, 83, -1, -1)</Position>
+        </edge>
+        <edge j="144">
+            <Name></Name>
+            <Position>(83, 86, 82, 54, 83, -1, -1)</Position>
+        </edge>
+        <edge j="145">
+            <Name></Name>
+            <Position>(83, 5, 82, 54, 83, -1, -1)</Position>
+        </edge>
+        <edge j="146">
+            <Name></Name>
+            <Position>(83, -1, 82, 54, 83, -1, -1)</Position>
+        </edge>
+        <edge j="147">
+            <Name></Name>
+            <Position>(83, 83, 82, 55, 83, 87, -1)</Position>
+        </edge>
+        <edge j="148">
+            <Name></Name>
+            <Position>(83, 27, 82, 55, 83, 0, -1)</Position>
+        </edge>
+        <edge j="149">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="150">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="151">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="152">
+            <Name></Name>
+            <Position>(83, 51, 82, 56, 83, 88, -1)</Position>
+        </edge>
+        <edge j="153">
+            <Name></Name>
+            <Position>(83, 91, 82, 56, 83, 89, -1)</Position>
+        </edge>
+        <edge j="154">
+            <Name></Name>
+            <Position>(83, 92, 82, 56, 83, 90, -1)</Position>
+        </edge>
+        <edge j="155">
+            <Name></Name>
+            <Position>(83, 6, 82, 57, 83, 93, -1)</Position>
+        </edge>
+        <edge j="156">
+            <Name></Name>
+            <Position>(83, 94, 82, 57, 83, 0, -1)</Position>
+        </edge>
+        <edge j="157">
+            <Name></Name>
+            <Position>(83, 6, 82, 58, 83, 95, -1)</Position>
+        </edge>
+        <edge j="158">
+            <Name></Name>
+            <Position>(83, 94, 82, 58, 83, 0, -1)</Position>
+        </edge>
+        <edge j="159">
+            <Name></Name>
+            <Position>(83, -1, 82, 59, 83, 6, -1)</Position>
+        </edge>
+        <edge j="160">
+            <Name></Name>
+            <Position>(83, 0, 82, 59, 83, 97, -1)</Position>
+        </edge>
+        <edge j="161">
+            <Name></Name>
+            <Position>(83, 96, 82, 59, 83, -1, -1)</Position>
+        </edge>
+        <edge j="162">
+            <Name></Name>
+            <Position>(83, 6, 82, 60, 83, -1, -1)</Position>
+        </edge>
+        <edge j="163">
+            <Name></Name>
+            <Position>(83, 83, 82, 60, 83, -1, -1)</Position>
+        </edge>
+        <edge j="164">
+            <Name></Name>
+            <Position>(83, 6, 82, 61, 83, -1, -1)</Position>
+        </edge>
+        <edge j="165">
+            <Name></Name>
+            <Position>(83, -1, 82, 61, 83, -1, -1)</Position>
+        </edge>
+        <edge j="166">
+            <Name></Name>
+            <Position>(83, 45, 82, 62, 83, 98, -1)</Position>
+        </edge>
+        <edge j="167">
+            <Name></Name>
+            <Position>(83, 99, 82, 62, 83, -1, -1)</Position>
+        </edge>
+        <edge j="168">
+            <Name></Name>
+            <Position>(83, 100, 82, 63, 83, 0, -1)</Position>
+        </edge>
+        <edge j="169">
+            <Name></Name>
+            <Position>(83, 0, 82, 64, 83, 101, -1)</Position>
+        </edge>
+        <edge j="170">
+            <Name></Name>
+            <Position>(83, 100, 82, 64, 83, 102, -1)</Position>
+        </edge>
+        <edge j="171">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="172">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, 103, -1)</Position>
+        </edge>
+        <edge j="173">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="174">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="175">
+            <Name></Name>
+            <Position>(83, 45, 82, 65, 83, 104, -1)</Position>
+        </edge>
+        <edge j="176">
+            <Name></Name>
+            <Position>(83, 106, 82, 65, 83, 105, -1)</Position>
+        </edge>
+        <edge j="177">
+            <Name></Name>
+            <Position>(83, 107, 82, 66, 83, 106, -1)</Position>
+        </edge>
+        <edge j="178">
+            <Name></Name>
+            <Position>(83, 107, 82, 67, 83, 108, -1)</Position>
+        </edge>
+        <edge j="179">
+            <Name></Name>
+            <Position>(83, 0, 82, 67, 83, 109, -1)</Position>
+        </edge>
+        <edge j="180">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="181">
+            <Name></Name>
+            <Position>(83, 110, 82, 68, 83, 103, -1)</Position>
+        </edge>
+        <edge j="182">
+            <Name></Name>
+            <Position>(83, -1, 82, 68, 83, -1, -1)</Position>
+        </edge>
+        <edge j="183">
+            <Name></Name>
+            <Position>(83, -1, 82, 68, 83, -1, -1)</Position>
+        </edge>
+        <edge j="184">
+            <Name></Name>
+            <Position>(83, -1, 82, 69, 83, -1, -1)</Position>
+        </edge>
+        <edge j="185">
+            <Name></Name>
+            <Position>(83, 5, 82, 69, 83, 111, -1)</Position>
+        </edge>
+        <edge j="186">
+            <Name></Name>
+            <Position>(83, -1, 82, 70, 83, -1, -1)</Position>
+        </edge>
+        <edge j="187">
+            <Name></Name>
+            <Position>(83, 111, 82, 70, 83, 5, -1)</Position>
+        </edge>
+        <edge j="188">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, 5, -1)</Position>
+        </edge>
+        <edge j="189">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, 5, -1)</Position>
+        </edge>
+        <edge j="190">
+            <Name></Name>
+            <Position>(83, 5, 82, 71, 83, -1, -1)</Position>
+        </edge>
+        <edge j="191">
+            <Name></Name>
+            <Position>(83, 112, 82, 71, 83, -1, -1)</Position>
+        </edge>
+        <edge j="192">
+            <Name></Name>
+            <Position>(83, -1, 82, 72, 83, 5, -1)</Position>
+        </edge>
+        <edge j="193">
+            <Name></Name>
+            <Position>(83, -1, 82, 72, 83, 112, -1)</Position>
+        </edge>
+        <edge j="194">
+            <Name></Name>
+            <Position>(83, -1, 82, 73, 83, -1, -1)</Position>
+        </edge>
+        <edge j="195">
+            <Name></Name>
+            <Position>(83, -1, 82, 73, 83, 5, -1)</Position>
+        </edge>
+        <edge j="196">
+            <Name></Name>
+            <Position>(83, -1, 82, 74, 83, 113, -1)</Position>
+        </edge>
+        <edge j="197">
+            <Name></Name>
+            <Position>(83, -1, 82, 74, 83, 114, -1)</Position>
+        </edge>
+        <edge j="198">
+            <Name></Name>
+            <Position>(83, 5, 82, 75, 83, 116, -1)</Position>
+        </edge>
+        <edge j="199">
+            <Name></Name>
+            <Position>(83, 115, 82, 75, 83, 117, -1)</Position>
+        </edge>
+        <edge j="200">
+            <Name></Name>
+            <Position>(83, 5, 82, 76, 83, 118, -1)</Position>
+        </edge>
+        <edge j="201">
+            <Name></Name>
+            <Position>(83, 115, 82, 76, 83, -1, -1)</Position>
+        </edge>
+        <edge j="202">
+            <Name></Name>
+            <Position>(83, -1, 82, 77, 83, 119, -1)</Position>
+        </edge>
+        <edge j="203">
+            <Name></Name>
+            <Position>(83, 120, 82, 77, 83, 5, -1)</Position>
+        </edge>
+        <edge j="204">
+            <Name></Name>
+            <Position>(83, -1, 82, 78, 83, -1, -1)</Position>
+        </edge>
+        <edge j="205">
+            <Name></Name>
+            <Position>(83, 120, 82, 78, 83, -1, -1)</Position>
+        </edge>
+        <edge j="206">
+            <Name></Name>
+            <Position>(83, 6, 82, 79, 83, -1, -1)</Position>
+        </edge>
+        <edge j="207">
+            <Name></Name>
+            <Position>(83, -1, 82, 79, 83, 5, -1)</Position>
+        </edge>
+        <edge j="208">
+            <Name></Name>
+            <Position>(83, 3, 82, 79, 83, -1, -1)</Position>
+        </edge>
+        <edge j="209">
+            <Name></Name>
+            <Position>(83, -1, 82, 79, 83, 0, -1)</Position>
+        </edge>
+        <edge j="210">
+            <Name></Name>
+            <Position>(83, 6, 82, 80, 83, 121, -1)</Position>
+        </edge>
+        <edge j="211">
+            <Name></Name>
+            <Position>(83, -1, 82, 80, 83, 5, -1)</Position>
+        </edge>
+        <edge j="212">
+            <Name></Name>
+            <Position>(83, 3, 82, 80, 83, 122, -1)</Position>
+        </edge>
+        <edge j="213">
+            <Name></Name>
+            <Position>(83, -1, 82, 80, 83, 0, -1)</Position>
+        </edge>
+        <edge j="214">
+            <Name></Name>
+            <Position>(80, 10, 82, 81, 83, -1, -1)</Position>
+        </edge>
+        <edge j="215">
+            <Name></Name>
+            <Position>(80, 10, 82, 81, 80, 9, -1)</Position>
+        </edge>
+        <edge j="216">
+            <Name></Name>
+            <Position>(83, -1, 82, 81, 80, 9, -1)</Position>
+        </edge>
+        <edge j="217">
+            <Name></Name>
+            <Position>(83, -1, 82, 81, 83, -1, -1)</Position>
+        </edge>
+        <edge j="218">
+            <Name></Name>
+            <Position>(83, 0, 82, 81, 80, 9, -1)</Position>
+        </edge>
+        <edge j="219">
+            <Name></Name>
+            <Position>(83, 125, 82, 82, 83, 123, -1)</Position>
+        </edge>
+        <edge j="220">
+            <Name></Name>
+            <Position>(83, 126, 82, 82, 80, 11, -1)</Position>
+        </edge>
+        <edge j="221">
+            <Name></Name>
+            <Position>(80, 12, 82, 82, 80, 11, -1)</Position>
+        </edge>
+        <edge j="222">
+            <Name></Name>
+            <Position>(80, 12, 82, 82, 83, 124, -1)</Position>
+        </edge>
+        <edge j="223">
+            <Name></Name>
+            <Position>(83, 0, 82, 82, 80, 11, -1)</Position>
+        </edge>
+        <edge j="224">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="225">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="226">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="227">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="228">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="229">
+            <Name></Name>
+            <Position>(80, 10, 82, 83, 80, 9, -1)</Position>
+        </edge>
+        <edge j="230">
+            <Name></Name>
+            <Position>(83, 63, 82, 83, 80, 9, -1)</Position>
+        </edge>
+        <edge j="231">
+            <Name></Name>
+            <Position>(80, 10, 82, 83, 83, 64, -1)</Position>
+        </edge>
+        <edge j="232">
+            <Name></Name>
+            <Position>(83, 45, 82, 84, 83, -1, -1)</Position>
+        </edge>
+        <edge j="233">
+            <Name></Name>
+            <Position>(83, 63, 82, 84, 83, -1, -1)</Position>
+        </edge>
+        <edge j="234">
+            <Name></Name>
+            <Position>(80, -1, 82, 85, 80, 12, -1)</Position>
+        </edge>
+        <edge j="235">
+            <Name></Name>
+            <Position>(83, 45, 82, 86, 83, 127, -1)</Position>
+        </edge>
+        <edge j="236">
+            <Name></Name>
+            <Position>(80, 11, 82, 86, 83, 128, -1)</Position>
+        </edge>
+        <edge j="237">
+            <Name></Name>
+            <Position>(80, 11, 82, 86, 80, 12, -1)</Position>
+        </edge>
+        <edge j="238">
+            <Name></Name>
+            <Position>(80, 11, 82, 86, 80, 12, -1)</Position>
+        </edge>
+        <edge j="239">
+            <Name></Name>
+            <Position>(80, 11, 82, 87, 80, -1, -1)</Position>
+        </edge>
+        <edge j="240">
+            <Name></Name>
+            <Position>(83, 5, 82, 88, 83, -1, -1)</Position>
+        </edge>
+        <edge j="241">
+            <Name></Name>
+            <Position>(83, 129, 82, 88, 83, 130, -1)</Position>
+        </edge>
+        <edge j="242">
+            <Name></Name>
+            <Position>(83, -1, 82, 89, 83, 5, -1)</Position>
+        </edge>
+        <edge j="243">
+            <Name></Name>
+            <Position>(83, 130, 82, 89, 83, 129, -1)</Position>
+        </edge>
+        <edge j="244">
+            <Name></Name>
+            <Position>(83, 29, 82, 90, 83, 131, -1)</Position>
+        </edge>
+        <edge j="245">
+            <Name></Name>
+            <Position>(83, 132, 82, 90, 83, 28, -1)</Position>
+        </edge>
+        <edge j="246">
+            <Name></Name>
+            <Position>(83, 29, 82, 91, 83, 133, -1)</Position>
+        </edge>
+        <edge j="247">
+            <Name></Name>
+            <Position>(83, 132, 82, 91, 83, 134, -1)</Position>
+        </edge>
+        <edge j="248">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="249">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="250">
+            <Name></Name>
+            <Position>(83, 26, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="251">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="252">
+            <Name></Name>
+            <Position>(83, 12, 82, 92, 83, 135, -1)</Position>
+        </edge>
+        <edge j="253">
+            <Name></Name>
+            <Position>(83, 4, 82, 92, 83, 0, -1)</Position>
+        </edge>
+        <edge j="254">
+            <Name></Name>
+            <Position>(83, -1, 82, 93, 83, -1, -1)</Position>
+        </edge>
+        <edge j="255">
+            <Name></Name>
+            <Position>(83, 0, 82, 93, 83, -1, -1)</Position>
+        </edge>
+        <edge j="256">
+            <Name></Name>
+            <Position>(83, -1, 82, 93, 83, 4, -1)</Position>
+        </edge>
+        <edge j="257">
+            <Name></Name>
+            <Position>(83, 4, 82, 94, 83, -1, -1)</Position>
+        </edge>
+        <edge j="258">
+            <Name></Name>
+            <Position>(83, 14, 82, 94, 83, 0, -1)</Position>
+        </edge>
+        <edge j="259">
+            <Name></Name>
+            <Position>(83, 136, 82, 95, 83, 0, -1)</Position>
+        </edge>
+        <edge j="260">
+            <Name></Name>
+            <Position>(83, 4, 82, 95, 83, -1, -1)</Position>
+        </edge>
+        <edge j="261">
+            <Name></Name>
+            <Position>(83, 136, 82, 96, 83, 0, -1)</Position>
+        </edge>
+        <edge j="262">
+            <Name></Name>
+            <Position>(83, 4, 82, 96, 83, 137, -1)</Position>
+        </edge>
+        <edge j="263">
+            <Name></Name>
+            <Position>(83, 6, 82, 97, 83, 138, -1)</Position>
+        </edge>
+        <edge j="264">
+            <Name></Name>
+            <Position>(83, 136, 82, 97, 83, 0, -1)</Position>
+        </edge>
+        <edge j="265">
+            <Name></Name>
+            <Position>(83, 6, 82, 98, 83, -1, -1)</Position>
+        </edge>
+        <edge j="266">
+            <Name></Name>
+            <Position>(83, 136, 82, 98, 83, 0, -1)</Position>
+        </edge>
+        <edge j="267">
+            <Name></Name>
+            <Position>(83, -1, 82, 99, 83, 6, -1)</Position>
+        </edge>
+        <edge j="268">
+            <Name></Name>
+            <Position>(83, 0, 82, 99, 83, 139, -1)</Position>
+        </edge>
+        <edge j="269">
+            <Name></Name>
+            <Position>(83, -1, 82, 99, 83, 140, -1)</Position>
+        </edge>
+        <edge j="270">
+            <Name></Name>
+            <Position>(83, 141, 82, 100, 83, 4, -1)</Position>
+        </edge>
+        <edge j="271">
+            <Name></Name>
+            <Position>(83, 0, 82, 100, 83, 143, -1)</Position>
+        </edge>
+        <edge j="272">
+            <Name></Name>
+            <Position>(83, 142, 82, 100, 83, 144, -1)</Position>
+        </edge>
+        <edge j="273">
+            <Name></Name>
+            <Position>(83, 145, 82, 101, 83, 147, -1)</Position>
+        </edge>
+        <edge j="274">
+            <Name></Name>
+            <Position>(83, 0, 82, 101, 83, 148, -1)</Position>
+        </edge>
+        <edge j="275">
+            <Name></Name>
+            <Position>(83, 146, 82, 101, 83, 4, -1)</Position>
+        </edge>
+        <edge j="276">
+            <Name></Name>
+            <Position>(83, -1, 82, 102, 83, 6, -1)</Position>
+        </edge>
+        <edge j="277">
+            <Name></Name>
+            <Position>(83, 0, 82, 102, 83, -1, -1)</Position>
+        </edge>
+        <edge j="278">
+            <Name></Name>
+            <Position>(83, -1, 82, 102, 83, 149, -1)</Position>
+        </edge>
+        <edge j="279">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="280">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="281">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="282">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="283">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="284">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="285">
+            <Name></Name>
+            <Position>(83, 0, 82, 103, 83, -1, -1)</Position>
+        </edge>
+        <edge j="286">
+            <Name></Name>
+            <Position>(83, -1, 82, 103, 83, -1, -1)</Position>
+        </edge>
+        <edge j="287">
+            <Name></Name>
+            <Position>(83, -1, 82, 103, 83, 150, -1)</Position>
+        </edge>
+        <edge j="288">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="289">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="290">
+            <Name></Name>
+            <Position>(83, -1, 82, -1, 83, -1, -1)</Position>
+        </edge>
+        <edge j="291">
+            <Name></Name>
+            <Position>(67, 0, 82, 2, 82, 1, -1)</Position>
+        </edge>
+        <edge j="292">
+            <Name></Name>
+            <Position>(80, 0, 82, 3, 82, 1, -1)</Position>
+        </edge>
+        <edge j="293">
+            <Name></Name>
+            <Position>(80, 0, 82, 4, 82, 1, -1)</Position>
+        </edge>
+        <edge j="294">
+            <Name></Name>
+            <Position>(80, 1, 82, 5, 82, 1, -1)</Position>
+        </edge>
+        <edge j="295">
+            <Name></Name>
+            <Position>(80, 0, 82, 6, 82, 1, -1)</Position>
+        </edge>
+        <edge j="296">
+            <Name></Name>
+            <Position>(67, 2, 82, 7, 82, 1, -1)</Position>
+        </edge>
+        <edge j="297">
+            <Name></Name>
+            <Position>(67, 2, 82, 8, 82, 1, -1)</Position>
+        </edge>
+        <edge j="298">
+            <Name></Name>
+            <Position>(67, 3, 82, 9, 82, 1, -1)</Position>
+        </edge>
+        <edge j="299">
+            <Name></Name>
+            <Position>(67, 4, 82, 10, 82, 1, -1)</Position>
+        </edge>
+        <edge j="300">
+            <Name></Name>
+            <Position>(67, 4, 82, 11, 82, 1, -1)</Position>
+        </edge>
+        <edge j="301">
+            <Name></Name>
+            <Position>(67, 5, 82, 12, 82, 1, -1)</Position>
+        </edge>
+        <edge j="302">
+            <Name></Name>
+            <Position>(80, 2, 82, 13, 82, 1, -1)</Position>
+        </edge>
+        <edge j="303">
+            <Name></Name>
+            <Position>(67, 6, 82, 14, 82, 1, -1)</Position>
+        </edge>
+        <edge j="304">
+            <Name></Name>
+            <Position>(67, 3, 82, 15, 82, 1, -1)</Position>
+        </edge>
+        <edge j="305">
+            <Name></Name>
+            <Position>(80, 3, 82, 16, 82, 1, -1)</Position>
+        </edge>
+        <edge j="306">
+            <Name></Name>
+            <Position>(67, 7, 82, 17, 82, 1, -1)</Position>
+        </edge>
+        <edge j="307">
+            <Name></Name>
+            <Position>(67, 8, 82, 18, 82, 1, -1)</Position>
+        </edge>
+        <edge j="308">
+            <Name></Name>
+            <Position>(67, 9, 82, 19, 82, 1, -1)</Position>
+        </edge>
+        <edge j="309">
+            <Name></Name>
+            <Position>(67, 10, 82, 20, 82, 1, -1)</Position>
+        </edge>
+        <edge j="310">
+            <Name></Name>
+            <Position>(67, 11, 82, 21, 82, 1, -1)</Position>
+        </edge>
+        <edge j="311">
+            <Name></Name>
+            <Position>(67, 12, 82, 22, 82, 1, -1)</Position>
+        </edge>
+        <edge j="312">
+            <Name></Name>
+            <Position>(67, 12, 82, 23, 82, 1, -1)</Position>
+        </edge>
+        <edge j="313">
+            <Name></Name>
+            <Position>(67, 13, 82, 24, 82, 1, -1)</Position>
+        </edge>
+        <edge j="314">
+            <Name></Name>
+            <Position>(67, 14, 82, 25, 82, 1, -1)</Position>
+        </edge>
+        <edge j="315">
+            <Name></Name>
+            <Position>(67, 15, 82, 26, 82, 1, -1)</Position>
+        </edge>
+        <edge j="316">
+            <Name></Name>
+            <Position>(67, 16, 82, 27, 82, 1, -1)</Position>
+        </edge>
+        <edge j="317">
+            <Name></Name>
+            <Position>(67, 17, 82, 28, 82, 1, -1)</Position>
+        </edge>
+        <edge j="318">
+            <Name></Name>
+            <Position>(80, 4, 82, 29, 82, 1, -1)</Position>
+        </edge>
+        <edge j="319">
+            <Name></Name>
+            <Position>(67, 18, 82, 30, 82, 1, -1)</Position>
+        </edge>
+        <edge j="320">
+            <Name></Name>
+            <Position>(67, 19, 82, 31, 82, 1, -1)</Position>
+        </edge>
+        <edge j="321">
+            <Name></Name>
+            <Position>(67, 12, 82, 32, 82, 1, -1)</Position>
+        </edge>
+        <edge j="322">
+            <Name></Name>
+            <Position>(67, 12, 82, 33, 82, 1, -1)</Position>
+        </edge>
+        <edge j="323">
+            <Name></Name>
+            <Position>(67, 20, 82, 34, 82, 1, -1)</Position>
+        </edge>
+        <edge j="324">
+            <Name></Name>
+            <Position>(67, 21, 82, 35, 82, 1, -1)</Position>
+        </edge>
+        <edge j="325">
+            <Name></Name>
+            <Position>(67, 21, 82, 36, 82, 1, -1)</Position>
+        </edge>
+        <edge j="326">
+            <Name></Name>
+            <Position>(67, 22, 82, 37, 82, 1, -1)</Position>
+        </edge>
+        <edge j="327">
+            <Name></Name>
+            <Position>(67, 23, 82, 38, 82, 1, -1)</Position>
+        </edge>
+        <edge j="328">
+            <Name></Name>
+            <Position>(67, 24, 82, 39, 82, 1, -1)</Position>
+        </edge>
+        <edge j="329">
+            <Name></Name>
+            <Position>(67, 24, 82, 40, 82, 1, -1)</Position>
+        </edge>
+        <edge j="330">
+            <Name></Name>
+            <Position>(67, 24, 82, 41, 82, 1, -1)</Position>
+        </edge>
+        <edge j="331">
+            <Name></Name>
+            <Position>(67, 25, 82, 42, 82, 1, -1)</Position>
+        </edge>
+        <edge j="332">
+            <Name></Name>
+            <Position>(67, 26, 82, 43, 82, 1, -1)</Position>
+        </edge>
+        <edge j="333">
+            <Name></Name>
+            <Position>(67, 26, 82, 44, 82, 1, -1)</Position>
+        </edge>
+        <edge j="334">
+            <Name></Name>
+            <Position>(67, 27, 82, 45, 82, 1, -1)</Position>
+        </edge>
+        <edge j="335">
+            <Name></Name>
+            <Position>(67, 28, 82, 46, 82, 1, -1)</Position>
+        </edge>
+        <edge j="336">
+            <Name></Name>
+            <Position>(67, 29, 82, 47, 82, 1, -1)</Position>
+        </edge>
+        <edge j="337">
+            <Name></Name>
+            <Position>(80, 0, 82, 48, 82, 1, -1)</Position>
+        </edge>
+        <edge j="338">
+            <Name></Name>
+            <Position>(67, 30, 82, 49, 82, 1, -1)</Position>
+        </edge>
+        <edge j="339">
+            <Name></Name>
+            <Position>(67, 31, 82, 50, 82, 1, -1)</Position>
+        </edge>
+        <edge j="340">
+            <Name></Name>
+            <Position>(67, 32, 82, 51, 82, 1, -1)</Position>
+        </edge>
+        <edge j="341">
+            <Name></Name>
+            <Position>(67, 33, 82, 52, 82, 1, -1)</Position>
+        </edge>
+        <edge j="342">
+            <Name></Name>
+            <Position>(80, 5, 82, 53, 82, 1, -1)</Position>
+        </edge>
+        <edge j="343">
+            <Name></Name>
+            <Position>(67, 8, 82, 54, 82, 1, -1)</Position>
+        </edge>
+        <edge j="344">
+            <Name></Name>
+            <Position>(67, 34, 82, 55, 82, 1, -1)</Position>
+        </edge>
+        <edge j="345">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="346">
+            <Name></Name>
+            <Position>(67, 16, 82, 56, 82, 1, -1)</Position>
+        </edge>
+        <edge j="347">
+            <Name></Name>
+            <Position>(67, 35, 82, 57, 82, 1, -1)</Position>
+        </edge>
+        <edge j="348">
+            <Name></Name>
+            <Position>(67, 18, 82, 58, 82, 1, -1)</Position>
+        </edge>
+        <edge j="349">
+            <Name></Name>
+            <Position>(67, 19, 82, 59, 82, 1, -1)</Position>
+        </edge>
+        <edge j="350">
+            <Name></Name>
+            <Position>(80, 0, 82, 60, 82, 1, -1)</Position>
+        </edge>
+        <edge j="351">
+            <Name></Name>
+            <Position>(67, 30, 82, 61, 82, 1, -1)</Position>
+        </edge>
+        <edge j="352">
+            <Name></Name>
+            <Position>(67, 36, 82, 62, 82, 1, -1)</Position>
+        </edge>
+        <edge j="353">
+            <Name></Name>
+            <Position>(67, 37, 82, 63, 82, 1, -1)</Position>
+        </edge>
+        <edge j="354">
+            <Name></Name>
+            <Position>(67, 38, 82, 64, 82, 1, -1)</Position>
+        </edge>
+        <edge j="355">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="356">
+            <Name></Name>
+            <Position>(67, 36, 82, 65, 82, 1, -1)</Position>
+        </edge>
+        <edge j="357">
+            <Name></Name>
+            <Position>(67, 37, 82, 66, 82, 1, -1)</Position>
+        </edge>
+        <edge j="358">
+            <Name></Name>
+            <Position>(67, 38, 82, 67, 82, 1, -1)</Position>
+        </edge>
+        <edge j="359">
+            <Name></Name>
+            <Position>(67, -1, 82, 68, 82, 1, -1)</Position>
+        </edge>
+        <edge j="360">
+            <Name></Name>
+            <Position>(80, 6, 82, 69, 82, 1, -1)</Position>
+        </edge>
+        <edge j="361">
+            <Name></Name>
+            <Position>(80, 6, 82, 70, 82, 1, -1)</Position>
+        </edge>
+        <edge j="362">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="363">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="364">
+            <Name></Name>
+            <Position>(67, 39, 82, 71, 82, 1, -1)</Position>
+        </edge>
+        <edge j="365">
+            <Name></Name>
+            <Position>(67, 39, 82, 72, 82, 1, -1)</Position>
+        </edge>
+        <edge j="366">
+            <Name></Name>
+            <Position>(80, 7, 82, 73, 82, 1, -1)</Position>
+        </edge>
+        <edge j="367">
+            <Name></Name>
+            <Position>(80, 7, 82, 74, 82, 1, -1)</Position>
+        </edge>
+        <edge j="368">
+            <Name></Name>
+            <Position>(80, 8, 82, 75, 82, 1, -1)</Position>
+        </edge>
+        <edge j="369">
+            <Name></Name>
+            <Position>(80, 8, 82, 76, 82, 1, -1)</Position>
+        </edge>
+        <edge j="370">
+            <Name></Name>
+            <Position>(67, 40, 82, 77, 82, 1, -1)</Position>
+        </edge>
+        <edge j="371">
+            <Name></Name>
+            <Position>(67, 40, 82, 78, 82, 1, -1)</Position>
+        </edge>
+        <edge j="372">
+            <Name></Name>
+            <Position>(67, 41, 82, 79, 82, 1, -1)</Position>
+        </edge>
+        <edge j="373">
+            <Name></Name>
+            <Position>(67, 42, 82, 80, 82, 1, -1)</Position>
+        </edge>
+        <edge j="374">
+            <Name></Name>
+            <Position>(67, 43, 82, 81, 82, 1, -1)</Position>
+        </edge>
+        <edge j="375">
+            <Name></Name>
+            <Position>(67, 43, 82, 82, 82, 1, -1)</Position>
+        </edge>
+        <edge j="376">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="377">
+            <Name></Name>
+            <Position>(80, 10, 82, 83, 82, 1, -1)</Position>
+        </edge>
+        <edge j="378">
+            <Name></Name>
+            <Position>(67, 44, 82, 84, 82, 1, -1)</Position>
+        </edge>
+        <edge j="379">
+            <Name></Name>
+            <Position>(67, 45, 82, 86, 82, 1, -1)</Position>
+        </edge>
+        <edge j="380">
+            <Name></Name>
+            <Position>(67, 46, 82, 88, 82, 1, -1)</Position>
+        </edge>
+        <edge j="381">
+            <Name></Name>
+            <Position>(67, 46, 82, 89, 82, 1, -1)</Position>
+        </edge>
+        <edge j="382">
+            <Name></Name>
+            <Position>(67, -1, 82, 90, 82, 1, -1)</Position>
+        </edge>
+        <edge j="383">
+            <Name></Name>
+            <Position>(67, -1, 82, 91, 82, 1, -1)</Position>
+        </edge>
+        <edge j="384">
+            <Name></Name>
+            <Position>(67, 47, 82, 92, 82, 1, -1)</Position>
+        </edge>
+        <edge j="385">
+            <Name></Name>
+            <Position>(67, 47, 82, 93, 82, 1, -1)</Position>
+        </edge>
+        <edge j="386">
+            <Name></Name>
+            <Position>(67, 47, 82, 94, 82, 1, -1)</Position>
+        </edge>
+        <edge j="387">
+            <Name></Name>
+            <Position>(67, 48, 82, 95, 82, 1, -1)</Position>
+        </edge>
+        <edge j="388">
+            <Name></Name>
+            <Position>(80, 13, 82, 96, 82, 1, -1)</Position>
+        </edge>
+        <edge j="389">
+            <Name></Name>
+            <Position>(80, 13, 82, 97, 82, 1, -1)</Position>
+        </edge>
+        <edge j="390">
+            <Name></Name>
+            <Position>(80, 14, 82, 98, 82, 1, -1)</Position>
+        </edge>
+        <edge j="391">
+            <Name></Name>
+            <Position>(80, 14, 82, 99, 82, 1, -1)</Position>
+        </edge>
+        <edge j="392">
+            <Name></Name>
+            <Position>(67, 48, 82, 100, 82, 1, -1)</Position>
+        </edge>
+        <edge j="393">
+            <Name></Name>
+            <Position>(67, 48, 82, 101, 82, 1, -1)</Position>
+        </edge>
+        <edge j="394">
+            <Name></Name>
+            <Position>(80, 14, 82, 102, 82, 1, -1)</Position>
+        </edge>
+        <edge j="395">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="396">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="397">
+            <Name></Name>
+            <Position>(67, 49, 82, 103, 82, 1, -1)</Position>
+        </edge>
+        <edge j="398">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="399">
+            <Name></Name>
+            <Position>(83, 0, 82, 0, 82, 1, -1)</Position>
+        </edge>
+        <edge j="400">
+            <Name></Name>
+            <Position>(83, -1, 82, 0, 82, 1, -1)</Position>
+        </edge>
+        <edge j="401">
+            <Name></Name>
+            <Position>(83, 1, 82, 0, 82, 1, -1)</Position>
+        </edge>
+        <edge j="402">
+            <Name></Name>
+            <Position>(83, -1, 82, 1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="403">
+            <Name></Name>
+            <Position>(83, -1, 82, 12, 82, 0, -1)</Position>
+        </edge>
+        <edge j="404">
+            <Name></Name>
+            <Position>(83, -1, 82, 14, 82, 0, -1)</Position>
+        </edge>
+        <edge j="405">
+            <Name></Name>
+            <Position>(83, 11, 82, 14, 82, 0, -1)</Position>
+        </edge>
+        <edge j="406">
+            <Name></Name>
+            <Position>(83, 9, 82, 14, 82, 0, -1)</Position>
+        </edge>
+        <edge j="407">
+            <Name></Name>
+            <Position>(83, 1, 82, 14, 82, 0, -1)</Position>
+        </edge>
+        <edge j="408">
+            <Name></Name>
+            <Position>(83, 5, 82, 29, 82, 1, -1)</Position>
+        </edge>
+        <edge j="409">
+            <Name></Name>
+            <Position>(83, 5, 82, 30, 82, 1, -1)</Position>
+        </edge>
+        <edge j="410">
+            <Name></Name>
+            <Position>(83, 5, 82, 30, 82, 1, -1)</Position>
+        </edge>
+        <edge j="411">
+            <Name></Name>
+            <Position>(83, 5, 82, 58, 82, 1, -1)</Position>
+        </edge>
+        <edge j="412">
+            <Name></Name>
+            <Position>(83, 80, 82, 81, 82, 0, -1)</Position>
+        </edge>
+        <edge j="413">
+            <Name></Name>
+            <Position>(83, -1, 82, 81, 82, 1, -1)</Position>
+        </edge>
+        <edge j="414">
+            <Name></Name>
+            <Position>(83, -1, 82, 82, 82, 1, -1)</Position>
+        </edge>
+        <edge j="415">
+            <Name></Name>
+            <Position>(83, 80, 82, 82, 82, 0, -1)</Position>
+        </edge>
+        <edge j="416">
+            <Name></Name>
+            <Position>(83, 10, 82, 92, 82, 1, -1)</Position>
+        </edge>
+        <edge j="417">
+            <Name></Name>
+            <Position>(83, 10, 82, 93, 82, 1, -1)</Position>
+        </edge>
+        <edge j="418">
+            <Name></Name>
+            <Position>(83, 10, 82, 94, 82, 1, -1)</Position>
+        </edge>
+        <edge j="419">
+            <Name></Name>
+            <Position>(83, 94, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="420">
+            <Name></Name>
+            <Position>(83, 94, 82, -1, 82, 1, -1)</Position>
+        </edge>
+    </edgeBlock>
+</Pathway>

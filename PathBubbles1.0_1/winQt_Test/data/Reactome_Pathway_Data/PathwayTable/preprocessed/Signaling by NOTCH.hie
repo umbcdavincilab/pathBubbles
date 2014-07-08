@@ -1,0 +1,484 @@
+edge.size() 230
+ 67 0 67 1 82 0 -1
+ 68 0 67 1 82 0 -1
+ 67 2 67 3 82 1 -1
+ 68 1 67 3 82 1 -1
+ 67 -1 67 -1 82 -1 -1
+ 68 -1 67 -1 82 -1 -1
+ 68 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 0 80 7 82 3 -1
+ 80 6 80 7 82 3 -1
+ 80 6 83 2 82 3 -1
+ 83 1 83 3 82 3 -1
+ 80 7 83 6 82 4 -1
+ 83 4 83 7 82 4 -1
+ 83 5 80 9 82 4 -1
+ 80 7 80 9 82 4 -1
+ 80 9 80 11 82 5 -1
+ 80 11 67 6 82 6 -1
+ 83 10 80 11 82 7 -1
+ 80 16 83 8 82 7 -1
+ 80 16 83 9 82 7 -1
+ 80 18 83 11 82 8 -1
+ 80 18 80 16 82 8 -1
+ 83 10 80 16 82 8 -1
+ 80 18 80 19 82 9 -1
+ 83 12 80 19 82 9 -1
+ 83 13 83 14 82 9 -1
+ 80 18 83 15 82 9 -1
+ 80 19 67 8 82 10 -1
+ 67 6 67 -1 82 11 -1
+ 67 8 67 -1 82 12 -1
+ 80 22 67 14 82 13 -1
+ 67 13 67 14 82 13 -1
+ 67 13 67 15 82 14 -1
+ 80 23 67 15 82 14 -1
+ 67 9 67 16 82 15 -1
+ 80 24 67 16 82 15 -1
+ 67 9 67 17 82 16 -1
+ 80 25 67 17 82 16 -1
+ 80 26 67 -1 82 17 -1
+ 67 -1 67 -1 82 17 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 4 82 -1 -1
+ 67 9 67 18 82 18 -1
+ 80 29 67 18 82 18 -1
+ 67 18 67 19 82 19 -1
+ 80 30 67 19 82 19 -1
+ 67 19 67 -1 82 -1 -1
+ 80 31 67 20 82 20 -1
+ 67 18 67 20 82 20 -1
+ 67 20 67 -1 82 -1 -1
+ 80 -1 67 21 82 21 -1
+ 67 18 67 21 82 21 -1
+ 80 26 67 22 82 22 -1
+ 67 21 67 22 82 22 -1
+ 80 29 67 23 82 23 -1
+ 80 32 67 23 82 23 -1
+ 80 26 67 24 82 24 -1
+ 67 23 67 24 82 24 -1
+ 80 28 67 25 82 25 -1
+ 67 9 67 25 82 25 -1
+ 67 9 67 26 82 26 -1
+ 80 33 67 26 82 26 -1
+ 67 9 67 -1 82 27 -1
+ 80 -1 67 -1 82 27 -1
+ 80 32 67 -1 82 27 -1
+ 80 26 67 -1 82 28 -1
+ 67 -1 67 -1 82 28 -1
+ 80 4 67 5 82 29 -1
+ 67 27 67 5 82 29 -1
+ 67 27 67 28 82 29 -1
+ 80 4 67 28 82 29 -1
+ 80 1 67 4 82 30 -1
+ 80 2 67 4 82 30 -1
+ 80 0 67 4 82 30 -1
+ 80 3 67 4 82 30 -1
+ 67 5 67 4 82 30 -1
+ 68 2 67 29 82 31 -1
+ 67 4 67 29 82 31 -1
+ 68 3 80 34 82 32 -1
+ 80 35 67 30 82 33 -1
+ 80 34 67 30 82 33 -1
+ 67 4 67 31 82 34 -1
+ 68 4 67 31 82 34 -1
+ 68 5 80 36 82 35 -1
+ 68 6 67 -1 82 36 -1
+ 67 4 67 -1 82 36 -1
+ 68 -1 80 37 82 -1 -1
+ 68 -1 67 -1 82 -1 -1
+ 67 4 67 -1 82 -1 -1
+ 68 -1 80 -1 82 -1 -1
+ 67 4 67 33 82 37 -1
+ 67 32 67 33 82 37 -1
+ 67 33 80 1 82 38 -1
+ 83 16 80 1 82 38 -1
+ 83 17 80 2 82 38 -1
+ 67 33 80 2 82 38 -1
+ 83 18 83 24 82 38 -1
+ 67 33 83 25 82 38 -1
+ 83 19 80 0 82 38 -1
+ 67 33 80 0 82 38 -1
+ 83 20 67 34 82 38 -1
+ 67 33 67 34 82 38 -1
+ 83 21 80 3 82 38 -1
+ 67 33 80 3 82 38 -1
+ 83 22 80 38 82 38 -1
+ 67 33 80 38 82 38 -1
+ 83 23 67 32 82 38 -1
+ 67 33 67 32 82 38 -1
+ 80 38 67 36 82 39 -1
+ 67 35 67 36 82 39 -1
+ 67 36 67 37 82 40 -1
+ 80 39 67 37 82 40 -1
+ 80 39 67 35 82 40 -1
+ 67 36 67 35 82 40 -1
+ 80 4 67 38 82 41 -1
+ 80 40 67 38 82 41 -1
+ 80 22 67 40 82 42 -1
+ 67 39 67 40 82 42 -1
+ 80 24 67 41 82 43 -1
+ 67 39 67 41 82 43 -1
+ 67 10 67 42 82 44 -1
+ 80 25 67 42 82 44 -1
+ 67 10 67 43 82 45 -1
+ 80 23 67 43 82 45 -1
+ 80 26 67 44 82 46 -1
+ 67 -1 67 44 82 46 -1
+ 67 44 80 41 82 47 -1
+ 67 44 67 45 82 47 -1
+ 80 41 80 -1 82 -1 -1
+ 80 41 80 -1 82 -1 -1
+ 80 -1 80 42 82 -1 -1
+ 80 30 67 47 82 48 -1
+ 67 10 67 47 82 48 -1
+ 67 47 80 -1 82 -1 -1
+ 67 10 67 48 82 49 -1
+ 67 -1 67 48 82 49 -1
+ 80 2 67 49 82 50 -1
+ 80 42 67 49 82 50 -1
+ 80 5 67 49 82 50 -1
+ 68 7 67 50 82 51 -1
+ 67 49 67 50 82 51 -1
+ 68 8 80 34 82 52 -1
+ 67 49 67 51 82 53 -1
+ 68 9 67 51 82 53 -1
+ 68 10 80 37 82 54 -1
+ 67 49 67 52 82 55 -1
+ 68 11 67 52 82 55 -1
+ 68 -1 80 -1 82 -1 -1
+ 80 1 67 53 82 56 -1
+ 67 49 67 53 82 56 -1
+ 80 43 67 53 82 56 -1
+ 68 12 67 53 82 56 -1
+ 68 -1 80 -1 82 -1 -1
+ 80 28 67 54 82 57 -1
+ 67 11 67 54 82 57 -1
+ 67 54 80 44 82 58 -1
+ 67 54 67 55 82 58 -1
+ 80 44 80 -1 82 -1 -1
+ 80 44 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 28 67 56 82 59 -1
+ 67 12 67 56 82 59 -1
+ 67 56 67 57 82 60 -1
+ 67 56 80 45 82 60 -1
+ 80 45 80 -1 82 -1 -1
+ 80 45 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 8 82 1 82 3 -1
+ 80 10 82 1 82 4 -1
+ 80 15 82 1 82 6 -1
+ 80 17 82 1 82 7 -1
+ 67 7 82 1 82 8 -1
+ 80 20 82 1 82 9 -1
+ 80 15 82 1 82 10 -1
+ 80 27 82 1 82 17 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 22 -1
+ 67 23 82 1 82 24 -1
+ 67 -1 82 1 82 28 -1
+ 67 33 82 1 82 38 -1
+ 67 36 82 1 82 40 -1
+ 80 27 82 1 82 46 -1
+ 67 46 82 1 82 47 -1
+ 67 -1 82 1 82 -1 -1
+ 67 46 82 1 82 58 -1
+ 67 -1 82 1 82 -1 -1
+ 67 46 82 1 82 60 -1
+ 67 -1 82 1 82 -1 -1
+ 67 3 82 1 82 2 -1
+ 67 4 82 1 82 2 -1
+ 67 1 82 1 82 2 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 80 12 82 1 82 5 -1
+ 80 13 82 1 82 5 -1
+ 80 14 82 0 82 5 -1
+ 80 21 82 0 82 11 -1
+ 80 21 82 0 82 12 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 29 82 1 82 32 -1
+ 67 31 82 1 82 35 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 50 82 1 82 52 -1
+ 67 51 82 1 82 54 -1
+ 67 52 82 1 82 -1 -1
+ 67 53 82 1 82 -1 -1
+_complexName.size()	58
+	CCND1:CREBBP	nucleoplasm	Reactome DB_ID: 2247939	
+	CCND1:CREBBP:NOTCH1 Gene	nucleoplasm	Reactome DB_ID: 4395224	
+	E2F1/3:DP1/2	nucleoplasm	Reactome DB_ID: 2248825	
+	E2F1/3:DP1/2:NOTCH1 Gene	nucleoplasm	Reactome DB_ID: 4395228	
+	NOTCH1 Coactivator Complex	nucleoplasm	Reactome DB_ID: 1604462	
+	NICD1:RBPJ:SNW1	nucleoplasm	Reactome DB_ID: 1604460	
+	NOTCH1/NOTCH2/NOTCH3/NOTCH4			
+	B4GALT1 homodimer	Golgi membrane	Reactome DB_ID: 975900	
+	Sia-Gal-GlcNAc-NOTCH1/Sia-Gal-GlcNAc-NOTCH2/Sia-Gal-GlcNAc-NOTCH3/Sia-Gal-GlcNAc-NOTCH4			
+	NOTCH1	plasma membrane	Reactome DB_ID: 157027	
+	NOTCH2	plasma membrane	Reactome DB_ID: 157005	
+	NOTCH3	plasma membrane	Reactome DB_ID: 157048	
+	NOTCH4	plasma membrane	Reactome DB_ID: 157053	
+	NOTCH1/Fringe-modified NOTCH1			
+	DLL1:NOTCH1	plasma membrane	Reactome DB_ID: 1911557	
+	DLL4:NOTCH1	plasma membrane	Reactome DB_ID: 1911559	
+	JAG1:NOTCH1	plasma membrane	Reactome DB_ID: 157008	
+	JAG2:NOTCH1	plasma membrane	Reactome DB_ID: 157140	
+	NOTCH1:DTX	plasma membrane	Reactome DB_ID: 1852570	
+	CNTN1:NOTCH1:DTX	plasma membrane	Reactome DB_ID: 373658	
+	DNER:NOTCH1:DTX	plasma membrane	Reactome DB_ID: 1911551	
+	NOTCH1:DTX:ARRB	plasma membrane	Reactome DB_ID: 1911487	
+	Ub-NOTCH1:DTX:ARRB	plasma membrane	Reactome DB_ID: 1911542	
+	DTX:ITCH	cytosol	Reactome DB_ID: 1604453	
+	Ub-DTX:ITCH	cytosol	Reactome DB_ID: 1911536	
+	NOTCH1:DLL/JAG	plasma membrane	Reactome DB_ID: 1980055	
+	NOTCH1:DLK1	plasma membrane	Reactome DB_ID: 1911561	
+	CSL NCOR corepressor complex	nucleoplasm	Reactome DB_ID: 350052	
+	NCOR:HDAC:TBL1	nucleoplasm	Reactome DB_ID: 1911465	
+	NOTCH1 Coactivator Complex:HES1 Gene	nucleoplasm	Reactome DB_ID: 4396364	
+	HES1:TLE	nucleoplasm	Reactome DB_ID: 1911448	
+	NOTCH1 Coactivator Complex:MYC Gene	nucleoplasm	Reactome DB_ID: 4396374	
+	CDK8:CCNC	nucleoplasm	Reactome DB_ID: 1604465	
+	NOTCH1 Coactivator Complex:CDK8:CCNC	nucleoplasm	Reactome DB_ID: 1604463	
+	RBPJ:SNW1	nucleoplasm	Reactome DB_ID: 1911412	
+	FBXW7:SKP1:CUL1:RBX1	nucleoplasm	Reactome DB_ID: 1604469	
+	p-NICD1:FBXW7:SKP1:CUL1:RBX1	nucleoplasm	Reactome DB_ID: 1604468	
+	Ub-p-NICD1	nucleoplasm	Reactome DB_ID: 1852621	
+	NICD1:HIF1A	nucleoplasm	Reactome DB_ID: 1911469	
+	NOTCH2/Sia-Gal-GlcNAc-NOTCH2			
+	DLL1:NOTCH2	plasma membrane	Reactome DB_ID: 1980050	
+	JAG1:NOTCH2	plasma membrane	Reactome DB_ID: 1980058	
+	JAG2:NOTCH2	plasma membrane	Reactome DB_ID: 1980059	
+	DLL4:NOTCH2	plasma membrane	Reactome DB_ID: 1980053	
+	Ub-DLL/JAG:NOTCH2	plasma membrane	Reactome DB_ID: 2172171	
+	NOTCH2 fragment:DSL	plasma membrane	Reactome DB_ID: 157630	
+	ADAM10:Zn++	plasma membrane	Reactome DB_ID: 157186	
+	CNTN1:NOTCH2	plasma membrane	Reactome DB_ID: 2220817	
+	MDK:NOTCH2	plasma membrane	Reactome DB_ID: 2974762	
+	NOTCH2 Coactivator Complex	nucleoplasm	Reactome DB_ID: 2127289	
+	NOTCH2 Coactivator Complex:HES1 gene	nucleoplasm	Reactome DB_ID: 2976712	
+	NOTCH2 Coactivator Complex:HES5 gene	nucleoplasm	Reactome DB_ID: 2976724	
+	NOTCH2 Coactivator Complex:FCER2 gene	nucleoplasm	Reactome DB_ID: 2976740	
+	NOTCH2 coactivator complex:p-S133-CREB1:EP300:GZMB Gene	nucleoplasm	Reactome DB_ID: 2976561	
+	NOTCH3:DSL	plasma membrane	Reactome DB_ID: 157638	
+	NOTCH3 fragment:DSL	plasma membrane	Reactome DB_ID: 157650	
+	NOTCH4:DSL	plasma membrane	Reactome DB_ID: 157653	
+	NOTCH4 fragment:DSL	plasma membrane	Reactome DB_ID: 157627	
+_physicalEntityName.size()	0
+_proteinName.size()	46
+	KAT3A	nucleoplasm	Reactome DB_ID: 193545	UniProt:Q92793	CREBBP
+	p300	nucleoplasm	Reactome DB_ID: 381325	UniProt:Q09472	EP300
+	MAMLD1	nucleoplasm			
+	GCN5	nucleoplasm			
+	NICD1	nucleoplasm	Reactome DB_ID: 157939	UniProt:P46531	NOTCH1
+	RBPJ	nucleoplasm	Reactome DB_ID: 3008668	UniProt:Q06330	RBPJ
+	NOTCH4	endoplasmic reticulum membrane			
+	Fuc-Pre-NOTCH4	endoplasmic reticulum membrane			
+	FUT12	endoplasmic reticulum membrane	Reactome DB_ID: 1460374	UniProt:Q9H488	POFUT1
+	Glc,Fuc-Pre-NOTCH4	endoplasmic reticulum membrane			
+	POGLUT1	endoplasmic reticulum lumen	Reactome DB_ID: 1464796	UniProt:Q8NBL1	POGLUT1
+	Glc,Fuc-Pre-NOTCH4	Golgi membrane			
+	ATP2A3	endoplasmic reticulum membrane			
+	RAB6A	Golgi membrane	Reactome DB_ID: 1604442	UniProt:P20340	RAB6A
+	SEL1L	endoplasmic reticulum membrane	Reactome DB_ID: 1911545	UniProt:Q9UBV2	SEL1L
+	FURIN	Golgi membrane	Reactome DB_ID: 157049	UniProt:P09958	FURIN
+	Glc,GlcNAc-Fuc-Pre-NOTCH4	Golgi membrane			
+	RFNG	Golgi membrane			
+	Glc,Gal-GlcNAc-Fuc-Pre-NOTCH4	Golgi membrane			
+	Glc,Sia-Gal-GlcNAc-Fuc-Pre-NOTCH4	Golgi membrane			
+	ST3GAL6	Golgi membrane			
+	TMED2	Golgi membrane	Reactome DB_ID: 1911531	UniProt:Q15363	TMED2
+	DLL1	plasma membrane	Reactome DB_ID: 157089	UniProt:O00548	DLL1
+	DLL4	plasma membrane	Reactome DB_ID: 158437	UniProt:Q9NR61	DLL4
+	JAG1	plasma membrane	Reactome DB_ID: 157098	UniProt:P78504	JAG1
+	JAG2	plasma membrane	Reactome DB_ID: 157120	UniProt:Q9Y219	JAG2
+	UBC(609-684)	cytosol			
+	NEURL1B	cytosol			
+	JAG2	plasma membrane			
+	DTX4	cytosol			
+	CNTN1	plasma membrane	Reactome DB_ID: 373622	UniProt:Q12860	CNTN1
+	DNER	plasma membrane	Reactome DB_ID: 1604557	UniProt:Q8NFT8	DNER
+	ITCH	cytosol	Reactome DB_ID: 975995	UniProt:Q96J02	ITCH
+	DLK1	plasma membrane	Reactome DB_ID: 1604447	UniProt:P80370	DLK1
+	HES1	nucleoplasm	Reactome DB_ID: 210825	UniProt:Q14469	HES1
+	TLE4	nucleoplasm			
+	MYC	nucleoplasm	Reactome DB_ID: 188379	UniProt:P01106	MYC
+	HES5	nucleoplasm	Reactome DB_ID: 1606739	UniProt:Q5TA89	HES5
+	p-NICD1	nucleoplasm	Reactome DB_ID: 1604444	UniProt:P46531	NOTCH1
+	UBC(609-684)	nucleoplasm			
+	HIF1A	nucleoplasm	Reactome DB_ID: 1234135	UniProt:Q16665	HIF1A
+	NEXT2	plasma membrane	Reactome DB_ID: 157225	UniProt:Q04721	NOTCH2
+	NICD2	nucleoplasm	Reactome DB_ID: 157942	UniProt:Q04721	NOTCH2
+	CREB	nucleoplasm	Reactome DB_ID: 111910	UniProt:P16220	CREB1
+	NEXT3	plasma membrane	Reactome DB_ID: 157203	UniProt:Q9UM47	NOTCH3
+	NEXT4	plasma membrane	Reactome DB_ID: 157641	UniProt:Q99466	NOTCH4
+_reactionName.size()	61
+	D	CCND1:CREBBP binds NOTCH1 promoter
+	D	E2F1/3:DP1/2 binds NOTCH1 promoter
+	T	NOTCH1 gene transcription
+	T	Fucosylation of Pre-NOTCH by POFUT1
+	T	Glucosylation of Pre-NOTCH by POGLUT1
+	T	Transport of NOTCH precursor to Golgi
+	T	NOTCH precursor cleaved to form mature NOTCH
+	T	Glycosylation of Pre-NOTCH by FRINGE
+	T	Galactosylation of Pre-NOTCH
+	T	Sialylation of Pre-NOTCH
+	T	Fringe-modified Pre-NOTCH is cleaved by FURIN
+	T	Mature NOTCH heterodimer traffics to the plasma membrane
+	T	Transport of fringe-modified NOTCH to plasma membrane
+	D	NOTCH1 binds DLL1
+	D	NOTCH1 binds DLL4
+	D	NOTCH1 binds JAG1
+	D	NOTCH1 binds JAG2
+	D	Ubiquitination of DLL/JAG ligands upon binding to NOTCH1
+	D	DTX binds NOTCH1
+	D	Contactin-1 (CNTN1) binds NOTCH1
+	D	NOTCH1 binds DNER
+	D	DTX recruits beta-arrestin (ARRB) to NOTCH
+	D	ARRB mediates NOTCH1 ubiquitination
+	D	ITCH binds DTX
+	D	ITCH ubiquitinates DTX
+	D	NOTCH1 binds DLL/JAG ligand in cis
+	D	NOTCH1 binds DLK1
+	D	NOTCH1 associates with negative regulators NUMB and ITCH
+	D	Ubiquitination of NOTCH1 by ITCH in the absence of ligand
+	T	NICD1 displaces co-repressor complex from RBPJ (CSL)
+	D	NICD1 in complex with RBPJ (CSL) recruits MAML
+	D	NOTCH1 Coactivator Complex binds HES1 promoter
+	T	NOTCH1 stimulates HES1 transcription
+	D	HES1 binds TLE
+	D	NOTCH1 Coactivator Complex binds MYC promoter
+	T	NOTCH1 stimulates MYC transcription
+	D	NOTCH1 Coactivator Complex binds HES5 promoter
+	D	MAML in complex with NICD1 recruits CDK8
+	T	NICD1 is phosphorylated by CDK8
+	D	Phosphorylated NICD1 binds FBXW7
+	T	Ubiquitination of NICD1 by FBWX7
+	D	NICD1 binds HIF1A
+	D	DLL1 binds NOTCH2
+	D	JAG1 binds NOTCH2
+	D	JAG2 binds NOTCH2
+	D	DLL4 binds NOTCH2
+	D	Ubiquitination of DLL/JAG ligands upon binding to NOTCH2
+	B	NOTCH2-ligand complex is cleaved to produce NEXT2
+	D	NOTCH2 binds CNTN1
+	D	NOTCH2 binds MDK
+	D	NICD2 binds RBPJ and MAML in the nucleus
+	D	NOTCH2 coactivator complex binds HES1 promoter
+	T	NOTCH2 stimulates HES1 transcription
+	D	NOTCH2 coactivator complex binds HES5 promoter
+	T	NOTCH2 stimulates transcription of HES5
+	D	NOTCH2 coactivator complex binds FCER2 promoter
+	D	NOTCH2 coactivator complex and phosphorylated CREB1 bind GZMB promoter
+	D	Notch 3 heterodimer binds with a Notch ligand in the extracellular space
+	B	Notch 3-ligand complex is cleaved to produce NEXT3
+	D	Notch 4 heterodimer binds with a Notch ligand in the extracellular space
+	B	Notch 4-ligand complex is cleaved to produce NEXT4
+_smallMoleculeName.size()	26
+	GDP-Fuc	endoplasmic reticulum lumen	Reactome DB_ID: 1463452	GDP-L-fucose [ChEBI:5221]
+	GDP	endoplasmic reticulum lumen	Reactome DB_ID: 1467290	GDP [ChEBI:17552]
+	GDP-Fuc	endoplasmic reticulum lumen	Reactome DB_ID: 1463452	GDP-L-fucose [ChEBI:5221]
+	GDP	endoplasmic reticulum lumen	Reactome DB_ID: 1467290	GDP [ChEBI:17552]
+	UDP	endoplasmic reticulum lumen	Reactome DB_ID: 158602	uridine 5'-diphosphate [ChEBI:17659]
+	UDP-Glc	endoplasmic reticulum lumen	Reactome DB_ID: 173594	UDPglucose [ChEBI:18066]
+	UDP	endoplasmic reticulum lumen	Reactome DB_ID: 158602	uridine 5'-diphosphate [ChEBI:17659]
+	UDP-Glc	endoplasmic reticulum lumen	Reactome DB_ID: 173594	UDPglucose [ChEBI:18066]
+	UDP	Golgi lumen	Reactome DB_ID: 205687	uridine 5'-diphosphate [ChEBI:17659]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-Gal	Golgi lumen	Reactome DB_ID: 735682	UDP-D-galactose [ChEBI:18307]
+	CMP-Neu5Ac	Golgi lumen	Reactome DB_ID: 727815	CMP-N-acetylneuraminate [ChEBI:3278]
+	CMP-Neu5Ac	Golgi lumen	Reactome DB_ID: 727815	CMP-N-acetylneuraminate [ChEBI:3278]
+	CMP	Golgi lumen	Reactome DB_ID: 727810	CMP [ChEBI:17361]
+	CMP	Golgi lumen	Reactome DB_ID: 727810	CMP [ChEBI:17361]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	13
+	NOTCH1 	nucleoplasm	Reactome DB_ID: 1911481	ENSEMBL:ENSG00000148400 NOTCH1
+	NOTCH1 	nucleoplasm	Reactome DB_ID: 1911481	ENSEMBL:ENSG00000148400 NOTCH1
+	MYC Gen	nucleoplasm	Reactome DB_ID: 2127254	ENSEMBL:ENSG00000136997 MYC
+	HES5 Gen	nucleoplasm	Reactome DB_ID: 2197557	ENSEMBL:ENSG00000197921 HES5
+	NOTCH4 	nucleoplasm	Reactome DB_ID: 1911501	ENSEMBL:ENSG00000206312 NOTCH4
+	HES5 Gen	nucleoplasm	Reactome DB_ID: 2197557	ENSEMBL:ENSG00000197921 HES5
+				
+	HES1 Gen	nucleoplasm	Reactome DB_ID: 2197548	ENSEMBL:ENSG00000114315 HES1
+	HES1 Gen	nucleoplasm	Reactome DB_ID: 2197548	ENSEMBL:ENSG00000114315 HES1
+	HES5 Gen	nucleoplasm	Reactome DB_ID: 2197557	ENSEMBL:ENSG00000197921 HES5
+	HES5 Gen	nucleoplasm	Reactome DB_ID: 2197557	ENSEMBL:ENSG00000197921 HES5
+	FCER2 	nucleoplasm	Reactome DB_ID: 2127282	ENSEMBL:ENSG00000104921 FCER2
+	GZMB Gen	nucleoplasm	Reactome DB_ID: 2976052	ENSEMBL:ENSG00000100453 GZMB
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,149 @@
+edge.size() 80
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 67 0 67 1 82 0 -1
+ 80 0 67 1 82 0 -1
+ 67 2 67 3 82 1 -1
+ 80 1 67 3 82 1 -1
+ 67 4 80 3 82 2 -1
+ 67 1 80 3 82 2 -1
+ 67 1 67 5 82 2 -1
+ 67 4 67 5 82 2 -1
+ 67 3 80 4 82 3 -1
+ 67 6 80 4 82 3 -1
+ 67 6 67 7 82 3 -1
+ 67 3 67 7 82 3 -1
+ 67 7 67 5 82 4 -1
+ 67 5 80 2 82 5 -1
+ 67 5 67 0 82 5 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 1 82 1 82 2 -1
+ 67 3 82 1 82 3 -1
+_complexName.size()	8
+	RBX1-CUL2-EloB/C-VHL	cytosol	Reactome DB_ID: 976093	
+	hydroxyPro-HIF-alpha:VHL:EloB/C:CUL2:RBX1	cytosol	Reactome DB_ID: 1234125	
+	VHL:EloB/C:CUL2:RBX1	nucleoplasm	Reactome DB_ID: 1234141	
+	hydroxyPro-HIF-alpha:VHL:EloB/C:CUL2:RBX1	nucleoplasm	Reactome DB_ID: 1234101	
+	UBE2D1,2,3:Ubiquitin	cytosol	Reactome DB_ID: 1234116	
+	ub-hydroxyPro-HIF-alpha:VHL:EloB/C:CUL2:RBX1	cytosol	Reactome DB_ID: 1234138	
+	UBE2D1,2,3:Ubiquitin	nucleoplasm	Reactome DB_ID: 1234123	
+	ub-HIF-alpha:VHL:EloB/C:CUL2:RBX1	nucleoplasm	Reactome DB_ID: 1234103	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	HP-HIF3A	cytosol			
+	HP-HIF3A	nucleoplasm			
+	UBC(609-684)	cytosol			
+	UBE2D3	cytosol			
+	UBE2D3	nucleoplasm			
+_reactionName.size()	6
+	D	Cytosolic VHL:EloB/C:CUL2:RBX1 Complex Binds HIF-alpha Hydroxylated at Proline Residues
+	D	Nuclear VHL:EloB/C:CUL2:RBX1 Complex Binds HIF-alpha Hydroxylated at Proline Residues
+	T	Cytosolic Ubiquitination of HIF-alpha
+	T	Nuclear Ubiquitination of HIF-alpha
+	T	Nuclear Export of Ubiquitinated HIF-alpha:VHL:EloB/C:CUL2:RBX1 Complex
+	B	Destruction of Ubiquitinated HIF-alpha by the Proteasome
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

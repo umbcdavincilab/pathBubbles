@@ -1,0 +1,458 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Pathway>
+    <ANodeBlock Num="0"/>
+    <compartmentBlock Num="40">
+        <compartment j="0">
+            <Name>cytosol</Name>
+            <Position>(0.164815, 0.285185, 0.677778, 0.425926)</Position>
+            <Contain>(C, 0, C, 1, C, 2, C, 3, C, 4, C, 5, C, 6, C, 7, C, 8, C, 9, C, 10, C, 11, C, 12, P, 0, P, 1, P, 2, P, 3, P, 4, P, 5, R, 0, R, 1, R, 2, R, 3, R, 4, R, 5, R, 6, R, 7, R, 8, R, 9, R, 10)</Contain>
+        </compartment>
+        <compartment j="1">
+            <Name>Golgi lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="2">
+            <Name>Golgi membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="3">
+            <Name>early endosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="4">
+            <Name></Name>
+            <Position>(-1000, -0.005, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="5">
+            <Name>early endosome membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="6">
+            <Name>mitochondrial inner membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="7">
+            <Name>mitochondrial outer membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="8">
+            <Name>photoreceptor disc membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="9">
+            <Name>lysosomal membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="10">
+            <Name>endoplasmic reticulum membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="11">
+            <Name>plasma membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="12">
+            <Name>endosome membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="13">
+            <Name>Golgi-associated vesicle membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="14">
+            <Name>cytoplasmic vesicle membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="15">
+            <Name>nuclear envelope</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="16">
+            <Name>chromosome, centromeric region</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="17">
+            <Name>chromosome</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="18">
+            <Name>endosome</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="19">
+            <Name>nucleoplasm</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="20">
+            <Name>extracellular region</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="21">
+            <Name>cell junction</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="22">
+            <Name>peroxisomal matrix</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="23">
+            <Name>mitochondrial matrix</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="24">
+            <Name>endosome lumen</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="25">
+            <Name>endocytic vesicle membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="26">
+            <Name>phagocytic vesicle membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="27">
+            <Name>phagocytic vesicle lumen</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="28">
+            <Name>lysosomal lumen</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="29">
+            <Name>photoreceptor outer segment membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="30">
+            <Name>photoreceptor inner segment membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="31">
+            <Name>mitochondrial intermembrane space</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="32">
+            <Name>secretory granule membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="33">
+            <Name>secretory granule lumen</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="34">
+            <Name>endoplasmic reticulum lumen</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="35">
+            <Name>endoplasmic reticulum quality control compartment</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="36">
+            <Name>ER to Golgi transport vesicle membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="37">
+            <Name>clathrin-coated endocytic vesicle</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="38">
+            <Name>platelet dense tubular network membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="39">
+            <Name>whole</Name>
+            <Position>(-1000, -0.457614, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+    </compartmentBlock>
+    <complexBlock Num="14">
+        <complex j="0">
+            <Name>Apaf-1:Cytochrome C</Name>
+            <Position>(0.336264, 0.386058, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="1">
+            <Name>Cytochrome C:Apaf-1:ATP:Procaspase-9</Name>
+            <Position>(0.716366, 0.472121, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="2">
+            <Name>Apoptosome</Name>
+            <Position>(0.612702, 0.558183, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="3">
+            <Name>Cleaved Caspase-9</Name>
+            <Position>(0.509037, 0.644245, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="4">
+            <Name>active caspase-3</Name>
+            <Position>(0.336264, 0.644245, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="5">
+            <Name>active caspase-7</Name>
+            <Position>(0.612702, 0.644245, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="6">
+            <Name>XIAP:Caspase-3</Name>
+            <Position>(0.232599, 0.472121, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="7">
+            <Name>SMAC:XIAP:Caspase-3</Name>
+            <Position>(0.16349, 0.558183, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="8">
+            <Name>XIAP:Caspase-7</Name>
+            <Position>(0.336264, 0.472121, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="9">
+            <Name>SMAC:XIAP:Caspase-7</Name>
+            <Position>(0.198044, 0.558183, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="10">
+            <Name>XIAP:Caspase-9</Name>
+            <Position>(0.612702, 0.472121, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="11">
+            <Name>SMAC:XIAP:Caspase-9</Name>
+            <Position>(0.232599, 0.558183, 0.0278804, 0.0266109)</Position>
+        </complex>
+        <complex j="12">
+            <Name>SMAC:XIAP</Name>
+            <Position>(0.232599, 0.644245, 0.0278804, 0.0266109)</Position>
+        </complex>
+    </complexBlock>
+    <proteinBlock Num="14">
+        <protein j="0">
+            <Name>APAF1</Name>
+            <Position>(0.280503, 0.300382, 0.139402, 0.0344458)</Position>
+        </protein>
+        <protein j="1">
+            <Name>CYCS</Name>
+            <Position>(0.453277, 0.300382, 0.139402, 0.0344458)</Position>
+        </protein>
+        <protein j="2">
+            <Name>CASP-9</Name>
+            <Position>(0.453277, 0.386444, 0.139402, 0.0344458)</Position>
+        </protein>
+        <protein j="3">
+            <Name>SCA-1</Name>
+            <Position>(0.453277, 0.558568, 0.139402, 0.0344458)</Position>
+        </protein>
+        <protein j="4">
+            <Name>CMH-1</Name>
+            <Position>(0.660605, 0.558568, 0.139402, 0.0344458)</Position>
+        </protein>
+        <protein j="5">
+            <Name>SMAC</Name>
+            <Position>(0.453277, 0.472506, 0.139402, 0.0344458)</Position>
+        </protein>
+    </proteinBlock>
+    <physicalEntityBlock Num="15"/>
+    <smallMoleculeBlock Num="4">
+        <smallMolecule j="0">
+            <Name>ATP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="1">
+            <Name>ADP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+    </smallMoleculeBlock>
+    <DnaBlock Num="1"/>
+    <reactionBlock Num="12">
+        <reaction j="0">
+            <Name>Cytochrome C Binds to Apaf-1</Name>
+            <Position>(0.517978, 0.359939, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="1">
+            <Name>Cytochrome C:Apaf-1 binds Procaspase-9</Name>
+            <Position>(0.517978, 0.446001, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="2">
+            <Name>Cleavage of Procaspase-9 to Caspase-9</Name>
+            <Position>(0.621642, 0.532063, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="3">
+            <Name>Cleavage of Procaspase-3 by the apoptosome</Name>
+            <Position>(0.621642, 0.618125, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="4">
+            <Name>Cleavage of Procaspase-7 by the apoptosome</Name>
+            <Position>(0.725307, 0.618125, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="5">
+            <Name>SMAC binds XIAP:Caspase-3</Name>
+            <Position>(0.24154, 0.532063, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="6">
+            <Name>SMAC binds XIAP:Caspase-7</Name>
+            <Position>(0.345204, 0.532063, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="7">
+            <Name>SMAC binds XIAP:Caspase-9</Name>
+            <Position>(0.517978, 0.532063, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="8">
+            <Name>Dissociation of Caspase-3 from SMAC:XIAP:Caspase-3</Name>
+            <Position>(0.24154, 0.618125, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="9">
+            <Name>Dissociation of Caspase-7 from SMAC:XIAP:Caspase-7</Name>
+            <Position>(0.345204, 0.618125, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="10">
+            <Name>Dissociation of Caspase-9 from SMAC:XIAP:Caspase-9</Name>
+            <Position>(0.517978, 0.618125, 0.01, 0.01)</Position>
+        </reaction>
+    </reactionBlock>
+    <edgeBlock Num="28">
+        <edge j="0">
+            <Name></Name>
+            <Position>(80, 0, 82, 0, 67, 0, -1)</Position>
+        </edge>
+        <edge j="1">
+            <Name></Name>
+            <Position>(80, 1, 82, 0, 67, 0, -1)</Position>
+        </edge>
+        <edge j="2">
+            <Name></Name>
+            <Position>(80, 2, 82, 1, 67, 1, -1)</Position>
+        </edge>
+        <edge j="3">
+            <Name></Name>
+            <Position>(67, 0, 82, 1, 67, 1, -1)</Position>
+        </edge>
+        <edge j="4">
+            <Name></Name>
+            <Position>(83, 0, 82, 1, 67, 1, -1)</Position>
+        </edge>
+        <edge j="5">
+            <Name></Name>
+            <Position>(67, 1, 82, 2, 83, 1, -1)</Position>
+        </edge>
+        <edge j="6">
+            <Name></Name>
+            <Position>(67, 1, 82, 2, 67, 2, -1)</Position>
+        </edge>
+        <edge j="7">
+            <Name></Name>
+            <Position>(80, 3, 82, 3, 83, 1, -1)</Position>
+        </edge>
+        <edge j="8">
+            <Name></Name>
+            <Position>(83, 0, 82, 3, 67, 4, -1)</Position>
+        </edge>
+        <edge j="9">
+            <Name></Name>
+            <Position>(80, 3, 82, 3, 67, 4, -1)</Position>
+        </edge>
+        <edge j="10">
+            <Name></Name>
+            <Position>(83, 0, 82, 4, 83, 1, -1)</Position>
+        </edge>
+        <edge j="11">
+            <Name></Name>
+            <Position>(80, 4, 82, 4, 67, 5, -1)</Position>
+        </edge>
+        <edge j="12">
+            <Name></Name>
+            <Position>(80, 4, 82, 4, 67, 5, -1)</Position>
+        </edge>
+        <edge j="13">
+            <Name></Name>
+            <Position>(67, 6, 82, 5, 67, 7, -1)</Position>
+        </edge>
+        <edge j="14">
+            <Name></Name>
+            <Position>(80, 5, 82, 5, 67, 7, -1)</Position>
+        </edge>
+        <edge j="15">
+            <Name></Name>
+            <Position>(67, 8, 82, 6, 67, 9, -1)</Position>
+        </edge>
+        <edge j="16">
+            <Name></Name>
+            <Position>(80, 5, 82, 6, 67, 9, -1)</Position>
+        </edge>
+        <edge j="17">
+            <Name></Name>
+            <Position>(80, 5, 82, 7, 67, 11, -1)</Position>
+        </edge>
+        <edge j="18">
+            <Name></Name>
+            <Position>(67, 10, 82, 7, 67, 11, -1)</Position>
+        </edge>
+        <edge j="19">
+            <Name></Name>
+            <Position>(67, 7, 82, 8, 67, 4, -1)</Position>
+        </edge>
+        <edge j="20">
+            <Name></Name>
+            <Position>(67, 7, 82, 8, 67, 12, -1)</Position>
+        </edge>
+        <edge j="21">
+            <Name></Name>
+            <Position>(67, 9, 82, 9, 67, 5, -1)</Position>
+        </edge>
+        <edge j="22">
+            <Name></Name>
+            <Position>(67, 9, 82, 9, 67, 12, -1)</Position>
+        </edge>
+        <edge j="23">
+            <Name></Name>
+            <Position>(67, 11, 82, 10, 67, 3, -1)</Position>
+        </edge>
+        <edge j="24">
+            <Name></Name>
+            <Position>(67, 11, 82, 10, 67, 12, -1)</Position>
+        </edge>
+        <edge j="25">
+            <Name></Name>
+            <Position>(67, 1, 82, 2, 82, 1, -1)</Position>
+        </edge>
+        <edge j="26">
+            <Name></Name>
+            <Position>(67, 2, 82, 3, 82, 1, -1)</Position>
+        </edge>
+        <edge j="27">
+            <Name></Name>
+            <Position>(67, 2, 82, 4, 82, 1, -1)</Position>
+        </edge>
+    </edgeBlock>
+</Pathway>

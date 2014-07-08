@@ -1,0 +1,119 @@
+edge.size() 32
+ 80 0 80 1 82 0 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 1 83 0 82 1 -1
+ 67 1 67 0 82 1 -1
+ 83 1 67 0 82 1 -1
+ 83 1 83 -1 82 2 -1
+ 67 3 67 2 82 2 -1
+ 67 3 67 2 82 2 -1
+ 83 1 80 3 82 3 -1
+ 80 4 83 2 82 3 -1
+ 80 4 83 3 82 3 -1
+ 80 5 67 4 82 4 -1
+ 80 4 67 4 82 4 -1
+ 67 4 67 5 82 5 -1
+ 80 6 67 6 82 6 -1
+ 67 5 67 6 82 6 -1
+ 69 0 67 6 82 6 -1
+ 80 7 67 8 82 7 -1
+ 69 1 67 8 82 7 -1
+ 67 5 67 8 82 7 -1
+ 80 1 67 9 82 8 -1
+ 80 8 67 9 82 8 -1
+ 80 1 67 10 82 9 -1
+ 80 9 67 10 82 9 -1
+ 80 9 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 2 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 67 2 82 1 82 2 -1
+ 67 -1 82 1 82 3 -1
+ 67 7 82 0 82 6 -1
+_complexName.size()	11
+	NODAL:ACVR1B:ACVR2:EGF-CFC	plasma membrane	Reactome DB_ID: 1225875	
+	NODAL:p-ACVR1B:ACVR2:EGF-CFC	plasma membrane	Reactome DB_ID: 1225883	
+	NODAL:ACVR1C:ACVR2B:EGF-CFC	plasma membrane	Reactome DB_ID: 1225912	
+	NODAL:p-ACVR1C:ACVR2B:EGF-CFC	plasma membrane	Reactome DB_ID: 1225915	
+	p-2S-SMAD2/3:SMAD4	cytosol	Reactome DB_ID: 171175	
+	p-2S-SMAD2/3:SMAD4	nucleoplasm	Reactome DB_ID: 173511	
+	SMAD2/3:SMAD4:FOXH1:Activin Response Element	nucleoplasm	Reactome DB_ID: 1225870	
+	FOXH1:DRAP1	nucleoplasm	Reactome DB_ID: 1226031	
+	SMAD2/3:SMAD4:FOXO3:FoxO3a-binding Element	nucleoplasm	Reactome DB_ID: 1535906	
+	CERBERUS:NODAL	extracellular region	Reactome DB_ID: 1181341	
+	LEFTY:NODAL	extracellular region	Reactome DB_ID: 1181340	
+_physicalEntityName.size()	2
+		
+		
+_proteinName.size()	10
+	NODAL	extracellular region	Reactome DB_ID: 1181114	UniProt:Q96S42	NODAL
+	NODAL	extracellular region	Reactome DB_ID: 1181118	UniProt:Q96S42	NODAL
+	PCSK6	extracellular region			
+	SMAD3	cytosol			
+	p-2S-SMAD3	cytosol			
+	SMAD4	cytosol	Reactome DB_ID: 170862	UniProt:Q13485	SMAD4
+	FOXH1	nucleoplasm	Reactome DB_ID: 1225914	UniProt:O75593	FOXH1
+	FOXO3	nucleoplasm	Reactome DB_ID: 199305	UniProt:O43524	FOXO3
+	CER1	extracellular region	Reactome DB_ID: 201831	UniProt:O95813	CER1
+	LEFTY2	extracellular region			
+_reactionName.size()	10
+	T	Cleavage of NODAL Proprotein
+	T	Type II Activin Receptor (ActRII/ACVR2) Phosphorylates Type I Activin Receptor (ActRIB/ACVR1B) in Response to NODAL
+	T	Type II Activin Receptor (ActRIIB/ACVR2B) Phosphorylates Type I Activin Receptor (ActRIC/ACVR1C) in Response to NODAL
+	T	Phosphorylation of R-SMAD2/3 by NODAL Receptor
+	D	Phosphorylated SMAD2 and SMAD3 form a complex with SMAD4
+	T	The SMAD2/3:SMAD4 complex transfers to the nucleus
+	D	Phospho R-SMAD(SMAD2/3):CO-SMAD(SMAD4):FOXH1 Binds Activin Response Element
+	D	Phospho R-SMAD(SMAD2/3):CO-SMAD(SMAD4):FOXO3 Binds FoxO3a-binding Elements
+	D	CERBERUS Binds NODAL
+	D	LEFTY Binds NODAL
+_smallMoleculeName.size()	4
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

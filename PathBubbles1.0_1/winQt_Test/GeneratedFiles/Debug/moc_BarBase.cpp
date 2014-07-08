@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'BarBase.h'
 **
-** Created: Mon Jun 30 18:28:45 2014
+** Created: Mon Jul 7 18:35:38 2014
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.3)
 **
 ** WARNING! All changes made in this file will be lost!

@@ -1,0 +1,92 @@
+edge.size() 18
+ 83 0 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 67 0 83 2 82 0 -1
+ 83 1 83 3 82 0 -1
+ 67 2 67 3 82 1 -1
+ 67 1 67 3 82 1 -1
+ 67 3 67 4 82 2 -1
+ 80 1 67 4 82 2 -1
+ 67 4 69 0 82 3 -1
+ 69 1 69 2 82 4 -1
+ 67 4 83 4 82 5 -1
+ 67 4 69 3 82 5 -1
+ 69 3 67 -1 82 6 -1
+ 69 3 69 1 82 6 -1
+ 69 2 67 2 82 7 -1
+ 69 2 80 1 82 7 -1
+ 80 0 82 1 82 0 -1
+ 80 1 82 1 82 5 -1
+_complexName.size()	5
+	Arf1-GDP	Golgi membrane	Reactome DB_ID: 199988	
+	Arf1-GTP	Golgi membrane	Reactome DB_ID: 199981	
+	Coatomer	cytosol	Reactome DB_ID: 199996	
+	Coatomer:Arf1-GTP Complex	Golgi membrane	Reactome DB_ID: 200463	
+	Coatomer:Arf1-GTP:GAP Complex	Golgi membrane	Reactome DB_ID: 200466	
+_physicalEntityName.size()	4
+		
+		
+		
+		
+_proteinName.size()	2
+	GBF1	Golgi membrane	Reactome DB_ID: 199994	UniProt:Q92538	GBF1
+	GAP	cytosol	Reactome DB_ID: 200464	UniProt:Q8N6T3	ARFGAP1
+_reactionName.size()	8
+	T	Arf1 Activation by GBF1
+	D	Coat Complex Formation
+	D	GAP Recruitment to the Coatomer:Arf1-GTP Complex
+	T	Coatomer:Arf1-GTP:GAP lattice formation on golgi membrane
+	T	Sculpting and pinching-off of Golgi vessicle
+	B	Hydrolysis of Arf1-GTP to Arf1-GDP
+	B	Diffusion of inactive Arf1-GDP from membrane
+	B	Golgi vesicle lattice disassociation
+_smallMoleculeName.size()	5
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

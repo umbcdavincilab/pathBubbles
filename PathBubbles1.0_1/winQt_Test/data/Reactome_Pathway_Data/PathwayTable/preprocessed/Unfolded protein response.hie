@@ -1,0 +1,113 @@
+edge.size() 33
+ 69 0 67 0 82 0 -1
+ 67 -1 67 0 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 69 0 80 -1 82 0 -1
+ 80 -1 80 0 82 -1 -1
+ 80 0 80 1 82 1 -1
+ 80 0 80 2 82 1 -1
+ 80 1 80 4 82 2 -1
+ 80 1 80 5 82 2 -1
+ 80 4 80 -1 82 3 -1
+ 67 1 67 0 82 4 -1
+ 69 0 67 0 82 4 -1
+ 69 0 80 7 82 4 -1
+ 67 1 80 7 82 4 -1
+ 80 7 67 2 82 5 -1
+ 67 3 67 2 82 6 -1
+ 67 3 83 0 82 6 -1
+ 83 2 83 1 82 6 -1
+ 67 3 67 4 82 7 -1
+ 83 2 67 4 82 7 -1
+ 67 -1 67 0 82 -1 -1
+ 69 0 67 0 82 -1 -1
+ 69 0 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 9 80 8 82 8 -1
+ 80 9 83 3 82 8 -1
+ 83 2 83 4 82 8 -1
+ 80 3 82 1 82 1 -1
+ 80 6 82 1 82 2 -1
+ 67 2 82 1 82 6 -1
+ 67 4 82 1 82 -1 -1
+ 67 -1 82 1 82 8 -1
+_complexName.size()	5
+	BiP:Unfolded Protein	endoplasmic reticulum lumen	Reactome DB_ID: 381062	
+	IRE1:BiP	endoplasmic reticulum membrane	Reactome DB_ID: 381202	
+	IRE1 homodimer	endoplasmic reticulum membrane	Reactome DB_ID: 381200	
+	IRE1 homodimer (phosphorylated)	endoplasmic reticulum membrane	Reactome DB_ID: 381154	
+	IRE1 homodimer (phosphorylated):ADP	endoplasmic reticulum membrane	Reactome DB_ID: 381078	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	10
+	ATF6	Golgi membrane	Reactome DB_ID: 381000	UniProt:P18850	ATF6
+	ATF6(1-419)	Golgi membrane	Reactome DB_ID: 420815	UniProt:P18850	ATF6
+	ATF6(420-670)	Golgi membrane	Reactome DB_ID: 420814	UniProt:P18850	ATF6
+	S1P	Golgi membrane	Reactome DB_ID: 381108	UniProt:Q14703	MBTPS1
+	ATF6(1-379)	Golgi membrane	Reactome DB_ID: 381075	UniProt:P18850	ATF6
+	ATF6(380-419)	Golgi membrane	Reactome DB_ID: 420817	UniProt:P18850	ATF6
+	S2P	Golgi membrane	Reactome DB_ID: 381131	UniProt:O43462	MBTPS2
+	ERN1	endoplasmic reticulum membrane	Reactome DB_ID: 381076	UniProt:O75460	ERN1
+	EIF2S1	cytosol	Reactome DB_ID: 72510	UniProt:P05198	EIF2S1
+	EIF-2A	cytosol	Reactome DB_ID: 381060	UniProt:P05198	EIF2S1
+_reactionName.size()	9
+	T	Dissociation of ATF6-alpha:BiP Complex
+	B	Cleavage of ATF6-alpha by S1P
+	B	Cleavage of ATF6-alpha by S2P
+	T	Translocation of ATF6-alpha to the Nucleus
+	T	Dissociation of IRE1:BiP heterodimer
+	T	Dimerization of IRE1
+	T	Autophosphorylation of IRE1 dimer
+	D	ADP Binding by Phosphorylated IRE1 Homodimer
+	T	Phosphorylation of eIF2-alpha by PERK
+_smallMoleculeName.size()	5
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

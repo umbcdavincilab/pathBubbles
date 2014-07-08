@@ -1,0 +1,67 @@
+edge.size() 7
+ 67 0 67 2 82 0 -1
+ 67 2 67 3 82 1 -1
+ 67 2 67 1 82 1 -1
+ 67 3 67 3 82 2 -1
+ 67 3 67 4 82 2 -1
+ 67 3 80 0 82 2 -1
+ 67 3 67 5 82 2 -1
+_complexName.size()	6
+	BoNT	endocytic vesicle membrane	Reactome DB_ID: 194804	
+	Gangliosides:Synaptogamin	endocytic vesicle membrane	Reactome DB_ID: 194813	
+	BoNT with conformational change in Heavy chain N-terminal	endocytic vesicle membrane	Reactome DB_ID: 181477	
+	BoNT with Heavy chain N-terminal inserted into endosomal membrane	endocytic vesicle membrane	Reactome DB_ID: 181582	
+	BoNT Light chain Type B/BoNT Light chain Type D/BoNT Light chain Type F/BoNT Light chain Type G			
+	BoNT Light chain Type A/BoNT Light chain Type E/BoNT Light chain Type C1			
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	BoNT Light chain Type C1 polypeptide	cytosol	Reactome DB_ID: 181544	UniProt:P18640	Botulinum
+_reactionName.size()	3
+	T	Conformational change in BoNT induced by pH
+	B	Pore or channel formation in endosomal membrane
+	B	Transportation of BoNT Light chain to cytosol
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

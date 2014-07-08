@@ -1,0 +1,374 @@
+edge.size() 167
+ 83 7 80 0 82 0 -1
+ 83 8 80 2 82 0 -1
+ 83 9 83 0 82 0 -1
+ 83 10 83 1 82 0 -1
+ 67 0 83 2 82 0 -1
+ 67 0 83 3 82 0 -1
+ 67 0 80 2 82 0 -1
+ 67 0 80 0 82 0 -1
+ 83 11 83 4 82 0 -1
+ 83 12 83 5 82 0 -1
+ 83 13 80 2 82 0 -1
+ 83 14 80 0 82 0 -1
+ 83 15 83 6 82 0 -1
+ 67 0 80 2 82 1 -1
+ 80 3 80 2 82 1 -1
+ 80 3 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 69 0 67 2 82 2 -1
+ 69 1 67 2 82 2 -1
+ 67 1 67 2 82 2 -1
+ 83 19 83 16 82 3 -1
+ 83 20 67 2 82 3 -1
+ 83 15 67 2 82 3 -1
+ 80 3 83 17 82 3 -1
+ 80 3 67 2 82 3 -1
+ 67 3 83 18 82 3 -1
+ 67 3 67 2 82 3 -1
+ 83 24 83 21 82 4 -1
+ 83 25 67 3 82 4 -1
+ 83 26 67 1 82 4 -1
+ 83 15 67 1 82 4 -1
+ 80 3 67 3 82 4 -1
+ 80 3 83 22 82 4 -1
+ 80 3 67 1 82 4 -1
+ 67 4 67 3 82 4 -1
+ 67 4 83 23 82 4 -1
+ 67 4 67 1 82 4 -1
+ 67 4 69 2 82 5 -1
+ 67 4 69 1 82 5 -1
+ 69 2 80 0 82 6 -1
+ 69 2 83 27 82 6 -1
+ 69 2 69 3 82 6 -1
+ 69 2 69 4 82 6 -1
+ 69 3 83 27 82 7 -1
+ 69 3 69 4 82 7 -1
+ 67 6 67 7 82 8 -1
+ 80 5 67 7 82 8 -1
+ 67 7 67 8 82 9 -1
+ 80 6 67 8 82 9 -1
+ 80 -1 67 9 82 10 -1
+ 67 8 67 9 82 10 -1
+ 67 8 80 5 82 10 -1
+ 80 -1 80 5 82 10 -1
+ 80 7 67 10 82 11 -1
+ 67 -1 67 10 82 11 -1
+ 80 8 67 10 82 11 -1
+ 67 9 67 10 82 11 -1
+ 69 5 67 10 82 11 -1
+ 69 4 83 32 82 12 -1
+ 83 28 83 33 82 12 -1
+ 83 29 83 34 82 12 -1
+ 83 30 69 6 82 12 -1
+ 69 4 69 6 82 12 -1
+ 83 31 69 6 82 12 -1
+ 69 4 83 35 82 12 -1
+ 69 6 69 7 82 13 -1
+ 69 6 83 36 82 13 -1
+ 69 7 80 7 82 14 -1
+ 67 10 80 7 82 14 -1
+ 67 10 67 -1 82 14 -1
+ 69 7 67 -1 82 14 -1
+ 67 10 80 8 82 14 -1
+ 69 7 80 8 82 14 -1
+ 67 10 80 6 82 14 -1
+ 69 7 80 6 82 14 -1
+ 67 10 67 11 82 14 -1
+ 69 7 67 11 82 14 -1
+ 67 11 69 5 82 15 -1
+ 67 11 67 12 82 15 -1
+ 67 13 67 14 82 16 -1
+ 67 12 67 14 82 16 -1
+ 80 10 67 15 82 17 -1
+ 67 14 67 15 82 17 -1
+ 80 11 67 15 82 17 -1
+ 67 15 67 16 82 18 -1
+ 67 16 80 10 82 19 -1
+ 83 29 80 10 82 19 -1
+ 83 37 80 10 82 19 -1
+ 83 38 83 44 82 19 -1
+ 67 16 83 45 82 19 -1
+ 83 39 83 46 82 19 -1
+ 67 16 80 11 82 19 -1
+ 83 40 80 11 82 19 -1
+ 67 16 80 11 82 19 -1
+ 83 41 80 12 82 19 -1
+ 67 16 80 12 82 19 -1
+ 83 42 80 12 82 19 -1
+ 67 16 67 17 82 19 -1
+ 83 43 67 17 82 19 -1
+ 67 16 67 17 82 19 -1
+ 67 17 67 19 82 20 -1
+ 67 19 67 -1 82 21 -1
+ 69 8 67 20 82 22 -1
+ 69 9 67 20 82 22 -1
+ 67 20 69 -1 82 23 -1
+ 67 20 69 -1 82 23 -1
+ 69 -1 69 10 82 -1 -1
+ 83 -1 83 -1 82 24 -1
+ 83 -1 83 -1 82 24 -1
+ 83 -1 83 -1 82 24 -1
+ 83 -1 83 -1 82 24 -1
+ 83 -1 83 -1 82 24 -1
+ 83 -1 83 -1 82 24 -1
+ 69 10 69 11 82 25 -1
+ 69 11 69 -1 82 26 -1
+ 69 11 69 -1 82 -1 -1
+ 69 12 80 0 82 27 -1
+ 69 12 83 27 82 27 -1
+ 69 12 69 4 82 27 -1
+ 69 4 83 50 82 28 -1
+ 83 47 83 51 82 28 -1
+ 83 29 83 52 82 28 -1
+ 83 48 83 35 82 28 -1
+ 69 4 69 13 82 28 -1
+ 83 49 69 13 82 28 -1
+ 69 4 69 13 82 28 -1
+ 67 21 80 13 82 29 -1
+ 69 13 80 13 82 29 -1
+ 69 13 80 15 82 29 -1
+ 67 21 80 15 82 29 -1
+ 69 13 80 14 82 29 -1
+ 67 21 80 14 82 29 -1
+ 69 13 67 22 82 29 -1
+ 67 21 67 22 82 29 -1
+ 67 22 67 -1 82 30 -1
+ 69 14 83 53 82 31 -1
+ 69 14 69 15 82 31 -1
+ 69 15 69 16 82 32 -1
+ 69 15 83 53 82 32 -1
+ 69 16 67 24 82 33 -1
+ 67 23 67 24 82 33 -1
+ 67 24 67 -1 82 34 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 25 82 -1 -1
+ 67 25 67 -1 82 35 -1
+ 67 -1 69 14 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 69 14 69 17 82 -1 -1
+ 69 17 83 27 82 36 -1
+ 69 17 69 3 82 36 -1
+ 80 2 82 1 82 0 -1
+ 80 3 82 1 82 1 -1
+ 80 1 82 1 82 3 -1
+ 67 3 82 1 82 4 -1
+ 67 5 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+ 67 -1 82 1 82 12 -1
+ 80 9 82 1 82 13 -1
+ 67 18 82 1 82 19 -1
+ 67 -1 82 1 82 24 -1
+ 67 -1 82 1 82 -1 -1
+ 67 5 82 1 82 27 -1
+ 67 -1 82 1 82 28 -1
+ 80 16 82 1 82 31 -1
+ 67 -1 82 1 82 32 -1
+ 67 5 82 1 82 36 -1
+_complexName.size()	26
+	E1 bound ubiquitin	cytosol	Reactome DB_ID: 976164	
+	Ub:E2s	cytosol	Reactome DB_ID: 976165	
+	Ag-substrate:E3:E2:Ub	cytosol	Reactome DB_ID: 983126	
+	E3:Ub:substrate	cytosol	Reactome DB_ID: 983131	
+	E3:K48-polyubiquitinated substrate	cytosol	Reactome DB_ID: 983134	
+	26S proteasome	cytosol	Reactome DB_ID: 68819	
+	monoglucosylated MHC class I HC	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983120	
+	monoglucosylated MHC class I HC:Calnexin/BiP	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983116	
+	MHC class I HC:Calnexin/BiP:Erp57	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983119	
+	MHC HC:B2M:Erp57	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983136	
+	MHC:B2M peptide loading complex	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983121	
+	Antigen peptide bound class I MHC:BAP31 oligomer	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983132	
+	Antigen peptide bound class I MHC	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983114	
+	Sar1b:GTP:Sec23p:Sec24p	endoplasmic reticulum membrane	Reactome DB_ID: 203997	
+	Sar1p:GTP:Sec23p:Sec24p:Ag bound MHC class I	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983413	
+	COPII vesicle with MHC class I	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983414	
+	COPII vesicle with MHC class I	ER to Golgi transport vesicle membrane	Reactome DB_ID: 983418	
+	Antigen peptide bound class I MHC	ER to Golgi transport vesicle membrane	Reactome DB_ID: 983412	
+	Sar1b:Sec23p:Sec24p:Sec13p:Sec31p Complex	ER to Golgi transport vesicle membrane	Reactome DB_ID: 204019	
+	Antigen peptide bound class I MHC	Golgi membrane	Reactome DB_ID: 983416	
+	Particulate Ag:DC receptors	plasma membrane	Reactome DB_ID: 1236920	
+	Class I MHC peptide loading complex	phagocytic vesicle membrane	Reactome DB_ID: 1236932	
+	Ag peptide bound class I MHC	phagocytic vesicle membrane	Reactome DB_ID: 1236931	
+	Class I MHC:B2M	early endosome membrane	Reactome DB_ID: 1236930	
+	Antigen peptide bound class I MHC	early endosome membrane	Reactome DB_ID: 1236934	
+	MR:soluble antigen	clathrin-coated endocytic vesicle membrane	Reactome DB_ID: 1236926	
+_physicalEntityName.size()	18
+		
+	CBLB/STUB1/DTX3L/DZIP3/HECTD3/HERC2/HUWE1/ITCH/LRSAM1/MGRN1/NEDD4/NEDD4L/RNF144B/RNF182/RNF19B/RNF220/RNF25/RNF6/SMURF1/TRIM11/TRIM21/TRIM32/TRIM36/TRIM37/TRIM63/TRIM9/UBR1/UBR2/GAN/WWP1/TRIP12/RCHY1/SPSB1/SPSB2/SPSB4/UBOX5/UBE4A/UBE3A/UBE3B/UBE3C/UBR4/LRRC41/RBCK1/RNF41/PJA2/RNF123/PJA1/PARK2/SMURF2/RNF34/FBXO17/FBXO27/FBXO44/RNF4/ARIH2/RNF138/MKRN1/LRR1/RNF111/VPRBP/DET1/WSB1/CBLB/STUB1/DTX3L/DZIP3/HECTD3/HERC2/HUWE1/ITCH/LRSAM1/MGRN1/NEDD4/NEDD4L/RNF144B/RNF182/RNF19B/RNF220/RNF25/RNF6/SMURF1/TRIM11/TRIM21/TRIM32/TRIM36/TRIM37/TRIM63/TRIM9/UBR1/UBR2/GAN/WWP1/TRIP12/RCHY1/SPSB1/SPSB2/SPSB4/UBOX5/UBE4A/UBE3A/UBE3B/UBE3C/UBR4/LRRC41/RBCK1/RNF41/PJA2/RNF123/PJA1/PARK2/SMURF2/RNF34/FBXO17/FBXO27/FBXO44/RNF4/ARIH2/RNF138/MKRN1/LRR1/RNF111/VPRBP/DET1/WSB1	cytosol
+		
+		
+		
+		
+		
+		
+	GPIV/GPIV	plasma membrane
+		
+		
+		
+		
+		
+		
+		
+		
+		
+_proteinName.size()	17
+	UBC(609-684)	cytosol			
+	RPS27A	cytosol	Reactome DB_ID: 939205	UniProt:P62979	RPS27A
+	ATG7	cytosol			
+	UBE2Z	cytosol			
+	TPP2	cytosol			
+	BiP	integral to lumenal side of endoplasmic reticulum membrane			
+	PDIA3	endoplasmic reticulum lumen	Reactome DB_ID: 901028	UniProt:P30101	PDIA3
+	TAPBP	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 983083	UniProt:O15533	TAPBP
+	CALR	integral to lumenal side of endoplasmic reticulum membrane	Reactome DB_ID: 985502	UniProt:P27797	CALR
+	ERAP1	endoplasmic reticulum lumen			
+	SEC13	cytosol	Reactome DB_ID: 203981	UniProt:P55735	SEC13
+	SEC31A	cytosol	Reactome DB_ID: 203983	UniProt:O94979	SEC31A
+	SEC24D	cytosol			
+	TAPBP	phagocytic vesicle membrane	Reactome DB_ID: 1236750	UniProt:O15533	TAPBP
+	PDIA3	phagocytic vesicle	Reactome DB_ID: 1236870	UniProt:P30101	PDIA3
+	CALR	phagocytic vesicle membrane	Reactome DB_ID: 1236879	UniProt:P27797	CALR
+	CTSL1	early endosome lumen			
+_reactionName.size()	37
+	T	E1 mediated ubiquitin activation
+	T	Transfer of ubiquitin from E1 to E2
+	D	Interaction of E3 with substrate and E2-Ub complex
+	T	Transfer of Ub from E2 to substrate and release of E2
+	T	Polyubiquitination of substrate
+	B	Release of E3 from polyubiquitinated substrate
+	B	Proteasomal cleavage of substrate
+	B	Trimming of N-ter extended precursor fragments by cytosolic aminopeptidases
+	D	Binding of newly synthesized MHC class I heavy chain (HC) with calnexin
+	D	Interaction of Erp57 with MHC class I HC
+	T	Interaction of beta-2-microglobulin (B2M) chain with  class I HC
+	D	Formation of peptide loading complex (PLC)
+	T	Transport of Antigen peptide in to ER
+	B	Trimming of peptides in ER
+	T	Loading of antigenic peptides on to class I MHC
+	B	Transport of MHC heterotrimer to ER exit site
+	D	Capturing cargo and formation of prebudding complex
+	D	Recruitment of Sec31p:Sec13p to prebudding complex and formation of COPII vesicle
+	T	Budding of COPII coated vesicle
+	T	Disassembly of COPII coated vesicle
+	T	Journey of cargo through Golgi complex
+	T	Expression of peptide bound class I MHC on cell surface
+	D	Interaction of particulate antigens with dendritic cell receptors
+	B	Engulfment of particulate antigen into phagocytic vesicle
+	T	Alkalization of the phagosomal lumen by NOX2
+	T	Partial proteolysis of antigen in phagolysosomes
+	T	Escape of antigens from phagosome to cytosol
+	B	Proteasomal cleavage of substrate
+	T	Translocation of antigenic peptides back to phagosomes via TAP
+	T	Peptide loading on MHC class I in phagosome
+	T	Export of peptide loaded MHC class I complex to PM
+	B	Antigen processing by cathepsin S in endosoytic vesicle
+	B	Trimming of peptides by IRAP in endocytic vesicles
+	D	Loading of antigen peptide onto MHC class I molecule
+	T	Translocation of peptide bound MHC class I complex to cell surface
+	T	Movement of clathrin coated vesicles into early endosome
+	B	Proteasomal clevage of exogenous antigen
+_smallMoleculeName.size()	54
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	Mg2+	cytosol	Reactome DB_ID: 29926	Magnesium [ChEBI:18420]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+				
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	TPNH	phagolysosome	Reactome DB_ID: 2000347	NADPH [ChEBI:16474]
+	TPN	phagolysosome	Reactome DB_ID: 2000348	NADP+ [ChEBI:18009]
+	O2	phagolysosome	Reactome DB_ID: 1236709	Oxygen [ChEBI:15379]
+	TPN	phagolysosome	Reactome DB_ID: 2000348	NADP+ [ChEBI:18009]
+	O2	phagolysosome	Reactome DB_ID: 1236709	Oxygen [ChEBI:15379]
+	H+	phagolysosome	Reactome DB_ID: 2000349	H+ [ChEBI:15378]
+	TPNH	phagolysosome	Reactome DB_ID: 2000347	NADPH [ChEBI:16474]
+	H+	phagolysosome	Reactome DB_ID: 2000349	H+ [ChEBI:15378]
+	O2	phagolysosome	Reactome DB_ID: 1236709	Oxygen [ChEBI:15379]
+	O2.-	phagolysosome	Reactome DB_ID: 2000345	O2.- [ChEBI:7710]
+	TPNH	phagolysosome	Reactome DB_ID: 2000347	NADPH [ChEBI:16474]
+	O2.-	phagolysosome	Reactome DB_ID: 2000345	O2.- [ChEBI:7710]
+				
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	45
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	integral to lumenal side of endoplasmic reticulum membrane
+	phagocytic vesicle
+	phagolysosome
+	early endosome lumen
+	clathrin-coated endocytic vesicle membrane
+	whole

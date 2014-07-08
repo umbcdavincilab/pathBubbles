@@ -1,0 +1,59 @@
+edge.size() 3
+ 69 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 0 67 -1 82 1 -1
+_complexName.size()	1
+	SCARF1:Ligand	plasma membrane	Reactome DB_ID: 2197638	
+_physicalEntityName.size()	1
+	CALR/HSP90/HSPH1/HYOU1/porB/CALR/HSP90/HSPH1/HYOU1/porB	extracellular region
+_proteinName.size()	1
+	SCARF1	plasma membrane	Reactome DB_ID: 2197636	UniProt:Q14162	SCARF1
+_reactionName.size()	2
+	D	SCARF1 (SREC-I) Binds Ligands
+	T	Endocytosis of SCARF1:Ligand
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	endocytic vesicle lumen
+	whole

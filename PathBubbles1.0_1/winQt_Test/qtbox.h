@@ -41,7 +41,7 @@ using namespace boost;
 const int MAX_ITEM_SIZE = 1200;
 const int MIN_ITEM_SIZE = 50;
 const int MATSIZE = 260;
-const int BOARDERSIZE = 6;
+const int BOARDERSIZE = 4;
 const int HALOWIDTH = 16;
 
 #define GO_UP		1
@@ -51,29 +51,9 @@ const int HALOWIDTH = 16;
 #define BREWERCOLOR2  12  //dark
 #define SATURATECOLOR  22  //6 color, red, blue, green, yellow, purple, and light blue
 
-#define LIGHT_HIGHLIGHTCOLOR QColor(255,213,170,159)// QColor(220, 230, 255, 159) 
-#define MIDIUM_HIGHLIGHTCOLOR QColor(255,128,0,255) //QColor(20,20,255,255)
-#define PRIME_PATH_COLOR   QColor(254,153,41,127)
 
-#define RATELIMITCOLOR  QColor(255, 160, 160,255)
-#define CROSSTALKCOLOR  QColor(160, 160, 255, 255)
-#define ORTHOLOGYCOLOR  QColor(102,194,165, 255)
-#define DOWNEXPRESSIONCOLOR QColor(64,64,255,255)
-#define UPEXPRESSIONCOLOR QColor(230,68,113,255)
- 
-#define PROTEINCOLOR QColor(255,255,204,255) 
-#define COMPLEXCOLOR QColor(255,226,183,255) 	
-#define SMALLMOLECULECOLOR QColor(214,215,202,255)
-#define PHYSICALENTITYCOLOR QColor(230,234,172,255)
-#define DNACOLOR QColor(214,234,172,255)
-#define SETCOLOR QColor(254,202,131,255)
-#define REACTIONCOLOR QColor(255,255,255,255)
 
-#define ACTIVATIONCOLOR QColor(0, 210, 50, 255)
-#define INHIBITIONCOLOR QColor(255, 128, 0, 255)
-#define BUBBLELINKCOLOR QColor(40,40,40,200)
 
-#define HIGHLIGHTCOLOR QColor(255,213,170,159) //QColor(120, 130, 255, 127) //for shared, linked, differed
 
 //	type of object
 #define BAT		1
@@ -492,7 +472,7 @@ public:
 	
 	QSizeF getItemSize_2( int type, int id, QString qstr);
 	int bIndex;
-	void readexpression(const char *name, vector<QString> &quantityName, vector<vector<QString>> &geneInfo, vector<vector<float>> &quantity, vector<vector<float>> &minmax);
+	//void readexpression(const char *name, vector<QString> &quantityName, vector<vector<QString>> &geneInfo, vector<vector<float>> &quantity, vector<vector<float>> &minmax);
 
 	void unGroupbyMenu();
 	bool isUnGroup() {
@@ -532,6 +512,8 @@ protected:
 	int whichCorner(const QPointF &pos);
 	bool isInLabelArea(const QPointF &pos);
 	void drawControlHint( QPainter *painter );
+
+	void drawABubbleConnection(QPainter *painter, QPointF center1, ItemBase* bubble1, QPointF center2, ItemBase* bubble2, QPointF Dis);
 
 	
 	static void growSelectedItems(QGraphicsScene *scene);
@@ -645,6 +627,7 @@ void drawArrow(QPainter *painter, QPointF start, QPointF end, float width, float
 void drawArrow_H(QPainter *painter, QPointF start, QPointF end, float width, float height, float _scale,  QColor color, QRegion clipRegion=QRect(0,0,0,0));
 void drawArrow_GL(QPainter *painter, QPointF start, QPointF end, float width, float height);
 void drawArrow_GL_H(QPainter *painter, QPointF start, QPointF end, float width, float height, float _scale=1);
+void drawArrow_GL_H_2(QPainter *painter, QPointF start, QPointF end, vector<QColor> bc, float width, float height, float _scale=1);
 void drawArrow(QPainter *painter, QPointF start, float h, QPointF end, float width, float height, QColor color, QRegion clipRegion=QRect(0,0,0,0));
 void drawArrow_2(QPainter *painter, QPointF start, QPointF end, float width, float height, QColor color);
 void drawArrow_3(QPainter *painter, QPointF start, QPointF end, float width, float height, QColor color); //polyline
@@ -663,7 +646,7 @@ QVector<QPointF> getArrow_4(QPointF start, float h, QPointF end, float width, fl
 QVector<QPointF> getArrow(QPointF start, float h, QPointF end, float width, float height, float _scale=1);
 
 void drawCurvedArrow_GL(QPainter *painter, set<int> code, float h, QPointF start, QPointF end, float width, float height, float _scale=1);
-void drawCurvedArrow_GL_H(QPainter *painter, set<int> code, float h, QPointF start, QPointF end, float width, float height, float _scale=1, QColor color=MIDIUM_HIGHLIGHTCOLOR);
+void drawCurvedArrow_GL_H(QPainter *painter, set<int> code, float h, QPointF start, QPointF end, float width, float height, float _scale=1, QColor color=MEDIUM_HIGHLIGHTCOLOR);
 
 void drawArrow_5(QPainter *painter, QPointF start, QPointF end, QRect noteRect, float width, float height, QColor color);
 void drawNoteMark(QPainter *painter, QPointF start, QPointF end, QRect noteRect, QPointF markPos, QRectF &markRect, float width, float height, QColor color);
@@ -680,6 +663,7 @@ vector<QPointF> getCurveLine(QPointF start, QPointF mid, QPointF end);
 
 
 void drawDissociation(QPainter *painter, QRectF rect);
+void drawDissociation_H(QPainter *painter, QRectF rect);
 QRegion getClipRegionforCalloutNote();
 QRegion getCalloutNoteRect();
 QRegion getCalloutNoteRectforNote();

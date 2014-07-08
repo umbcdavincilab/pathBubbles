@@ -1,0 +1,102 @@
+edge.size() 29
+ 80 -1 80 -1 82 -1 -1
+ 80 0 80 1 82 0 -1
+ 80 1 80 2 82 1 -1
+ 80 2 80 -1 82 2 -1
+ 80 -1 80 3 82 -1 -1
+ 80 3 80 -1 82 3 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 4 67 0 82 4 -1
+ 67 0 67 1 82 5 -1
+ 83 0 67 1 82 5 -1
+ 67 1 67 2 82 6 -1
+ 67 3 67 4 82 7 -1
+ 80 -1 67 4 82 7 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 5 82 8 -1
+ 83 0 67 5 82 8 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	6
+	Defensin alpha 1 dimer/Defensin alpha 2 dimer/Defensin alpha 3 dimer/Defensin alpha 4 dimer/Defensin-5 dimer/Defensin-6 dimer			
+	Alpha-defensin dimers:anionic phospholipids	plasma membrane	Reactome DB_ID: 1471345	
+	Alpha-defensin pore complex	plasma membrane	Reactome DB_ID: 1471355	
+	gp120 homotrimer	viral envelope	Reactome DB_ID: 173652	
+	HNP1-3:gp120	viral envelope	Reactome DB_ID: 1471336	
+	Beta-defensins:anionic phospholipids	plasma membrane	Reactome DB_ID: 1471372	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	DEFA4	Golgi lumen			
+	DEFA4	Golgi lumen			
+	DEFA4	azurophil granule lumen			
+	DEFA5	secretory granule lumen	Reactome DB_ID: 1471358	UniProt:Q01523	DEFA5
+	DEFA6	extracellular region			
+_reactionName.size()	9
+	T	Pro-HNP1-4 are cleaved to biologically active defensin
+	T	HNP1-4 are stored in primary neutrophil granules
+	T	HNP1-4 are released into phagocytic vacuoles
+	T	pro-defensin alpha 5 is secreted
+	T	Alpha-defensins form biologically active dimers
+	D	Alpha-defensin dimers adsorb onto microbial membrane anionic phospholipids
+	T	Alpha-defensin dimers multimerize to form a pore complex
+	D	HNP1-3 bind gp120
+	D	Beta-defensins bind microbial membranes causing disruption
+_smallMoleculeName.size()	1
+	Anionic phospholipids	plasma membrane	Reactome DB_ID: 1462049	anionic phospholipid [ChEBI:62643]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	42
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	viral envelope
+	azurophil granule lumen
+	whole

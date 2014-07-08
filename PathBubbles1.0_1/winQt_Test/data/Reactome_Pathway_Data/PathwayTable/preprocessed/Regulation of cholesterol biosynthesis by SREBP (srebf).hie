@@ -1,0 +1,274 @@
+edge.size() 128
+ 80 0 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 83 0 67 1 82 0 -1
+ 67 0 67 3 82 1 -1
+ 67 2 67 3 82 1 -1
+ 67 0 67 5 82 2 -1
+ 67 4 67 5 82 2 -1
+ 67 5 67 6 82 3 -1
+ 67 6 80 1 82 4 -1
+ 67 6 67 7 82 4 -1
+ 80 1 80 -1 82 5 -1
+ 80 -1 67 8 82 -1 -1
+ 80 4 67 9 82 6 -1
+ 67 8 67 9 82 6 -1
+ 67 9 67 10 82 7 -1
+ 67 12 67 13 82 8 -1
+ 67 10 67 13 82 8 -1
+ 67 10 67 11 82 8 -1
+ 67 12 67 11 82 8 -1
+ 68 0 67 15 82 9 -1
+ 67 14 67 15 82 9 -1
+ 68 1 67 16 82 10 -1
+ 67 14 67 16 82 10 -1
+ 80 5 67 16 82 10 -1
+ 68 2 67 18 82 11 -1
+ 67 11 67 18 82 11 -1
+ 67 17 67 18 82 11 -1
+ 67 14 67 19 82 12 -1
+ 68 3 67 19 82 12 -1
+ 67 17 67 19 82 12 -1
+ 68 4 67 20 82 13 -1
+ 67 14 67 20 82 13 -1
+ 80 5 67 20 82 13 -1
+ 67 17 67 20 82 13 -1
+ 68 5 67 22 82 14 -1
+ 67 21 67 22 82 14 -1
+ 68 6 67 23 82 15 -1
+ 67 21 67 23 82 15 -1
+ 67 17 67 24 82 16 -1
+ 68 7 67 24 82 16 -1
+ 67 21 67 24 82 16 -1
+ 68 8 67 25 82 17 -1
+ 67 17 67 25 82 17 -1
+ 67 21 67 25 82 17 -1
+ 68 9 67 26 82 18 -1
+ 80 5 67 26 82 18 -1
+ 67 17 67 26 82 18 -1
+ 67 21 67 26 82 18 -1
+ 68 10 67 27 82 19 -1
+ 80 5 67 27 82 19 -1
+ 67 17 67 27 82 19 -1
+ 67 21 67 27 82 19 -1
+ 80 5 67 28 82 20 -1
+ 68 11 67 28 82 20 -1
+ 67 17 67 28 82 20 -1
+ 67 21 67 28 82 20 -1
+ 68 12 67 29 82 21 -1
+ 80 5 67 29 82 21 -1
+ 67 17 67 29 82 21 -1
+ 67 21 67 29 82 21 -1
+ 80 5 67 30 82 22 -1
+ 68 13 67 30 82 22 -1
+ 67 17 67 30 82 22 -1
+ 67 21 67 30 82 22 -1
+ 80 5 67 31 82 23 -1
+ 68 14 67 31 82 23 -1
+ 67 17 67 31 82 23 -1
+ 67 21 67 31 82 23 -1
+ 68 15 67 32 82 24 -1
+ 67 17 67 32 82 24 -1
+ 67 21 67 32 82 24 -1
+ 68 16 67 33 82 25 -1
+ 67 11 67 33 82 25 -1
+ 68 17 67 34 82 26 -1
+ 67 11 67 34 82 26 -1
+ 67 17 67 34 82 26 -1
+ 67 11 67 35 82 27 -1
+ 68 18 67 35 82 27 -1
+ 67 17 67 35 82 27 -1
+ 68 19 67 36 82 28 -1
+ 80 5 67 36 82 28 -1
+ 67 11 67 36 82 28 -1
+ 67 17 67 36 82 28 -1
+ 67 24 80 -1 82 -1 -1
+ 67 27 80 -1 82 -1 -1
+ 67 15 80 -1 82 -1 -1
+ 67 16 80 -1 82 -1 -1
+ 67 23 80 -1 82 -1 -1
+ 67 33 80 -1 82 -1 -1
+ 67 34 80 -1 82 -1 -1
+ 67 36 80 -1 82 -1 -1
+ 67 20 80 -1 82 -1 -1
+ 67 28 80 -1 82 -1 -1
+ 67 19 80 6 82 29 -1
+ 67 35 80 -1 82 -1 -1
+ 67 29 80 -1 82 -1 -1
+ 67 26 80 -1 82 -1 -1
+ 67 22 80 -1 82 -1 -1
+ 67 25 80 -1 82 -1 -1
+ 67 30 80 -1 82 -1 -1
+ 67 31 80 -1 82 -1 -1
+ 67 32 80 -1 82 -1 -1
+ 67 18 80 -1 82 30 -1
+ 80 2 82 1 82 4 -1
+ 80 3 82 1 82 5 -1
+ 67 24 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 27 82 1 82 -1 -1
+ 67 15 82 1 82 -1 -1
+ 67 16 82 1 82 -1 -1
+ 67 23 82 1 82 -1 -1
+ 67 33 82 1 82 -1 -1
+ 67 34 82 1 82 -1 -1
+ 67 36 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 20 82 1 82 -1 -1
+ 67 28 82 1 82 -1 -1
+ 67 19 82 1 82 29 -1
+ 67 -1 82 1 82 -1 -1
+ 67 35 82 1 82 -1 -1
+ 67 29 82 1 82 -1 -1
+ 67 26 82 1 82 -1 -1
+ 67 22 82 1 82 -1 -1
+ 67 25 82 1 82 -1 -1
+ 67 30 82 1 82 -1 -1
+ 67 31 82 1 82 -1 -1
+ 67 32 82 1 82 -1 -1
+ 67 18 82 1 82 30 -1
+_complexName.size()	37
+	SREBP1A/1C/2:SCAP	endoplasmic reticulum membrane	Reactome DB_ID: 2317520	
+	SREBP1A/1C/2:SCAP:cholesterol:INSIG	endoplasmic reticulum membrane	Reactome DB_ID: 1655766	
+	INSIG:oxysterol	endoplasmic reticulum membrane	Reactome DB_ID: 2317517	
+	SREBP1A/1C/2:SCAP:INSIG:oxysterol	endoplasmic reticulum membrane	Reactome DB_ID: 2317522	
+	Sar1b:GTP:Sec23p:Sec24p	endoplasmic reticulum membrane	Reactome DB_ID: 203997	
+	SREBP1A/1C/2:SCAP:Cop II Coat	endoplasmic reticulum membrane	Reactome DB_ID: 1655765	
+	SREBP1A/1C/2:SCAP	Golgi membrane	Reactome DB_ID: 1655742	
+	SCAP tetramer	Golgi membrane	Reactome DB_ID: 1655737	
+	SREBP1A/1C/2 Dimer	cytosol	Reactome DB_ID: 2065548	
+	SREBP1A/1C/2:Importin beta-1	cytosol	Reactome DB_ID: 2065556	
+	SREBP1A/1C/2:Importin beta-1	nucleoplasm	Reactome DB_ID: 2065543	
+	SREBP1A/1C/2 Dimer	nucleoplasm	Reactome DB_ID: 1655744	
+	Ran-GTP	nucleoplasm	Reactome DB_ID: 180738	
+	Importin-beta:Ran GTP complex	nucleoplasm	Reactome DB_ID: 180719	
+	SREBP1A/1C Dimer	nucleoplasm	Reactome DB_ID: 2065537	
+	SREBP1A/1C:ACACA gene	nucleoplasm	Reactome DB_ID: 2426141	
+	SREBP1A/1C:ACACB gene	nucleoplasm	Reactome DB_ID: 2426125	
+	NF-Y	nucleoplasm	Reactome DB_ID: 381204	
+	SREBP1A/1C/2:NF-Y:TM7SF2 gene	nucleoplasm	Reactome DB_ID: 1655714	
+	SREBP1A/1C:NF-Y:GPAM gene	nucleoplasm	Reactome DB_ID: 2426131	
+	SREBP1A/1C:NF-Y:SP1:FASN gene	nucleoplasm	Reactome DB_ID: 1655738	
+	SREBP1A/2 Dimer	nucleoplasm	Reactome DB_ID: 2065551	
+	SREBP1A/2:LSS gene	nucleoplasm	Reactome DB_ID: 2426137	
+	SREBP1A/2:MVD gene	nucleoplasm	Reactome DB_ID: 2426130	
+	SREBP1A/2:NF-Y:HMGCR gene	nucleoplasm	Reactome DB_ID: 2426128	
+	SREBP1A/2:NF-Y:SC5DL gene	nucleoplasm	Reactome DB_ID: 2426140	
+	SREBP1A/2:NF-Y:SP1:CYP51A1 gene	nucleoplasm	Reactome DB_ID: 2426132	
+	SREBP1A/2:NF-Y:SP1:DHCR7 gene	nucleoplasm	Reactome DB_ID: 2426124	
+	SREBP1A/2:NF-Y:SP1:GGPS1 gene	nucleoplasm	Reactome DB_ID: 2426126	
+	SREBP1A/2:NF-Y:SP1:IDI1 gene	nucleoplasm	Reactome DB_ID: 2426138	
+	SREBP1A/2:NF-Y:SP1:MVK gene	nucleoplasm	Reactome DB_ID: 2426127	
+	SREBP1A/2:NF-Y:SP1:PMVK gene	nucleoplasm	Reactome DB_ID: 2426139	
+	SREBP1A/2:SQLE gene	nucleoplasm	Reactome DB_ID: 2426136	
+	SREBP1A/1C/2:ELOVL6 gene	nucleoplasm	Reactome DB_ID: 1655762	
+	SREBP1A/1C/2:NF-Y:FDPS gene	nucleoplasm	Reactome DB_ID: 2426134	
+	SREBP1A/1C/2:NF-Y:HMGCS1 gene	nucleoplasm	Reactome DB_ID: 2426129	
+	SREBP1A/1C/2:NF-Y:SP1:FDFT1 gene	nucleoplasm	Reactome DB_ID: 2426135	
+_physicalEntityName.size()	0
+_proteinName.size()	7
+	INSIG2	endoplasmic reticulum membrane			
+	SRBP2_HUMAN	Golgi membrane			
+	S1P	Golgi membrane	Reactome DB_ID: 381108	UniProt:Q14703	MBTPS1
+	S2P	Golgi membrane	Reactome DB_ID: 381131	UniProt:O43462	MBTPS2
+	KPNB1	cytosol	Reactome DB_ID: 180733	UniProt:Q14974	KPNB1
+	SP1	nucleoplasm	Reactome DB_ID: 1592223	UniProt:P08047	SP1
+	GPAM	mitochondrial outer membrane	Reactome DB_ID: 61855	UniProt:Q9HCL2	GPAM
+_reactionName.size()	31
+	D	SREBP1A/1C/2 is retained in the endoplasmic reticulum by SCAP:cholesterol:INSIG
+	D	SREBP1A/1C/2 is retained in the endoplasmic reticulum by SCAP:INSIG:oxysterol
+	D	SREBP1A/1C/2:SCAP Binds CopII Coat Complex
+	T	SREBP1A/1C/2:SCAP Transits to the Golgi
+	B	S1P Cleaves SREBP1A/1C/2
+	T	S2P Cleaves SREBP1A/1C/2
+	D	SREBP1A/1C/2 Binds Importin beta-1
+	T	SREBP1A/1C/2 Transits to the Nucleus
+	T	SREBP1A/1C/2 Dissociates from Importin beta-1
+	D	SREBF1A/1C Binds the ACACA Promoter
+	D	SREBP1A/1C Binds the ACACB Promoter
+	D	SREBP1A/1C/2 Binds the TM7SF2 Promoter
+	D	SREBP1A/1C Binds the GPAM Promoter
+	D	SREBP1A/1C Binds the FASN Promoter
+	D	SREBP1A/2 Binds the LSS Promoter
+	D	SREBP1A/2 Binds the MVD Promoter
+	D	SREBP1A/2 Binds the HMGCR Promoter
+	D	SREBP1A/2 Binds the SC5DL Promoter
+	D	SREBP1A/2 Binds the CYP51A1 Promoter
+	D	SREBP1A/2 Binds the DHCR7 Promoter
+	D	SREBP1A/2 Binds the GGPS1 Promoter
+	D	SREBP1A/2 Binds the IDI1 Promoter
+	D	SREBP1A/2 Binds the MVK Promoter
+	D	SREBP1A/2 Binds the PMVK Promoter
+	D	SREBP1A/2 Binds the SQLE Promoter
+	D	SREBP1A/1C/2 Binds the ELOVL6 Promoter
+	D	SREBP1A/1C/2 Binds the FDPS Promoter
+	D	SREBP1A/1C/2 Binds the HMGCS1 Promoter
+	D	SREBP1A/1C/2 Binds the FDFT1 Promoter
+	T	Expression of Glycerol-3-phosphate Acyltransferase (GPAM, GPAT)
+	T	Expression of TM7SF2
+_smallMoleculeName.size()	1
+	Cholesterol	endoplasmic reticulum membrane	Reactome DB_ID: 193384	cholesterol [ChEBI:16113]
+_DnaName.size()	20
+	ACACA 	nucleoplasm	Reactome DB_ID: 2393997	ENSEMBL:ENSG00000132142 ACACA
+	ACACB 	nucleoplasm	Reactome DB_ID: 2393980	ENSEMBL:ENSG00000076555 ACACB
+	TM7SF2 	nucleoplasm	Reactome DB_ID: 2393984	ENSEMBL:ENSG00000149809 TM7SF2
+	GPAM 	nucleoplasm	Reactome DB_ID: 2393968	ENSEMBL:ENSG00000119927 GPAM
+	FASN 	nucleoplasm	Reactome DB_ID: 2393979	ENSEMBL:ENSG00000169710 FASN
+	LSS 	nucleoplasm	Reactome DB_ID: 2393967	ENSEMBL:ENSG00000160285 LSS
+	MVD 	nucleoplasm	Reactome DB_ID: 2393981	ENSEMBL:ENSG00000167508 MVD
+	HMGCR 	nucleoplasm	Reactome DB_ID: 2393990	ENSEMBL:ENSG00000113161 HMGCR
+	SC5DL 	nucleoplasm	Reactome DB_ID: 2394001	ENSEMBL:ENSG00000109929 SC5DL
+	CYP51A1 	nucleoplasm	Reactome DB_ID: 2393988	ENSEMBL:ENSG00000067064 CYP51A1
+	DHCR7 	nucleoplasm	Reactome DB_ID: 2393971	ENSEMBL:ENSG00000172893 DHCR7
+	GGPS1 	nucleoplasm	Reactome DB_ID: 2393998	ENSEMBL:ENSG00000152904 GGPS1
+	IDI1 	nucleoplasm	Reactome DB_ID: 2393982	ENSEMBL:ENSG00000067064 IDI1
+	MVK 	nucleoplasm	Reactome DB_ID: 2393995	ENSEMBL:ENSG00000110921 MVK
+	PMVK 	nucleoplasm	Reactome DB_ID: 2393994	ENSEMBL:ENSG00000163344 PMVK
+	SQLE 	nucleoplasm	Reactome DB_ID: 2393973	ENSEMBL:ENSG00000104549 SQLE
+	ELOVL6 	nucleoplasm	Reactome DB_ID: 2393996	ENSEMBL:ENSG00000170522 ELOVL6
+	FDPS 	nucleoplasm	Reactome DB_ID: 2393989	ENSEMBL:ENSG00000160752 FDPS
+	HMGCS1 	nucleoplasm	Reactome DB_ID: 2393972	ENSEMBL:ENSG00000112972 HMGCS1
+	FDFT1 	nucleoplasm	Reactome DB_ID: 2393991	ENSEMBL:ENSG00000079459 FDFT1
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

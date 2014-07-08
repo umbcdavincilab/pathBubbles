@@ -1,0 +1,87 @@
+edge.size() 16
+ 69 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 1 67 2 82 1 -1
+ 80 1 67 2 82 1 -1
+ 67 0 67 2 82 1 -1
+ 80 2 67 2 82 1 -1
+ 83 1 83 0 82 2 -1
+ 80 3 80 0 82 2 -1
+ 80 3 80 0 82 2 -1
+ 80 3 67 3 82 3 -1
+ 80 5 67 3 82 3 -1
+ 83 1 83 2 82 4 -1
+ 80 6 80 0 82 4 -1
+ 80 6 80 0 82 4 -1
+ 80 4 82 1 82 2 -1
+ 67 4 82 1 82 4 -1
+_complexName.size()	5
+	KSRP:mRNA Complex	cytosol	Reactome DB_ID: 450608	
+	Exosome Complex	cytosol	Reactome DB_ID: 429971	
+	KSRP:mRNA Degradation Complex	cytosol	Reactome DB_ID: 450479	
+	Phosphorylated KSRP (Ser193):14-3-3zeta Complex	nucleoplasm	Reactome DB_ID: 450446	
+	Phospho-MAP kinase p38 (Mg2+ cofactor)	cytosol	Reactome DB_ID: 170993	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	7
+	KSRP	cytosol	Reactome DB_ID: 450485	UniProt:Q92945	KHSRP
+	DCP2	cytosol	Reactome DB_ID: 429937	UniProt:Q8IU60	DCP2
+	PARN	cytosol	Reactome DB_ID: 430009	UniProt:O95453	PARN
+	KHSRP	cytosol	Reactome DB_ID: 450505	UniProt:Q92945	KHSRP
+	PKB	cytosol	Reactome DB_ID: 198356	UniProt:P31749	AKT1
+	YWHAZ	nucleoplasm	Reactome DB_ID: 450469	UniProt:P63104	YWHAZ
+	KHSRP	cytosol	Reactome DB_ID: 451177	UniProt:Q92945	KHSRP
+_reactionName.size()	5
+	D	KSRP Binds AU-rich Element in 3' UTR of mRNA
+	D	KSRP Recruits RNA Degradation Activities
+	T	Phosphorylation of KSRP by Protein Kinase B/Akt
+	D	Phosphorylated KSRP (Ser193) Binds 14-3-3zeta in the Nucleus
+	T	Phosphorylation of KSRP by MAP kinase p38
+_smallMoleculeName.size()	3
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -222,6 +222,7 @@ public:
 	vector<QPointF> getATrapezoid(float angle, float angle1, float angle2, float radius, float width);
 	vector<QPointF> TrapezoidtoNode(QPointF p0, QPointF p1, QPointF p2, QPointF p3, float radius);
 
+	bool isNodeHighlighted(int layer, int id);
 	QPolygon getANode( int layer, int idx);//., (_ring[layer]._pos[id])[0], (_ring[layer]._pos[id])[1], (_ring[layer]._pos[id])[2], (_ring[layer]._pos[id])[3]);
 	/*pair<float,float> &GetLimits(int layer, int index){return _ring[layer]._limits[index];}*/
 

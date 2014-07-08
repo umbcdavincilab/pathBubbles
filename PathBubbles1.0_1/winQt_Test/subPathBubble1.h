@@ -23,9 +23,9 @@ public:
     vector<int> complexID, proteinID, smallMoleculeID, DnaID, reactionID, physicalEntityID, ANodeID;	
 
 	//PathBubble1 * pathBubbleParent;
-	QPointF Dis; //the distance each node is moved toward center. 
+	QPointF Dis, Dis2; //the distance each node is moved toward center. 
 	vector<vector<int>> edgeSelected;
-    QPointF initItemSize(vector<int> ItemSelected, bool mflag=true, int pathwayID=0, int m_pathwayID=0);	
+    QPointF initItemSize(vector<int> ItemSelected, bool mflag=true, int pathwayID=0, int m_pathwayID=0, bool useCurrentPos=false);	
 	QRect updateBubbleSize_2();
 	QRect updateBubbleSize_3();
 	void paintItem(QPainter *painter);

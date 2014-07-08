@@ -1,0 +1,101 @@
+edge.size() 24
+ 67 0 67 1 82 0 -1
+ 67 0 80 0 82 0 -1
+ 67 0 67 2 82 0 -1
+ 83 0 67 5 82 1 -1
+ 80 1 67 5 82 1 -1
+ 80 2 67 5 82 1 -1
+ 67 4 67 5 82 1 -1
+ 80 3 67 5 82 1 -1
+ 80 4 67 5 82 1 -1
+ 80 5 67 5 82 1 -1
+ 80 6 67 5 82 1 -1
+ 80 7 67 5 82 1 -1
+ 67 1 67 7 82 2 -1
+ 67 5 67 7 82 2 -1
+ 67 7 67 8 82 3 -1
+ 67 8 67 9 82 4 -1
+ 80 9 67 9 82 4 -1
+ 67 9 67 -1 82 5 -1
+ 67 9 67 -1 82 5 -1
+ 67 9 80 9 82 5 -1
+ 67 6 82 1 82 1 -1
+ 80 8 82 1 82 3 -1
+ 67 3 82 1 82 0 -1
+ 67 3 82 1 82 5 -1
+_complexName.size()	10
+	m7G capped snRNA:CBC:PHAX complex	nucleoplasm	Reactome DB_ID: 191887	
+	m7G capped Spliceosomal snRNA	cytosol	Reactome DB_ID: 191853	
+	Cap Binding Complex (CBC)	cytosol	Reactome DB_ID: 162460	
+	Nuclear Pore Complex (NPC)	nuclear envelope	Reactome DB_ID: 157689	
+	SMN complex	cytosol	Reactome DB_ID: 191881	
+	SMN:SM protein complex	cytosol	Reactome DB_ID: 191791	
+	Methylosome	cytosol	Reactome DB_ID: 191849	
+	Spliceosomal m7G capped snRNAs with SMN:SM protein complex bound	cytosol	Reactome DB_ID: 191813	
+	Spliceosomal m3G capped snRNAs with SMN:SM protein complex bound	cytosol	Reactome DB_ID: 191891	
+	Spliceosomal m3G capped snRNA:SMN:SM:Snurportin complex 	cytosol	Reactome DB_ID: 191778	
+_physicalEntityName.size()	0
+_proteinName.size()	10
+	PHAX	cytosol	Reactome DB_ID: 191804	UniProt:Q9H814	PHAX
+	Sm-D3	cytosol	Reactome DB_ID: 191781	UniProt:P62318	SNRPD3
+	Sm-D1	cytosol	Reactome DB_ID: 191890	UniProt:P62314	SNRPD1
+	SmE	cytosol	Reactome DB_ID: 191782	UniProt:P62304	SNRPE
+	SmG	cytosol	Reactome DB_ID: 191827	UniProt:P62308	SNRPG
+	Sm-D2	cytosol	Reactome DB_ID: 191810	UniProt:P62316	SNRPD2
+	SNRPB	cytosol	Reactome DB_ID: 191798	UniProt:P14678	SNRPB
+	SmF	cytosol	Reactome DB_ID: 191852	UniProt:P62306	SNRPF
+	TGS1	cytosol	Reactome DB_ID: 192209	UniProt:Q96RS0	TGS1
+	SNUPN	cytosol	Reactome DB_ID: 191857	UniProt:O95149	SNUPN
+_reactionName.size()	6
+	B	Nuclear export of snRNA transcripts
+	D	Loading and methylation of Sm proteins onto SMN Complexes
+	D	snRNP complex assembly
+	T	snRNA Cap hypermethylation
+	D	snRNP:Snurportin complex formation
+	B	snRNP nuclear import and release
+_smallMoleculeName.size()	1
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

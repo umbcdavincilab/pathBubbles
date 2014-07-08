@@ -1,0 +1,62 @@
+edge.size() 6
+ 80 0 67 0 82 0 -1
+ 69 0 67 0 82 0 -1
+ 67 0 67 -1 82 1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+_complexName.size()	1
+	STAB1:Ligand	plasma membrane	Reactome DB_ID: 2197764	
+_physicalEntityName.size()	1
+	SPARC/SPARC	extracellular region
+_proteinName.size()	1
+	STAB1	plasma membrane	Reactome DB_ID: 2197768	UniProt:Q9NY15	STAB1
+_reactionName.size()	2
+	D	STAB1 (FEEL-1) Binds Ligands
+	T	Endocytosis of STAB1:Ligand
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	endocytic vesicle lumen
+	whole

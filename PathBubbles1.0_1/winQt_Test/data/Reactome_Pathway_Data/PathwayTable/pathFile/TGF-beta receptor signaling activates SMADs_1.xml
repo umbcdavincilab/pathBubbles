@@ -1,0 +1,954 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Pathway>
+    <ANodeBlock Num="0"/>
+    <compartmentBlock Num="40">
+        <compartment j="0">
+            <Name>cytosol</Name>
+            <Position>(-0.0143369, 0.702509, 1.07885, 0.318996)</Position>
+            <Contain>(C, 7, C, 16, C, 17, C, 18, P, 1, P, 2, P, 3, P, 4, P, 7, P, 11, P, 12, P, 13, P, 14, R, 5, R, 6, R, 7, R, 8, R, 9, R, 10, R, 20, R, 21, R, 22, R, 24, R, 25)</Contain>
+        </compartment>
+        <compartment j="1">
+            <Name>Golgi lumen</Name>
+            <Position>(0.410791, -0.128512, 0.222062, 0.16625)</Position>
+            <Contain>(C, 0, C, 1, R, 0, R, 1)</Contain>
+        </compartment>
+        <compartment j="2">
+            <Name>Golgi membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="3">
+            <Name>early endosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="4">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="5">
+            <Name>early endosome membrane</Name>
+            <Position>(0.282838, 1.0326, 0.509438, 0.133)</Position>
+            <Contain>(C, 19, P, 15, R, 23)</Contain>
+        </compartment>
+        <compartment j="6">
+            <Name>mitochondrial inner membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="7">
+            <Name>mitochondrial outer membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="8">
+            <Name>photoreceptor disc membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="9">
+            <Name>lysosomal membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="10">
+            <Name>endoplasmic reticulum membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="11">
+            <Name>plasma membrane</Name>
+            <Position>(0.595479, 0.151488, 0.346156, 0.532)</Position>
+            <Contain>(C, 3, C, 4, C, 5, C, 6, C, 12, C, 13, C, 14, C, 15, P, 0, R, 3, R, 4, R, 16, R, 17, R, 18, R, 19)</Contain>
+        </compartment>
+        <compartment j="12">
+            <Name>endosome membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="13">
+            <Name>Golgi-associated vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="14">
+            <Name>cytoplasmic vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="15">
+            <Name>nuclear envelope</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="16">
+            <Name>chromosome, centromeric region</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="17">
+            <Name>chromosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="18">
+            <Name>endosome</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="19">
+            <Name>nucleoplasm</Name>
+            <Position>(0.0954783, 0.151488, 0.475, 0.532)</Position>
+            <Contain>(C, 8, C, 9, C, 10, C, 11, P, 5, P, 6, P, 8, P, 9, P, 10, R, 11, R, 12, R, 13, R, 14, R, 15)</Contain>
+        </compartment>
+        <compartment j="20">
+            <Name>extracellular region</Name>
+            <Position>(0.342041, 0.0464879, 0.352688, 0.09975)</Position>
+            <Contain>(C, 2, R, 2)</Contain>
+        </compartment>
+        <compartment j="21">
+            <Name>cell junction</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="22">
+            <Name>peroxisomal matrix</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="23">
+            <Name>mitochondrial matrix</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="24">
+            <Name>endosome lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="25">
+            <Name>endocytic vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="26">
+            <Name>phagocytic vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="27">
+            <Name>phagocytic vesicle lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="28">
+            <Name>lysosomal lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="29">
+            <Name>photoreceptor outer segment membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="30">
+            <Name>photoreceptor inner segment membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="31">
+            <Name>mitochondrial intermembrane space</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="32">
+            <Name>secretory granule membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="33">
+            <Name>secretory granule lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="34">
+            <Name>endoplasmic reticulum lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="35">
+            <Name>endoplasmic reticulum quality control compartment</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="36">
+            <Name>ER to Golgi transport vesicle membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="37">
+            <Name>clathrin-coated endocytic vesicle</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="38">
+            <Name>platelet dense tubular network membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+        <compartment j="39">
+            <Name>whole</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+            <Contain>()</Contain>
+        </compartment>
+    </compartmentBlock>
+    <complexBlock Num="20">
+        <complex j="0">
+            <Name>Pre-TGFB1 complex</Name>
+            <Position>(0.45587, -0.117624, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="1">
+            <Name>Large latent complex of TGFB1</Name>
+            <Position>(0.566901, -0.0670837, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="2">
+            <Name>Dimeric TGFB1</Name>
+            <Position>(0.507948, 0.0530539, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="3">
+            <Name>Dimeric TGFB1:TGFBR2 homodimer</Name>
+            <Position>(0.77448, 0.223889, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="4">
+            <Name>TGFBR1:FKBP1A</Name>
+            <Position>(0.808924, 0.223889, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="5">
+            <Name>TGFB1:TGFBR2:TGFBR1</Name>
+            <Position>(0.77448, 0.285401, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="6">
+            <Name>TGFB1:TGFBR2:p-TGFBR1</Name>
+            <Position>(0.808924, 0.346914, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="7">
+            <Name>GADD34:PP1</Name>
+            <Position>(0.901588, 0.815893, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="8">
+            <Name>SMAD7:SMURF2</Name>
+            <Position>(0.144416, 0.321304, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="9">
+            <Name>SMAD7:SMURF1</Name>
+            <Position>(0.381916, 0.321304, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="10">
+            <Name>SMAD7:SMURF1:XPO1</Name>
+            <Position>(0.381916, 0.447247, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="11">
+            <Name>SMAD7:NEDD4L</Name>
+            <Position>(0.263166, 0.321304, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="12">
+            <Name>TGFB1:TGFBR2:p-TGFBR1:SMAD7:SMURF/NEDD4L</Name>
+            <Position>(0.912254, 0.408426, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="13">
+            <Name>TGFB1:TGFBR2:Ub-p-TGFBR1:Ub-SMAD7</Name>
+            <Position>(0.843367, 0.469939, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="14">
+            <Name>TGFB1:TGFBR2:Ub-p-TGFBR1:Ub-SMAD7:UCHL5/USP15</Name>
+            <Position>(0.843367, 0.531451, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="15">
+            <Name>TGFB1:TGFBR2:p-TGFBR1:Ub-SMAD7</Name>
+            <Position>(0.87781, 0.592964, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="16">
+            <Name>SMAD2:SMURF2</Name>
+            <Position>(0.926033, 0.815893, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="17">
+            <Name>Ub-SMAD2</Name>
+            <Position>(0.762528, 0.909918, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="18">
+            <Name>Ub-SMAD3</Name>
+            <Position>(0.327337, 0.915295, 0.020874, 0.0249727)</Position>
+        </complex>
+        <complex j="19">
+            <Name>p-2S-SMAD2/3:PMEPA1</Name>
+            <Position>(0.739385, 1.08854, 0.020874, 0.0249727)</Position>
+        </complex>
+    </complexBlock>
+    <proteinBlock Num="16">
+        <protein j="0">
+            <Name>TGFBR2</Name>
+            <Position>(0.621298, 0.194178, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="1">
+            <Name>SMAD3</Name>
+            <Position>(0.183519, 0.810418, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="2">
+            <Name>SMAD2</Name>
+            <Position>(0.954129, 0.725352, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="3">
+            <Name>SMAD3</Name>
+            <Position>(0.532738, 0.899067, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="4">
+            <Name>SMAD7</Name>
+            <Position>(0.0671134, 0.810418, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="5">
+            <Name>SMAD7</Name>
+            <Position>(0.340168, 0.189886, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="6">
+            <Name>SMURF2</Name>
+            <Position>(0.102668, 0.189886, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="7">
+            <Name>SMURF2</Name>
+            <Position>(0.812129, 0.902651, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="8">
+            <Name>SMURF1</Name>
+            <Position>(0.458918, 0.189886, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="9">
+            <Name>XPO1</Name>
+            <Position>(0.458918, 0.315829, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="10">
+            <Name>NEDD4L</Name>
+            <Position>(0.221418, 0.189886, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="11">
+            <Name>NEDD4L</Name>
+            <Position>(0.649144, 0.899067, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="12">
+            <Name>UBC(609-684)</Name>
+            <Position>(0.649144, 0.810418, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="13">
+            <Name>USP15</Name>
+            <Position>(0.299925, 0.810418, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="14">
+            <Name>STUB1</Name>
+            <Position>(0.41454, 0.900859, 0.10437, 0.0359227)</Position>
+        </protein>
+        <protein j="15">
+            <Name>STAG1</Name>
+            <Position>(0.442919, 1.03652, 0.10437, 0.0359227)</Position>
+        </protein>
+    </proteinBlock>
+    <physicalEntityBlock Num="0"/>
+    <smallMoleculeBlock Num="4">
+        <smallMolecule j="0">
+            <Name>Pi</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="1">
+            <Name>H2O</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="2">
+            <Name>ATP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+        <smallMolecule j="3">
+            <Name>ATP</Name>
+            <Position>(-1000, -1000, 0.8, 0.03)</Position>
+        </smallMolecule>
+    </smallMoleculeBlock>
+    <DnaBlock Num="0"/>
+    <reactionBlock Num="26">
+        <reaction j="0">
+            <Name>Latent TGF-beta-1 is cleaved by furin</Name>
+            <Position>(0.516822, -0.0499105, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="1">
+            <Name>Secretion and activation of the latent large complex of TGF-beta-1</Name>
+            <Position>(0.572338, -0.0330639, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="2">
+            <Name>Dimeric TGFB1 binds to TGFBR2 homodimer</Name>
+            <Position>(0.513385, 0.0810889, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="3">
+            <Name>TGFBR2 recruits TGFBR1</Name>
+            <Position>(0.779917, 0.267052, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="4">
+            <Name>TGFBR2 phosphorylates TGFBR1</Name>
+            <Position>(0.814361, 0.328565, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="5">
+            <Name>An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3</Name>
+            <Position>(0.34711, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="6">
+            <Name>I-SMAD competes with SMAD2/3 for type I receptor (TGFBR1)</Name>
+            <Position>(0.230704, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="7">
+            <Name>STRAP stabilizes interaction of activated TGF-beta receptor complex with SMAD7</Name>
+            <Position>(0.463517, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="8">
+            <Name>BAMBI interferes with the interaction of type I receptor with type II receptor</Name>
+            <Position>(0.766173, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="9">
+            <Name>SMAD7 recruits GADD34:PP1 to phosphorylated TGFBR</Name>
+            <Position>(0.836017, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="10">
+            <Name>PP1 dephosphorylates TGFBR1</Name>
+            <Position>(0.00720477, 0.783397, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="11">
+            <Name>SMAD7 binds to SMURF2</Name>
+            <Position>(0.268603, 0.270227, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="12">
+            <Name>SMAD7 binds to SMURF1</Name>
+            <Position>(0.506103, 0.270227, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="13">
+            <Name>SMAD7:SMURF1 complex binds XPO1 (CRM1)</Name>
+            <Position>(0.387354, 0.39617, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="14">
+            <Name>SMAD7:SMURF1 complex is exported to the cytosol</Name>
+            <Position>(0.387354, 0.522113, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="15">
+            <Name>NEDD4L ubiquitin ligase binds SMAD7</Name>
+            <Position>(0.387354, 0.270227, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="16">
+            <Name>SMAD7:SMURF complex binds to phosphorylated TGFBR1</Name>
+            <Position>(0.917691, 0.390077, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="17">
+            <Name>SMURFs/NEDD4L ubiquitinate phosphorylated TGFBR1 and SMAD7</Name>
+            <Position>(0.935774, 0.45159, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="18">
+            <Name>UCHL5 binds SMAD7 in complex with ubiquitinated TGFBR1</Name>
+            <Position>(0.848804, 0.513103, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="19">
+            <Name>UCHL5 or USP15 deubiquitinates TGFBR1</Name>
+            <Position>(0.883247, 0.574615, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="20">
+            <Name>SMURF2 binds SMAD2</Name>
+            <Position>(0.919247, 0.783397, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="21">
+            <Name>SMURF2 ubiquitinates SMAD2</Name>
+            <Position>(0.907025, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="22">
+            <Name>STUB1 (CHIP) ubiquitinates SMAD3</Name>
+            <Position>(0.114299, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="23">
+            <Name>PMEPA1 sequesters phosphorylated SMAD2/3</Name>
+            <Position>(0.744822, 1.07368, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="24">
+            <Name>PMEPA1 sequesters unphosphorylated SMAD2/3</Name>
+            <Position>(0.696329, 0.868463, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="25">
+            <Name>MTMR4 dephosphorylates SMAD2/3</Name>
+            <Position>(0.0543492, 0.783397, 0.01, 0.01)</Position>
+        </reaction>
+    </reactionBlock>
+    <edgeBlock Num="118">
+        <edge j="0">
+            <Name></Name>
+            <Position>(67, 0, 82, 0, 67, 1, -1)</Position>
+        </edge>
+        <edge j="1">
+            <Name></Name>
+            <Position>(67, 1, 82, 1, 67, 2, -1)</Position>
+        </edge>
+        <edge j="2">
+            <Name></Name>
+            <Position>(67, 2, 82, 2, 67, 3, -1)</Position>
+        </edge>
+        <edge j="3">
+            <Name></Name>
+            <Position>(80, 0, 82, 2, 67, 3, -1)</Position>
+        </edge>
+        <edge j="4">
+            <Name></Name>
+            <Position>(67, 4, 82, 3, 67, 5, -1)</Position>
+        </edge>
+        <edge j="5">
+            <Name></Name>
+            <Position>(67, 3, 82, 3, 67, 5, -1)</Position>
+        </edge>
+        <edge j="6">
+            <Name></Name>
+            <Position>(67, 3, 82, 3, 80, -1, -1)</Position>
+        </edge>
+        <edge j="7">
+            <Name></Name>
+            <Position>(67, 4, 82, 3, 80, -1, -1)</Position>
+        </edge>
+        <edge j="8">
+            <Name></Name>
+            <Position>(67, 5, 82, 4, 67, 6, -1)</Position>
+        </edge>
+        <edge j="9">
+            <Name></Name>
+            <Position>(83, 0, 82, 4, 67, 6, -1)</Position>
+        </edge>
+        <edge j="10">
+            <Name></Name>
+            <Position>(83, 0, 82, 4, 83, 1, -1)</Position>
+        </edge>
+        <edge j="11">
+            <Name></Name>
+            <Position>(67, 5, 82, 4, 83, 1, -1)</Position>
+        </edge>
+        <edge j="12">
+            <Name></Name>
+            <Position>(67, 6, 82, 5, 67, -1, -1)</Position>
+        </edge>
+        <edge j="13">
+            <Name></Name>
+            <Position>(80, 1, 82, 5, 67, -1, -1)</Position>
+        </edge>
+        <edge j="14">
+            <Name></Name>
+            <Position>(80, -1, 82, 5, 67, -1, -1)</Position>
+        </edge>
+        <edge j="15">
+            <Name></Name>
+            <Position>(83, 0, 82, -1, 83, 1, -1)</Position>
+        </edge>
+        <edge j="16">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 83, 1, -1)</Position>
+        </edge>
+        <edge j="17">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="18">
+            <Name></Name>
+            <Position>(83, 0, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="19">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="20">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="21">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="22">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="23">
+            <Name></Name>
+            <Position>(67, 6, 82, 6, 67, -1, -1)</Position>
+        </edge>
+        <edge j="24">
+            <Name></Name>
+            <Position>(80, 4, 82, 6, 67, -1, -1)</Position>
+        </edge>
+        <edge j="25">
+            <Name></Name>
+            <Position>(67, 6, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="26">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="27">
+            <Name></Name>
+            <Position>(67, -1, 82, 7, 67, -1, -1)</Position>
+        </edge>
+        <edge j="28">
+            <Name></Name>
+            <Position>(80, 4, 82, 7, 67, -1, -1)</Position>
+        </edge>
+        <edge j="29">
+            <Name></Name>
+            <Position>(67, 6, 82, 8, 67, -1, -1)</Position>
+        </edge>
+        <edge j="30">
+            <Name></Name>
+            <Position>(80, 4, 82, 8, 67, -1, -1)</Position>
+        </edge>
+        <edge j="31">
+            <Name></Name>
+            <Position>(80, -1, 82, 8, 67, -1, -1)</Position>
+        </edge>
+        <edge j="32">
+            <Name></Name>
+            <Position>(67, 7, 82, 9, 67, -1, -1)</Position>
+        </edge>
+        <edge j="33">
+            <Name></Name>
+            <Position>(80, -1, 82, 9, 67, -1, -1)</Position>
+        </edge>
+        <edge j="34">
+            <Name></Name>
+            <Position>(67, -1, 82, 9, 67, -1, -1)</Position>
+        </edge>
+        <edge j="35">
+            <Name></Name>
+            <Position>(67, -1, 82, 10, 83, 3, -1)</Position>
+        </edge>
+        <edge j="36">
+            <Name></Name>
+            <Position>(83, 2, 82, 10, 83, 3, -1)</Position>
+        </edge>
+        <edge j="37">
+            <Name></Name>
+            <Position>(83, 2, 82, 10, 67, -1, -1)</Position>
+        </edge>
+        <edge j="38">
+            <Name></Name>
+            <Position>(67, -1, 82, 10, 67, -1, -1)</Position>
+        </edge>
+        <edge j="39">
+            <Name></Name>
+            <Position>(83, 2, 82, 10, 80, 4, -1)</Position>
+        </edge>
+        <edge j="40">
+            <Name></Name>
+            <Position>(67, -1, 82, 10, 80, 4, -1)</Position>
+        </edge>
+        <edge j="41">
+            <Name></Name>
+            <Position>(83, 2, 82, 10, 67, 7, -1)</Position>
+        </edge>
+        <edge j="42">
+            <Name></Name>
+            <Position>(67, -1, 82, 10, 67, 7, -1)</Position>
+        </edge>
+        <edge j="43">
+            <Name></Name>
+            <Position>(83, 2, 82, 10, 80, -1, -1)</Position>
+        </edge>
+        <edge j="44">
+            <Name></Name>
+            <Position>(67, -1, 82, 10, 80, -1, -1)</Position>
+        </edge>
+        <edge j="45">
+            <Name></Name>
+            <Position>(80, 5, 82, 11, 67, 8, -1)</Position>
+        </edge>
+        <edge j="46">
+            <Name></Name>
+            <Position>(80, 6, 82, 11, 67, 8, -1)</Position>
+        </edge>
+        <edge j="47">
+            <Name></Name>
+            <Position>(67, 8, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="48">
+            <Name></Name>
+            <Position>(80, 5, 82, 12, 67, 9, -1)</Position>
+        </edge>
+        <edge j="49">
+            <Name></Name>
+            <Position>(80, 8, 82, 12, 67, 9, -1)</Position>
+        </edge>
+        <edge j="50">
+            <Name></Name>
+            <Position>(80, 9, 82, 13, 67, 10, -1)</Position>
+        </edge>
+        <edge j="51">
+            <Name></Name>
+            <Position>(67, 9, 82, 13, 67, 10, -1)</Position>
+        </edge>
+        <edge j="52">
+            <Name></Name>
+            <Position>(67, 10, 82, 14, 67, -1, -1)</Position>
+        </edge>
+        <edge j="53">
+            <Name></Name>
+            <Position>(67, 10, 82, 14, 80, -1, -1)</Position>
+        </edge>
+        <edge j="54">
+            <Name></Name>
+            <Position>(80, 5, 82, 15, 67, 11, -1)</Position>
+        </edge>
+        <edge j="55">
+            <Name></Name>
+            <Position>(80, 10, 82, 15, 67, 11, -1)</Position>
+        </edge>
+        <edge j="56">
+            <Name></Name>
+            <Position>(67, 11, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="57">
+            <Name></Name>
+            <Position>(67, 6, 82, 16, 67, 12, -1)</Position>
+        </edge>
+        <edge j="58">
+            <Name></Name>
+            <Position>(67, -1, 82, 16, 67, 12, -1)</Position>
+        </edge>
+        <edge j="59">
+            <Name></Name>
+            <Position>(80, 12, 82, 17, 80, 11, -1)</Position>
+        </edge>
+        <edge j="60">
+            <Name></Name>
+            <Position>(67, 12, 82, 17, 80, 11, -1)</Position>
+        </edge>
+        <edge j="61">
+            <Name></Name>
+            <Position>(67, 12, 82, 17, 67, 13, -1)</Position>
+        </edge>
+        <edge j="62">
+            <Name></Name>
+            <Position>(80, 12, 82, 17, 67, 13, -1)</Position>
+        </edge>
+        <edge j="63">
+            <Name></Name>
+            <Position>(80, 13, 82, 18, 67, 14, -1)</Position>
+        </edge>
+        <edge j="64">
+            <Name></Name>
+            <Position>(67, 13, 82, 18, 67, 14, -1)</Position>
+        </edge>
+        <edge j="65">
+            <Name></Name>
+            <Position>(67, 14, 82, 19, 80, 12, -1)</Position>
+        </edge>
+        <edge j="66">
+            <Name></Name>
+            <Position>(83, 2, 82, 19, 80, 12, -1)</Position>
+        </edge>
+        <edge j="67">
+            <Name></Name>
+            <Position>(83, 2, 82, 19, 67, 15, -1)</Position>
+        </edge>
+        <edge j="68">
+            <Name></Name>
+            <Position>(67, 14, 82, 19, 67, 15, -1)</Position>
+        </edge>
+        <edge j="69">
+            <Name></Name>
+            <Position>(83, 2, 82, 19, 80, 13, -1)</Position>
+        </edge>
+        <edge j="70">
+            <Name></Name>
+            <Position>(67, 14, 82, 19, 80, 13, -1)</Position>
+        </edge>
+        <edge j="71">
+            <Name></Name>
+            <Position>(80, 7, 82, 20, 67, 16, -1)</Position>
+        </edge>
+        <edge j="72">
+            <Name></Name>
+            <Position>(80, 2, 82, 20, 67, 16, -1)</Position>
+        </edge>
+        <edge j="73">
+            <Name></Name>
+            <Position>(80, 12, 82, 21, 80, 7, -1)</Position>
+        </edge>
+        <edge j="74">
+            <Name></Name>
+            <Position>(67, 16, 82, 21, 80, 7, -1)</Position>
+        </edge>
+        <edge j="75">
+            <Name></Name>
+            <Position>(67, 16, 82, 21, 67, 17, -1)</Position>
+        </edge>
+        <edge j="76">
+            <Name></Name>
+            <Position>(80, 12, 82, 21, 67, 17, -1)</Position>
+        </edge>
+        <edge j="77">
+            <Name></Name>
+            <Position>(80, 14, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="78">
+            <Name></Name>
+            <Position>(80, 3, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="79">
+            <Name></Name>
+            <Position>(80, 12, 82, 22, 67, 18, -1)</Position>
+        </edge>
+        <edge j="80">
+            <Name></Name>
+            <Position>(67, -1, 82, 22, 67, 18, -1)</Position>
+        </edge>
+        <edge j="81">
+            <Name></Name>
+            <Position>(67, -1, 82, 22, 80, 14, -1)</Position>
+        </edge>
+        <edge j="82">
+            <Name></Name>
+            <Position>(80, 12, 82, 22, 80, 14, -1)</Position>
+        </edge>
+        <edge j="83">
+            <Name></Name>
+            <Position>(80, -1, 82, 23, 67, 19, -1)</Position>
+        </edge>
+        <edge j="84">
+            <Name></Name>
+            <Position>(80, 15, 82, 23, 67, 19, -1)</Position>
+        </edge>
+        <edge j="85">
+            <Name></Name>
+            <Position>(80, 1, 82, 24, 67, -1, -1)</Position>
+        </edge>
+        <edge j="86">
+            <Name></Name>
+            <Position>(80, -1, 82, 24, 67, -1, -1)</Position>
+        </edge>
+        <edge j="87">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="88">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="89">
+            <Name></Name>
+            <Position>(67, -1, 82, 25, 83, 3, -1)</Position>
+        </edge>
+        <edge j="90">
+            <Name></Name>
+            <Position>(83, 2, 82, 25, 83, 3, -1)</Position>
+        </edge>
+        <edge j="91">
+            <Name></Name>
+            <Position>(83, 2, 82, 25, 80, 1, -1)</Position>
+        </edge>
+        <edge j="92">
+            <Name></Name>
+            <Position>(67, -1, 82, 25, 80, 1, -1)</Position>
+        </edge>
+        <edge j="93">
+            <Name></Name>
+            <Position>(83, 2, 82, 25, 80, -1, -1)</Position>
+        </edge>
+        <edge j="94">
+            <Name></Name>
+            <Position>(67, -1, 82, 25, 80, -1, -1)</Position>
+        </edge>
+        <edge j="95">
+            <Name></Name>
+            <Position>(80, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="96">
+            <Name></Name>
+            <Position>(80, 0, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="97">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="98">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="99">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="100">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 67, -1, -1)</Position>
+        </edge>
+        <edge j="101">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="102">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 80, -1, -1)</Position>
+        </edge>
+        <edge j="103">
+            <Name></Name>
+            <Position>(80, -1, 82, 0, 82, 1, -1)</Position>
+        </edge>
+        <edge j="104">
+            <Name></Name>
+            <Position>(67, 2, 82, 2, 82, 1, -1)</Position>
+        </edge>
+        <edge j="105">
+            <Name></Name>
+            <Position>(67, 3, 82, 3, 82, 1, -1)</Position>
+        </edge>
+        <edge j="106">
+            <Name></Name>
+            <Position>(67, 5, 82, 4, 82, 1, -1)</Position>
+        </edge>
+        <edge j="107">
+            <Name></Name>
+            <Position>(80, -1, 82, 5, 82, 1, -1)</Position>
+        </edge>
+        <edge j="108">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+        <edge j="109">
+            <Name></Name>
+            <Position>(80, -1, 82, 8, 82, 1, -1)</Position>
+        </edge>
+        <edge j="110">
+            <Name></Name>
+            <Position>(67, -1, 82, 10, 82, 1, -1)</Position>
+        </edge>
+        <edge j="111">
+            <Name></Name>
+            <Position>(67, 10, 82, 14, 82, 1, -1)</Position>
+        </edge>
+        <edge j="112">
+            <Name></Name>
+            <Position>(67, 12, 82, 17, 82, 1, -1)</Position>
+        </edge>
+        <edge j="113">
+            <Name></Name>
+            <Position>(67, 14, 82, 19, 82, 1, -1)</Position>
+        </edge>
+        <edge j="114">
+            <Name></Name>
+            <Position>(67, 16, 82, 21, 82, 1, -1)</Position>
+        </edge>
+        <edge j="115">
+            <Name></Name>
+            <Position>(67, -1, 82, 22, 82, 1, -1)</Position>
+        </edge>
+        <edge j="116">
+            <Name></Name>
+            <Position>(67, -1, 82, 25, 82, 1, -1)</Position>
+        </edge>
+        <edge j="117">
+            <Name></Name>
+            <Position>(67, -1, 82, -1, 82, 1, -1)</Position>
+        </edge>
+    </edgeBlock>
+</Pathway>

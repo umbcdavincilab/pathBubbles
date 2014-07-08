@@ -1,0 +1,109 @@
+edge.size() 32
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 2 82 0 -1
+ 80 0 67 0 82 1 -1
+ 80 1 67 1 82 2 -1
+ 80 -1 67 1 82 2 -1
+ 80 2 67 2 82 3 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 2 67 3 82 4 -1
+ 67 3 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 4 67 5 82 5 -1
+ 80 3 67 5 82 5 -1
+ 67 5 67 6 82 6 -1
+ 80 4 67 6 82 6 -1
+ 67 6 67 7 82 7 -1
+ 80 5 67 7 82 7 -1
+ 80 6 67 8 82 8 -1
+ 67 3 67 8 82 8 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 67 -1 82 9 -1
+ 67 -1 67 -1 82 9 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 82 1 82 1 -1
+ 67 -1 82 1 82 9 -1
+_complexName.size()	9
+	Connexin 32 connexon	endoplasmic reticulum membrane	Reactome DB_ID: 190647	
+	Connexin 26:Connexin 32 connexon	endoplasmic reticulum-Golgi intermediate compartment	Reactome DB_ID: 190632	
+	Connexin 43 connexon	Golgi membrane	Reactome DB_ID: 190652	
+	Connexin 43 connexon in Golgi transport vesicle	Golgi-associated vesicle membrane	Reactome DB_ID: 190583	
+	planar gap junction plaques	plasma membrane	Reactome DB_ID: 196020	
+	planar gap junction plaques associated with Dab2	plasma membrane	Reactome DB_ID: 196033	
+	Planar gap junction plaques associated with Dab2 and Dynamin	plasma membrane	Reactome DB_ID: 196018	
+	Invaginating gap junction plaques	lysosomal membrane	Reactome DB_ID: 196145	
+	Cx43:TJP1	Golgi-associated vesicle membrane	Reactome DB_ID: 191615	
+_physicalEntityName.size()	0
+_proteinName.size()	7
+	GJB1	endoplasmic reticulum membrane	Reactome DB_ID: 190656	UniProt:P08034	GJB1
+	GJB1	endoplasmic reticulum-Golgi intermediate compartment	Reactome DB_ID: 190636	UniProt:P08034	GJB1
+	GJA1	Golgi membrane	Reactome DB_ID: 190649	UniProt:P17302	GJA1
+	DAB2	plasma membrane	Reactome DB_ID: 2980808	UniProt:P98082	DAB2
+	DNM2	plasma membrane			
+	MYO6	plasma membrane	Reactome DB_ID: 3006691	UniProt:Q9UM54	MYO6
+	TJP1	cytosol	Reactome DB_ID: 532659	UniProt:Q07157	TJP1
+_reactionName.size()	10
+	T	Transport of connexins to the Trans-Golgi Network (TGN)
+	T	Connexin oligomerization in endoplasmic reticulum membrane
+	D	Connexin oligomerization in  ER-Golgi-Intermediate Compartment
+	T	Connexin oligomerization in Trans-Golgi Network (TGN)
+	T	Budding of connexon-containing transport vesicles from the Golgi
+	D	Dab2 is recruited to the junctional plaques
+	D	Dynamin is recruited to the gap junction plaque
+	D	Internalization of gap junction plaques
+	D	Association of Cx43  with TJP1
+	T	Phosphorylation of Cx43 by c-src
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	endoplasmic reticulum-Golgi intermediate compartment
+	whole

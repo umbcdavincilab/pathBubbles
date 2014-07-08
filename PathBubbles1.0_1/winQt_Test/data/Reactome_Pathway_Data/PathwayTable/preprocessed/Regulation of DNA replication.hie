@@ -1,0 +1,107 @@
+edge.size() 36
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 80 1 82 0 -1
+ 67 0 80 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 80 0 67 1 82 0 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 2 82 -1 -1
+ 67 2 80 0 82 1 -1
+ 67 4 80 2 82 2 -1
+ 67 4 67 5 82 2 -1
+ 80 3 67 6 82 3 -1
+ 80 2 67 6 82 3 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 4 82 4 -1
+ 80 0 67 7 82 5 -1
+ 80 4 67 7 82 5 -1
+ 83 0 67 7 82 5 -1
+ 67 7 80 0 82 6 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 3 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 5 -1
+ 67 3 82 1 82 6 -1
+_complexName.size()	8
+	Cdt1:geminin	cytosol	Reactome DB_ID: 68537	
+	geminin:ubiquitin complex	cytosol	Reactome DB_ID: 68585	
+	ubiquitinated Orc1	cytosol	Reactome DB_ID: 68586	
+	26S proteasome	cytosol	Reactome DB_ID: 68819	
+	Mcm10:pre-replicative complex	nucleoplasm	Reactome DB_ID: 68560	
+	Mcm10:active pre-replicative complex	nucleoplasm	Reactome DB_ID: 156564	
+	Cdt1:geminin	nucleoplasm	Reactome DB_ID: 156502	
+	ubiquitinated Cdc6	cytosol	Reactome DB_ID: 68570	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	UBC(609-684)	cytosol			
+	CDT1	cytosol	Reactome DB_ID: 113788	UniProt:Q9H211	CDT1
+	CDT1	nucleoplasm	Reactome DB_ID: 68536	UniProt:Q9H211	CDT1
+	GMNN	nucleoplasm	Reactome DB_ID: 113554	UniProt:O75496	GMNN
+	p-CDC6	cytosol	Reactome DB_ID: 68583	UniProt:Q99741	CDC6
+_reactionName.size()	7
+	T	The geminin component of geminin:Cdt1 complexes is ubiquitinated, releasing Cdt1
+	T	Ubiquitinated Orc1 is degraded by the proteasome
+	B	Cdt1 is displaced from the pre-replicative complex.
+	D	Cdt1 associates with geminin
+	T	Phosphorylated Cdc6 is exported from the nucleus
+	D	Cytoplasmic phosphorylated Cdc6 is ubiquitinated by the anaphase-promoting complex
+	T	Ubiquitinated Cdc6 is degraded by the proteasome
+_smallMoleculeName.size()	1
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

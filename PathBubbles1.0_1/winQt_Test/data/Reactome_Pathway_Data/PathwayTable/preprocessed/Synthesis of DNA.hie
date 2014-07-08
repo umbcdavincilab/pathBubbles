@@ -1,0 +1,190 @@
+edge.size() 79
+ 67 -1 67 -1 82 0 -1
+ 83 -1 67 -1 82 0 -1
+ 83 -1 67 -1 82 0 -1
+ 67 -1 67 -1 82 0 -1
+ 67 -1 67 0 82 -1 -1
+ 83 -1 67 0 82 -1 -1
+ 83 -1 67 0 82 -1 -1
+ 83 -1 67 0 82 -1 -1
+ 83 -1 67 0 82 -1 -1
+ 83 3 67 1 82 1 -1
+ 67 2 83 0 82 1 -1
+ 67 2 83 1 82 1 -1
+ 80 1 67 1 82 1 -1
+ 80 1 83 2 82 1 -1
+ 80 2 67 4 82 2 -1
+ 80 1 67 4 82 2 -1
+ 67 4 67 5 82 -1 -1
+ 67 5 80 3 82 3 -1
+ 83 3 83 4 82 4 -1
+ 80 4 80 0 82 4 -1
+ 80 4 80 0 82 4 -1
+ 80 4 80 5 82 5 -1
+ 80 3 67 8 82 6 -1
+ 80 5 67 8 82 6 -1
+ 83 5 67 8 82 6 -1
+ 67 8 80 3 82 7 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 0 67 10 82 8 -1
+ 67 9 67 10 82 8 -1
+ 67 12 67 11 82 9 -1
+ 67 12 83 6 82 9 -1
+ 67 12 67 10 82 9 -1
+ 83 3 67 10 82 9 -1
+ 67 12 67 13 82 10 -1
+ 67 12 67 9 82 10 -1
+ 67 14 67 15 82 11 -1
+ 67 13 67 15 82 11 -1
+ 67 14 67 15 82 12 -1
+ 67 13 67 15 82 12 -1
+ 67 15 67 16 82 13 -1
+ 67 16 67 17 82 14 -1
+ 67 17 67 19 82 15 -1
+ 67 18 67 19 82 15 -1
+ 67 19 67 20 82 16 -1
+ 80 6 67 20 82 16 -1
+ 67 20 80 6 82 17 -1
+ 67 20 83 7 82 17 -1
+ 67 20 83 8 82 17 -1
+ 67 20 83 9 82 17 -1
+ 67 20 67 21 82 17 -1
+ 67 20 83 10 82 17 -1
+ 67 20 67 18 82 17 -1
+ 67 21 67 22 82 18 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 -1 82 1 82 0 -1
+ 67 -1 82 1 82 -1 -1
+ 67 3 82 1 82 1 -1
+ 67 6 82 1 82 3 -1
+ 67 7 82 1 82 4 -1
+ 80 -1 82 1 82 6 -1
+ 67 6 82 1 82 7 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 14 82 1 82 13 -1
+ 80 7 82 1 82 18 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	23
+	RNA primer-DNA primer:origin duplex	nucleoplasm	Reactome DB_ID: 68425	
+	preRC	nucleoplasm	Reactome DB_ID: 68559	
+	pre-replicative complex (Orc1-minus)	nucleoplasm	Reactome DB_ID: 157563	
+	Cyclin A:Cdk2:substrate complex	nucleoplasm	Reactome DB_ID: 187947	
+	ubiquitinated Orc1	nucleoplasm	Reactome DB_ID: 113570	
+	ubiquitinated Orc1	cytosol	Reactome DB_ID: 68586	
+	26S proteasome	cytosol	Reactome DB_ID: 68819	
+	CDK	nucleoplasm	Reactome DB_ID: 68380	
+	ubiquitinated Cdc6	cytosol	Reactome DB_ID: 68570	
+	RFC Heteropentamer	nucleoplasm	Reactome DB_ID: 68436	
+	RFC Heteropentamer:RNA primer-DNA primer:origin duplex	nucleoplasm	Reactome DB_ID: 68437	
+	PCNA homotrimer	nucleoplasm	Reactome DB_ID: 68440	
+	RFC Heteropentamer:RNA primer-DNA primer:origin duplex:PCNA homotrimer	nucleoplasm	Reactome DB_ID: 68471	
+	RNA primer-DNA primer:origin duplex:PCNA 	nucleoplasm	Reactome DB_ID: 68441	
+	DNA Polymerase delta tetramer	nucleoplasm	Reactome DB_ID: 68450	
+	Processive complex	nucleoplasm	Reactome DB_ID: 68451	
+	Processive complex:Okazaki fragment complex	nucleoplasm	Reactome DB_ID: 68453	
+	Processive complex:Okazaki fragment:Flap	nucleoplasm	Reactome DB_ID: 68455	
+	RPA heterotrimer	nucleoplasm	Reactome DB_ID: 68462	
+	Processive complex:Okazaki fragment:Flap:RPA heterotrimer	nucleoplasm	Reactome DB_ID: 68463	
+	Processive complex:Okazaki fragment:Flap:RPA heterotrimer:dna2	nucleoplasm	Reactome DB_ID: 68466	
+	Processive complex:Okazaki fragments:Remaining Flap	nucleoplasm	Reactome DB_ID: 68468	
+	Processive complex:nicked DNA from adjacent Okazaki fragments	nucleoplasm	Reactome DB_ID: 68470	
+_physicalEntityName.size()	0
+_proteinName.size()	8
+	CDC6	nucleoplasm	Reactome DB_ID: 68542	UniProt:Q99741	CDC6
+	p-S,T-ORC1	nucleoplasm	Reactome DB_ID: 68943	UniProt:Q13415	ORC1
+	UBC(609-684)	nucleoplasm			
+	UBC(609-684)	cytosol			
+	CDC6	nucleoplasm	Reactome DB_ID: 113574	UniProt:Q99741	CDC6
+	p-CDC6	cytosol	Reactome DB_ID: 68583	UniProt:Q99741	CDC6
+	DNA2	nucleoplasm	Reactome DB_ID: 68465	UniProt:P51530	DNA2
+	MF1	nucleoplasm	Reactome DB_ID: 54745	UniProt:P39748	FEN1
+_reactionName.size()	19
+	T	The primase component of DNA polymerase:primase synthesizes a 6-10 nucleotide RNA primer at the origin
+	T	Orc1 is phosphorylated by cyclin A/CDK2
+	D	Phosphorylated Orc1 is ubiquitinated while still associated with chromatin
+	T	Ubiquitinated Orc1 is degraded by the proteasome
+	T	Cdc6 protein is phosphorylated by CDK
+	T	Phosphorylated Cdc6 is exported from the nucleus
+	D	Cytoplasmic phosphorylated Cdc6 is ubiquitinated by the anaphase-promoting complex
+	T	Ubiquitinated Cdc6 is degraded by the proteasome
+	D	RFC binding displaces Pol Alpha
+	T	Loading of PCNA - Sliding Clamp Formation
+	B	RFC dissociates after sliding clamp formation
+	D	Formation of Processive Complex
+	D	Processive synthesis on the leading strand
+	T	Formation of Okazaki fragments
+	T	Formation of the Flap Intermediate
+	D	RPA binds to the Flap
+	D	Recruitment of Dna2 endonuclease
+	B	Removal of RNA primer and dissociation of RPA and Dna2
+	T	Removal of remaining Flap
+_smallMoleculeName.size()	11
+	dATP	nucleoplasm	Reactome DB_ID: 29604	dATP [ChEBI:16284]
+	TTP	nucleoplasm	Reactome DB_ID: 30187	dTTP [ChEBI:18077]
+	dCTP	nucleoplasm	Reactome DB_ID: 30185	dCTP [ChEBI:16311]
+	AMP	nucleoplasm	Reactome DB_ID: 164121	adenosine 5'-monophosphate [ChEBI:16027]
+	UMP	nucleoplasm	Reactome DB_ID: 418075	UMP [ChEBI:16695]
+	GMP	nucleoplasm	Reactome DB_ID: 29626	GMP [ChEBI:17345]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

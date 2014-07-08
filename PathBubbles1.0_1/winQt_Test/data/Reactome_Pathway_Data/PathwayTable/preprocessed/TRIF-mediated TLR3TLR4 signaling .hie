@@ -1,0 +1,369 @@
+edge.size() 175
+ 67 -1 67 -1 82 0 -1
+ 80 1 67 -1 82 0 -1
+ 80 2 67 -1 82 1 -1
+ 67 -1 67 -1 82 1 -1
+ 67 -1 80 3 82 2 -1
+ 67 -1 83 -1 82 2 -1
+ 67 -1 67 -1 82 2 -1
+ 83 -1 67 -1 82 2 -1
+ 67 -1 67 -1 82 3 -1
+ 80 4 67 -1 82 3 -1
+ 67 -1 83 -1 82 4 -1
+ 67 -1 67 -1 82 4 -1
+ 83 -1 67 -1 82 4 -1
+ 80 6 83 -1 82 4 -1
+ 80 6 67 -1 82 4 -1
+ 80 6 67 0 82 5 -1
+ 67 0 67 -1 82 6 -1
+ 80 7 67 -1 82 7 -1
+ 67 -1 67 -1 82 7 -1
+ 69 0 67 -1 82 8 -1
+ 67 -1 67 -1 82 8 -1
+ 67 -1 67 -1 82 9 -1
+ 67 2 67 -1 82 9 -1
+ 80 10 67 -1 82 10 -1
+ 67 -1 67 -1 82 10 -1
+ 80 11 67 -1 82 10 -1
+ 67 -1 67 3 82 11 -1
+ 67 -1 67 -1 82 11 -1
+ 69 -1 67 -1 82 12 -1
+ 80 8 67 -1 82 12 -1
+ 80 9 67 -1 82 13 -1
+ 67 -1 67 -1 82 13 -1
+ 80 2 67 -1 82 14 -1
+ 67 -1 67 -1 82 14 -1
+ 80 2 69 0 82 15 -1
+ 69 0 67 5 82 16 -1
+ 67 4 67 5 82 16 -1
+ 67 -1 67 5 82 16 -1
+ 83 -1 83 0 82 17 -1
+ 67 6 67 5 82 17 -1
+ 67 6 67 5 82 17 -1
+ 67 6 67 7 82 18 -1
+ 67 6 67 -1 82 18 -1
+ 83 -1 83 -1 82 19 -1
+ 67 8 67 2 82 19 -1
+ 67 8 67 2 82 19 -1
+ 83 -1 83 -1 82 20 -1
+ 80 12 67 10 82 20 -1
+ 80 12 67 10 82 20 -1
+ 67 11 83 -1 82 20 -1
+ 67 11 67 10 82 20 -1
+ 67 11 67 -1 82 21 -1
+ 83 -1 80 13 82 22 -1
+ 80 14 83 -1 82 22 -1
+ 80 14 83 -1 82 22 -1
+ 83 -1 83 -1 82 23 -1
+ 80 16 80 15 82 23 -1
+ 80 16 80 15 82 23 -1
+ 80 16 80 17 82 24 -1
+ 83 -1 83 -1 82 25 -1
+ 80 19 80 18 82 25 -1
+ 80 19 80 18 82 25 -1
+ 80 19 80 20 82 26 -1
+ 67 14 67 13 82 27 -1
+ 67 14 83 1 82 27 -1
+ 83 -1 83 2 82 27 -1
+ 83 -1 83 3 82 28 -1
+ 67 15 67 14 82 28 -1
+ 67 15 67 14 82 28 -1
+ 67 15 67 16 82 29 -1
+ 83 -1 83 -1 82 30 -1
+ 80 24 80 22 82 30 -1
+ 80 24 80 22 82 30 -1
+ 80 23 67 17 82 31 -1
+ 80 26 67 17 82 31 -1
+ 83 -1 83 -1 82 32 -1
+ 67 18 67 17 82 32 -1
+ 67 18 67 17 82 32 -1
+ 67 18 80 23 82 33 -1
+ 67 18 80 27 82 33 -1
+ 80 27 67 19 82 34 -1
+ 67 19 67 -1 82 35 -1
+ 80 28 67 20 82 36 -1
+ 80 29 67 20 82 36 -1
+ 83 -1 83 -1 82 37 -1
+ 67 21 67 20 82 37 -1
+ 67 21 67 20 82 37 -1
+ 67 21 80 30 82 38 -1
+ 67 21 80 28 82 38 -1
+ 80 30 67 22 82 39 -1
+ 67 22 67 -1 82 40 -1
+ 80 32 83 -1 82 41 -1
+ 80 32 80 31 82 41 -1
+ 83 -1 80 31 82 41 -1
+ 80 34 83 -1 82 42 -1
+ 80 34 80 33 82 42 -1
+ 83 -1 80 33 82 42 -1
+ 80 34 83 -1 82 43 -1
+ 80 34 80 33 82 43 -1
+ 83 -1 80 33 82 43 -1
+ 83 -1 83 -1 82 44 -1
+ 80 36 80 35 82 44 -1
+ 80 36 80 35 82 44 -1
+ 83 -1 83 -1 82 45 -1
+ 80 40 80 39 82 45 -1
+ 80 40 80 39 82 45 -1
+ 80 41 80 37 82 46 -1
+ 80 41 83 -1 82 46 -1
+ 83 -1 83 -1 82 46 -1
+ 80 41 80 37 82 47 -1
+ 80 41 83 -1 82 47 -1
+ 83 -1 83 -1 82 47 -1
+ 80 44 80 43 82 48 -1
+ 80 44 83 -1 82 48 -1
+ 83 -1 83 -1 82 48 -1
+ 80 46 80 45 82 49 -1
+ 80 46 83 -1 82 49 -1
+ 83 -1 83 -1 82 49 -1
+ 80 44 80 43 82 50 -1
+ 80 44 83 -1 82 50 -1
+ 83 -1 83 -1 82 50 -1
+ 80 44 80 43 82 51 -1
+ 80 44 83 -1 82 51 -1
+ 83 -1 83 -1 82 51 -1
+ 80 48 80 -1 82 52 -1
+ 80 48 83 4 82 52 -1
+ 83 -1 83 5 82 52 -1
+ 80 50 83 -1 82 53 -1
+ 80 50 80 49 82 53 -1
+ 83 -1 80 49 82 53 -1
+ 80 52 83 -1 82 54 -1
+ 80 52 80 51 82 54 -1
+ 83 -1 80 51 82 54 -1
+ 80 48 67 25 82 55 -1
+ 80 50 67 25 82 55 -1
+ 80 52 67 26 82 56 -1
+ 80 50 67 26 82 56 -1
+ 67 -1 82 1 82 1 -1
+ 67 -1 82 1 82 4 -1
+ 67 1 82 1 82 8 -1
+ 67 -1 82 1 82 11 -1
+ 80 9 82 1 82 15 -1
+ 67 5 82 1 82 17 -1
+ 67 9 82 1 82 19 -1
+ 67 8 82 1 82 20 -1
+ 67 9 82 1 82 22 -1
+ 80 14 82 1 82 23 -1
+ 67 9 82 1 82 25 -1
+ 80 20 82 1 82 27 -1
+ 67 14 82 1 82 28 -1
+ 80 25 82 1 82 30 -1
+ 67 17 82 1 82 32 -1
+ 67 20 82 1 82 37 -1
+ 67 23 82 1 82 41 -1
+ 67 23 82 1 82 42 -1
+ 80 21 82 1 82 43 -1
+ 80 37 82 1 82 44 -1
+ 80 38 82 1 82 45 -1
+ 67 24 82 1 82 46 -1
+ 80 42 82 1 82 47 -1
+ 80 34 82 1 82 48 -1
+ 80 34 82 1 82 49 -1
+ 80 36 82 1 82 50 -1
+ 80 47 82 1 82 51 -1
+ 80 0 82 1 82 52 -1
+ 80 17 82 1 82 53 -1
+ 67 23 82 1 82 54 -1
+ 67 -1 82 0 82 0 -1
+ 80 5 82 0 82 3 -1
+ 67 -1 82 0 82 7 -1
+ 80 8 82 0 82 7 -1
+ 67 -1 82 0 82 13 -1
+ 67 -1 82 1 82 21 -1
+ 67 12 82 1 82 21 -1
+ 80 24 82 0 82 32 -1
+_complexName.size()	27
+	p-T,4S-IRF3:p-T,4S-IRF3	cytosol	Reactome DB_ID: 166272	
+	TRAF6 E3/E2 ubiquitin ligase complex	cytosol	Reactome DB_ID: 1248657	
+	IKK complex	cytosol	Reactome DB_ID: 168113	
+	active caspase-8 	cytosol	Reactome DB_ID: 2562550	
+	TAB1:TAB2/TAB3:TAK1	cytosol	Reactome DB_ID: 450277	
+	activated TLR4/TLR3:TRIF:K63-pUb-TRAF6:free K63-linked pUb:TAK1complex	endosome membrane	Reactome DB_ID: 936954	
+	activated TLR4/TLR3:TRIF:K63-pUb-TRAF6:free K63-linked pUb:activated TAK1 complex	endosome membrane	Reactome DB_ID: 936946	
+	pUb-TRAF6:TAB1:TAB2/TAB3:free polyubiquitin chain : phospho-TAK1	cytosol	Reactome DB_ID: 847073	
+	Activated IKK Complex	cytosol	Reactome DB_ID: 177663	
+	p-IRAK2:K63-linked pUb oligo-TRAF6:free K63-linked pUb:p-TAK1complex	cytosol	Reactome DB_ID: 937060	
+	IkBs:NFkB	cytosol	Reactome DB_ID: 168130	
+	NFkB Complex	cytosol	Reactome DB_ID: 168155	
+	DHX9:CpG:MyD88	cytosol	Reactome DB_ID: 3134868	
+	p38 MAPK:MAPKAPK2/3	nucleoplasm	Reactome DB_ID: 450269	
+	phospho-p38 MAPK: MAPKAPK2/3	nucleoplasm	Reactome DB_ID: 450213	
+	p-p38 MAPK:p-MAPKAPK2/3	nucleoplasm	Reactome DB_ID: 450254	
+	phospho-p38 MAPK : phospho MAPKAPK2 or phospho MaPKAPK3	cytosol	Reactome DB_ID: 450241	
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1:MEK1	cytosol	Reactome DB_ID: 109843	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2:MEK2	cytosol	Reactome DB_ID: 109854	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+	phospho-ERK-2 dimer	nucleoplasm	Reactome DB_ID: 109856	
+	PP2A-ABdeltaC complex	nucleoplasm	Reactome DB_ID: 165970	
+	p-2S-cJUN:p-2T-ATF2	nucleoplasm	Reactome DB_ID: 450262	
+	p-2S-cJUN:p-2S,2T-cFOS	nucleoplasm	Reactome DB_ID: 450327	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	53
+	TRIF	endosome membrane	Reactome DB_ID: 450316	UniProt:Q8IUC6	TICAM1
+	TRAF3	cytosol	Reactome DB_ID: 914241	UniProt:Q13114	TRAF3
+	UBC(609-684)	cytosol	Reactome DB_ID: 939165	UniProt:P0CG48	UBC
+	TBK1	cytosol	Reactome DB_ID: 166267	UniProt:Q9UHD2	TBK1
+	IRF7	cytosol	Reactome DB_ID: 450281	UniProt:Q92985	IRF7
+	SHP2	cytosol	Reactome DB_ID: 162563	UniProt:Q06124	PTPN11
+	p-S477,479-IRF7	cytosol	Reactome DB_ID: 450318	UniProt:Q92985	IRF7
+	RIPK1	cytosol	Reactome DB_ID: 168651	UniProt:Q13546	RIPK1
+	RIP3	cytosol	Reactome DB_ID: 450328	UniProt:Q9Y572	RIPK3
+	TRAF6	cytosol	Reactome DB_ID: 166366	UniProt:Q9Y4K3	TRAF6
+	MACH	cytosol	Reactome DB_ID: 57031	UniProt:Q14790	CASP8
+	FADD	cytosol	Reactome DB_ID: 54639	UniProt:Q13158	FADD
+	p-S19,S23-IkBB	cytosol	Reactome DB_ID: 177670	UniProt:Q15653	NFKBIB
+	SEK1	cytosol	Reactome DB_ID: 168107	UniProt:P45985	MAP2K4
+	p-S257,T261-SEK1	cytosol	Reactome DB_ID: 168170	UniProt:P45985	MAP2K4
+	JNK3	cytosol	Reactome DB_ID: 450352	UniProt:P53779	MAPK10
+	p-T221,Y223-JNK3	cytosol	Reactome DB_ID: 450214	UniProt:P53779	MAPK10
+	p-T221,Y223-JNK3	nucleoplasm	Reactome DB_ID: 450311	UniProt:P53779	MAPK10
+	MKK6	cytosol	Reactome DB_ID: 167998	UniProt:P52564	MAP2K6
+	p-S207,T211-MKK6	cytosol	Reactome DB_ID: 206255	UniProt:P52564	MAP2K6
+	p-S207,T211-MKK6	nucleoplasm	Reactome DB_ID: 450258	UniProt:P52564	MAP2K6
+	MK14_HUMAN	nucleoplasm	Reactome DB_ID: 446227	UniProt:Q16539	MAPK14
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	p-T286,292-MEK1	cytosol	Reactome DB_ID: 112374	UniProt:Q02750	MAP2K1
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERK1	cytosol	Reactome DB_ID: 59284	UniProt:P27361	MAPK3
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	ERK2	cytosol	Reactome DB_ID: 59282	UniProt:P28482	MAPK1
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+	ELK1	nucleoplasm	Reactome DB_ID: 3009346	UniProt:P19419	ELK1
+	ELK1	nucleoplasm	Reactome DB_ID: 3009350	UniProt:P19419	ELK1
+	MSK1	nucleoplasm	Reactome DB_ID: 198657	UniProt:O75582	RPS6KA5
+	RPS6KA5	nucleoplasm	Reactome DB_ID: 198683	UniProt:O75582	RPS6KA5
+	RPS6KA3	nucleoplasm	Reactome DB_ID: 199869	UniProt:P51812	RPS6KA3
+	RPS6KA3	nucleoplasm	Reactome DB_ID: 199830	UniProt:P51812	RPS6KA3
+	p42-MAPK	nucleoplasm	Reactome DB_ID: 112354	UniProt:P28482	MAPK1
+	MAPK7	nucleoplasm	Reactome DB_ID: 198738	UniProt:Q13164	MAPK7
+	MEF2C	nucleoplasm	Reactome DB_ID: 199938	UniProt:Q06413	MEF2C
+	MEF2C	nucleoplasm	Reactome DB_ID: 199942	UniProt:Q06413	MEF2C
+	ERK5	nucleoplasm	Reactome DB_ID: 199961	UniProt:Q13164	MAPK7
+	DUSP6	nucleoplasm	Reactome DB_ID: 2871619	UniProt:Q16828	DUSP6
+	CREB	nucleoplasm	Reactome DB_ID: 52777	UniProt:P16220	CREB1
+	CREB	nucleoplasm	Reactome DB_ID: 111910	UniProt:P16220	CREB1
+	ATF1	nucleoplasm	Reactome DB_ID: 199900	UniProt:P18846	ATF1
+	p-S63-ATF1	nucleoplasm	Reactome DB_ID: 199897	UniProt:P18846	ATF1
+	MKK2_HUMAN	nucleoplasm	Reactome DB_ID: 199936	UniProt:P49137	MAPKAPK2
+	p-T69,T71-ATF2	nucleoplasm	Reactome DB_ID: 450243	UniProt:P15336	ATF2
+	JUN	nucleoplasm	Reactome DB_ID: 450250	UniProt:P05412	JUN
+	p-S63,S73-JUN	nucleoplasm	Reactome DB_ID: 450237	UniProt:P05412	JUN
+	FOS	nucleoplasm	Reactome DB_ID: 450216	UniProt:P01100	FOS
+	phosphorylated c-FOS	nucleoplasm	Reactome DB_ID: 450283	UniProt:P01100	FOS
+_reactionName.size()	57
+	D	TRAF3 binds to TRIF:activated TLR3/4 complex
+	D	Auto-ubiquitination of TRAF3
+	T	Recruitment of TBK1/IKK epsilon to K63-poly-Ub-TRAF3:TRIF:activated TLR3/TLR4 followed by their phosphorylation
+	D	IRF3/IRF7 recruitment to p-TBK1/p-IKK epsilon bound to the activated TLR
+	T	Phosphorylation of IRF-3/IRF7 and their release from the activated TLR complex 
+	T	Dimerization of phosphorylated IRF3/IRF7
+	T	Dimerized phospho-IRF3/IRF7 is transported to the nucleus
+	D	TRIF:activated TLR3/TLR4 complex recruits RIP1
+	D	K63-linked ubiquitination of RIP1 bound to the activated TLR complex
+	D	Nemo subunit of IKK complex binds polyubiquinated RIP1
+	D	TLR3/4-induced ripoptosome assembly
+	B	Caspase-8 processing
+	D	RIP3 binds TRIF to mediate necroptosis
+	D	Activated TLR3/4:TRIF recruits TRAF6
+	D	Auto ubiquitination of TRAF6 bound to the activated TLR complex
+	T	Activated TRAF6 synthesizes unanchored polyubiquitin chains
+	D	Activated TLR:TRIF:K63-pUb-TRAF6 recruits TAK1complex
+	T	Activation of TAK1 complex bound to activated TLR
+	B	Phosphorylated TAK1 leaves activated TLR receptor complex
+	T	Activated TAK1 mediates phosphorylation of the IKK Complex
+	T	Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex
+	T	Released NFkB complex is transported to nucleus
+	T	Activated TAK1 phosphorylates MKK4/MKK7
+	T	Phosphorylation of human JNKs by activated MKK4/MKK7
+	T	Activated human JNKs migrate to nucleoplasm
+	T	activated human TAK1 phosphorylates MKK3/MKK6
+	T	Phosphorylated MKK3/MKK6 migrates to nucleus
+	T	Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3
+	T	
+	T	Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3
+	T	Inactivation of MEK1 by p34cdc2
+	D	MEK1 binds ERK-1
+	T	MEK1 phosphorylates ERK-1
+	B	Dissociation of phospho-ERK-1:MEK1
+	T	Dimerisation of phospho-ERK-1
+	T	Nuclear translocation of phospho-ERK-1 dimer
+	D	MEK2 binds ERK-2
+	T	MEK2 phosphorylates ERK-2
+	B	Dissociation of phospho-ERK-2:MEK2
+	T	Dimerisation of phospho-ERK-2
+	T	Nuclear translocation of phospho-ERK-2 dimer
+	T	ERK1/2 activates ELK1
+	T	ERK1/2 phosphorylates MSK1
+	T	p38MAPK phosphorylates MSK1
+	T	ERK1/2/5 activate RSK1/2/3
+	T	ERK5 activates the transcription factor MEF2
+	T	ERKs are inactivated by protein phosphatase 2A
+	T	ERKs are inactivated by dual-specific phosphatases (DUSPs)
+	T	MSK1 activates CREB
+	T	MSK1 activates ATF1
+	T	RSK1/2/3 phosphorylates CREB at Serine 133
+	T	MAPKAPK2 phosphorylates CREB at Serine 133
+	T	Phosphorylated MAPKs phosphorylate ATF-2
+	T	Activated JNKs phosphorylate c-JUN
+	T	c-FOS activation by phospho ERK1/2
+	D	Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. 
+	D	Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. 
+_smallMoleculeName.size()	6
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

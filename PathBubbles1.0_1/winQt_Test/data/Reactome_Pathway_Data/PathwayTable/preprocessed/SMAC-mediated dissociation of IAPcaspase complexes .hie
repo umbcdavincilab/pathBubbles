@@ -1,0 +1,66 @@
+edge.size() 6
+ 67 0 67 1 82 0 -1
+ 67 0 67 2 82 0 -1
+ 67 3 67 4 82 1 -1
+ 67 3 67 2 82 1 -1
+ 67 5 67 6 82 2 -1
+ 67 5 67 2 82 2 -1
+_complexName.size()	7
+	SMAC:XIAP:Caspase-3	cytosol	Reactome DB_ID: 114305	
+	active caspase-3	cytosol	Reactome DB_ID: 141647	
+	SMAC:XIAP	cytosol	Reactome DB_ID: 114391	
+	SMAC:XIAP:Caspase-7	cytosol	Reactome DB_ID: 114353	
+	active caspase-7	cytosol	Reactome DB_ID: 141643	
+	SMAC:XIAP:Caspase-9	cytosol	Reactome DB_ID: 114318	
+	Cleaved Caspase-9	cytosol	Reactome DB_ID: 141640	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	3
+	B	Dissociation of Caspase-3 from SMAC:XIAP:Caspase-3
+	B	Dissociation of Caspase-7 from SMAC:XIAP:Caspase-7
+	B	Dissociation of Caspase-9 from SMAC:XIAP:Caspase-9
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

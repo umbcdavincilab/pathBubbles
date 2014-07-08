@@ -1,0 +1,73 @@
+edge.size() 10
+ 80 0 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 80 -1 67 3 82 1 -1
+ 67 2 67 3 82 1 -1
+ 67 3 83 2 82 2 -1
+ 83 0 83 3 82 2 -1
+ 83 1 67 4 82 2 -1
+ 67 3 67 4 82 2 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 3 82 1 82 2 -1
+_complexName.size()	5
+	Connexin 43 connexon in Golgi transport vesicle	Golgi-associated vesicle membrane	Reactome DB_ID: 190583	
+	Cx43:TJP1	Golgi-associated vesicle membrane	Reactome DB_ID: 191615	
+	Cx43 :ZO-1 gap junction	plasma membrane	Reactome DB_ID: 191652	
+	Cx43:ZO-1:c-src gap junction	plasma membrane	Reactome DB_ID: 191653	
+	phospho-Y265 Cx43:ZO-1 gap junction	plasma membrane	Reactome DB_ID: 191645	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	TJP1	cytosol	Reactome DB_ID: 532659	UniProt:Q07157	TJP1
+_reactionName.size()	3
+	D	Association of Cx43  with TJP1
+	D	c-src associates with Cx43 in gap junctions
+	T	Phosphorylation of Cx43 by c-src
+_smallMoleculeName.size()	4
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

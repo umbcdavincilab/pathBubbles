@@ -172,6 +172,9 @@ void CalloutNote::record(QString pathName, bool ifDeleted)
 	QString dateTimeString = dateTime.toString("dd/mm/yy hh:mm");
 	QStringList sNames = dateTimeString.split(" ");
     //QString timeNumbers = sNames[1];
+	int dis=pathName.lastIndexOf("/");
+	QString pathpart=pathName.mid(0,dis), namepart=pathName.mid(dis,pathName.size()-dis);
+	pathName = pathpart + "noteFile/" + namepart;
 
 	QString text;
 	storeText(_pid,_type,_id);

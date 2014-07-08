@@ -1,0 +1,397 @@
+edge.size() 196
+ 67 -1 80 -1 82 0 -1
+ 80 0 80 -1 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 -1 67 0 82 0 -1
+ 67 0 83 0 82 1 -1
+ 67 0 80 0 82 1 -1
+ 83 2 83 1 82 2 -1
+ 83 3 83 -1 82 2 -1
+ 83 4 83 0 82 2 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 5 83 4 82 3 -1
+ 83 2 83 -1 82 3 -1
+ 83 3 83 -1 82 3 -1
+ 83 2 83 6 82 4 -1
+ 83 3 83 7 82 4 -1
+ 83 -1 83 8 82 4 -1
+ 83 -1 83 9 82 4 -1
+ 83 -1 83 10 82 4 -1
+ 83 -1 83 11 82 4 -1
+ 83 -1 83 12 82 4 -1
+ 83 -1 83 13 82 -1 -1
+ 83 13 83 16 82 5 -1
+ 83 14 83 -1 82 5 -1
+ 83 15 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 17 82 -1 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 15 82 6 -1
+ 83 18 83 17 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 16 83 -1 82 6 -1
+ 83 19 83 -1 82 6 -1
+ 83 15 83 20 82 7 -1
+ 83 24 83 21 82 7 -1
+ 83 25 83 22 82 7 -1
+ 83 26 83 23 82 7 -1
+ 83 27 83 28 82 8 -1
+ 83 16 83 29 82 9 -1
+ 83 33 83 15 82 9 -1
+ 83 34 83 28 82 9 -1
+ 83 35 83 30 82 9 -1
+ 83 36 83 31 82 9 -1
+ 83 19 83 32 82 9 -1
+ 83 -1 83 37 82 -1 -1
+ 83 43 83 38 82 10 -1
+ 83 44 83 37 82 10 -1
+ 83 45 83 39 82 10 -1
+ 83 46 83 40 82 10 -1
+ 83 3 83 41 82 10 -1
+ 83 2 83 42 82 10 -1
+ 83 -1 83 47 82 -1 -1
+ 83 16 83 48 82 11 -1
+ 83 47 83 49 82 11 -1
+ 83 17 83 15 82 12 -1
+ 83 50 83 -1 82 12 -1
+ 83 51 83 -1 82 12 -1
+ 83 52 83 26 82 12 -1
+ 83 -1 83 -1 82 13 -1
+ 83 16 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 15 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 19 83 -1 82 14 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 83 3 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 3 83 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 3 83 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 83 -1 83 53 82 15 -1
+ 83 -1 83 54 82 15 -1
+ 83 -1 83 15 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 16 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 19 83 -1 82 15 -1
+ 83 15 83 -1 82 16 -1
+ 83 26 83 -1 82 16 -1
+ 83 55 83 -1 82 16 -1
+ 83 28 83 -1 82 17 -1
+ 83 16 83 -1 82 17 -1
+ 83 19 83 15 82 17 -1
+ 83 56 83 -1 82 18 -1
+ 83 57 83 15 82 18 -1
+ 83 58 83 28 82 18 -1
+ 83 59 83 -1 82 18 -1
+ 83 16 83 -1 82 18 -1
+ 83 19 83 -1 82 18 -1
+ 83 55 83 -1 82 18 -1
+ 83 16 83 60 82 19 -1
+ 83 61 83 15 82 19 -1
+ 83 62 83 16 82 20 -1
+ 83 15 83 64 82 20 -1
+ 83 61 83 65 82 20 -1
+ 83 63 83 66 82 20 -1
+ 83 -1 83 -1 82 21 -1
+ 83 -1 83 15 82 21 -1
+ 83 -1 83 61 82 21 -1
+ 83 -1 83 -1 82 21 -1
+ 83 16 83 -1 82 21 -1
+ 83 67 83 -1 82 21 -1
+ 83 19 83 -1 82 21 -1
+ 83 -1 83 -1 82 22 -1
+ 83 -1 83 15 82 22 -1
+ 83 68 83 -1 82 22 -1
+ 83 69 83 55 82 22 -1
+ 83 16 83 -1 82 22 -1
+ 83 19 83 -1 82 22 -1
+ 83 70 83 -1 82 22 -1
+ 83 16 83 71 82 23 -1
+ 83 67 83 15 82 23 -1
+ 83 -1 83 72 82 -1 -1
+ 83 72 67 5 82 24 -1
+ 80 7 67 5 82 24 -1
+ 67 5 83 72 82 25 -1
+ 67 5 80 7 82 25 -1
+ 83 16 83 73 82 26 -1
+ 83 19 83 15 82 26 -1
+ 83 75 83 74 82 26 -1
+ 80 7 67 6 82 27 -1
+ 83 75 67 6 82 27 -1
+ 67 6 67 7 82 28 -1
+ 80 9 67 7 82 28 -1
+ 67 7 67 -1 82 29 -1
+ 67 -1 67 8 82 -1 -1
+ 67 8 83 76 82 30 -1
+ 67 8 80 10 82 30 -1
+ 83 76 83 75 82 31 -1
+ 83 81 83 77 82 32 -1
+ 83 82 83 15 82 32 -1
+ 83 83 83 78 82 32 -1
+ 83 84 83 75 82 32 -1
+ 83 16 83 79 82 32 -1
+ 83 19 83 80 82 32 -1
+ 83 16 83 85 82 33 -1
+ 83 90 83 86 82 33 -1
+ 83 91 83 15 82 33 -1
+ 83 92 83 87 82 33 -1
+ 83 93 83 88 82 33 -1
+ 83 19 83 89 82 33 -1
+ 80 1 82 1 82 2 -1
+ 80 1 82 1 82 3 -1
+ 80 1 82 1 82 4 -1
+ 80 2 82 1 82 5 -1
+ 80 3 82 1 82 6 -1
+ 67 1 82 1 82 7 -1
+ 67 1 82 1 82 8 -1
+ 80 4 82 1 82 9 -1
+ 80 -1 82 1 82 10 -1
+ 67 2 82 1 82 11 -1
+ 67 1 82 1 82 12 -1
+ 67 1 82 1 82 13 -1
+ 80 4 82 1 82 14 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 3 82 1 82 15 -1
+ 67 1 82 1 82 16 -1
+ 80 3 82 1 82 17 -1
+ 80 3 82 1 82 18 -1
+ 80 -1 82 1 82 19 -1
+ 80 -1 82 1 82 20 -1
+ 80 6 82 1 82 21 -1
+ 80 6 82 1 82 22 -1
+ 67 4 82 1 82 23 -1
+ 80 8 82 1 82 26 -1
+ 80 -1 82 1 82 29 -1
+ 80 11 82 1 82 30 -1
+ 80 12 82 1 82 32 -1
+ 80 13 82 1 82 33 -1
+ 80 5 82 1 82 10 -1
+ 67 3 82 1 82 13 -1
+ 80 5 82 1 82 15 -1
+ 80 5 82 1 82 16 -1
+ 67 3 82 1 82 19 -1
+ 80 5 82 1 82 19 -1
+ 80 5 82 1 82 20 -1
+_complexName.size()	9
+	cholesterol:STAR	mitochondrial intermembrane space	Reactome DB_ID: 196090	
+	HSD3B1 homodimer/HSD3B2 homodimer			
+	HSD11B1 dimer	endoplasmic reticulum membrane	Reactome DB_ID: 193980	
+	Lutropin	extracellular region	Reactome DB_ID: 378969	
+	HSD17B1 dimer	cytosol	Reactome DB_ID: 804966	
+	DBP:vitamin D3	extracellular region	Reactome DB_ID: 352339	
+	GC:CDL	extracellular region	Reactome DB_ID: 209892	
+	CUBN:GC:CDL	extracellular region	Reactome DB_ID: 350115	
+	Cubilin:DBP:Calcidiol	lysosomal lumen	Reactome DB_ID: 350085	
+_physicalEntityName.size()	0
+_proteinName.size()	14
+	STAR	mitochondrial intermembrane space	Reactome DB_ID: 196120	UniProt:P49675	STAR
+	CYP11A1	mitochondrial matrix	Reactome DB_ID: 193148	UniProt:P05108	CYP11A1
+	AKR1B1	cytosol	Reactome DB_ID: 196063	UniProt:P15121	AKR1B1
+	CYP17A1	endoplasmic reticulum membrane	Reactome DB_ID: 193119	UniProt:P05093	CYP17A1
+	CYP21A2	endoplasmic reticulum membrane	Reactome DB_ID: 194028	UniProt:P08686	CYP21A2
+	ACTH	cytosol	Reactome DB_ID: 1502544	UniProt:P01189	POMC
+	CYP19A1	endoplasmic reticulum membrane	Reactome DB_ID: 193137	UniProt:P11511	CYP19A1
+	GC	extracellular region	Reactome DB_ID: 209886	UniProt:P02774	GC
+	CYP2R1	endoplasmic reticulum membrane	Reactome DB_ID: 209941	UniProt:Q6VVX0	CYP2R1
+	CUBN	plasma membrane	Reactome DB_ID: 264843	UniProt:O60494	CUBN
+	CUBN	lysosomal lumen	Reactome DB_ID: 350088	UniProt:O60494	CUBN
+	LGMN	lysosomal lumen	Reactome DB_ID: 350135	UniProt:Q99538	LGMN
+	CYP27B1	mitochondrial outer membrane	Reactome DB_ID: 209979	UniProt:O15528	CYP27B1
+	CYP24A1	mitochondrial inner membrane	Reactome DB_ID: 209969	UniProt:Q07973	CYP24A1
+_reactionName.size()	34
+	T	Cholesterol translocates to the inner mitochondrial membrane
+	B	Cholesterol is released into the inner mitochondrial membrane
+	T	Oxidation of cholesterol
+	T	Oxidation of 22beta-hydroxycholesterol to 20alpha,22beta-hydroxycholesterol
+	T	20alpha,22beta-hydroxycholesterol is cleaved by CYP11A1 to yield pregnenolone and isocaproaldehyde
+	T	Reduction of isocaproaldehyde to 4-methylpentan-1-ol
+	T	Hydroxylation of pregnenolone to form 17alpha-hydroxypregnenolone
+	T	17-hydroxypregnenolone + NAD+ => pregn-5-ene-3,20-dione-17-ol + NADH + H+
+	T	Pregn-5-ene-3,20-dione-17-ol isomerizes to 17-hydroxyprogesterone
+	T	Hydroxylation of 17-hydroxyprogesterone to form 11-deoxycortisol
+	T	11-deoxycortisol is oxidised to cortisol by CYP11B1
+	T	Oxidation of cortisol to yield cortisone
+	T	Pregnenolone + NAD+ => pregn-5-ene-3,20-dione + NADH + H+
+	T	Pregn-5-ene-3,20-dione isomerizes to progesterone
+	T	21-hydroxylation of progesterone to form 11-deoxycorticosterone
+	T	Side chain cleavage of 17alpha-hydroxypregnenolone to yield DHA
+	T	DHA isomerizes to 4-Androstene3,17-dione
+	T	Hydroxylation of progesterone to form 17alpha-hydroxyprogesterone
+	T	Side chain cleavage of 17alpha-hydroxyprogesterone to form 4-Androstene-3, 17-dione
+	T	Reduction of androstenedione to testosterone
+	T	Testosterone is converted to 5-alpha-dihydroxytestosterone
+	T	Testosterone is converted to estradiol
+	T	Androstenedione is converted to estrone by Aromatase (CYP19A1)
+	T	Estrone is hydrogenated to estradiol
+	D	Vitamin D3 translocates to the blood serum and is transported to the liver
+	B	Vitamin D3 translocates into the cytosol
+	T	25-Hydroxylation of vitamin D3 in liver
+	D	Calcidiol binds to DBP in the bloodstream and is delivered to the kidney
+	D	CUBN binds GC:CDL
+	T	Megalin internalizes the cubilin-DBP:Calcidiol complex
+	B	Legumain degrades DBP
+	T	Vitamin D3 translocates to the cytosol and binds to IDBP
+	T	Further hydroxylation of calcidiol in kidney to form calcitriol
+	T	1,25-dihydroxyvitamin D3 is deactivated
+_smallMoleculeName.size()	94
+	17alpha-hydroxypregnenolone	cytosol	Reactome DB_ID: 193124	ChEBI:28750 17alpha-hydroxypregnenolone
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	pregn-5-ene-3,20-dione-17-ol	cytosol	Reactome DB_ID: 196366	17alpha-hydroxypregn-5-ene-3,20-dione [ChEBI:63843]
+	17alpha-hydroxyprogesterone	cytosol	Reactome DB_ID: 193092	17alpha-Hydroxyprogesterone [ChEBI:790]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	11-deoxycortisol	mitochondrial matrix	Reactome DB_ID: 193998	11-Deoxycortisol [ChEBI:714]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	CORT	mitochondrial matrix	Reactome DB_ID: 194011	Cortisol [ChEBI:3893]
+	CORT	mitochondrial matrix	Reactome DB_ID: 194011	Cortisol [ChEBI:3893]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	CORT	mitochondrial matrix	Reactome DB_ID: 194011	Cortisol [ChEBI:3893]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	CORT	mitochondrial matrix	Reactome DB_ID: 194011	Cortisol [ChEBI:3893]
+	PREG	cytosol	Reactome DB_ID: 193103	Pregnenolone [ChEBI:16581]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	pregn-5-ene-3,20-dione	cytosol	Reactome DB_ID: 196344	pregn-5-ene-3,20-dione [ChEBI:63837]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	cholesterol	mitochondrial inner membrane	Reactome DB_ID: 193156	cholesterol [ChEBI:16113]
+	DOC	mitochondrial matrix	Reactome DB_ID: 193988	11-Deoxycorticosterone [ChEBI:713]
+	CORST	mitochondrial matrix	Reactome DB_ID: 194005	Corticosterone [ChEBI:3891]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	CORST	mitochondrial matrix	Reactome DB_ID: 194005	Corticosterone [ChEBI:3891]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	CORST	mitochondrial matrix	Reactome DB_ID: 194005	Corticosterone [ChEBI:3891]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	CORST	mitochondrial matrix	Reactome DB_ID: 194005	Corticosterone [ChEBI:3891]
+	18-hydroxycorticosterone	mitochondrial matrix	Reactome DB_ID: 194012	18-Hydroxycorticosterone [ChEBI:795]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	18-hydroxycorticosterone	mitochondrial matrix	Reactome DB_ID: 194012	18-Hydroxycorticosterone [ChEBI:795]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	18-hydroxycorticosterone	mitochondrial matrix	Reactome DB_ID: 194012	18-Hydroxycorticosterone [ChEBI:795]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	CORST	mitochondrial matrix	Reactome DB_ID: 194005	Corticosterone [ChEBI:3891]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	ALDO	mitochondrial matrix	Reactome DB_ID: 193982	Aldosterone [ChEBI:2563]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	ALDO	mitochondrial matrix	Reactome DB_ID: 193982	Aldosterone [ChEBI:2563]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	18-hydroxycorticosterone	mitochondrial matrix	Reactome DB_ID: 194012	18-Hydroxycorticosterone [ChEBI:795]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	20alpha,22beta dihydroxycholesterol	mitochondrial inner membrane	Reactome DB_ID: 193086	20alpha,22beta-Dihydroxycholesterol [ChEBI:1294]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	20alpha,22beta dihydroxycholesterol	mitochondrial inner membrane	Reactome DB_ID: 193086	20alpha,22beta-Dihydroxycholesterol [ChEBI:1294]
+	20alpha,22beta dihydroxycholesterol	mitochondrial inner membrane	Reactome DB_ID: 193086	20alpha,22beta-Dihydroxycholesterol [ChEBI:1294]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	CDL	lysosomal lumen	Reactome DB_ID: 350136	Calcidiol [ChEBI:3304]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	20alpha,22beta dihydroxycholesterol	mitochondrial inner membrane	Reactome DB_ID: 193086	20alpha,22beta-Dihydroxycholesterol [ChEBI:1294]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	20alpha,22beta dihydroxycholesterol	mitochondrial inner membrane	Reactome DB_ID: 193086	20alpha,22beta-Dihydroxycholesterol [ChEBI:1294]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	Pregnenolone	mitochondrial matrix	Reactome DB_ID: 193164	Pregnenolone [ChEBI:16581]
+	20alpha,22beta dihydroxycholesterol	mitochondrial inner membrane	Reactome DB_ID: 193086	20alpha,22beta-Dihydroxycholesterol [ChEBI:1294]
+	Pregnenolone	mitochondrial matrix	Reactome DB_ID: 193164	Pregnenolone [ChEBI:16581]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	ISCAL	mitochondrial matrix	Reactome DB_ID: 193046	4-Methylpentanal [ChEBI:1901]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	ISCAL	cytosol	Reactome DB_ID: 196095	4-Methylpentanal [ChEBI:1901]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	MePeOH	cytosol	Reactome DB_ID: 196066	4-methylpentan-1-ol [ChEBI:63910]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	MePeOH	cytosol	Reactome DB_ID: 196066	4-methylpentan-1-ol [ChEBI:63910]
+	MePeOH	cytosol	Reactome DB_ID: 196066	4-methylpentan-1-ol [ChEBI:63910]
+	Pregnenolone	mitochondrial matrix	Reactome DB_ID: 193164	Pregnenolone [ChEBI:16581]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	17alpha-hydroxypregnenolone	cytosol	Reactome DB_ID: 193124	ChEBI:28750 17alpha-hydroxypregnenolone
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

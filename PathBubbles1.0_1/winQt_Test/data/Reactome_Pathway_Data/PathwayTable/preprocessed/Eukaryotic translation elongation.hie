@@ -1,0 +1,115 @@
+edge.size() 34
+ 83 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 0 67 1 82 1 -1
+ 83 1 67 1 82 1 -1
+ 67 2 67 4 82 2 -1
+ 67 1 67 4 82 2 -1
+ 67 4 83 2 82 3 -1
+ 67 4 67 5 82 3 -1
+ 67 4 67 6 82 3 -1
+ 67 6 67 7 82 4 -1
+ 83 2 67 7 82 5 -1
+ 67 5 67 8 82 5 -1
+ 67 5 67 1 82 5 -1
+ 67 5 67 1 82 5 -1
+ 67 9 67 8 82 5 -1
+ 67 9 67 7 82 5 -1
+ 67 9 67 1 82 5 -1
+ 67 10 67 8 82 5 -1
+ 67 10 67 7 82 5 -1
+ 67 10 67 1 82 5 -1
+ 83 0 67 8 82 6 -1
+ 80 2 67 8 82 6 -1
+ 67 5 67 0 82 7 -1
+ 83 0 67 0 82 7 -1
+ 67 11 67 0 82 7 -1
+ 67 11 67 12 82 7 -1
+ 67 5 67 12 82 7 -1
+ 80 3 67 11 82 8 -1
+ 80 4 67 11 82 8 -1
+ 80 5 67 11 82 8 -1
+ 80 1 82 1 82 0 -1
+ 67 3 82 1 82 3 -1
+ 67 3 82 1 82 4 -1
+ 67 11 82 1 82 7 -1
+_complexName.size()	13
+	eEF1A:GTP	cytosol	Reactome DB_ID: 156921	
+	eEF1A:GTP:aminoacyl-tRNA complex	cytosol	Reactome DB_ID: 156911	
+	80S:Met-tRNAi:mRNA	cytosol	Reactome DB_ID: 72505	
+	80S ribosome	cytosol	Reactome DB_ID: 72500	
+	80S:aminoacyl tRNA:mRNA:eEF1A:GTP	cytosol	Reactome DB_ID: 156903	
+	eEF1A:GDP	cytosol	Reactome DB_ID: 156929	
+	80S:Met-tRNAi:mRNA:aminoacyl-tRNA	cytosol	Reactome DB_ID: 72506	
+	Elongation complex with growing peptide chain	cytosol	Reactome DB_ID: 156927	
+	eEF2:GTP	cytosol	Reactome DB_ID: 156916	
+	eEF2:GDP	cytosol	Reactome DB_ID: 156922	
+	elongating polypeptide chain	cytosol	Reactome DB_ID: 141952	
+	eEF1B complex	cytosol	Reactome DB_ID: 156920	
+	eEF1B:GDP exchange complex	cytosol	Reactome DB_ID: 156917	
+_physicalEntityName.size()	0
+_proteinName.size()	6
+	eEF1A	cytosol	Reactome DB_ID: 156905	UniProt:P68104	EEF1A1
+	EEF1A2	cytosol			
+	EEF2	cytosol	Reactome DB_ID: 156901	UniProt:P13639	EEF2
+	EEF1D	cytosol	Reactome DB_ID: 156914	UniProt:P29692	EEF1D
+	EEF1G	cytosol	Reactome DB_ID: 156925	UniProt:P26641	EEF1G
+	EEF1B2	cytosol	Reactome DB_ID: 156926	UniProt:P24534	EEF1B2
+_reactionName.size()	9
+	D	eEF1A complexes with GTP
+	D	eEF1A:GTP:aminoacyl tRNA ternary complex formation.
+	D	Aminoacyl-tRNA  binds to the ribosome at the A-site
+	B	Hydrolysis of eEF1A:GTP
+	T	Peptide transfer from P-site tRNA to the A-site tRNA
+	T	Translocation of ribosome by 3 bases in the 3' direction
+	D	GTP-binding activates eEF2
+	T	Regeneration of eEF1A:GTP by eEF1B activity
+	D	Formation of eEF1B complex
+_smallMoleculeName.size()	3
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+				
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

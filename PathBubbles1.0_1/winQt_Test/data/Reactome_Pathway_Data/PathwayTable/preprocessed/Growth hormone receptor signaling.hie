@@ -1,0 +1,152 @@
+edge.size() 69
+ 80 0 69 0 82 0 -1
+ 80 -1 67 0 82 1 -1
+ 80 1 67 0 82 1 -1
+ 67 0 67 1 82 2 -1
+ 67 1 67 3 82 3 -1
+ 80 0 67 3 82 3 -1
+ 67 3 67 4 82 4 -1
+ 83 0 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 0 83 1 82 5 -1
+ 80 4 80 3 82 5 -1
+ 80 4 80 3 82 5 -1
+ 83 0 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 0 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 3 67 5 82 6 -1
+ 80 -1 67 5 82 6 -1
+ 83 0 80 5 82 7 -1
+ 80 6 83 2 82 7 -1
+ 80 6 83 3 82 7 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 1 80 2 82 8 -1
+ 80 1 80 7 82 8 -1
+ 80 2 67 6 82 9 -1
+ 80 0 67 6 82 9 -1
+ 80 2 67 2 82 10 -1
+ 80 1 67 2 82 10 -1
+ 80 1 80 -1 82 11 -1
+ 67 -1 82 1 82 5 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 5 82 1 82 7 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 8 82 1 82 8 -1
+ 67 2 82 0 82 2 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	7
+	Growth Hormone Receptor:JAK2	plasma membrane	Reactome DB_ID: 982774	
+	Growth Hormone Receptor-JAK2 dimer	plasma membrane	Reactome DB_ID: 982764	
+	GHBP:GHR	plasma membrane	Reactome DB_ID: 1362481	
+	Growth Hormone: Growth Hormone Receptor-JAK2 dimer	plasma membrane	Reactome DB_ID: 982813	
+	Growth Hormone: Activated Growth Hormone Receptor-JAK2 dimer	plasma membrane	Reactome DB_ID: 1168384	
+	Growth Hormone:Growth Hormone Receptor-JAK2 dimer:LYN	plasma membrane	Reactome DB_ID: 1168921	
+	GHBP:GH	extracellular region	Reactome DB_ID: 1362492	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	9
+	GH2	extracellular region			
+	GHR	plasma membrane	Reactome DB_ID: 982779	UniProt:P10912	GHR
+	GHR	extracellular region	Reactome DB_ID: 1168821	UniProt:P10912	GHR
+	IRS1	cytosol			
+	IRS-2	cytosol			
+	ERK1	cytosol			
+	phospho-ERK-2	cytosol			
+	GHR	plasma membrane	Reactome DB_ID: 1168803	UniProt:P10912	GHR
+	TACE	plasma membrane	Reactome DB_ID: 179878	UniProt:P78536	ADAM17
+_reactionName.size()	12
+	T	Growth hormone forms dimers and oligomers
+	D	Growth hormone receptor binds JAK2
+	T	Growth hormone receptor dimerizes
+	D	Growth hormone binds the growth hormone receptor
+	T	GH:GHR:JAK2 complex undergoes a conformational change
+	T	JAK2 phosphorylation of IRS-1/2
+	D	Growth hormone receptor binds Lyn
+	T	Lyn activates ERK
+	B	Metalloprotease cleavage of GHR
+	D	GHBP binds GH
+	D	GHBP binds GHR
+	T	GHR internalization
+_smallMoleculeName.size()	4
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'winqt_test.ui'
 **
-** Created: Mon Jun 30 18:28:47 2014
+** Created: Mon Jul 7 18:35:40 2014
 **      by: Qt User Interface Compiler version 4.8.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

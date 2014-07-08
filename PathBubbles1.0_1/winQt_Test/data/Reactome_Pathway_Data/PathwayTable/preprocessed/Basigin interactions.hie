@@ -1,0 +1,93 @@
+edge.size() 20
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 0 82 0 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 1 82 1 -1
+ 80 -1 67 1 82 1 -1
+ 80 1 67 2 82 2 -1
+ 80 0 67 2 82 2 -1
+ 80 -1 67 3 82 3 -1
+ 80 0 67 3 82 3 -1
+ 69 0 67 4 82 4 -1
+ 80 0 67 4 82 4 -1
+ 67 5 67 6 82 5 -1
+ 80 0 67 6 82 5 -1
+ 80 2 67 7 82 6 -1
+ 80 0 67 7 82 6 -1
+ 67 8 67 9 82 7 -1
+ 80 0 67 9 82 7 -1
+ 83 0 82 1 82 1 -1
+_complexName.size()	10
+	Basigin homodimer	plasma membrane	Reactome DB_ID: 204594	
+	Basigin bound to CyPA	plasma membrane	Reactome DB_ID: 204480	
+	Basigin bound to CD43	plasma membrane	Reactome DB_ID: 204467	
+	BSG:MMP1(100-469)	plasma membrane	Reactome DB_ID: 375089	
+	Basigin:Mannose-carrying cell recognition molecules	plasma membrane	Reactome DB_ID: 375090	
+	Integrin alpha3beta1/Integrin alpha6beta1			
+	BSG:Integrin alpha3beta1, alpha6beta1	plasma membrane	Reactome DB_ID: 204472	
+	Basigin bound to MCTs	plasma membrane	Reactome DB_ID: 204396	
+	SLC7A10:SLC3A2 heterodimer/SLC7A11:SLC3A2 heterodimer/SLC7A5:SLC3A2 heterodimer/SLC7A6:SLC3A2 heterodimer/SLC7A7:SLC3A2 heterodimer/SLC7A8:SLC3A2 heterodimer/SLC7A9:SLC3A2 heterodimer			
+	Basigin:CD98hc complex	plasma membrane	Reactome DB_ID: 375086	
+_physicalEntityName.size()	1
+	MAG/L1/MAG/L1	plasma membrane
+_proteinName.size()	3
+	BSG	plasma membrane	Reactome DB_ID: 197673	UniProt:P35613	BSG
+	SPN	plasma membrane	Reactome DB_ID: 204438	UniProt:P16150	SPN
+	SLC16A3	plasma membrane			
+_reactionName.size()	8
+	T	Basigin homodimerises
+	D	Basigin binds CyPA
+	D	Basigin interacts with CD43
+	D	Basigin binds Matrix metalloproteinase-1
+	D	Basigin binds Mannose-carrying cell recognition molecules
+	D	Basigin binds to integrins
+	D	Basigin binds MCT1, MCT3 and MCT4
+	D	Basigin binds CD98 complex
+_smallMoleculeName.size()	1
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

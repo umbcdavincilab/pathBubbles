@@ -1,0 +1,92 @@
+edge.size() 25
+ 83 -1 67 0 82 0 -1
+ 83 -1 67 0 82 0 -1
+ 83 -1 67 0 82 0 -1
+ 80 -1 67 0 82 0 -1
+ 83 1 83 0 82 1 -1
+ 80 1 80 0 82 1 -1
+ 80 1 80 0 82 1 -1
+ 83 1 80 2 82 2 -1
+ 80 3 83 2 82 2 -1
+ 80 3 83 3 82 2 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 69 -1 69 0 82 3 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 0 82 1 82 1 -1
+ 67 0 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 83 -1 82 1 82 0 -1
+_complexName.size()	1
+	Activated PKC alpha/Activated PKC beta/Activated PKC gamma			
+_physicalEntityName.size()	1
+	ALB(19-609)/PPBP/F5/F8/FN/PF4(48-101)/Multimerin 1/PPBP(55-128)/SPARC/PLG(1-810)/PAI1/PF4/TGFB3/VWF/APP/HRG/SERPINA1/A2M/CFD/Pro-EGF/FIGF/SERPINF2/ACTN4/SRGN/CLU/F13A1(1-731)/TIMP1/protein S/TMSB4X/ALDOA/GAS6/LEFTY2/IGF2/KNG/C1Inh/ALB(19-609)/PPBP/F5/F8/FN/PF4(48-101)/Multimerin 1/PPBP(55-128)/SPARC/PLG(1-810)/PAI1/PF4/TGFB3/VWF/APP/HRG/SERPINA1/A2M/CFD/Pro-EGF/FIGF/SERPINF2/ACTN4/SRGN/CLU/F13A1(1-731)/TIMP1/protein S/TMSB4X/ALDOA/GAS6/LEFTY2/IGF2/KNG/C1Inh	extracellular region
+_proteinName.size()	4
+	STXBP3	cytosol	Reactome DB_ID: 114682	UniProt:O00186	STXBP3
+	p-STXBP3	cytosol	Reactome DB_ID: 114680	UniProt:O00186	STXBP3
+	STX4	cytosol	Reactome DB_ID: 114505	UniProt:Q12846	STX4
+	STX4	cytosol	Reactome DB_ID: 114681	UniProt:Q12846	STX4
+_reactionName.size()	4
+	D	Activation of conventional Protein Kinase C
+	T	Phosphorylation of Platelet Sec-1
+	T	Phosphorylation of Syntaxin-4
+	T	Exocytosis of platelet alpha granule contents
+_smallMoleculeName.size()	4
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	43
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	platelet dense granule membrane
+	platelet alpha granule membrane
+	platelet alpha granule lumen
+	whole

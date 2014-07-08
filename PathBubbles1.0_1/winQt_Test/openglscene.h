@@ -81,7 +81,7 @@ class OpenGLScene : public QGraphicsScene
 
 public:
 	int _colorID;
-	bool controlKeyisOn;
+	bool controlKeyisOn, shiftKeyisOn, delKeyisOn;
 	QString userName;
 	bool fileSelectionOpened;
 	bool menuloaded;
@@ -97,11 +97,14 @@ public:
 	//int totalNode, totalEdge;	
 
 	void updateGraphs();
-	QColor getPathColor(int pid1, int type1, int id1, int pid2, int type2, int id2);
+	vector<QColor> getPathColor(int pid1, int type1, int id1, int pid2, int type2, int id2);	
+    vector<QColor> getPathEndsColor(int pid, int type, int id);
+	bool isPathEnds(int pid, int type, int id);
+	void clearTempGraphFile();
 	//a structure recording path colors (major path, non-major path use different color)
 	vector < vector < set < vector< vector<int> > > > > pathVectors; //pathVectors[0] record major pathes
-
-
+	vector < vector <vector < vector<int> > > > pathEnds;
+	
 	void setDrawCrossTalk(bool flag);
     void setDrawRateLimit(bool flag);
 	void setDrawOrthology(bool flag);
@@ -198,6 +201,7 @@ public:
 	QList< ReactionBubble3* > _reactionBubbles;
 	QList< GroupBubble4* > _groupBubbles;
 	QList <CalloutNote*> _nodeNote;
+	QList< WebBlock* > _eGiftBubbles;
 
 	set<vector<vector<int>>> edgeconnections;
 	set<vector<vector<int>>> edgeconnections_A; //store the activation edge (which is also in edgeconnections)
@@ -266,7 +270,7 @@ public:
 	void resetItemPos_1(vector<QRectF> &pos1, vector<QRectF> pos2);
     void resetItemPos_afterReadPathway(int m_pathwayID, vector<QRectF> complexPos, vector<QRectF> proteinPos, vector<QRectF> smallMoleculePos, vector<QRectF> DnaPos, vector<QRectF> EmptyPos, vector<QRectF> reactionPos, vector<QRectF> physicalEntityPos,vector<QRectF> compartmentPos, vector<QRectF> ANodePos);
 
-
+	WebBlock* findEgiftBubble(int pid, int type, int id);
 	CalloutNote* findNote(int pid, int type, int id);	
 	vector<QString> PathWayNames;
 

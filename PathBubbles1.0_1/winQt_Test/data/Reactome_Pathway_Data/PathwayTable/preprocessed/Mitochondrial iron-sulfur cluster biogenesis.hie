@@ -1,0 +1,102 @@
+edge.size() 25
+ 83 0 83 1 82 0 -1
+ 67 0 67 1 82 1 -1
+ 83 1 67 1 82 1 -1
+ 67 2 83 5 82 2 -1
+ 83 2 83 6 82 2 -1
+ 83 3 83 7 82 2 -1
+ 83 4 67 3 82 2 -1
+ 67 2 67 3 82 2 -1
+ 67 2 67 4 82 3 -1
+ 67 2 67 3 82 3 -1
+ 67 5 67 3 82 3 -1
+ 67 5 67 4 82 3 -1
+ 83 3 67 3 82 3 -1
+ 83 8 67 4 82 4 -1
+ 67 5 67 4 82 4 -1
+ 67 1 67 4 82 4 -1
+ 67 1 83 11 82 4 -1
+ 67 5 83 12 82 4 -1
+ 83 9 83 13 82 4 -1
+ 67 1 67 6 82 4 -1
+ 67 5 67 6 82 4 -1
+ 83 10 67 6 82 4 -1
+ 80 0 82 1 82 0 -1
+ 67 1 82 1 82 4 -1
+ 67 5 82 1 82 4 -1
+_complexName.size()	7
+	FXN:ISD11:NFS1:ISCU	mitochondrial matrix	Reactome DB_ID: 1362404	
+	2 Iron:FXN:NFS1:ISD11:ISCU	mitochondrial matrix	Reactome DB_ID: 1362401	
+	FDXR:FAD	mitochondrial matrix	Reactome DB_ID: 2395508	
+	FDXR:FADH2	mitochondrial matrix	Reactome DB_ID: 2395502	
+	FDX1 (oxidized)/FDX1L (oxidized)			
+	FDX1 (reduced)/FDX1L (reduced)			
+	FXN:NFS1:ISD11:ISCU:2Fe-2S Cluster	mitochondrial matrix	Reactome DB_ID: 1362398	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	SLC25A28	mitochondrial inner membrane			
+_reactionName.size()	5
+	T	Mitoferrin Transports Iron Across the Mitochondrial Inner Membrane
+	D	Frataxin Binds Iron
+	T	Transfer of Electrons from NADPH to FDXR
+	T	Transfer of Electrons from FDXR to FDX1/1L
+	T	FXN:NFS1:ISD11:ISCU Synthesizes Iron-Sulfur Cluster
+_smallMoleculeName.size()	14
+	Fe2+	mitochondrial intermembrane space	Reactome DB_ID: 1362385	iron (ferrous) [ChEBI:18248]
+	Fe2+	mitochondrial matrix	Reactome DB_ID: 113531	iron (ferrous) [ChEBI:18248]
+	TPN	mitochondrial matrix	Reactome DB_ID: 113563	NADP+ [ChEBI:18009]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	TPN	mitochondrial matrix	Reactome DB_ID: 113563	NADP+ [ChEBI:18009]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	TPN	mitochondrial matrix	Reactome DB_ID: 113563	NADP+ [ChEBI:18009]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	L-Cys	mitochondrial matrix	Reactome DB_ID: 379721	L-Cysteine [ChEBI:17561]
+	L-Ala	mitochondrial matrix	Reactome DB_ID: 379697	L-Alanine [ChEBI:16977]
+	L-Ala	mitochondrial matrix	Reactome DB_ID: 379697	L-Alanine [ChEBI:16977]
+	L-Cys	mitochondrial matrix	Reactome DB_ID: 379721	L-Cysteine [ChEBI:17561]
+	L-Ala	mitochondrial matrix	Reactome DB_ID: 379697	L-Alanine [ChEBI:16977]
+	L-Cys	mitochondrial matrix	Reactome DB_ID: 379721	L-Cysteine [ChEBI:17561]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

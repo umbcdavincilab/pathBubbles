@@ -1,0 +1,97 @@
+edge.size() 22
+ 80 0 80 -1 82 0 -1
+ 80 0 80 1 82 0 -1
+ 80 2 67 0 82 1 -1
+ 80 1 67 0 82 1 -1
+ 67 0 67 1 82 2 -1
+ 67 -1 67 1 82 2 -1
+ 80 3 83 2 82 3 -1
+ 83 0 83 3 82 3 -1
+ 83 1 67 2 82 3 -1
+ 80 3 67 2 82 3 -1
+ 80 -1 80 4 82 4 -1
+ 80 -1 80 -1 82 4 -1
+ 80 4 67 3 82 5 -1
+ 80 5 67 3 82 5 -1
+ 80 -1 80 6 82 6 -1
+ 80 -1 80 -1 82 6 -1
+ 80 7 67 4 82 7 -1
+ 80 6 67 4 82 7 -1
+ 67 -1 82 1 82 0 -1
+ 67 1 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 2 82 1 82 6 -1
+_complexName.size()	5
+	DCC:DIP13alpha	plasma membrane	Reactome DB_ID: 373668	
+	DCC:DIP13alpha:Caspase-9	plasma membrane	Reactome DB_ID: 373664	
+	active caspase-3	cytosol	Reactome DB_ID: 141647	
+	Unc5B with death domain:DAPK	cytosol	Reactome DB_ID: 418842	
+	UNC5A:NRAGE	cytosol	Reactome DB_ID: 374596	
+_physicalEntityName.size()	0
+_proteinName.size()	8
+	DCC	plasma membrane	Reactome DB_ID: 197560	UniProt:P43146	DCC
+	DCC(26-1290)	plasma membrane	Reactome DB_ID: 373627	UniProt:P43146	DCC
+	APPL1	endosome membrane	Reactome DB_ID: 373630	UniProt:Q9UKG1	APPL1
+	SCA-1	cytosol	Reactome DB_ID: 57021	UniProt:P42574	CASP3
+	UNC5B(413-945)	cytosol	Reactome DB_ID: 418801	UniProt:Q8IZJ1	UNC5B
+	DAPK3	cytosol			
+	UNC5A(341-842)	cytosol	Reactome DB_ID: 418784	UniProt:Q6ZN44	UNC5A
+	NRAGE	cytosol	Reactome DB_ID: 196002	UniProt:Q9Y5V3	MAGED1
+_reactionName.size()	8
+	B	Caspase cleavage of DCC
+	D	DCC interacts with DIP13alpha
+	D	Caspase-9 binds DCC:DIP13alpha complex
+	T	Activation of caspase-3
+	B	Caspase cleavage of UNC5B
+	D	DAPK binds UNC5B
+	B	Caspase cleavage of UNC5A
+	D	UNC5A binds NRAGE
+_smallMoleculeName.size()	4
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

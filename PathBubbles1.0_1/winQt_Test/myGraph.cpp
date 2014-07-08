@@ -11,7 +11,7 @@
 
 #include "myGraph.h"
 
-#define MIDIUM_HIGHLIGHTCOLOR QColor(255,128,0,255) //QColor(20,20,255,255)
+#define MEDIUM_HIGHLIGHTCOLOR QColor(255,128,0,255) //QColor(20,20,255,255)
 
 myGraph::myGraph()
 {
@@ -40,13 +40,50 @@ int myGraph::findNodeID(vector<int> node, vector<vector<int>> nodeVector)
 	return -1;
 }
 
+
 QColor myGraph::getPathColor(int id)
 {
 	QColor c;
-	id = id % 7;
+	id = id % 12; //qualitiative color sequence in color brewer with 12 colors
     switch( id )
 	{
-		case 0:
+		case 0:			
+			c= QColor(141,211,199,187);
+			break;
+		case 1:			
+			c= QColor(255,255,179,187);
+			break;
+		case 2:			
+			c= QColor(190,186,218,187);
+			break;
+        case 3:			
+			c= QColor(251,128,114,187);
+			break;
+		case 4:			
+			c= QColor(128,177,211,187);
+			break;
+		case 5:		   
+			c= QColor(253,180,98,187);
+			break;				
+		case 6:					
+			c= QColor(179,222,105,187);			 
+			break;
+		case 7:			
+			c= QColor(252,205,229,187);
+			break;
+		case 8:			
+			c= QColor(217,217,217,187);
+			break;
+		case 9:			
+			c= QColor(188,128,189,187);
+			break;
+        case 10:			
+			c= QColor(204,235,197,187);
+			break;
+		case 11:			
+			c= QColor(255,237,111,187);
+			break;
+		/*case 0:
 			//"light orange";
 			c= QColor(254,153,41,127);
 			break;
@@ -70,11 +107,68 @@ QColor myGraph::getPathColor(int id)
 		   //"light purple"; 
 			c= QColor(158,154,200,127);
 			break;				
-		case 6:
-		default:
+		case 6:		
 			//"light red";
 			c= QColor(251,106,74,127);			 
 			break;
+		case 7:
+			//"light orange";
+			c= QColor(254,153,41,127);
+			break;
+		case 8:
+			//lighter blue"; 
+			c= QColor(65,182,196,127);
+			break;
+		case 9:
+			//"lighter rose";
+			c= QColor(223,101,176,127);
+			break;
+        case 10:
+			//"lighter pink";
+			c= QColor(247,104,161,127);
+			break;
+		case 11:
+			//"lighter green"; 
+			c= QColor(120,198,121,127);
+			break;
+		case 12:
+		   //"lighter purple"; 
+			c= QColor(158,154,200,127);
+			break;				
+		case 13:		
+			//"light red";
+			c= QColor(251,106,74,127);			 
+			break;
+		case 14:
+			//"lighter orange";
+			c= QColor(254,153,41,127);
+			break;
+		case 15:
+			//light blue"; 
+			c= QColor(65,182,196,127);
+			break;
+		case 16:
+			//"lighter rose";
+			c= QColor(223,101,176,127);
+			break;
+        case 17:
+			//"pink";
+			c= QColor(247,104,161,127);
+			break;
+		case 18:
+			//"lighter green"; 
+			c= QColor(120,198,121,127);
+			break;
+		case 19:
+		   //"lighter purple"; 
+			c= QColor(158,154,200,127);
+			break;			
+		case 20:		
+		default:
+			//"lighter red";
+			c= QColor(251,106,74,127);			 
+			break;
+		*/
 	}
 	return c;
 }
@@ -418,6 +512,11 @@ vector<vector<vector<int>>> myGraph::getShortestPath(int start, int &length, vec
 	  boost:: property_map<Graph,  boost::edge_weight_t>::type weightmap = get( boost::edge_weight, G);
 	  std::vector<vertex_descriptor> p(num_vertices(G));
 	  std::vector<int> d(num_vertices(G));
+      if (start >= num_vertices(G) || start<0)
+	  { 
+		  length=10000000;
+		  return pathes;
+	  }
 	  vertex_descriptor s = vertex(start, G);
 
 	  std::ofstream dot_file;//("figs/dijkstra-eg.dot");

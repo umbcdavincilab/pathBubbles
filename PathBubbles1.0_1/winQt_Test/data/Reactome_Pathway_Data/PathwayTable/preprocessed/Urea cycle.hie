@@ -1,0 +1,163 @@
+edge.size() 41
+ 83 0 83 4 82 0 -1
+ 83 1 83 5 82 0 -1
+ 83 2 83 6 82 0 -1
+ 83 3 83 7 82 0 -1
+ 83 15 83 8 82 1 -1
+ 83 16 83 9 82 1 -1
+ 83 17 83 10 82 1 -1
+ 83 18 83 11 82 1 -1
+ 83 19 83 12 82 1 -1
+ 83 20 83 13 82 1 -1
+ 83 21 83 14 82 1 -1
+ 83 22 83 25 82 2 -1
+ 83 23 83 26 82 2 -1
+ 83 24 83 21 82 2 -1
+ 83 34 83 27 82 3 -1
+ 83 35 83 28 82 3 -1
+ 83 36 83 29 82 3 -1
+ 83 37 83 30 82 3 -1
+ 83 38 83 31 82 3 -1
+ 83 39 83 32 82 3 -1
+ 83 40 83 33 82 3 -1
+ 83 34 83 41 82 4 -1
+ 83 41 83 44 82 5 -1
+ 83 42 83 45 82 5 -1
+ 83 43 83 46 82 5 -1
+ 83 23 83 47 82 6 -1
+ 83 50 83 48 82 6 -1
+ 83 51 83 49 82 6 -1
+ 83 46 83 54 82 7 -1
+ 83 52 83 55 82 7 -1
+ 83 53 83 23 82 7 -1
+ 80 0 82 1 82 0 -1
+ 80 1 82 1 82 1 -1
+ 67 0 82 1 82 2 -1
+ 67 1 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 67 4 82 1 82 6 -1
+ 80 2 82 1 82 7 -1
+ 83 4 82 1 82 0 -1
+ 83 2 82 1 82 1 -1
+_complexName.size()	5
+	OTC trimer	mitochondrial matrix	Reactome DB_ID: 70558	
+	ASS1 tetramer	cytosol	Reactome DB_ID: 70575	
+	ASL tetramer	cytosol	Reactome DB_ID: 70571	
+	ARG1 trimer	cytosol	Reactome DB_ID: 70567	
+	ARG2 trimer	mitochondrial matrix	Reactome DB_ID: 452013	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	NAGS	mitochondrial matrix	Reactome DB_ID: 70528	UniProt:Q8N159	NAGS
+	CPS1	mitochondrial matrix	Reactome DB_ID: 70544	UniProt:P31327	CPS1
+	SLC25A2	mitochondrial inner membrane	Reactome DB_ID: 374020	UniProt:Q9BXI2	SLC25A2
+_reactionName.size()	8
+	T	glutamate + acetyl CoA => N-acetyl glutamate + CoA
+	T	2 ATP + NH4+ + HCO3- => 2 ADP + orthophosphate + carbamoyl phosphate
+	T	carbamoyl phosphate + ornithine => citrulline + orthophosphate
+	T	ATP + aspartate + citrulline <=> argininosuccinate + AMP + pyrophosphate
+	B	argininosuccinate <=> fumarate + arginine
+	T	arginine + H2O => ornithine + urea [ARG1]
+	T	arginine + H2O => ornithine + urea [ARG2]
+	T	ornithine (cytosolic) + citrulline (mitochondrial) => ornithine (mitochondrial) + citrulline (cytosolic)
+_smallMoleculeName.size()	56
+	Ac-CoA	mitochondrial matrix	Reactome DB_ID: 113559	Acetyl-CoA [ChEBI:15351]
+	NAcGlu	mitochondrial matrix	Reactome DB_ID: 30471	N-Acetyl-L-glutamate [ChEBI:17533]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	NAcGlu	mitochondrial matrix	Reactome DB_ID: 30471	N-Acetyl-L-glutamate [ChEBI:17533]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	CoA	mitochondrial matrix	Reactome DB_ID: 29374	CoA [ChEBI:15346]
+	Ac-CoA	mitochondrial matrix	Reactome DB_ID: 113559	Acetyl-CoA [ChEBI:15351]
+	CoA	mitochondrial matrix	Reactome DB_ID: 29374	CoA [ChEBI:15346]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	CAP	mitochondrial matrix	Reactome DB_ID: 29676	Carbamoyl phosphate [ChEBI:17672]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	CAP	mitochondrial matrix	Reactome DB_ID: 29676	Carbamoyl phosphate [ChEBI:17672]
+	NH4+	mitochondrial matrix	Reactome DB_ID: 113561	NH4+ [ChEBI:28938]
+	CAP	mitochondrial matrix	Reactome DB_ID: 29676	Carbamoyl phosphate [ChEBI:17672]
+	NH4+	mitochondrial matrix	Reactome DB_ID: 113561	NH4+ [ChEBI:28938]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	NH4+	mitochondrial matrix	Reactome DB_ID: 113561	NH4+ [ChEBI:28938]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	CAP	mitochondrial matrix	Reactome DB_ID: 29676	Carbamoyl phosphate [ChEBI:17672]
+	L-Cit	mitochondrial matrix	Reactome DB_ID: 113567	L-Citrulline [ChEBI:16349]
+	L-Orn	mitochondrial matrix	Reactome DB_ID: 113585	L-Ornithine [ChEBI:15729]
+	L-Cit	mitochondrial matrix	Reactome DB_ID: 113567	L-Citrulline [ChEBI:16349]
+	CAP	mitochondrial matrix	Reactome DB_ID: 29676	Carbamoyl phosphate [ChEBI:17672]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	L-Argininosuccinate	cytosol	Reactome DB_ID: 34575	N-(L-Arginino)succinate [ChEBI:15682]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	Urea	cytosol	Reactome DB_ID: 29514	Urea [ChEBI:16199]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Urea	cytosol	Reactome DB_ID: 29514	Urea [ChEBI:16199]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	L-Orn	cytosol	Reactome DB_ID: 29498	L-Ornithine [ChEBI:15729]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	L-Arg	mitochondrial matrix	Reactome DB_ID: 374064	L-Arginine [ChEBI:16467]
+	L-Arg	mitochondrial matrix	Reactome DB_ID: 374064	L-Arginine [ChEBI:16467]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	Urea	mitochondrial matrix	Reactome DB_ID: 374061	Urea [ChEBI:16199]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	L-Cit	mitochondrial matrix	Reactome DB_ID: 113567	L-Citrulline [ChEBI:16349]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	L-Cit	mitochondrial matrix	Reactome DB_ID: 113567	L-Citrulline [ChEBI:16349]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,200 @@
+edge.size() 91
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 0 67 1 82 1 -1
+ 80 1 67 1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 80 -1 67 2 82 2 -1
+ 83 1 83 0 82 3 -1
+ 67 3 67 2 82 3 -1
+ 67 3 67 2 82 3 -1
+ 67 3 67 4 82 -1 -1
+ 80 -1 67 4 82 -1 -1
+ 83 1 67 4 82 4 -1
+ 67 5 83 2 82 4 -1
+ 67 5 83 -1 82 4 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 5 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 80 3 67 -1 82 5 -1
+ 67 -1 67 -1 82 5 -1
+ 83 -1 67 -1 82 5 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 6 82 -1 -1
+ 80 0 67 6 82 -1 -1
+ 67 6 67 7 82 6 -1
+ 80 1 67 7 82 6 -1
+ 83 1 67 -1 82 7 -1
+ 67 -1 83 3 82 7 -1
+ 67 -1 83 4 82 7 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 8 67 9 82 8 -1
+ 80 1 67 9 82 8 -1
+ 67 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 10 82 9 -1
+ 80 4 67 10 82 9 -1
+ 83 1 67 10 82 10 -1
+ 67 11 83 5 82 10 -1
+ 67 11 83 6 82 10 -1
+ 67 11 67 12 82 11 -1
+ 80 1 67 12 82 11 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 1 67 13 82 -1 -1
+ 80 -1 67 13 82 -1 -1
+ 67 14 83 -1 82 12 -1
+ 67 14 83 7 82 12 -1
+ 67 14 67 13 82 12 -1
+ 67 14 80 6 82 12 -1
+ 83 1 80 6 82 12 -1
+ 67 13 67 13 82 12 -1
+ 67 13 83 8 82 12 -1
+ 67 13 80 6 82 12 -1
+ 67 13 67 13 82 12 -1
+ 83 -1 83 11 82 13 -1
+ 83 9 83 12 82 13 -1
+ 83 10 83 13 82 13 -1
+ 83 14 67 16 82 14 -1
+ 67 15 67 16 82 14 -1
+ 83 13 67 16 82 14 -1
+ 67 15 83 17 82 14 -1
+ 83 15 83 18 82 14 -1
+ 67 15 83 19 82 14 -1
+ 83 16 83 13 82 14 -1
+ 67 2 82 1 82 3 -1
+ 67 4 82 1 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 2 82 1 82 7 -1
+ 80 5 82 1 82 10 -1
+ 67 14 82 1 82 13 -1
+_complexName.size()	17
+	DCC:Netrin-1	plasma membrane	Reactome DB_ID: 373667	
+	Netrin:DCC oligomer	plasma membrane	Reactome DB_ID: 373678	
+	PTK2:DCC oligomer:Netrin	plasma membrane	Reactome DB_ID: 373662	
+	Nterin-1:DCC oligomer:pPTK2	plasma membrane	Reactome DB_ID: 418822	
+	Netrin1:DCC oligomer:pPTK2:Fyn/src	plasma membrane	Reactome DB_ID: 418815	
+	Netrin-1:pDCC dimer:pFAK:Src/Fyn	plasma membrane	Reactome DB_ID: 374551	
+	UNC-5:Netrin-1 complex	plasma membrane	Reactome DB_ID: 373660	
+	DCC bound to UNC-5:Netrin-1	plasma membrane	Reactome DB_ID: 373654	
+	Robo:Slit	plasma membrane	Reactome DB_ID: 204367	
+	DCC:Robo:Slit	plasma membrane	Reactome DB_ID: 373666	
+	Ezrin:PIP2	plasma membrane	Reactome DB_ID: 374570	
+	pEzrin:PIP2	plasma membrane	Reactome DB_ID: 374558	
+	DCC:Ezrin complex	plasma membrane	Reactome DB_ID: 374565	
+	Netrin:DCC:PITP	plasma membrane	Reactome DB_ID: 418843	
+	pPLCgamma:PIP2	plasma membrane	Reactome DB_ID: 622379	
+	TRPC channels	plasma membrane	Reactome DB_ID: 622392	
+	Activated TRP channels	plasma membrane	Reactome DB_ID: 622374	
+_physicalEntityName.size()	0
+_proteinName.size()	7
+	NTN1	extracellular region	Reactome DB_ID: 373624	UniProt:O95631	NTN1
+	DCC	plasma membrane	Reactome DB_ID: 197560	UniProt:P43146	DCC
+	SRC1	cytosol	Reactome DB_ID: 354153	UniProt:P12931-1	SRC
+	WASL	cytosol	Reactome DB_ID: 201873	UniProt:O00401	WASL
+	Ezrin	cytosol	Reactome DB_ID: 374572	UniProt:P15311	EZR
+	p-Y90,T538,S676,S695-PRKCQ	plasma membrane	Reactome DB_ID: 202152	UniProt:Q04759	PRKCQ
+	PLC1	plasma membrane	Reactome DB_ID: 167682	UniProt:P19174	PLCG1
+_reactionName.size()	15
+	D	DCC interaction with Netrin-1
+	D	Netrin-1 induced DCC clustering
+	D	FADK1 interaction with DCC
+	T	Phosphorylation of FADK1
+	T	Phosphorylation of DCC by Fyn
+	D	Recruitment and activation of N-WASP by Cdc42
+	D	DCC heterodimerizes with UNC-5:Netrin-1
+	T	Phosphorylation of Unc5C
+	D	DCC interaction with ROBO-1
+	D	Translocation of Ezrin to plasma membrane
+	T	Phosphorylation and activation of Ezrin
+	D	DCC interaction with Ezrin
+	T	Phosphorylation of PLCgamma by Netrin-1
+	T	PIP2 hydrolysis
+	T	Activation of TRPC channels by Netrin-1
+_smallMoleculeName.size()	20
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	DAG	plasma membrane	Reactome DB_ID: 112275	diacylglycerols [ChEBI:18035]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

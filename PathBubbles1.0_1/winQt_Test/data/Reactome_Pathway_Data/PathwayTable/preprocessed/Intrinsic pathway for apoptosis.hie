@@ -1,0 +1,220 @@
+edge.size() 98
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 0 82 -1 -1
+ 83 0 83 1 82 0 -1
+ 80 1 80 2 82 0 -1
+ 80 1 80 2 82 0 -1
+ 67 0 67 1 82 1 -1
+ 80 2 67 1 82 1 -1
+ 67 1 83 5 82 2 -1
+ 83 2 83 6 82 2 -1
+ 83 3 67 0 82 2 -1
+ 67 1 67 0 82 2 -1
+ 83 4 80 1 82 2 -1
+ 67 1 80 1 82 2 -1
+ 80 1 80 4 82 -1 -1
+ 67 3 67 4 82 3 -1
+ 80 4 67 4 82 3 -1
+ 80 4 80 0 82 3 -1
+ 67 3 80 0 82 3 -1
+ 68 0 67 6 82 4 -1
+ 67 5 67 6 82 4 -1
+ 68 1 80 -1 82 5 -1
+ 68 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 68 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 68 2 67 7 82 6 -1
+ 67 5 67 7 82 6 -1
+ 68 -1 80 -1 82 -1 -1
+ 68 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 68 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 6 67 8 82 7 -1
+ 80 5 67 8 82 7 -1
+ 80 5 67 3 82 8 -1
+ 80 0 67 3 82 8 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 7 67 9 82 9 -1
+ 80 0 67 9 82 9 -1
+ 67 9 80 8 82 10 -1
+ 67 9 80 0 82 10 -1
+ 80 8 67 10 82 11 -1
+ 80 -1 80 9 82 -1 -1
+ 80 -1 80 10 82 -1 -1
+ 80 11 67 11 82 12 -1
+ 80 9 67 11 82 12 -1
+ 80 12 67 12 82 13 -1
+ 67 11 67 12 82 13 -1
+ 83 0 67 12 82 13 -1
+ 67 12 83 1 82 14 -1
+ 67 12 67 13 82 14 -1
+ 80 13 83 1 82 15 -1
+ 83 0 67 15 82 15 -1
+ 80 13 67 15 82 15 -1
+ 83 0 83 1 82 16 -1
+ 80 14 67 16 82 16 -1
+ 80 14 67 16 82 16 -1
+ 67 17 67 18 82 17 -1
+ 80 10 67 18 82 17 -1
+ 67 19 67 20 82 18 -1
+ 80 10 67 20 82 18 -1
+ 80 10 67 22 82 19 -1
+ 67 21 67 22 82 19 -1
+ 67 18 67 15 82 20 -1
+ 67 18 67 23 82 20 -1
+ 67 20 67 16 82 21 -1
+ 67 20 67 23 82 21 -1
+ 67 22 67 14 82 22 -1
+ 67 22 67 23 82 22 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 3 82 1 82 0 -1
+ 67 2 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 12 82 1 82 14 -1
+ 67 13 82 1 82 15 -1
+ 67 13 82 1 82 16 -1
+ 67 6 82 1 82 5 -1
+ 67 -1 82 1 82 -1 -1
+ 67 7 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	24
+	14-3-3 eta dimer/14-3-3 gamma dimer/14-3-3 sigma dimer/14-3-3 theta dimer/14-3-3zeta dimer/YWHAB dimer/YWHAE dimer			
+	14-3-3 proteins:p-S99-BAD complex	cytosol	Reactome DB_ID: 139904	
+	Calcineurin B complex	cytosol	Reactome DB_ID: 140202	
+	tBID:BCL-2	mitochondrial outer membrane	Reactome DB_ID: 114339	
+	BAD:BCL-2	mitochondrial outer membrane	Reactome DB_ID: 114268	
+	p-S15-TP53 Tetramer	nucleoplasm	Reactome DB_ID: 349474	
+	p-S15-TP53 Tetramer:PMAIP1 Gene	nucleoplasm	Reactome DB_ID: 4331332	
+	p-S15-TP53 Tetramer:BBC3 Gene	nucleoplasm	Reactome DB_ID: 4331345	
+	Bcl2:BH3-only protein complex	mitochondrial outer membrane	Reactome DB_ID: 508158	
+	tBID bound to inactive BAK	mitochondrial outer membrane	Reactome DB_ID: 168847	
+	Active oligomeric BAK	mitochondrial outer membrane	Reactome DB_ID: 114262	
+	Apaf-1:Cytochrome C	cytosol	Reactome DB_ID: 114253	
+	Cytochrome C:Apaf-1:ATP:Procaspase-9	cytosol	Reactome DB_ID: 114255	
+	Apoptosome	cytosol	Reactome DB_ID: 114258	
+	Cleaved Caspase-9	cytosol	Reactome DB_ID: 141640	
+	active caspase-3	cytosol	Reactome DB_ID: 141647	
+	active caspase-7	cytosol	Reactome DB_ID: 141643	
+	XIAP:Caspase-3	cytosol	Reactome DB_ID: 114304	
+	SMAC:XIAP:Caspase-3	cytosol	Reactome DB_ID: 114305	
+	XIAP:Caspase-7	cytosol	Reactome DB_ID: 114308	
+	SMAC:XIAP:Caspase-7	cytosol	Reactome DB_ID: 114353	
+	XIAP:Caspase-9	cytosol	Reactome DB_ID: 114317	
+	SMAC:XIAP:Caspase-9	cytosol	Reactome DB_ID: 114318	
+	SMAC:XIAP	cytosol	Reactome DB_ID: 114391	
+_physicalEntityName.size()	0
+_proteinName.size()	15
+	tBID	mitochondrial outer membrane	Reactome DB_ID: 114266	UniProt:P55957	BID
+	BAD	cytosol	Reactome DB_ID: 50662	UniProt:Q92934	BAD
+	p-S99-BAD	cytosol	Reactome DB_ID: 198335	UniProt:Q92934	BAD
+	AKT3	cytosol			
+	BAD	mitochondrial outer membrane	Reactome DB_ID: 114242	UniProt:Q92934	BAD
+	BCL2	mitochondrial outer membrane	Reactome DB_ID: 50757	UniProt:P10415	BCL2
+	BAD	mitochondrial outer membrane			
+	BAK1	mitochondrial outer membrane	Reactome DB_ID: 139896	UniProt:Q16611	BAK1
+	BAK1 activated	mitochondrial outer membrane	Reactome DB_ID: 50690	UniProt:Q16611	BAK1
+	CYCS	cytosol	Reactome DB_ID: 53259	UniProt:P99999	CYCS
+	SMAC	cytosol	Reactome DB_ID: 114298	UniProt:Q9NR28	DIABLO
+	APAF1	cytosol	Reactome DB_ID: 50099	UniProt:O14727	APAF1
+	CASP-9	cytosol	Reactome DB_ID: 57033	UniProt:P55211	CASP9
+	SCA-1	cytosol	Reactome DB_ID: 57021	UniProt:P42574	CASP3
+	CMH-1	cytosol	Reactome DB_ID: 57029	UniProt:P55210	CASP7
+_reactionName.size()	23
+	T	AKT phosphorylates BAD
+	D	Sequestration of BAD protein by 14-3-3
+	T	Activation of BAD by calcineurin
+	T	BAD displaces tBID from BCL-2 sequestration
+	D	TP53 binds PMAIP1 (NOXA) promoter
+	T	Transactivation of PMAIP1 (NOXA) by p53
+	D	TP53 binds BBC3 (PUMA) promoter
+	D	BH3-only proteins associate with and inactivate anti-apoptotic BCL-2
+	D	Sequestration of tBID by BCL-2
+	D	tBID binds to inactive BAK protein
+	B	tBID activates BAK protein
+	T	Oligomerization  of BAK at the mitochondrial membrane
+	D	Cytochrome C Binds to Apaf-1
+	D	Cytochrome C:Apaf-1 binds Procaspase-9
+	B	Cleavage of Procaspase-9 to Caspase-9
+	T	Cleavage of Procaspase-3 by the apoptosome
+	T	Cleavage of Procaspase-7 by the apoptosome
+	D	SMAC binds XIAP:Caspase-3
+	D	SMAC binds XIAP:Caspase-7
+	D	SMAC binds XIAP:Caspase-9
+	B	Dissociation of Caspase-3 from SMAC:XIAP:Caspase-3
+	B	Dissociation of Caspase-7 from SMAC:XIAP:Caspase-7
+	B	Dissociation of Caspase-9 from SMAC:XIAP:Caspase-9
+_smallMoleculeName.size()	7
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+_DnaName.size()	3
+	NOXA Gen	nucleoplasm	Reactome DB_ID: 4331342	ENSEMBL:ENSG00000141682 PMAIP1
+	NOXA Gen	nucleoplasm	Reactome DB_ID: 4331342	ENSEMBL:ENSG00000141682 PMAIP1
+	BBC3 Gen	nucleoplasm	Reactome DB_ID: 4331320	ENSEMBL:ENSG00000105327 BBC3
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

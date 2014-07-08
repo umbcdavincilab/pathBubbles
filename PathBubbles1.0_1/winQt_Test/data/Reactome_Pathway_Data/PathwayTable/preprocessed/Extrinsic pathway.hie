@@ -1,0 +1,91 @@
+edge.size() 21
+ 80 0 80 1 82 0 -1
+ 80 2 67 0 82 1 -1
+ 80 1 67 0 82 1 -1
+ 67 1 80 3 82 2 -1
+ 67 1 67 2 82 2 -1
+ 80 2 67 3 82 3 -1
+ 67 3 67 4 82 4 -1
+ 80 1 67 4 82 4 -1
+ 83 0 80 3 82 5 -1
+ 67 1 80 3 82 5 -1
+ 67 1 67 2 82 5 -1
+ 83 1 67 2 82 5 -1
+ 80 -1 67 -1 82 6 -1
+ 80 -1 80 -1 82 6 -1
+ 67 4 67 5 82 7 -1
+ 67 2 67 5 82 7 -1
+ 80 -1 67 5 82 7 -1
+ 67 0 82 1 82 2 -1
+ 67 2 82 1 82 3 -1
+ 67 4 82 1 82 5 -1
+ 67 4 82 1 82 6 -1
+_complexName.size()	6
+	TF:F7	plasma membrane	Reactome DB_ID: 140775	
+	factor X	extracellular region	Reactome DB_ID: 140739	
+	factor Xa	extracellular region	Reactome DB_ID: 140689	
+	factor VIIa	extracellular region	Reactome DB_ID: 140751	
+	TF:F7a	plasma membrane	Reactome DB_ID: 140734	
+	TFPI:TF:F7a:factor Xa	plasma membrane	Reactome DB_ID: 140833	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	F3	plasma membrane	Reactome DB_ID: 140762	UniProt:P13726	F3
+	PalmC-F3	plasma membrane	Reactome DB_ID: 140704	UniProt:P13726	F3
+	factor VII	extracellular region	Reactome DB_ID: 140771	UniProt:P08709	F7
+	F10(183-234)	extracellular region	Reactome DB_ID: 140785	UniProt:P00742	F10
+_reactionName.size()	8
+	T	sequestered tissue factor -> tissue factor
+	D	formation of TF:F7 complex
+	B	activation of factor X by TF:F7
+	T	activation of factor VII
+	D	formation of TF:F7a complex
+	T	activation of factor X by TF:F7a
+	B	activation of factor IX (TF:F7a catalyst)
+	D	Inactivation of factor VIIa by TFPI
+_smallMoleculeName.size()	2
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,110 @@
+edge.size() 20
+ 83 0 83 9 82 0 -1
+ 83 1 83 10 82 0 -1
+ 83 2 83 11 82 0 -1
+ 83 3 83 12 82 0 -1
+ 83 4 83 13 82 0 -1
+ 83 5 83 14 82 0 -1
+ 83 6 83 15 82 0 -1
+ 83 7 83 16 82 0 -1
+ 83 8 83 17 82 0 -1
+ 83 18 83 27 82 1 -1
+ 83 19 83 28 82 1 -1
+ 83 20 83 29 82 1 -1
+ 83 21 83 30 82 1 -1
+ 83 22 83 31 82 1 -1
+ 83 23 83 32 82 1 -1
+ 83 24 83 33 82 1 -1
+ 83 25 83 34 82 1 -1
+ 83 26 83 35 82 1 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+_complexName.size()	2
+	ABC7 dimer/mABC2 dimer/mABC1 dimer			
+	MTABC3 dimer	mitochondrial outer membrane	Reactome DB_ID: 1368982	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	2
+	T	ABC7, mABC1 and mABC2 mediate heme transport
+	T	MTABC3 transports porphyrin into mitochondria
+_smallMoleculeName.size()	36
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	heme	mitochondrial matrix	Reactome DB_ID: 189444	ChEBI:17627 Heme
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	heme	mitochondrial matrix	Reactome DB_ID: 189444	ChEBI:17627 Heme
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	heme	mitochondrial matrix	Reactome DB_ID: 189444	ChEBI:17627 Heme
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	porphyrin	cytosol	Reactome DB_ID: 1369066	Porphyrin [ChEBI:8337]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	porphyrin	cytosol	Reactome DB_ID: 1369066	Porphyrin [ChEBI:8337]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	porphyrin	cytosol	Reactome DB_ID: 1369066	Porphyrin [ChEBI:8337]
+	porphyrin	mitochondrial matrix	Reactome DB_ID: 1369027	Porphyrin [ChEBI:8337]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	porphyrin	mitochondrial matrix	Reactome DB_ID: 1369027	Porphyrin [ChEBI:8337]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	porphyrin	mitochondrial matrix	Reactome DB_ID: 1369027	Porphyrin [ChEBI:8337]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

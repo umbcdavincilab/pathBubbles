@@ -1,5 +1,5 @@
 #include "ItemLabel.h"
-
+#include "QTextCursor.h"
 
 ItemLabel::ItemLabel(QGraphicsItem *parent, QGraphicsScene *scene, int sizewidth, int sizeheight )
 : QGraphicsTextItem( tr(""), parent, scene),
@@ -17,11 +17,26 @@ ItemLabel::ItemLabel(QGraphicsItem *parent, QGraphicsScene *scene, int sizewidth
 	mouseClicked = 0;
 }
 
-void ItemLabel::keyReleaseEvent ( QKeyEvent * event )
+/*void ItemLabel::keyPressEvent (  QKeyEvent * event )
 {
-	backupName=this->toPlainText();
-	updateLabel(m_size_width, m_size_height);
-}
+	backupName = this->toPlainText();
+	backupName = backupName;
+}*/
+
+/*void ItemLabel::keyReleaseEvent ( QKeyEvent * event )
+{
+	QGraphicsTextItem::keyReleaseEvent(event);
+
+	//backupName = this->toPlainText();	
+	//QTextCursor myCursor = this->textCursor();
+	
+	//myCursor.setKeepPositionOnInsert(true);	
+	//bool flag = myCursor.keepPositionOnInsert();
+	//bool mflag = myCursor.movePosition(QTextCursor::Right, QTextCursor::MoveAnchor, 1);
+	//myCursor.setPosition(10, QTextCursor::MoveAnchor);
+}*/
+
+//remove the key event fix the "cursor alway jump to the front error"
 
 QRectF ItemLabel::boundingRect() const
 {
@@ -142,16 +157,29 @@ void ItemLabel::focusOutEvent(QFocusEvent *event)
 
 void ItemLabel::mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event)
 {
+	QTextCursor myCursor = this->textCursor();
 	if (textInteractionFlags() == Qt::NoTextInteraction)
 	{
-		setTextInteractionFlags(Qt::TextEditorInteraction);
-		setTextInteractionFlags(Qt::TextEditable);			
-		//ItemIsFocusable;	
-		//setTextInteractionFlags(Qt::CursorMoveStyle);
-		//QTextCursor cursor(_text->textCursor());
+		//QPoint p = this->textCursor()->pos();
+		setTextInteractionFlags(Qt::TextEditorInteraction);//|Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse|Qt::TextEditable);
+		setTextInteractionFlags(Qt::TextEditable);	
+		
+		//myCursor->setCursorMoveStyle;
 	    //cursor.movePosition(QTextCursor::Start);
+
+		//setTextInteractionFlags(Qt::TextEditable);	
+		//this->cursor().setS
+		//QTextCursor tt = ;  
+		//this->setMQt::LogicalMoveStyle.
+		//this->textCursor()->setTabChangesFocus(true);
+		//this->cursor().setCursorMoveStyle();
+		//this->textCursor().setPos(p);				
 	}
+	/*myCursor.setKeepPositionOnInsert(true);	
+	bool flag = myCursor.keepPositionOnInsert();
+	bool mflag = myCursor.movePosition(QTextCursor::Right, QTextCursor::MoveAnchor, 1);*/
 	QGraphicsTextItem::mouseDoubleClickEvent(event);
+	//myCursor.setPosition(10, QTextCursor::MoveAnchor);
 	return;
 }
 

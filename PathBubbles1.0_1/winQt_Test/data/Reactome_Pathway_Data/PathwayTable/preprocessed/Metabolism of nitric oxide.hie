@@ -1,0 +1,228 @@
+edge.size() 95
+ 83 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 0 82 0 -1
+ 80 -1 80 0 82 0 -1
+ 80 0 67 -1 82 1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 67 0 82 -1 -1
+ 67 -1 67 0 82 -1 -1
+ 83 1 83 0 82 2 -1
+ 67 1 67 0 82 2 -1
+ 67 1 67 0 82 2 -1
+ 67 1 67 2 82 3 -1
+ 83 2 67 2 82 3 -1
+ 83 10 83 3 82 4 -1
+ 83 11 83 4 82 4 -1
+ 83 12 83 5 82 4 -1
+ 83 13 83 6 82 4 -1
+ 83 14 83 7 82 4 -1
+ 83 15 83 8 82 4 -1
+ 83 16 83 9 82 4 -1
+ 83 21 83 17 82 5 -1
+ 83 22 83 18 82 5 -1
+ 83 23 83 19 82 5 -1
+ 83 -1 83 13 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 27 83 24 82 6 -1
+ 83 28 83 25 82 6 -1
+ 83 29 83 26 82 6 -1
+ 67 8 83 30 82 7 -1
+ 67 8 67 7 82 7 -1
+ 83 1 67 7 82 7 -1
+ 83 29 83 31 82 8 -1
+ 67 10 67 9 82 9 -1
+ 67 10 83 32 82 9 -1
+ 83 1 83 33 82 9 -1
+ 83 34 83 36 82 10 -1
+ 83 31 83 37 82 10 -1
+ 83 35 83 2 82 10 -1
+ 83 2 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 2 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 2 82 -1 -1
+ 83 -1 83 38 82 -1 -1
+ 67 2 83 2 82 11 -1
+ 83 38 67 3 82 11 -1
+ 67 2 67 3 82 11 -1
+ 67 6 67 5 82 12 -1
+ 67 4 67 5 82 12 -1
+ 83 43 83 39 82 13 -1
+ 83 44 83 40 82 13 -1
+ 83 45 83 41 82 13 -1
+ 83 38 83 42 82 13 -1
+ 83 49 83 46 82 14 -1
+ 83 50 83 47 82 14 -1
+ 83 51 83 38 82 14 -1
+ 83 2 83 48 82 14 -1
+ 80 1 82 1 82 0 -1
+ 67 2 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 67 -1 82 1 82 -1 -1
+ 67 4 82 1 82 6 -1
+ 80 2 82 1 82 7 -1
+ 67 8 82 1 82 8 -1
+ 80 2 82 1 82 9 -1
+ 67 10 82 1 82 10 -1
+ 67 10 82 1 82 13 -1
+ 67 11 82 1 82 14 -1
+ 83 7 82 0 82 6 -1
+ 67 5 82 0 82 6 -1
+ 83 20 82 1 82 6 -1
+_complexName.size()	12
+	eNOS:CaM:HSP90:p-AKT1	plasma membrane	Reactome DB_ID: 202113	
+	p-S1177-eNOS:CaM:HSP90:p-AKT1	plasma membrane	Reactome DB_ID: 202121	
+	p-S1177-eNOS:CaM:HSP90:p-AKT1:BH4	plasma membrane	Reactome DB_ID: 1497830	
+	p-S1177-eNOS:CaM:HSP90:p-AKT1:BH2	plasma membrane	Reactome DB_ID: 1497889	
+	GCH1 decamer	cytosol	Reactome DB_ID: 1474144	
+	2GCHFR:GCH1	cytosol	Reactome DB_ID: 1474149	
+	GCHFR pentamer	cytosol	Reactome DB_ID: 1474155	
+	PTPS hexamer	cytosol	Reactome DB_ID: 1497879	
+	p-PTPS hexamer	cytosol	Reactome DB_ID: 1475058	
+	SPR dimer	cytosol	Reactome DB_ID: 1497791	
+	p-SPR dimer	cytosol	Reactome DB_ID: 1497817	
+	DHFR dimer	cytosol	Reactome DB_ID: 1497822	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	palmitylated, N-myristoylated eNOS	Golgi membrane	Reactome DB_ID: 203769	UniProt:P29474	NOS3
+	DHHC-21	Golgi membrane	Reactome DB_ID: 203757	Entrez:427356	ZDHHC21
+	PRKG2	cytosol	Reactome DB_ID: 418377	UniProt:Q13237	PRKG2
+_reactionName.size()	15
+	D	palmitoylation of eNOS
+	T	eNOS translocation from Golgi to Caveolae
+	T	AKT1 phosphorylates eNOS
+	D	The cofactor BH4 is required for electron transfer in the eNOS catalytic cycle
+	T	NO biosynthesis
+	T	Uncoupled eNOS favours the formation of superoxide
+	T	GCH1 reduces GTP to dihydroneopterin triphosphate
+	T	PTPS is phosphorylated by cGMP-dependant protein kinase II
+	B	DHNTP is dephosphorylated by PTPS to PTHP
+	T	Sepiapterin reductase (SPR) is phosphorylated by Ca2+/calmodulin-dependent protein kinase II
+	T	PTHP is reduced to BH4 by sepiapterin reductase (SPR)
+	T	BH2 binding can lead to eNOS uncoupling
+	D	GCHFR binds to GCH1 and negatively regulates its activity
+	T	Salvage - Sepiapterin is reduced to BH2
+	T	Salvage - BH2 is reduced to BH4 by DHFR
+_smallMoleculeName.size()	52
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	NO	cytosol	Reactome DB_ID: 202124	Nitric oxide [ChEBI:7583]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	O2.-	cytosol	Reactome DB_ID: 1222424	O2.- [ChEBI:7710]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	ONOO-	cytosol	Reactome DB_ID: 1222481	ChEBI:25941 peroxynitrite
+	PALM	early endosome	Reactome DB_ID: 76168	Palmitate [ChEBI:15756]
+	PALM-CoA	cytosol	Reactome DB_ID: 200993	Palmitoyl-CoA [ChEBI:15525]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	HCOOH	cytosol	Reactome DB_ID: 29460	Formate [ChEBI:30751]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	DHNTP	cytosol	Reactome DB_ID: 1474124	7,8-dihydroneopterin 3'-triphosphate [ChEBI:18372]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PTHP	cytosol	Reactome DB_ID: 1474179	6-Pyruvoyltetrahydropterin [ChEBI:2235]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	e-	cytosol	Reactome DB_ID: 879326	electron [ChEBI:10545]
+	BH3.	cytosol	Reactome DB_ID: 1497797	BH3. radical [ChEBI:62772]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	sepiapterin	cytosol	Reactome DB_ID: 1497811	Sepiapterin [ChEBI:9113]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	lipid particle
+	whole

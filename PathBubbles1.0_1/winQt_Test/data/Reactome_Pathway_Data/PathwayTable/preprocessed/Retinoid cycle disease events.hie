@@ -1,0 +1,72 @@
+edge.size() 10
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 0 83 2 82 1 -1
+ 83 -1 83 3 82 1 -1
+ 83 1 83 4 82 1 -1
+ 83 2 83 5 82 2 -1
+ 83 5 83 6 82 3 -1
+ 80 0 82 1 82 1 -1
+_complexName.size()	0
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	NAPEPLD	photoreceptor outer segment membrane	Reactome DB_ID: 2467460	UniProt:Q6IQ20	NAPEPLD
+_reactionName.size()	4
+	T	NRPE condenses with atRAL to form A2PE
+	T	A2PE hydrolyses to A2E
+	T	A2E is phagocytosed
+	T	A2E translocates to RPE cells
+_smallMoleculeName.size()	7
+	A2E	phagolysosome	Reactome DB_ID: 2467755	di-retinoid-pyridinium-ethanolamine [ChEBI:71980]
+	A2E	cytosol	Reactome DB_ID: 2467742	di-retinoid-pyridinium-ethanolamine [ChEBI:71980]
+	PALM	early endosome	Reactome DB_ID: 76168	Palmitate [ChEBI:15756]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+				
+	atRAL	cytosol	Reactome DB_ID: 975622	Retinal [ChEBI:17898]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

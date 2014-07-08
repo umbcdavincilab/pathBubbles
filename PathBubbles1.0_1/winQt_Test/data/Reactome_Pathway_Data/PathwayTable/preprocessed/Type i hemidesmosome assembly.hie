@@ -1,0 +1,78 @@
+edge.size() 12
+ 67 0 67 1 82 0 -1
+ 80 0 67 1 82 0 -1
+ 80 1 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 2 67 3 82 2 -1
+ 67 -1 67 3 82 2 -1
+ 80 2 67 4 82 3 -1
+ 67 3 67 4 82 3 -1
+ 67 5 67 6 82 4 -1
+ 69 -1 67 6 82 4 -1
+ 67 4 67 5 82 5 -1
+ 80 -1 67 5 82 5 -1
+_complexName.size()	7
+	Integrin alpha6beta4	plasma membrane	Reactome DB_ID: 215997	
+	Integrin alpha 6:beta 4:Plectin complex	plasma membrane	Reactome DB_ID: 445996	
+	Integrin alpha6:beta4:Plectin:BP180 complex	plasma membrane	Reactome DB_ID: 445993	
+	Integrin alpha 6:beta 4:Plectin:BP180:Laminin-322 complex	plasma membrane	Reactome DB_ID: 445997	
+	BP230:BP180:Plectin:integrin alpha 6 beta 4:Laminin 332	plasma membrane	Reactome DB_ID: 446010	
+	CD151:BP230:BP180:Plectin:Integrin alpha 6 beta 4: Laminin	plasma membrane	Reactome DB_ID: 446066	
+	Type II hemidesmosome	plasma membrane	Reactome DB_ID: 446086	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	PLEC	cytosol	Reactome DB_ID: 201575	UniProt:Q15149	PLEC
+	BP180	plasma membrane	Reactome DB_ID: 445994	UniProt:Q9UMD9	COL17A1
+	DST	plasma membrane			
+_reactionName.size()	6
+	D	Interaction of Plectin with Integrin beta 4
+	D	BP180 interacts intracellularly with plectin and integrin beta4
+	D	BP180 interacts extracellularly with Laminin 332
+	D	BP230 is recruited to the hemidesmosome
+	D	BP230 interacts with keretin K5/K14
+	D	CD151 interacts with BP180 and the integrin alpha 6 subunit
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

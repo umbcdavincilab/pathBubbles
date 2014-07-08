@@ -1,0 +1,103 @@
+edge.size() 22
+ 83 7 83 0 82 0 -1
+ 83 8 83 1 82 0 -1
+ 83 9 83 2 82 0 -1
+ 83 10 83 3 82 0 -1
+ 83 11 83 4 82 0 -1
+ 83 12 83 5 82 0 -1
+ 83 13 83 6 82 0 -1
+ 83 7 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 83 14 83 16 82 2 -1
+ 83 15 83 17 82 2 -1
+ 80 1 67 2 82 3 -1
+ 83 17 67 2 82 3 -1
+ 83 17 83 18 82 4 -1
+ 67 -1 67 -1 82 5 -1
+ 67 -1 67 -1 82 6 -1
+ 80 0 82 1 82 0 -1
+ 67 1 82 1 82 2 -1
+ 80 0 82 1 82 4 -1
+ 80 1 82 1 82 5 -1
+ 80 1 82 1 82 6 -1
+ 83 3 82 1 82 2 -1
+_complexName.size()	3
+	Guanylate cyclase, soluble	cytosol	Reactome DB_ID: 392012	
+	Guanylate cyclase:NO	cytosol	Reactome DB_ID: 392141	
+	Activated cGMP-dependent protein kinase (PKGs)	cytosol	Reactome DB_ID: 418378	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	NOS2	cytosol			
+	PRKG2	cytosol			
+_reactionName.size()	7
+	T	Nitric Oxide Synthase (NOS) produces Nitric Oxide (NO)
+	D	NO binds to Guanylate Cyclase
+	B	Soluble guanylate cyclase converts GTP to cGMP
+	D	cGMP stimulates Protein Kinase G
+	T	cGMP is degraded by PDEs
+	T	PKG1 phosphorylates IRAG:IP3R1 inhibiting IP3-stimulated Ca2+ release
+	T	PKG1 phosphorylates BK channels
+_smallMoleculeName.size()	19
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	NO	cytosol	Reactome DB_ID: 202124	Nitric oxide [ChEBI:7583]
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	L-Arg	cytosol	Reactome DB_ID: 29468	L-Arginine [ChEBI:16467]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	L-Cit	cytosol	Reactome DB_ID: 29968	L-Citrulline [ChEBI:16349]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	cGMP	cytosol	Reactome DB_ID: 30991	3',5'-Cyclic GMP [ChEBI:16356]
+	GMP	cytosol	Reactome DB_ID: 113578	GMP [ChEBI:17345]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

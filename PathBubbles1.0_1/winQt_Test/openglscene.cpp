@@ -15,7 +15,7 @@
 
 //const int MAX_ITEM_SIZE = 512;
 //const int MIN_ITEM_SIZE = 16;
-#define MIDIUM_HIGHLIGHTCOLOR QColor(255,128,0,255) //QColor(20,20,255,255)
+#define MEDIUM_HIGHLIGHTCOLOR QColor(255,128,0,255) //QColor(20,20,255,255)
 
 QDialog* OpenGLScene::createDialog(const QString &windowTitle) const
 {
@@ -69,6 +69,8 @@ OpenGLScene::OpenGLScene( LabObject* input2, LabCut* input3)
 , loadMenuOpened(false)
 , needToReOpenMenu(false)
 , controlKeyisOn(false)
+, delKeyisOn(false)
+ ,shiftKeyisOn(false)
 , bubbleDraggedout(false)
 , m_rightButton(false)
 , linkSearchType(-1)
@@ -144,19 +146,49 @@ OpenGLScene::OpenGLScene( LabObject* input2, LabCut* input3)
 	//vector< vector<int> > emptyEvent;
 	//eventStored.push_back(emptyEvent);
 	//currentEventit=eventStored.begin();	
+	clearTempGraphFile();
 	_colorID=-1;
-	//openAutoTreeRingBubble(120, 160, false);
+	openAutoTreeRingBubble(120, 160, false);
 }
+
+void OpenGLScene::clearTempGraphFile()
+{
+	 QString fileName = "";//fileComboBox->currentText();//"_1pathway" only work on emapty "" case
+     QString text = "";//textComboBox->currentText();
+    
+     //First we eliminate any previous search results by setting the table widgets row count to zero. Then we retrieve the specified file name, text and directory path from the respective comboboxes.
+	 int count=0;
+     QDir currentDir = QDir("data/Reactome_Pathway_Data/tempPathwayGraph");
+     QStringList files;
+     if (fileName.isEmpty())
+         fileName = "*";
+    files = currentDir.entryList(QStringList(fileName),
+                                  QDir::Files | QDir::NoSymLinks);
+
+    if (!text.isEmpty())
+         files = pwdParser->findFiles(currentDir, files, text);
+	
+	QString pureName;
+	QString num;
+	int lid;	
+
+	for (int i = 0; i < files.size(); ++i) 
+	{
+	        lid=files[i].lastIndexOf('.');		
+			currentDir.remove(files[i]);
+	}
+}
+
 
 OpenGLScene::~OpenGLScene()
 {
     /*struct dirent *next_file;
-    QDir currentDir= QDir("data/Reactome_Pathway_Data/pathwayGraph");
+    QDir currentDir= QDir("data/Reactome_Pathway_Data/temp_PathwayGraph");
     //QDir currentDir = QDir(path);
     char filepath[256];
 	 QStringList files;
 
-    //theFolder = QOpenDir("data/Reactome_Pathway_Data/pathwayGraph");
+    //theFolder = QOpenDir("data/Reactome_Pathway_Data/temp_PathwayGraph");
 	 files = currentDir.entryList(QStringList(""),
                                   QDir::Files | QDir::NoSymLinks);
 
@@ -378,15 +410,60 @@ int findNodeID(vector<int> node, vector<vector<int>> nodeVector)
 }
 
 
-QColor OpenGLScene::getPathColor(int pid1, int type1, int id1, int pid2, int type2, int id2)
+vector<QColor> OpenGLScene::getPathEndsColor(int pid, int type, int id)
 {
-	QColor pColor;
+	vector<QColor> pColor;
 	if(linkSearchType == 1)	
 	{
-	    //store them into vector < vector< vector<int> > >  pathVectors; //pathVectors[pid][0] record major pathes, different color will be assigned to show branches of pathes
-		//branch nodes                      				
+	  	vector<int> node;
+		node.push_back(pid); node.push_back(type); node.push_back(id);
+		//node2.push_back(pid2); node2.push_back(type2); node2.push_back(id2);
 
-		int pid, type, id; 
+		bool flag=false;
+		for(int i= 0; i< pathEnds[pid].size(); i++)
+		{
+			for(int j=0; j<pathEnds[pid][i].size(); j++ )
+			{
+				if(pathEnds[pid][i][j] == node)
+				{
+					pColor.push_back(_wholeGraph->getPathColor(i));
+					flag=true;
+					break;
+				}
+			}			
+		}		
+		if(!flag)
+			flag=flag;
+	}	
+	return pColor;
+}
+
+bool OpenGLScene::isPathEnds(int pid, int type, int id)
+{
+	vector<QColor> pColor;
+	if(linkSearchType == 1)	
+	{
+	  	vector<int> node;
+		node.push_back(pid); node.push_back(type); node.push_back(id);
+		//node2.push_back(pid2); node2.push_back(type2); node2.push_back(id2);
+
+		bool flag=false;
+		if(pathEnds.size()>pid)
+		for(int i= 0; i< pathEnds[pid].size(); i++)
+		{
+            if(pathEnds[pid][i][0]==node || pathEnds[pid][i][pathEnds[pid][i].size()-1]==node)
+				return true;			
+		}		
+	}	
+	return false;
+}
+
+vector<QColor> OpenGLScene::getPathColor(int pid1, int type1, int id1, int pid2, int type2, int id2)
+{
+	vector<QColor> pColor;
+	if(linkSearchType == 1)	
+	{
+	  	int pid, type, id; 
 		if(pid2<pid1)
 			pid=pid2, type=type2, id=id2;
 		else 
@@ -398,18 +475,20 @@ QColor OpenGLScene::getPathColor(int pid1, int type1, int id1, int pid2, int typ
 
 		vector < vector <int> > aEdge;
 		aEdge.push_back(node1);   aEdge.push_back(node2);
-		 
+		bool flag=false;
 		for(int i= 0; i<pathVectors[pid1].size(); i++)
 		{
 			if(pathVectors[pid1][i].find(aEdge) != pathVectors[pid1][i].end())
 			{
-		        return _wholeGraph->getPathColor(i);
+		        pColor.push_back(_wholeGraph->getPathColor(i));
+				flag=true;
 			}
 		}
-		return MIDIUM_HIGHLIGHTCOLOR;
+		if(!flag)
+		   pColor.push_back(_wholeGraph->getPathColor(5));		
 	}
 	else 
-		pColor=MIDIUM_HIGHLIGHTCOLOR;
+		pColor.push_back(_wholeGraph->getPathColor(5));
 
 	return pColor;
 }
@@ -627,6 +706,24 @@ void OpenGLScene::drawForeground(QPainter *painter, const QRectF &rect)
 			}
 		}
 	}
+
+	for(int i=0; i<_eGiftBubbles.size();i++)
+	{
+		if( _eGiftBubbles[i] )		
+		{
+			
+			if(_eGiftBubbles[i]->_pid>=0)
+			if(_pathBubbles[_eGiftBubbles[i]->_pid] && _pathBubbles[_eGiftBubbles[i]->_pid]->m_pathwayID>=0 && _pathBubbles[_eGiftBubbles[i]->_pid]->isVisible())
+                 _eGiftBubbles[i]->drawConnections(painter, _pathBubbles[_eGiftBubbles[i]->_pid]->sceneBoundingRect().center());
+		}
+		else
+		{
+			//_eGiftBubbles[i]->deleteSelectedItems(this);
+			_eGiftBubbles[i]=NULL;
+		
+		}
+	}
+
 	QList<Group*> groups=_manager->allGroups();
 	
 	//draw sharedset the connector between shared items (after searching "shared")
@@ -864,6 +961,12 @@ void OpenGLScene::keyPressEvent(QKeyEvent *event)
 		 case Qt::Key_Control: 
 			 controlKeyisOn=true;
 			 break;
+		 case Qt::Key_Shift: 
+			 shiftKeyisOn=true;
+			 break;
+		  case Qt::Key_Delete: 
+			 delKeyisOn=true;
+			 break;
 		 //default: controlKeyisOn=false; break;
 	}
 }
@@ -875,7 +978,10 @@ void OpenGLScene::keyReleaseEvent(QKeyEvent *event)
 	{
 		 case Qt::Key_Control: 
 			 controlKeyisOn=false;
-			 break;		 		
+			 break;	
+		 case Qt::Key_Shift: 
+			 shiftKeyisOn=false;
+			 break;
 	}
 }
 
@@ -893,7 +999,6 @@ void OpenGLScene::mousePressEvent(QGraphicsSceneMouseEvent *event)
 	{
 		menu.setVisible(false);
 	}
-
 	if(!event->isAccepted())
 	{
 		//if(nodeNote!=NULL)
@@ -1886,7 +1991,7 @@ void OpenGLScene::clearExpressed(ItemBase *item) //while updata graph
 			else if( mList[i]->getType()==EXPRESSIONBUBBLE )
 			{
 				expressionBubble * ebubble = dynamic_cast<expressionBubble *> (mList[i]);
-				ebubble->clearExpressed();	
+				//ebubble->clearExpressed();	
 				ebubble->clearSearched();
 				ebubble->clearSharedExpression();	
 				ebubble->clearHighlighted();
@@ -2195,7 +2300,7 @@ ItemBase* OpenGLScene::openWebNoteBubblebyMenu(int type, ItemBase *item, QPointF
 	QList<ItemBase *> mlist=allMembers();	 
 				
 	if(type==WEB)
-		nitem=getOpenManager()->openWebView(item, 200,scenePos.x(),scenePos.y(), ""); 		 
+		nitem=getOpenManager()->openWebView(item, 300,scenePos.x(),scenePos.y(), ""); 		 
 	else if(type==SEARCHFIND)
 		nitem=getOpenManager()->openSearchView(item, 200,scenePos.x(),scenePos.y(), ""); 		 
 	else if(type==NOTE)
@@ -2208,10 +2313,15 @@ ItemBase* OpenGLScene::openWebNoteBubblebyMenu(int type, ItemBase *item, QPointF
 		if(_pathBubbles[pid]->m_pathwayID>=0 && _pathBubbles[pid]->m_pathwayID < _pathBubbles.size())
 		{	
 			if(id<_proteinNameD[pid].size())
-			   nitem=getOpenManager()->openWebView(item, 200, scenePos.x(), scenePos.y(), _proteinNameD[pid][id][4]); 	
+			{
+				nitem=getOpenManager()->openWebView(item, 400, scenePos.x(), scenePos.y(), _proteinNameD[pid][id][4], pid, ptype, id); 	
+				PathBubble1* pBubble = dynamic_cast<PathBubble1*>(item);	
+				WebBlock* wBubble = dynamic_cast<WebBlock*>(nitem);
+				//pBubble->_eGiftBubbles.push_back(wBubble);
+				//_eGiftBubbles.push_back(wBubble);
+			}
 		}
-	}
-		
+	}		
 	if(item==NULL)
 	{
 		QPointF pos;
@@ -2495,6 +2605,12 @@ void OpenGLScene::clearSearchSelection(ItemBase * item)
 		hoveredItem.clear();
 		hoveredItem.clear();
 
+		for(int i= 0; i< pathEnds.size(); i++)
+		for(int j= 0; j< pathEnds[i].size(); j++)
+		{
+            pathEnds[i].clear();
+		}		
+
 		removeToolsinGroup(item, true);
 
 		QList<ItemBase *> mList=getGroupMembers(item);
@@ -2509,6 +2625,11 @@ void OpenGLScene::clearSearchSelection(ItemBase * item)
 			{
 				expressionBubble* ebubble = dynamic_cast<expressionBubble*> (mList[i]);		
 				ebubble->getExpressionToBePaint();
+			}
+			if( mList[i]->getType()==TREERING )
+			{
+				treeRingBubble* tbubble = dynamic_cast<treeRingBubble*> (mList[i]);		
+				tbubble->clearSearchSelection();
 			}
 		}
 
@@ -2528,6 +2649,24 @@ CalloutNote* OpenGLScene::findNote(int pid, int type, int id)
 			{
 				flag=true;
 				return _nodeNote[i];
+			}
+		}
+	}
+	if(!flag)
+		return NULL;
+}
+
+WebBlock* OpenGLScene::findEgiftBubble(int pid, int type, int id)
+{
+	bool flag=false;
+	for(int i=0; i<_eGiftBubbles.size(); i++)
+	{
+		if(_eGiftBubbles[i]!=NULL && !_eGiftBubbles[i]->deleted)
+		{
+	        if(_eGiftBubbles[i]->_pid==pid && _eGiftBubbles[i]->_type==type && _eGiftBubbles[i]->_id==id)
+			{
+				flag=true;
+				return _eGiftBubbles[i];
 			}
 		}
 	}
@@ -2747,8 +2886,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 	
 	QMenu *toolMenu;		
 	QMenu *settingsMenu;	
-
-
+	
 	vector<int> etemp(3,0);
 	vector< vector<int> > eventRecord;
 	
@@ -2761,13 +2899,13 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 		
 	QAction *loadOrthologyAction, *G2Pathway,*BMPPathway,*TGFPathway,*shareAction,*diffAction,*linkAction, 
 		*expressionExpressedAction,*clearSearchAction,*colorUpAction, *colorEvenAction,*colorDownAction,*toolUndoAction, *aggregationAction, *collapseAction, 
-		*toolRedoAction,*graphResetAction,*graphReloadAction, *sketchAction, *queryAction, *delAction, *delGroupAction, *unGroupAction, *removeAction, *saveGraph, *loadGraph,
+		*toolRedoAction,*graphResetAction,*graphReloadAction, *sketchAction, *queryAction, *delRingAction, *delAction, *delGroupAction, *unGroupAction, *removeAction, *saveGraph, *loadGraph,
 		*saveScene, *recoverScene, *searchPathwayAction,*viewSmallMoleculeAction, *viewCrossTalkAction, *viewRateLimitAction, *selectedAction,*searchSettingsProteinAction,*searchSettingsCompartmentAction,*searchSettingsPathwayAction,
 		*linkPath, *linkNode; //*searchSettingsAction *settingsAction
 
 	bool loadOrthologyActionflag, loadExpressionActionflag,webActionflag,loadNoteActionflag,G2Pathwayflag,BMPPathwayflag,TGFPathwayflag,shareActionflag,diffActionflag,linkActionflag,pathwayActionflag,loadTreeRingActionflag,crossTalkPathwayMenuflag,
 		expressionExpressedActionflag,clearSearchActionflag, colorUpActionflag, colorEvenActionflag,colorDownActionflag,toolUndoActionflag, aggregationActionflag, collapseActionflag, 
-		toolRedoActionflag,graphResetActionflag,graphReloadActionflag, sketchActionflag,queryActionflag,delActionflag,delGroupActionflag, unGroupActionflag, removeActionflag, saveGraphflag, loadGraphflag,
+		toolRedoActionflag,graphResetActionflag,graphReloadActionflag, sketchActionflag,queryActionflag,delRingActionflag, delActionflag,delGroupActionflag, unGroupActionflag, removeActionflag, saveGraphflag, loadGraphflag,
 		saveSceneflag, recoverSceneflag, searchPathwayActionflag,viewSmallMoleculeActionflag, viewRateLimitActionflag, viewCrossTalkActionflag, selectedActionflag,searchSettingsProteinActionflag,searchSettingsCompartmentActionflag,searchSettingsPathwayActionflag,
 		linkPathflag, linkNodeflag; //searchSettingsActionflagif(settingsMenuflag)
 		
@@ -2775,7 +2913,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 
 	loadOrthologyActionflag=loadExpressionActionflag=webActionflag=loadNoteActionflag=G2Pathwayflag=BMPPathwayflag=TGFPathwayflag=shareActionflag=diffActionflag=linkActionflag=pathwayActionflag=crossTalkPathwayMenuflag=
 		expressionExpressedActionflag=clearSearchActionflag=colorUpActionflag= colorEvenActionflag=colorDownActionflag=toolUndoActionflag=saveGraphflag=loadGraphflag=aggregationActionflag=collapseActionflag=
-		toolRedoActionflag=graphResetActionflag=graphReloadActionflag= sketchActionflag=queryActionflag=delActionflag= delGroupActionflag= unGroupActionflag= removeActionflag= 
+		toolRedoActionflag=graphResetActionflag=graphReloadActionflag= sketchActionflag=queryActionflag= delRingActionflag = delActionflag= delGroupActionflag= unGroupActionflag= removeActionflag= 
 		saveSceneflag= recoverSceneflag= searchPathwayActionflag=loadTreeRingActionflag=viewSmallMoleculeActionflag=viewSmallMoleculeActionflag=viewSmallMoleculeActionflag=selectedActionflag=searchSettingsProteinActionflag=searchSettingsCompartmentActionflag=
 		searchSettingsPathwayActionflag=
 		linkPathflag = linkNodeflag = true; //searchSettingsActionflag= //settingsActionflag
@@ -2791,7 +2929,6 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
     menu.setStyleSheet(ss);	
 	menu.setMinimumWidth(70);	
 	
-
     bool toplevel=-1;
 	if(item!=NULL && (item->getType()==PATHBUBBLE1 || item->getType()==SUBPATHBUBBLE1))
 	{	
@@ -2851,6 +2988,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 	   //deleteMenuflag=false;
 	   delGroupActionflag=false;
 	   unGroupActionflag=false;
+	   delRingActionflag=false;
 	   delActionflag=false;
 	   saveGraphflag=false;
 	   loadGraphflag=false;
@@ -2862,9 +3000,11 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 		   saveSceneflag=false;
 		   removeActionflag=false;
 	   }
+	   loadOrthologyActionflag=false;
 	}	
 	else
 	{	  
+		
 		/*sceneMenuflag=false;
 		removeActionflag=false;*/
 		if(getGroupMembers(item).size()<=1)
@@ -2875,6 +3015,10 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 			
 		saveSceneflag=true;
 		removeActionflag=true;
+
+		if(pBubble==NULL && tBubble==NULL && eBubble==NULL) 
+			clearSearchActionflag=false;
+
         if(pBubble!=NULL)
 		{
 			if(pBubble->toplevel)
@@ -2887,6 +3031,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 			    saveGraphflag=false;
 				loadGraphflag=false;
 			}
+			
 		}
 		else 
 		{
@@ -2901,7 +3046,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 				    linkPathflag=false;
 					linkNodeflag=false;
 				expressionExpressedActionflag=false;	
-				clearSearchActionflag=false;
+				
 				searchMenuflag=false;		
 				searchSettingsMenuflag=false;			
 
@@ -2924,11 +3069,15 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 		    if(eBubble==NULL)				
 			{	
 				searchMenuflag=true;				
-			}	
+			}
+
 			if(eBubble==NULL && tBubble==NULL)				
 			{
 				searchPathwayActionflag=false;
 			}
+			
+			if(tBubble==NULL)		
+				loadOrthologyActionflag=false;
 		}
 		
 		if(eBubble==NULL)
@@ -2948,6 +3097,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 				searchMenuflag=true;
 				expressionExpressedActionflag=true;					
 			}
+			delRingActionflag=true;
 		}
 		if(!node.empty() && node[1]=='P')
 		    queryActionflag=true;
@@ -3027,7 +3177,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 		//toolUndoAction = editMenu->addAction("Undo");
 		//toolRedoAction = editMenu->addAction("Redo");	      
 		
-		//graphResetAction = editMenu->addAction("Reset Graph"); 	
+		graphResetAction = editMenu->addAction("Reset Graph"); 	
 
 		//settingsMenu = toolMenu->addMenu("View");
 		if(drawSmallmoleculeSettings)
@@ -3064,13 +3214,14 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 
 		toolMenu->addSeparator();
 		deleteMenu =  toolMenu->addMenu("Delete");
-		deleteMenu->setMinimumWidth(60);
+		deleteMenu->setMinimumWidth(60);		
 		delAction = deleteMenu->addAction("Bubble");	
 		delGroupAction = deleteMenu->addAction("Group");
 		removeAction = deleteMenu->addAction("Scene");
-	
-
+		deleteMenu->addSeparator();
+		delRingAction = deleteMenu->addAction("Ring Segment");	
 		
+			
 		//sceneMenu = toolMenu->addMenu("Display");
 		//sceneMenu->setMinimumWidth(60);
 
@@ -3151,7 +3302,8 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 	if(!linkNodeflag) 
 		linkNode->setEnabled(false);
 	
-	
+	if(!loadOrthologyActionflag)
+		loadOrthologyAction->setEnabled(false);
 	//if(!linkActionflag)
 	//	linkAction->setEnabled(false);	
 
@@ -3179,8 +3331,8 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 	if(!collapseActionflag)
 		collapseAction->setEnabled(false);
 
-	//if(!graphResetActionflag)
-	//	graphResetAction->setEnabled(false);
+	if(!graphResetActionflag)
+		graphResetAction->setEnabled(false);
 
 	//if(!settingsMenuflag)
 	//	settingsMenu->setEnabled(false);
@@ -3251,7 +3403,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 		
 				for(int j=0; j<crossTalkPathwayActions.size()-1; j++)
 				{
-					QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+crossTalkPathwayActions[j]->text() + ".path";
+				   QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+crossTalkPathwayActions[j]->text() + ".path";
 				   QString num;
 				   QFile inputFile(fileName);
 				   if(inputFile.open(QIODevice::ReadOnly))
@@ -3261,39 +3413,45 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 					   line = line.split('\n')[0];
 					   num=line;			  
 				   }
+				   else					   
+			       {			
+					    inputFile.close();
+					   fileName = crossTalkPathwayActions[j]->text();
+						fileName = fileName.remove(':');			
+						fileName = fileName.remove(',');		
+						fileName = fileName.remove('/');
+						fileName = fileName.remove('\'');
+						fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/" + fileName + ".path";
+
+					    QFile inputFile1(fileName);
+						
+						if(inputFile1.open(QIODevice::ReadOnly))
+					    {
+						   QTextStream in(&inputFile1);
+						   QString line = in.readLine();  
+						   line = line.split('\n')[0];
+						   num=line;			  
+					    }	
+						 inputFile1.close();
+			       }
+				  
+
 				   int st = fileName.lastIndexOf("/");
 				   fileName = fileName.remove(0, st+1);
 				   fileName.chop(5);
 		
 				   if(num.size()==0)
 					  continue;
-
-
-				 /*if(num == "157579")
-					   continue;*/
-				//if(num == "1643685") //disease
-				//	 continue;
-				//if(num == "1430728") //Metabolism
-				//	 continue;
-				//if(num == "382551") //transmembrane transport of small molecules
-				//	 continue;
-				//if(num == "168256")//immune system
-				//	 continue;
-				//if(num == "162582") //signal tranduction
-				//	continue;
-				//if(num == "163318") // an empty file
-				//	 continue;
 				   
-					QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";
+					QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile" + num + "_";
 					QString pname = fileName;	
 					
-					bool opened=false;
+					/*bool opened=false;
 					for (int k = 0; k < _pathBubbles.size(); k ++)		
 					{
 						int size=_pathBubbles.size();
 						PathBubble1 * tmp =_pathBubbles[k];
-						//ItemBase *tmp1= dynamic_cast <ItemBase *> (tmp);					
-						//int pid=_scene->_pathBubbles[i]->m_pathwayID;
+
 						if(_pathBubbles[k])
 						if(_pathBubbles[k]!=NULL)
 						if(_pathBubbles[k]->m_pathwayID>=0 && _pathBubbles[k]->m_pathwayID < _pathBubbles.size())
@@ -3303,13 +3461,13 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 							break;
 						}
 					}
-					if(!opened)
+					if(!opened)*/
 					   openPathBubblebyMenu(fname, pname, "", true, true);			
 				}
 			}
 			else 
 			{
-			   QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+crossTalkPathwayActions[i]->text() + ".path";
+			   QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/" + crossTalkPathwayActions[i]->text() + ".path";
 			   QString num;
 			   QFile inputFile(fileName);
 			   if(inputFile.open(QIODevice::ReadOnly))
@@ -3319,12 +3477,37 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 				   line = line.split('\n')[0];
 				   num=line;			  
 			   }
+			   else
+			   {
+				    inputFile.close();
+
+				    fileName = crossTalkPathwayActions[i]->text();
+				    fileName = fileName.remove(':');			
+			        fileName = fileName.remove(',');		
+			        fileName = fileName.remove('/');
+					fileName = fileName.remove('\'');
+					fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/" + fileName + ".path";
+			        QFile inputFile1(fileName);
+		           
+					if(inputFile1.open(QIODevice::ReadOnly))
+				   {
+					   QTextStream in(&inputFile1);
+					   QString line = in.readLine();  
+					   line = line.split('\n')[0];
+					   num=line;			  
+				   }
+				   inputFile1.close();
+			   }
+			   
+
+			   if(num=="")
+				   return;
+
 			   int st = fileName.lastIndexOf("/");
 			   fileName = fileName.remove(0, st+1);
 			   fileName.chop(5);
 		
-			   if(num.size()==0)
-				return;
+			   
 			   
 			   // if(num == "157579")
 				//	   continue;
@@ -3342,7 +3525,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 				//if(num == "163318") // an empty file
 				//	 continue;
 
-				QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";
+				QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";
 				QString pname = fileName;		
 				openPathBubblebyMenu(fname, pname, "", false, true);			
 			}	
@@ -3383,7 +3566,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 			QString lastStoredfileName;
 			struct expressedPathwayInfo infor;
 
-			QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName + ".path";
+			QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName + ".path";
 			QString num;
 			QFile inputFile(fileName);
 		    if(inputFile.open(QIODevice::ReadOnly))
@@ -3415,7 +3598,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 			//if(num == "163318") //keqin temorary comment out
 			//   return;
 
-			QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+			QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";			
 			openPathBubblebyMenu(fname, pathName, lastStoredfileName);
 			
 		}
@@ -3437,7 +3620,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 
 			dlg.setFileMode(QFileDialog::AnyFile);
 			dlg.setViewMode(QFileDialog::List);
-			dlg.setDirectory("data/Reactome_Pathway_Data/pathwayTable/");
+			dlg.setDirectory("data/Reactome_Pathway_Data/pathwayTable/pathFile/");
 			dlg.setFilter(".path(*.path);; .xml(*.xml);; .txt(*.txt);; All files (*.*)");
 			dlg.resize(620,383);
 			QStringList fileNames;
@@ -3493,9 +3676,14 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 				for(int j=0; j<this->_fileSelection->pathNames.size(); j++)
 				{
 					QString name = this->_fileSelection->pathNames[j];
-					if( fileName==this->_fileSelection->pathNames[j] )
+					QString pathName1= name;
+					pathName1 = pathName1.remove(':');			
+			        pathName1 = pathName1.remove(',');		
+			        pathName1 = pathName1.remove('/');
+					pathName1 = pathName1.remove('\'');
+					if( fileName==pathName1 )
 					{
-						num=QString::number(this->_fileSelection->pathIDs[j]);
+						num = QString::number(this->_fileSelection->pathIDs[j]);
 					}
 				}			
 			}
@@ -3511,7 +3699,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 
 			/*if(num == "1643685") //keqin temorary comment out
 			   return;
-*/
+			*/
 			//if(num == "1643685") //disease
 			//		 return;
 			//	if(num == "1430728") //Metabolism
@@ -3529,7 +3717,7 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 			   return;
 			 */
 			//num = "1430728";
-			QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";
+			QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";
 			QString pname = fileName;		
 			openPathBubblebyMenu(fname, pname, lastStoredfileName);
 		}
@@ -3589,7 +3777,6 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 				expressionBubble* ExpressionBubble = dynamic_cast<expressionBubble*>(nitem);
 				QString tname = name + "0expression.txt";  		
 				pwdParser->readexpression(tname.toUtf8().data(), ExpressionBubble->quantityName, ExpressionBubble->geneInfo, ExpressionBubble->quantity, ExpressionBubble->minmax);
-				//ExpressionBubble->setExpressedGenePos(2);				
 				if(item==NULL)
 				{
 					QPointF pos = this->_manager->getPosition(ExpressionBubble,ExpressionBubble->sceneBoundingRect().x(), ExpressionBubble->sceneBoundingRect().y(), ExpressionBubble->sceneBoundingRect().width(), ExpressionBubble->sceneBoundingRect().height());
@@ -3866,7 +4053,14 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 			}
 			else if (selectedAction == linkPath)
 			{ 
-				 linkSearchType=0;
+				 
+
+				if(linkSearchType == 1)	
+				{
+					linkSearchType=3;
+				}
+				else linkSearchType=0;
+
 				if(pBubble->searchType=='P')
 				{
 					if(pBubble->menuSelection_1(pos_menu, scenePos_menu, 20)) //P
@@ -3963,11 +4157,11 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 					tmp->menuSelection(pos_menu, scenePos_menu, 12);
 				}				
 			}
-			/*else if (selectedAction == graphResetAction)
+			else if (selectedAction == graphResetAction)
 			{
 				pBubble->menuSelection(pos_menu, scenePos_menu, 20);
 				clearSearchSelection(pBubble);
-			}*/
+			}
 			else if (selectedAction == aggregationAction)
 			{
 				PathBubble1* ABubble=NULL;
@@ -4187,6 +4381,10 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 		 {		
 			item->unGroupbyMenu();	//menuSelection(pos_menu, scenePos_menu, 51);			
 		 }*/
+		 else if(selectedAction == delRingAction)
+		 {
+		       tBubble->subStarctTreeRing();		 
+		 }
 		 else if(selectedAction == delGroupAction)
 		 {		
 			QMessageBox msgBox;
@@ -4311,11 +4509,11 @@ void OpenGLScene::loadMenus(QPointF eventScenePos, QPoint eventScreenPos, ItemBa
 					}*/
 					continue;
 				}
-				/*if (selectedAction == graphResetAction)
+				if (selectedAction == graphResetAction)
 				{
 					pBubble->menuSelection(pos_menu, scenePos_menu, 20);
 					clearSearchSelection(pBubble);
-				}*/			
+				}			
 				else if (selectedAction == shareAction)
 				{
 					etemp[0]=pBubble->getType();				
@@ -6324,10 +6522,12 @@ int OpenGLScene::searchInTreeringBubble(QString str, set<int> searchList, QStrin
 int OpenGLScene::searchInTreeringBubble(QString str, QString name, vector<set<vector<int>>> &preSearched, int i, ItemBase *item, int matchType)
 {
 	//vector<set<vector<int>>> preSearched;
+	
 	ItemBase* member=NULL;
 	if(item!=NULL)
 		member = dynamic_cast<ItemBase*>(m_treeRingBubbles[i]);
 	int count=0;
+	
 	if(m_treeRingBubbles[i]->_name.compare(name)==0 || name.compare("all")==0 || ( name.compare("")==0 && member==item))
 	{
 		if(!m_treeRingBubbles[i]->searched.empty())//|| !_expressionBubbles[i]->_linkage.empty())
@@ -6336,7 +6536,7 @@ int OpenGLScene::searchInTreeringBubble(QString str, QString name, vector<set<ve
 			m_treeRingBubbles[i]->searched.clear();								
 		}
 		count = count + m_treeRingBubbles[i]->_treeRing->SearchFind(str,matchType);		
-	}
+	}	
 	return count;
 }
 

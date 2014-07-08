@@ -1,0 +1,73 @@
+edge.size() 8
+ 83 3 83 0 82 0 -1
+ 83 4 83 1 82 0 -1
+ 83 5 83 2 82 0 -1
+ 83 5 83 6 82 1 -1
+ 83 9 83 7 82 1 -1
+ 83 10 83 8 82 1 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+_complexName.size()	2
+	phosphoribosyl pyrophosphate synthetase 1 holoenzyme	cytosol	Reactome DB_ID: 73485	
+	phosphoribosyl pyrophosphate synthetase 1 holoenzyme/phosphoriboyl pyrophosphate synthetase 1-like 1 putative holoenzyme/phosphoriboyl pyrophosphate synthetase 2 putative holoenzyme			
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	2
+	T	D-ribose 5-phosphate + 2'-deoxyadenosine 5'-triphosphate (dATP) => 5-Phospho-alpha-D-ribose 1-diphosphate (PRPP) + 2'-deoxyadenosine 5'-monophosphate
+	T	D-ribose 5-phosphate + ATP => 5-phospho-alpha-D-ribose 1-diphosphate (PRPP) + adenosine 5'-monophosphate
+_smallMoleculeName.size()	11
+	dATP	cytosol	Reactome DB_ID: 110644	dATP [ChEBI:16284]
+	dAMP	cytosol	Reactome DB_ID: 109386	2'-deoxyadenosine 5'-monophosphate [ChEBI:17713]
+	R5P	cytosol	Reactome DB_ID: 73578	D-ribose 5-phosphate [ChEBI:17797]
+	R5P	cytosol	Reactome DB_ID: 73578	D-ribose 5-phosphate [ChEBI:17797]
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	dATP	cytosol	Reactome DB_ID: 110644	dATP [ChEBI:16284]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	R5P	cytosol	Reactome DB_ID: 73578	D-ribose 5-phosphate [ChEBI:17797]
+	R5P	cytosol	Reactome DB_ID: 73578	D-ribose 5-phosphate [ChEBI:17797]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

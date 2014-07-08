@@ -1,0 +1,197 @@
+edge.size() 95
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 80 1 67 2 82 2 -1
+ 67 2 67 3 82 3 -1
+ 80 2 67 3 82 3 -1
+ 69 0 67 4 82 4 -1
+ 67 3 67 4 82 4 -1
+ 67 4 69 0 82 5 -1
+ 67 4 67 3 82 5 -1
+ 69 0 67 6 82 6 -1
+ 67 3 67 6 82 6 -1
+ 67 6 69 0 82 7 -1
+ 67 6 67 3 82 7 -1
+ 67 -1 67 -1 82 8 -1
+ 67 6 67 -1 82 8 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 1 83 -1 82 9 -1
+ 67 7 67 -1 82 9 -1
+ 67 7 67 -1 82 9 -1
+ 83 1 83 -1 82 10 -1
+ 80 5 80 -1 82 10 -1
+ 80 5 80 -1 82 10 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 2 67 9 82 11 -1
+ 80 6 67 9 82 11 -1
+ 83 1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 2 67 10 82 12 -1
+ 80 7 67 10 82 12 -1
+ 67 10 67 11 82 13 -1
+ 83 3 83 4 82 14 -1
+ 67 11 67 12 82 15 -1
+ 80 8 67 12 82 15 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 16 -1
+ 83 -1 67 -1 82 16 -1
+ 83 -1 67 -1 82 16 -1
+ 67 -1 67 -1 82 16 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 9 67 13 82 17 -1
+ 80 10 67 13 82 17 -1
+ 80 9 67 14 82 18 -1
+ 83 0 67 14 82 18 -1
+ 83 1 67 -1 82 19 -1
+ 67 14 67 -1 82 19 -1
+ 67 -1 69 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 5 82 1 82 4 -1
+ 80 3 82 1 82 5 -1
+ 80 0 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+ 67 8 82 1 82 9 -1
+ 67 -1 82 1 82 10 -1
+ 80 -1 82 1 82 -1 -1
+ 67 11 82 1 82 14 -1
+_complexName.size()	15
+	MDP:NOD2	cytosol	Reactome DB_ID: 168414	
+	NOD1:iE-DAP oligomer/MDP:NOD2 oligomer			
+	PAMP:NOD oligomer:RIP2	cytosol	Reactome DB_ID: 168409	
+	PAMP:NOD oligomer:RIP2:NEMO	cytosol	Reactome DB_ID: 688994	
+	PAMP:NOD oligomer:RIP2:K63-pUb-K285-NEMO	cytosol	Reactome DB_ID: 741418	
+	TRAF6 E3/E2 ubiquitin ligase complex	cytosol	Reactome DB_ID: 1248657	
+	PAMP:NOD oligomer:K63-polyUb-RIP2:NEMO	cytosol	Reactome DB_ID: 706480	
+	IKK complex	cytosol	Reactome DB_ID: 168113	
+	hp-IRAK1:K6-poly-Ub oligo-TRAF6:Activated TAK1 complex/PAMP:NOD oligomer:K63-polyUb-RIP2:NEMO:activated TAK1 complex/pUb-TRAF6:TAB1:TAB2/TAB3:free polyubiquitin chain : phospho-TAK1/p-IRAK2:K63-linked pUb oligo-TRAF6:free K63-linked pUb:p-TAK1complex			
+	PAMP:NOD oligomer:RIP2:CARD9	cytosol	Reactome DB_ID: 741403	
+	ATP:P2X7	plasma membrane	Reactome DB_ID: 877166	
+	ATP:P2X7 oligomer	plasma membrane	Reactome DB_ID: 877257	
+	ATP:P2X7 oligomer:Pannexin-1	plasma membrane	Reactome DB_ID: 877242	
+	Bcl-2/Bcl-X(L):NLRP1	mitochondrial outer membrane	Reactome DB_ID: 879218	
+	MDP:NLRP1	cytosol	Reactome DB_ID: 877370	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	11
+	NOD2	cytosol	Reactome DB_ID: 168411	UniProt:Q9HC29	NOD2
+	RIP2	cytosol	Reactome DB_ID: 168402	UniProt:O43353	RIPK2
+	NEMO	cytosol	Reactome DB_ID: 168108	UniProt:Q9Y6K9	IKBKG
+	CYLD	cytosol	Reactome DB_ID: 741420	UniProt:Q9NQC7	CYLD
+	TNFAIP3	cytosol	Reactome DB_ID: 688989	UniProt:P21580	TNFAIP3
+	MKK6	cytosol	Reactome DB_ID: 167998	UniProt:P52564	MAP2K6
+	CARD9	cytosol	Reactome DB_ID: 561194	UniProt:Q9H257	CARD9
+	P2X7	plasma membrane	Reactome DB_ID: 877215	UniProt:Q99572	P2RX7
+	PANX1	plasma membrane	Reactome DB_ID: 375344	UniProt:Q96RD7	PANX1
+	NLRP1	cytosol	Reactome DB_ID: 561196	UniProt:Q9C000	NLRP1
+	BCL2L1	mitochondrial outer membrane			
+_reactionName.size()	20
+	D	MDP elicits a NOD2 response
+	T	Activated NOD2 oligomerizes
+	D	Activated NOD oligomer recruites RIP2 (RICK)
+	D	RIP2 binds NEMO
+	D	RIP2 induces K63-linked ubiquitination of NEMO
+	B	CYLD deubiquitinates NEMO
+	D	RIP2 is K63 polyubiquitinated
+	B	A20 deubiquitinates RIP2
+	D	K63 polyubiquitinated RIP2 associates with the TAK1 complex
+	T	Activated TAK1 mediates phosphorylation of the IKK Complex
+	T	TAK1 phosphorylates MKK6
+	D	CARD9 binds RIP2 (and NOD2)
+	D	ATP binds to P2X7
+	T	P2X7 forms oligomeric non-selective cation channels
+	T	P2X7 mediates loss of intracellular K+
+	D	P2X7 mediates membrane pores that include pannexin-1
+	T	NLRP3 activation by small molecules
+	D	Bcl-2 and Bcl-XL bind NLRP1
+	D	NLRP1 senses MDP
+	D	MDP:NLRP1 binds ATP
+_smallMoleculeName.size()	5
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	MDP	cytosol	Reactome DB_ID: 708341	ChEBI:59414 Muramyl dipeptide
+	K+	cytosol	Reactome DB_ID: 29804	potassium(1+) [ChEBI:29103]
+	K+	extracellular region	Reactome DB_ID: 74126	potassium(1+) [ChEBI:29103]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

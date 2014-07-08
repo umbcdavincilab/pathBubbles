@@ -1,0 +1,132 @@
+edge.size() 41
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 4 83 0 82 2 -1
+ 83 5 83 1 82 2 -1
+ 83 6 83 2 82 2 -1
+ 83 7 83 3 82 2 -1
+ 83 6 83 8 82 3 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 9 83 7 82 4 -1
+ 83 10 83 9 82 5 -1
+ 69 0 83 11 82 6 -1
+ 83 9 83 12 82 6 -1
+ 83 6 83 13 82 6 -1
+ 69 0 83 6 82 6 -1
+ 69 0 69 1 82 6 -1
+ 83 -1 83 6 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 1 67 2 82 8 -1
+ 83 14 67 2 82 8 -1
+ 83 15 67 2 82 8 -1
+ 83 6 83 18 82 9 -1
+ 83 16 83 19 82 9 -1
+ 83 17 83 8 82 9 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 0 82 1 82 0 -1
+ 67 0 82 1 82 2 -1
+ 67 1 82 1 82 3 -1
+ 67 -1 82 1 82 -1 -1
+ 80 2 82 1 82 9 -1
+_complexName.size()	3
+	NOX2 complex	phagocytic vesicle membrane	Reactome DB_ID: 1222368	
+	V-ATPase	phagocytic vesicle membrane	Reactome DB_ID: 1222549	
+	Lactoferrin (loaded)	phagocytic vesicle lumen	Reactome DB_ID: 1222432	
+_physicalEntityName.size()	2
+		
+		
+_proteinName.size()	3
+	NOS2	cytosol			
+	LTF	phagocytic vesicle lumen	Reactome DB_ID: 1222567	UniProt:P02788	LTF
+	NRAMP1	late endosome membrane	Reactome DB_ID: 437103	UniProt:P49279	SLC11A1
+_reactionName.size()	10
+	T	Nitric Oxide Synthase (NOS) produces Nitric Oxide (NO)
+	T	Nitric oxide oxidizes to nitrosyl
+	T	NOX2 generates superoxide from oxygen
+	T	Intraphagosomal pH is lowered to 5 by V-ATPase
+	D	Superoxide and nitric oxide react to peroxynitrite
+	T	Peroxynitrite enters the bacterium
+	T	Peroxynitrite oxidizes methionine residues
+	T	Glutathione scavenges nitrosyl
+	D	Lactoferrin scavenges iron ions
+	T	NRAMP1 transports divalent metal ions across phagosomal membranes of macrophages
+_smallMoleculeName.size()	20
+	NO+	cytosol	Reactome DB_ID: 1222525	ChEBI:29120 oxidonitrogen(1+)
+	GSH	cytosol	Reactome DB_ID: 29450	Glutathione [ChEBI:16856]
+	GSNO	cytosol	Reactome DB_ID: 1222651	ChEBI:50091 S-Nitrosoglutathione
+	GSNO	cytosol	Reactome DB_ID: 1222651	ChEBI:50091 S-Nitrosoglutathione
+	CO3(2-)	phagocytic vesicle lumen	Reactome DB_ID: 2101051	ChEBI:41609 Carbonate(2-)
+				
+				
+				
+				
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	FeHM	cytosol	Reactome DB_ID: 917795	ChEBI:36144 ferriheme
+	NO	phagocytic vesicle lumen	Reactome DB_ID: 1222480	Nitric oxide [ChEBI:7583]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	O2.-	cytosol	Reactome DB_ID: 1222424	O2.- [ChEBI:7710]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	O2.-	phagocytic vesicle lumen	Reactome DB_ID: 1222461	O2.- [ChEBI:7710]
+	hydroperoxyl	phagocytic vesicle lumen	Reactome DB_ID: 1470070	hydroperoxyl [ChEBI:25935]
+	hydroperoxyl	cytosol	Reactome DB_ID: 1475048	hydroperoxyl [ChEBI:25935]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	43
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	periplasmic space
+	late endosome membrane
+	cell wall
+	whole

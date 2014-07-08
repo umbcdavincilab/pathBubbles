@@ -1,0 +1,147 @@
+edge.size() 44
+ 69 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 0 67 3 82 1 -1
+ 83 0 67 3 82 1 -1
+ 80 1 67 5 82 2 -1
+ 80 2 67 5 82 2 -1
+ 80 3 67 5 82 2 -1
+ 83 1 67 6 82 3 -1
+ 67 5 67 6 82 3 -1
+ 67 6 67 7 82 4 -1
+ 67 3 67 7 82 4 -1
+ 80 6 67 10 82 5 -1
+ 80 7 67 10 82 5 -1
+ 80 8 67 10 82 5 -1
+ 80 9 67 10 82 5 -1
+ 80 10 67 10 82 5 -1
+ 80 11 67 10 82 5 -1
+ 80 12 67 11 82 6 -1
+ 67 10 67 11 82 6 -1
+ 67 11 67 13 82 7 -1
+ 67 12 67 13 82 7 -1
+ 67 7 67 13 82 7 -1
+ 67 13 67 14 82 8 -1
+ 67 13 80 12 82 8 -1
+ 69 2 69 2 82 9 -1
+ 83 2 69 2 82 9 -1
+ 80 5 67 9 82 10 -1
+ 69 1 67 9 82 10 -1
+ 67 14 67 16 82 11 -1
+ 67 9 67 16 82 11 -1
+ 69 3 67 16 82 11 -1
+ 80 13 67 17 82 12 -1
+ 67 16 67 17 82 12 -1
+ 67 17 80 13 82 13 -1
+ 67 17 67 14 82 13 -1
+ 67 17 80 5 82 13 -1
+ 67 17 69 3 82 13 -1
+ 67 4 82 1 82 1 -1
+ 80 4 82 1 82 3 -1
+ 67 14 82 1 82 9 -1
+ 67 1 82 0 82 0 -1
+ 67 2 82 0 82 0 -1
+ 67 8 82 1 82 4 -1
+ 67 15 82 1 82 9 -1
+_complexName.size()	18
+	UBF-1:rDNA Promoter	nucleoplasm	Reactome DB_ID: 73684	
+	Nucleosome	nucleoplasm	Reactome DB_ID: 427402	
+	Methylcytosine: MBD2 Complex	nucleoplasm	Reactome DB_ID: 427343	
+	Phosphorylated UBF-1:rDNA promoter	nucleoplasm	Reactome DB_ID: 73685	
+	phospho-ERK-1 dimer	nucleoplasm	Reactome DB_ID: 109845	
+	SL1	nucleoplasm	Reactome DB_ID: 73692	
+	Acetylated SL1	nucleoplasm	Reactome DB_ID: 73693	
+	Acetylayed SL1:PhosUBF-1:rDNA promoter	nucleoplasm	Reactome DB_ID: 73694	
+	TTF-I: rRNA Promoter: CSB: G9a Complex	nucleoplasm	Reactome DB_ID: 427352	
+	TTF-I:Sal Box	nucleoplasm	Reactome DB_ID: 74977	
+	RNA Polymerase I Holoenzyme	nucleoplasm	Reactome DB_ID: 73859	
+	Active RNA Polymerase I	nucleoplasm	Reactome DB_ID: 73715	
+	TFIIH	nucleoplasm	Reactome DB_ID: 109634	
+	RNA Polymerase I Transcription Initiation complex	nucleoplasm	Reactome DB_ID: 73716	
+	RNA Polymerase I promoter escape complex	nucleoplasm	Reactome DB_ID: 73717	
+	Chromatin with H3K9me2: HP1gamma	nucleoplasm	Reactome DB_ID: 427344	
+	RNA Polymerase I:rRNATranscript:TTF-1:Sal Box Complex	nucleoplasm	Reactome DB_ID: 74979	
+	PTRF:Polymerase I/Nascent Pre rRNA Complex:TTF-I:Sal Box	nucleoplasm	Reactome DB_ID: 74982	
+_physicalEntityName.size()	4
+		
+		
+		
+		
+_proteinName.size()	14
+	UBF	nucleoplasm	Reactome DB_ID: 73683	UniProt:P17480	UBTF
+	TAF1A	nucleoplasm	Reactome DB_ID: 73689	UniProt:Q15573	TAF1A
+	TAF1B	nucleoplasm	Reactome DB_ID: 73691	UniProt:Q53T94	TAF1B
+	TAF1C	nucleoplasm	Reactome DB_ID: 73687	UniProt:Q15572	TAF1C
+	GCN5	nucleoplasm			
+	TTF1	nucleoplasm	Reactome DB_ID: 74974	UniProt:Q15361	TTF1
+	POLR1A	nucleoplasm	Reactome DB_ID: 63494	UniProt:O95602	POLR1A
+	POLR1B	nucleoplasm	Reactome DB_ID: 63496	UniProt:Q9H9Y6	POLR1B
+	AC19	nucleoplasm	Reactome DB_ID: 63500	UniProt:Q9Y2S0	POLR1D
+	POLR2K	nucleoplasm	Reactome DB_ID: 63537	UniProt:P53803	POLR2K
+	RPB8	nucleoplasm	Reactome DB_ID: 63523	UniProt:P52434	POLR2H
+	RPA40	nucleoplasm	Reactome DB_ID: 63498	UniProt:O15160	POLR1C
+	RRN3	nucleoplasm	Reactome DB_ID: 73714	UniProt:Q9NYV6	RRN3
+	PTRF	nucleoplasm	Reactome DB_ID: 74981	UniProt:Q6NZI2	PTRF
+_reactionName.size()	14
+	D	UBF-1 Binds rDNA Promoter
+	D	Phosphorylation of UBF-1:rDNA Promoter
+	D	Formation of SL1
+	D	Acetylation of SL1
+	D	Recruitment of Acetylated SL1 to phosUBF-1:rDNA Promoter
+	D	Assembly of RNA Polymerase I Holoenzyme (human)
+	D	Binding of Rrn3 to RNA Polymerase I
+	D	Recruitment of Active RNA Polymerase I to SL1:phos.UBF-1:rDNA Promoter
+	B	Loss of Rrn3 from RNA Polymerase I promoter escape complex
+	D	Elongation of pre-rRNA transcript
+	D	TTF-I binds to the Sal Box
+	D	Polymerase I Transcription Complex/Nascent Pre rRNA Complex pauses at the TTF-I:Sal Box
+	D	PTRF Binds the Polymerase I Transcription Complex/Nascent Pre rRNA Complex paused at the TTF-I:Sal Box
+	B	Dissociation of PTRF:Polymerase I/Nascent Pre rRNA Complex:TTF-I:Sal Box
+_smallMoleculeName.size()	3
+				
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Ac-CoA	nucleoplasm	Reactome DB_ID: 113560	Acetyl-CoA [ChEBI:15351]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

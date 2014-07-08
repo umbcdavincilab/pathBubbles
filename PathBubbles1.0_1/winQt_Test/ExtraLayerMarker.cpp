@@ -7,7 +7,7 @@
 #include <vector>
 #include "ExtraLayerMarker.h"
 #define MARKERCOLOR QColor(60,60,60,255)
-#define HIGHLIGHTCOLOR QColor(213,106,0,255) //QColor(60,60,255,255)
+#define LIGHT_HIGHLIGHTCOLOR QColor(213,106,0,255) //QColor(60,60,255,255)
 
 ExtraLayerMarker::ExtraLayerMarker(TreeRing *tr, char *inf, int numOfNode, float ringRadius, SimData *simData, Point centre)
 {
@@ -181,6 +181,8 @@ ExtraLayerMarker::~ExtraLayerMarker()
 void ExtraLayerMarker::Render(QPainter *painter)
 {
 	int nr_makers = marker.size();
+    if(_treeRing->_ring[_num_layers-1]._radius.size()<=0)
+		return;
 	float outerRadious=  _treeRing->_ring[_num_layers-1]._radius[0];// //changed when switching inner ring out // + _treeRing-> getWidth(); 
 	float msize1 = outerRadious/60, msize2; //marker's size
 	if(msize1<3)
@@ -208,9 +210,9 @@ void ExtraLayerMarker::Render(QPainter *painter)
 
 	QPen pen;	
 	pen.setWidth(2);
-	pen.setColor(HIGHLIGHTCOLOR);
+	pen.setColor(LIGHT_HIGHLIGHTCOLOR);
 	painter->setPen( pen );
-	painter->setBrush(HIGHLIGHTCOLOR);
+	painter->setBrush(LIGHT_HIGHLIGHTCOLOR);
 	if(highlightIndex>=0)
 	{
 		int hi = highlightIndex;

@@ -1,0 +1,330 @@
+edge.size() 173
+ 83 0 67 0 82 0 -1
+ 67 -1 67 0 82 0 -1
+ 67 0 83 -1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 67 1 67 3 82 2 -1
+ 67 3 67 -1 82 3 -1
+ 67 -1 67 4 82 -1 -1
+ 83 1 67 5 82 4 -1
+ 67 4 67 5 82 4 -1
+ 67 5 80 0 82 5 -1
+ 67 5 67 6 82 5 -1
+ 67 5 83 2 82 5 -1
+ 67 5 67 7 82 5 -1
+ 67 5 80 1 82 5 -1
+ 67 6 67 8 82 6 -1
+ 80 2 67 8 82 6 -1
+ 67 8 67 9 82 7 -1
+ 80 3 67 9 82 7 -1
+ 67 9 67 -1 82 8 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 4 67 11 82 9 -1
+ 80 6 67 11 82 9 -1
+ 80 5 67 11 82 9 -1
+ 80 7 67 12 82 10 -1
+ 67 11 67 13 82 11 -1
+ 67 12 67 13 82 11 -1
+ 69 1 67 13 82 11 -1
+ 67 13 67 15 82 12 -1
+ 67 13 69 2 82 12 -1
+ 83 3 67 16 82 13 -1
+ 67 15 67 16 82 13 -1
+ 67 11 67 16 82 14 -1
+ 67 12 67 16 82 14 -1
+ 67 11 67 17 82 15 -1
+ 83 3 67 17 82 15 -1
+ 67 12 67 17 82 15 -1
+ 83 3 67 11 82 16 -1
+ 67 17 67 11 82 16 -1
+ 80 7 67 11 82 16 -1
+ 80 7 67 18 82 16 -1
+ 67 17 67 18 82 16 -1
+ 80 7 67 18 82 16 -1
+ 67 17 67 12 82 16 -1
+ 67 11 67 19 82 17 -1
+ 67 18 67 19 82 17 -1
+ 83 3 67 11 82 18 -1
+ 67 19 67 11 82 18 -1
+ 80 7 67 11 82 18 -1
+ 80 7 67 18 82 18 -1
+ 67 19 67 18 82 18 -1
+ 80 7 67 18 82 18 -1
+ 67 19 69 3 82 18 -1
+ 80 7 69 3 82 18 -1
+ 67 19 69 3 82 18 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 80 4 67 21 82 19 -1
+ 80 5 67 21 82 19 -1
+ 80 6 67 21 82 19 -1
+ 67 20 67 21 82 19 -1
+ 67 21 67 22 82 20 -1
+ 80 9 67 22 82 20 -1
+ 80 11 67 23 82 21 -1
+ 67 22 67 23 82 21 -1
+ 80 12 67 24 82 22 -1
+ 67 23 67 24 82 22 -1
+ 67 -1 67 -1 82 23 -1
+ 67 24 67 -1 82 23 -1
+ 67 24 67 -1 82 23 -1
+ 67 -1 67 -1 82 23 -1
+ 67 24 83 4 82 23 -1
+ 67 -1 83 -1 82 23 -1
+ 80 13 80 13 82 24 -1
+ 80 13 67 25 82 25 -1
+ 80 14 80 14 82 -1 -1
+ 80 14 80 15 82 26 -1
+ 80 15 67 26 82 27 -1
+ 80 16 80 16 82 -1 -1
+ 80 16 80 17 82 28 -1
+ 80 17 67 27 82 29 -1
+ 67 27 67 -1 82 30 -1
+ 67 26 67 -1 82 30 -1
+ 67 25 67 -1 82 30 -1
+ 67 25 67 -1 82 30 -1
+ 67 26 67 -1 82 30 -1
+ 67 27 67 -1 82 30 -1
+ 67 25 67 -1 82 30 -1
+ 67 26 67 -1 82 30 -1
+ 67 27 67 -1 82 30 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 28 82 -1 -1
+ 67 -1 67 29 82 -1 -1
+ 69 4 67 30 82 31 -1
+ 67 28 67 30 82 31 -1
+ 69 4 67 31 82 32 -1
+ 80 18 67 31 82 32 -1
+ 69 4 67 32 82 -1 -1
+ 67 -1 67 32 82 -1 -1
+ 67 30 67 -1 82 33 -1
+ 67 29 67 -1 82 33 -1
+ 67 32 67 -1 82 33 -1
+ 67 31 67 -1 82 33 -1
+ 67 31 67 -1 82 33 -1
+ 67 32 67 -1 82 33 -1
+ 67 29 67 -1 82 33 -1
+ 67 30 67 -1 82 33 -1
+ 67 31 67 34 82 33 -1
+ 67 32 67 34 82 33 -1
+ 67 29 67 34 82 33 -1
+ 67 30 67 34 82 33 -1
+ 67 31 67 -1 82 33 -1
+ 67 32 67 -1 82 33 -1
+ 67 29 67 -1 82 33 -1
+ 67 30 67 -1 82 33 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 36 82 34 -1
+ 67 33 67 36 82 34 -1
+ 67 35 67 36 82 34 -1
+ 80 -1 67 36 82 34 -1
+ 80 -1 67 36 82 34 -1
+ 80 19 67 36 82 34 -1
+ 80 -1 67 36 82 34 -1
+ 67 34 67 36 82 34 -1
+ 80 -1 67 36 82 34 -1
+ 80 -1 67 36 82 34 -1
+ 67 36 67 37 82 35 -1
+ 83 0 67 37 82 35 -1
+ 69 0 67 37 82 35 -1
+ 67 37 67 38 82 36 -1
+ 67 4 82 1 82 4 -1
+ 67 11 82 1 82 12 -1
+ 67 11 82 1 82 13 -1
+ 67 11 82 1 82 14 -1
+ 67 11 82 1 82 15 -1
+ 67 11 82 1 82 16 -1
+ 67 11 82 1 82 17 -1
+ 67 11 82 1 82 18 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 20 82 1 82 36 -1
+ 67 2 82 1 82 1 -1
+ 67 10 82 1 82 8 -1
+ 80 8 82 1 82 9 -1
+ 80 -1 82 1 82 9 -1
+ 67 14 82 1 82 11 -1
+ 80 7 82 1 82 11 -1
+ 80 7 82 1 82 15 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 7 82 1 82 19 -1
+ 80 10 82 0 82 20 -1
+ 67 10 82 1 82 23 -1
+ 80 -1 82 1 82 28 -1
+ 80 -1 82 1 82 28 -1
+_complexName.size()	39
+	Sialic Acid Bound Influenza A Viral Particle	plasma membrane	Reactome DB_ID: 188954	
+	Influenza A Viral Particle	endosome lumen	Reactome DB_ID: 189171	
+	Clathrin	plasma membrane	Reactome DB_ID: 177482	
+	Influenza A Viral Particle With A Fusion Competent HA2	endosome lumen	Reactome DB_ID: 189182	
+	Influenza A Viral Particle Docked At The Endocytic Vesicle Membrane With An Open Pore	endocytic vesicle membrane	Reactome DB_ID: 189181	
+	Acidified Influenza A Viral Particle Docked At The Endocytic Vesicle Membrane With An Open Pore	endocytic vesicle membrane	Reactome DB_ID: 189177	
+	Ribonucleoprotein (RNP) Complex	cytosol	Reactome DB_ID: 188849	
+	Influenza A Viral Envelope Inserted Into The Endocytic Vesicle Membrane	endocytic vesicle membrane	Reactome DB_ID: 189157	
+	RNP Complex:Karyopherin alpha	cytosol	Reactome DB_ID: 188871	
+	RNP:Karyopherin alpha:Karyopherin beta complex	cytosol	Reactome DB_ID: 188853	
+	Nuclear Pore Complex (NPC)	nuclear envelope	Reactome DB_ID: 157689	
+	Viral Polymerase	nucleoplasm	Reactome DB_ID: 192720	
+	vRNA (Genomic):NP Complex	nucleoplasm	Reactome DB_ID: 193302	
+	vRNA Transcription Complex	nucleoplasm	Reactome DB_ID: 192703	
+	RNA Polymerase II (phosphorylated):TFIIF:capped pre-mRNA	nucleoplasm	Reactome DB_ID: 113405	
+	Initiated vRNA Transcription Complex	nucleoplasm	Reactome DB_ID: 192756	
+	Elongated vRNA-mRNA Complex	nucleoplasm	Reactome DB_ID: 192700	
+	Initiated vRNA-cRNA Complex	nucleoplasm	Reactome DB_ID: 192901	
+	cRNP	nucleoplasm	Reactome DB_ID: 192682	
+	Initiated cRNA-vRNA Complex	nucleoplasm	Reactome DB_ID: 192650	
+	vRNP	nucleoplasm	Reactome DB_ID: 192774	
+	vRNP destined for Export	nucleoplasm	Reactome DB_ID: 192922	
+	vRNP:M1 for Export	nucleoplasm	Reactome DB_ID: 192906	
+	vRNP:M1:NEP	nucleoplasm	Reactome DB_ID: 192767	
+	vRNP Export Complex	nucleoplasm	Reactome DB_ID: 192667	
+	M2 Tetramer	endoplasmic reticulum membrane	Reactome DB_ID: 195797	
+	Glycosylated NA Tetramer	endoplasmic reticulum membrane	Reactome DB_ID: 195775	
+	Glycosylated and folded HA trimer	endoplasmic reticulum membrane	Reactome DB_ID: 195787	
+	Glycosylated, palmitylated and folded HA trimer	Golgi membrane	Reactome DB_ID: 195725	
+	palmitylated M2 Tetramer	Golgi membrane	Reactome DB_ID: 195761	
+	Glycosylated, palmitylated and folded HA trimer:Lipid Raft Complex	Golgi membrane	Reactome DB_ID: 195723	
+	NP:Lipid Raft	Golgi membrane	Reactome DB_ID: 195737	
+	Gycosylated NA Tetramer:Lipid Raft	Golgi membrane	Reactome DB_ID: 195736	
+	Glycosylated, palmitylated and folded HA trimer	plasma membrane	Reactome DB_ID: 195738	
+	palmitylated M2 Tetramer	plasma membrane	Reactome DB_ID: 195732	
+	Gycosylated NA Tetramer	plasma membrane	Reactome DB_ID: 195728	
+	Intracellular assembly complex	plasma membrane	Reactome DB_ID: 195925	
+	Sialic Acid Bound Influenza A Viral Particle	plasma membrane	Reactome DB_ID: 195945	
+	Influenza A Viral Particle	extracellular region	Reactome DB_ID: 195941	
+_physicalEntityName.size()	5
+		
+		
+		
+		
+		
+_proteinName.size()	21
+	NEP/NS2	endocytic vesicle membrane	Reactome DB_ID: 189148	UniProt:P03508	NS
+	M1	endocytic vesicle membrane	Reactome DB_ID: 189168	UniProt:P03485	M
+	KPNA1	cytosol	Reactome DB_ID: 180612	UniProt:P52294	KPNA1
+	KPNB1	cytosol	Reactome DB_ID: 180733	UniProt:Q14974	KPNB1
+	PB1	nucleoplasm	Reactome DB_ID: 188843	UniProt:P03431	PB1
+	PB2	nucleoplasm	Reactome DB_ID: 188857	UniProt:P03428	PB2
+	PA	nucleoplasm	Reactome DB_ID: 188877	UniProt:P03433	PA
+	NP	nucleoplasm	Reactome DB_ID: 188832	UniProt:P03466	NP
+	IPO5	nucleoplasm	Reactome DB_ID: 192675	UniProt:O00410	IPO5
+	M1	nucleoplasm	Reactome DB_ID: 186959	UniProt:P03485	M
+	HSP70	nucleoplasm	Reactome DB_ID: 192715	UniProt:P08107	HSPA1A
+	NEP/NS2	nucleoplasm	Reactome DB_ID: 169474	UniProt:P03508	NS
+	XPO1	nucleoplasm	Reactome DB_ID: 165529	UniProt:O14980	XPO1
+	M2	endoplasmic reticulum membrane	Reactome DB_ID: 195756	UniProt:P06821	M
+	NA	endoplasmic reticulum membrane	Reactome DB_ID: 203497	UniProt:P03468	NA
+	Glycosylated NA	endoplasmic reticulum membrane	Reactome DB_ID: 195815	UniProt:P03468	NA
+	HA	endoplasmic reticulum membrane	Reactome DB_ID: 195790	UniProt:P03452	HA
+	Glycosylated and folded HA	endoplasmic reticulum membrane	Reactome DB_ID: 195809	UniProt:P03452	HA
+	NP	Golgi membrane	Reactome DB_ID: 195740	UniProt:P03466	NP
+	NP	plasma membrane	Reactome DB_ID: 195752	UniProt:P03466	NP
+	NA	extracellular region	Reactome DB_ID: 195915	UniProt:P03468	NA
+_reactionName.size()	37
+	D	Binding of the influenza virion to the host cell
+	B	Clathrin-Mediated Pit Formation And Endocytosis Of The Influenza Virion
+	T	Conformation change in hemagglutinin freeing the fusion peptide of HA2
+	T	Fusion of the influenza virion HA2 protein transmembrane domain to the host cell endosome membrane
+	D	Virion-associated M2 protein mediated ion infusion
+	B	Ribonucleoprotein release from M1 proteins
+	D	Recognition of the Nuclear Localization Signal (NLS) by a Karyopherin Alpha Family Protein
+	D	Recruitment of Karyopherin Beta to form a Trimeric Complex
+	T	Docking and transport of the RNP:Karyopherin complex through the nuclear pore
+	D	Viral Polymerase Assembly
+	T	NP binds vRNA
+	D	Assembly of an Active Transcription Complex
+	B	Priming and Initiation of Transcription
+	D	Elongation of viral mRNA
+	B	Polyadenylation and Termination
+	D	Initiation of cRNA Synthesis
+	T	cRNA Extension
+	D	Initiation of vRNA Synthesis
+	T	vRNA Extension
+	D	Newly synthesized vRNP for export
+	D	Binding of M1 to vRNP
+	D	Binding of NEP/NS2 to vRNP:M1
+	D	Binding of vRNP:M1:NEP complex to CRM1 export receptor
+	T	vRNP Export through the nuclear pore
+	T	Entry of M2 into the endoplasmic reticulum
+	T	Assembly of M2 tetramers
+	T	Glycosylation of NA
+	T	Assembly of NA tetramers
+	T	Glycosylation and Folding of HA
+	T	Trimerization of HA
+	T	Budding of vesicle with the HA trimer, NA tetramer and M2 tetramer from the endoplasmic reticulum into the cytosol
+	D	Association of HA into rafts
+	D	Association of NP into rafts
+	T	Transport of processed viral proteins to the cell membrane
+	D	Association with M1 at cell membrane
+	D	Membrane fusion
+	T	Neuraminidase enzymatic release from sialic acid
+_smallMoleculeName.size()	5
+	SA	plasma membrane	Reactome DB_ID: 188957	ChEBI:26667 sialic acid
+	SA	endocytic vesicle membrane	Reactome DB_ID: 189161	ChEBI:26667 sialic acid
+				
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

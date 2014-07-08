@@ -1,0 +1,57 @@
+edge.size() 3
+ 83 -1 83 -1 82 0 -1
+ 83 0 83 1 82 1 -1
+ 83 -1 83 -1 82 -1 -1
+_complexName.size()	0
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	2
+	T	I(1,4,5)P3 transports from the cytosol to the nucleus
+	T	I(1,3,4,5)P4 transports from the cytosol to the nucleus
+_smallMoleculeName.size()	2
+	I(1,3,4,5)P4	cytosol	Reactome DB_ID: 994170	1D-myo-Inositol 1,3,4,5-tetrakisphosphate [ChEBI:808]
+	I(1,3,4,5)P4	nucleoplasm	Reactome DB_ID: 2023891	1D-myo-Inositol 1,3,4,5-tetrakisphosphate [ChEBI:808]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

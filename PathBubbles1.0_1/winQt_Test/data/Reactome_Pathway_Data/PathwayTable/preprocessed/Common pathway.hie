@@ -1,0 +1,125 @@
+edge.size() 44
+ 80 0 80 1 82 0 -1
+ 80 0 67 0 82 0 -1
+ 80 2 80 3 82 1 -1
+ 80 2 67 1 82 1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 1 67 -1 82 -1 -1
+ 80 0 80 1 82 -1 -1
+ 80 0 67 0 82 -1 -1
+ 67 2 67 3 82 2 -1
+ 67 2 80 4 82 2 -1
+ 67 2 80 5 82 2 -1
+ 67 3 67 4 82 3 -1
+ 67 5 80 7 82 4 -1
+ 67 5 67 6 82 4 -1
+ 83 0 80 6 82 5 -1
+ 67 6 80 6 82 5 -1
+ 67 6 67 7 82 5 -1
+ 83 1 67 7 82 5 -1
+ 67 4 83 2 82 6 -1
+ 67 4 69 0 82 6 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 8 67 8 82 7 -1
+ 67 0 67 8 82 7 -1
+ 67 -1 67 -1 82 8 -1
+ 67 -1 80 -1 82 8 -1
+ 67 1 67 -1 82 -1 -1
+ 67 -1 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 0 82 1 82 2 -1
+ 67 0 82 1 82 4 -1
+ 67 7 82 1 82 6 -1
+ 67 -1 82 1 82 -1 -1
+ 67 8 82 1 82 8 -1
+ 67 -1 82 1 82 -1 -1
+ 67 4 82 1 82 4 -1
+ 80 -1 82 1 82 8 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	9
+	Activated thrombin (factor IIa)	extracellular region	Reactome DB_ID: 156786	
+	factor Va	extracellular region	Reactome DB_ID: 140692	
+	Fibrinogen	extracellular region	Reactome DB_ID: 114618	
+	fibrin monomer	extracellular region	Reactome DB_ID: 140586	
+	fibrin multimer	extracellular region	Reactome DB_ID: 139933	
+	factor XIII	extracellular region	Reactome DB_ID: 140608	
+	factor XIII cleaved tetramer	extracellular region	Reactome DB_ID: 140789	
+	factor XIIIa	extracellular region	Reactome DB_ID: 140849	
+	activated thrombin:thrombomodulin	plasma membrane	Reactome DB_ID: 141038	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	9
+	10xCbxE-F2	extracellular region	Reactome DB_ID: 140674	UniProt:P00734	F2
+	10xCbxE-F2(44-327)	extracellular region	Reactome DB_ID: 140786	UniProt:P00734	F2
+	F5	extracellular region	Reactome DB_ID: 140697	UniProt:P12259	F5
+	F5(738-1573)	extracellular region	Reactome DB_ID: 140787	UniProt:P12259	F5
+	FGA(20-35)	extracellular region	Reactome DB_ID: 140867	UniProt:P02671	FGA
+	FGB(31-44)	extracellular region	Reactome DB_ID: 140876	UniProt:P02675	FGB
+	F13B	extracellular region	Reactome DB_ID: 140605	UniProt:P05160	F13B
+	F13A1(1-37)	extracellular region	Reactome DB_ID: 140790	UniProt:P00488	F13A1
+	THBD	plasma membrane	Reactome DB_ID: 141030	UniProt:P07204	THBD
+_reactionName.size()	9
+	B	prothrombin -> activated thrombin (factor IIa) + thrombin activation peptide (Xa catalyst)
+	B	factor V -> factor Va + factor V activation peptide
+	B	fibrinogen -> fibrin monomer + 2 fibrinopeptide A + 2 fibrinopeptide B
+	T	n fibrin monomers -> fibrin multimer
+	B	factor XIII -> factor XIII cleaved tetramer + 2 factor XIII A activation peptides
+	T	factor XIII cleaved tetramer + 2 Ca++ -> factor XIIIa + 2 factor XIII B chain
+	B	fibrin multimer -> fibrin multimer, crosslinked + NH4+
+	D	activated thrombin (factor IIa) + thrombomodulin -> activated thrombin:thrombomodulin
+	B	protein C -> activated protein C + protein C heavy chain activation peptide
+_smallMoleculeName.size()	3
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	NH4+	extracellular region	Reactome DB_ID: 140912	NH4+ [ChEBI:28938]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

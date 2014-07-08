@@ -1,0 +1,93 @@
+edge.size() 22
+ 83 0 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 83 1 83 2 82 1 -1
+ 83 3 67 -1 82 2 -1
+ 83 2 67 -1 82 2 -1
+ 80 0 67 -1 82 2 -1
+ 80 1 67 -1 82 3 -1
+ 83 3 67 -1 82 3 -1
+ 80 2 67 2 82 4 -1
+ 83 3 67 2 82 4 -1
+ 83 3 83 4 82 5 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 3 83 -1 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 67 1 82 1 82 1 -1
+ 80 3 82 1 82 5 -1
+ 80 -1 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+_complexName.size()	3
+	IP3 receptor	platelet dense tubular network membrane	Reactome DB_ID: 418292	
+	IP3 receptor bound to IP3 and Ca++	platelet dense tubular network membrane	Reactome DB_ID: 139839	
+	DAG-activated TRPC3/6/7	plasma membrane	Reactome DB_ID: 426179	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	RasGRP	cytosol			
+	PRKCQ	cytosol			
+	TRPC6	plasma membrane			
+	DAGLB	plasma membrane			
+	DGKZ	plasma membrane			
+_reactionName.size()	8
+	D	Binding of IP3 to IP3 receptor
+	T	Transport of Ca++ from platelet dense tubular system to cytoplasm
+	D	Calcium and Diacylglycerol activate CalDAG-GEFs (RasGRPs)
+	D	Activation of Protein Kinase C novel isoforms
+	D	DAG activation of TRPC channels
+	B	DAG is metabolized by DAGL to 2-AG
+	T	2-AG hydrolysis to arachidonate by MAGL
+	T	DAG kinase produces phosphatidic acid from DAG
+_smallMoleculeName.size()	5
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	Ca2+	platelet dense tubular network lumen	Reactome DB_ID: 139827	Calcium [ChEBI:29108]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	DAG	plasma membrane	Reactome DB_ID: 114519	1,2-diacyl-sn-glycerol [ChEBI:17815]
+	Fatty Acid	plasma membrane	Reactome DB_ID: 426026	ChEBI:35366 Fatty Acids
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,912 @@
+edge.size() 650
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 67 -1 82 0 -1
+ 67 -1 67 -1 82 0 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 1 67 -1 82 1 -1
+ 83 -1 67 -1 82 1 -1
+ 67 -1 67 -1 82 1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 0 82 -1 -1
+ 80 2 83 0 82 2 -1
+ 83 -1 67 1 82 2 -1
+ 67 -1 67 1 82 2 -1
+ 67 -1 67 1 82 2 -1
+ 80 2 67 -1 82 2 -1
+ 67 -1 67 -1 82 2 -1
+ 80 2 67 -1 82 2 -1
+ 67 1 67 -1 82 3 -1
+ 67 0 67 2 82 4 -1
+ 69 0 67 2 82 4 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 6 -1
+ 67 -1 83 1 82 6 -1
+ 67 -1 83 -1 82 6 -1
+ 83 -1 67 -1 82 7 -1
+ 67 -1 83 2 82 7 -1
+ 67 -1 83 3 82 7 -1
+ 83 -1 67 -1 82 8 -1
+ 67 -1 83 4 82 8 -1
+ 67 -1 83 5 82 8 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 9 -1
+ 83 -1 67 -1 82 9 -1
+ 67 -1 83 0 82 9 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 2 67 -1 82 10 -1
+ 67 -1 67 -1 82 10 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 11 -1
+ 83 -1 67 -1 82 11 -1
+ 67 -1 83 0 82 11 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 12 -1
+ 67 -1 83 -1 82 12 -1
+ 67 -1 83 -1 82 12 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 13 -1
+ 80 7 83 -1 82 13 -1
+ 80 10 83 -1 82 13 -1
+ 80 10 83 -1 82 13 -1
+ 80 7 67 3 82 13 -1
+ 80 10 67 3 82 13 -1
+ 80 7 67 3 82 13 -1
+ 80 11 67 4 82 14 -1
+ 67 3 67 4 82 14 -1
+ 67 3 80 10 82 14 -1
+ 80 11 80 10 82 14 -1
+ 80 12 67 5 82 15 -1
+ 67 4 67 5 82 15 -1
+ 69 1 80 12 82 16 -1
+ 83 -1 80 12 82 16 -1
+ 67 5 80 12 82 16 -1
+ 67 5 80 11 82 16 -1
+ 69 1 80 11 82 16 -1
+ 67 5 80 11 82 16 -1
+ 69 1 83 6 82 16 -1
+ 67 5 83 7 82 16 -1
+ 69 1 83 8 82 16 -1
+ 67 5 83 -1 82 16 -1
+ 69 1 67 6 82 16 -1
+ 80 14 67 7 82 17 -1
+ 83 -1 67 7 82 17 -1
+ 67 5 67 7 82 17 -1
+ 67 5 80 12 82 17 -1
+ 80 14 80 12 82 17 -1
+ 67 5 80 12 82 17 -1
+ 80 14 80 11 82 17 -1
+ 67 5 80 11 82 17 -1
+ 80 14 80 11 82 17 -1
+ 67 5 83 9 82 17 -1
+ 80 14 83 -1 82 17 -1
+ 80 15 67 8 82 18 -1
+ 83 -1 67 8 82 18 -1
+ 67 5 67 8 82 18 -1
+ 67 5 80 12 82 18 -1
+ 80 15 80 12 82 18 -1
+ 67 5 80 12 82 18 -1
+ 80 15 80 11 82 18 -1
+ 67 5 80 11 82 18 -1
+ 80 15 80 11 82 18 -1
+ 67 5 83 -1 82 18 -1
+ 80 15 83 -1 82 18 -1
+ 83 -1 80 12 82 19 -1
+ 67 5 80 12 82 19 -1
+ 80 16 80 12 82 19 -1
+ 80 16 80 11 82 19 -1
+ 67 5 80 11 82 19 -1
+ 80 16 80 11 82 19 -1
+ 67 5 83 -1 82 19 -1
+ 80 16 83 -1 82 19 -1
+ 67 5 83 -1 82 19 -1
+ 80 16 83 -1 82 19 -1
+ 67 5 67 9 82 19 -1
+ 80 7 67 10 82 20 -1
+ 80 17 67 10 82 20 -1
+ 80 18 80 12 82 21 -1
+ 83 -1 80 12 82 21 -1
+ 67 5 80 12 82 21 -1
+ 67 5 80 11 82 21 -1
+ 80 18 80 11 82 21 -1
+ 67 5 80 11 82 21 -1
+ 80 18 83 -1 82 21 -1
+ 67 5 83 -1 82 21 -1
+ 80 18 83 -1 82 21 -1
+ 67 5 83 -1 82 21 -1
+ 80 18 67 11 82 21 -1
+ 67 12 67 -1 82 22 -1
+ 69 2 67 -1 82 22 -1
+ 83 -1 80 12 82 23 -1
+ 67 5 80 12 82 23 -1
+ 80 6 80 12 82 23 -1
+ 80 6 80 11 82 23 -1
+ 67 5 80 11 82 23 -1
+ 80 6 80 11 82 23 -1
+ 67 5 83 -1 82 23 -1
+ 80 6 83 -1 82 23 -1
+ 67 5 83 -1 82 23 -1
+ 80 6 83 -1 82 23 -1
+ 67 5 67 14 82 23 -1
+ 80 19 67 15 82 24 -1
+ 67 5 67 15 82 24 -1
+ 67 16 67 17 82 25 -1
+ 67 15 67 17 82 25 -1
+ 67 15 67 18 82 25 -1
+ 67 16 67 18 82 25 -1
+ 67 -1 80 -1 82 26 -1
+ 80 20 67 19 82 27 -1
+ 80 21 67 19 82 27 -1
+ 67 6 69 1 82 28 -1
+ 67 6 69 3 82 28 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 20 82 29 -1
+ 80 23 67 20 82 29 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 24 67 21 82 30 -1
+ 67 20 67 21 82 30 -1
+ 67 21 67 22 82 31 -1
+ 67 -1 67 22 82 31 -1
+ 67 22 67 23 82 32 -1
+ 80 -1 67 23 82 32 -1
+ 80 -1 67 24 82 33 -1
+ 67 23 67 24 82 33 -1
+ 83 -1 83 0 82 34 -1
+ 67 24 67 25 82 34 -1
+ 67 24 67 25 82 34 -1
+ 80 -1 67 26 82 35 -1
+ 67 25 67 26 82 35 -1
+ 83 -1 83 0 82 36 -1
+ 67 26 67 27 82 36 -1
+ 67 26 67 27 82 36 -1
+ 83 -1 83 0 82 37 -1
+ 67 27 67 28 82 37 -1
+ 67 27 67 28 82 37 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 25 80 -1 82 -1 -1
+ 80 -1 67 29 82 38 -1
+ 67 28 67 29 82 38 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 29 80 -1 82 39 -1
+ 67 29 67 22 82 39 -1
+ 67 29 80 -1 82 39 -1
+ 67 29 67 30 82 39 -1
+ 80 -1 67 -1 82 40 -1
+ 67 30 67 -1 82 40 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 31 82 -1 -1
+ 67 -1 67 31 82 -1 -1
+ 67 31 67 32 82 41 -1
+ 80 -1 67 33 82 -1 -1
+ 80 -1 67 33 82 -1 -1
+ 67 33 83 0 82 42 -1
+ 83 -1 67 34 82 42 -1
+ 67 33 67 34 82 42 -1
+ 67 -1 80 25 82 -1 -1
+ 67 -1 80 25 82 -1 -1
+ 69 -1 80 25 82 -1 -1
+ 69 -1 80 26 82 -1 -1
+ 67 -1 80 26 82 -1 -1
+ 67 -1 80 26 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 26 67 -1 82 43 -1
+ 67 35 67 -1 82 43 -1
+ 83 -1 83 0 82 44 -1
+ 67 35 67 36 82 44 -1
+ 67 35 67 36 82 44 -1
+ 83 -1 83 0 82 45 -1
+ 80 27 80 28 82 45 -1
+ 80 27 80 28 82 45 -1
+ 80 29 83 0 82 46 -1
+ 83 -1 80 30 82 46 -1
+ 80 29 80 30 82 46 -1
+ 80 30 67 39 82 47 -1
+ 67 38 67 39 82 47 -1
+ 67 39 80 31 82 48 -1
+ 67 39 67 38 82 48 -1
+ 80 29 67 40 82 49 -1
+ 80 32 67 40 82 49 -1
+ 80 33 67 40 82 49 -1
+ 83 -1 80 35 82 50 -1
+ 80 34 80 35 82 50 -1
+ 80 34 83 0 82 50 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 51 -1
+ 67 -1 67 -1 82 51 -1
+ 67 -1 83 0 82 51 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 83 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 83 0 82 -1 -1
+ 69 -1 69 -1 82 52 -1
+ 67 41 69 -1 82 52 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 53 -1
+ 80 38 67 -1 82 53 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 80 36 82 54 -1
+ 67 -1 80 36 82 54 -1
+ 67 -1 67 -1 82 54 -1
+ 67 -1 67 -1 82 54 -1
+ 67 -1 67 -1 82 55 -1
+ 83 -1 67 -1 82 55 -1
+ 67 -1 83 0 82 55 -1
+ 67 -1 80 39 82 55 -1
+ 80 40 83 0 82 56 -1
+ 83 -1 80 41 82 56 -1
+ 80 40 80 41 82 56 -1
+ 80 36 67 42 82 57 -1
+ 80 13 67 42 82 57 -1
+ 67 42 67 43 82 58 -1
+ 83 -1 67 43 82 58 -1
+ 67 42 83 0 82 58 -1
+ 67 43 80 36 82 59 -1
+ 67 43 80 43 82 59 -1
+ 80 43 67 44 82 60 -1
+ 67 44 67 -1 82 61 -1
+ 80 39 67 46 82 62 -1
+ 80 46 67 46 82 62 -1
+ 67 46 83 0 82 63 -1
+ 83 -1 67 47 82 63 -1
+ 67 46 67 47 82 63 -1
+ 67 47 80 39 82 64 -1
+ 67 47 80 47 82 64 -1
+ 80 47 67 48 82 65 -1
+ 67 48 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 48 67 49 82 66 -1
+ 80 38 67 49 82 66 -1
+ 80 49 67 49 82 66 -1
+ 67 41 67 49 82 66 -1
+ 67 49 83 0 82 67 -1
+ 83 -1 67 50 82 67 -1
+ 67 49 67 50 82 67 -1
+ 67 50 67 51 82 68 -1
+ 69 4 67 51 82 68 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 3 67 -1 82 69 -1
+ 67 -1 67 -1 82 69 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 38 67 52 82 70 -1
+ 80 5 67 52 82 70 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 71 -1
+ 67 41 67 -1 82 71 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 44 67 45 82 72 -1
+ 80 45 67 45 82 72 -1
+ 80 50 67 53 82 73 -1
+ 67 45 67 53 82 73 -1
+ 80 44 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 45 67 -1 82 74 -1
+ 67 -1 67 -1 82 74 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 75 -1
+ 80 5 67 -1 82 75 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 48 67 -1 82 76 -1
+ 67 -1 67 -1 82 76 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 77 -1
+ 80 51 80 52 82 77 -1
+ 80 51 80 52 82 77 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 69 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 78 -1
+ 80 53 80 54 82 78 -1
+ 80 53 80 54 82 78 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 55 83 0 82 79 -1
+ 83 -1 80 56 82 79 -1
+ 80 55 80 56 82 79 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 8 67 -1 82 80 -1
+ 67 -1 67 -1 82 80 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 80 4 67 -1 82 81 -1
+ 67 -1 67 -1 82 81 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 0 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 82 -1
+ 80 5 67 -1 82 82 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 0 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 83 -1
+ 67 38 67 -1 82 83 -1
+ 67 -1 67 -1 82 84 -1
+ 67 -1 67 38 82 84 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 1 -1
+ 67 -1 82 1 82 2 -1
+ 80 8 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+ 80 5 82 1 82 8 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 9 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 0 82 1 82 11 -1
+ 80 9 82 1 82 12 -1
+ 80 -1 82 1 82 -1 -1
+ 80 10 82 1 82 13 -1
+ 80 11 82 1 82 14 -1
+ 67 5 82 1 82 16 -1
+ 67 5 82 1 82 17 -1
+ 67 5 82 1 82 18 -1
+ 67 5 82 1 82 19 -1
+ 67 5 82 1 82 21 -1
+ 67 13 82 1 82 22 -1
+ 67 5 82 1 82 23 -1
+ 80 22 82 1 82 28 -1
+ 67 -1 82 1 82 -1 -1
+ 67 26 82 1 82 36 -1
+ 67 27 82 1 82 37 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 42 -1
+ 67 -1 82 1 82 -1 -1
+ 67 37 82 1 82 44 -1
+ 67 -1 82 1 82 45 -1
+ 67 36 82 1 82 46 -1
+ 67 38 82 1 82 48 -1
+ 80 33 82 1 82 50 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 37 82 1 82 51 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 54 -1
+ 67 -1 82 1 82 55 -1
+ 80 42 82 1 82 56 -1
+ 67 42 82 1 82 58 -1
+ 67 46 82 1 82 63 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 49 82 1 82 67 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 78 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 79 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 3 82 0 82 1 -1
+ 67 2 82 1 82 5 -1
+ 80 4 82 0 82 9 -1
+ 67 -1 82 0 82 9 -1
+ 67 -1 82 1 82 -1 -1
+ 67 11 82 0 82 22 -1
+ 67 14 82 0 82 26 -1
+ 80 7 82 0 82 27 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 0 82 -1 -1
+ 80 -1 82 0 82 39 -1
+ 80 41 82 0 82 58 -1
+ 67 53 82 0 82 74 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+_complexName.size()	54
+	ISGF3	nucleoplasm	Reactome DB_ID: 913527	
+	AAF	cytosol	Reactome DB_ID: 913524	
+	ISGF3 bound to ISRE promotor elements	nucleoplasm	Reactome DB_ID: 1015697	
+	ISG15:UBE1L	cytosol	Reactome DB_ID: 1169390	
+	ISG15:UBCH8	cytosol	Reactome DB_ID: 1169385	
+	ISG15:UBCH8:ISG15 E3 ligase	cytosol	Reactome DB_ID: 1169383	
+	ISGylated host proteins	cytosol	Reactome DB_ID: 1169387	
+	ISGylated Filamin B	cytosol	Reactome DB_ID: 1169388	
+	ISGylated PP2CB	cytosol	Reactome DB_ID: 1169391	
+	ISGylated E2 conjugating enzymes	cytosol	Reactome DB_ID: 1169382	
+	ISG15:NEDD4	cytosol	Reactome DB_ID: 1169384	
+	ISGylated NS1	cytosol	Reactome DB_ID: 1169392	
+	NS1 Homodimer	cytosol	Reactome DB_ID: 169143	
+	Nuclear Pore Complex (NPC)	nuclear envelope	Reactome DB_ID: 157689	
+	ISGylated IRF3	cytosol	Reactome DB_ID: 1169389	
+	ISGylated 4EHP	cytosol	Reactome DB_ID: 1678834	
+	eIF4F:mRNA	cytosol	Reactome DB_ID: 72585	
+	EIF4F	cytosol	Reactome DB_ID: 1678832	
+	ISGylated 4EHP:mRNA	cytosol	Reactome DB_ID: 1678836	
+	monoubiquitinated N-myristoyl GAG (P12493) protein	cytosol	Reactome DB_ID: 184273	
+	Interleukin-1 receptor type 1:Interleukin-1	plasma membrane	Reactome DB_ID: 445755	
+	IL1R1:IL1:IL1RAP	plasma membrane	Reactome DB_ID: 445758	
+	IL1:IL1R1:IL1RAP:MYD88 homodimer	plasma membrane	Reactome DB_ID: 450120	
+	IL1 receptor complex	plasma membrane	Reactome DB_ID: 446637	
+	IL1 receptor complex:TOLLIP	plasma membrane	Reactome DB_ID: 446888	
+	IL1 receptor complex - activated IRAK4:TOLLIP	plasma membrane	Reactome DB_ID: 446643	
+	IL1 receptor complex-activated IRAK4:TOLLIP:IRAK1	plasma membrane	Reactome DB_ID: 446693	
+	IL1 receptor complex- activated IRAK4:TOLLIP:p-IRAK1	plasma membrane	Reactome DB_ID: 446689	
+	IL1 receptor complex- activated IRAK4:TOLLIP:hp-IRAK1	plasma membrane	Reactome DB_ID: 446696	
+	IL1 receptor complex-activated IRAK4:TOLLIP:hp-IRAK:TRAF6	plasma membrane	Reactome DB_ID: 446864	
+	hp-IRAK1:TRAF6	plasma membrane	Reactome DB_ID: 450121	
+	hp-IRAK1:K6-poly-Ub oligo-TRAF6:TAK1 complex	cytosol	Reactome DB_ID: 450185	
+	hp-IRAK1:K6-poly-Ub oligo-TRAF6:Activated TAK1 complex	cytosol	Reactome DB_ID: 450186	
+	hp-IRAK1: Pellino-1,2,3/IRAK4: Pellino-1,2,3			
+	hp-IRAK1: p-Pellino-1,2,(3)/IRAK4: p-Pellino-1,2,3			
+	IKK complex	cytosol	Reactome DB_ID: 168113	
+	Activated IKK Complex	cytosol	Reactome DB_ID: 177663	
+	hp-IRAK1:K6-poly-Ub oligo-TRAF6:Activated TAK1 complex/PAMP:NOD oligomer:K63-polyUb-RIP2:NEMO:activated TAK1 complex/pUb-TRAF6:TAB1:TAB2/TAB3:free polyubiquitin chain : phospho-TAK1/p-IRAK2:K63-linked pUb oligo-TRAF6:free K63-linked pUb:p-TAK1complex			
+	SCF beta-TrCP complex	cytosol	Reactome DB_ID: 206748	
+	SCF betaTrCP complex:p-NFKB p105	cytosol	Reactome DB_ID: 451614	
+	NFKB p105:TPL2:ABIN2	cytosol	Reactome DB_ID: 451638	
+	PI3K alpha/PI3K beta/PI3K delta			
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1:MEK1	cytosol	Reactome DB_ID: 109843	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	IL6:sIL6R	extracellular region	Reactome DB_ID: 1067687	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2:MEK2	cytosol	Reactome DB_ID: 109854	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+	FYN-like kinases:CBL:GRB2:p85-containing Class 1A PI3Ks	cytosol	Reactome DB_ID: 912623	
+	FYN-like kinases:p(Y731)-CBL:GRB2:p85-containing Class 1A PI3Ks	cytosol	Reactome DB_ID: 912647	
+	FYN-like kinases:p(Y731)-CBL:GRB2:Ubiquitinated p85-containing Class 1A PI3Ks	cytosol	Reactome DB_ID: 912799	
+	SHP2:GRB2	cytosol	Reactome DB_ID: 914028	
+	IL6:sIL6R:sgp130	extracellular region	Reactome DB_ID: 1067674	
+_physicalEntityName.size()	5
+		
+	IFIT1/E1/ERK1/JAK1/PLC1/STAT1/MX1/PKR/DDX58/IFIT1/E1/ERK1/JAK1/PLC1/STAT1/MX1/PKR/DDX58	cytosol
+	IMA8/KPNB1/IMA8/KPNB1	cytosol
+		
+		
+_proteinName.size()	57
+	STAT2	cytosol	Reactome DB_ID: 882029	UniProt:P52630	STAT2
+	STAT1-2	cytosol			
+	STAT1-1	cytosol	Reactome DB_ID: 380745	UniProt:P42224-1	STAT1
+	SHP2	cytosol			
+	SHP1	cytosol	Reactome DB_ID: 197938	UniProt:P29350	PTPN6
+	SHP2	cytosol	Reactome DB_ID: 162563	UniProt:Q06124	PTPN11
+	IRF3	cytosol	Reactome DB_ID: 166251	UniProt:Q14653	IRF3
+	ISG15	cytosol	Reactome DB_ID: 936552	UniProt:P05161	ISG15
+	PTPN1	cytosol	Reactome DB_ID: 210625	UniProt:P18031	PTPN1
+	PTPN1	cytosol			
+	UBA7	cytosol	Reactome DB_ID: 936550	UniProt:P41226	UBA7
+	UBCH8	cytosol	Reactome DB_ID: 936014	UniProt:O14933	UBE2L6
+	TRIM25	cytosol			
+	ERK1	cytosol	Reactome DB_ID: 59284	UniProt:P27361	MAPK3
+	FLNB	cytosol	Reactome DB_ID: 354163	UniProt:O75369	FLNB
+	PPM1B	cytosol	Reactome DB_ID: 1169375	UniProt:O75688	PPM1B
+	UBE2N	cytosol			
+	NEDD4	cytosol	Reactome DB_ID: 975992	UniProt:P46934	NEDD4
+	NS1	cytosol	Reactome DB_ID: 169118	UniProt:P03496	NS
+	4EHP	cytosol	Reactome DB_ID: 1678822	UniProt:O60573	EIF4E2
+	UBC(609-684)	cytosol			
+	N-myristoyl GAG (P12493) protein	cytosol	Reactome DB_ID: 184403	UniProt:P12493	gag
+	USP41	cytosol			
+	IL1R1	plasma membrane	Reactome DB_ID: 197595	UniProt:P14778	IL1R1
+	mIL1RAP	plasma membrane	Reactome DB_ID: 445745	UniProt:Q9NPH3-1	IL1RAP
+	PELI3	cytosol			
+	K63polyUb-hp-IRAK1	cytosol	Reactome DB_ID: 451565	UniProt:P51617	IRAK1
+	MKK6	cytosol	Reactome DB_ID: 167998	UniProt:P52564	MAP2K6
+	p-S207,T211-MKK6	cytosol	Reactome DB_ID: 206255	UniProt:P52564	MAP2K6
+	NFKB1	cytosol	Reactome DB_ID: 451607	UniProt:P19838	NFKB1
+	p-NFkB p105	cytosol	Reactome DB_ID: 451611	UniProt:P19838	NFKB1
+	Ub-p-NFkB1 p105	cytosol	Reactome DB_ID: 451619	UniProt:P19838	NFKB1
+	TNIP2	cytosol	Reactome DB_ID: 451661	UniProt:Q8NFZ5	TNIP2
+	Cot	cytosol	Reactome DB_ID: 389388	UniProt:P41279	MAP3K8
+	SEK1	cytosol			
+	p-S257,T261-SEK1	cytosol			
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	LCK	cytosol			
+	Ash-L	cytosol	Reactome DB_ID: 74686	UniProt:P62993-1	GRB2
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	p-S218,222-MEK1	cytosol			
+	p-T286,292-MEK1	cytosol			
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	IL6	extracellular region	Reactome DB_ID: 447100	UniProt:P05231	IL6
+	sIL6R	extracellular region	Reactome DB_ID: 1067661	UniProt:P08887-2	IL6R
+	ERK2	cytosol	Reactome DB_ID: 59282	UniProt:P28482	MAPK1
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+	CBL	cytosol	Reactome DB_ID: 112199	UniProt:P22681	CBL
+	YES1	cytosol			
+	sgp130	extracellular region	Reactome DB_ID: 1067653	UniProt:P40189-2	IL6ST
+	STAT5B	cytosol			
+	STA5B_HUMAN	cytosol			
+	IRS1	cytosol			
+	IRS-2	cytosol			
+	ERK1	cytosol			
+	phospho-ERK-2	cytosol			
+_reactionName.size()	85
+	D	Recruitment of STAT2 to p-IFNAR1
+	D	Phosphorylation of STAT1
+	T	Formation of p-STAT1 homodimer
+	T	Translocation of p-STAT1:p-STAT1 dimer to nucleus
+	D	ISGF3 binds the ISRE promoter elements in IFN-stimulated genes
+	B	Expression of IFN-induced genes
+	T	Dephosphorylation of TYK2 by PTP1B
+	T	Dephosphorylation of JAK1 by SHP1
+	T	Dephosphorylation of STAT1 by SHP2
+	T	Transphosphorylation of JAK1
+	D	Binding of STAT1 to p-IFNGR1
+	T	Phosphorylation of STAT1 at Ser727
+	T	Dephosphorylation of JAKs by PTPs
+	T	Activation of ISG15 by UBE1L E1 ligase
+	T	Transfer of ISG15 from E1 to E2 (UBCH8)
+	D	Interaction of E3 ligase with ISG15:E2 complex
+	T	ISGylation of host proteins
+	T	ISGylation of host protein filamin B
+	T	ISGylation of protein phosphatase 1 beta (PP2CB)
+	T	ISGylation of E2 conjugating enzymes
+	D	Interaction of ISG15 with NEDD4 and inhibition of Ebola virus budding
+	T	ISGylation of viral protein NS1
+	D	Translocation of Influenza A virus nonstructural protein 1 (NS1A) into the nucleus
+	T	ISGylation of IRF3
+	D	ISGylation of protein translation regulator 4EHP
+	T	Competitive inhibition of translation initiation by ISGylated 4EHP
+	T	PIN1 mediated IRF3 degradation
+	D	Monoubiquitination of N-myristoyl GAG (P12493) protein
+	B	Regulation of protein ISGylation by ISG15 deconjugating enzyme USP18
+	D	Interleukin-1 receptor type 1 binds Interleukin 1
+	D	Interleukin-1 receptor type 1: Interleukin 1 binds Interleukin-1 receptor accessory protein, membrane associated isoform
+	D	IL1R1:IL1:IL1RAP binds MYD88 homodimer
+	D	IL1R1:IL1:IL1RAP:MYD88 homodimer binds IRAK4
+	D	The Interleukin 1 receptor complex binds Tollip
+	T	IRAK4 is activated by autophosphorylation
+	D	IRAK1 binds to MYD88 within the IL1R complex
+	T	IRAK4 phosphorylates IRAK1
+	T	IRAK4-activated IRAK1 autophosphorylates
+	D	Hyperphosphorylated IRAK1 associates with TRAF6
+	B	TRAF6 binding leads to IRAK1:TRAF6 release
+	D	IRAK1 induces oligomerisation of TRAF6
+	T	TAK1 is activated within the TAK1 complex
+	T	IRAK1 and 4 can phosphorylate Pellino-1 and 2.
+	D	NEMO binds polyubiquitinated IRAK1
+	T	Activated TAK1 mediates phosphorylation of the IKK Complex
+	T	TAK1 phosphorylates MKK6
+	T	The IKKB complex phosphorylates NFkB p105
+	D	The SCF betaTrCP complex binds p-NFkB p105
+	B	Beta-TrCP ubiquitinates then dissociates from p-NFKB p105
+	D	NFKB p105, TPL2 (COT) and ABIN2 form a stable complex
+	T	TPL2 phosphorylates MEK1, SEK1
+	T	SHC1 bound to IL2 receptor is phosphorylated
+	D	Gab2 binds the p85 subunit of Class 1A PI3 kinases
+	D	The SHC1:SHIP1 complex is stabilized by GRB2
+	T	RAF1  phosphorylates MEK1
+	T	RAF1 phosphorylates MEK2
+	T	Inactivation of MEK1 by p34cdc2
+	D	MEK1 binds ERK-1
+	T	MEK1 phosphorylates ERK-1
+	B	Dissociation of phospho-ERK-1:MEK1
+	T	Dimerisation of phospho-ERK-1
+	T	Nuclear translocation of phospho-ERK-1 dimer
+	D	MEK2 binds ERK-2
+	T	MEK2 phosphorylates ERK-2
+	B	Dissociation of phospho-ERK-2:MEK2
+	T	Dimerisation of phospho-ERK-2
+	D	CBL, GRB2, FYN and PI3K p85 subunit are constitutively associated
+	T	CBL is tyrosine phosphorylated
+	D	CBL ubiquitinates PI3K
+	D	SHP1 and SHP2 bind the common beta chain
+	D	SHP2 can recruit GRB2
+	D	14-3-3 zeta binding allows recruitment of PI3K
+	D	Interleukin-6 binds to soluble IL-6 receptor
+	D	IL6:sIL6R binds sgp130
+	D	IL6:sIL6R binds to JAKs:IL6RB (gp130)
+	D	SHP2 binds gp130 phosphotyrosine-759
+	D	SHP2 binds c-Cbl upon IL-6 stimulation
+	T	p(Y449)-IL7RA mediates STAT5 activation
+	T	JAK2 phosphorylation of IRS-1/2
+	T	Lyn activates ERK
+	D	PTP1B binds the GH receptor complex
+	D	SHP1 (PTPN6) binds JAK2 in the receptor complex
+	D	PRLR binds SHP2 (PTPN11)
+	D	PRLR binds SCF beta-TrCP complex
+	B	Prolactin receptor is internalized
+_smallMoleculeName.size()	10
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	integral to lumenal side of endoplasmic reticulum membrane
+	whole

@@ -1,0 +1,791 @@
+edge.size() 421
+ 67 0 67 1 82 0 -1
+ 67 1 67 0 82 1 -1
+ 83 -1 83 -1 82 2 -1
+ 83 2 83 -1 82 2 -1
+ 83 -1 83 0 82 2 -1
+ 83 3 83 -1 82 2 -1
+ 83 4 83 1 82 2 -1
+ 83 6 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 5 82 3 -1
+ 83 -1 83 -1 82 4 -1
+ 83 -1 83 -1 82 4 -1
+ 83 -1 83 -1 82 4 -1
+ 83 6 83 7 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 3 83 5 82 5 -1
+ 83 8 83 0 82 5 -1
+ 83 8 83 6 82 6 -1
+ 83 5 83 -1 82 6 -1
+ 83 11 83 9 82 7 -1
+ 83 6 83 -1 82 8 -1
+ 83 -1 83 5 82 8 -1
+ 83 -1 83 11 82 8 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 12 82 11 -1
+ 83 12 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 0 83 13 82 12 -1
+ 83 -1 83 14 82 12 -1
+ 83 -1 83 15 82 12 -1
+ 83 16 83 20 82 13 -1
+ 83 5 83 -1 82 13 -1
+ 83 14 83 -1 82 13 -1
+ 83 0 83 -1 82 13 -1
+ 83 17 83 3 82 13 -1
+ 83 18 83 -1 82 13 -1
+ 83 19 83 4 82 13 -1
+ 83 6 83 -1 82 14 -1
+ 83 24 83 21 82 14 -1
+ 83 25 83 12 82 14 -1
+ 83 -1 83 22 82 14 -1
+ 83 26 83 23 82 14 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 27 83 0 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 5 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 5 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 19 -1
+ 83 28 83 -1 82 19 -1
+ 83 -1 83 29 82 19 -1
+ 83 -1 83 -1 82 20 -1
+ 83 0 83 -1 82 20 -1
+ 83 -1 83 -1 82 21 -1
+ 83 0 83 -1 82 21 -1
+ 83 -1 83 12 82 21 -1
+ 83 6 83 30 82 22 -1
+ 83 32 83 31 82 22 -1
+ 83 6 83 33 82 23 -1
+ 83 -1 83 34 82 23 -1
+ 83 -1 83 35 82 24 -1
+ 83 4 83 36 82 24 -1
+ 83 40 83 37 82 25 -1
+ 83 41 83 38 82 25 -1
+ 83 4 83 39 82 25 -1
+ 83 45 83 42 82 26 -1
+ 83 -1 83 43 82 26 -1
+ 83 46 83 44 82 26 -1
+ 83 47 83 -1 82 26 -1
+ 83 12 83 -1 82 26 -1
+ 83 51 83 48 82 27 -1
+ 83 52 83 49 82 27 -1
+ 83 53 83 50 82 27 -1
+ 83 6 83 0 82 28 -1
+ 83 55 83 54 82 28 -1
+ 83 -1 83 6 82 29 -1
+ 83 0 83 56 82 29 -1
+ 83 0 83 6 82 30 -1
+ 83 57 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 6 83 0 82 31 -1
+ 83 55 83 -1 82 31 -1
+ 83 6 83 58 82 32 -1
+ 83 32 83 -1 82 32 -1
+ 83 6 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 31 83 27 82 34 -1
+ 83 0 83 -1 82 34 -1
+ 83 -1 83 59 82 35 -1
+ 83 -1 83 34 82 35 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 60 82 36 -1
+ 83 0 83 61 82 36 -1
+ 83 -1 83 62 82 36 -1
+ 83 -1 83 64 82 37 -1
+ 83 63 83 0 82 37 -1
+ 83 -1 83 65 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 6 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 5 82 39 -1
+ 83 66 83 0 82 39 -1
+ 83 67 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 3 83 -1 82 39 -1
+ 83 6 83 68 82 40 -1
+ 83 70 83 69 82 40 -1
+ 83 0 83 70 82 41 -1
+ 83 72 83 71 82 41 -1
+ 83 73 83 75 82 42 -1
+ 83 72 83 76 82 42 -1
+ 83 74 83 77 82 42 -1
+ 83 -1 83 -1 82 43 -1
+ 83 75 83 -1 82 43 -1
+ 83 -1 83 4 82 43 -1
+ 83 -1 83 78 82 44 -1
+ 83 -1 83 10 82 44 -1
+ 83 27 83 79 82 45 -1
+ 83 80 83 0 82 45 -1
+ 83 -1 83 81 82 46 -1
+ 83 -1 83 -1 82 46 -1
+ 83 -1 83 -1 82 46 -1
+ 83 -1 83 -1 82 47 -1
+ 83 80 83 -1 82 47 -1
+ 83 -1 83 82 82 47 -1
+ 83 6 83 -1 82 48 -1
+ 83 83 83 -1 82 48 -1
+ 83 6 83 -1 82 49 -1
+ 83 -1 83 -1 82 49 -1
+ 83 -1 83 5 82 50 -1
+ 83 -1 83 -1 82 50 -1
+ 83 -1 83 5 82 51 -1
+ 83 -1 83 -1 82 51 -1
+ 83 -1 83 5 82 52 -1
+ 83 82 83 84 82 52 -1
+ 83 -1 83 29 82 53 -1
+ 83 28 83 85 82 53 -1
+ 83 -1 83 -1 82 53 -1
+ 83 86 83 -1 82 54 -1
+ 83 5 83 -1 82 54 -1
+ 83 -1 83 -1 82 54 -1
+ 83 83 83 87 82 55 -1
+ 83 27 83 0 82 55 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 51 83 88 82 56 -1
+ 83 91 83 89 82 56 -1
+ 83 92 83 90 82 56 -1
+ 83 6 83 93 82 57 -1
+ 83 94 83 0 82 57 -1
+ 83 6 83 95 82 58 -1
+ 83 94 83 0 82 58 -1
+ 83 -1 83 6 82 59 -1
+ 83 0 83 97 82 59 -1
+ 83 96 83 -1 82 59 -1
+ 83 6 83 -1 82 60 -1
+ 83 83 83 -1 82 60 -1
+ 83 6 83 -1 82 61 -1
+ 83 -1 83 -1 82 61 -1
+ 83 45 83 98 82 62 -1
+ 83 99 83 -1 82 62 -1
+ 83 100 83 0 82 63 -1
+ 83 0 83 101 82 64 -1
+ 83 100 83 102 82 64 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 103 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 45 83 104 82 65 -1
+ 83 106 83 105 82 65 -1
+ 83 107 83 106 82 66 -1
+ 83 107 83 108 82 67 -1
+ 83 0 83 109 82 67 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 110 83 103 82 68 -1
+ 83 -1 83 -1 82 68 -1
+ 83 -1 83 -1 82 68 -1
+ 83 -1 83 -1 82 69 -1
+ 83 5 83 111 82 69 -1
+ 83 -1 83 -1 82 70 -1
+ 83 111 83 5 82 70 -1
+ 83 -1 83 5 82 -1 -1
+ 83 -1 83 5 82 -1 -1
+ 83 5 83 -1 82 71 -1
+ 83 112 83 -1 82 71 -1
+ 83 -1 83 5 82 72 -1
+ 83 -1 83 112 82 72 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 83 5 82 73 -1
+ 83 -1 83 113 82 74 -1
+ 83 -1 83 114 82 74 -1
+ 83 5 83 116 82 75 -1
+ 83 115 83 117 82 75 -1
+ 83 5 83 118 82 76 -1
+ 83 115 83 -1 82 76 -1
+ 83 -1 83 119 82 77 -1
+ 83 120 83 5 82 77 -1
+ 83 -1 83 -1 82 78 -1
+ 83 120 83 -1 82 78 -1
+ 83 6 83 -1 82 79 -1
+ 83 -1 83 5 82 79 -1
+ 83 3 83 -1 82 79 -1
+ 83 -1 83 0 82 79 -1
+ 83 6 83 121 82 80 -1
+ 83 -1 83 5 82 80 -1
+ 83 3 83 122 82 80 -1
+ 83 -1 83 0 82 80 -1
+ 80 10 83 -1 82 81 -1
+ 80 10 80 9 82 81 -1
+ 83 -1 80 9 82 81 -1
+ 83 -1 83 -1 82 81 -1
+ 83 0 80 9 82 81 -1
+ 83 125 83 123 82 82 -1
+ 83 126 80 11 82 82 -1
+ 80 12 80 11 82 82 -1
+ 80 12 83 124 82 82 -1
+ 83 0 80 11 82 82 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 10 80 9 82 83 -1
+ 83 63 80 9 82 83 -1
+ 80 10 83 64 82 83 -1
+ 83 45 83 -1 82 84 -1
+ 83 63 83 -1 82 84 -1
+ 80 -1 80 12 82 85 -1
+ 83 45 83 127 82 86 -1
+ 80 11 83 128 82 86 -1
+ 80 11 80 12 82 86 -1
+ 80 11 80 12 82 86 -1
+ 80 11 80 -1 82 87 -1
+ 83 5 83 -1 82 88 -1
+ 83 129 83 130 82 88 -1
+ 83 -1 83 5 82 89 -1
+ 83 130 83 129 82 89 -1
+ 83 29 83 131 82 90 -1
+ 83 132 83 28 82 90 -1
+ 83 29 83 133 82 91 -1
+ 83 132 83 134 82 91 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 26 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 12 83 135 82 92 -1
+ 83 4 83 0 82 92 -1
+ 83 -1 83 -1 82 93 -1
+ 83 0 83 -1 82 93 -1
+ 83 -1 83 4 82 93 -1
+ 83 4 83 -1 82 94 -1
+ 83 14 83 0 82 94 -1
+ 83 136 83 0 82 95 -1
+ 83 4 83 -1 82 95 -1
+ 83 136 83 0 82 96 -1
+ 83 4 83 137 82 96 -1
+ 83 6 83 138 82 97 -1
+ 83 136 83 0 82 97 -1
+ 83 6 83 -1 82 98 -1
+ 83 136 83 0 82 98 -1
+ 83 -1 83 6 82 99 -1
+ 83 0 83 139 82 99 -1
+ 83 -1 83 140 82 99 -1
+ 83 141 83 4 82 100 -1
+ 83 0 83 143 82 100 -1
+ 83 142 83 144 82 100 -1
+ 83 145 83 147 82 101 -1
+ 83 0 83 148 82 101 -1
+ 83 146 83 4 82 101 -1
+ 83 -1 83 6 82 102 -1
+ 83 0 83 -1 82 102 -1
+ 83 -1 83 149 82 102 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 0 83 -1 82 103 -1
+ 83 -1 83 -1 82 103 -1
+ 83 -1 83 150 82 103 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 0 82 1 82 2 -1
+ 80 0 82 1 82 3 -1
+ 80 0 82 1 82 4 -1
+ 80 1 82 1 82 5 -1
+ 80 0 82 1 82 6 -1
+ 67 2 82 1 82 7 -1
+ 67 2 82 1 82 8 -1
+ 67 3 82 1 82 9 -1
+ 67 4 82 1 82 10 -1
+ 67 4 82 1 82 11 -1
+ 67 5 82 1 82 12 -1
+ 80 2 82 1 82 13 -1
+ 67 6 82 1 82 14 -1
+ 67 3 82 1 82 15 -1
+ 80 3 82 1 82 16 -1
+ 67 7 82 1 82 17 -1
+ 67 8 82 1 82 18 -1
+ 67 9 82 1 82 19 -1
+ 67 10 82 1 82 20 -1
+ 67 11 82 1 82 21 -1
+ 67 12 82 1 82 22 -1
+ 67 12 82 1 82 23 -1
+ 67 13 82 1 82 24 -1
+ 67 14 82 1 82 25 -1
+ 67 15 82 1 82 26 -1
+ 67 16 82 1 82 27 -1
+ 67 17 82 1 82 28 -1
+ 80 4 82 1 82 29 -1
+ 67 18 82 1 82 30 -1
+ 67 19 82 1 82 31 -1
+ 67 12 82 1 82 32 -1
+ 67 12 82 1 82 33 -1
+ 67 20 82 1 82 34 -1
+ 67 21 82 1 82 35 -1
+ 67 21 82 1 82 36 -1
+ 67 22 82 1 82 37 -1
+ 67 23 82 1 82 38 -1
+ 67 24 82 1 82 39 -1
+ 67 24 82 1 82 40 -1
+ 67 24 82 1 82 41 -1
+ 67 25 82 1 82 42 -1
+ 67 26 82 1 82 43 -1
+ 67 26 82 1 82 44 -1
+ 67 27 82 1 82 45 -1
+ 67 28 82 1 82 46 -1
+ 67 29 82 1 82 47 -1
+ 80 0 82 1 82 48 -1
+ 67 30 82 1 82 49 -1
+ 67 31 82 1 82 50 -1
+ 67 32 82 1 82 51 -1
+ 67 33 82 1 82 52 -1
+ 80 5 82 1 82 53 -1
+ 67 8 82 1 82 54 -1
+ 67 34 82 1 82 55 -1
+ 67 -1 82 1 82 -1 -1
+ 67 16 82 1 82 56 -1
+ 67 35 82 1 82 57 -1
+ 67 18 82 1 82 58 -1
+ 67 19 82 1 82 59 -1
+ 80 0 82 1 82 60 -1
+ 67 30 82 1 82 61 -1
+ 67 36 82 1 82 62 -1
+ 67 37 82 1 82 63 -1
+ 67 38 82 1 82 64 -1
+ 67 -1 82 1 82 -1 -1
+ 67 36 82 1 82 65 -1
+ 67 37 82 1 82 66 -1
+ 67 38 82 1 82 67 -1
+ 67 -1 82 1 82 68 -1
+ 80 6 82 1 82 69 -1
+ 80 6 82 1 82 70 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 39 82 1 82 71 -1
+ 67 39 82 1 82 72 -1
+ 80 7 82 1 82 73 -1
+ 80 7 82 1 82 74 -1
+ 80 8 82 1 82 75 -1
+ 80 8 82 1 82 76 -1
+ 67 40 82 1 82 77 -1
+ 67 40 82 1 82 78 -1
+ 67 41 82 1 82 79 -1
+ 67 42 82 1 82 80 -1
+ 67 43 82 1 82 81 -1
+ 67 43 82 1 82 82 -1
+ 67 -1 82 1 82 -1 -1
+ 80 10 82 1 82 83 -1
+ 67 44 82 1 82 84 -1
+ 67 45 82 1 82 86 -1
+ 67 46 82 1 82 88 -1
+ 67 46 82 1 82 89 -1
+ 67 -1 82 1 82 90 -1
+ 67 -1 82 1 82 91 -1
+ 67 47 82 1 82 92 -1
+ 67 47 82 1 82 93 -1
+ 67 47 82 1 82 94 -1
+ 67 48 82 1 82 95 -1
+ 80 13 82 1 82 96 -1
+ 80 13 82 1 82 97 -1
+ 80 14 82 1 82 98 -1
+ 80 14 82 1 82 99 -1
+ 67 48 82 1 82 100 -1
+ 67 48 82 1 82 101 -1
+ 80 14 82 1 82 102 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 49 82 1 82 103 -1
+ 67 -1 82 1 82 -1 -1
+ 83 0 82 1 82 0 -1
+ 83 -1 82 1 82 0 -1
+ 83 1 82 1 82 0 -1
+ 83 -1 82 1 82 1 -1
+ 83 -1 82 0 82 12 -1
+ 83 -1 82 0 82 14 -1
+ 83 11 82 0 82 14 -1
+ 83 9 82 0 82 14 -1
+ 83 1 82 0 82 14 -1
+ 83 5 82 1 82 29 -1
+ 83 5 82 1 82 30 -1
+ 83 5 82 1 82 30 -1
+ 83 5 82 1 82 58 -1
+ 83 80 82 0 82 81 -1
+ 83 -1 82 1 82 81 -1
+ 83 -1 82 1 82 82 -1
+ 83 80 82 0 82 82 -1
+ 83 10 82 1 82 92 -1
+ 83 10 82 1 82 93 -1
+ 83 10 82 1 82 94 -1
+ 83 94 82 1 82 -1 -1
+ 83 94 82 1 82 -1 -1
+_complexName.size()	50
+	PPAT dimer	cytosol	Reactome DB_ID: 73790	
+	PPAT tetramer	cytosol	Reactome DB_ID: 73789	
+	PAICS octamer	cytosol	Reactome DB_ID: 419271	
+	adenylosuccinate lyase tetramer	cytosol	Reactome DB_ID: 111408	
+	ATIC dimer	cytosol	Reactome DB_ID: 111428	
+	IMP (inosine monophosphate) dehydrogenase 1 tetramer/IMP (inosine monophosphate) dehydrogenase 2 tetramer			
+	adenylosuccinate synthetase like 1 holoenzyme dimer/adenylosuccinate synthetase holoenzyme dimer			
+	adenosine kinase holoenzyme	cytosol	Reactome DB_ID: 76542	
+	DCK dimer	cytosol	Reactome DB_ID: 73516	
+	deoxyguanosine kinase holoenzyme	mitochondrial matrix	Reactome DB_ID: 74205	
+	AMPD1 tetramer/AMPD2 tetramer/AMPD3 tetramer			
+	ADAL:Zn	cytosol	Reactome DB_ID: 2161178	
+	NP trimer	cytosol	Reactome DB_ID: 74237	
+	APRT homodimer	cytosol	Reactome DB_ID: 74211	
+	HGPRT homotetramer	cytosol	Reactome DB_ID: 74208	
+	GMPR tetramer/GMPR2 tetramer			
+	5'-nucleotidase, ecto (CD73) holoenzyme	plasma membrane	Reactome DB_ID: 109266	
+	NT5C2 tetramer	cytosol	Reactome DB_ID: 109318	
+	NT5C1A tetramer	cytosol	Reactome DB_ID: 109363	
+	NT5C dimer	cytosol	Reactome DB_ID: 109468	
+	Guanine deaminase homodimer	cytosol	Reactome DB_ID: 74253	
+	XDH dimer	cytosol	Reactome DB_ID: 74244	
+	GPX1 tetramer	cytosol	Reactome DB_ID: 71674	
+	CAT tetramer	peroxisomal matrix	Reactome DB_ID: 76028	
+	CAD hexamer	cytosol	Reactome DB_ID: 73457	
+	DHOdeHase-Fe-FMN complex	mitochondrial inner membrane	Reactome DB_ID: 73534	
+	UMPS dimer	cytosol	Reactome DB_ID: 419512	
+	DCTD hexamer	cytosol	Reactome DB_ID: 500740	
+	DUT trimer	nucleoplasm	Reactome DB_ID: 500745	
+	TS dimer	cytosol	Reactome DB_ID: 73519	
+	TYMP dimer	cytosol	Reactome DB_ID: 74363	
+	UCK1 tetramer	cytosol	Reactome DB_ID: 73504	
+	UCK2 tetramer	cytosol	Reactome DB_ID: 500801	
+	TK1 tetramer	cytosol	Reactome DB_ID: 73501	
+	CDA tetramer	cytosol	Reactome DB_ID: 73462	
+	NT5C3 holoenzyme	cytosol	Reactome DB_ID: 109433	
+	DPYD dimer	cytosol	Reactome DB_ID: 73529	
+	Dihydropyriminidase-Zn complex	cytosol	Reactome DB_ID: 73468	
+	3-ureidopropionase-Zn complex	cytosol	Reactome DB_ID: 73465	
+	AK5 dimer	cytosol	Reactome DB_ID: 500061	
+	dTMP kinase-Mg complex	cytosol	Reactome DB_ID: 73497	
+	CTPS tetramer	cytosol	Reactome DB_ID: 504052	
+	CTPS2 tetramer	cytosol	Reactome DB_ID: 504058	
+	ribonucleotide reductase	cytosol	Reactome DB_ID: 73640	
+	glutathione reductase holoenzyme	cytosol	Reactome DB_ID: 71680	
+	thioredoxin reductase holoenzyme	cytosol	Reactome DB_ID: 73532	
+	nucleoside diphosphate kinase 1A:5B heterohexamer/nucleoside diphosphate kinase 2A:4B heterohexamer/nucleoside diphosphate kinase 3A:3B heterohexamer/nucleoside diphosphate kinase 4A:2B heterohexamer/nucleoside diphosphate kinase 5A:1B heterohexamer/nucleoside diphosphate kinase A hexamer/nucleoside diphosphate kinase B hexamer			
+	ITPA dimer	cytosol	Reactome DB_ID: 2509833	
+	NUDT1p18:Mg2+/NUDT1p21:Mg2+/NUDT1p22:Mg2+/NUDT1p26:Mg2+			
+	NUDT5 dimer	cytosol	Reactome DB_ID: 2393948	
+_physicalEntityName.size()	0
+_proteinName.size()	15
+	GART	cytosol	Reactome DB_ID: 62498	UniProt:P22102	GART
+	PFAS	cytosol	Reactome DB_ID: 62500	UniProt:O15067	PFAS
+	GMPS	cytosol	Reactome DB_ID: 56085	UniProt:P49915	GMPS
+	ADA	cytosol	Reactome DB_ID: 49701	UniProt:P00813	ADA
+	NT5C1B	cytosol	Reactome DB_ID: 109408	UniProt:Q96P26	NT5C1B
+	TK2	mitochondrial matrix	Reactome DB_ID: 58100	UniProt:O00142	TK2
+	CMPK1	cytosol			
+	GUK1	cytosol	Reactome DB_ID: 58048	UniProt:Q16774	GUK1
+	AK1	cytosol			
+	GLRX	cytosol	Reactome DB_ID: 55729	UniProt:P35754	GLRX
+	TTase	cytosol	Reactome DB_ID: 111740	UniProt:P35754	GLRX
+	TXN	cytosol	Reactome DB_ID: 66000	UniProt:P10599	TXN
+	ADF	cytosol	Reactome DB_ID: 73668	UniProt:P10599	TXN
+	MTH2	cytosol	Reactome DB_ID: 2394014	UniProt:Q9NV35	NUDT15
+	MTH3	cytosol	Reactome DB_ID: 2394013	UniProt:Q6ZVK8-1	NUDT18
+_reactionName.size()	104
+	T	Formation of phosphoribosyl pyrophosphate amidotransferase tetramer
+	T	Dissociation of phosphoribosyl pyrophosphate amidotransferase tetramer
+	T	PRPP + H2O + L-Glutamine => 5-Phosphoribosylamine + L-Glutamate + PPi
+	T	5-Phosphoribosylamine + Glycine + ATP => GAR + ADP + Pi
+	T	GAR + 10-Formyl-THF => FGAR + THF
+	T	FGAR + L-Glutamine + ATP + H2O => FGAM + L-Glutamate + ADP + Pi
+	T	FGAM + ATP => AIR + ADP + Pi
+	D	AIR + CO2 => CAIR
+	T	CAIR + Aspartate + ATP => SAICAR + ADP + Pi
+	B	SAICAR => AICAR + Fumarate
+	T	AICAR + 10-Formyl-THF => FAICAR + THF
+	B	FAICAR => IMP + H2O
+	T	IMP + H2O + NAD+ => XMP + NADH + H+ [IMPDH1,2]
+	T	XMP + L-Glutamine + ATP + H2O => GMP + L-Glutamate + AMP + pyrophosphate
+	T	IMP + L-Aspartate + GTP => Adenylosuccinate + GDP + Pi [ADSS]
+	B	Adenylosuccinate => AMP + Fumarate
+	T	(2'-deoxy)adenosine + H2O => (2'-deoxy)inosine + NH3 [ADA]
+	T	(2'-deoxy)adenosine + ATP => (d)AMP + ADP [ADK]
+	T	deoxyadenosine or deoxyguanosine + ATP => dAMP or dGMP + ADP [DCK]
+	T	dA, dG, or dI + ATP => dAMP, dGMP, or dIMP + ADP [DGUOK]
+	T	AMP + H2O => IMP + NH3 [AMPD]
+	T	N6-methyl-AMP + H2O => IMP + methylamine
+	T	guanine + (deoxy)ribose 1-phosphate <=> (deoxy)guanosine + orthophosphate [NP]
+	T	hypoxanthine + (deoxy)ribose 1-phosphate <=> (deoxy)inosine + orthophosphate [NP]
+	T	Adenine + PRPP => AMP + PPi
+	T	guanine or hypoxanthine + PRPP => GMP or IMP + PPi [HPRT1]
+	T	GMP + NADPH + H+ => IMP + NADP+ + NH4+ [GMPR,GMPR2]
+	T	AMP, dAMP, GMP, or IMP + H2O => adenosine, deoxyadenosine, guanosine, or inosine + orthophosphate [NT5E]
+	T	(d)GMP or (d)IMP + H2O => (2'-deoxy)guanosine or (2'-deoxy)inosine + orthophosphate [NT5C2]
+	T	AMP + H2O => adenosine + orthophosphate [NT5C1B]
+	T	(2'-deoxy)purine nucleoside 5'-monophosphate + H2O => (2'-deoxy)purine nucleoside + orthophosphate [NT5C1A]
+	T	(d)GMP or (d)IMP + H2O => (d)G or (d)I + orthophosphate [NT5C]
+	T	(deoxy)guanosine + orthophosphate <=> guanine + (deoxy)ribose 1-phosphate [NP]
+	T	(deoxy)inosine + orthophosphate <=> hypoxanthine + (deoxy)ribose 1-phosphate [NP]
+	T	Guanine + H2O => Xanthine + NH3
+	T	Hypoxanthine + H2O + O2 => Xanthine + H2O2
+	T	Xanthine + H2O + O2 => Urate + H2O2
+	T	2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O
+	B	2 H2O2 => O2 + 2 H2O
+	T	bicarbonate and glutamine combine to form carbamoyl phosphate
+	T	carbamoyl phosphate and L-aspartate combine to form N-Carbamoyl-L-aspartate
+	T	N-carbamoyl L-aspartate + H+ <=> (S)-dihydroorotate + H2O
+	T	oxidation of (S)-Dihydroorotate to form Orotate
+	T	phosphoribosylation of orotate to form oritidine 5'-phosphate (OMP)
+	B	orotidine 5'-monophosphate => uridine 5'-monophosphate + CO2
+	T	dCMP + H2O => dUMP + NH4+
+	T	dUTP + H2O => dUMP + pyrophosphate
+	T	conversion of dUMP to dTMP
+	T	uracil + (deoxy)ribose 1-phosphate <=> (deoxy)uridine + orthophosphate [UPP]
+	T	thymine or uracil + 2-deoxy-D-ribose 1-phosphate <=> thymidine or deoxyuridine + orthophosphate [TYMP]
+	T	cytidine or uridine + ATP => CMP or UMP + ADP [UCK1]
+	T	cytidine or uridine + ATP => CMP or UMP + ADP [UCK2]
+	T	phosphorylation of 2'-Deoxythymidine to dTMP
+	T	deoxycytidine, thymidine, or deoxyuridine + ATP => dCMP, TMP, or dUMP + ADP [TK2]
+	T	(2'-deoxy)cytidine + ATP => (d)CMP + ADP [DCK]
+	T	deamination of 2'-Deoxycytidine to 2'-Deoxyuridine
+	T	CMP or TMP or UMP + H2O => cytidine, thymidine, or uridine + orthophosphate [NT5E]
+	T	(d)CMP, TMP, or (d)UMP + H2O => (deoxy)cytidine, thymidine, or (deoxy)uridine + orthophosphate [NT5C3]
+	T	(d)CMP, TMP, or (d)UMP + H2O => (deoxy)cytidine, thymidine, or (deoxy)uridine + orthophosphate [NT5C1A]
+	T	TMP, uridine 2', 3', or 5' monophosphates, or deoxyuridine 3' or 5' monophosphates + H2O => thymidine or (deoxy)uridine + orthophosphate [NT5C]
+	T	(deoxy)uridine + orthophosphate <=> uracil + (deoxy)ribose 1-phosphate [UPP]
+	T	thymidine or deoxyuridine + orthophosphate <=> thymine or uracil + 2-deoxy-D-ribose 1-phosphate [TYMP]
+	T	reduction of uracil to form dihydrouracil
+	D	5,6-dihydrouracil + H2O => beta-ureidopropionate
+	T	conversion of 3-ureidopropionate to beta-alanine
+	T	reduction of thymine to form 5,6-Dihydrothymine
+	D	5,6-dihydrothymine + H2O => beta-ureidoisobutyrate
+	T	conversion of 3-Ureidoiosbutyrate to 3-Aminoisobutyrate
+	T	(R)-3-aminoisobutyric acid + pyruvate => 2-methyl-3-oxopropanoate + alanine
+	T	(d)AMP + ATP <=> (d)ADP + ADP [AK1]
+	T	(d)ADP + ADP <=> (d)AMP + ATP [AK1]
+	T	(d)AMP or (d)CMP + ATP <=> (d)ADP or (d)CDP + ADP [AK5]
+	T	(d)ADP or (d)CDP + ADP <=> (d)AMP or (d)CMP + ATP [AK5]
+	T	(d)GMP + ATP <=> (d)GDP + ADP [GUK1]
+	T	(d)GDP + ADP <=> (d)GMP + ATP [GUK1]
+	T	(d)CMP or UMP + ATP <=> (d)CDP or UDP + ADP [CMPK1]
+	T	(d)CDP or UDP + ADP <=> (d)CMP or UMP + ATP [CMPK1]
+	T	phosphorylation of dUMP or TMP to dUDP or TDP
+	T	dUDP or TDP + ADP <=> dUMP or TMP + ATP [DTYMK]
+	T	UTP + glutamine + ATP + H2O => CTP + glutamate + ADP + orthophosphate [CTPS]
+	T	UTP + glutamine + ATP + H2O => CTP + glutamate + ADP + orthophosphate [CTPS2]
+	T	NDP + reduced glutaredoxin => dNDP + oxidized glutaredoxin + H2O
+	T	NDP + reduced thioredoxin => dNDP + oxidized thioredoxin + H2O
+	T	glutaredoxin (oxidized) + glutathione (reduced) => glutaredoxin (reduced) + glutathione (oxidized)
+	T	glutathione (oxidized) + NADPH + H+ => 2 glutathione (reduced) + NADP+
+	T	thioredoxin, oxidized (nucleus) <=> thioredoxin, oxidized (cytosol)
+	T	regeneration of active (reduced) Thioredoxin
+	T	thioredoxin, reduced (cytosol) <=> thioredoxin, reduced (nucleus)
+	T	(d)NDP + ATP <=> (d)NTP + ADP [NME1,2,3]
+	T	(d)NTP + ADP <=> (d)NDP + ATP [NME1,2,3]
+	T	(d)NDP + ATP <=> (d)NTP + ADP [NME4]
+	T	(d)NTP + ADP <=> (d)NDP + ATP [NME4]
+	T	ITP + H2O => IMP + PPi
+	T	dITP + H2O => dIMP + PPi
+	T	XTP + H2O => XMP + PPi
+	T	NUDT1 hydrolyses 8-oxo-dGTP to 8-oxo-dGMP
+	T	NUDT15 hydrolyses 8-oxo-dGTP to 8-oxo-dGMP
+	T	NUDT15 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP
+	T	NUDT18 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP
+	T	8-oxo-GDP + H2O => 8-oxo-GMP + Pi
+	T	NUDT1 hydrolyses 2-OH-dATP to 2-OH-dAMP
+	T	NUDT1 hydrolyses 2-OH-ATP to 2-OH-AMP
+	T	NUDT18 hydrolyses 8-OH-dADP to 8-OH-dAMP
+	T	Cytosolic NUDT5 hydrolyses ADP-ribose to R5P and AMP
+_smallMoleculeName.size()	151
+	FUMA	cytosol	Reactome DB_ID: 29586	ChEBI:37154 fumarate(1-)
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	GDP	nucleoplasm	Reactome DB_ID: 111349	GDP [ChEBI:17552]
+	UDP	nucleoplasm	Reactome DB_ID: 111814	uridine 5'-diphosphate [ChEBI:17659]
+	ITP	cytosol	Reactome DB_ID: 2509836	ITP [ChEBI:16039]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	dITP	cytosol	Reactome DB_ID: 2509835	dITP [ChEBI:10499]
+	8-oxo-dGTP	cytosol	Reactome DB_ID: 2395852	8-oxo-dGTP [ChEBI:63220]
+	10-formyl-THF	cytosol	Reactome DB_ID: 419151	10-Formyltetrahydrofolate [ChEBI:15637]
+	THF	cytosol	Reactome DB_ID: 111355	Tetrahydrofolate [ChEBI:15635]
+	AICAR	cytosol	Reactome DB_ID: 111409	1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide [ChEBI:18406]
+	FAICAR	cytosol	Reactome DB_ID: 111427	ChEBI:18381 5'-phosphoribosyl-5-formaminoimidazole-4-carboxamide
+	2-hydroxy-AMP	cytosol	Reactome DB_ID: 2395878	2-hydroxy-AMP [ChEBI:65129]
+	dIDP	nucleoplasm	Reactome DB_ID: 2509796	dIDP [ChEBI:10498]
+	dIMP	nucleoplasm	Reactome DB_ID: 2509805	2'-Deoxyinosine 5'-phosphate [ChEBI:28806]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	dIDP	nucleoplasm	Reactome DB_ID: 2509796	dIDP [ChEBI:10498]
+	IDP	nucleoplasm	Reactome DB_ID: 2509811	IDP [ChEBI:5848]
+	IMP	nucleoplasm	Reactome DB_ID: 2509792	IMP [ChEBI:17202]
+	IDP	nucleoplasm	Reactome DB_ID: 2509811	IDP [ChEBI:5848]
+	IMP	nucleoplasm	Reactome DB_ID: 2509792	IMP [ChEBI:17202]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ADP-D-ribose	mitochondrial matrix	Reactome DB_ID: 2393945	ADP-D-ribose [ChEBI:16960]
+	R5P	mitochondrial matrix	Reactome DB_ID: 2393950	D-ribose 5-phosphate [ChEBI:17797]
+	R5P	mitochondrial matrix	Reactome DB_ID: 2393950	D-ribose 5-phosphate [ChEBI:17797]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ADS	cytosol	Reactome DB_ID: 35141	adenylosuccinate [ChEBI:15919]
+	NH3	cytosol	Reactome DB_ID: 29382	NH3 [ChEBI:16134]
+				
+				
+				
+				
+				
+				
+				
+				
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+				
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+				
+				
+				
+				
+				
+	Hyp	cytosol	Reactome DB_ID: 113599	Hypoxanthine [ChEBI:17368]
+				
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	Ade	cytosol	Reactome DB_ID: 83951	adenine [ChEBI:16708]
+				
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+				
+				
+	NH4+	cytosol	Reactome DB_ID: 31633	NH4+ [ChEBI:28938]
+	GMP	cytosol	Reactome DB_ID: 113578	GMP [ChEBI:17345]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	XAN	cytosol	Reactome DB_ID: 30064	Xanthine [ChEBI:17712]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	H2O2	cytosol	Reactome DB_ID: 29408	H2O2 [ChEBI:16240]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	H2O2	peroxisomal matrix	Reactome DB_ID: 113575	H2O2 [ChEBI:16240]
+	O2	peroxisomal matrix	Reactome DB_ID: 113535	Oxygen [ChEBI:15379]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	Gly	cytosol	Reactome DB_ID: 29424	Glycine [ChEBI:15428]
+	HCO3-	cytosol	Reactome DB_ID: 111627	HCO3- [ChEBI:17544]
+	HCO3-	cytosol	Reactome DB_ID: 111627	HCO3- [ChEBI:17544]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	QH2	mitochondrial inner membrane	Reactome DB_ID: 76633	ubiquinol [ChEBI:17976]
+	QH2	mitochondrial inner membrane	Reactome DB_ID: 76633	ubiquinol [ChEBI:17976]
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	dUTP	nucleoplasm	Reactome DB_ID: 500739	dUTP [ChEBI:17625]
+	dUMP	nucleoplasm	Reactome DB_ID: 500742	dUMP [ChEBI:17622]
+	dUTP	nucleoplasm	Reactome DB_ID: 500739	dUTP [ChEBI:17625]
+	PPi	nucleoplasm	Reactome DB_ID: 113541	PPi [ChEBI:29888]
+	THF	cytosol	Reactome DB_ID: 111355	Tetrahydrofolate [ChEBI:15635]
+	DHF	cytosol	Reactome DB_ID: 73604	Dihydrofolate [ChEBI:15633]
+	TMP	cytosol	Reactome DB_ID: 109366	dTMP [ChEBI:17013]
+	THF	cytosol	Reactome DB_ID: 111355	Tetrahydrofolate [ChEBI:15635]
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+				
+				
+				
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+				
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+				
+				
+				
+				
+				
+				
+				
+				
+	b-Ala	mitochondrial matrix	Reactome DB_ID: 909777	beta-Alanine [ChEBI:16958]
+	L-Ala	mitochondrial matrix	Reactome DB_ID: 379697	L-Alanine [ChEBI:16977]
+	AIR	cytosol	Reactome DB_ID: 111370	5'-Phosphoribosyl-5-aminoimidazole [ChEBI:28843]
+	AIR	cytosol	Reactome DB_ID: 111370	5'-Phosphoribosyl-5-aminoimidazole [ChEBI:28843]
+	3AIB	cytosol	Reactome DB_ID: 73619	ChEBI:16320 (R)-3-Amino-2-methylpropanoate
+	3AIB	cytosol	Reactome DB_ID: 73619	ChEBI:16320 (R)-3-Amino-2-methylpropanoate
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	UTP	cytosol	Reactome DB_ID: 29494	UTP [ChEBI:15713]
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

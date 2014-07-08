@@ -1,0 +1,195 @@
+edge.size() 89
+ 83 2 67 0 82 0 -1
+ 67 1 83 0 82 0 -1
+ 67 1 83 1 82 0 -1
+ 83 2 67 -1 82 1 -1
+ 67 2 83 -1 82 1 -1
+ 67 2 83 -1 82 1 -1
+ 67 1 80 0 82 2 -1
+ 67 1 67 3 82 2 -1
+ 67 2 80 -1 82 3 -1
+ 67 2 67 -1 82 3 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 2 67 -1 82 4 -1
+ 67 5 83 -1 82 4 -1
+ 67 5 83 -1 82 4 -1
+ 83 2 67 -1 82 5 -1
+ 67 5 83 -1 82 5 -1
+ 67 5 83 -1 82 5 -1
+ 83 2 67 -1 82 6 -1
+ 67 5 83 -1 82 6 -1
+ 67 5 83 -1 82 6 -1
+ 83 2 67 -1 82 -1 -1
+ 67 5 83 -1 82 -1 -1
+ 67 5 83 -1 82 -1 -1
+ 83 2 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 2 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 2 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 2 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 1 80 -1 82 7 -1
+ 80 1 67 6 82 8 -1
+ 80 2 67 6 82 8 -1
+ 67 6 67 -1 82 9 -1
+ 80 1 67 7 82 10 -1
+ 80 3 67 7 82 10 -1
+ 83 2 80 1 82 11 -1
+ 80 4 83 3 82 11 -1
+ 80 4 83 4 82 11 -1
+ 83 2 80 1 82 12 -1
+ 80 5 83 5 82 12 -1
+ 80 5 83 6 82 12 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 6 80 -1 82 13 -1
+ 80 7 67 10 82 14 -1
+ 80 6 67 10 82 14 -1
+ 80 2 67 11 82 15 -1
+ 80 6 67 11 82 15 -1
+ 80 6 67 12 82 16 -1
+ 80 3 67 12 82 16 -1
+ 83 2 83 7 82 17 -1
+ 80 8 80 6 82 17 -1
+ 80 8 80 6 82 17 -1
+ 83 2 83 8 82 18 -1
+ 80 8 80 6 82 18 -1
+ 80 8 80 6 82 18 -1
+ 80 9 67 13 82 19 -1
+ 80 8 67 13 82 19 -1
+ 80 8 67 15 82 20 -1
+ 67 14 67 15 82 20 -1
+ 67 0 82 1 82 0 -1
+ 67 -1 82 1 82 1 -1
+ 67 4 82 1 82 2 -1
+ 67 4 82 1 82 3 -1
+ 67 1 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 67 2 82 1 82 6 -1
+ 67 -1 82 1 82 -1 -1
+ 67 1 82 1 82 -1 -1
+ 67 3 82 1 82 -1 -1
+ 67 2 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 8 82 1 82 11 -1
+ 67 9 82 1 82 12 -1
+ 67 8 82 1 82 17 -1
+ 67 9 82 1 82 18 -1
+ 80 3 82 1 82 12 -1
+ 80 3 82 1 82 18 -1
+_complexName.size()	16
+	STK3:SAV1	cytosol	Reactome DB_ID: 2028275	
+	p-STK3:p-SAV1	cytosol	Reactome DB_ID: 2028261	
+	p-STK4:p-SAV1	cytosol	Reactome DB_ID: 2028266	
+	p-STK3/N:p-SAV1	cytosol	Reactome DB_ID: 2028690	
+	active caspase-3	cytosol	Reactome DB_ID: 141647	
+	p-LATS:p-MOB	cytosol	Reactome DB_ID: 2028550	
+	YAP1:TJP2	cytosol	Reactome DB_ID: 2064400	
+	AMOT:YAP1	cytosol	Reactome DB_ID: 2028720	
+	p-LATS1:p-MOB1	cytosol	Reactome DB_ID: 2028559	
+	p-LATS2:p-MOB1	cytosol	Reactome DB_ID: 2028584	
+	TAZ:TJP1	cytosol	Reactome DB_ID: 2064404	
+	TAZ:TJP2	cytosol	Reactome DB_ID: 2064405	
+	AMOT:WWTR1 (TAZ)	cytosol	Reactome DB_ID: 2028723	
+	p-TAZ:DVL2	cytosol	Reactome DB_ID: 2066300	
+	YWHAE dimer	cytosol	Reactome DB_ID: 194364	
+	p-WWTR1:YWHAE	cytosol	Reactome DB_ID: 2028649	
+_physicalEntityName.size()	0
+_proteinName.size()	10
+	STK3/C	cytosol	Reactome DB_ID: 2028684	UniProt:Q13188	STK3
+	YAP1	cytosol	Reactome DB_ID: 1253345	UniProt:P46937	YAP1
+	TJP2	cytosol	Reactome DB_ID: 2064412	UniProt:Q9UDY2	TJP2
+	AMOTL2	cytosol			
+	p5-YAP1	cytosol	Reactome DB_ID: 2028554	UniProt:P46937	YAP1
+	p1-YAP1	cytosol	Reactome DB_ID: 2028553	UniProt:P46937	YAP1
+	TAZ	cytosol	Reactome DB_ID: 1629773	UniProt:Q9GZV5	WWTR1
+	TJP1	cytosol	Reactome DB_ID: 532659	UniProt:Q07157	TJP1
+	p-TAZ	cytosol	Reactome DB_ID: 2028665	UniProt:Q9GZV5	WWTR1
+	DVL2	cytosol	Reactome DB_ID: 201694	UniProt:O14641	DVL2
+_reactionName.size()	21
+	T	Phosphorylation of STK3 (MST2) and SAV1 by STK3
+	T	Phosphorylation of STK4 (MST1) and SAV1 by STK4
+	B	Cleavage of p-STK3 (p-MST2) by caspase 3
+	B	Cleavage of p-STK4 (p-MST1) by caspase 3
+	T	Phosphorylation of LATS1 and 2 by p-STK3 (p-MST2)
+	T	Phosphorylation of LATS1 and 2 by p-STK3 (MST2)/N
+	T	Phosphorylation of LATS1 and 2 by p-STK4 (p-MST1)
+	T	Translocation of YAP1 to the nucleus
+	D	YAP1 binds ZO-2 (TJP2)
+	T	Translocation of YAP1:ZO-2 (TJP2) to the nucleus
+	D	AMOT proteins bind YAP1
+	T	Phosphorylation of YAP by LATS1
+	T	Phosphorylation of YAP by LATS2
+	T	Translocation of WWTR1 (TAZ) to the nucleus
+	D	WWTR1 (TAZ) binds ZO-1 (TJP1)
+	D	WWTR1 (TAZ) binds ZO-2 (TJP2)
+	D	AMOT proteins bind WWTR1 (TAZ)
+	T	Phosphorylation of WWTR1 (TAZ) by LATS1
+	T	Phosphorylation of WWTR1 (TAZ) by LATS2
+	D	DVL2 binds phosphorylated WWTR1 (TAZ)
+	D	YWHAE (14-3-3 epsilon) dimer binds phosphorylated WWTR1 (TAZ)
+_smallMoleculeName.size()	9
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

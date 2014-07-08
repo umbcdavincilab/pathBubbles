@@ -1,0 +1,306 @@
+edge.size() 103
+ 83 0 83 2 82 0 -1
+ 83 1 83 3 82 0 -1
+ 83 0 83 5 82 1 -1
+ 83 1 83 4 82 1 -1
+ 83 6 83 9 82 2 -1
+ 83 7 83 10 82 2 -1
+ 83 8 83 11 82 2 -1
+ 83 12 83 14 82 3 -1
+ 83 11 83 15 82 3 -1
+ 83 13 83 7 82 3 -1
+ 83 4 83 16 82 4 -1
+ 83 17 83 1 82 4 -1
+ 83 4 83 18 82 5 -1
+ 83 17 83 19 82 5 -1
+ 83 20 83 23 82 6 -1
+ 83 21 83 24 82 6 -1
+ 83 22 83 11 82 6 -1
+ 83 25 83 27 82 7 -1
+ 83 11 83 28 82 7 -1
+ 83 26 83 21 82 7 -1
+ 83 31 83 29 82 8 -1
+ 83 11 83 30 82 8 -1
+ 83 31 83 32 82 9 -1
+ 83 11 83 33 82 9 -1
+ 83 43 83 34 82 10 -1
+ 83 44 83 35 82 10 -1
+ 83 45 83 11 82 10 -1
+ 83 46 83 36 82 10 -1
+ 83 47 83 37 82 10 -1
+ 83 48 83 38 82 10 -1
+ 83 49 83 39 82 10 -1
+ 83 50 83 40 82 10 -1
+ 83 51 83 41 82 10 -1
+ 83 31 83 42 82 10 -1
+ 83 31 83 -1 82 -1 -1
+ 83 -1 83 53 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 54 83 -1 82 11 -1
+ 83 51 83 -1 82 11 -1
+ 83 55 83 4 82 12 -1
+ 83 56 83 68 82 12 -1
+ 83 57 83 69 82 12 -1
+ 83 58 83 70 82 12 -1
+ 83 59 83 71 82 12 -1
+ 83 60 83 72 82 12 -1
+ 83 61 83 73 82 12 -1
+ 83 62 83 74 82 12 -1
+ 83 63 83 75 82 12 -1
+ 83 64 83 76 82 12 -1
+ 83 65 83 77 82 12 -1
+ 83 66 83 78 82 12 -1
+ 83 67 83 79 82 12 -1
+ 83 52 83 80 82 13 -1
+ 83 11 83 81 82 13 -1
+ 83 84 83 82 82 13 -1
+ 83 52 83 85 82 14 -1
+ 83 11 83 86 82 14 -1
+ 83 84 83 87 82 14 -1
+ 83 92 83 88 82 15 -1
+ 83 55 83 4 82 15 -1
+ 83 93 83 89 82 15 -1
+ 83 94 83 90 82 15 -1
+ 83 95 83 91 82 15 -1
+ 83 11 83 52 82 16 -1
+ 83 83 83 96 82 16 -1
+ 83 97 83 99 82 17 -1
+ 83 55 83 100 82 17 -1
+ 83 98 83 0 82 17 -1
+ 83 106 83 101 82 18 -1
+ 83 107 83 102 82 18 -1
+ 83 108 83 103 82 18 -1
+ 83 109 83 104 82 18 -1
+ 83 110 83 105 82 18 -1
+ 83 106 83 111 82 19 -1
+ 83 4 83 112 82 19 -1
+ 83 92 83 113 82 20 -1
+ 83 116 83 114 82 20 -1
+ 83 117 83 115 82 20 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 67 1 82 1 82 2 -1
+ 67 1 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 2 82 1 82 5 -1
+ 67 3 82 1 82 6 -1
+ 67 3 82 1 82 7 -1
+ 67 4 82 1 82 8 -1
+ 67 4 82 1 82 9 -1
+ 67 5 82 1 82 10 -1
+ 67 -1 82 1 82 11 -1
+ 67 6 82 1 82 12 -1
+ 67 7 82 1 82 13 -1
+ 67 7 82 1 82 14 -1
+ 67 8 82 1 82 15 -1
+ 67 9 82 1 82 16 -1
+ 67 10 82 1 82 17 -1
+ 67 11 82 1 82 18 -1
+ 67 12 82 1 82 19 -1
+ 67 13 82 1 82 20 -1
+ 83 32 82 1 82 13 -1
+ 83 33 82 1 82 13 -1
+ 83 34 82 1 82 14 -1
+ 83 35 82 1 82 14 -1
+_complexName.size()	14
+	GPT dimer	cytosol	Reactome DB_ID: 70521	
+	GPT2 dimer	mitochondrial matrix	Reactome DB_ID: 507753	
+	GOT1 dimer	cytosol	Reactome DB_ID: 70579	
+	GOT2 dimer	mitochondrial matrix	Reactome DB_ID: 70594	
+	OAT hexamer	mitochondrial matrix	Reactome DB_ID: 70639	
+	P5CS long isoform, dimer/P5CS short isoform, dimer			
+	ASNS dimer	cytosol	Reactome DB_ID: 507865	
+	GLUD1 hexamer	mitochondrial matrix	Reactome DB_ID: 70583	
+	GLUL decamer	cytosol	Reactome DB_ID: 70604	
+	GLS dimer/GLS2 dimer			
+	CCBL1 dimer	cytosol	Reactome DB_ID: 893603	
+	PHGHD tetramer	cytosol	Reactome DB_ID: 977346	
+	PSAT1 dimer	cytosol	Reactome DB_ID: 977345	
+	PSPH:Mg++ dimer	cytosol	Reactome DB_ID: 977344	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	21
+	T	alanine + alpha-ketoglutarate <=> pyruvate + glutamate [GPT]
+	T	pyruvate + glutamate <=> alanine + alpha-ketoglutarate [GPT]
+	T	alanine + alpha-ketoglutarate <=> pyruvate + glutamate [GPT2]
+	T	pyruvate + glutamate <=> alanine + alpha-ketoglutarate [GPT2]
+	T	aspartate + alpha-ketoglutarate <=> oxaloacetate + glutamate [GOT1]
+	T	oxaloacetate + glutamate <=> aspartate + alpha-ketoglutarate [GOT1]
+	T	aspartate + alpha-ketoglutarate <=> oxaloacetate + glutamate [GOT2]
+	T	oxaloacetate + glutamate <=> aspartate + alpha-ketoglutarate [GOT2]
+	T	ornithine + alpha-ketoglutarate <=> glutamate + L-glutamate gamma-semialdehyde [OAT]
+	T	glutamate + L-glutamate gamma-semialdehyde <=> ornithine + alpha-ketoglutarate [OAT]
+	T	glutamate + ATP + NADPH + H+ => L-glutamate gamma-semialdehyde + NADP+ + ADP + orthophosphate [P5CS]
+	T	L-1-pyrroline-5-carboxylate + NADPH + H+ => proline + NADP+
+	T	aspartate + glutamine + ATP <=> asparagine + glutamate + AMP + pyrophosphate [ASNS]
+	T	alpha-ketoglutarate + NH4+ + NAD(P)H + H+ <=> glutamate + NAD(P)+ [GLUD1]
+	T	glutamate + NAD(P)+ => alpha-ketoglutarate + NH4+ + NAD(P)H + H+ [GLUD1]
+	T	glutamate + NH4+ + ATP => glutamine + ADP + orthophosphate [GLUL]
+	T	glutamine + H2O => glutamate + NH4+ [GLS]
+	T	glutamine + pyruvate => 2-oxoglutaramate + alanine
+	T	3-phosphoglycerate is dehydrogenated
+	T	3-phosphonooxypyruvic acid + L-glutamate = O-phospho-L-serine + 2-oxoglutarate
+	T	phosphoserine is dephosphorylated
+_smallMoleculeName.size()	118
+	L-Ala	cytosol	Reactome DB_ID: 29432	L-Alanine [ChEBI:16977]
+	PYR	cytosol	Reactome DB_ID: 29398	Pyruvate [ChEBI:32816]
+	2OG	cytosol	Reactome DB_ID: 29406	2-Oxoglutarate [ChEBI:30915]
+	PYR	cytosol	Reactome DB_ID: 29398	Pyruvate [ChEBI:32816]
+	L-Glu	cytosol	Reactome DB_ID: 29404	L-Glutamate [ChEBI:16015]
+	L-Glu5S	mitochondrial matrix	Reactome DB_ID: 31339	L-Glutamate 5-semialdehyde [ChEBI:17232]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	L-Orn	mitochondrial matrix	Reactome DB_ID: 113585	L-Ornithine [ChEBI:15729]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	TPN	mitochondrial matrix	Reactome DB_ID: 113563	NADP+ [ChEBI:18009]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	L-1-Pyrroline-5-carboxylate	mitochondrial matrix	Reactome DB_ID: 113590	(S)-1-Pyrroline-5-carboxylate [ChEBI:17388]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	L-1-Pyrroline-5-carboxylate	mitochondrial matrix	Reactome DB_ID: 113590	(S)-1-Pyrroline-5-carboxylate [ChEBI:17388]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+				
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	NH4+	mitochondrial matrix	Reactome DB_ID: 113561	NH4+ [ChEBI:28938]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+				
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+				
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+				
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+				
+				
+				
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	NH4+	cytosol	Reactome DB_ID: 31633	NH4+ [ChEBI:28938]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	NH4+	cytosol	Reactome DB_ID: 31633	NH4+ [ChEBI:28938]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	NH4+	cytosol	Reactome DB_ID: 31633	NH4+ [ChEBI:28938]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	L-Gln	mitochondrial matrix	Reactome DB_ID: 113522	L-Glutamine [ChEBI:18050]
+	PYR	cytosol	Reactome DB_ID: 29398	Pyruvate [ChEBI:32816]
+	3PG	cytosol	Reactome DB_ID: 29728	3-Phospho-D-glycerate [ChEBI:17794]
+	3-phosphonooxypyruvic acid	cytosol	Reactome DB_ID: 977329	3-Phosphonooxypyruvate [ChEBI:1661]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	3PG	cytosol	Reactome DB_ID: 29728	3-Phospho-D-glycerate [ChEBI:17794]
+	NADH	cytosol	Reactome DB_ID: 73473	NADH [ChEBI:16908]
+	O-phospho-L-serine	cytosol	Reactome DB_ID: 936706	O-Phospho-L-serine [ChEBI:7692]
+	O-phospho-L-serine	cytosol	Reactome DB_ID: 936706	O-Phospho-L-serine [ChEBI:7692]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	O-phospho-L-serine	cytosol	Reactome DB_ID: 936706	O-Phospho-L-serine [ChEBI:7692]
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	L-Ala	mitochondrial matrix	Reactome DB_ID: 379697	L-Alanine [ChEBI:16977]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	OA	cytosol	Reactome DB_ID: 76213	Oxaloacetate [ChEBI:30744]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	L-Asp	cytosol	Reactome DB_ID: 29448	L-Aspartate [ChEBI:17053]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	OA	mitochondrial matrix	Reactome DB_ID: 113587	Oxaloacetate [ChEBI:30744]
+	Asp	mitochondrial matrix	Reactome DB_ID: 113553	L-Aspartate [ChEBI:17053]
+	OA	mitochondrial matrix	Reactome DB_ID: 113587	Oxaloacetate [ChEBI:30744]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	OA	mitochondrial matrix	Reactome DB_ID: 113587	Oxaloacetate [ChEBI:30744]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

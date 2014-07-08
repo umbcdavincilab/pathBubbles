@@ -688,7 +688,7 @@ REACT_16963	380095	Tachykinin receptors bind tachykinins
 REACT_15344	380108	Chemokine receptors bind chemokines
 REACT_15364	380259	Loss of Nlp from mitotic centrosomes
 REACT_15296	380270	Recruitment of mitotic centrosome proteins and complexes
-REACT_15451	380284	Loss of proteins required for interphase microtubule organizationÂ from the centrosome
+REACT_15451	380284	Loss of proteins required for interphase microtubule organization from the centrosome
 REACT_15479	380287	Centrosome maturation
 REACT_15510	380320	Recruitment of NuMA to mitotic centrosomes
 REACT_15532	380612	Metabolism of serotonin
@@ -1006,8 +1006,8 @@ REACT_25199	977443	GABA receptor activation
 REACT_25031	977444	GABA B receptor activation
 REACT_118707	977606	Regulation of Complement cascade
 REACT_111133	982772	Growth hormone receptor signaling
-REACT_75842	983168	Antigen processing: Ubiquitination & Proteasome degradation
-REACT_75820	983169	Class I MHC mediated antigen processing & presentation
+REACT_75842	983168	Antigen processing: Ubiquitination &amp; Proteasome degradation
+REACT_75820	983169	Class I MHC mediated antigen processing &amp; presentation
 REACT_75795	983170	Antigen Presentation: Folding, assembly and peptide loading of class I MHC
 REACT_25201	983189	Kinesins
 REACT_24970	983231	Factors involved in megakaryocyte development and platelet production
@@ -1389,4 +1389,99 @@ REACT_169192	3642279	TGFBR2 MSI Frameshift Mutants in Cancer
 REACT_169440	3645790	TGFBR2 Kinase Domain Mutants in Cancer
 REACT_169263	3656532	TGFBR1 KD Mutants in Cancer
 REACT_169311	3656534	Loss of Function of TGFBR1 in Cancer
-REACT_169445	3656535	TGFBR1 LBD Mutants in Cancer
+REACT_169445	3656535	TGFBR1 LBD Mutants in CancerREACT_?	1222352	Latent infection of Homo sapiens with Mycobacterium tuberculosis
+REACT_?	1222387	Tolerance of reactive oxygen produced by macrophages
+REACT_?	1222449	Mtb iron assimilation by chelation
+REACT_?	1222499	Response of Mtb to phagocytosis
+REACT_?	1222538	Tolerance by Mtb to nitric oxide produced by macrophages
+REACT_?	1222541	Cell redox homeostasis
+REACT_?	1222556	Phagosomal maturation (early endosomal stage)
+REACT_?	162585	Uncoating of the HIV Virion
+REACT_?	162587	HIV Life Cycle
+REACT_?	162588	Budding and maturation of HIV virion
+REACT_?	162589	Reverse Transcription of HIV RNA
+REACT_?	162592	Integration of provirus
+REACT_?	162594	Early Phase of HIV Life Cycle
+REACT_?	162599	Late Phase of HIV Life Cycle
+REACT_?	162906	HIV Infection
+REACT_?	162909	Host Interactions of HIV factors
+REACT_?	164516	Minus-strand DNA synthesis
+REACT_?	164525	Plus-strand DNA synthesis
+REACT_?	164843	2-LTR circle formation
+REACT_?	164938	Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters
+REACT_?	164939	Nef mediated downregulation of CD28 cell surface expression
+REACT_?	164940	Nef mediated downregulation of MHC class I complex cell surface expression
+REACT_?	164944	Nef and signal transduction
+REACT_?	164952	The role of Nef in HIV-1 replication and disease pathogenesis
+REACT_?	165054	Rev-mediated nuclear export of HIV RNA
+REACT_?	166016	Toll Like Receptor 4 (TLR4) Cascade
+REACT_?	166054	Activated TLR4 signalling
+REACT_?	166058	MyD88:Mal cascade initiated on plasma membrane
+REACT_?	167152	Formation of HIV elongation complex in the absence of HIV Tat
+REACT_?	167158	Formation of the HIV-1 Early Elongation Complex
+REACT_?	167160	RNA Pol II CTD phosphorylation and interaction with CE
+REACT_?	167161	HIV Transcription Initiation
+REACT_?	167162	RNA Polymerase II HIV Promoter Escape
+REACT_?	167169	HIV Transcription Elongation
+REACT_?	167172	Transcription of the HIV genome
+REACT_?	167200	Formation of HIV-1 elongation complex containing HIV-1 Tat
+REACT_?	167238	Pausing and recovery of Tat-mediated HIV elongation
+REACT_?	167242	Abortive elongation of HIV-1 transcript in the absence of Tat
+REACT_?	167243	Tat-mediated HIV elongation arrest and recovery
+REACT_?	167246	Tat-mediated elongation of the HIV-1 transcript
+REACT_?	167287	HIV elongation arrest and recovery
+REACT_?	167290	Pausing and recovery of HIV elongation
+REACT_?	167590	Nef Mediated CD4 Down-regulation
+REACT_?	168142	Toll Like Receptor 10 (TLR10) Cascade
+REACT_?	168176	Toll Like Receptor 5 (TLR5) Cascade
+REACT_?	168179	Toll Like Receptor TLR1:TLR2 Cascade
+REACT_?	168188	Toll Like Receptor TLR6:TLR2 Cascade
+REACT_?	168249	Innate Immune System
+REACT_?	168253	Host Interactions with Influenza Factors
+REACT_?	168254	Influenza Infection
+REACT_?	168255	Influenza Life Cycle
+REACT_?	168256	Immune System
+REACT_?	168268	Virus Assembly and Release
+REACT_?	168270	Fusion and Uncoating of the Influenza Virion
+REACT_?	168271	Transport of Ribonucleoproteins into the Host Nucleus
+REACT_?	168275	Entry of Influenza Virion into Host Cell via Endocytosis
+REACT_?	168276	 NS1 Mediated Effects on Host Pathways
+REACT_?	168277	Influenza Virus Induced Apoptosis
+REACT_?	168288	Fusion of the Influenza Virion to the Host Cell Endosome
+REACT_?	168303	Packaging of Eight RNA Segments
+REACT_?	168305	Inhibition of Interferon Synthesis
+REACT_?	168315	Inhibition of Host mRNA Processing and RNA Silencing
+REACT_?	168336	Uncoating of the Influenza Virion
+REACT_?	168769	BoNT Light Chain Types B, D, and F cleave VAMP/Synaptobrevin
+REACT_?	168782	Proteolytic cleavage of SNARE complex proteins
+REACT_?	168799	Botulinum neurotoxicity
+REACT_?	168888	Inhibition of IFN-beta
+REACT_?	168898	Toll-Like Receptors Cascades
+REACT_?	169131	Inhibition of PKR
+REACT_?	171286	Synthesis and processing of ENV and VPU
+REACT_?	173107	Binding and entry of HIV virion
+REACT_?	174490	Membrane binding and targetting of GAG proteins
+REACT_?	174495	Synthesis And Processing Of GAG, GAGPOL Polyproteins
+REACT_?	175474	Assembly Of The HIV Virion
+REACT_?	175567	Integration of viral DNA into host genomic DNA
+REACT_?	176033	Interactions of Vpr with host cellular proteins
+REACT_?	176034	Interactions of Tat with host cellular proteins
+REACT_?	177243	Interactions of Rev with host cellular proteins
+REACT_?	177539	Autointegration results in viral DNA circles
+REACT_?	180534	Vpu mediated degradation of CD4
+REACT_?	180585	Vif-mediated degradation of APOBEC3G
+REACT_?	180689	APOBEC3G mediated resistance to HIV-1 infection
+REACT_?	180746	Nuclear import of Rev protein
+REACT_?	180897	Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization
+REACT_?	180910	Vpr-mediated nuclear import of PICs
+REACT_?	181363	Translocation of BoNT Light chain
+REACT_?	181438	Toll Like Receptor 2 (TLR2) Cascade
+REACT_?	181546	BoNT Light Chain Types A, C1, E cleave SNAP-25
+REACT_?	182218	Nef Mediated CD8 Down-regulation
+REACT_?	844456	The NLRP3 inflammasome
+REACT_?	936964	Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon
+REACT_?	937041	IKK complex recruitment mediated by RIP1
+REACT_?	937061	TRIF-mediated TLR3/TLR4 signaling 
+REACT_?	937072	TRAF6 mediated induction of TAK1 complex
+REACT_?	975871	MyD88 cascade initiated on plasma membrane
+REACT_?	1222352	Latent infection of Homo sapiens with Mycobacterium tuberculosis

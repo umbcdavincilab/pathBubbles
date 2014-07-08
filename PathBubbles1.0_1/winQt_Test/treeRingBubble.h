@@ -48,6 +48,8 @@ public:
 	treeRingBubble( int size, int x, int y, OpenGLScene* Scene, StatisticManager* manager, OpenManager* open, treeRingBubble *parent, set<vector<int>> itemSelected);
 	treeRingBubble::~treeRingBubble();
 
+	bool clearSearchSelection();
+
 	//extern CompoundGraph *cg;
 	//extern Slider *mySlider;
 	//extern GLfloat thre;
@@ -72,7 +74,7 @@ public:
 	void pathExpressionRecord(expressionBubble *ebubble);
 	vector<vector<QString>> pathExpressionRead(expressionBubble *ebubble);	
 	set<QString> pathExpressionReadPathID(expressionBubble *ebubble);
-	bool treeRingBubble::isMissingFile(QString pathID);
+	bool isMissingFile(QString pathID);
 
 	bool firstMotionLeft;
 	bool firstMotionRight;	
@@ -106,6 +108,10 @@ public:
 	
 	void updateConnectionAfterDeletion();	
     void updateConnectionAfterMerge(treeRingBubble *treeRing1, treeRingBubble *treeRing2);
+	void updateConnectionAfterSubstraction(TreeRing *_curTreeRing);
+	bool isSegPreSelected(int layer, int id, set<vector<int>> preItemSelected);
+ 
+
 	void paint( QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget );
 
 	void initTreeRing(int x, int y, int window_w, int window_h);
@@ -156,7 +162,7 @@ public:
     float  _ring_width;  // tree ring width - space between two adjacent rings
     int    _node_num;   // number of tree node - or phy parameteres -
 	int window_w, window_h; //for tree ring sizex
-	set<vector<int>> searched;
+	
 
 	void undo();
     void redo();
@@ -199,6 +205,7 @@ public:
 
 	void setPenOn();
 	vector<int> whichItem( QPointF pos);
+	set< vector< int > > whichSegment( int layer, int id );
 	vector<int> whichHandle( QPointF pos);
 	vector < set< vector<int > > > multiItemSelected;
 	set< vector<int > > itemSelected;
@@ -209,7 +216,7 @@ public:
 	set< vector< int > > whichSegment( QPointF pos );
 	bool bubbleDraggedout;
 	QPointF lastPressedPos;
-	
+	void subStarctTreeRing();
 
 	// temp variable to test group selection by pen
 	//vector<QPointF> ptest;
@@ -229,6 +236,13 @@ private:
 	void drawfills( QPainter* painter);
 	void InsertToOrder(int pid, int count, vector<int> &order);
 	void MergeTreeRings(treeRingBubble *treeRing1, treeRingBubble *treeRing2, int window_w, int window_h);
+	
+	int getNewNodeID(int layer, int oID, TreeRing *_preTreeRing, TreeRing *_curtreeRing);
+	set<vector<int>> preItemSelected;
+	bool isSegHighlighted(int layer, int id);
+	bool isSegHighlighted(set< vector< int > > segs);
+	
+	void subStarctTreeRing(set<vector<int>> itemSelected);
     QPointF initPos;
 	QPolygonF _contain;	
 	QVector<QLineF> fills;
@@ -254,9 +268,11 @@ private:
 	void mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event );
 	void wheelEvent(QGraphicsSceneWheelEvent *event );
 	void hoverMoveEvent(QGraphicsSceneHoverEvent *event );
+	virtual void keyReleaseEvent(QKeyEvent *event);
 	void mousePressEvent(QGraphicsSceneMouseEvent *event );
     void mouseReleaseEvent(QGraphicsSceneMouseEvent *event );	
 	void mouseMoveEvent( QGraphicsSceneMouseEvent *event );
+
 	//virtual void keyPressEvent(QKeyEvent *event);
 	//virtual void keyReleaseEvent(QKeyEvent *event);
 	//bool controlKeyisOn;
@@ -268,7 +284,7 @@ private:
 	vector<QPolygon> itemDragged;
 	void dragItem(QPointF Pos);
 	QRectF bubbleRect;    
-    void drawABubbleConnection(QPainter *painter, QPointF center1, ItemBase* bubble1, QPointF center2, ItemBase* bubble2, QPointF Dis);	
+    //void drawABubbleConnection(QPainter *painter, QPointF center1, ItemBase* bubble1, QPointF center2, ItemBase* bubble2, QPointF Dis);	
 	void contextMenuEvent(QGraphicsSceneContextMenuEvent *event);
 	bool _mousePressed;	
 };

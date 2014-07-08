@@ -213,7 +213,7 @@ public:
 
 	set<QString> orthologySymbol;
 	set<int> virtualCompartment;
-	vector<int> _itemSelected;		
+	vector<int> _itemSelected;			
 	QList< TextBubble2* > _codeBubbles;
 	QList< ReactionBubble3* > _reactionBubbles;
 	QList< GroupBubble4* > _groupBubbles;
@@ -306,7 +306,7 @@ public:
 	bool inRanks(int id, vector<vector<int>> Rank, vector<vector<vector<int>>> Vertex);
 	void rewriteTreeRingGraphFile();
 	bool PathWayDataInitiation();
-	void loadPreStoredGraph();
+	bool loadPreStoredGraph();
 	bool readOriPathWayData(vector<vector<QString>> &_complexName, vector<vector<QString>> &_physicalEntityName, vector<vector<QString>> &_proteinName, vector<vector<QString>> &_reactionName, vector<vector<QString>> &_degradationName, vector<vector<QString>> &_smallMoleculeName, vector<vector<QString>> &_EmptyName, vector<vector<QString>> &_DnaName, vector<vector<QString>> &_ANodeName) ;
 	void shrinkData(
 	vector<QRectF> &complexPos_0, vector<QRectF> &proteinPos_0, vector<QRectF> &smallMoleculePos_0, vector<QRectF> &DnaPos_0, vector<QRectF> &EmptyPos_0, vector<QRectF> &reactionPos_0, vector<QRectF> &physicalEntityPos_0, vector<QRectF> &compartmentPos_0, vector<QRectF> &ANodePos_0, vector<set<vector<int>>> &CompartmentContain_0,
@@ -314,6 +314,7 @@ public:
 	vector<vector<QString>> &_complexName, vector<vector<QString>> &_physicalEntityName, vector<vector<QString>> &_proteinName, vector<vector<QString>> &_reactionName, vector<vector<QString>> &_degradationName, vector<vector<QString>> &_smallMoleculeName, vector<vector<QString>> &_EmptyName, vector<vector<QString>> &_DnaName, vector<vector<QString>> &_ANodeName,
 	vector<vector<int>> &edge);//save a copy of data which only contains those possible shown in the graph (remove those not shown in the graph)
 
+	void GraphSize(float &X, float &Y, float &W, float &H);
 	void PathWayDataInitiation_1();//for generate treering without generating the hierarchical pathway graph
 	vector< vector < set< vector <int> > > >  getContainedSets(int pflag, int cflag, int wflag, bool AndFlag);
 	vector< vector < set< vector <int> > > >  getContainedSets_1(int pflag, int cflag, int wflag, bool isSearchDiffered);
@@ -345,7 +346,7 @@ public:
 	}
 
 	bool emptyPathBubble();
-
+	bool isItemVisible_1(int type, int id);
 	bool isItemVisible(int type, int id);
     bool myErrorMessage(QString text);
 
@@ -386,6 +387,8 @@ public:
 	void saveAsXmlNode( QDomDocument &doc, QDomElement &node );
 	void recoverFromXmlNode( QDomElement node );
 	void paintItem(QPainter *painter, int type, int i, bool flag, QPointF dCenter, float scale, QColor c, QPointF dis);
+	
+	void savePathWayforOthers(QString filename, vector<QRectF> complexPos, vector<QRectF> proteinPos, vector<QRectF> smallMoleculePos, vector<QRectF> DnaPos, vector<QRectF> reactionPos, vector<QRectF> physicalEntityPos, vector<QRectF> ANodePos, bool solveANode=false); //same as the void savePathWay() except the edge is recorded in different way
 	void savePathWay(QString filename, vector<QRectF> complexPos, vector<QRectF> proteinPos, vector<QRectF> smallMoleculePos, vector<QRectF> DnaPos, vector<QRectF> reactionPos, vector<QRectF> physicalEntityPos, vector<QRectF> ANodePos, bool solveANode=false);
 	void savePathWayinJSFile(QString filename, vector<QRectF> complexPos, vector<QRectF> proteinPos, vector<QRectF> smallMoleculePos, vector<QRectF> DnaPos, vector<QRectF> reactionPos, vector<QRectF> physicalEntityPos, vector<QRectF> ANodePos, vector<vector<int>> edge);
 
@@ -585,11 +588,7 @@ private:
 	void deleteGroup();
 
 	int read1pathway(const char *name, vector<set<int>> &_1pathway);
-	int read2pathwayStepOrder(const char *name, int stepNum, vector<vector<int>> &_pathwayStep);
-	void read3pathwayStep_reactionAndcontrol(const char *name, int stepNum, vector<vector<int>> &_3pathwayStepCatalysis, vector<int> &_3pathwayStepReaction);
-	vector<int> read4biochemicalReaction(const char *name, vector<vector<vector<int>>> &_biochemicalReaction, vector<vector<QString>> &_reactionName, vector<vector<vector<int>>> &_degradation, vector<vector<QString>> &_degradationName, vector<vector<QString>> &_EmptyName,  int &reactionNum, int &physicalEntityNum, int &smallMoleculeNum, int &DnaNum, int &degradationNum);
-	void read5catalysisANDcontrol(const char *name, vector<vector<int>> &_Catalysis, vector<vector<int>> &_5Control);
-	int read6complex(const char *name, vector<vector<QString>> &_complexName, vector<vector<int>> &_complexContain);
+	
 	bool updateNodeNums(vector<vector<int>> edge, int &proteinNum, int &complexNum, int &physicalEntityNum, int &smallMoleculeNum, int &DnaNum,int &emptyNum, vector<vector<QString>> &_proteinName, vector<vector<QString>> &_complexName, vector<vector<QString>> &_physicalEntityName, vector<vector<QString>> &_smallMoleculeName, vector<vector<QString>> &_DnaName,  vector<vector<QString>> &_emptyName, vector<vector<QString>> _compartmentName, vector<set<vector<int>>> &CompartmentContain, vector<QRectF> &proteinPos, vector<QRectF> &complexPos, vector<QRectF> &physicalEntityPos, vector<QRectF> &smallMoleculePos, vector<QRectF> &DnaPos, vector<QRectF> &EmptyPos);
 	bool addANode(int type, int newNum, int &nodeNum, vector<vector<QString>> &nodeName, vector<vector<QString>> _compartmentName, vector<set<vector<int>>> &CompartmentContain, vector<QRectF> &nodePos);
 
@@ -602,7 +601,10 @@ private:
 	bool PathtoRank(vector<vector<vector<int>>> Vertex, vector<vector<int>> &VertexInfo, vector<vector<int>> Edge, vector<QRectF> &newPos, vector<set<vector<int>>> &CompartmentContain, vector<vector<int>> &Rank, vector<int> &path, int &mini, int roomID, bool useBoost);
 
 	bool addedtoGraph;
+	bool highLightedtoItemSelected(set<vector<int>> highlighted, vector<int> &itemSelected);
+	void addItemSelectedtoHighLighted(vector<int> itemSelected, set<vector<int>> &highlighted);
 
+	set<vector<int>> findNeighorsForAProtein(int type, int id);
 	QPointF getLocation(int pathwayid, int stepid);
     QRectF LayoutBiochemicalReaction(vector<vector<vector<int>>> _biochemicalReaction, int bid, int sid);
 	QRectF LayoutDegradation(vector<vector<vector<int>>> _degradation, int bid, int sid);	
@@ -634,7 +636,7 @@ private:
 
 	QString pathWayGraphForward();
 	QString pathWayGraphBackward();
-	int isInResizeArea(const QPointF pos, QRectF rect);
+	int isInResizeArea(const QPointF pos, QRectF rect, int type=-1);
 	int whichCorner(const QPointF pos, QRectF rect);
 	bool isInnerResizing;	
 	//QTextEdit* m_note_1;

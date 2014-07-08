@@ -1,0 +1,121 @@
+edge.size() 35
+ 83 0 83 -1 82 0 -1
+ 83 -1 83 -1 82 1 -1
+ 83 1 83 -1 82 2 -1
+ 67 2 67 3 82 3 -1
+ 83 -1 67 3 82 3 -1
+ 83 -1 83 -1 82 4 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 7 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 16 -1
+ 67 0 82 1 82 0 -1
+ 80 0 82 1 82 1 -1
+ 67 1 82 1 82 2 -1
+ 67 3 82 1 82 4 -1
+ 67 4 82 1 82 5 -1
+ 67 5 82 1 82 6 -1
+ 67 6 82 1 82 7 -1
+ 67 7 82 1 82 8 -1
+ 67 8 82 1 82 9 -1
+ 67 9 82 1 82 10 -1
+ 67 10 82 1 82 11 -1
+ 67 11 82 1 82 12 -1
+ 67 12 82 1 82 13 -1
+ 67 13 82 1 82 14 -1
+ 67 14 82 1 82 15 -1
+ 67 15 82 1 82 16 -1
+ 83 -1 82 0 82 7 -1
+_complexName.size()	16
+	BK channel	plasma membrane	Reactome DB_ID: 418473	
+	Small conductance Ca2+ activated potassium channel	plasma membrane	Reactome DB_ID: 1297362	
+	HCN channel Homomer of subunit HCN1/HCN channel Homomer of subunit HCN3/HCN channel Homomer of subunit HCN4/HCN channel Homomer of subunt  HCN2			
+	HCN channel bound to cAMP	plasma membrane	Reactome DB_ID: 1297435	
+	GABA B receptor G-protein beta-gamma and Kir3 channel complex	plasma membrane	Reactome DB_ID: 1013011	
+	KIR 1.1 homotetramer/Kir 4.1/5.1 heterotetramer			
+	ATP sensitive K+ channels-inwardly rectifying (SUR1)	plasma membrane	Reactome DB_ID: 1297378	
+	ATP sensitive K+ channels-inwardly rectifying (SUR2)	plasma membrane	Reactome DB_ID: 1369001	
+	kir2x heteroteramer	plasma membrane	Reactome DB_ID: 1299200	
+	Octamer of Voltage gated K+ channels	plasma membrane	Reactome DB_ID: 1297370	
+	KCNK7 homodimers/TWIK1 dimers/TWIK2 dimers			
+	TREK homodimers	plasma membrane	Reactome DB_ID: 1299260	
+	TASK 1 homomer/TASK1/3 heterodimer			
+	TALK1 homomer/TALK 2 homomer			
+	TRESK homodimer	plasma membrane	Reactome DB_ID: 1299256	
+	THIK1 homodimers	plasma membrane	Reactome DB_ID: 1299264	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	KCNN4	plasma membrane	Reactome DB_ID: 977543	UniProt:O15554	KCNN4
+_reactionName.size()	17
+	T	Activation of Ca2+ activated Potassium channels with large conductance
+	T	Activation of  Ca2+ activated Potassium channels with  Intermeidtance conductance
+	T	Activation of Ca2+ activated Potassium channels with small conductance
+	D	Binding of cAMP to HCN channels
+	T	Activation of HCN channels
+	T	Activation of GIRK/Kir3 Channels
+	T	Activation of Potassium transport channels
+	T	Activation of ATP sensitive Potassium channels in neuroendocrine cells
+	T	Activation of ATP sensitive Potassium channels in muscle cells
+	T	Activation of classical Kir channels
+	T	Activation of voltage gated Potassium channels
+	T	Activation of tandem pore domain in a weak inwardly rectifying  K+ channels
+	T	Activation of TWIK-related K+ channel (TREK)
+	T	Activation of TASK
+	T	Activation of TALK
+	T	Activation of TRESK
+	T	Activation of THIK
+_smallMoleculeName.size()	2
+	K+	cytosol	Reactome DB_ID: 29804	potassium(1+) [ChEBI:29103]
+	K+	cytosol	Reactome DB_ID: 29804	potassium(1+) [ChEBI:29103]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

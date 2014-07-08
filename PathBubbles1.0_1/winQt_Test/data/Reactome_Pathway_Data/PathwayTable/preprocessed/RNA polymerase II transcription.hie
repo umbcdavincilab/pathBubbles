@@ -1,0 +1,329 @@
+edge.size() 155
+ 67 0 80 0 82 0 -1
+ 67 0 67 1 82 0 -1
+ 67 0 67 2 82 0 -1
+ 67 0 67 3 82 0 -1
+ 67 0 67 4 82 0 -1
+ 67 0 69 0 82 0 -1
+ 67 0 67 5 82 0 -1
+ 67 7 67 1 82 1 -1
+ 67 7 69 1 82 1 -1
+ 67 7 67 4 82 1 -1
+ 67 7 67 5 82 1 -1
+ 67 -1 80 0 82 -1 -1
+ 67 -1 67 1 82 -1 -1
+ 67 -1 67 2 82 -1 -1
+ 67 -1 67 3 82 -1 -1
+ 67 -1 67 4 82 -1 -1
+ 67 -1 69 2 82 -1 -1
+ 67 -1 67 5 82 -1 -1
+ 80 1 67 8 82 2 -1
+ 80 2 67 8 82 2 -1
+ 80 3 67 9 82 3 -1
+ 80 4 67 9 82 3 -1
+ 80 5 67 10 82 4 -1
+ 80 6 67 10 82 4 -1
+ 80 7 67 11 82 5 -1
+ 80 8 67 11 82 5 -1
+ 80 9 67 11 82 5 -1
+ 80 10 67 11 82 5 -1
+ 80 11 67 12 82 6 -1
+ 80 12 67 12 82 6 -1
+ 80 13 67 12 82 6 -1
+ 80 14 67 13 82 7 -1
+ 67 9 67 13 82 7 -1
+ 67 14 67 16 82 8 -1
+ 67 16 67 14 82 9 -1
+ 67 16 67 17 82 10 -1
+ 67 17 67 16 82 11 -1
+ 67 18 67 22 82 12 -1
+ 67 17 67 23 82 13 -1
+ 67 16 69 3 82 14 -1
+ 67 16 67 15 82 14 -1
+ 67 16 67 6 82 14 -1
+ 67 16 67 12 82 14 -1
+ 67 16 67 11 82 14 -1
+ 67 16 80 15 82 14 -1
+ 67 16 67 10 82 14 -1
+ 67 16 80 16 82 14 -1
+ 67 16 83 0 82 14 -1
+ 67 16 80 17 82 14 -1
+ 67 16 67 13 82 14 -1
+ 67 16 67 8 82 14 -1
+ 67 24 67 25 82 15 -1
+ 67 2 67 28 82 16 -1
+ 69 4 67 28 82 16 -1
+ 80 0 67 27 82 17 -1
+ 67 28 67 27 82 17 -1
+ 67 3 67 27 82 17 -1
+ 67 27 67 26 82 18 -1
+ 67 5 67 26 82 18 -1
+ 67 1 67 29 82 19 -1
+ 67 26 67 29 82 19 -1
+ 67 4 67 25 82 20 -1
+ 67 29 67 25 82 20 -1
+ 83 1 83 4 82 21 -1
+ 67 25 83 5 82 21 -1
+ 67 25 83 6 82 21 -1
+ 83 2 83 7 82 21 -1
+ 67 25 67 24 82 21 -1
+ 83 3 67 24 82 21 -1
+ 67 24 67 30 82 22 -1
+ 83 0 67 30 82 22 -1
+ 67 30 67 31 82 23 -1
+ 67 31 67 0 82 24 -1
+ 67 31 83 8 82 24 -1
+ 67 0 83 8 82 25 -1
+ 83 0 67 32 82 25 -1
+ 67 0 67 32 82 25 -1
+ 83 0 80 0 82 26 -1
+ 67 32 80 0 82 26 -1
+ 67 32 67 33 82 26 -1
+ 67 32 67 33 82 26 -1
+ 83 0 67 34 82 27 -1
+ 67 33 67 34 82 27 -1
+ 67 33 67 1 82 27 -1
+ 67 33 67 1 82 27 -1
+ 67 33 67 2 82 27 -1
+ 67 33 67 2 82 27 -1
+ 67 34 67 35 82 28 -1
+ 83 0 67 35 82 28 -1
+ 67 34 83 8 82 28 -1
+ 67 35 67 36 82 29 -1
+ 83 0 67 36 82 29 -1
+ 67 35 83 8 82 29 -1
+ 67 36 67 37 82 30 -1
+ 67 37 67 38 82 31 -1
+ 67 38 67 39 82 32 -1
+ 80 18 67 39 82 32 -1
+ 67 39 67 40 82 33 -1
+ 80 1 67 41 82 34 -1
+ 80 19 67 41 82 34 -1
+ 67 40 67 41 82 34 -1
+ 67 42 67 20 82 35 -1
+ 80 15 67 20 82 35 -1
+ 67 4 67 20 82 35 -1
+ 67 4 67 4 82 35 -1
+ 80 15 67 4 82 35 -1
+ 67 42 67 4 82 35 -1
+ 67 20 67 19 82 36 -1
+ 67 8 67 19 82 36 -1
+ 67 18 67 11 82 37 -1
+ 67 18 83 0 82 37 -1
+ 67 18 67 19 82 37 -1
+ 83 0 67 19 82 37 -1
+ 67 12 67 21 82 38 -1
+ 67 18 67 21 82 38 -1
+ 67 18 67 43 82 38 -1
+ 67 12 67 43 82 38 -1
+ 67 10 67 44 82 39 -1
+ 80 16 67 44 82 39 -1
+ 67 43 67 44 82 39 -1
+ 67 4 67 44 82 39 -1
+ 67 13 67 44 82 39 -1
+ 80 17 67 44 82 39 -1
+ 83 0 67 16 82 40 -1
+ 67 44 67 16 82 40 -1
+ 67 44 67 4 82 40 -1
+ 67 16 67 45 82 41 -1
+ 83 0 67 45 82 41 -1
+ 67 16 83 0 82 41 -1
+ 67 45 67 46 82 42 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 4 82 1 82 21 -1
+ 67 5 82 1 82 25 -1
+ 67 4 82 1 82 25 -1
+ 67 5 82 1 82 26 -1
+ 67 4 82 1 82 26 -1
+ 67 5 82 1 82 27 -1
+ 67 5 82 1 82 28 -1
+ 67 5 82 1 82 29 -1
+ 67 4 82 1 82 31 -1
+ 80 15 82 1 82 35 -1
+ 67 12 82 1 82 38 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	47
+	pol II transcription complex	nucleoplasm	Reactome DB_ID: 109878	
+	TFIIE	nucleoplasm	Reactome DB_ID: 109633	
+	TFIID	nucleoplasm	Reactome DB_ID: 109626	
+	TFIIA	nucleoplasm	Reactome DB_ID: 109629	
+	TFIIH	nucleoplasm	Reactome DB_ID: 109634	
+	RNA Polymerase II (unphosphorylated):TFIIF complex	nucleoplasm	Reactome DB_ID: 71307	
+	TFIIF	nucleoplasm	Reactome DB_ID: 109631	
+	pol II transcription complex containing 4-9 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75890	
+	DSIF complex	nucleoplasm	Reactome DB_ID: 112420	
+	Elongin B:C complex	nucleoplasm	Reactome DB_ID: 112424	
+	FACT complex	nucleoplasm	Reactome DB_ID: 112417	
+	NELF complex	nucleoplasm	Reactome DB_ID: 112432	
+	P-TEFb complex	nucleoplasm	Reactome DB_ID: 112431	
+	Elongin Complex	nucleoplasm	Reactome DB_ID: 112425	
+	Paused processive elongation complex	nucleoplasm	Reactome DB_ID: 113720	
+	RNA Polymerase II holoenzyme complex (hyperphosphorylated)	nucleoplasm	Reactome DB_ID: 109909	
+	Processive elongation complex	nucleoplasm	Reactome DB_ID: 113719	
+	Arrested processive elongation complex	nucleoplasm	Reactome DB_ID: 113721	
+	DSIF:NELF:early elongation complex	nucleoplasm	Reactome DB_ID: 113408	
+	RNA Pol II (hypophosphorylated) complex bound to DSIF protein	nucleoplasm	Reactome DB_ID: 113406	
+	RNA Pol II (hypophosphorylated):capped pre-mRNA complex	nucleoplasm	Reactome DB_ID: 113715	
+	Cap Binding Complex (CBC)	nucleoplasm	Reactome DB_ID: 77088	
+	Aborted early elongation complex	nucleoplasm	Reactome DB_ID: 113410	
+	Aborted elongation complex after arrest	nucleoplasm	Reactome DB_ID: 113722	
+	pol II open pre-initiation complex	nucleoplasm	Reactome DB_ID: 109876	
+	pol II closed pre-initiation complex	nucleoplasm	Reactome DB_ID: 109635	
+	pol II promoter:TFIID:TFIIA:TFIIB:Pol II:TFIIF complex	nucleoplasm	Reactome DB_ID: 109632	
+	pol II promoter:TFIID:TFIIA:TFIIB complex	nucleoplasm	Reactome DB_ID: 109630	
+	pol II promoter:TFIID complex	nucleoplasm	Reactome DB_ID: 109628	
+	pol II promoter:TFIID:TFIIA:TFIIB:Pol II:TFIIF:TFIIE complex	nucleoplasm	Reactome DB_ID: 75871	
+	Pol II initiation complex	nucleoplasm	Reactome DB_ID: 83551	
+	Pol II Initiation complex with phosphodiester-PPi intermediate	nucleoplasm	Reactome DB_ID: 83601	
+	pol II transcription complex containing 3 Nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75878	
+	pol II transcription complex containing 4 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75881	
+	pol II transcription complex containing 9 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75882	
+	pol II transcription complex containing 11 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75902	
+	Pol II transcription complex containing transcript to +30	nucleoplasm	Reactome DB_ID: 111261	
+	Pol II transcription complex containing extruded transcript to +30	nucleoplasm	Reactome DB_ID: 157171	
+	Pol II transcription complex with (ser5) phosphorylated CTD containing extruded transcript to +30	nucleoplasm	Reactome DB_ID: 157174	
+	RNA Pol II with phosphorylated CTD: CE complex	nucleoplasm	Reactome DB_ID: 77053	
+	RNA Pol II with phosphorylated CTD: CE complex with activated GT	nucleoplasm	Reactome DB_ID: 77056	
+	CE:Pol II CTD:Spt5 complex	nucleoplasm	Reactome DB_ID: 77061	
+	capped pre-mRNA:CBC:RNA Pol II (phosphorylated) complex	nucleoplasm	Reactome DB_ID: 77089	
+	Early elongation complex with hyperphosphorylated Pol II CTD	nucleoplasm	Reactome DB_ID: 113426	
+	Elongation complex	nucleoplasm	Reactome DB_ID: 112433	
+	Elongation complex prior to separation	nucleoplasm	Reactome DB_ID: 113724	
+	Elongation complex with separated and uncleaved transcript	nucleoplasm	Reactome DB_ID: 113726	
+_physicalEntityName.size()	5
+		
+		
+		
+		
+		
+_proteinName.size()	20
+	GTF2B	nucleoplasm	Reactome DB_ID: 65888	UniProt:Q00403	GTF2B
+	SUPT5H	nucleoplasm	Reactome DB_ID: 3009372	UniProt:O00267	SUPT5H
+	SUPT4H1	nucleoplasm	Reactome DB_ID: 64905	UniProt:P63272	SUPT4H1
+	EloB	nucleoplasm	Reactome DB_ID: 112423	UniProt:Q15370	TCEB2
+	EloC	nucleoplasm	Reactome DB_ID: 112422	UniProt:Q15369	TCEB1
+	SUPT16H	nucleoplasm	Reactome DB_ID: 112415	UniProt:Q9Y5B9	SUPT16H
+	T160	nucleoplasm	Reactome DB_ID: 65105	UniProt:Q08945	SSRP1
+	NELFB	nucleoplasm	Reactome DB_ID: 112427	UniProt:Q8WX92	NELFB
+	NELFCD	nucleoplasm	Reactome DB_ID: 112428	UniProt:Q8IXH7	NELFCD
+	NELFA	nucleoplasm	Reactome DB_ID: 112426	UniProt:Q9H3P2	NELFA
+	RDBP	nucleoplasm	Reactome DB_ID: 62907	UniProt:P18615	NELFE
+	CCNT1	nucleoplasm	Reactome DB_ID: 51611	UniProt:O60563	CCNT1
+	CDK9	nucleoplasm	Reactome DB_ID: 51801	UniProt:P50750	CDK9
+	CCNT2	nucleoplasm	Reactome DB_ID: 51613	UniProt:O60583	CCNT2
+	EloA	nucleoplasm	Reactome DB_ID: 112421	UniProt:Q14241	TCEB3
+	CTDP1	nucleoplasm	Reactome DB_ID: 113416	UniProt:Q9Y5B0	CTDP1
+	TCEA1	nucleoplasm	Reactome DB_ID: 65748	UniProt:P23193	TCEA1
+	ELL	nucleoplasm	Reactome DB_ID: 54257	UniProt:P55199	ELL
+	HCE	nucleoplasm	Reactome DB_ID: 72081	UniProt:O60942	RNGTT
+	RNMT	nucleoplasm	Reactome DB_ID: 77060	UniProt:O43148	RNMT
+_reactionName.size()	43
+	B	Abortive initiation after formation of the first phosphodiester bond
+	B	Abortive Initiation After Second Transition
+	D	Formation of DSIF complex 
+	D	Formation of Elongin BC complex
+	D	Formation of FACT complex
+	D	Formation of NELF complex 
+	D	Formation of P-TEFb complex
+	D	Formation of elongin complex
+	T	Resumption of elongation after recovery from pausing
+	T	2-4 nt.backtracking of Pol II complex on the template leading to elongation pausing
+	T	7-14 nt. Backtracking of Pol II complex on the template leading to elongation arrest
+	T	TFIIS-mediated recovery of elongation from arrest
+	T	Abortive termination of early transcription elongation by DSIF:NELF
+	T	Abortive termination of elongation after arrest
+	B	Elongating transcript encounters a lesion in the template
+	T	Fall Back to Closed Pre-initiation Complex
+	D	Recognition and Binding of Core Promoter Elements by TFIID
+	D	Binding of TFIIA and TFIIB to the pol II promoter:TFIID complex
+	D	Recruitment of RNA Polymerase II Holoenzyme by TFIIF to the pol II promoter:TFIID:TFIIA:TFIIB complex
+	D	Binding of TFIIE to the growing preinitiation complex
+	D	Formation of the closed pre-initiation complex
+	T	RNA Polymerase II Promoter Opening: First Transition
+	D	NTP Binds Active Site of RNA Polymerase II
+	T	Nucleophillic Attack by 3'-hydroxyl Oxygen of nascent transcript on the Alpha Phosphate of NTP
+	B	Newly Formed Phosphodiester Bond Stabilized and PPi Released
+	T	Addition of the third nucleotide on the nascent transcript
+	T	Addition of the fourth nucleotide on the Nascent Transcript: Second Transition
+	T	Addition of Nucleotides 5 through 9 on the growing Transcript
+	T	Addition of nucleotides 10 and 11 on the growing transcript: Third Transition
+	T	Addition of nucleotides between position +11 and +30
+	T	Extrusion of 5'-end of 30 nt long transcript through the pore in Pol II complex
+	T	Phosphorylation (Ser5) of RNA pol II CTD
+	D	RNA Polymerase II CTD (phosphorylated) binds to CE
+	T	Activation of GT
+	D	SPT5 subunit of Pol II binds the RNA triphosphatase (RTP)
+	T	Hypophosphorylation of RNA Pol II CTD by FCP1P protein
+	D	DSIF complex binds to RNA Pol II (hypophosphorylated)
+	T	Formation of DSIF:NELF:early elongation complex
+	T	Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex
+	D	Recruitment of elongation factors to form elongation complex
+	T	Addition of nucleotides leads to transcript elongation
+	T	Pol II elongation complex moves on the template as transcript elongates
+	T	Separation of elongating transcript from template
+_smallMoleculeName.size()	9
+				
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	PPi	nucleoplasm	Reactome DB_ID: 113541	PPi [ChEBI:29888]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

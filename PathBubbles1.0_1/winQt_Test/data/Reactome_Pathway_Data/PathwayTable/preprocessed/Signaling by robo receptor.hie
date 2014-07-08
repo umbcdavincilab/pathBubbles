@@ -1,0 +1,122 @@
+edge.size() 45
+ 80 0 80 -1 82 0 -1
+ 80 0 80 1 82 0 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 80 2 67 2 82 2 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 67 3 83 0 82 3 -1
+ 67 3 67 4 82 3 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 67 5 83 0 82 4 -1
+ 67 5 67 6 82 4 -1
+ 80 -1 67 7 82 5 -1
+ 67 2 67 7 82 5 -1
+ 67 7 67 8 82 6 -1
+ 80 -1 67 8 82 6 -1
+ 67 8 67 9 82 7 -1
+ 80 -1 67 9 82 7 -1
+ 83 1 67 5 82 8 -1
+ 67 6 67 5 82 8 -1
+ 67 6 83 3 82 8 -1
+ 83 2 83 4 82 8 -1
+ 67 2 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 82 1 82 0 -1
+ 67 -1 82 1 82 3 -1
+ 67 -1 82 1 82 4 -1
+ 67 9 82 1 82 8 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	10
+	Glypican-1:HSPG	plasma membrane	Reactome DB_ID: 428493	
+	Slit2:Glypican-1	plasma membrane	Reactome DB_ID: 428489	
+	Robo1:Slit2:Glypican-1	plasma membrane	Reactome DB_ID: 390371	
+	CDC42:GTP	cytosol	Reactome DB_ID: 182921	
+	CDC42:GDP	cytosol	Reactome DB_ID: 418830	
+	RAC1-GTP	cytosol	Reactome DB_ID: 442641	
+	RAC1-GDP	cytosol	Reactome DB_ID: 445010	
+	Nck:Robo1:Slit2:Glypican	plasma membrane	Reactome DB_ID: 428486	
+	Pak:Nck:Robo1:Slit2:Glypican	plasma membrane	Reactome DB_ID: 428482	
+	SOS:PAK:Nck:Robo1:Slit2:Glypican	plasma membrane	Reactome DB_ID: 428481	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	SLIT2	plasma membrane	Reactome DB_ID: 375997	UniProt:O94813	SLIT2
+	Slit2-N	plasma membrane	Reactome DB_ID: 426409	UniProt:O94813	SLIT2
+	ROBO1	plasma membrane	Reactome DB_ID: 204361	UniProt:Q9Y6N7	ROBO1
+_reactionName.size()	9
+	B	Proteolytic processing of Slit
+	D	Glypican-1 binds Slit2
+	D	Robo1 binds Slit2
+	B	Inactivation of Cdc42
+	B	Inactivation of Rac1
+	D	Nck binds Robo1:Slit2
+	D	Recruitment of PAK to Nck
+	D	Recruitment of Sos to plasma membrane
+	T	Activation of Rac by Sos
+_smallMoleculeName.size()	5
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

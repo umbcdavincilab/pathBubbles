@@ -1,14 +1,15 @@
 #include "SymbolColorPanel.h"
 #include "openglscene.h"
+#define FOR(n) for(int i=0; i<n; i++)
 
-#define RATELIMITCOLOR  QColor(255, 160, 160,255)
+/*#define RATELIMITCOLOR  QColor(255, 160, 160,255)
 #define CROSSTALKCOLOR  QColor(160, 160, 255, 255)
 #define ORTHOLOGYCOLOR  QColor(102,194,165, 255)
 
 #define DOWNEXPRESSIONCOLOR QColor(64,64,255,255)
 #define UPEXPRESSIONCOLOR QColor(230,68,113,255)
 #define EXPRESSIONBACKGROUNDCOLOR QColor(255,237,160,255)
-#define HIGHLIGHTCOLOR QColor(120, 130, 255, 127)
+#define LIGHT_HIGHLIGHTCOLOR QColor(120, 130, 255, 127)
 
 #define COMPLETECOLOR QColor(0,90,50) 
 #define INCOMPLETECOLOR QColor(161,217,155) 	
@@ -19,7 +20,7 @@
 #define SMALLMOLECULECOLOR QColor(214,215,202,255)
 #define PHYSICALENTITYCOLOR QColor(230,234,172,255)
 #define DNACOLOR QColor(214,234,172,255)
-#define SETCOLOR QColor(254,202,131,255)
+#define SETCOLOR QColor(254,202,131,255)*/
 
 SymbolColorPanel::SymbolColorPanel( QSizeF size, int px, int py, OpenGLScene* scene, OpenManager* open )
 : BarBase( size, px, py )
@@ -36,6 +37,70 @@ QString SymbolColorPanel::tailofLogMsg()
 	QString logtext;
 	logtext.append( " (Model-Composition-View Bubble)\n" );
 	return logtext;
+}
+
+void SymbolColorPanel::drawAFan(QPainter *painter, QPoint center, float radius1, float radius2, float angle1, float angle2, vector<QColor> color, int shapeType)
+{
+	//shapeType 0: fan
+   //shape type 1: Mesh
+	
+	if(radius1>=radius2)
+		return;
+		
+	if(angle1>=angle2)
+		return;
+
+	int level=color.size();
+	
+	QPoint center1=center;
+	static const double Pi = 3.141592; 
+    static double TwoPi = 2.0 * Pi;
+	float grad=(angle2-angle1)/10;
+	float itv = level<=1? (radius2-radius1):(radius2-radius1)/level;
+	FOR(level)
+	{
+		float r1 = radius1 + itv*i, r2 = radius1 + itv*(i+1);
+		float rd=r2-r1;
+		center1 = QPoint(center.x(), center.y()+rd) ;
+		int num=8;
+		QPointF avg;
+		float ax=0, ay=0;
+		QVector<QPointF> points;
+		int tnum=(num+1)*2;
+		points.resize(tnum);
+		for(int i=0; i<=num;  i++)
+		{
+			float x,y;
+			x=r2*cos(angle1+i*grad);
+			y=-r2*sin(angle1+i*grad);
+			points[i]=QPoint(x,y);
+			ax=ax+x; ay=ay+y;
+		}
+		if(shapeType==1)
+			r1=r2;
+
+		for(int i=0; i<=num;  i++)
+		{
+			float x,y;
+			x=r1*cos(angle1+i*grad);
+			y=-r1*sin(angle1+i*grad);
+			if(shapeType==1)
+				y=y+rd;
+			points[tnum-1-i]=QPoint(x,y);
+			ax=ax+x; ay=ay+y;
+		}
+
+		avg=QPointF(ax/tnum,ay/tnum); 
+		QPointF Dis=center1-avg;
+
+		for(int j=0; j<points.size(); j++)
+		{
+			points[j]=points[j]+Dis;
+		}
+		QPolygonF whole(points);
+		painter->setBrush(color[i]);
+		painter->drawPolygon(whole);
+	}
 }
 
 void SymbolColorPanel::drawAFan(QPainter *painter, QPoint center, float radius1, float radius2, float angle1, float angle2, QColor color, int shapeType)
@@ -76,10 +141,8 @@ void SymbolColorPanel::drawAFan(QPainter *painter, QPoint center, float radius1,
 		y=-radius1*sin(angle1+i*grad);
 		if(shapeType==1)
 			y=y+rd;
-		points[tnum-1-i]=QPoint(x,y);
+		points[tnum-1-i]=QPoint((x+0.5),(y+0.5));
 		ax=ax+x; ay=ay+y;
-
-
 	}
 
 	avg=QPointF(ax/tnum,ay/tnum); 
@@ -855,6 +918,7 @@ void SymbolColorPanel::drawPathwayNodeAttributes(QPainter *painter, int sx , int
 void SymbolColorPanel::drawOrthologyPanel(QPainter *painter, int sx , int sy)
 {
 	int itv=19;
+	int itv2=14;
 	QColor color;
 	QFont f1("Arial", 10);
 	painter->setFont (f1);	
@@ -871,7 +935,7 @@ void SymbolColorPanel::drawOrthologyPanel(QPainter *painter, int sx , int sy)
 		//TDHelper::GetMultHue(value, 3, r, g, b); 
 		//painter->setBrush(QColor(r, g, b,255));
 		
-		QRect rect(SX, SY+itv*i, 16, itv-3);
+		QRect rect(SX+10, SY+itv*i, 16, itv-3);
 		if(i==2)
 		{
 			color= MISSINGCOLOR;
@@ -891,42 +955,100 @@ void SymbolColorPanel::drawOrthologyPanel(QPainter *painter, int sx , int sy)
 		//three color
 		painter->setBrush(color);
 		//painter->drawRect(rect);
-		drawAFan(painter, rect.center(), (itv-4)*1.2, (itv-4)*2, 3.1415*0.38, 3.1415*0.62, color,1);
+		//drawAFan(painter, rect.center(), (itv-4)*1.2, (itv-4)*2, 3.1415*0.38, 3.1415*0.62, color,1);
+		drawAFan(painter, rect.center(), (itv2*(11-1))*0.4-itv2*0.5, (itv2*(11-1))*0.4, 3.1415*0.4, 3.1415*0.6, color,0);		
+
 		//QString str= QString::number((i+1)/8.0, 'g', 5);
-		painter->drawText(SX+itv+5, SY+itv*(i+0.6), str);
+		painter->drawText(SX+itv+18, SY+itv*(i+0.6), str);
 	}			
 }
 
 void SymbolColorPanel::drawTreeRingNodePanel(QPainter *painter, int sx , int sy)
 {
-	int itv=19;
-	QColor color;
+	/*
+		class TreeRing
+		ringmark[0]=QColor( _ring[layer]._color_by_crosstalk[i].r*255, _ring[layer]._color_by_crosstalk[i].g*255, _ring[layer]._color_by_crosstalk[i].b*255, 255);
+		ringmark[2]=QColor( _ring[layer]._color_by_orthology[i].r*255, _ring[layer]._color_by_orthology[i].g*255, _ring[layer]._color_by_orthology[i].b*255, 255);
+		ringmark[3]=QColor( _ring[layer]._color_by_expression[i].r*255, _ring[layer]._color_by_expression[i].g*255, _ring[layer]._color_by_expression[i].b*255, 255);
+				
+		if(paintNode(painter, layer, i, (_ring[layer]._pos[i])[0], (_ring[layer]._pos[i])[1], (_ring[layer]._pos[i])[2], (_ring[layer]._pos[i])[3], ringmark, _ring[layer]._node_num==1, isSideNode))
+		{
+			Point Ds=(_ring[layer]._pos[start])[1]-(_ring[layer]._pos[end])[3];
+			float ds= pow(Ds.x,2)+pow(Ds.y,2);
+			painter->setPen(EDGECOLOR);	
+			if(ds>=RES)
+			{
+				if(isSideNode==-1)
+					painter->drawLine((_ring[layer]._pos[i])[0].x, (_ring[layer]._pos[i])[0].y, (_ring[layer]._pos[i])[1].x, (_ring[layer]._pos[i])[1].y);	
+				else if(isSideNode==1)
+					painter->drawLine((_ring[layer]._pos[i])[2].x, (_ring[layer]._pos[i])[2].y, (_ring[layer]._pos[i])[3].x, (_ring[layer]._pos[i])[3].y);	
+			}
+		}
+
+	*/
+	//class TreeRing *_treeRing;
+	//_treeRing->paintNode(painter, ringmark );
+
+	
+
+	int itv=14;
+	
 	QFont f1("Arial", 10);
 	painter->setFont (f1);	
+	painter->drawText(sx+0, sy+0, "Treering Ribbons" );
+	vector<QColor> color;
 	
-	for(int i=0; i<1; ++i)
+	color.push_back(QColor(254,178,76,255));
+	color.push_back(QColor(161,217,155, 255));	
+	color.push_back(RATELIMITCOLOR);
+	color.push_back(QColor(188,189,220,255));
+
+	for(int i=0; i<4; ++i)
 	{
 		int SX,SY;
-		SX= sx + 0;
+		SX= sx + 5;
 		SY= sy + 13;
 		QString str;		
 		float r, g, b;
 		float value=(i+0.5)/3;
 			
 		QRect rect(SX, SY+itv*i, 16, itv-3);
-		if(i==0)
+		if(i==3)
 		{
-			color=QColor(128, 177, 211,255);
-			str= "Contain Rate-limited Proteins";
-			painter->drawText(SX+itv+5, SY+itv*(i+0.6), str);
+			//color=QColor(128, 177, 211,255);
+			str= "Number of Cross-talking Proteins";
+			painter->drawText(SX+itv*2.5-5, SY+itv*(i+0.6), str);
 		}	
-		drawAFan(painter, rect.center(), (itv-4)*1.2, (itv-4)*2, 3.1415*0.38, 3.1415*0.62, QColor(255,140,140,255),1);		
+		else if(i==2)
+		{
+		    str= "Contain Rate-limited Proteins";
+			painter->drawText(SX+itv*2.5-5, SY+itv*(i+0.6), str);		
+		}
+		else if(i==1)
+		{
+		    str= "Orthology Completeness";
+			painter->drawText(SX+itv*2.5-5, SY+itv*(i+0.6), str);		
+		}
+		else if(i==0)
+		{
+		    str= "Expression Level";
+			painter->drawText(SX+itv*2.5-5, SY+itv*(i+0.6), str);		
+		}
+		drawAFan(painter, rect.center(), (itv*(11-i))*0.4-itv*0.5, (itv*(11-i))*0.4, 3.1415*0.4, 3.1415*0.6, color[i],0);		
+		
+		rect.moveCenter(QPoint(20, 10));		
+		
+		//if(_ring[layer]._rateLimitNum[i]>0)
+		//ringmark[0]=QColor( _ring[layer]._color_by_crosstalk[i].r*255, _ring[layer]._color_by_crosstalk[i].g*255, _ring[layer]._color_by_crosstalk[i].b*255, 255);
+		//ringmark[2]=QColor( _ring[layer]._color_by_orthology[i].r*255, _ring[layer]._color_by_orthology[i].g*255, _ring[layer]._color_by_orthology[i].b*255, 255);
+		//ringmark[3]=QColor( _ring[layer]._color_by_expression[i].r*255, _ring[layer]._color_by_expression[i].g*255, _ring[layer]._color_by_expression[i].b*255, 255);
+				
+		//drawAFan(painter, rect.center(), (itv-4)*1.2, (itv-4)*2, 3.1415*0.38, 3.1415*0.62, color, 1);		
+
 		/*drawAFan(painter, rect.center(), (itv-4)*1, (itv-4)*2, 3.1415*0.35, 3.1415*0.65, QColor(0,0,0,0));
 
 		painter->setPen(Qt::NoPen);
 		drawAFan(painter, rect.center()+ QPoint(0,itv/2-2), (itv-4)*1, (itv-4)*1.15, 3.1415*0.34, 3.1415*0.65, QColor(255,140,140));*/
-		
-		
 	}			
 }
 
@@ -986,14 +1108,14 @@ void SymbolColorPanel::paint(QPainter *painter, const QStyleOptionGraphicsItem *
 	//*********************************************************
 	if(!hideIt)
 	{
-		drawOrthologyPanel(painter, 10, 15);
-		drawTreeRingNodePanel(painter, 160, 15);
-		drawPathwayNodeTypes(painter, 380 , 15);		
-		drawPathwayProteinAttributes(painter, 680, 15);
-		drawPathwayNodeAttributes(painter, 820, 15);
-		drawPathwayReactionTypes(painter, 1000, 15);
-		drawPathwayReactionAttrubutes(painter, 1180, 15);		
-		drawExpressionGlyphs(painter, 1360, 15);
+		drawTreeRingNodePanel(painter, 20, 15);
+		drawOrthologyPanel(painter, 260, 15);		
+		drawPathwayNodeTypes(painter, 440 , 15);		
+		drawPathwayProteinAttributes(painter, 740, 15);
+		drawPathwayNodeAttributes(painter, 880, 15);
+		drawPathwayReactionTypes(painter, 1060, 15);
+		drawPathwayReactionAttrubutes(painter, 1240, 15);		
+		drawExpressionGlyphs(painter, 1420, 15);
 	}
 	//*********************************************************
     drawHideButton(painter);

@@ -1,0 +1,128 @@
+edge.size() 45
+ 83 0 83 2 82 0 -1
+ 80 0 83 3 82 0 -1
+ 80 0 80 1 82 0 -1
+ 83 1 80 1 82 0 -1
+ 67 0 67 1 82 1 -1
+ 80 1 67 1 82 1 -1
+ 67 1 83 7 82 2 -1
+ 83 4 83 8 82 2 -1
+ 83 5 67 0 82 2 -1
+ 67 1 67 0 82 2 -1
+ 83 6 80 0 82 2 -1
+ 67 1 80 0 82 2 -1
+ 80 0 80 3 82 3 -1
+ 67 3 67 4 82 4 -1
+ 80 3 67 4 82 4 -1
+ 80 3 80 4 82 4 -1
+ 67 3 80 4 82 4 -1
+ 68 0 67 6 82 5 -1
+ 67 5 67 6 82 5 -1
+ 68 1 80 -1 82 6 -1
+ 68 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 68 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 68 2 67 7 82 7 -1
+ 67 5 67 7 82 7 -1
+ 68 -1 80 -1 82 -1 -1
+ 68 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 68 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 2 82 1 82 0 -1
+ 67 2 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 6 82 1 82 6 -1
+ 67 -1 82 1 82 -1 -1
+ 67 7 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	8
+	14-3-3 eta dimer/14-3-3 gamma dimer/14-3-3 sigma dimer/14-3-3 theta dimer/14-3-3zeta dimer/YWHAB dimer/YWHAE dimer			
+	14-3-3 proteins:p-S99-BAD complex	cytosol	Reactome DB_ID: 139904	
+	Calcineurin B complex	cytosol	Reactome DB_ID: 140202	
+	tBID:BCL-2	mitochondrial outer membrane	Reactome DB_ID: 114339	
+	BAD:BCL-2	mitochondrial outer membrane	Reactome DB_ID: 114268	
+	p-S15-TP53 Tetramer	nucleoplasm	Reactome DB_ID: 349474	
+	p-S15-TP53 Tetramer:PMAIP1 Gene	nucleoplasm	Reactome DB_ID: 4331332	
+	p-S15-TP53 Tetramer:BBC3 Gene	nucleoplasm	Reactome DB_ID: 4331345	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	BAD	cytosol	Reactome DB_ID: 50662	UniProt:Q92934	BAD
+	p-S99-BAD	cytosol	Reactome DB_ID: 198335	UniProt:Q92934	BAD
+	AKT3	cytosol			
+	BAD	mitochondrial outer membrane	Reactome DB_ID: 114242	UniProt:Q92934	BAD
+	tBID	mitochondrial outer membrane	Reactome DB_ID: 114266	UniProt:P55957	BID
+_reactionName.size()	8
+	T	AKT phosphorylates BAD
+	D	Sequestration of BAD protein by 14-3-3
+	T	Activation of BAD by calcineurin
+	T	Translocation of activated BAD protein to mitochondria
+	T	BAD displaces tBID from BCL-2 sequestration
+	D	TP53 binds PMAIP1 (NOXA) promoter
+	T	Transactivation of PMAIP1 (NOXA) by p53
+	D	TP53 binds BBC3 (PUMA) promoter
+_smallMoleculeName.size()	9
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+_DnaName.size()	3
+	BBC3 Gen	nucleoplasm	Reactome DB_ID: 4331320	ENSEMBL:ENSG00000105327 BBC3
+	BBC3 Gen	nucleoplasm	Reactome DB_ID: 4331320	ENSEMBL:ENSG00000105327 BBC3
+	NOXA Gen	nucleoplasm	Reactome DB_ID: 4331342	ENSEMBL:ENSG00000141682 PMAIP1
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

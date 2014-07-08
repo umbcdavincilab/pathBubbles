@@ -1,0 +1,105 @@
+edge.size() 28
+ 80 0 67 0 82 0 -1
+ 80 1 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 67 0 67 2 82 2 -1
+ 80 2 67 2 82 2 -1
+ 80 3 67 3 82 3 -1
+ 83 0 67 3 82 3 -1
+ 67 1 67 3 82 3 -1
+ 67 1 83 2 82 3 -1
+ 83 1 83 3 82 3 -1
+ 80 3 83 4 82 3 -1
+ 67 3 67 4 82 4 -1
+ 80 -1 67 4 82 4 -1
+ 80 -1 67 5 82 5 -1
+ 67 4 67 5 82 5 -1
+ 69 0 67 6 82 6 -1
+ 67 3 67 6 82 6 -1
+ 67 3 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 1 67 7 82 7 -1
+ 80 4 67 7 82 7 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 1 67 -1 82 -1 -1
+ 80 3 82 1 82 3 -1
+_complexName.size()	8
+	Nephrin dimer	plasma membrane	Reactome DB_ID: 373670	
+	Nephrin dimer:NEPH1	plasma membrane	Reactome DB_ID: 373679	
+	Nephrin dimer:NEPH2/NEPH3	plasma membrane	Reactome DB_ID: 451719	
+	NEPH1:p-Nephrin:Fyn	plasma membrane	Reactome DB_ID: 374555	
+	NEPH1:p-Nephrin:Fyn:NCK	plasma membrane	Reactome DB_ID: 373677	
+	NEPH1:p-Nephrin:Fyn:NCK:N-WASP	plasma membrane	Reactome DB_ID: 532605	
+	Podocin:p-Nephrin:Fyn:NEPH1	plasma membrane	Reactome DB_ID: 373691	
+	Nephrin dimer:IQGAP1	plasma membrane	Reactome DB_ID: 451398	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	5
+	NPHS1-1	plasma membrane	Reactome DB_ID: 197692	UniProt:O60500-1	NPHS1
+	NEPH1	plasma membrane	Reactome DB_ID: 197826	UniProt:Q96J84-1	KIRREL
+	NEPH3	plasma membrane			
+	FYN	cytosol	Reactome DB_ID: 200917	UniProt:P06241	FYN
+	IQGAP1	plasma membrane	Reactome DB_ID: 381681	UniProt:P46940	IQGAP1
+_reactionName.size()	8
+	T	Nephrin trans-homophilic interaction
+	D	Cis-Heterodimerization of nephrin and NEPH1
+	D	Heterodimerization of nephrin and NEPH2/NEPH3
+	T	Phosphorylation of nephrin by the Src family kinase Fyn
+	D	Nephrin binds NCK
+	D	Nephrin mediated activation of N-WASP
+	D	Nephrin interacts with Podocin
+	D	Interaction of IQGAP1 with nephrin
+_smallMoleculeName.size()	5
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

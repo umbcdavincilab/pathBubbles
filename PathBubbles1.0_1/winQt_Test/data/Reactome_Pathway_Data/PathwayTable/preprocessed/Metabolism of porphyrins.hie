@@ -1,0 +1,183 @@
+edge.size() 76
+ 83 6 83 0 82 0 -1
+ 83 7 83 1 82 0 -1
+ 83 8 83 2 82 0 -1
+ 83 9 83 3 82 0 -1
+ 83 10 83 4 82 0 -1
+ 83 6 83 11 82 1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 11 83 12 82 2 -1
+ 83 -1 83 13 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 13 83 14 82 4 -1
+ 83 13 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 5 -1
+ 83 15 83 18 82 6 -1
+ 83 -1 83 19 82 6 -1
+ 83 16 83 20 82 6 -1
+ 83 17 83 21 82 6 -1
+ 83 22 83 24 82 7 -1
+ 83 20 83 25 82 7 -1
+ 83 23 83 26 82 7 -1
+ 83 26 83 27 82 8 -1
+ 83 27 83 28 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 29 82 -1 -1
+ 83 31 83 30 82 10 -1
+ 83 32 83 29 82 10 -1
+ 83 33 83 31 82 11 -1
+ 83 32 83 35 82 11 -1
+ 83 34 83 36 82 11 -1
+ 67 0 82 1 82 0 -1
+ 67 -1 82 1 82 2 -1
+ 67 1 82 1 82 3 -1
+ 80 0 82 1 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 2 82 1 82 6 -1
+ 67 3 82 1 82 7 -1
+ 67 4 82 1 82 9 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 1 82 1 82 10 -1
+ 67 5 82 1 82 11 -1
+ 83 5 82 0 82 0 -1
+ 83 -1 82 0 82 9 -1
+_complexName.size()	6
+	ALAS1 homodimer (pyridoxal phosphate cofactor)/ALAS2 homodimer (pyridoxal phosphate cofactor)			
+	HMBS:DIPY	cytosol	Reactome DB_ID: 189426	
+	2xCPO	mitochondrial intermembrane space	Reactome DB_ID: 189485	
+	2xPPO:FAD	mitochondrial intermembrane space	Reactome DB_ID: 189469	
+	2x(FECH:2Fe-2S cluster)	mitochondrial matrix	Reactome DB_ID: 189402	
+	4xUGT1A1	endoplasmic reticulum membrane	Reactome DB_ID: 159191	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	UROS	cytosol	Reactome DB_ID: 189430	UniProt:P10746	UROS
+	UGT1A1	endoplasmic reticulum membrane	Reactome DB_ID: 159156	UniProt:P22309	UGT1A1
+_reactionName.size()	12
+	T	ALAS condenses SUCC-CoA and Gly to form dALA
+	T	Mitochondrial dALA translocates to cytosol
+	B	ALAD condenses 2 dALAs to form PBG
+	T	4 PBGs bind to form HMB
+	B	UROS transforms HMB to URO3
+	T	Cytosolic COPRO3 translocates to mitochondrial intermembrane space
+	T	CPO transforms COPRO3 to PPGEN9
+	T	PPO oxidises PPGEN9 to PRIN9
+	T	Mitochondrial intermembrane PRIN9 translocates to mitochondrial matrix
+	T	FECH binds Fe2+ to PRIN9 to form heme
+	T	Bilirubin forms a monoglucuronide
+	T	Bilirubin monoglucuronide is conjugated to bilirubin diglucuronide
+_smallMoleculeName.size()	37
+	Gly	mitochondrial matrix	Reactome DB_ID: 159549	Glycine [ChEBI:15428]
+	dALA	mitochondrial matrix	Reactome DB_ID: 189466	5-Aminolevulinate [ChEBI:2034]
+	SUCC-CoA	mitochondrial matrix	Reactome DB_ID: 70958	Succinyl-CoA [ChEBI:15380]
+	SUCC-CoA	mitochondrial matrix	Reactome DB_ID: 70958	Succinyl-CoA [ChEBI:15380]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	Gly	mitochondrial matrix	Reactome DB_ID: 159549	Glycine [ChEBI:15428]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	SUCC-CoA	mitochondrial matrix	Reactome DB_ID: 70958	Succinyl-CoA [ChEBI:15380]
+	CoA	mitochondrial matrix	Reactome DB_ID: 29374	CoA [ChEBI:15346]
+	Gly	mitochondrial matrix	Reactome DB_ID: 159549	Glycine [ChEBI:15428]
+	CoA	mitochondrial matrix	Reactome DB_ID: 29374	CoA [ChEBI:15346]
+	COPRO3	cytosol	Reactome DB_ID: 189455	Coproporphyrinogen III [ChEBI:3880]
+	PPGEN9	mitochondrial intermembrane space	Reactome DB_ID: 189478	Protoporphyrinogen IX [ChEBI:8593]
+	CO2	mitochondrial intermembrane space	Reactome DB_ID: 189480	CO2 [ChEBI:16526]
+	H2O2	mitochondrial intermembrane space	Reactome DB_ID: 189481	H2O2 [ChEBI:16240]
+	FPP	mitochondrial matrix	Reactome DB_ID: 2162257	trans,trans-Farnesyl diphosphate [ChEBI:10700]
+	FPP	mitochondrial matrix	Reactome DB_ID: 2162257	trans,trans-Farnesyl diphosphate [ChEBI:10700]
+	PPi	mitochondrial matrix	Reactome DB_ID: 159450	PPi [ChEBI:29888]
+	PPi	mitochondrial matrix	Reactome DB_ID: 159450	PPi [ChEBI:29888]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	PPi	mitochondrial matrix	Reactome DB_ID: 159450	PPi [ChEBI:29888]
+	heme A	mitochondrial matrix	Reactome DB_ID: 2995348	heme a [ChEBI:24479]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	BV	cytosol	Reactome DB_ID: 189396	Biliverdin [ChEBI:3102]
+	URO3	cytosol	Reactome DB_ID: 189407	Uroporphyrinogen III [ChEBI:9905]
+	URO1	cytosol	Reactome DB_ID: 190157	Uroporphyrinogen I [ChEBI:9904]
+	COPRO3	cytosol	Reactome DB_ID: 189455	Coproporphyrinogen III [ChEBI:3880]
+	URO3	cytosol	Reactome DB_ID: 189407	Uroporphyrinogen III [ChEBI:9905]
+	CO2	cytosol	Reactome DB_ID: 113528	CO2 [ChEBI:16526]
+	URO1	cytosol	Reactome DB_ID: 190157	Uroporphyrinogen I [ChEBI:9904]
+	COPRO1	cytosol	Reactome DB_ID: 190128	Coproporphyrinogen I [ChEBI:3879]
+	URO1	cytosol	Reactome DB_ID: 190157	Uroporphyrinogen I [ChEBI:9904]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

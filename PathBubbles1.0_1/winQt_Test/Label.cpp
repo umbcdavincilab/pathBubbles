@@ -19,6 +19,9 @@ Label::~Label()
 float Label::RenderHighLighted(QPainter * painter, TreeRing *tr, int layerIndex, vector <int> nodeIndex, Color co)
 { //used
   // get the node position on screen
+	if(tr->_ring[layerIndex]._radius.size()<=0)
+		return 0;
+
 	float Rds =  tr->_ring[layerIndex]._radius[0];//tr->GetRadius(); //changed when switching innder ring out
 	float wdh =  tr-> GetRingWidth();//tr->getWidth();
 	QFont f("Arial",10);
@@ -259,6 +262,8 @@ void Label::RenderTreeRingNodeLabels(QPainter *painter, TreeRing *tr)
 {
 	//get angle overlap	
 	_num_layers = tr->_ring.size();
+	if(tr->_ring[_num_layers-1]._radius.size()<=0)
+		return;
 	float Rds =  tr->_ring[_num_layers-1]._radius[0];//tr->GetRadius(); //changed when switching innder ring out
 	float wdh =  tr-> GetRingWidth();//tr->getWidth();
 	QFont f("Arial",10);

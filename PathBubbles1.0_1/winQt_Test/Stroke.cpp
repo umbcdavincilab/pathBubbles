@@ -115,7 +115,7 @@ void Stroke::drawPoints(vector<Point> *curve)
 	glDisable(GL_TEXTURE_2D);
 
 	//glGetFloatv(GL_CURRENT_COLOR, &c);
-	glBegin(GL_POINTS);
+	glBegin(GL_POINTS); //start
 	for(int i=0;i<curve->size();i++)
 	{
 		Point & p = (*curve)[i];
@@ -146,7 +146,7 @@ void Stroke::drawPoints(vector<Point> *curve)
 			glVertex2i(p.x,p.y);
 		}; // end if(highlightIndex)
 	}; // end for(i)
-	glEnd();
+	glEnd(); //start
 }
 
 void Stroke::drawPoints(vector<Point> *curve, vector <Color> dc)

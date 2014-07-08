@@ -1,0 +1,222 @@
+edge.size() 86
+ 83 0 83 3 82 0 -1
+ 83 1 83 4 82 0 -1
+ 83 2 83 5 82 0 -1
+ 83 6 83 8 82 1 -1
+ 83 5 83 9 82 1 -1
+ 83 7 83 1 82 1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 10 83 17 82 2 -1
+ 83 11 83 18 82 2 -1
+ 83 12 83 19 82 2 -1
+ 83 13 83 20 82 2 -1
+ 83 14 83 21 82 2 -1
+ 83 15 83 22 82 2 -1
+ 83 16 83 23 82 2 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 25 82 3 -1
+ 83 -1 83 26 82 3 -1
+ 83 -1 83 27 82 3 -1
+ 83 -1 83 24 82 3 -1
+ 83 29 83 28 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 30 83 31 82 4 -1
+ 83 24 83 -1 82 4 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 32 83 -1 82 -1 -1
+ 83 33 83 36 82 5 -1
+ 83 32 83 37 82 5 -1
+ 83 34 83 23 82 5 -1
+ 83 35 83 38 82 5 -1
+ 83 39 83 41 82 6 -1
+ 83 23 83 42 82 6 -1
+ 83 38 83 43 82 6 -1
+ 83 40 83 32 82 6 -1
+ 83 44 83 46 82 7 -1
+ 83 12 83 47 82 7 -1
+ 83 45 83 48 82 7 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 50 83 49 82 8 -1
+ 83 52 83 51 82 9 -1
+ 83 12 83 50 82 9 -1
+ 83 23 83 53 82 10 -1
+ 83 38 83 52 82 10 -1
+ 83 55 83 54 82 10 -1
+ 83 23 83 56 82 11 -1
+ 83 38 83 57 82 11 -1
+ 83 55 83 58 82 11 -1
+ 83 59 83 46 82 12 -1
+ 83 12 83 63 82 12 -1
+ 83 55 83 64 82 12 -1
+ 83 60 83 65 82 12 -1
+ 83 61 83 23 82 12 -1
+ 83 62 83 38 82 12 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 1 82 1 82 2 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 3 -1
+ 67 -1 82 1 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 2 82 1 82 5 -1
+ 67 2 82 1 82 6 -1
+ 67 3 82 1 82 7 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 8 -1
+ 80 0 82 1 82 9 -1
+ 67 4 82 1 82 10 -1
+ 67 4 82 1 82 11 -1
+ 80 1 82 1 82 12 -1
+_complexName.size()	5
+	BCAT1 dimer	cytosol	Reactome DB_ID: 70699	
+	branched-chain alpha-ketoacid dehydrogenase complex	mitochondrial matrix	Reactome DB_ID: 70019	
+	HADH2 tetramer	mitochondrial matrix	Reactome DB_ID: 508381	
+	ACAT1 tetramer	mitochondrial matrix	Reactome DB_ID: 70839	
+	HIBADH tetramer	mitochondrial matrix	Reactome DB_ID: 70883	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	HIBCH	mitochondrial matrix	Reactome DB_ID: 70872	UniProt:Q6NVY1	HIBCH
+	MMSDH	mitochondrial matrix	Reactome DB_ID: 70890	UniProt:Q02252	ALDH6A1
+_reactionName.size()	13
+	T	leu, ile, or val + alpha-ketoglutarate <=> a-ketoisocaproate, a-keto-b-methylvalerate, or a-ketoisovalerate + glutamate [BCAT1]
+	T	a-ketoisocaproate, a-keto-b-methylvalerate, or a-ketoisovalerate + glutamate <=> leu, ile, or val + alpha-ketoglutarate [BCAT1]
+	T	Oxidative decarboxylation of branched-chain alpha-keto acids
+	T	beta-methylglutaconyl-CoA + ADP + orthophosphate + H2O <=> beta-methylcrotonyl-CoA + ATP + CO2 [MCCA]
+	D	beta-methylglutaconyl-CoA + H2O <=> beta-hydroxy-beta-methylglutaryl-CoA
+	T	alpha-methyl-beta-hydroxybutyryl-CoA + NAD+ <=> alpha-methylacetoacetyl-CoA + NADH + H+
+	T	alpha-methylacetoacetyl-CoA + NADH + H+ <=> alpha-methyl-beta-hydroxybutyryl-CoA + NAD+
+	T	alpha-methyl-acetoacetyl-CoA + CoA => propionyl-CoA + acetyl-CoA
+	D	methacrylyl-CoA + H2O <=> beta-hydroxyisobutyryl-CoA
+	T	beta-hydroxyisobutyryl-CoA + H2O => beta-hydroxyisobutyrate + CoA
+	T	beta-hydroxyisobutyrate + NAD+ <=> methylmalonyl semialdehyde + NADH + H+
+	T	methylmalonyl semialdehyde + NADH + H+ <=> beta-hydroxyisobutyrate + NAD+
+	T	methylmalonate semialdehyde + NAD+ + CoA => propionyl-CoA + CO2 + NADH + H+
+_smallMoleculeName.size()	66
+				
+				
+	2OG	cytosol	Reactome DB_ID: 29406	2-Oxoglutarate [ChEBI:30915]
+				
+	L-Glu	cytosol	Reactome DB_ID: 29404	L-Glutamate [ChEBI:16015]
+				
+	FAD	mitochondrial matrix	Reactome DB_ID: 113596	FAD [ChEBI:16238]
+	FADH2	mitochondrial matrix	Reactome DB_ID: 31649	FADH2 [ChEBI:17877]
+	2-methylbutanoyl-CoA	mitochondrial matrix	Reactome DB_ID: 70718	2-Methylbutanoyl-CoA [ChEBI:15477]
+	2-methylbutanoyl-CoA	mitochondrial matrix	Reactome DB_ID: 70718	2-Methylbutanoyl-CoA [ChEBI:15477]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	2-methylacetoacetyl-CoA	mitochondrial matrix	Reactome DB_ID: 70836	2-Methylacetoacetyl-CoA [ChEBI:15476]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	2-methylacetoacetyl-CoA	mitochondrial matrix	Reactome DB_ID: 70836	2-Methylacetoacetyl-CoA [ChEBI:15476]
+	2-methylacetoacetyl-CoA	mitochondrial matrix	Reactome DB_ID: 70836	2-Methylacetoacetyl-CoA [ChEBI:15476]
+	propionyl-CoA	mitochondrial matrix	Reactome DB_ID: 70843	ChEBI:15539 Propionyl-CoA
+	CoA	mitochondrial matrix	Reactome DB_ID: 29374	CoA [ChEBI:15346]
+	Ac-CoA	mitochondrial matrix	Reactome DB_ID: 113559	Acetyl-CoA [ChEBI:15351]
+	2-methylacetoacetyl-CoA	mitochondrial matrix	Reactome DB_ID: 70836	2-Methylacetoacetyl-CoA [ChEBI:15476]
+	Ac-CoA	mitochondrial matrix	Reactome DB_ID: 113559	Acetyl-CoA [ChEBI:15351]
+	ISB-CoA	mitochondrial matrix	Reactome DB_ID: 70851	2-Methylpropanoyl-CoA [ChEBI:15479]
+	methacrylyl-CoA	mitochondrial matrix	Reactome DB_ID: 70858	2-Methylprop-2-enoyl-CoA [ChEBI:27754]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+				
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+				
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	FAD	mitochondrial matrix	Reactome DB_ID: 113596	FAD [ChEBI:16238]
+	ISV-CoA	mitochondrial matrix	Reactome DB_ID: 70715	3-Methylbutanoyl-CoA [ChEBI:15487]
+	ISV-CoA	mitochondrial matrix	Reactome DB_ID: 70715	3-Methylbutanoyl-CoA [ChEBI:15487]
+	bMC-CoA	mitochondrial matrix	Reactome DB_ID: 70744	3-Methylcrotonyl-CoA [ChEBI:15486]
+	FAD	mitochondrial matrix	Reactome DB_ID: 113596	FAD [ChEBI:16238]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	bMC-CoA	mitochondrial matrix	Reactome DB_ID: 70772	3-Methylglutaconyl-CoA [ChEBI:15488]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	HCO3-	mitochondrial matrix	Reactome DB_ID: 29896	HCO3- [ChEBI:17544]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	HMG-CoA	mitochondrial matrix	Reactome DB_ID: 70784	(S)-3-Hydroxy-3-methylglutaryl-CoA [ChEBI:15467]
+	HMG-CoA	mitochondrial matrix	Reactome DB_ID: 70784	(S)-3-Hydroxy-3-methylglutaryl-CoA [ChEBI:15467]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

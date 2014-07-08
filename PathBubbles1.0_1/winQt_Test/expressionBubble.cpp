@@ -1881,12 +1881,12 @@ void expressionBubble::getExpressionToBePaint(vector<QRectF> &bgRect, vector<QCo
 		if(highlighted.find(node)!=highlighted.end())
 		{
 						
-			borderColor[l]=MIDIUM_HIGHLIGHTCOLOR;//QColor(255,100,100,255);
+			borderColor[l]=MEDIUM_HIGHLIGHTCOLOR;//QColor(255,100,100,255);
 			borderWidth[l]=4;
 		}
 		else if(searched.find(node)!=searched.end())
 		{	
-			borderColor[l]=MIDIUM_HIGHLIGHTCOLOR;
+			borderColor[l]=MEDIUM_HIGHLIGHTCOLOR;
 			borderWidth[l]=4;
 		}
 		else
@@ -2167,7 +2167,7 @@ void expressionBubble::paintExpression(QPainter *painter, vector<QRectF> bgRect,
    int count=0;
    int i,j,id;   
    
-   painter->save();
+   painter->save();//start
 
    QRectF rect;
    int esize=expressedGeneOrder.size();
@@ -2176,10 +2176,10 @@ void expressionBubble::paintExpression(QPainter *painter, vector<QRectF> bgRect,
 	   QFont f1("Arial", 10);
        painter->setFont (f1);
 	   QList<ItemBase *> mlist=_scene->getGroupMembers(this);	     
-	   painter->drawText(-105, -15, "No gene is differentially expressed.");			
+	   	
 	  
 	   bool flag=false;
-	   for(int l=0; l<esize; l++)
+	   for(int l=0; l<mlist.size(); l++)
 	   {   
 			if(mlist[l]->getType() == SUBPATHBUBBLE1 || mlist[l]->getType() == PATHBUBBLE1 || mlist[l]->getType() == SUBPATHBUBBLE1)
 			{
@@ -2188,12 +2188,16 @@ void expressionBubble::paintExpression(QPainter *painter, vector<QRectF> bgRect,
 			}
 	   }	   
 	   if(!flag)
-		 painter->drawText(-115, 15, "Please link it to tree ring or pathway data.");	
+	   {
+			painter->drawText(-115, -10, "Please group this bubble with a tree ring");	
+			painter->drawText(-115, 10, "or pathway bubble.");
+	   }
+	   else painter->drawText(-105, 0, "No gene is differentially expressed.");		
    }
    
    if(borderColor.size()==0)
 	{
-		painter->restore();
+		painter->restore(); //start
 		return;
    }
    
@@ -2210,22 +2214,21 @@ void expressionBubble::paintExpression(QPainter *painter, vector<QRectF> bgRect,
    float dy=Height/row;
 
   
-
-    QFont f("Arial", 12);
-    painter->setFont (f);
+   QFont f("Arial", 12);
+   painter->setFont (f);
    if(_layoutType==1)	
    {	
 	    float ex = bgRect[0].x()-20, ey = bgRect[0].y();
 		vector<QString> qstr(2,"");
-		qstr[0] = "control"; //"rpkm"
-		qstr[1] = "heat";	
+		qstr[0] = quantityName[0]; //control
+		qstr[1] = quantityName[1]; //heat
 		
         pen.setColor(QColor(0,0,0,255));
 		painter->setPen(pen);
 		
 		for(int i=0; i<row; i++)
 		{	
-			drawAngleText(painter, ex, ey+20, qstr[i], 90);
+			drawAngleText(painter, ex, ey, qstr[i], 90);
 			ey=ey+dy;
 		}	
 		float tx=bgRect[0].x();
@@ -2320,15 +2323,14 @@ void expressionBubble::paintExpression(QPainter *painter, vector<QRectF> bgRect,
 }
 
 void expressionBubble::drawHighLightNode(QPainter *painter, int hl)
-{
-		
+{		
 	int id=expressedGeneOrder[hl];
-	//pen.setColor(borderColor[l]);
-	//pen.setWidth(borderWidth[l]);
-		
-	//	painter->setPen(Qt::NoPen);
-    painter->setBrush(LIGHT_HIGHLIGHTCOLOR);
 
+	//pen.setColor(borderColor[l]);
+	//pen.setWidth(borderWidth[l]);		
+	//painter->setPen(Qt::NoPen);
+
+   painter->setPen(MEDIUM_HIGHLIGHTCOLOR);
    float hScale=0.9;
    int row=quantity[0].size();
    float Height = bgRect[0].height()*row/((row-1)+hScale);
@@ -2336,13 +2338,7 @@ void expressionBubble::drawHighLightNode(QPainter *painter, int hl)
 
 	if(_layoutType==1)
 	{
-		//backgroud
-		if(borderWidth[hl]==0)
-			painter->setPen(Qt::NoPen);
-		else
-			painter->setPen(borderColor[hl]);
-				
-        float ex=bgRect[hl].center().x(), ey=bgRect[hl].center().y(), w=bgRect[hl].width()<10?10:bgRect[hl].width(), h=dy*hScale;//bgRect[hl].width()
+		float ex=bgRect[hl].center().x(), ey=bgRect[hl].center().y(), w=bgRect[hl].width()<10?10:bgRect[hl].width(), h=dy*hScale;//bgRect[hl].width()
 	    float scalex=w/bgRect[hl].width();
         float scaley=scalex>1?1.1:1.0;
 		float y=bgRect[hl].y()-(scaley-1)*Height;		
@@ -2353,8 +2349,7 @@ void expressionBubble::drawHighLightNode(QPainter *painter, int hl)
 		{
 			QRectF brect=QRectF(ex-w/2, y, w, bgRect[0].height()*scaley);
 			painter->setBrush(QColor(255,255,255,255));
-			painter->drawRect(brect);
-			painter->setBrush(LIGHT_HIGHLIGHTCOLOR);
+			painter->drawRect(brect);			
 		}	
 		for(int i=0; i<row; i++)
 		{
@@ -2584,16 +2579,15 @@ void expressionBubble::setExpressedGenePos(int orderType)
 	   float yit=height/quantity[0].size()*hScale, xit=width/W*wScale;
 	   float dx=0, dy=0;
 	   
-	   if(xit>30)
+	   if(xit>7)
 	   {
-		   //yit = yit/xit*30;	 
-		   dx = (width  - width/xit*30)/2;		   
-		   xit=30;
+		   dx = (width  - width/xit*10)/2;		   
+		   xit=7;
 	   }
-	   if(xit<2)
+	   if(xit<7)
 	   {
-		   dx = (width  - width/xit*2)/2;		   
-		   xit=2;	   
+		   dx = (width  - width/xit*8)/2;		   
+		   xit=7;	   
 	   }
 	   dy = (height - height*hScale)/2;
 	   float w=xit/width, h=hScale;	
@@ -2624,8 +2618,7 @@ void expressionBubble::setExpressedGenePos(int orderType)
 		   }
 		   expressedGenePos[id]=QRectF(expressedGenePos[id].x(), expressedGenePos[id].y()+hd*0.1, expressedGenePos[id].width(), expressedGenePos[id].height()-hd*0.1);
 	   }  	   
-   }
- 
+   } 
 }
 
 int expressionBubble::getIDinExpressedSets(QString name)
@@ -2754,7 +2747,7 @@ void expressionBubble::hoverMoveEvent(QGraphicsSceneHoverEvent *event )
 
 void expressionBubble::drawHoveredSymbol(QPainter *painter, int hl)
 {
-     if(hl<0 || expressedGeneOrder.empty())
+     if(hl<0 || hl >=expressedGeneOrder.size() || expressedGeneOrder.empty())
 		return;
 
 	int id = expressedGeneOrder[hl];
@@ -2782,7 +2775,7 @@ void expressionBubble::drawHoveredSymbol(QPainter *painter, int hl)
 				
 			drawAngleRect(painter, rect1, 45);
 
-			painter->setPen(MIDIUM_HIGHLIGHTCOLOR);				
+			painter->setPen(MEDIUM_HIGHLIGHTCOLOR);				
 			drawAngleText(painter, fontPos[hl].x(), fontPos[hl].y()+10, str, 45);
 		}
 		else
@@ -2793,7 +2786,7 @@ void expressionBubble::drawHoveredSymbol(QPainter *painter, int hl)
 			painter->setBrush(QColor(255,255,255,255));
 			painter->drawRect(rect1);
 
-			painter->setPen(MIDIUM_HIGHLIGHTCOLOR);	
+			painter->setPen(MEDIUM_HIGHLIGHTCOLOR);	
 			painter->drawText(fontPos[hl].x(), bgRect[hl].y()+bgRect[hl].height()+fontRect.height()*0.85, str);
 		}
 	}
@@ -3032,37 +3025,18 @@ void expressionBubble::mousePressEvent(QGraphicsSceneMouseEvent *event)
 			   {
 			       //_scene->_pathBubbles[m_bindPathwayID]->hoveredItem.clear();				   
 				   	search(geneInfo[id][1]);
-				   /*for(int k=0; k<geneContainer[i].size(); k=k+2)
-				   {
-					    vector<int> itemSelected;						
-				        itemSelected.push_back(geneContainer[i][k]);
-						itemSelected.push_back(geneContainer[i][k+1]);
-					    if(!itemSelected.empty())
-						{
-							//if(!_scene->_pathBubbles[m_bindPathwayID]->controlKeyisOn)
-							if(_scene->controlKeyisOn)
-							{
-								if(_scene->_pathBubbles[m_bindPathwayID]->highlighted.size()==0)
-									 _scene->_pathBubbles[m_bindPathwayID]->highlighted.insert(itemSelected);
-								else
-								{
-									if(mark==0)
-									{
-										_scene->_pathBubbles[m_bindPathwayID]->highlighted.clear();																	
-										mark=1;
-									}
-									_scene->_pathBubbles[m_bindPathwayID]->highlighted.insert(itemSelected);									
-								}
-							}
-							else
-							{
-								_scene->_pathBubbles[m_bindPathwayID]->highlighted.insert(itemSelected);									
-							}
-						}
-				   }*/
+					mark=1;
 			   }			   
+			   
 			}
-		}		
+		}	
+		if(!mark)
+		{
+			//highlighted.clear();
+			//clearSearched();
+			search("");
+			//getExpressionToBePaint();
+		}
 	}
 
 	/*if(m_bindPathwayID>=0)
@@ -3610,14 +3584,41 @@ bool expressionBubble::isExpressedMatchedGene(int id)
 }
 
 void expressionBubble::search(QString str)
-{
-	 
-	int count=0,itemCount=0;
-	
+{	 
+	int count=0,itemCount=0;	
+	QList<ItemBase *> mlist=_scene->getGroupMembers(this);	 
 	if(str.size()==0)
 	{
-		//_scene->searchInPathBubble();
-		return;
+		//clear all search
+		for(int i=0; i<mlist.size(); i++) 
+		{
+			int type=mlist[i]->getType();
+			if ( type == SUBPATHBUBBLE1 || type == PATHBUBBLE1)
+			{			
+				if(!mlist[i]->searched.empty())
+				{
+					mlist[i]->searched.clear();	
+					PathBubble1* pbubble = dynamic_cast<PathBubble1*>(mlist[i]);
+			        pbubble->getGraphToBePaint();					
+       		    }	
+			}
+			if (type == EXPRESSIONBUBBLE)
+			{			
+          		if(!mlist[i]->searched.empty())
+				{
+					if(!mlist[i]->searched.empty())
+					{
+						mlist[i]->searched.clear();				
+			            expressionBubble* ebubble = dynamic_cast<expressionBubble*>(mlist[i]);			        
+			            ebubble->getExpressionToBePaint();			
+					}	
+       		    }	
+			}
+			if ( type == TREERING)
+			{			
+				mlist[i]->searched.clear();
+			}
+		}
 	}
 	set<int> SearchList;
 	SearchList.insert('P'); //SearchList.insert('D'); SearchList.insert('S'); SearchList.insert('E');  SearchList.insert('R');	SearchList.insert('M');				 
@@ -3636,8 +3637,7 @@ void expressionBubble::search(QString str)
 		str = str.mid(0, index);		
 		if(str.size()==0)
 			break;
-	}	
-	QList<ItemBase *> mlist=_scene->getGroupMembers(this);	 
+	}		
 
 	for(int i=0; i<mlist.size(); i++) 
 	{

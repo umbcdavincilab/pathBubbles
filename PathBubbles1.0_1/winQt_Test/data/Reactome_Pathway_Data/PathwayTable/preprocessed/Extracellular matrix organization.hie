@@ -1,0 +1,888 @@
+edge.size() 631
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 1 83 0 82 1 -1
+ 67 1 67 0 82 1 -1
+ 67 1 83 1 82 1 -1
+ 83 5 83 2 82 1 -1
+ 83 6 67 0 82 1 -1
+ 83 7 83 3 82 1 -1
+ 83 8 83 4 82 1 -1
+ 67 3 83 9 82 2 -1
+ 67 3 67 1 82 2 -1
+ 67 3 83 10 82 2 -1
+ 83 14 83 11 82 2 -1
+ 83 15 67 1 82 2 -1
+ 83 16 83 12 82 2 -1
+ 83 8 83 13 82 2 -1
+ 67 6 83 17 82 3 -1
+ 67 6 67 5 82 3 -1
+ 67 6 83 18 82 3 -1
+ 83 22 83 19 82 3 -1
+ 83 23 67 5 82 3 -1
+ 83 24 83 20 82 3 -1
+ 83 8 83 21 82 3 -1
+ 83 27 67 6 82 4 -1
+ 67 8 83 25 82 4 -1
+ 67 8 83 26 82 4 -1
+ 83 27 67 6 82 -1 -1
+ 67 8 83 -1 82 -1 -1
+ 67 8 83 -1 82 -1 -1
+ 83 27 67 8 82 5 -1
+ 67 9 83 -1 82 5 -1
+ 67 9 83 -1 82 5 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 10 67 11 82 6 -1
+ 67 11 67 12 82 7 -1
+ 67 11 80 3 82 7 -1
+ 67 12 69 2 82 8 -1
+ 67 13 67 14 82 9 -1
+ 69 1 67 14 82 9 -1
+ 69 2 67 14 82 9 -1
+ 69 0 67 14 82 9 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 32 83 28 82 10 -1
+ 83 33 83 29 82 10 -1
+ 83 34 69 0 82 10 -1
+ 83 35 69 0 82 10 -1
+ 69 3 83 30 82 10 -1
+ 69 3 83 31 82 10 -1
+ 69 3 69 0 82 10 -1
+ 83 -1 83 36 82 11 -1
+ 83 40 83 37 82 11 -1
+ 83 41 69 4 82 11 -1
+ 83 42 69 0 82 11 -1
+ 83 35 69 0 82 11 -1
+ 69 5 69 4 82 11 -1
+ 69 5 83 38 82 11 -1
+ 69 5 83 39 82 11 -1
+ 69 5 69 0 82 11 -1
+ 69 3 67 16 82 12 -1
+ 69 0 67 16 82 12 -1
+ 69 3 67 17 82 13 -1
+ 69 0 67 17 82 13 -1
+ 69 5 67 18 82 14 -1
+ 69 0 67 18 82 14 -1
+ 69 5 67 19 82 15 -1
+ 69 0 67 19 82 15 -1
+ 67 19 67 20 82 16 -1
+ 67 18 67 20 82 16 -1
+ 67 19 67 21 82 17 -1
+ 67 17 67 22 82 18 -1
+ 67 18 67 22 82 18 -1
+ 67 17 67 23 82 19 -1
+ 67 19 67 23 82 19 -1
+ 67 17 67 24 82 20 -1
+ 69 0 67 24 82 20 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 5 80 7 82 21 -1
+ 80 5 80 6 82 21 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 7 69 6 82 22 -1
+ 69 6 67 25 82 23 -1
+ 80 8 67 25 82 23 -1
+ 80 9 67 26 82 24 -1
+ 80 10 67 27 82 25 -1
+ 67 25 67 27 82 25 -1
+ 67 26 67 27 82 25 -1
+ 67 27 67 28 82 26 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 28 67 29 82 27 -1
+ 80 11 67 29 82 27 -1
+ 67 29 67 30 82 28 -1
+ 69 7 67 30 82 28 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 12 67 31 82 29 -1
+ 69 6 67 31 82 29 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 30 67 32 82 30 -1
+ 80 13 67 32 82 30 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 33 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 13 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 14 67 35 82 31 -1
+ 67 34 67 35 82 31 -1
+ 67 36 67 37 82 32 -1
+ 80 15 67 37 82 32 -1
+ 67 35 67 38 82 33 -1
+ 80 15 67 38 82 33 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 35 67 39 82 34 -1
+ 69 1 67 39 82 34 -1
+ 67 33 67 40 82 35 -1
+ 69 1 67 40 82 35 -1
+ 67 13 67 41 82 36 -1
+ 69 2 67 41 82 36 -1
+ 69 1 67 42 82 37 -1
+ 69 2 67 42 82 37 -1
+ 67 43 67 44 82 38 -1
+ 67 33 67 44 82 38 -1
+ 69 8 67 45 82 39 -1
+ 80 15 67 45 82 39 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 34 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 16 67 46 82 40 -1
+ 83 43 67 46 82 40 -1
+ 83 44 67 46 82 40 -1
+ 69 0 67 46 82 40 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 17 67 47 82 41 -1
+ 69 0 67 47 82 41 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 18 67 48 82 42 -1
+ 80 -1 67 48 82 42 -1
+ 67 48 67 49 82 43 -1
+ 80 -1 67 49 82 43 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 49 67 50 82 44 -1
+ 67 49 80 -1 82 44 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 50 67 51 82 45 -1
+ 67 50 80 -1 82 45 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 46 -1
+ 80 -1 80 -1 82 46 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 47 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 48 -1
+ 80 -1 80 -1 82 48 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 69 0 69 9 82 49 -1
+ 69 0 69 9 82 50 -1
+ 69 0 69 9 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 51 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 52 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 1 69 10 82 53 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 2 69 11 82 54 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 55 -1
+ 69 6 69 12 82 56 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 57 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 58 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 13 67 52 82 59 -1
+ 67 13 67 52 82 60 -1
+ 67 -1 67 -1 82 61 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 15 80 25 82 62 -1
+ 80 15 80 26 82 62 -1
+ 80 15 80 25 82 63 -1
+ 80 15 80 26 82 63 -1
+ 80 15 80 25 82 -1 -1
+ 80 15 80 26 82 -1 -1
+ 80 15 80 28 82 64 -1
+ 80 15 80 29 82 64 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 65 -1
+ 80 -1 80 -1 82 65 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 0 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 0 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 2 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 17 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 15 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 2 82 1 82 1 -1
+ 67 4 82 1 82 2 -1
+ 67 7 82 1 82 3 -1
+ 80 2 82 1 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 5 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 4 82 1 82 7 -1
+ 80 -1 82 1 82 -1 -1
+ 67 15 82 1 82 10 -1
+ 67 15 82 1 82 11 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 21 -1
+ 67 15 82 1 82 26 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 19 82 1 82 44 -1
+ 80 -1 82 1 82 -1 -1
+ 67 50 82 1 82 45 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 46 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 20 82 1 82 47 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 19 82 1 82 48 -1
+ 80 -1 82 1 82 -1 -1
+ 80 20 82 1 82 -1 -1
+ 80 21 82 1 82 49 -1
+ 80 18 82 1 82 50 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 51 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 52 -1
+ 80 -1 82 1 82 -1 -1
+ 80 22 82 1 82 53 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 23 82 1 82 54 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 55 -1
+ 80 24 82 1 82 56 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 57 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 58 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 59 -1
+ 80 18 82 1 82 60 -1
+ 80 18 82 1 82 61 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 62 -1
+ 80 27 82 1 82 63 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 64 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 65 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 0 82 -1 -1
+ 83 19 82 1 82 46 -1
+ 80 -1 82 0 82 -1 -1
+ 80 -1 82 0 82 -1 -1
+_complexName.size()	53
+	Collagen propeptides and chains:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2022120	
+	4-Hyp collagen propeptides:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2022076	
+	Prolyl 4-hydroxylases	endoplasmic reticulum lumen	Reactome DB_ID: 1650765	
+	3,4-Hyp collagen propeptides:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2022426	
+	Prolyl 3-hydroxylases:Fe2+	endoplasmic reticulum lumen	Reactome DB_ID: 1981160	
+	Lysyl hydroxylae procollagen substrates:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2023011	
+	Lysyl hydroxylated collagen propeptides:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2022428	
+	PLOD1:Fe2+ dimer/PLOD2:Fe2+ dimer/PLOD3:Fe2+ dimer			
+	Galactosyl-hydroxylysyl collagen propeptides:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2023003	
+	Glucosyl-galactosyl-hydroxylysyl collagen propeptides:P4HB	endoplasmic reticulum lumen	Reactome DB_ID: 2023661	
+	Collagen alpha-1(VII) trimer	extracellular region	Reactome DB_ID: 2022124	
+	Collagen type VII hexamer	extracellular region	Reactome DB_ID: 2127449	
+	Collagen type VII -NC2 hexamer	extracellular region	Reactome DB_ID: 2214316	
+	Laminin-5	extracellular region	Reactome DB_ID: 216001	
+	Anchoring fibril complex	extracellular region	Reactome DB_ID: 2399659	
+	Lysyl oxidases:Cu2+	extracellular region	Reactome DB_ID: 2022132	
+	Collagen type 1 fibrils cross-linked by dehydro-lysinonorleucine crosslinks	extracellular region	Reactome DB_ID: 2396037	
+	Collagen type I fibrils with deH-HLNL cross-links	extracellular region	Reactome DB_ID: 2396268	
+	Collagen type I fibrils with lysino-5-ketonorleucine cross-links	extracellular region	Reactome DB_ID: 2447200	
+	Collagen type I fibrils with hydroxylysino-5-ketonorleucine crosslinks	extracellular region	Reactome DB_ID: 2396143	
+	Collagen type I fibrils with lysyl-pyridinoline cross-links	extracellular region	Reactome DB_ID: 2396051	
+	Collagen type I fibrils with hydroxylysyl-pyridinoline cross-links	extracellular region	Reactome DB_ID: 2396133	
+	Collagen type I fibrils with lysyl-pyrrole cross-links	extracellular region	Reactome DB_ID: 2396474	
+	Collagen type I fibrils with hydroxylysyl-pyrrole cross-links	extracellular region	Reactome DB_ID: 2396060	
+	Collagen type I fibrils with histidino-hydroxylysinoleucine cross-links	extracellular region	Reactome DB_ID: 2399496	
+	Fibrilins:MFAP2,MFAP5	extracellular region	Reactome DB_ID: 2396329	
+	Tropoelastin aggregate	extracellular region	Reactome DB_ID: 2161342	
+	Fibrillins:MFAP2,MFAP5:Tropoelastin aggregate	extracellular region	Reactome DB_ID: 2161254	
+	Elastic fibre	extracellular region	Reactome DB_ID: 2161360	
+	Elastic fibre:Fibulins	extracellular region	Reactome DB_ID: 2395337	
+	Elastic fibre:Fibulins:Emilins	extracellular region	Reactome DB_ID: 2396077	
+	Fibrillins:BMP2,4,7,10,GF5	extracellular region	Reactome DB_ID: 2396217	
+	Elastic fibre with associated proteins	extracellular region	Reactome DB_ID: 2161325	
+	Laminin-1	extracellular region	Reactome DB_ID: 215989	
+	Laminin-6/Laminin-4/Laminin-7/Laminin-14/Laminin-10/Laminin-9/Laminin-11/Laminin-8/Merosin/Laminin-3/Laminin-1/Laminin-12			
+	Laminins with gamma-1, gamma-3:Nidogens 1,2	extracellular region	Reactome DB_ID: 2426517	
+	Laminin-4/Laminin-10/Laminin-11/Laminin-522/Merosin/Laminin-3/Laminin-1/Laminin-12			
+	Laminins with alpha-1, -2 or -5:HSPG2(22-4391)	extracellular region	Reactome DB_ID: 4084512	
+	Laminins with gamma-1, gamma-3:Nidogens:HSPG2	extracellular region	Reactome DB_ID: 2426291	
+	Laminins with gamma-1, gamma-3:Nidogens:Collagen type IV network	extracellular region	Reactome DB_ID: 2426607	
+	Collagen type IV network:Laminin-1	extracellular region	Reactome DB_ID: 2426371	
+	Laminin-332:Collagen type VII fibril	extracellular region	Reactome DB_ID: 3858504	
+	Collagen type IV networks:Collagen type VII fibril	extracellular region	Reactome DB_ID: 4084523	
+	Endostatin dimer	extracellular region	Reactome DB_ID: 4084521	
+	Laminin-111:Endostatin dimer	extracellular region	Reactome DB_ID: 4084617	
+	HSPG2:FGF2(10-155), Fibronectn matrix, Transthyretin tetramer, PDGFA homodimer, PDGFB homodimer	extracellular region	Reactome DB_ID: 2426668	
+	Collagen type I fibril:SPARC:Hydroxylapatitie:Ca2+	extracellular region	Reactome DB_ID: 2672066	
+	IBSP:Collagen type I fibril	extracellular region	Reactome DB_ID: 4127482	
+	MMP14:TIMP2	plasma membrane	Reactome DB_ID: 1604365	
+	MMP14:TIMP2:proMMP2	plasma membrane	Reactome DB_ID: 1604369	
+	MMP14:TIMP2:MMP2 intermediate form	plasma membrane	Reactome DB_ID: 1604373	
+	MMP14:TIMP:MMP2	plasma membrane	Reactome DB_ID: 1604349	
+	Laminin-5	extracellular region	Reactome DB_ID: 2533911	
+_physicalEntityName.size()	13
+		
+	BP180/COL16A1/COL18A1/BP180/COL16A1/COL18A1	endoplasmic reticulum lumen
+		
+		
+		
+		
+	LEPREL2/P3H1/3x4Hyp-3Hyp-COL4A1(24-1669)/LEPREL2/P3H1/3x4Hyp-3Hyp-COL4A1(24-1669)	endoplasmic reticulum lumen
+	COL6A1/COL5A1/COL3A1/COL6A1/COL5A1/COL3A1	endoplasmic reticulum lumen
+	3x4Hyp-COL4A1(24-1669)/FGF2/3x4Hyp-COL4A1(24-1669)/FGF2	extracellular region
+		
+	COL22A1/COL24A1/COL23A1/COL22A1/COL24A1/COL23A1	endoplasmic reticulum lumen
+		
+	5Hyl-COL1A2(25-1366)/COL5A2/5Hyl-COL4A2(26-1712)/5Hyl-COL1A2(25-1366)/COL5A2/5Hyl-COL4A2(26-1712)	endoplasmic reticulum lumen
+_proteinName.size()	30
+	COL4A1(24-1669)	endoplasmic reticulum lumen			
+	PDI	endoplasmic reticulum lumen	Reactome DB_ID: 174692	UniProt:P07237	P4HB
+	GLT25D2	endoplasmic reticulum lumen			
+	COL7A1	extracellular region			
+	BMP1	extracellular region			
+	FBN1	extracellular region			
+	FBN1	extracellular region			
+	FBN3	extracellular region			
+	MFAP2	extracellular region			
+	ELN	extracellular region	Reactome DB_ID: 1454880	UniProt:P15502	ELN
+	FBLN5	extracellular region	Reactome DB_ID: 2161278	UniProt:Q9UBX5	FBLN5
+	FBLN1	extracellular region			
+	BMP10	extracellular region			
+	VTN	extracellular region			
+	NID2	extracellular region			
+	HSPG2	extracellular region	Reactome DB_ID: 1011570	UniProt:P98160	HSPG2
+	SPARC	extracellular region	Reactome DB_ID: 114643	UniProt:P09486	SPARC
+	IBSP	extracellular region	Reactome DB_ID: 265399	UniProt:P21815	IBSP
+	MMP14	plasma membrane	Reactome DB_ID: 1442472	UniProt:P50281	MMP14
+	MMP16	plasma membrane			
+	FURIN	Golgi membrane	Reactome DB_ID: 157049	UniProt:P09958	FURIN
+	MMP1	extracellular region			
+	MMP3	extracellular region			
+	MMP3	extracellular region			
+	MMP2	extracellular region			
+	HSPG2(22-?)	extracellular region	Reactome DB_ID: 2534251	UniProt:P98160	HSPG2
+	HSPG2(?-4391)	extracellular region	Reactome DB_ID: 2534246	UniProt:P98160	HSPG2
+	CTSS	extracellular region			
+	HSPG2	extracellular region	Reactome DB_ID: 3827968	UniProt:P98160	HSPG2
+	LG3	extracellular region	Reactome DB_ID: 3827980	UniProt:P98160	HSPG2
+_reactionName.size()	66
+	D	PDI is a chaperone for collagen peptides
+	T	Collagen prolyl 4-hydroxylase converts proline to 4-hydroxyproline
+	T	Collagen prolyl 3-hydroxylase converts proline to 3-hydroxyproline
+	T	Procollagen lysyl hydrolases convert lysine to 5-hydroxylysine
+	T	Galactosylation of collagen propeptide hydroxylysines by procollagen galactosyltransferases 1, 2.
+	T	Glucosylation of collagen propeptide hydroxylysines
+	T	Collagen type VII dimerization
+	B	Cleavage of collagen VII NC2 region by BMP1
+	T	Formation of anchoring fibrils
+	D	Collagen type VII binds laminin-322 and collagen IV
+	T	Formation of allysine by LOX
+	T	Formation of hydroxyallysine by LOX
+	D	Formation of dehydro-lysinonorleucine cross-links
+	D	Formation of dehydro-hydroxylysino-norleucine cross-links
+	D	Formation of lysino-5-ketonorleucine cross-links
+	D	Formation of hydroxylysino-5-ketonorleucine cross-links
+	D	Formation of lysyl-pyridinoline cross-links
+	T	Formation of hydroxylysyl-pyridinoline cross-links
+	D	Formation of lysyl-pyrrole cross-links
+	D	Formation of hydroxylysyl-pyrrole cross-links
+	D	Formation of histidino-hydroxylysinonorleucine cross-links
+	B	Fibrillin C-terminal processing
+	T	Fibrillin microfibril assembly
+	D	MFAP2, MFAP5 bind microfibrils
+	T	Tropoelastin forms aggregate globules
+	D	Tropoelastin associates with microfibrils
+	T	Elastin cross-linking by lysyl oxidase
+	D	Fibulin binds elastic fibres
+	D	Emilin is found in elastic fibres
+	D	Fibrillins bind BMPs
+	D	Elastic fibres bind associated proteins
+	D	Laminins bind Nidogens 1, 2
+	D	Laminins bind HSPG2
+	D	Laminins:Nidogens binds HSPG2
+	D	Laminins:Nidogens binds collagen type IV networks
+	D	Laminin-111 binds collagen type IV
+	D	Laminin-332 binds collagen type VII
+	D	Collagen type VII binds collagen type IV
+	D	Laminin-111 binds endostatin dimer
+	D	Perlecan binds multiple ECM components
+	D	SPARC binds Collagen type I fibril, hydroxylapatite and Ca2+
+	D	IBSP binds collagen type I
+	D	MMP14 (MT1-MMP) binds TIMP2
+	D	MMP14:TIMP2 binds proMMP2
+	B	Initial activation of proMMP2 by MMP14
+	B	Autocatalytic activation of bound proMMP2
+	B	Autocatalytic activation of MMP7
+	T	Activation of proMMP11 by FURIN
+	B	Initial activation of proMMP13 by MMP14 (MT1-MMP)
+	T	Collagen type I degradation by MMP1,2,8,13, PRSS2
+	T	Collagen type I degradation by MMP14
+	T	Collagen type II degradation by MMP14
+	T	Collagen type III degradation by MMP14
+	T	Collagen type IV degradation by MMP2,3,4,9,10,12
+	T	Collagen type VII degradation by MMP1,2,3
+	T	Elastin degradation by MMP14
+	T	Fibrillin 1, 2,(3) degradation by MMP2, 9, 12 and 13
+	T	Fibrillin-1 degradation by MMP14
+	T	Fibronectin degradation by MMP14
+	T	Laminin-332 degradation by laminin-322 degrading extracellular proteinases
+	T	Laminin-322 degradation by MMP14
+	T	Laminin-511 degradation by MMP14
+	B	HSPG2 (perlecan) degradation by MMP3, plasmin, (MMP12)
+	B	Degradation of perlecan by MMP13, CTSS
+	B	HSPG2 (perlecan) is cleaved by BMP1, TLL1, TLL2, Cathepsin L1
+	B	DCN (decorin) degradation by MMP14
+_smallMoleculeName.size()	45
+	Hydroxyapatite	extracellular region	Reactome DB_ID: 2672070	hydroxylapatite [ChEBI:52255]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	CO2	endoplasmic reticulum lumen	Reactome DB_ID: 159751	CO2 [ChEBI:16526]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	Mg2+	extracellular region	Reactome DB_ID: 114632	Magnesium [ChEBI:18420]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	NH3	extracellular region	Reactome DB_ID: 2022135	NH3 [ChEBI:16134]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	UDP	endoplasmic reticulum lumen	Reactome DB_ID: 158602	uridine 5'-diphosphate [ChEBI:17659]
+	UDP-Gal	endoplasmic reticulum lumen	Reactome DB_ID: 1981137	UDP-D-galactose [ChEBI:18307]
+	UDP-Gal	endoplasmic reticulum lumen	Reactome DB_ID: 1981137	UDP-D-galactose [ChEBI:18307]
+	UDP-Glc	endoplasmic reticulum lumen	Reactome DB_ID: 173594	UDPglucose [ChEBI:18066]
+	Sulfatide	plasma membrane	Reactome DB_ID: 2465899	galactosylceramide sulfate [ChEBI:18318]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

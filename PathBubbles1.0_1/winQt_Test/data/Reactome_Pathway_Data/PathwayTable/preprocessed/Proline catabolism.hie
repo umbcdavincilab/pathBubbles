@@ -1,0 +1,81 @@
+edge.size() 11
+ 83 3 83 0 82 0 -1
+ 83 4 83 1 82 0 -1
+ 83 5 83 2 82 0 -1
+ 83 -1 83 3 82 1 -1
+ 83 7 83 10 82 2 -1
+ 83 6 83 11 82 2 -1
+ 83 -1 83 12 82 2 -1
+ 83 8 83 13 82 2 -1
+ 83 9 83 14 82 2 -1
+ 80 0 82 1 82 0 -1
+ 67 0 82 1 82 2 -1
+_complexName.size()	1
+	ALDH4A1 dimer	mitochondrial matrix	Reactome DB_ID: 70674	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	PRODH	mitochondrial inner membrane	Reactome DB_ID: 70668	UniProt:O43272	PRODH
+_reactionName.size()	3
+	T	proline => L-1-pyrroline-5-carboxylate
+	D	L-1-pyrroline-5-carboxylate <=> L-glutamate gamma-semialdehyde
+	T	L-glutamate gamma-semialdehyde + NAD+ => glutamate + NADH + H+
+_smallMoleculeName.size()	15
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+	L-1-Pyrroline-5-carboxylate	mitochondrial matrix	Reactome DB_ID: 113590	(S)-1-Pyrroline-5-carboxylate [ChEBI:17388]
+	FAD	mitochondrial inner membrane	Reactome DB_ID: 113597	FAD [ChEBI:16238]
+	FADH2	mitochondrial inner membrane	Reactome DB_ID: 164934	FADH2 [ChEBI:17877]
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+	FADH2	mitochondrial inner membrane	Reactome DB_ID: 164934	FADH2 [ChEBI:17877]
+	L-Glu5S	mitochondrial matrix	Reactome DB_ID: 31339	L-Glutamate 5-semialdehyde [ChEBI:17232]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

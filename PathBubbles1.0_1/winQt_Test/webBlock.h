@@ -17,9 +17,12 @@ public:
 	//void scaleDownBasedonOriRect();
 	void deleteItems();
 	//WebBlock::~WebBlock();
-	WebBlock( int size, int x, int y, OpenGLScene* scene, int type=1, QString target = tr(""));
+	WebBlock( int size, int x, int y, OpenGLScene* scene, int type=1, QString target = tr(""), int epid=-1, int etype=-1, int eid=-1);
+	WebBlock::~WebBlock();
 	void mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event);
-
+	void drawConnections(QPainter *painter, QPointF dis);
+	int m_eGiftID;
+	int _pid, _type, _id; //used for queried protein for egift bubble
 
 void contextMenuEvent(QGraphicsSceneContextMenuEvent *event);
 	void initUI(int type);

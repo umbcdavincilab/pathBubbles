@@ -1,0 +1,79 @@
+edge.size() 16
+ 80 0 67 0 82 0 -1
+ 80 0 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 0 83 2 82 2 -1
+ 83 0 83 3 82 2 -1
+ 83 1 67 3 82 2 -1
+ 67 0 67 3 82 2 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 1 82 1 82 2 -1
+_complexName.size()	4
+	PECAM-1:PECAM-1	plasma membrane	Reactome DB_ID: 210238	
+	Integrin alphaVbeta3	plasma membrane	Reactome DB_ID: 210216	
+	Integrin alphaVbeta3:PECAM1	plasma membrane	Reactome DB_ID: 210229	
+	p-PECAM1:p-PECAM1	plasma membrane	Reactome DB_ID: 211539	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	GPIIA'	plasma membrane	Reactome DB_ID: 114686	UniProt:P16284	PECAM1
+	LCK	cytosol			
+_reactionName.size()	3
+	T	Trans-homophilic interaction of PECAM-1
+	D	Interaction of integrin alphaVbeta3 with PECAM1
+	T	Phoshorylation of PECAM-1 by Fyn or Lyn or c-Src
+_smallMoleculeName.size()	4
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

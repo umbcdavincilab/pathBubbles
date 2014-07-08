@@ -11,7 +11,7 @@
 #define INCOMPLETECOLOR QColor(161,217,155) 	
 #define MISSINGCOLOR QColor(255,255,255,255)
 
-#define MIDIUM_HIGHLIGHTCOLOR QColor(213,106,0,255) //QColor(20,20,255,255)
+#define MEDIUM_HIGHLIGHTCOLOR QColor(213,106,0,255) //QColor(20,20,255,255)
 
 BundlesPrimitive::BundlesPrimitive(TreeRing *tr, char *inf, int numOfNode, int numOfAllNode, int layer, float ringRadius, SimData *simData, int EDGE_BY, Point centre)
 {
@@ -624,6 +624,9 @@ void BundlesPrimitive::createEdgeTable()
 			set<int> nodelist;		
 			for(int j=1; j<_out_list[i].size(); j++)
 			{
+				if(ecount>=_edgeToNodeTable.size())
+					continue;
+
 				_edgeToNodeTable[ecount].insert(_out_list[i][0]);
 				_edgeToNodeTable[ecount].insert(_out_list[i][j]);
 				ecount++;
@@ -671,7 +674,7 @@ void BundlesPrimitive::Render(QPainter *painter)
 	//glLineWidth(3.);
 		
 	//pen.setWidth(2);
-	QColor color=MIDIUM_HIGHLIGHTCOLOR;
+	QColor color=MEDIUM_HIGHLIGHTCOLOR;
 	pen.setColor(QColor( color.red(), color.green(), color.blue(), color.alpha() ));
 	painter->setPen( pen );
 	painter->drawLine(0,1,0,1);
@@ -720,7 +723,7 @@ void BundlesPrimitive::respondNodes(int from, int to, int layer, vector<int> &re
 	set<int> respondNodeSet;
 	for(int hi=0; hi<bun.size(); hi++)
 	{
-		if(hi>=from && hi<=to)
+		if(hi>=from && hi<to)
 		{		
 			if(hi<_edgeToNodeTable.size())
 			for(set<int>::iterator it=_edgeToNodeTable[hi].begin(); it!=_edgeToNodeTable[hi].end(); it++)

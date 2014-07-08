@@ -969,29 +969,13 @@ ItemBase* OpenManager::openSearchSettingsView(ItemBase * item, int size, int x, 
 	return web;
 }
 
-ItemBase* OpenManager::openWebView(ItemBase * item, int size, int x, int y, QString name )
+ItemBase* OpenManager::openWebView(ItemBase * item, int size, int x, int y, QString name, int pid, int type, int id )
 {	
 	WebBlock* web=NULL;
 	QList<ItemBase *> itemList;
 	bool grouped=false;
-	/*itemList = _manager->getGroupMembers(item);
-	for (int i = 0; i < itemList.size(); i ++)
-	{		
-		if ( itemList[i]->getType() == WEB)
-		{
-			grouped=true;
-            QMessageBox msgBox;
-			msgBox.setWindowTitle("Open Web Browser");
-			msgBox.setText("A Web Browser bubble is already opened in this group. Would you like to continue?");
-			msgBox.setStandardButtons(QMessageBox::Yes);
-			msgBox.addButton (QMessageBox::No);
-			if(msgBox.exec() == QMessageBox::No)
-				return web;
-			else 
-				break;
-		}
-	}*/
-	if(!grouped)
+	
+	/*if(!grouped)
 	{
 		itemList = _manager->allMembers();
 		for (int i = 0; i < itemList.size(); i ++)
@@ -1009,10 +993,9 @@ ItemBase* OpenManager::openWebView(ItemBase * item, int size, int x, int y, QStr
 					break;
 			}
 		}
-	}
-
-	
-	web = new WebBlock(size, x, y, this->_scene, 1, name );
+	}*/
+		
+	web = new WebBlock(size, x, y, this->_scene, 1, name, pid, type, id);
 	this->_scene->myAddItem( web );
 	
 	connect( web, SIGNAL(unGroup(ItemBase*)), this->_manager, SLOT(unGroup( ItemBase*)) );

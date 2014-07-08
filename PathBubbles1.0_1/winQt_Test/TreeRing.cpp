@@ -13,7 +13,7 @@
 #include <GL/glut.h>
 
 #include "Parser/TreeNameParser.h"
-
+#include "3DHelper.h"
 #include "TreeRing.h"
 #include "LAB2RGB.h"
 #include "Stroke.h"
@@ -23,11 +23,7 @@
 #define HANDLERANGE 0.4
 #define RATELIMITCOLOR QColor(255, 140, 140, 255)
 
-#define COMPLETECOLOR QColor(0,90,50) 
-#define INCOMPLETECOLOR QColor(161,217,155) 	
-#define MISSINGCOLOR QColor(255,255,255,255)
-
-#define MIDIUM_HIGHLIGHTCOLOR QColor(213,106,0,255) //QColor(20,20,255,255)
+#define MEDIUM_HIGHLIGHTCOLOR QColor(213,106,0,255) //QColor(20,20,255,255)
 #define HIGHLIGHTCOLOR1 QColor(255,213,170,159) //QColor(220, 230, 255, 159) //for seg or node representative being dragging around/ and being mouse over
 #define EDGECOLOR QColor(20,20,20,255)
 #define MARKERCOLOR QColor(60,60,60,255)
@@ -171,6 +167,8 @@ void TreeRing::findAllDescendantNodes(int layer, int id, set<vector<int>> &toBeI
 vector<string> TreeRing::findNameList(int layer, int id)
 {//return the name list of topest layer to current node
 	vector<string> nameList;
+	if(id<0)
+		return nameList;
 	nameList.resize(layer+1);
 	int pid, pLayer;
 	pLayer=layer, pid=id;
@@ -180,6 +178,9 @@ vector<string> TreeRing::findNameList(int layer, int id)
 		pLayer = pLayer-1; 
 	    pid = GetParentIndex(layer, pid);
 	}
+	if(pid>=_ring[pLayer]._node_name.size())
+		return nameList;
+
 	nameList[pLayer] = _ring[pLayer]._node_name[pid];	
 	return nameList;
 }
@@ -464,7 +465,7 @@ QString TreeRing::getPathID(QString pathName)
 		//struct expressedPathwayInfo infor;
 
 		//pathName = pathName.replace(",","");
-		QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName + ".path";
+		QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName + ".path";
 		QString num;
 		QFile inputFile(fileName);
 		if(inputFile.open(QIODevice::ReadOnly))
@@ -479,7 +480,7 @@ QString TreeRing::getPathID(QString pathName)
 		{
 			pathName1 = pathName;
 			pathName1 = pathName1.replace(",","");
-			fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName1 + ".path";
+			fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName1 + ".path";
 			QFile inputFile(fileName);
 			if(inputFile.open(QIODevice::ReadOnly))
 			{
@@ -1297,7 +1298,7 @@ void TreeRing::loadRateLimit()
 			*/
 			//searchexpressed
 			//QString num=*it;
-			QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+			QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";			
 			QString tname = fname + "7protein.txt"; 
 			string sname= tname.toStdString();  
 			const char * ename=sname.c_str();					
@@ -1914,7 +1915,7 @@ void TreeRing::ComputeNodeColorByV()
 			QString num = GetPathID(layer,i);
 			//searchexpressed
 			//QString num=*it;
-			QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+			QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";			
 			QString tname = fname + "7protein.txt"; 
 			string sname= tname.toStdString();  
 			const char * ename=sname.c_str();					
@@ -2165,7 +2166,7 @@ vector<struct expressedPathwayInfo> TreeRing::searchExpressed(vector<vector<QStr
 				}
 				else
 				{
-					QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+					QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";			
 					QString tname = fname + "7protein.txt"; 
 					string sname= tname.toStdString();  
 					const char * ename=sname.c_str();					
@@ -2535,7 +2536,7 @@ void TreeRing::searchMatchedProtein(vector<vector<QString>> geneInfo, set<QStrin
 
 			if(flag)
 			{
-				QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+				QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile" + num + "_";			
 				tname = fname + "7protein.txt"; 
 				sname= tname.toStdString();  ename=sname.c_str();
 				PWDParser *pwdParser;
@@ -2567,7 +2568,7 @@ void TreeRing::searchMatchedProtein(vector<vector<QString>> geneInfo, set<QStrin
 void TreeRing::Render(QPainter *painter)
 {
 	//painter->setBrush( QColor( 0.8*255, 0.8*255, 0.8*255, 0.5*255 ) );	
-	painter->save();
+	painter->save();//start
 	int start,end;
 	//all handle
 	for(int layer=0; layer<1; layer++)//_num_layers
@@ -2587,8 +2588,8 @@ void TreeRing::Render(QPainter *painter)
 		vector<int> cids = getChildrenNodes(0, handleIndex); //leaves
 		int id1=cids[0], id2=cids[cids.size()-1];
 		int clayer=_num_layers-1;	
-		drawHandle(painter, clayer, id1, (_ring[clayer]._pos[id1])[0], (_ring[clayer]._pos[id1])[1], MIDIUM_HIGHLIGHTCOLOR); 
-		drawHandle(painter, clayer, id2, (_ring[clayer]._pos[id2])[2], (_ring[clayer]._pos[id2])[3], MIDIUM_HIGHLIGHTCOLOR); 
+		drawHandle(painter, clayer, id1, (_ring[clayer]._pos[id1])[0], (_ring[clayer]._pos[id1])[1], MEDIUM_HIGHLIGHTCOLOR); 
+		drawHandle(painter, clayer, id2, (_ring[clayer]._pos[id2])[2], (_ring[clayer]._pos[id2])[3], MEDIUM_HIGHLIGHTCOLOR); 
 	}	
 
 	vector<QColor> ringmark(4,QColor(0,0,0,0));
@@ -2600,8 +2601,8 @@ void TreeRing::Render(QPainter *painter)
 		
        	for(int i=0; i<_ring[layer]._node_num, i<_ring[layer]._pos.size();++i)
 		{
-			vector<int> item(2,0);
-			item[0]=layer; item[1]=i;
+			//vector<int> item(2,0);
+			//item[0]=layer; item[1]=i;
 			//bool flag=false;
 			//if(_ring[layer]._rateLimitNum[i]>0)
 			{
@@ -2657,33 +2658,12 @@ void TreeRing::Render(QPainter *painter)
 			}	
 			
 			//paint the node border again if clicked, selected, ..
-			bool flag0=false, flag1=false;
-			
-			for( set< set< vector<int > > >::iterator it=itemSelected.begin(); it!=itemSelected.end();  it++)
-			{
-				set< vector<int > > iS = *it;
-			    if(iS.find(item)!=iS.end())
-			    {
-					flag0=true;
-					break;
-				}
-			}
-		
-			if( searched.find(item) != searched.end() )
-			{
-			    flag1=true;
-			}						
-			
-			if(_itemClicked.find(item)!=_itemClicked.end() )
-			{
-				flag1=true;				
-			}
-			if(flag1 && !flag0)
+			if(isNodeHighlighted(layer, i))			
 			{
 				QPen pen;
 			    painter->setBrush(Qt::NoBrush);
-				pen.setColor(MIDIUM_HIGHLIGHTCOLOR);
-			    pen.setWidth(2);
+				pen.setColor(MEDIUM_HIGHLIGHTCOLOR);
+			    pen.setWidth(3);
 				painter->setPen(pen);	
 				paintNode_1(painter, layer, i, (_ring[layer]._pos[i])[0], (_ring[layer]._pos[i])[1], (_ring[layer]._pos[i])[2], (_ring[layer]._pos[i])[3],  _ring[layer]._node_num==1);			    				
 			}
@@ -2714,9 +2694,38 @@ void TreeRing::Render(QPainter *painter)
 
 	painter->setPen(QColor(0,0,0,255));	
 	painter->drawLine(0,1,0,1);
-	painter->restore();
+	painter->restore();//start
 }
 
+
+bool TreeRing::isNodeHighlighted(int layer, int id)
+{
+	vector<int> item(2,0);
+	item[0]=layer; item[1]=id;
+	bool flag0=false, flag1=false;
+	for( set< set< vector<int > > >::iterator it=itemSelected.begin(); it!=itemSelected.end();  it++)
+	{
+		set< vector<int > > iS = *it;
+		if(iS.find(item)!=iS.end())
+		{
+			flag0=true;
+			break;
+		}
+	}		
+	if( searched.find(item) != searched.end() )
+	{
+		flag1=true;
+	}						
+			
+	if(_itemClicked.find(item)!=_itemClicked.end() )
+	{
+		flag1=true;				
+	}
+	if(flag1 && !flag0)
+		return true;
+	else return false;
+
+}
 
 QPolygon TreeRing::getANode(int layer, int idx)
 {	
@@ -2824,7 +2833,7 @@ vector<QPointF> TreeRing::getATrapezoid(QPointF start, QPointF end, float size1,
 	destArrowP2 = destArrowP2 + dis;
 	
 	//painter->drawPolygon(QPolygonF() << destArrowP1 << sourceArrowP1 << sourceArrowP2 << destArrowP2);
-    //painter->restore(); 
+
 	outPut.push_back(destArrowP1);  outPut.push_back(sourceArrowP1);  outPut.push_back(sourceArrowP2);   outPut.push_back(destArrowP2);
 	return outPut;
 }
@@ -4355,6 +4364,7 @@ void TreeRing::CalculateLabelDisplayOrder()
 		for(int i=0; i<_ring[layer]._node_num; ++i)
 			order.push_back(i);
 
+		if(order.size()>0)		
 		//Bubble sort for vector order, this vector likes a set of pointers
 		for(int i = 0; i < order.size() - 1; i++)
 		{

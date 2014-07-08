@@ -46,7 +46,7 @@ public:
 	QString checkPCByPath( QString name );
 	QString checkPathwayByPath(QString name);
 	
-	ItemBase* openWebView( ItemBase * item, int size, int x, int y, QString name = tr("") );
+	ItemBase* openWebView( ItemBase * item, int size, int x, int y, QString name = tr(""), int pid=-1, int type=-1, int id=-1 );
 	ItemBase* openSearchView(ItemBase * item, int size, int x, int y, QString name = tr("") );
 	ItemBase* openSettingsView( ItemBase * item, int size, int x, int y, QString name = tr("") );
 	ItemBase* openSearchSettingsView( ItemBase * item, int size, int x, int y, QString name = tr("") );

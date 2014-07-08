@@ -864,6 +864,8 @@ int TDHelper::getfirstPartNumber(float test, int Nb)
 vector<QString> TDHelper::getLegendParameter(float &min, float &max, int type, int preferedNum, int &num, int &dl, float &mitv)
 //void getLegendParameter(float min, float max, int type, int preferedNum, int &num, int &dl)
 {
+	if(max<min)
+		max=min;
 	if(preferedNum<=0)
 		preferedNum=1;
 	bool ifRounded=true;

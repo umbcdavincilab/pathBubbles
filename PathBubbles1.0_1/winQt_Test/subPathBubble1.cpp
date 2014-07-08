@@ -5,8 +5,7 @@
 
 subPathBubble1::subPathBubble1(QString orthName, int pathwayID, int size, int sizey, int x, int y, vector<int> ItemSelected, vector<vector<int>> EdgeSelected, vector<set<vector<int>>> ANodeContains, OpenGLScene* Scene, StatisticManager* manager, OpenManager* open, QString name, QString pathName, QString lastStoredGraph)
 :  PathBubble1 (pathwayID, size, x, y, Scene, manager, open, name, orthName, pathName,lastStoredGraph)
-{
-	
+{	
 	//_pieMenuState=0;
 	if(pathwayID<0)
     {		 
@@ -15,13 +14,13 @@ subPathBubble1::subPathBubble1(QString orthName, int pathwayID, int size, int si
 		float newWidth = fixedWidth, newHeight = fixedHeight;
 	    getGraphSize(newWidth, newHeight);
 		
-		newHeight = newHeight+8;// + 16; //space for legend
+		newHeight = newHeight+20;// + 16; //space for legend
 		if(newHeight<170)
 			newHeight = 170;
-		newWidth = newWidth+8;// +150; //space for legend
+		newWidth = newWidth+20;// +150; //space for legend
 		
-		if(newHeight>700)	newHeight=700;
-		if(newWidth>700)	newWidth=700;
+		if(newHeight>600)	newHeight=600;
+		if(newWidth>600)	newWidth=600;
 	    resizeItem( newWidth, newHeight);
 		initWidth = newWidth / _scale;
 
@@ -76,10 +75,8 @@ subPathBubble1::subPathBubble1(QString orthName, int pathwayID, int size, int si
     //initItemPos(ItemSelected);	
 	subPathWay(ItemSelected, EdgeSelected);
  
-
 	itemGrid=recordItemGrid(visibleItemNum, visibleCompartmentNum);	
-
-	
+		
     complexNum=complexPos.size(); 	
 	reactionNum = reactionPos.size();		
 	proteinNum = proteinPos.size();
@@ -87,8 +84,7 @@ subPathBubble1::subPathBubble1(QString orthName, int pathwayID, int size, int si
 	DnaNum = DnaPos.size();
 	physicalEntityNum = physicalEntityPos.size();	   
 	ANodeNum = ANodePos.size();	
-	
-		
+			
 	updateBubbleSize_3();
 		
 	highlighted.clear();
@@ -115,8 +111,8 @@ subPathBubble1::subPathBubble1(QString orthName, int pathwayID, int size, int si
 	newHeight = newHeight+20; // + 16; //space for legend	
 	newWidth = newWidth+20; // +150; //space for legend
 
-	if(newHeight>700)	newHeight=700;
-	if(newWidth>700)	newWidth=700;
+	if(newHeight>600)	newHeight=600;
+	if(newWidth>600)	newWidth=600;
 
 	resizeItem( newWidth, newHeight);
 
@@ -361,6 +357,10 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 				bool v;
 				if(nodeNote!=NULL)
 					v= nodeNote->isVisible();
+
+				WebBlock* egBubble=_scene->findEgiftBubble(_parentPathBubbleID, type, id);
+				//if(egBubble!=NULL)  egBubble->_pid=pid0, egBubble->_id=id0;
+
 				vector<int> temp;
 				temp.push_back(type);
 				if(type!='M')
@@ -369,9 +369,11 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 					switch(type)
 					{ 
 						case 'C': if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_complexPos[pathwayID].size();
-							      //_scene->_complexPos[pathwayID].push_back(_scene->_complexPos[m_pathwayID][id]);  
+							      if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_complexPos[pathwayID].size();
+
 							      _scene->_complexPos[pathwayID].push_back( _scene->_complexPos[m_pathwayID][id] ); 
-								  complexPos.push_back(                     _scene->_complexPos[m_pathwayID][id] );  
+								  
+								  complexPos.push_back(_pathBubbleParent->complexPos[id]);			
 								  if(_pathBubbleParent->complexPos[id].x()<-990)		
 								       complexPos[complexPos.size()-1].setX(-2000), complexPos[complexPos.size()-1].setY(-2000);
 
@@ -385,11 +387,14 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 								  countC++;
 								  break; //xl=_scene->_complexPos[m_pathwayID][id].left();        yb=_scene->_complexPos[m_pathwayID][id].bottom();        xr=_scene->_complexPos[m_pathwayID][id].right();        yt=_scene->_complexPos[m_pathwayID][id].top();       break;
 						case 'E': if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_physicalEntityPos[pathwayID].size();
-							       //_scene->_physicalEntityPos[pathwayID].push_back(_scene->_physicalEntityPos[m_pathwayID][id]);  
-								   scene->_physicalEntityPos[pathwayID].push_back(  _scene->_physicalEntityPos[m_pathwayID][id]); 
-								   physicalEntityPos.push_back(                     _scene->_physicalEntityPos[m_pathwayID][id] );  
-								   if(_pathBubbleParent->physicalEntityPos[id].x()<-990)		
-								       physicalEntityPos[physicalEntityPos.size()-1].setX(-2000), physicalEntityPos[physicalEntityPos.size()-1].setY(-2000);
+							      if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_physicalEntityPos[pathwayID].size();
+							       
+									scene->_physicalEntityPos[pathwayID].push_back(  _scene->_physicalEntityPos[m_pathwayID][id]); 
+									
+									//physicalEntityPos.push_back(                     _scene->_physicalEntityPos[m_pathwayID][id] );  
+									physicalEntityPos.push_back(_pathBubbleParent->physicalEntityPos[id]);			
+									if(_pathBubbleParent->physicalEntityPos[id].x()<-990)		
+										physicalEntityPos[physicalEntityPos.size()-1].setX(-2000), physicalEntityPos[physicalEntityPos.size()-1].setY(-2000);
 
 								  physicalEntityPos_0.push_back(_pathBubbleParent->physicalEntityPos_0[id]);
 								  physicalEntityPos_1.push_back(_pathBubbleParent->physicalEntityPos_1[id]);
@@ -399,9 +404,12 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 								   countE++;
 								   break; //.left(); yb=_scene->_physicalEntityPos[m_pathwayID][id].bottom(); xr=_scene->_physicalEntityPos[m_pathwayID][id].right(); yt=_scene->_physicalEntityPos[m_pathwayID][id].top();break;
 						case 'P': if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_proteinPos[pathwayID].size();
-							       //_scene->_proteinPos[pathwayID].push_back(_scene->_proteinPos[m_pathwayID][id]);  								    
+							       if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_proteinPos[pathwayID].size();
+							       						    
 							       _scene->_proteinPos[pathwayID].push_back( _scene->_proteinPos[m_pathwayID][id]); 
-								    proteinPos.push_back(                    _scene->_proteinPos[m_pathwayID][id] );  
+								   // proteinPos.push_back(                    _scene->_proteinPos[m_pathwayID][id] );  
+
+								   proteinPos.push_back(_pathBubbleParent->proteinPos[id] );  
 								   if(_pathBubbleParent->proteinPos[id].x()<-990)		
 								       proteinPos[proteinPos.size()-1].setX(-2000), proteinPos[proteinPos.size()-1].setY(-2000);
 
@@ -413,9 +421,11 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 								   countP++;
 								   break; 
 						case 'S': if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_smallMoleculePos[pathwayID].size();
-							      //_scene->_smallMoleculePos[pathwayID].push_back(_scene->_smallMoleculePos[m_pathwayID][id]);  								  
+							      if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_smallMoleculePos[pathwayID].size();
+							      						  
 							      _scene->_smallMoleculePos[pathwayID].push_back( _scene->_smallMoleculePos[m_pathwayID][id]); 
-								  smallMoleculePos.push_back(                     _scene->_smallMoleculePos[m_pathwayID][id] );  
+								  
+								  smallMoleculePos.push_back(_pathBubbleParent->smallMoleculePos[id]);  
 								  if(_pathBubbleParent->smallMoleculePos[id].x()<-990)		
 								       smallMoleculePos[smallMoleculePos.size()-1].setX(-2000), smallMoleculePos[smallMoleculePos.size()-1].setY(-2000);
 
@@ -427,9 +437,11 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 								  countS++;
 								  break; 
 						case 'D': if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_DnaPos[pathwayID].size();
-							      //_scene->_DnaPos[pathwayID].push_back(_scene->_DnaPos[m_pathwayID][id]);  								  
+							      if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_DnaPos[pathwayID].size();
+							      					  
 							      _scene->_DnaPos[pathwayID].push_back(  _scene->_DnaPos[m_pathwayID][id]);  	
-								   DnaPos.push_back(                     _scene->_DnaPos[m_pathwayID][id] );  
+								  // DnaPos.push_back(                     _scene->_DnaPos[m_pathwayID][id] );  
+								  DnaPos.push_back(_pathBubbleParent->DnaPos[id] );  
 								  if(_pathBubbleParent->DnaPos[id].x()<-990)		
 								       DnaPos[DnaPos.size()-1].setX(-2000), DnaPos[DnaPos.size()-1].setY(-2000);
 
@@ -441,9 +453,11 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 								  countD++;
 								  break; 								  
 						case 'R': if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_reactionPos[pathwayID].size();
-							      //_scene->_reactionPos[pathwayID].push_back(_scene->_reactionPos[m_pathwayID][id]);  								  
+							      if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_reactionPos[pathwayID].size();
+							      				  
 							      _scene->_reactionPos[pathwayID].push_back(_scene->_reactionPos[m_pathwayID][id]);  	
-								   reactionPos.push_back(                     _scene->_reactionPos[m_pathwayID][id] );  
+								  //reactionPos.push_back(                     _scene->_reactionPos[m_pathwayID][id] );  
+								  reactionPos.push_back(_pathBubbleParent->reactionPos[id] );  
 								  if(_pathBubbleParent->reactionPos[id].x()<-990)		
 								       reactionPos[reactionPos.size()-1].setX(-2000), reactionPos[reactionPos.size()-1].setY(-2000);
 
@@ -455,9 +469,11 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 								  countR++;
 								  break; 
 						case 'L':  if(nodeNote!=NULL)  nodeNote->_pid=_pid, nodeNote->_type=type, nodeNote->_id=_scene->_ANodePos[pathwayID].size();
-							      //_scene->_ANodePos[pathwayID].push_back(_scene->_ANodePos[m_pathwayID][id]);  								  
+							       if(egBubble!=NULL)  egBubble->_pid=_pid, egBubble->_type=type, egBubble->_id=_scene->_ANodePos[pathwayID].size();
+							        								  
 							      _scene->_ANodePos[pathwayID].push_back(_scene->_ANodePos[m_pathwayID][id]); 
-								   ANodePos.push_back(                     _scene->_ANodePos[m_pathwayID][id] );  
+								  //ANodePos.push_back(                     _scene->_ANodePos[m_pathwayID][id] );  
+								  ANodePos.push_back(_pathBubbleParent->ANodePos[id] ); 
 								  if(_pathBubbleParent->ANodePos[id].x()<-990)		
 								       ANodePos[ANodePos.size()-1].setX(-2000), ANodePos[ANodePos.size()-1].setY(-2000);
 
@@ -502,7 +518,8 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 			if(!CompartmentContain[i].empty())
 			{
 				_scene->_compartmentPos[pathwayID][i]=_scene->_compartmentPos[m_pathwayID][i];			
-				compartmentPos[i]=_scene->_compartmentPos[m_pathwayID][i];										
+				//compartmentPos[i]=_scene->_compartmentPos[m_pathwayID][i];										
+				compartmentPos[i]=_pathBubbleParent->compartmentPos[i];										
 				compartmentPos_0[i]=_pathBubbleParent->compartmentPos_0[i];
 				compartmentPos_1[i]=_pathBubbleParent->compartmentPos_1[i];
 				if(mid.find(i)==mid.end())
@@ -585,7 +602,7 @@ void subPathBubble1::subPathWay(vector<int> ItemSelected, vector<vector<int>> Ed
 		_scene->_ANodeName[pathwayID][m][1]=Name;  
 	}
 
-	Dis = initItemSize(ItemSelected, mflag, pathwayID, m_pathwayID);//get new x0y0 x1y1
+	Dis2 = initItemSize(ItemSelected, mflag, pathwayID, m_pathwayID, true);//get new x0y0 x1y1
 
 	itemPos.clear();	
     
@@ -797,22 +814,28 @@ void subPathBubble1::manuLocateCompartment(int parentID, int pID, vector<QRectF>
 }
 
 
-QPointF subPathBubble1::initItemSize(vector<int> ItemSelected, bool mflag, int pathwayID, int m_pathwayID)
+QPointF subPathBubble1::initItemSize(vector<int> ItemSelected, bool mflag, int pathwayID, int m_pathwayID, bool useCurrentPos)
 {
+	//use _scene->itempos
 	//vector<int> item(2,0);
 	int x0,y0,x1,y1;
-
+	// center=(x1y1+x0y0)/2.0;
 	x1=y1=-100000;
 	x0=y0=100000;
 
 	L=100000, B=100000;
 	float R=-100000, T=-100000;
 	vector<int> node(6,0);	
+	PathBubble1 *pBubble= _scene->_pathBubbles[m_pathwayID];
 	
+	if(pBubble==NULL)
+		return QPointF(0,0);
+
+	float dL=1000000,dR=-1000000,dT=-1000000,dB=1000000;
 	for(int i=0; i<ItemSelected.size(); i+=2)
 	{
 	    int type=ItemSelected[i], id=ItemSelected[i+1];		
-		QRectF nRect,nPos;
+		QRectF nRect,dRect, nPos,dPos;
 		float XL,YB,XR,YT;	
 		float xl,yb,xr,yt;	
 		int Did=_scene->_pathBubbles[m_pathwayID]->dataID;
@@ -820,31 +843,46 @@ QPointF subPathBubble1::initItemSize(vector<int> ItemSelected, bool mflag, int p
 		{
 			switch(type)
 			{ 
-				case 'C': nPos=_scene->_complexPos[m_pathwayID][id];						  		                  
+			case 'C':     nPos=useCurrentPos?pBubble->complexPos[id]:_scene->_complexPos[m_pathwayID][id];
+				          dPos=_scene->_complexPos[m_pathwayID][id];
+						  dRect=getNodeRect( dPos, _scene->_complexNameD[Did][id][0], type, fixedSize,  dCenter, _scale);
 						  nRect=getNodeRect( nPos, _scene->_complexNameD[Did][id][0], type, fixedSize,  dCenter, _scale);
 						  break;
-				case 'E': nPos=_scene->_physicalEntityPos[m_pathwayID][id];					      				  		                  
+				case 'E': 
+					      nPos=useCurrentPos?pBubble->physicalEntityPos[id]:_scene->_physicalEntityPos[m_pathwayID][id];					      				  		                  
+						  dPos=_scene->_physicalEntityPos[m_pathwayID][id];
+						  dRect=getNodeRect( dPos, _scene->_physicalEntityNameD[Did][id][0], type, fixedSize,  dCenter, _scale);					      
 						  nRect=getNodeRect( nPos, _scene->_physicalEntityNameD[Did][id][0], type, fixedSize,  dCenter, _scale);					      
 					      break;
-				case 'P': nPos=_scene->_proteinPos[m_pathwayID][id];					      				  		                  
+				case 'P': nPos=useCurrentPos?pBubble->proteinPos[id]:_scene->_proteinPos[m_pathwayID][id];	
+					      dPos=_scene->_proteinPos[m_pathwayID][id];
+						  dRect=getNodeRect( dPos, _scene->_proteinNameD[Did][id][0], type, fixedSize,  dCenter, _scale);
 						  nRect=getNodeRect( nPos, _scene->_proteinNameD[Did][id][0], type, fixedSize,  dCenter, _scale);
 					      break; 
-				case 'S': nPos=_scene->_smallMoleculePos[m_pathwayID][id];					      				  		                  
-						  nRect=getNodeRect( nPos, _scene->_smallMoleculeNameD[Did][id][0], type, fixedSize,  dCenter, _scale);						  
+				case 'S': nPos=useCurrentPos?pBubble->smallMoleculePos[id]:_scene->_smallMoleculePos[m_pathwayID][id];			
+					      dPos=_scene->_smallMoleculePos[m_pathwayID][id];
+						  dRect=getNodeRect( dPos, _scene->_smallMoleculeNameD[Did][id][0], type, fixedSize,  dCenter, _scale);	
+						  nRect=getNodeRect( nPos, _scene->_smallMoleculeNameD[Did][id][0], type, fixedSize,  dCenter, _scale);	
 					      break; 
-				case 'D': nPos=_scene->_DnaPos[m_pathwayID][id];					      				  		                  
+				case 'D': nPos=useCurrentPos?pBubble->DnaPos[id]:_scene->_DnaPos[m_pathwayID][id];			
+					      dPos=_scene->_DnaPos[m_pathwayID][id];
+						  dRect=getNodeRect( dPos, _scene->_DnaNameD[Did][id][0], type, fixedSize,  dCenter, _scale);						  
 						  nRect=getNodeRect( nPos, _scene->_DnaNameD[Did][id][0], type, fixedSize,  dCenter, _scale);						  
 					      break; 
-				case 'R': nPos=_scene->_reactionPos[m_pathwayID][id];					      				  		                  
+				case 'R': nPos=useCurrentPos?pBubble->reactionPos[id]:_scene->_reactionPos[m_pathwayID][id];	
+					      dPos=_scene->_reactionPos[m_pathwayID][id];	
+						  dRect=getNodeRect( dPos, _scene->_reactionNameD[Did][id][0], type, fixedSize,  dCenter, _scale);						  
 						  nRect=getNodeRect( nPos, _scene->_reactionNameD[Did][id][0], type, fixedSize,  dCenter, _scale);						  
 					      break;
-				case 'M': nPos=_scene->_compartmentPos[m_pathwayID][id];					      				  		                  
+				case 'M': nPos=useCurrentPos?pBubble->compartmentPos[id]:_scene->_compartmentPos[m_pathwayID][id];		
+					      dPos=_scene->_compartmentPos[m_pathwayID][id];		
+						  dRect=getNodeRect( dPos, _scene->_compartmentName[m_pathwayID][id][0], type, fixedSize,  dCenter, _scale);						 
 						  nRect=getNodeRect( nPos, _scene->_compartmentName[m_pathwayID][id][0], type, fixedSize,  dCenter, _scale);						 
 					      break;
 			}
 			XL=nPos.left();        YB=nPos.bottom();       XR=nPos.right();        YT=nPos.top();   
 		    xl=nRect.left();       yb=nRect.bottom();      xr=nRect.right();       yt=nRect.top();    
-
+						
 			if(L>XL&&XL>-990.99)  L=XL;  if(R<XR) R=XR;  
 			if(B>YT&&YT>-990.99)  B=YT;  if(T<YB) T=YB;	
 
@@ -852,8 +890,15 @@ QPointF subPathBubble1::initItemSize(vector<int> ItemSelected, bool mflag, int p
 			if(y0>yt&&YT>-990.99) y0=yt;  if(y1<yb) y1=yb;	
 		
 			node[0]=type, node[1]=id, node[2]=-1, node[3]=-1, node[4]=-1, node[5]=m_pathwayID;
-			//if(type!='M') //keqin
+			
 			itemInfo.push_back(node);
+
+			//for Dis
+			XL=dPos.left();        YB=dPos.bottom();   XR=dPos.right();    YT=dPos.top();   
+		    xl=dRect.left();       yb=dRect.bottom();  xr=dRect.right();   yt=dRect.top();    
+						
+			if(dL>XL&&XL>-990.99)  dL=XL;  if(dR<XR) dR=XR;  
+			if(dB>YT&&YT>-990.99)  dB=YT;  if(dT<YB) dT=YB;	
 		}
 	}	
 	//QPointF x0y0=_pathBubbleParent->getx0y0(),	x1y1=_pathBubbleParent->getx1y1();
@@ -864,6 +909,7 @@ QPointF subPathBubble1::initItemSize(vector<int> ItemSelected, bool mflag, int p
 	//dcenter.setY(center.y()/this->Height());
 
 	QPointF dis= dcenter-QPointF(0.5,0.5);//-_pathBubbleParent->dCenter;
+	Dis = QPointF((dL+dR)/2,(dT+dB)/2)-QPointF(0.5,0.5);
 
 	W = R-L;  H = T-B;
 	int countC,countE,countP, countS, countD, countR,countL;
@@ -1038,7 +1084,6 @@ QPointF subPathBubble1::initItemSize(vector<int> ItemSelected, bool mflag, int p
 			}
 		}
 		return dis;
-
 }
 
 

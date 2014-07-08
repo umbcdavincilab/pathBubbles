@@ -1,0 +1,178 @@
+edge.size() 70
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 0 67 1 82 0 -1
+ 67 1 80 0 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 2 69 2 82 2 -1
+ 69 0 67 4 82 3 -1
+ 67 3 67 4 82 3 -1
+ 69 2 67 4 82 3 -1
+ 69 1 67 4 82 3 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 69 3 69 0 82 4 -1
+ 69 3 83 0 82 4 -1
+ 69 3 83 1 82 4 -1
+ 83 5 83 2 82 4 -1
+ 83 6 83 3 82 4 -1
+ 83 7 69 0 82 4 -1
+ 83 8 83 4 82 4 -1
+ 83 14 69 0 82 5 -1
+ 83 15 83 9 82 5 -1
+ 83 16 69 4 82 5 -1
+ 83 17 83 10 82 5 -1
+ 69 5 83 11 82 5 -1
+ 69 5 69 4 82 5 -1
+ 69 5 83 12 82 5 -1
+ 69 5 69 0 82 5 -1
+ 83 8 83 13 82 5 -1
+ 69 3 67 6 82 6 -1
+ 69 0 67 6 82 6 -1
+ 69 3 67 7 82 7 -1
+ 69 0 67 7 82 7 -1
+ 69 0 67 8 82 8 -1
+ 69 5 67 8 82 8 -1
+ 69 0 67 9 82 9 -1
+ 69 5 67 9 82 9 -1
+ 67 9 67 10 82 10 -1
+ 67 8 67 10 82 10 -1
+ 67 9 67 11 82 11 -1
+ 67 7 67 12 82 12 -1
+ 67 8 67 12 82 12 -1
+ 67 9 67 13 82 13 -1
+ 67 7 67 13 82 13 -1
+ 69 0 67 14 82 14 -1
+ 67 7 67 14 82 14 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 15 67 -1 82 15 -1
+ 67 -1 67 -1 82 15 -1
+ 80 -1 67 -1 82 15 -1
+ 67 -1 67 -1 82 15 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 1 82 1 82 1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 5 82 1 82 4 -1
+ 67 5 82 1 82 5 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	16
+	Collagen alpha-1(VII) trimer	extracellular region	Reactome DB_ID: 2022124	
+	Collagen type VII hexamer	extracellular region	Reactome DB_ID: 2127449	
+	Collagen type VII -NC2 hexamer	extracellular region	Reactome DB_ID: 2214316	
+	Laminin-5	extracellular region	Reactome DB_ID: 216001	
+	Anchoring fibril complex	extracellular region	Reactome DB_ID: 2399659	
+	Lysyl oxidases:Cu2+	extracellular region	Reactome DB_ID: 2022132	
+	Collagen type 1 fibrils cross-linked by dehydro-lysinonorleucine crosslinks	extracellular region	Reactome DB_ID: 2396037	
+	Collagen type I fibrils with deH-HLNL cross-links	extracellular region	Reactome DB_ID: 2396268	
+	Collagen type I fibrils with lysino-5-ketonorleucine cross-links	extracellular region	Reactome DB_ID: 2447200	
+	Collagen type I fibrils with hydroxylysino-5-ketonorleucine crosslinks	extracellular region	Reactome DB_ID: 2396143	
+	Collagen type I fibrils with lysyl-pyridinoline cross-links	extracellular region	Reactome DB_ID: 2396051	
+	Collagen type I fibrils with hydroxylysyl-pyridinoline cross-links	extracellular region	Reactome DB_ID: 2396133	
+	Collagen type I fibrils with lysyl-pyrrole cross-links	extracellular region	Reactome DB_ID: 2396474	
+	Collagen type I fibrils with hydroxylysyl-pyrrole cross-links	extracellular region	Reactome DB_ID: 2396060	
+	Collagen type I fibrils with histidino-hydroxylysinoleucine cross-links	extracellular region	Reactome DB_ID: 2399496	
+	BPAG1e:Plectin	cytosol	Reactome DB_ID: 2220789	
+_physicalEntityName.size()	6
+		
+	3x4Hyp-3Hyp-GlcGalHyl-COL1A1/3x4Hyp-3Hyp-COL1A1/3x4Hyp-GalHyl-COL1A1/3x4Hyp-3Hyp-GlcGalHyl-COL1A1/3x4Hyp-3Hyp-COL1A1/3x4Hyp-GalHyl-COL1A1	extracellular region
+		
+		
+		
+		
+_proteinName.size()	2
+	COL7A1	extracellular region			
+	BMP1	extracellular region			
+_reactionName.size()	16
+	T	Collagen type VII dimerization
+	B	Cleavage of collagen VII NC2 region by BMP1
+	T	Formation of anchoring fibrils
+	D	Collagen type VII binds laminin-322 and collagen IV
+	T	Formation of allysine by LOX
+	T	Formation of hydroxyallysine by LOX
+	D	Formation of dehydro-lysinonorleucine cross-links
+	D	Formation of dehydro-hydroxylysino-norleucine cross-links
+	D	Formation of lysino-5-ketonorleucine cross-links
+	D	Formation of hydroxylysino-5-ketonorleucine cross-links
+	D	Formation of lysyl-pyridinoline cross-links
+	T	Formation of hydroxylysyl-pyridinoline cross-links
+	D	Formation of lysyl-pyrrole cross-links
+	D	Formation of hydroxylysyl-pyrrole cross-links
+	D	Formation of histidino-hydroxylysinonorleucine cross-links
+	D	Hemidesmosome formation
+_smallMoleculeName.size()	18
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	NH3	extracellular region	Reactome DB_ID: 2022135	NH3 [ChEBI:16134]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	NH3	extracellular region	Reactome DB_ID: 2022135	NH3 [ChEBI:16134]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O2	extracellular region	Reactome DB_ID: 351629	H2O2 [ChEBI:16240]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	NH3	extracellular region	Reactome DB_ID: 2022135	NH3 [ChEBI:16134]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	NH3	extracellular region	Reactome DB_ID: 2022135	NH3 [ChEBI:16134]
+	NH3	extracellular region	Reactome DB_ID: 2022135	NH3 [ChEBI:16134]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

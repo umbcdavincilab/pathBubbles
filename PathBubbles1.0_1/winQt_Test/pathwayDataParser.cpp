@@ -32,20 +32,34 @@ bool PWDParser::readexpression(const char *name, vector<QString> &quantityName, 
 
     // read head
 	vector<string> buffer;
-	      string phrase; 
-		  e='x';
-		  do
-		  {  e=fgetc(fp);			 
-			  if(e=='\t'||e=='\n')
-			 {
-				 buffer.push_back(phrase);
-				 phrase.clear();
-			 }
-			 else if(e>-1) phrase.append(1,e);
-		  }while(e!='\n'&&e>-1); 
+	bool switchflag=false;
+	string phrase; 
+	e='x';
+	do
+	{  e=fgetc(fp);			 
+		if(e=='\t'||e=='\n')
+		{
+			buffer.push_back(phrase);
+			phrase.clear();
+		}
+		else if(e>-1) phrase.append(1,e);
+	}while(e!='\n'&&e>-1); 
 		
-		 quantityName.push_back(buffer[2].c_str());
-		 quantityName.push_back(buffer[3].c_str());
+	QString qName1, qName2;
+	qName1= buffer[2].c_str();   qName2= buffer[3].c_str();
+	if(qName2.contains("control"))
+	{
+		  //switch		 
+		switchflag=true;
+		qName1= buffer[3].c_str();   qName2= buffer[2].c_str();
+		
+	}
+	qName1=qName1.remove("-rpkm-");  qName2=qName2.remove("-rpkm-");
+		qName1=qName1.remove("rpkm");    qName2=qName2.remove("rpkm");
+		qName1=qName1.remove("(");       qName2=qName2.remove("(");
+		qName1=qName1.remove(")");       qName2=qName2.remove(")");
+	quantityName.push_back(qName1);
+	quantityName.push_back(qName2);
 	do
 	{
 		  //fscanf(fp,"Pathway%d Pathway Step%d\n",&pid, &sid);	
@@ -64,11 +78,18 @@ bool PWDParser::readexpression(const char *name, vector<QString> &quantityName, 
 
 		  if(e<0||(e=='\n'&&buffer[0].empty()))
 			  break;
-
-
+		  
           vector<float> temp;
-		  temp.push_back(atof(buffer[2].c_str()));
-		  temp.push_back(atof(buffer[3].c_str()));
+		  if(!switchflag)
+		  {
+			  temp.push_back(atof(buffer[2].c_str()));
+		      temp.push_back(atof(buffer[3].c_str()));
+		  }
+		  else
+		  {
+		      temp.push_back(atof(buffer[3].c_str()));
+		      temp.push_back(atof(buffer[2].c_str()));		  
+		  }
 		  quantity.push_back(temp);
 
 		  for(int i=0; i< 2; i++)
@@ -1904,7 +1925,7 @@ bool PWDParser::read9smallEntity(const char *name, vector<vector<QString>> & _sm
 }
 
 int PWDParser::findFillsinFolder(QString path, QString pathwayName)
-{
+{//generate .path file
      //filesTable->setRowCount(0);
      QString fileName = "";//fileComboBox->currentText();//"_1pathway" only work on emapty "" case
      QString text = "";//textComboBox->currentText();
@@ -1933,9 +1954,7 @@ int PWDParser::findFillsinFolder(QString path, QString pathwayName)
 	{  
         //if(files[i].contains(pathwayName))
 		{
-			if(files[i].contains("1222352"))
-			    i=i;
-
+			
 			lid=files[i].lastIndexOf('.');
 			pureName = files[i].mid(0, lid);
 
@@ -1982,7 +2001,7 @@ void PWDParser::findFillsinFolder()
      //filesTable->setRowCount(0);
      QString fileName = "";//fileComboBox->currentText();//"_1pathway" only work on emapty "" case
      QString text = "_1pathway";//textComboBox->currentText();
-     QString path = "data/Reactome_Pathway_Data/pathwayTable"; //directoryComboBox->currentText();
+     QString path = "data/Reactome_Pathway_Data/pathwayTable/tableFile/"; //directoryComboBox->currentText();
      //The find() slot is called whenever the user requests a new search by pressing the Find button.
 
      //First we eliminate any previous search results by setting the table widgets row count to zero. Then we retrieve the specified file name, text and directory path from the respective comboboxes.
@@ -1997,7 +2016,7 @@ void PWDParser::findFillsinFolder()
      if (!text.isEmpty())
          files = findFiles(currentDir, files, text);
 	 	 
-    //newPathwayNameFiles(currentDir, files);     	 
+     //newPathwayNameFiles(currentDir, files);  //update and generate all files needed include .path 
  }
 
 set<int> PWDParser::matchSymbol(set<QString> symbol, vector<vector<QString>> proteinName)
@@ -2171,9 +2190,7 @@ QStringList PWDParser::findFiles(QDir currentDir, const QStringList &files, cons
          //progressDialog.setLabelText(tr("Searching file number %1 of %2...").arg(i).arg(files.size()));
          //qApp->processEvents();
 		 QString path = currentDir.absoluteFilePath(files[i]);//for debug
-		 if(path.contains("1222352"))
-			 path=path;
-
+		 
 		 if(path.contains(text))
 			 foundFiles << files[i];
 
@@ -2232,65 +2249,32 @@ void PWDParser::readNewPathwayNameFiles(vector<int> &pathIDs, vector<QString> &p
 
 void PWDParser::newPathwayNameFiles(QDir currentDir, const QStringList &files)
 {
-	
-	 QString newPathway_ID; //only store the files 
-	 vector<int> pathIDs;
-	 vector<QString> pathNames, pathLines;
-	 set<QString> nameSet;
-	 newPathway_ID=currentDir.absolutePath()+"PathwayID.txt";
-	 QFile outFile(newPathway_ID);
-	 outFile.open(QIODevice::WriteOnly | QIODevice::Text);
-     QTextStream out(&outFile);
+	//generate .path file which tited the pathway name and with pathway ID in side
+	//pathwayID.txt
 
-     // optional, as QFile destructor will already do it:    
-     //qint64 size = QFileInfo(file).size();
+	 // optional, as QFile destructor will already do it:    
+     //qint64 size = QFileInfo(file).size();	
 	 
-	for (int i = 0; i < files.size(); ++i) 
-	{
+	 /*for (int i = 0; i < files.size(); ++i) 
+	 {
 		//QString name=currentDir.absoluteFilePath(files[i]);		 
 		//QFile inputFile(name);
 		if(files[i].contains("_1pathway"))
 		{
 			QString name=files[i];
 			QStringList nlist=name.split('_');
-			int ID= atoi(nlist[0].toLocal8Bit().data());
-			if(ID == 1222352)
-				ID=ID;
+			int ID= atoi(nlist[0].toLocal8Bit().data());		
 
 			for(int j=0;j<pathIDs.size();j++)
 			{
-					if(pathIDs[j]==ID)
-					{
-						nameSet.insert(pathNames[j]);
-					}		
+				if(pathIDs[j]==ID)
+				{
+					nameSet.insert(pathNames[j]);
+				}		
 			}  
 		}
-    }
-
-	//make *.path names for pathway
-    for(int j=0;j<pathIDs.size();j++)
-	{		  
-		    if(pathIDs[j]==1222352)
-			    j=j;
-		    QString newPathFileName = pathNames[j]; 					
-			{
-				newPathFileName = newPathFileName.remove(':');			
-				newPathFileName = newPathFileName.remove(',');		
-				newPathFileName = newPathFileName.remove('/');
-				newPathFileName = currentDir.absolutePath()+ '/' + newPathFileName + ".path";			
-				QFile outFile1(newPathFileName);
-
-				outFile1.open(QIODevice::WriteOnly | QIODevice::Text);
-				QTextStream out1(&outFile1);
-				QString test = QString::number(pathIDs[j]);
-				//convert number to QString
-				out1 << pathIDs[j] << "\n";
-				outFile1.close(); 
-		  	}
-	}	
-
-
-     for(set<QString>::iterator it=nameSet.begin(); it!=nameSet.end(); it++)
+     }
+	 for(set<QString>::iterator it=nameSet.begin(); it!=nameSet.end(); it++)
 	 {
 	     QString name = *it;
         for(int j=0;j<pathIDs.size();j++)
@@ -2303,9 +2287,13 @@ void PWDParser::newPathwayNameFiles(QDir currentDir, const QStringList &files)
 		}	 
 	 }
 	 outFile.close(); 
-	 
-	int count=0;
+	 */
 
+		 vector<int> pathIDs;
+	 vector<QString> pathNames, pathLines;
+	 set<int> nameSet;
+	    	 
+	int count=0;
 	int pid;
 	QString pName;
 	QString name="data/Reactome_Pathway_Data/pathwayID.txt";
@@ -2323,7 +2311,11 @@ void PWDParser::newPathwayNameFiles(QDir currentDir, const QStringList &files)
 				  {
 					  QString phrase=sname[i];
 					  if(i==1)
-					     pathIDs.push_back(atoi(phrase.toLocal8Bit().data()));
+					  {
+						  int ID=atoi(phrase.toLocal8Bit().data());
+						  pathIDs.push_back(ID);
+						  nameSet.insert(ID);
+					  }
 					  if(i==2)
 				         pathNames.push_back(phrase);
 				  }
@@ -2334,8 +2326,74 @@ void PWDParser::newPathwayNameFiles(QDir currentDir, const QStringList &files)
 	}
     inputFile.close();
 
-	writeProteinToPathwayFile(currentDir, pathIDs, pathNames);//, crossTalkSymbol);
-	
+	QString newPathway_ID; //only store the files 
+
+	newPathway_ID="data/Reactome_Pathway_Data/pathwayID.txt"; //provided by liang, I guess, but it miss some of pathway file
+	 
+	QFile outFile(newPathway_ID);
+	 //outFile.open(QIODevice::WriteOnly | QIODevice::Text);
+	 outFile.open( QIODevice::WriteOnly | QIODevice::Append );
+
+     QTextStream out(&outFile);
+
+	 for (int i = 0; i < files.size(); ++i) 
+	 {
+		
+		if(files[i].contains("_1pathway"))
+		{
+			QString name=files[i];
+			QStringList nlist=name.split('_');
+			int ID= atoi(nlist[0].toLocal8Bit().data());	
+			if(nameSet.find(ID)==nameSet.end())
+			{	
+				
+				QFile _pathFile("data/Reactome_Pathway_Data/PathwayTable/tableFile/" + name);
+				QString pathName;
+				if( _pathFile.open(QIODevice::ReadOnly) )
+				{      					
+					QTextStream in(& _pathFile);
+					QString line = in.readLine();    						
+					QStringList sname=line.split('\t');
+					if(sname.size()>2)
+					    pathName = sname[2];
+				}
+				_pathFile.close();
+				//read first line to get its name				
+				if(pathName!="")
+				{
+					nameSet.insert(ID);
+					pathIDs.push_back(ID);
+				    pathNames.push_back(pathName);
+					out << "REACT_?" << "\t" << ID << "\t" << pathName << "\n";
+				}
+			}  
+		}
+     }
+	 outFile.close(); 
+
+	//make *.path names for pathway
+    for(int j=0;j<pathIDs.size();j++)
+	{		  
+		//if(Cyclin A:Cdk2-associated events at S phase entry
+		if(pathIDs[j]==69656)
+			j=j;
+		QString newPathFileName = pathNames[j]; 					
+		{
+			newPathFileName = newPathFileName.remove(':');			
+			newPathFileName = newPathFileName.remove(',');		
+			newPathFileName = newPathFileName.remove('/');
+			newPathFileName = "data/Reactome_Pathway_Data/PathwayTable/pathFile/" + newPathFileName + ".path";			
+			QFile outFile1(newPathFileName);
+
+			outFile1.open(QIODevice::WriteOnly | QIODevice::Text);
+			QTextStream out1(&outFile1);
+			QString test = QString::number(pathIDs[j]);
+			//convert number to QString
+			out1 << pathIDs[j] << "\n";
+			outFile1.close(); 
+		}
+	}
+	writeProteinToPathwayFile(currentDir, pathIDs, pathNames);//, crossTalkSymbol);	
 
 	vector<QString> crossTalkSymbol;
 	set <QString> crossTalkSymbol1;
@@ -2346,12 +2404,11 @@ void PWDParser::newPathwayNameFiles(QDir currentDir, const QStringList &files)
     {
 		crossTalkSymbol.push_back(*it);
 	}
-	vector<set<QString>> crossTalkFile=readCrossTalkProtein(currentDir, pathIDs, pathNames,crossTalkSymbol);
+	vector<set<QString>> crossTalkFile = readCrossTalkProtein(currentDir, pathIDs, pathNames,crossTalkSymbol);
    
 	//write pathways for each protein in reactome for text searching function 
 	
 	//return;
-
 	getPathGraphData(pathIDs, pathNames, currentDir);
 	buildTreeRingData("data/Reactome_Pathway_Data/homo+sapiens.xml", crossTalkSymbol, crossTalkFile, 4); //layer num layernum
     
@@ -2441,7 +2498,7 @@ void PWDParser::buildTreeRingData_by_E(QString eName, vector<vector<QString>> ge
 					vector<vector<QString>> _compartmentName;	
 					vector<QRectF> _compartmentPos;	
 
-					QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+					QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";			
 					tname = fname + "7protein.txt"; 
 					string sName= tname.toStdString();  
 					const char * ename=sName.c_str();	
@@ -2545,7 +2602,7 @@ QString PWDParser::getPathID(QString pathName)
 		//struct expressedPathwayInfo infor;
 
 		//pathName = pathName.replace(",","");
-		QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName + ".path";
+		QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName + ".path";
 		QString num;
 		QFile inputFile(fileName);
 		if(inputFile.open(QIODevice::ReadOnly))
@@ -2560,7 +2617,7 @@ QString PWDParser::getPathID(QString pathName)
 		{
 			pathName1 = pathName;
 			pathName1 = pathName1.replace(",","");
-			fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName1 + ".path";
+			fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName1 + ".path";
 			QFile inputFile(fileName);
 			if(inputFile.open(QIODevice::ReadOnly))
 			{
@@ -2573,10 +2630,31 @@ QString PWDParser::getPathID(QString pathName)
 		}
 		if(num =="")
 		{
-			
-			//pathName1 = pathName;
+			pathName1 = pathName;
 			pathName1 = pathName1.replace(":","");
-			fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName1 + ".path";
+
+			//pathName1 = pathName1.remove(':');			
+			//pathName1 = pathName1.remove(',');		
+			//pathName1 = pathName1.remove('/');
+
+			fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName1 + ".path";
+			QFile inputFile(fileName);
+			if(inputFile.open(QIODevice::ReadOnly))
+			{
+				QTextStream in(&inputFile);
+				QString line = in.readLine();  
+				line = line.split('\n')[0];
+				num=line;			  
+			}
+			inputFile.close();
+		}
+		if(num =="")
+		{
+			pathName1 = pathName;
+			pathName1 = pathName1.replace("/","");
+
+			
+			fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName1 + ".path";
 			QFile inputFile(fileName);
 			if(inputFile.open(QIODevice::ReadOnly))
 			{
@@ -2725,7 +2803,7 @@ void PWDParser::buildTreeRingData(QString onthName)
 				names = names.replace(" ","_", Qt::CaseSensitive);
 				out6 << id << " " << names << " ";				
 						
-				QString fname = "data/Reactome_Pathway_Data/pathwayTable/" + num + "_";			
+				QString fname = "data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_";			
 				QString tname = fname + "7protein.txt"; 
 				string sName= tname.toStdString();  
 				const char * ename=sName.c_str();					
@@ -2781,7 +2859,7 @@ void PWDParser::buildTreeRingData(vector<int> pathIDs, vector<QString> pathNames
 	{
 		//open file
 		QString ID=QString::number(pathIDs[j]);
-		QString fname ="data/Reactome_Pathway_Data/pathwayTable/" + ID + "_" + "1pathway.txt";
+		QString fname ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + ID + "_" + "1pathway.txt";
 		QFile inputFile(fname);
 		QString symbol;
 		
@@ -3086,7 +3164,7 @@ void PWDParser::getPathGraphData(vector<int> pathIDs, vector<QString> pathNames,
 	    int edgenum1,edgenum2,nodenum1,nodenum2;
 
 		QString ID=QString::number(pathIDs[j]);
-		QString fname ="data/Reactome_Pathway_Data/pathwayTable/" + ID + "_" + "4biochemicalReaction.txt";
+		QString fname ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + ID + "_" + "4biochemicalReaction.txt";
 		QFile inputFile(fname);
 		//QString symbol;		
 		if (inputFile.open(QIODevice::ReadOnly))
@@ -3147,7 +3225,7 @@ void PWDParser::getPathGraphData(vector<int> pathIDs, vector<QString> pathNames,
 		inputFile.close(); 
 
 		
-		QString fnameA ="data/Reactome_Pathway_Data/pathwayTable/" + ID + "_" + "5catalysisControl.txt";
+		QString fnameA ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + ID + "_" + "5catalysisControl.txt";
 		QFile inputFileA(fnameA);
 		//QString symbol;		
 		if (inputFileA.open(QIODevice::ReadOnly))
@@ -3282,7 +3360,8 @@ void PWDParser::getPathGraphData(vector<int> pathIDs, vector<QString> pathNames,
 
 bool PWDParser::buildTreeRingData(QString filename, vector<QString> crossTalkSymbol, vector<set<QString>> crossTalkFile, int layerNum)
 {//read in xml for pathway hierarchy
-	
+	//also find emty and missing files
+
 	QFile file( filename );
 	if ( !file.open(QIODevice::ReadOnly) )
 	{
@@ -3331,9 +3410,7 @@ bool PWDParser::buildTreeRingData(QString filename, vector<QString> crossTalkSym
 			pathIDtable.insert(pair);
 		}		
 	}
-
 	findMissingEmptyFills(tree_B, pathIDtable);
-
 	set<vector<QString>> tree_B_set;	
 	for(int i=0; i<tree_B.size(); i++)
 	{
@@ -3347,8 +3424,6 @@ bool PWDParser::buildTreeRingData(QString filename, vector<QString> crossTalkSym
 			}
 		}
 	}
-
-	
 	
 	//tree_B=tree_B_1;
 	tree_B.clear();
@@ -3512,7 +3587,7 @@ void PWDParser::findMissingEmptyFills(vector<vector<QString>> tree_B, set<vector
 						
 			//pathName = pathName.replace(",","");
 			pathName=pathName.remove("/");
-			QString fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName + ".path";
+			QString fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName + ".path";
 			QString num;
 			QFile inputFile(fileName);
 			if(inputFile.open(QIODevice::ReadOnly))
@@ -3526,7 +3601,10 @@ void PWDParser::findMissingEmptyFills(vector<vector<QString>> tree_B, set<vector
 			{
 				pathName1 = pathName;
 				pathName1 = pathName1.replace(",","");
-				fileName = "data/Reactome_Pathway_Data/pathwayTable/"+ pathName1 + ".path";
+				pathName1 = pathName1.remove(':');			
+				pathName1 = pathName1.remove('\'');	
+
+				fileName = "data/Reactome_Pathway_Data/pathwayTable/pathFile/"+ pathName1 + ".path";
 				QFile inputFile(fileName);
 				if(inputFile.open(QIODevice::ReadOnly))
 				{
@@ -3557,7 +3635,7 @@ void PWDParser::findMissingEmptyFills(vector<vector<QString>> tree_B, set<vector
 			else
 			{
 			    //find empty file
-				QString fname ="data/Reactome_Pathway_Data/pathwayTable/" + num + "_" + "3pathwayStepReactionControl.txt";
+				QString fname ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + num + "_" + "3pathwayStepReactionControl.txt";
 				//tname = name + "3pathwayStepReactionControl.txt"; sname= tname.toStdString();  ename=sname.c_str();
 		        //read3pathwayStep_reactionAndcontrol(ename, stepNum, _3pathwayStepCatalysis, _3pathwayStepReaction);
 				int size=0;
@@ -3834,7 +3912,7 @@ vector<set<QString>> PWDParser::readCrossTalkProtein(QDir currentDir, vector<int
 	{
 		//open file
 		QString ID=QString::number(pathIDs[j]);
-		QString fname ="data/Reactome_Pathway_Data/pathwayTable/" + ID + "_" + "7protein.txt";
+		QString fname ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + ID + "_" + "7protein.txt";
 		QFile inputFile(fname);
 		if (inputFile.open(QIODevice::ReadOnly))
 		{
@@ -3962,7 +4040,7 @@ void PWDParser::writeProteinToPathwayFile(QDir currentDir, vector<int> pathIDs, 
 	{
 		//open file
 		QString ID=QString::number(pathIDs[j]);
-		QString fname ="data/Reactome_Pathway_Data/pathwayTable/" + ID + "_" + "7protein.txt";
+		QString fname ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + ID + "_" + "7protein.txt";
 		QFile inputFile(fname);
 		if (inputFile.open(QIODevice::ReadOnly))
 		{
@@ -3998,7 +4076,7 @@ void PWDParser::writeProteinToPathwayFile(QDir currentDir, vector<int> pathIDs, 
 	{
 		//open file
 		QString ID=QString::number(pathIDs[j]);
-		QString fname ="data/Reactome_Pathway_Data/pathwayTable/" + ID + "_" + "7protein.txt";
+		QString fname ="data/Reactome_Pathway_Data/pathwayTable/tableFile/" + ID + "_" + "7protein.txt";
 		QFile inputFile(fname);
 		if (inputFile.open(QIODevice::ReadOnly))
 		{
@@ -4112,7 +4190,7 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 	for(int i=0;i<_8convertedProtein.size() && i<_proteinName.size();i++)
 	{
 		QString temp,temp1;
-		
+		vector<QString> tempS;
 		if(!_8convertedProtein[i].empty())
 		{
 			for(int j=_8convertedProtein[i].size()-2; j<_8convertedProtein[i].size(); j=j+2)
@@ -4121,8 +4199,11 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 		        if(type=='P')
 		        {
                   if(!temp.isEmpty()&&!_proteinName[id][0].isEmpty())
-				     temp.append(at);
-				  
+				  {
+					  temp.append(at);
+				  }
+				  if(!_proteinName[id][0].isEmpty())
+					     tempS=_proteinName[id];
 				  temp.append(_proteinName[id][0]); temp1=_proteinName[id][1];
 				  if(temp.size()==0)
 				  { 
@@ -4132,9 +4213,15 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 						if(type=='P')
 						{
 							if(!temp.isEmpty()&&!_proteinName[id][0].isEmpty())
-				                      temp.append(at);
-				  	       temp.append(_proteinName[id][0]); temp1=_proteinName[id][1];
-						   if(temp.size()!=0)
+				            {
+							  temp.append(at);
+							  
+						    }
+							if(!_proteinName[id][0].isEmpty())
+							     tempS=_proteinName[id];
+				  	        temp.append(_proteinName[id][0]); temp1=_proteinName[id][1];
+						   
+						    if(temp.size()!=0)
 							   break;
 						}
 					 }
@@ -4145,13 +4232,15 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 				   //protein is converted to complex?? (is it possible?)		
 		        }			    
 			}	
-			_proteinName[i][0].append(temp); _proteinName[i][1]=temp1;
+			//_proteinName[i][0].append(temp); _proteinName[i][1]=temp1;
+			_proteinName[i] = tempS;
 		}
 	}	
 		
 	for(int i=0;i<_8convertedComplex.size() && i<_complexName.size();i++)
 	{
 		QString temp;
+		vector<QString> tempS;
 		if(!_8convertedComplex[i].empty())
 		{
 			for(int j=0; j<_8convertedComplex[i].size(); j=j+2)
@@ -4162,8 +4251,12 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 				{
 				
 				if(!temp.isEmpty()&&!_complexName[id][0].isEmpty())
-				         temp.append(at);
-				
+				{
+					temp.append(at);
+					
+				}
+				if(!_complexName[id][0].isEmpty())
+					   tempS = _complexName[id];
 				temp.append(_complexName[id][0]); 
 				if(temp.size()==0)
 				{
@@ -4173,8 +4266,13 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 						if(type=='C')
 						{
 							if(!temp.isEmpty()&&!_complexName[id][0].isEmpty())
-				                  temp.append(at);
-						   temp.append(_complexName[id][0]); 
+				             {
+								 temp.append(at);
+								
+							}
+							 if(!_complexName[id][0].isEmpty())
+								    tempS = _complexName[id];
+						   temp.append(_complexName[id][0]); 						   
 						   if(temp.size()!=0)
 							   break;
 						}
@@ -4186,7 +4284,8 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 					//complex is converted to protein?? (is it possible?)		
 				}
 			}
-			_complexName[i][0].append(temp); 
+			//_complexName[i][0].append(temp); 
+			_complexName[i] = tempS;
 		}		
 	}
 
@@ -4197,9 +4296,9 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 
 	for(int i=0;i<_8convertedEntity.size() && i<_physicalEntityName.size();i++)
 	{
+		vector<QString> tempS;
 		QString temp,temp1;
-		if(i>=4)
-			i=i;
+		
 		if(!_8convertedEntity[i].empty())
 		{
 			for(int j=0; j<_8convertedEntity[i].size(); j=j+2)
@@ -4209,7 +4308,11 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 				if(type=='P')
 				{
 					if(!temp.isEmpty()&&!_proteinName[id][0].isEmpty())
-				            temp.append(at);
+				     {
+						 temp.append(at);
+					}
+					 if(!_proteinName[id][0].isEmpty())								    
+						      tempS =_proteinName[id];
 					temp.append(_proteinName[id][0]); temp1=_proteinName[id][1];
 					if(temp.size()==0)
 					{
@@ -4219,8 +4322,12 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 							if(type=='P')
 							{
 								if(!temp.isEmpty()&&!_proteinName[id][0].isEmpty())
-				                      temp.append(at);
-								temp.append(_proteinName[id][0]); temp1=_proteinName[id][1];
+				                 {
+									 temp.append(at);									 
+								}
+								if(!_proteinName[id][0].isEmpty())								    
+									      tempS = _proteinName[id];
+								temp.append(_proteinName[id][0]); temp1=_proteinName[id][1];								
 								if(temp.size()!=0)
 									break;
 							}
@@ -4232,7 +4339,10 @@ void PWDParser::getNameforConverted(vector<vector<int>> _8convertedProtein, vect
 				
 				}
 			}
-			_physicalEntityName[i][0].append(temp);  _physicalEntityName[i][1]=temp1; 
+			//_physicalEntityName[i][0].append(temp);  _physicalEntityName[i][1]=temp1; 
+			 _physicalEntityName[i] = tempS;// = _complexName[id];
+			 //if(temp.size()!=0)
+			 //		   break;
 		}		
 	}
 }
@@ -4766,7 +4876,7 @@ QString PWDParser::loadPathGraphPreparation(QString pathName, bool drawSmallmole
 {//return suggested names	
 	QDir dir;
 	int count=0;
-	QString pathDir="data//Reactome_Pathway_Data/pathwayTable";//+pathName;
+	QString pathDir="data//Reactome_Pathway_Data/pathwayTable/pathFile";//+pathName;
 	if(!QDir(pathDir).exists())
 	{
 		if(QDir().mkdir(pathDir))
@@ -4794,7 +4904,7 @@ QString PWDParser::savePathGraphPreparation(QString pathName, bool drawSmallmole
 {//return suggested names	
 	QDir dir;
 	int count=0;
-	QString pathDir="data//Reactome_Pathway_Data/pathwayTable";//+pathName;
+	QString pathDir="data//Reactome_Pathway_Data/pathwayTable/pathFile";//+pathName;
 	if(!QDir(pathDir).exists())
 	{
 		if(QDir().mkdir(pathDir))
@@ -4817,7 +4927,7 @@ QString PWDParser::getPathGraphHie(QString pathName)
 {//return suggested names	
 	QDir dir;
 	int count=0;
-	QString pathDir="data//Reactome_Pathway_Data/pathwayTable";//+pathName;
+	QString pathDir="data//Reactome_Pathway_Data/pathwayTable/preprocessed/";//+pathName;
 	if(!QDir(pathDir).exists())
 	{
 		if(QDir().mkdir(pathDir))
@@ -4857,7 +4967,7 @@ QString PWDParser::savePathNotePreparation(QString pathName, QString userName)
 {//return suggested names	
 	QDir dir;
 	int count=0;
-	QString pathDir="data//Reactome_Pathway_Data/pathwayTable";//+pathName;
+	QString pathDir="data//Reactome_Pathway_Data/pathwayTable/noteFile";//+pathName;
 	if(!QDir(pathDir).exists())
 	{
 		if(QDir().mkdir(pathDir))

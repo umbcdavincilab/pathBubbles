@@ -1,0 +1,229 @@
+edge.size() 89
+ 67 0 67 3 82 0 -1
+ 67 1 67 3 82 0 -1
+ 83 2 67 3 82 1 -1
+ 67 4 83 0 82 1 -1
+ 67 4 83 1 82 1 -1
+ 67 5 80 1 82 2 -1
+ 67 5 67 2 82 2 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 2 83 3 82 3 -1
+ 67 7 67 6 82 3 -1
+ 67 7 67 6 82 3 -1
+ 83 2 83 4 82 4 -1
+ 67 9 67 6 82 4 -1
+ 67 9 67 6 82 4 -1
+ 67 10 67 12 82 5 -1
+ 67 11 67 12 82 5 -1
+ 80 6 67 13 82 6 -1
+ 67 12 67 13 82 6 -1
+ 67 13 80 6 82 7 -1
+ 67 13 80 3 82 7 -1
+ 67 13 67 11 82 7 -1
+ 83 2 80 0 82 8 -1
+ 80 1 83 5 82 8 -1
+ 80 1 83 6 82 8 -1
+ 80 7 67 15 82 9 -1
+ 80 4 67 15 82 9 -1
+ 80 7 67 16 82 10 -1
+ 80 8 67 16 82 10 -1
+ 80 4 67 16 82 10 -1
+ 80 9 67 16 82 10 -1
+ 67 16 67 18 82 11 -1
+ 67 17 67 18 82 11 -1
+ 67 19 67 2 82 12 -1
+ 67 19 67 2 82 13 -1
+ 67 18 67 20 82 14 -1
+ 67 18 67 21 82 14 -1
+ 67 21 67 23 82 15 -1
+ 67 22 67 23 82 15 -1
+ 80 6 67 24 82 16 -1
+ 67 23 67 24 82 16 -1
+ 67 24 80 6 82 17 -1
+ 67 24 80 10 82 17 -1
+ 67 24 67 21 82 17 -1
+ 80 11 67 25 82 18 -1
+ 67 21 67 25 82 18 -1
+ 80 6 67 26 82 19 -1
+ 67 25 67 26 82 19 -1
+ 67 26 80 6 82 20 -1
+ 67 26 67 21 82 20 -1
+ 80 12 80 5 82 21 -1
+ 83 7 80 5 82 21 -1
+ 83 8 83 9 82 21 -1
+ 80 12 83 10 82 21 -1
+ 67 21 80 4 82 22 -1
+ 67 21 67 17 82 22 -1
+ 80 5 67 27 82 23 -1
+ 67 17 67 27 82 23 -1
+ 80 14 67 28 82 24 -1
+ 67 27 67 28 82 24 -1
+ 80 6 67 29 82 25 -1
+ 67 28 67 29 82 25 -1
+ 67 29 80 6 82 26 -1
+ 67 29 67 27 82 26 -1
+ 67 30 80 6 82 27 -1
+ 67 30 67 27 82 27 -1
+ 80 15 67 31 82 28 -1
+ 67 5 67 31 82 28 -1
+ 67 31 67 2 82 29 -1
+ 67 31 80 15 82 29 -1
+ 67 3 82 1 82 1 -1
+ 67 8 82 1 82 3 -1
+ 80 2 82 1 82 4 -1
+ 67 11 82 1 82 6 -1
+ 67 14 82 1 82 7 -1
+ 67 8 82 1 82 8 -1
+ 80 2 82 1 82 12 -1
+ 67 8 82 1 82 13 -1
+ 67 21 82 1 82 16 -1
+ 67 21 82 1 82 19 -1
+ 67 14 82 1 82 20 -1
+ 80 13 82 1 82 21 -1
+ 67 28 82 1 82 25 -1
+ 67 14 82 1 82 26 -1
+ 67 14 82 1 82 27 -1
+ 67 5 82 1 82 28 -1
+ 67 32 82 1 82 29 -1
+_complexName.size()	33
+	CCNA:p-T160-CDK2	nucleoplasm	Reactome DB_ID: 187952	
+	Cdh1:phospho-APC/C complex	nucleoplasm	Reactome DB_ID: 174250	
+	phosphorylated anaphase promoting complex (APC/C)	nucleoplasm	Reactome DB_ID: 174109	
+	Cyclin A:phospho-Cdk(Thr 160):Cdh1:phosho-APC/C complex	nucleoplasm	Reactome DB_ID: 188374	
+	Cyclin A:phospho-Cdk2(Thr 160):phospho-Cdh1:phospho-APC/C complex	nucleoplasm	Reactome DB_ID: 188387	
+	phospho-Cdh1:phospho-APC/C complex	nucleoplasm	Reactome DB_ID: 174167	
+	Emi1:Cdc20/Cdh1 complex	nucleoplasm	Reactome DB_ID: 188679	
+	Phospho-Emi1(Ser 182):Cdc20/Cdh1 complexes	nucleoplasm	Reactome DB_ID: 186975	
+	CCNB1:p-T161-CDK1	nucleoplasm	Reactome DB_ID: 170160	
+	phospho-Emi1(Ser 145, Ser 149):Cdc20/Cdh1 complexes	nucleoplasm	Reactome DB_ID: 176446	
+	phospho-Emi1(Ser 182):Cdc20/Cdh1:complexes/phospho-Emi1(Ser 145, Ser 149):Cdc20/Cdh1 complexes			
+	SCF-beta-TrCP1 complex	cytosol	Reactome DB_ID: 174155	
+	SCF-beta-TrCP:phospho-Emi1 complexes	cytosol	Reactome DB_ID: 174138	
+	SCF-associated multiubiquitinated Emi1complexes	cytosol	Reactome DB_ID: 174061	
+	26S proteasome	cytosol	Reactome DB_ID: 68819	
+	MAD2*CDC20 complex	cytosol	Reactome DB_ID: 141408	
+	hBUBR1:hBUB3:MAD2*:CDC20 complex	cytosol	Reactome DB_ID: 141440	
+	phosphorylated anaphase promoting complex (APC/C)	cytosol	Reactome DB_ID: 174191	
+	MCC:APC/C complex	cytosol	Reactome DB_ID: 141410	
+	anaphase promoting complex (APC/C)	nucleoplasm	Reactome DB_ID: 174091	
+	hBUBR1:hBUB3:MAD2* complex	cytosol	Reactome DB_ID: 174196	
+	CDC20:p-APC/C	cytosol	Reactome DB_ID: 174081	
+	CCNB1:p-T161-CDK1	cytosol	Reactome DB_ID: 157456	
+	Cdc20:phospho-APC/C:Cyclin B:Cdc2 complex	cytosol	Reactome DB_ID: 174095	
+	multiubiquitinated Cyclin B:Cdc2:Cdc20:phospho-APC/C complex	cytosol	Reactome DB_ID: 174131	
+	CDC20:p-APC/C:PTTG1	cytosol	Reactome DB_ID: 174212	
+	CDC20:pAPC/C:K11polyUb-PTTG1	cytosol	Reactome DB_ID: 3095944	
+	phospho-APC/C:Cdh1 complex	cytosol	Reactome DB_ID: 174181	
+	cell cycle proteins:phospho-APC/C:Cdh1 complex	cytosol	Reactome DB_ID: 174107	
+	multiubiquitinated cell cycle protein:APC/C:Cdh1 complex	cytosol	Reactome DB_ID: 174248	
+	multiubiquitinated Skp2:phospho-APC/C:Cdh1 complex	cytosol	Reactome DB_ID: 188192	
+	multiubiquitinated Cdh1 associated with APC/C	nucleoplasm	Reactome DB_ID: 174068	
+	26S proteasome	nucleoplasm	Reactome DB_ID: 177750	
+_physicalEntityName.size()	0
+_proteinName.size()	16
+	FZR1	nucleoplasm	Reactome DB_ID: 174099	UniProt:Q9UM11	FZR1
+	p-FZR1	nucleoplasm	Reactome DB_ID: 174257	UniProt:Q9UM11	FZR1
+	PLK1	nucleoplasm	Reactome DB_ID: 156720	UniProt:P53350	PLK1
+	FZR1	cytosol			
+	CDC20	cytosol	Reactome DB_ID: 141412	UniProt:Q12834	CDC20
+	FZR1	cytosol	Reactome DB_ID: 174249	UniProt:Q9UM11	FZR1
+	UBC(609-684)	cytosol			
+	Activated MAD2L1	cytosol	Reactome DB_ID: 141447	UniProt:Q13257	MAD2L1
+	BUB3	cytosol	Reactome DB_ID: 141416	UniProt:O43684	BUB3
+	BUB1B	cytosol	Reactome DB_ID: 141436	UniProt:O60566	BUB1B
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	PTTG1	cytosol	Reactome DB_ID: 174190	UniProt:O95997	PTTG1
+	p-FZR1	cytosol	Reactome DB_ID: 174193	UniProt:Q9UM11	FZR1
+	Cdc14	cytosol			
+	AURKB	cytosol			
+	UBC(609-684)	nucleoplasm			
+_reactionName.size()	30
+	D	Association of Cyclin A:Cdk2 with Cdh1
+	T	Phosphorylation of Cdh1 by Cyclin A:Cdk2
+	B	Dissociation of phospho-Cdh1 from the APC/C complex
+	T	Phosphorylation of the Emi1 DSGxxS degron by Cyclin B:Cdc2
+	T	Phosphorylation of the Emi1 DSGxxS degron by Plk1
+	D	Phosphorylated Emi1 binds the beta-TrCP in the SCF complex
+	D	Ubiquitination of Emi1 by SCF-beta-TrCP
+	B	SCF-mediated degradation of Emi1
+	T	Phosphorylation of Cdh1 by Cyclin B1:Cdc2
+	D	Inactivation of APC/C via CDC20 sequestration
+	D	Formation of the MCC complex
+	D	Binding of the MCC complex to the APC/C complex
+	T	Free APC/C phosphorylated by Plk1
+	T	Free APC/C phosphorylated by Cyclin B:Cdc2
+	B	Activation of APC/C:Cdc20 by dissociation of Cdc20:phospho-APC/C from Cdc20:phospho-APC/C:Mad2:Bub3:BubR1
+	D	Association of Cyclin B:Cdc2 with Cdc20:APC/C complex
+	D	Ubiquitination of Cyclin B by phospho-APC/C:Cdc20 complex
+	B	Degradation of multiubiquitinated Cyclin B
+	D	Association of Securin with Cdc20:APC/C complex
+	D	Ubiquitination of Securin by phospho-APC/C:Cdc20 complex
+	B	Degradation of multiubiquitinated Securin
+	T	Dephosphorylation of phospho-Cdh1
+	B	Dissociation of Cdc20 from APC/C complex
+	D	Association of Cdh1 with the APC/C
+	D	Association of cell cycle proteins with the APC/C:Cdh1 complex
+	D	Ubiquitination of cell cycle proteins targeted by the APC/C:Cdh1complex
+	B	Degradation of multiubiquitinated cell cycle proteins
+	B	APC/C:Cdh1-mediated degradation of Skp2
+	D	Multiubiquitination of APC/C-associated Cdh1
+	B	Degradation of multiubiquitinated Cdh1
+_smallMoleculeName.size()	11
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

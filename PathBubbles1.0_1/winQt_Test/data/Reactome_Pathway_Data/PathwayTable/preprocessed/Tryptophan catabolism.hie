@@ -1,0 +1,131 @@
+edge.size() 48
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 2 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 -1 82 4 -1
+ 83 -1 83 -1 82 4 -1
+ 83 -1 83 -1 82 4 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 0 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 1 83 -1 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 2 83 -1 82 7 -1
+ 83 3 83 -1 82 7 -1
+ 83 4 83 -1 82 7 -1
+ 83 5 83 -1 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 6 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 2 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 7 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+ 67 2 82 1 82 2 -1
+ 80 1 82 1 82 3 -1
+ 67 3 82 1 82 4 -1
+ 67 4 82 1 82 5 -1
+ 80 2 82 1 82 7 -1
+ 67 5 82 1 82 8 -1
+ 67 6 82 1 82 9 -1
+ 67 7 82 1 82 10 -1
+ 80 0 82 1 82 11 -1
+ 67 8 82 1 82 12 -1
+ 83 -1 82 0 82 4 -1
+_complexName.size()	9
+	TDO2 tetramer	cytosol	Reactome DB_ID: 71186	
+	IDO1	cytosol	Reactome DB_ID: 198580	
+	IDO2	cytosol	Reactome DB_ID: 888612	
+	CCBL1 dimer	cytosol	Reactome DB_ID: 893603	
+	CCBL2 dimer	cytosol	Reactome DB_ID: 901094	
+	KYNU dimer	cytosol	Reactome DB_ID: 71202	
+	HAAO	cytosol	Reactome DB_ID: 71086	
+	ACMSD dimer	cytosol	Reactome DB_ID: 71221	
+	AADAT dimer	mitochondrial matrix	Reactome DB_ID: 508545	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	TDO2	cytosol	Reactome DB_ID: 71184	UniProt:P48775	TDO2
+	AFMID	cytosol	Reactome DB_ID: 178107	UniProt:Q63HM1	AFMID
+	KMO	cytosol	Reactome DB_ID: 71198	UniProt:O15229	KMO
+_reactionName.size()	13
+	D	tryptophan + O2 => N-formylkynurenine [TDO]
+	D	tryptophan + O2 => N-formylkynurenine [IDO]
+	D	tryptophan + O2 => N-formylkynurenine [IDO2]
+	T	N-formylkynurenine + H2O => kynurenine + formate
+	T	kynurenine + pyruvate => 4-(2-aminophenyl)-2,4-dioxobutanoic acid + alanine [CCBL1]
+	T	kynurenine + pyruvate => 4-(2-aminophenyl)-2,4-dioxobutanoic acid + alanine [CCBL2]
+	B	4-(2-aminophenyl)-2,4-dioxobutanoate => kynurenate + H2O [cytosolic]
+	T	kynurenine + O2 + NADPH + H+ => 3-hydroxykynurenine + NADP+ + H2O
+	T	3-hydroxykynurenine + H2O => 3-hydroxyanthranilate + alanine
+	D	3-hydroxyanthranilate + O2 => 2-amino-3-carboxymuconate semialdehyde
+	B	2-amino-3-carboxymuconate semialdehyde => 2-aminomuconate semialdehyde + CO2
+	T	2-aminomuconate semialdehyde + NAD+ + H2O => aminomuconate + NADH + H+
+	T	kynurenine + 2-oxoglutarate => 4-(2-aminophenyl)-2,4-dioxobutanoic acid + glutamate
+_smallMoleculeName.size()	8
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	KYNA	mitochondrial matrix	Reactome DB_ID: 893594	ChEBI:18344 kynurenic acid
+	L-Ala	cytosol	Reactome DB_ID: 29432	L-Alanine [ChEBI:16977]
+	3-Hydroxy-L-kynurenine	cytosol	Reactome DB_ID: 34351	3-Hydroxy-L-kynurenine [ChEBI:17380]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

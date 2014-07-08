@@ -1,0 +1,832 @@
+edge.size() 494
+ 80 0 80 1 82 0 -1
+ 80 1 67 0 82 1 -1
+ 67 0 67 1 82 2 -1
+ 67 1 67 2 82 3 -1
+ 67 2 67 4 82 4 -1
+ 67 1 67 4 82 4 -1
+ 67 1 67 -1 82 4 -1
+ 67 2 67 -1 82 4 -1
+ 67 -1 67 -1 82 5 -1
+ 67 4 67 -1 82 5 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 2 80 2 82 6 -1
+ 80 3 83 0 82 6 -1
+ 80 3 83 1 82 6 -1
+ 67 -1 83 3 82 7 -1
+ 67 -1 67 -1 82 7 -1
+ 83 4 67 -1 82 7 -1
+ 83 2 80 2 82 8 -1
+ 80 3 83 5 82 8 -1
+ 80 3 83 6 82 8 -1
+ 83 2 80 5 82 9 -1
+ 80 7 83 7 82 9 -1
+ 80 7 80 6 82 9 -1
+ 80 7 80 6 82 9 -1
+ 80 8 83 -1 82 9 -1
+ 80 8 80 5 82 9 -1
+ 80 8 80 6 82 9 -1
+ 80 3 80 -1 82 10 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 2 80 2 82 11 -1
+ 80 3 83 8 82 11 -1
+ 80 3 83 9 82 11 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 5 82 -1 -1
+ 67 -1 67 5 82 -1 -1
+ 83 2 67 5 82 12 -1
+ 67 6 83 10 82 12 -1
+ 67 6 83 11 82 12 -1
+ 80 9 67 7 82 13 -1
+ 67 6 67 7 82 13 -1
+ 67 7 67 8 82 14 -1
+ 67 7 67 -1 82 14 -1
+ 67 8 67 9 82 15 -1
+ 80 -1 67 9 82 15 -1
+ 80 10 67 -1 82 16 -1
+ 67 9 67 -1 82 16 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 9 67 -1 82 -1 -1
+ 67 -1 67 10 82 17 -1
+ 67 9 67 10 82 17 -1
+ 83 2 67 10 82 18 -1
+ 67 11 83 12 82 18 -1
+ 67 11 83 13 82 18 -1
+ 67 13 67 12 82 19 -1
+ 67 13 83 -1 82 19 -1
+ 83 2 83 -1 82 19 -1
+ 80 11 67 12 82 19 -1
+ 80 11 83 -1 82 19 -1
+ 80 10 67 14 82 20 -1
+ 80 11 67 14 82 20 -1
+ 67 13 67 -1 82 21 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 14 83 -1 82 -1 -1
+ 83 15 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 12 82 -1 -1
+ 67 13 67 15 82 22 -1
+ 80 9 67 15 82 22 -1
+ 80 12 67 15 82 22 -1
+ 80 12 80 -1 82 23 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 2 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 16 82 -1 -1
+ 80 13 80 15 82 24 -1
+ 80 14 80 15 82 24 -1
+ 83 16 80 15 82 24 -1
+ 83 17 67 17 82 24 -1
+ 80 14 67 17 82 24 -1
+ 80 13 67 17 82 24 -1
+ 80 16 67 18 82 25 -1
+ 80 17 67 18 82 25 -1
+ 80 14 67 18 82 25 -1
+ 80 14 80 15 82 25 -1
+ 80 17 80 15 82 25 -1
+ 80 16 80 15 82 25 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 18 82 -1 -1
+ 80 18 67 20 82 26 -1
+ 67 19 67 20 82 26 -1
+ 67 -1 83 18 82 27 -1
+ 67 -1 67 -1 82 27 -1
+ 83 4 67 -1 82 27 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 2 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 19 83 19 82 28 -1
+ 80 19 67 -1 82 28 -1
+ 67 -1 67 -1 82 28 -1
+ 67 -1 83 20 82 28 -1
+ 83 2 67 -1 82 28 -1
+ 67 -1 67 -1 82 29 -1
+ 67 -1 83 21 82 29 -1
+ 83 2 83 22 82 29 -1
+ 80 20 67 -1 82 29 -1
+ 80 20 83 23 82 29 -1
+ 83 2 80 21 82 30 -1
+ 80 22 83 -1 82 30 -1
+ 80 22 83 -1 82 30 -1
+ 80 19 67 21 82 -1 -1
+ 80 -1 67 21 82 -1 -1
+ 67 -1 67 21 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 67 -1 80 19 82 -1 -1
+ 67 -1 80 24 82 -1 -1
+ 80 24 67 22 82 31 -1
+ 67 22 67 -1 82 32 -1
+ 80 20 67 23 82 -1 -1
+ 80 -1 67 23 82 -1 -1
+ 83 2 67 23 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 80 20 82 -1 -1
+ 67 -1 80 25 82 -1 -1
+ 80 25 67 24 82 33 -1
+ 67 24 67 -1 82 34 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 26 83 24 82 35 -1
+ 67 26 67 25 82 35 -1
+ 83 4 67 25 82 35 -1
+ 80 -1 67 25 82 36 -1
+ 67 26 67 25 82 36 -1
+ 67 26 80 -1 82 36 -1
+ 80 -1 80 -1 82 36 -1
+ 83 2 83 -1 82 37 -1
+ 67 28 67 27 82 37 -1
+ 67 28 67 27 82 37 -1
+ 80 27 80 26 82 38 -1
+ 80 27 83 -1 82 38 -1
+ 83 2 83 -1 82 38 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 4 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 28 67 29 82 39 -1
+ 67 16 67 29 82 39 -1
+ 67 29 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 67 30 82 40 -1
+ 67 29 67 30 82 40 -1
+ 80 29 67 31 82 41 -1
+ 67 30 67 31 82 41 -1
+ 67 31 67 32 82 42 -1
+ 80 30 67 32 82 42 -1
+ 67 33 83 27 82 43 -1
+ 83 25 83 28 82 43 -1
+ 83 26 67 34 82 43 -1
+ 67 33 67 34 82 43 -1
+ 67 35 67 36 82 44 -1
+ 67 34 67 36 82 44 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 38 83 29 82 45 -1
+ 67 38 67 37 82 45 -1
+ 83 4 67 37 82 45 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 46 -1
+ 83 14 83 -1 82 46 -1
+ 83 2 83 30 82 47 -1
+ 80 -1 80 31 82 47 -1
+ 80 -1 80 31 82 47 -1
+ 83 -1 67 40 82 48 -1
+ 67 39 67 40 82 48 -1
+ 83 31 83 32 82 49 -1
+ 83 32 67 41 82 50 -1
+ 80 32 67 41 82 50 -1
+ 83 -1 83 33 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 42 80 33 82 51 -1
+ 83 33 80 33 82 51 -1
+ 67 42 67 43 82 51 -1
+ 80 33 80 34 82 -1 -1
+ 83 -1 83 -1 82 52 -1
+ 80 36 80 35 82 52 -1
+ 80 36 80 35 82 52 -1
+ 80 36 67 44 82 53 -1
+ 67 41 67 45 82 54 -1
+ 80 37 67 45 82 54 -1
+ 67 45 67 46 82 55 -1
+ 67 47 67 46 82 56 -1
+ 67 47 83 34 82 56 -1
+ 83 -1 83 35 82 56 -1
+ 83 -1 83 36 82 57 -1
+ 80 36 80 35 82 57 -1
+ 80 36 80 35 82 57 -1
+ 67 48 67 49 82 58 -1
+ 83 33 83 37 82 59 -1
+ 83 14 83 38 82 59 -1
+ 80 -1 67 -1 82 60 -1
+ 80 32 67 -1 82 60 -1
+ 83 2 80 -1 82 61 -1
+ 80 38 83 39 82 61 -1
+ 80 38 83 40 82 61 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 83 41 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 41 67 -1 82 -1 -1
+ 83 2 83 -1 82 -1 -1
+ 83 41 83 -1 82 -1 -1
+ 80 39 67 -1 82 62 -1
+ 83 41 67 -1 82 62 -1
+ 80 40 67 -1 82 63 -1
+ 83 41 67 -1 82 63 -1
+ 83 2 83 42 82 64 -1
+ 67 -1 67 -1 82 64 -1
+ 67 -1 67 -1 82 64 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 65 -1
+ 67 -1 83 43 82 65 -1
+ 83 2 83 44 82 65 -1
+ 80 41 67 -1 82 65 -1
+ 80 41 83 45 82 65 -1
+ 83 2 83 46 82 66 -1
+ 80 42 80 6 82 66 -1
+ 80 42 80 6 82 66 -1
+ 83 2 83 -1 82 67 -1
+ 80 44 80 43 82 67 -1
+ 80 44 80 43 82 67 -1
+ 83 2 80 45 82 68 -1
+ 80 46 83 47 82 68 -1
+ 80 46 83 -1 82 68 -1
+ 80 48 83 -1 82 69 -1
+ 80 48 80 47 82 69 -1
+ 83 2 80 47 82 69 -1
+ 83 2 80 49 82 70 -1
+ 80 50 83 -1 82 70 -1
+ 80 50 83 -1 82 70 -1
+ 80 52 80 51 82 71 -1
+ 80 52 83 -1 82 71 -1
+ 83 2 83 -1 82 71 -1
+ 83 2 80 53 82 72 -1
+ 80 54 83 48 82 72 -1
+ 80 54 83 -1 82 72 -1
+ 80 56 80 55 82 73 -1
+ 80 56 83 -1 82 73 -1
+ 83 2 83 -1 82 73 -1
+ 80 41 80 57 82 74 -1
+ 83 -1 83 -1 82 75 -1
+ 80 36 80 35 82 75 -1
+ 80 36 80 35 82 75 -1
+ 83 -1 80 58 82 76 -1
+ 80 59 83 -1 82 76 -1
+ 80 59 83 -1 82 76 -1
+ 83 -1 83 -1 82 77 -1
+ 80 61 80 60 82 77 -1
+ 80 61 80 60 82 77 -1
+ 80 63 83 -1 82 78 -1
+ 80 63 80 62 82 78 -1
+ 83 -1 80 62 82 78 -1
+ 83 14 83 49 82 79 -1
+ 83 41 83 -1 82 79 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 41 83 49 82 80 -1
+ 83 14 80 64 82 80 -1
+ 80 41 80 64 82 80 -1
+ 83 -1 67 -1 82 81 -1
+ 80 40 67 -1 82 81 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 2 83 -1 82 82 -1
+ 80 66 80 65 82 82 -1
+ 80 66 80 65 82 82 -1
+ 83 2 80 67 82 83 -1
+ 80 68 83 50 82 83 -1
+ 80 68 83 51 82 83 -1
+ 80 68 80 -1 82 84 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 49 80 -1 82 85 -1
+ 83 4 83 -1 82 85 -1
+ 67 -1 67 -1 82 85 -1
+ 67 -1 83 14 82 85 -1
+ 67 -1 67 -1 82 85 -1
+ 67 -1 83 -1 82 85 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 86 -1
+ 80 71 80 70 82 86 -1
+ 80 71 80 70 82 86 -1
+ 83 -1 83 -1 82 87 -1
+ 80 73 80 72 82 87 -1
+ 80 73 80 72 82 87 -1
+ 83 -1 83 -1 82 88 -1
+ 80 73 80 72 82 88 -1
+ 80 73 80 72 82 88 -1
+ 80 76 83 52 82 89 -1
+ 80 76 80 75 82 89 -1
+ 83 -1 80 75 82 89 -1
+ 83 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 80 77 82 90 -1
+ 80 78 83 -1 82 90 -1
+ 80 78 83 -1 82 90 -1
+ 83 -1 80 77 82 91 -1
+ 80 78 83 -1 82 91 -1
+ 80 78 83 -1 82 91 -1
+ 83 -1 83 -1 82 92 -1
+ 80 36 80 35 82 92 -1
+ 80 36 80 35 82 92 -1
+ 80 81 80 80 82 93 -1
+ 80 81 83 -1 82 93 -1
+ 83 -1 83 -1 82 93 -1
+ 83 -1 83 -1 82 94 -1
+ 80 36 80 35 82 94 -1
+ 80 36 80 35 82 94 -1
+ 83 -1 83 -1 82 95 -1
+ 80 36 80 35 82 95 -1
+ 80 36 80 35 82 95 -1
+ 67 3 82 1 82 3 -1
+ 67 -1 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+ 80 3 82 1 82 9 -1
+ 67 -1 82 1 82 11 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 0 82 1 82 12 -1
+ 67 10 82 1 82 18 -1
+ 67 11 82 1 82 19 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 13 82 1 82 24 -1
+ 80 16 82 1 82 25 -1
+ 67 -1 82 1 82 -1 -1
+ 67 20 82 1 82 27 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 28 -1
+ 67 -1 82 1 82 29 -1
+ 80 23 82 1 82 30 -1
+ 67 21 82 1 82 -1 -1
+ 67 23 82 1 82 -1 -1
+ 67 -1 82 1 82 35 -1
+ 67 26 82 1 82 36 -1
+ 80 -1 82 1 82 37 -1
+ 67 28 82 1 82 38 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 40 -1
+ 67 32 82 1 82 43 -1
+ 67 34 82 1 82 44 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 45 -1
+ 80 -1 82 1 82 46 -1
+ 80 31 82 1 82 47 -1
+ 67 40 82 1 82 49 -1
+ 67 -1 82 1 82 -1 -1
+ 80 34 82 1 82 52 -1
+ 67 46 82 1 82 56 -1
+ 67 47 82 1 82 57 -1
+ 67 49 82 1 82 59 -1
+ 67 50 82 1 82 61 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 51 82 1 82 64 -1
+ 67 -1 82 1 82 65 -1
+ 80 41 82 1 82 66 -1
+ 80 41 82 1 82 67 -1
+ 80 41 82 1 82 68 -1
+ 80 41 82 1 82 69 -1
+ 80 41 82 1 82 70 -1
+ 80 41 82 1 82 71 -1
+ 80 41 82 1 82 72 -1
+ 80 41 82 1 82 73 -1
+ 80 57 82 1 82 75 -1
+ 80 57 82 1 82 76 -1
+ 80 57 82 1 82 77 -1
+ 80 57 82 1 82 78 -1
+ 67 52 82 1 82 79 -1
+ 67 53 82 1 82 80 -1
+ 67 -1 82 1 82 82 -1
+ 80 69 82 1 82 83 -1
+ 80 -1 82 1 82 85 -1
+ 80 -1 82 1 82 -1 -1
+ 67 54 82 1 82 86 -1
+ 67 54 82 1 82 87 -1
+ 80 74 82 1 82 88 -1
+ 80 77 82 1 82 89 -1
+ 80 -1 82 1 82 -1 -1
+ 67 55 82 1 82 90 -1
+ 80 79 82 1 82 91 -1
+ 80 73 82 1 82 92 -1
+ 80 73 82 1 82 93 -1
+ 80 76 82 1 82 94 -1
+ 80 82 82 1 82 95 -1
+ 80 -1 82 0 82 8 -1
+ 67 -1 82 1 82 -1 -1
+ 83 15 82 1 82 47 -1
+ 83 14 82 1 82 49 -1
+ 67 41 82 1 82 58 -1
+ 67 -1 82 0 82 64 -1
+ 67 -1 82 0 82 -1 -1
+_complexName.size()	56
+	pro-beta-NGF homodimer	endoplasmic reticulum lumen	Reactome DB_ID: 166554	
+	pro-beta-NGF homodimer	Golgi lumen	Reactome DB_ID: 187028	
+	mature beta-NGF homodimer	Golgi lumen	Reactome DB_ID: 187017	
+	Subtilisin/kexin convertase (Calcium dependant)	Golgi lumen	Reactome DB_ID: 166611	
+	pro-beta-NGF homodimer	extracellular region	Reactome DB_ID: 187029	
+	NGF ligand:p75NTR:IRAK1:MYD88	plasma membrane	Reactome DB_ID: 209570	
+	NGF ligand:p75NTR:p-IRAK1:MYD88	plasma membrane	Reactome DB_ID: 209572	
+	NGF ligand:p75NTR:Phospho-IRAK1:MYD88:TRAF6	plasma membrane	Reactome DB_ID: 209574	
+	NGF ligand:p75NTR:Phospho-IRAK1:TRAF6	plasma membrane	Reactome DB_ID: 209569	
+	NGF ligand:p75NTR:Phospho-IRAK1:TRAF6:p62	plasma membrane	Reactome DB_ID: 209577	
+	NGF ligand:p75NTR:Phospho-IRAK1:TRAF6:p62:IKK-beta	plasma membrane	Reactome DB_ID: 209533	
+	NGF ligand:p75NTR:Phospho-IRAK1:TRAF6:p62:Phospho-IKK-beta	plasma membrane	Reactome DB_ID: 209565	
+	IkB(alpha):NF-kB complex	cytosol	Reactome DB_ID: 193938	
+	NF-kB complex	cytosol	Reactome DB_ID: 194043	
+	Ubiquitinated phospho-IkB	cytosol	Reactome DB_ID: 209535	
+	NF-kB:p75NTR ICD:TRAF6	cytosol	Reactome DB_ID: 197481	
+	Activated TrkA receptor complex	endosome	Reactome DB_ID: 190083	
+	Adenosine:Adenosine A2a receptor	Golgi membrane	Reactome DB_ID: 187653	
+	PACAP:PACAP type 1 receptor	Golgi membrane	Reactome DB_ID: 187656	
+	GRB2:SOS1	cytosol	Reactome DB_ID: 109797	
+	GRB2:SOS:Phospho-SHC	cytosol	Reactome DB_ID: 109798	
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+	RALA-GDP/RALB-GDP			
+	RALA-GTP/RALB-GTP			
+	MAP kinase p38 (Mg2+ cofactor)	cytosol	Reactome DB_ID: 189828	
+	Phospho-MAP kinase p38 (Mg2+ cofactor)	cytosol	Reactome DB_ID: 170993	
+	Active TrkA receptor:FRS2 complex	endosome	Reactome DB_ID: 190068	
+	Active TrkA receptor:p-FRS2 complex	endosome	Reactome DB_ID: 190073	
+	Active TrkA receptor:p-FRS2:CRKL complex	endosome	Reactome DB_ID: 190081	
+	Active TrkA receptor:Phospho-Frs2:CrkL:C3G complex	endosome	Reactome DB_ID: 190070	
+	Rap1-GDP	endosome	Reactome DB_ID: 190077	
+	Rap1-GTP	endosome	Reactome DB_ID: 190069	
+	B-Raf complex	endosome	Reactome DB_ID: 190075	
+	Rap1-GTP:B-Raf complex	endosome	Reactome DB_ID: 190082	
+	Rap1-GDP	cytosol	Reactome DB_ID: 169860	
+	Rap1-GTP	cytosol	Reactome DB_ID: 169866	
+	IP3 receptor homotetramer	endoplasmic reticulum membrane	Reactome DB_ID: 169686	
+	IP3 receptor:IP3 complex	endoplasmic reticulum membrane	Reactome DB_ID: 169696	
+	Ca(4)CaM	cytosol	Reactome DB_ID: 74294	
+	PKA tetramer	cytosol	Reactome DB_ID: 111922	
+	cAMP:PKA regulatory subunit	cytosol	Reactome DB_ID: 111923	
+	phospho-CREB dimer	nucleoplasm	Reactome DB_ID: 111911	
+	Calmodulin:CaMK IV	cytosol	Reactome DB_ID: 111900	
+	Calmodulin:CaMK IV	nucleoplasm	Reactome DB_ID: 112281	
+	phospho-CaMK IV:Calmodulin	nucleoplasm	Reactome DB_ID: 111904	
+	Cam-PDE 1A homodimer/Cam-PDE 1B homodimer/Cam-PDE 1C homodimer			
+	active Cam-PDE 1	cytosol	Reactome DB_ID: 111953	
+	active PKC (alpha, gamma, delta)	cytosol	Reactome DB_ID: 112002	
+	TORC2 complex	cytosol	Reactome DB_ID: 198626	
+	PTEN:Mg2+	cytosol	Reactome DB_ID: 199426	
+	PHLPP (Mn2+ cofactor)	cytosol	Reactome DB_ID: 199450	
+	phospho-ERK-1 dimer/phospho-ERK-2 dimer			
+	PP2A-ABdeltaC complex	nucleoplasm	Reactome DB_ID: 165970	
+_physicalEntityName.size()	0
+_proteinName.size()	83
+	NGF(1-241)	endoplasmic reticulum lumen	Reactome DB_ID: 187026	UniProt:P01138	NGF
+	NGF(19-241)	endoplasmic reticulum lumen	Reactome DB_ID: 187047	UniProt:P01138	NGF
+	JNK1	cytosol	Reactome DB_ID: 168141	UniProt:P45983	MAPK8
+	p-T,Y-JNK1	cytosol	Reactome DB_ID: 194371	UniProt:P45983	MAPK8
+	OBSCN	cytosol			
+	BIM	cytosol	Reactome DB_ID: 2976673	UniProt:O43521	BCL2L11
+	BAD	cytosol	Reactome DB_ID: 50662	UniProt:Q92934	BAD
+	p-S128-BAD	cytosol	Reactome DB_ID: 217297	UniProt:Q92934	BAD
+	BCL2L11	cytosol	Reactome DB_ID: 2976671	UniProt:O43521	BCL2L11
+	TRAF6	cytosol	Reactome DB_ID: 166366	UniProt:Q9Y4K3	TRAF6
+	UBC(609-684)	cytosol			
+	p-S32,S36-IkBA	cytosol	Reactome DB_ID: 177677	UniProt:P25963	NFKBIA
+	NGFR	cytosol	Reactome DB_ID: 194458	UniProt:P08138	NGFR
+	ADORA2A	Golgi membrane	Reactome DB_ID: 187668	UniProt:P29274	ADORA2A
+	NTRK2	Golgi membrane			
+	NTRK1	Golgi membrane			
+	ADCYAP1R1	Golgi membrane	Reactome DB_ID: 187664	UniProt:P41586	ADCYAP1R1
+	ADCYAP1	Golgi membrane	Reactome DB_ID: 187679	UniProt:P18509	ADCYAP1
+	SHC3	cytosol			
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	p-S218,222-MEK1	cytosol			
+	p-T286,292-MEK1	cytosol			
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+	MAPKAPK3	cytosol			
+	MAPKAPK3	cytosol			
+	FRS2	endosome	Reactome DB_ID: 190054	UniProt:Q8WU20	FRS2
+	CRKL	endosome	Reactome DB_ID: 2980683	UniProt:P46109	CRKL
+	RAPGEF1	endosome	Reactome DB_ID: 3008667	UniProt:Q13905	RAPGEF1
+	PRKCE	cytosol			
+	CALM1	cytosol	Reactome DB_ID: 71519	UniProt:P62158	CALM1
+	PRKACG	cytosol			
+	PRKACG	nucleoplasm			
+	CREB	nucleoplasm	Reactome DB_ID: 52777	UniProt:P16220	CREB1
+	CREB	nucleoplasm	Reactome DB_ID: 111910	UniProt:P16220	CREB1
+	CAMK4	cytosol	Reactome DB_ID: 57900	UniProt:Q16566	CAMK4
+	Beta-ARK-1	cytosol	Reactome DB_ID: 111969	UniProt:P25098	ADRBK1
+	AKT2	cytosol			
+	PDK1	cytosol	Reactome DB_ID: 202210	UniProt:O15530	PDPK1
+	AKT3	cytosol			
+	p-S99-BAD	cytosol	Reactome DB_ID: 198335	UniProt:Q92934	BAD
+	GSK3B	cytosol			
+	GSK3B	cytosol			
+	CASP9	cytosol	Reactome DB_ID: 114257	UniProt:P55211	CASP9
+	p-S196-CASP9	cytosol	Reactome DB_ID: 198636	UniProt:P55211	CASP9
+	MDM2	cytosol	Reactome DB_ID: 198644	UniProt:Q00987	MDM2
+	p-MDM2	cytosol	Reactome DB_ID: 198638	UniProt:Q00987	MDM2
+	CHUK	cytosol	Reactome DB_ID: 168104	UniProt:O15111	CHUK
+	p-T23-CHUK	cytosol	Reactome DB_ID: 198615	UniProt:O15111	CHUK
+	glnA	cytosol			
+	glnA	cytosol			
+	TSC2	cytosol	Reactome DB_ID: 2980548	UniProt:P49815	TSC2
+	Phospho-TSC2	cytosol	Reactome DB_ID: 199484	UniProt:P49815	TSC2
+	AKT1S1	cytosol	Reactome DB_ID: 200155	UniProt:Q96B36	AKT1S1
+	AKT1S1	cytosol	Reactome DB_ID: 200163	UniProt:Q96B36	AKT1S1
+	AKT3	nucleoplasm			
+	FOXO4	nucleoplasm			
+	FOXO4	nucleoplasm			
+	RPS6KB2	nucleoplasm	Reactome DB_ID: 199877	UniProt:Q9UBS0	RPS6KB2
+	RPS6KB2	nucleoplasm	Reactome DB_ID: 199844	UniProt:Q9UBS0	RPS6KB2
+	NR4A1	nucleoplasm	Reactome DB_ID: 199831	UniProt:P22736	NR4A1
+	NR4A1	nucleoplasm	Reactome DB_ID: 199846	UniProt:P22736	NR4A1
+	AKT3	cytosol			
+	STAT3	cytosol	Reactome DB_ID: 539044	UniProt:P40763	STAT3
+	STAT3	cytosol	Reactome DB_ID: 198705	UniProt:P40763	STAT3
+	ERK5	cytosol	Reactome DB_ID: 198754	UniProt:Q13164	MAPK7
+	MAPK7	cytosol	Reactome DB_ID: 198721	UniProt:Q13164	MAPK7
+	MEK5	cytosol	Reactome DB_ID: 198722	UniProt:Q13163	MAP2K5
+	ELK1	nucleoplasm	Reactome DB_ID: 3009346	UniProt:P19419	ELK1
+	ELK1	nucleoplasm	Reactome DB_ID: 3009350	UniProt:P19419	ELK1
+	MSK1	nucleoplasm	Reactome DB_ID: 198657	UniProt:O75582	RPS6KA5
+	RPS6KA5	nucleoplasm	Reactome DB_ID: 198683	UniProt:O75582	RPS6KA5
+	MK14_HUMAN	nucleoplasm			
+	RPS6KA3	nucleoplasm			
+	RPS6KA3	nucleoplasm			
+	p42-MAPK	nucleoplasm			
+	ERK5	nucleoplasm			
+	DUSP6	nucleoplasm			
+	ATF1	nucleoplasm	Reactome DB_ID: 199900	UniProt:P18846	ATF1
+	p-S63-ATF1	nucleoplasm	Reactome DB_ID: 199897	UniProt:P18846	ATF1
+	MKK2_HUMAN	nucleoplasm	Reactome DB_ID: 199936	UniProt:P49137	MAPKAPK2
+_reactionName.size()	96
+	T	The signal peptide is excised from beta-NGF pre-pro-precursor
+	T	pro-beta-NGF dimerizes
+	T	pro-beta-NGF homodimer transits to the golgi apparatus
+	T	Part of pro-beta-NGF is processed to mature beta-NGF
+	T	Pro-beta-NGF and mature beta-NGF are secreted
+	D	Binding of pro-NGF to p75NTR:sortilin
+	T	NRAGE activates JNK
+	T	p75NTR indirectly activates RAC and Cdc42 via a guanyl-nucleotide exchange factor
+	T	GTP-bound RAC contributes to JNK activation
+	T	JNK phosphorylates BIM, BAD and other targets
+	T	Active JNK moves to the nucleus and phosphorylates different transcription factors
+	T	NRIF and TRAF6 may activate JNK
+	T	IRAK is activated
+	D	IRAK interacts with TRAF6
+	B	MYD88 dissociates
+	D	p62 is recruited and forms a complex with TRAF6
+	D	TRAF6 is auto-ubiquitinated
+	D	IKK-beta is recruited
+	T	IKKbeta is activated
+	T	IKKbeta phosphorylates IkB causing NF-kB to dissociate
+	D	IkB is ubiquitinated and degraded
+	T	NF-kB migrates to the nucleus and turns on transcription
+	D	p75NTR ICD signals to NF-kB
+	T	Part of the ICD migrates to the nucleus
+	T	TRKA activation by adenosine A2a receptor
+	T	TRKA activation by PACAP type 1 receptor
+	D	GRB2:SOS binds to SHC-P
+	T	SOS mediated nucleotide exchange of RAS (SHC)
+	T	RAF1  phosphorylates MEK1
+	T	RAF1 phosphorylates MEK2
+	T	Inactivation of MEK1 by p34cdc2
+	T	Dimerisation of phospho-ERK-1
+	T	Nuclear translocation of phospho-ERK-1 dimer
+	T	Dimerisation of phospho-ERK-2
+	T	Nuclear translocation of phospho-ERK-2 dimer
+	T	Guanine nucleotide exchange on RAL
+	T	Activation of SRC by RAL-GTP
+	T	Binding and activation of MAP Kinase
+	T	MAP kinase activates MAPKAPK2, MAPKAPK3 and MSK1
+	D	FRS2 binds to active TrkA receptor
+	T	FRS2 is phosphorylated by active TrkA receptor
+	D	p-FRS2 binds CRKL
+	D	Phospho-Frs2:CrkL engages C3G
+	T	(Frs2)C3G stimulates nucleotide exchange on Rap1
+	D	(Frs2)Rap1-GTP binds to and activates B-Raf
+	T	C3G stimulates nucleotide exchange on Rap1
+	T	Active PLCG1 hydrolyses PIP2
+	T	DAG stimulates protein kinase C-delta
+	D	IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel
+	T	Release of calcium from intracellular stores by IP3 receptor activation
+	D	Calcium binds calmodulin
+	T	cAMP induces dissociation of inactive PKA tetramers
+	T	PKA phosphorylates CREB
+	T	Dimerisation of CREB
+	D	Calmodulin binds CaMK IV
+	T	CamKIV enters the nucleus
+	T	CaMK IV autophosphorylation
+	T	CaMK IV phosphorylates CREB
+	T	Calmodulin activates Cam-PDE 1
+	D	cAMP hydrolysis by Cam-PDE 1
+	D	Inhibition of GRK2 by calmodulin
+	T	PKC phosphorylates GRK2
+	D	PIP3 recruits AKT to the membrane
+	D	PIP3 recruits PDPK1 to the membrane
+	T	TORC2 (mTOR) phosphorylates AKT at S473
+	T	PDPK1 phosphorylates AKT at T308
+	T	AKT phosphorylates BAD
+	T	AKT phosphorylates GSK3
+	T	AKT phosphorylates caspase-9
+	T	AKT phosphorylates MDM2
+	T	AKT phosphorylates IKKalpha
+	T	AKT phosphorylates p21Cip1 and p27Kip1
+	T	AKT phosphorylates TSC2, inhibiting it
+	T	AKT phosphorylates AKT1S1 (PRAS40)
+	T	AKT translocates to the nucleus
+	T	AKT phosphorylates CREB1
+	T	AKT can phosphorylate forkhead box transcription factors
+	T	AKT can phosphorylate RSK
+	T	AKT can phosphorylate NR4A1 (NUR77)
+	T	PTEN dephosphorylates PIP3
+	T	PHLPP dephosphorylates S473 in AKT
+	D	PDPK1 binds PIP2
+	T	STAT3 activation
+	T	ERK5 is activated
+	T	ERK5 translocates to the nucleus
+	T	Endocytosis (internalization) of clathrin-coated vesicle
+	T	ERK1/2 activates ELK1
+	T	ERK1/2 phosphorylates MSK1
+	T	p38MAPK phosphorylates MSK1
+	T	ERK1/2/5 activate RSK1/2/3
+	T	ERKs are inactivated by protein phosphatase 2A
+	T	ERKs are inactivated by dual-specific phosphatases (DUSPs)
+	T	MSK1 activates CREB
+	T	MSK1 activates ATF1
+	T	RSK1/2/3 phosphorylates CREB at Serine 133
+	T	MAPKAPK2 phosphorylates CREB at Serine 133
+_smallMoleculeName.size()	53
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	DAG	plasma membrane	Reactome DB_ID: 112275	diacylglycerols [ChEBI:18035]
+	DAG	plasma membrane	Reactome DB_ID: 112275	diacylglycerols [ChEBI:18035]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Ca2+	endoplasmic reticulum lumen	Reactome DB_ID: 111875	Calcium [ChEBI:29108]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PIP3	plasma membrane	Reactome DB_ID: 179838	ChEBI:16618 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Mg2+	plasma membrane	Reactome DB_ID: 140344	Magnesium [ChEBI:18420]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

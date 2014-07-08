@@ -1,0 +1,867 @@
+edge.size() 520
+ 83 0 83 1 82 0 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 2 83 3 82 2 -1
+ 80 1 67 2 82 3 -1
+ 67 1 67 2 82 3 -1
+ 80 2 67 2 82 3 -1
+ 80 3 67 2 82 3 -1
+ 80 4 67 2 82 3 -1
+ 80 5 67 2 82 3 -1
+ 67 2 67 3 82 4 -1
+ 67 2 83 4 82 4 -1
+ 67 2 80 7 82 4 -1
+ 67 2 80 3 82 4 -1
+ 67 2 80 4 82 4 -1
+ 67 2 67 4 82 4 -1
+ 67 2 80 8 82 4 -1
+ 83 5 83 12 82 5 -1
+ 83 6 83 13 82 5 -1
+ 83 7 83 14 82 5 -1
+ 83 8 83 15 82 5 -1
+ 83 9 83 16 82 5 -1
+ 83 10 83 17 82 5 -1
+ 83 11 83 18 82 5 -1
+ 83 4 83 6 82 -1 -1
+ 83 19 83 20 82 6 -1
+ 67 3 67 7 82 7 -1
+ 67 6 67 7 82 7 -1
+ 80 2 67 7 82 7 -1
+ 80 3 67 7 82 7 -1
+ 80 4 67 7 82 7 -1
+ 80 5 67 7 82 7 -1
+ 80 9 67 7 82 7 -1
+ 80 9 80 6 82 7 -1
+ 80 5 80 6 82 7 -1
+ 80 4 80 6 82 7 -1
+ 80 3 80 6 82 7 -1
+ 80 2 80 6 82 7 -1
+ 67 6 80 6 82 7 -1
+ 67 3 80 6 82 7 -1
+ 67 7 83 21 82 8 -1
+ 67 7 80 7 82 8 -1
+ 67 7 80 1 82 8 -1
+ 67 7 80 3 82 8 -1
+ 67 7 80 4 82 8 -1
+ 67 7 80 9 82 8 -1
+ 67 7 80 6 82 8 -1
+ 67 7 67 4 82 8 -1
+ 67 7 80 8 82 8 -1
+ 83 22 83 25 82 9 -1
+ 83 23 83 26 82 9 -1
+ 83 24 83 27 82 9 -1
+ 83 28 83 29 82 10 -1
+ 83 30 83 32 82 11 -1
+ 83 29 83 -1 82 11 -1
+ 83 31 83 33 82 11 -1
+ 83 32 83 34 82 12 -1
+ 83 34 67 10 82 13 -1
+ 67 9 67 10 82 13 -1
+ 67 10 67 -1 82 14 -1
+ 80 1 67 -1 82 14 -1
+ 80 2 67 -1 82 14 -1
+ 80 3 67 -1 82 14 -1
+ 80 4 67 -1 82 14 -1
+ 80 5 67 -1 82 14 -1
+ 67 -1 80 -1 82 15 -1
+ 67 -1 67 3 82 15 -1
+ 67 -1 80 3 82 15 -1
+ 67 -1 80 4 82 15 -1
+ 67 -1 67 4 82 15 -1
+ 67 -1 80 8 82 15 -1
+ 67 -1 83 35 82 15 -1
+ 83 35 83 34 82 16 -1
+ 67 3 67 -1 82 17 -1
+ 67 -1 67 -1 82 17 -1
+ 80 2 67 -1 82 17 -1
+ 80 3 67 -1 82 17 -1
+ 80 4 67 -1 82 17 -1
+ 80 9 67 -1 82 17 -1
+ 80 5 67 -1 82 17 -1
+ 67 -1 83 36 82 18 -1
+ 67 -1 80 1 82 18 -1
+ 67 -1 80 7 82 18 -1
+ 67 -1 80 3 82 18 -1
+ 67 -1 80 6 82 18 -1
+ 67 -1 80 4 82 18 -1
+ 67 -1 80 9 82 18 -1
+ 67 -1 67 4 82 18 -1
+ 67 -1 80 8 82 18 -1
+ 83 -1 83 39 82 19 -1
+ 83 37 83 40 82 19 -1
+ 83 38 83 27 82 19 -1
+ 83 42 83 41 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 21 -1
+ 67 11 83 42 82 21 -1
+ 67 11 67 -1 82 21 -1
+ 67 11 67 -1 82 21 -1
+ 80 1 67 12 82 22 -1
+ 80 2 67 12 82 22 -1
+ 80 3 67 12 82 22 -1
+ 67 11 67 12 82 22 -1
+ 80 4 67 12 82 22 -1
+ 80 5 67 12 82 22 -1
+ 67 12 80 14 82 23 -1
+ 67 12 67 3 82 23 -1
+ 67 12 80 3 82 23 -1
+ 67 12 80 4 82 23 -1
+ 67 12 67 4 82 23 -1
+ 67 12 80 8 82 23 -1
+ 67 12 83 43 82 23 -1
+ 83 44 83 47 82 24 -1
+ 83 -1 83 48 82 24 -1
+ 83 34 83 49 82 24 -1
+ 83 45 83 50 82 24 -1
+ 83 46 83 51 82 24 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 34 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 52 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 1 67 -1 82 25 -1
+ 80 2 67 -1 82 25 -1
+ 80 3 67 -1 82 25 -1
+ 80 5 67 -1 82 25 -1
+ 80 4 67 -1 82 25 -1
+ 67 -1 67 -1 82 25 -1
+ 67 -1 80 1 82 26 -1
+ 67 -1 67 -1 82 26 -1
+ 67 -1 80 3 82 26 -1
+ 67 -1 80 6 82 26 -1
+ 67 -1 80 4 82 26 -1
+ 67 -1 80 -1 82 26 -1
+ 67 -1 67 4 82 26 -1
+ 67 -1 83 53 82 26 -1
+ 67 -1 80 -1 82 26 -1
+ 67 -1 80 8 82 26 -1
+ 67 -1 80 -1 82 26 -1
+ 83 27 83 54 82 27 -1
+ 83 56 83 55 82 27 -1
+ 83 52 83 53 82 27 -1
+ 83 27 83 57 82 28 -1
+ 83 62 83 58 82 28 -1
+ 83 63 83 59 82 28 -1
+ 83 64 83 60 82 28 -1
+ 83 56 83 61 82 28 -1
+ 83 -1 83 65 82 29 -1
+ 83 -1 83 66 82 29 -1
+ 83 -1 83 67 82 29 -1
+ 83 -1 83 68 82 29 -1
+ 83 -1 83 69 82 29 -1
+ 83 -1 83 70 82 29 -1
+ 83 32 83 71 82 29 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 72 83 -1 82 30 -1
+ 83 43 83 74 82 30 -1
+ 83 73 83 75 82 30 -1
+ 83 4 83 6 82 -1 -1
+ 83 27 83 36 82 31 -1
+ 83 2 83 76 82 31 -1
+ 83 -1 83 77 82 32 -1
+ 83 2 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 83 83 77 82 33 -1
+ 83 84 83 78 82 33 -1
+ 83 85 83 79 82 33 -1
+ 83 18 83 80 82 33 -1
+ 83 77 83 81 82 33 -1
+ 83 86 83 82 82 33 -1
+ 83 18 83 87 82 34 -1
+ 83 86 83 2 82 34 -1
+ 83 -1 83 86 82 -1 -1
+ 83 86 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 19 83 21 82 -1 -1
+ 83 27 83 -1 82 -1 -1
+ 83 19 83 94 82 35 -1
+ 83 88 83 95 82 35 -1
+ 83 89 83 96 82 35 -1
+ 83 90 83 18 82 35 -1
+ 83 91 83 97 82 35 -1
+ 83 92 83 98 82 35 -1
+ 83 93 83 99 82 35 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 35 83 34 82 -1 -1
+ 83 -1 83 100 82 36 -1
+ 83 104 83 34 82 36 -1
+ 83 105 83 101 82 36 -1
+ 83 106 83 102 82 36 -1
+ 83 -1 83 103 82 36 -1
+ 83 -1 83 23 82 37 -1
+ 67 16 67 17 82 38 -1
+ 83 43 67 17 82 38 -1
+ 67 16 83 107 82 39 -1
+ 67 16 67 16 82 39 -1
+ 83 1 67 16 82 39 -1
+ 67 18 67 19 82 40 -1
+ 83 43 67 19 82 40 -1
+ 83 27 67 18 82 41 -1
+ 67 18 83 108 82 41 -1
+ 67 18 83 109 82 41 -1
+ 67 20 67 21 82 42 -1
+ 83 43 67 21 82 42 -1
+ 67 20 67 20 82 43 -1
+ 67 20 83 110 82 43 -1
+ 83 1 83 111 82 43 -1
+ 83 -1 80 20 82 44 -1
+ 83 -1 80 21 82 44 -1
+ 80 -1 83 112 82 44 -1
+ 80 -1 80 22 82 44 -1
+ 80 -1 67 22 82 44 -1
+ 80 -1 80 23 82 44 -1
+ 80 -1 67 23 82 44 -1
+ 80 -1 67 23 82 44 -1
+ 80 -1 80 23 82 44 -1
+ 67 24 67 22 82 44 -1
+ 67 24 80 22 82 44 -1
+ 67 24 83 -1 82 44 -1
+ 67 24 80 21 82 44 -1
+ 67 24 80 20 82 44 -1
+ 67 24 67 23 82 44 -1
+ 67 24 80 23 82 44 -1
+ 80 -1 67 22 82 44 -1
+ 80 -1 80 22 82 44 -1
+ 80 -1 83 -1 82 44 -1
+ 80 -1 80 21 82 44 -1
+ 80 -1 80 20 82 44 -1
+ 80 -1 67 23 82 44 -1
+ 80 -1 80 23 82 44 -1
+ 67 -1 67 22 82 44 -1
+ 67 -1 80 22 82 44 -1
+ 67 -1 83 -1 82 44 -1
+ 67 -1 80 21 82 44 -1
+ 67 -1 80 20 82 44 -1
+ 67 -1 67 23 82 44 -1
+ 67 -1 80 23 82 44 -1
+ 80 -1 67 22 82 44 -1
+ 80 -1 80 22 82 44 -1
+ 80 -1 83 -1 82 44 -1
+ 80 -1 80 21 82 44 -1
+ 80 -1 80 20 82 44 -1
+ 80 -1 67 23 82 44 -1
+ 80 -1 80 23 82 44 -1
+ 80 -1 67 22 82 44 -1
+ 80 -1 80 22 82 44 -1
+ 80 -1 83 -1 82 44 -1
+ 80 -1 80 21 82 44 -1
+ 80 -1 80 20 82 44 -1
+ 80 -1 67 23 82 44 -1
+ 80 -1 80 23 82 44 -1
+ 83 -1 80 24 82 45 -1
+ 80 -1 83 -1 82 45 -1
+ 80 -1 67 -1 82 45 -1
+ 80 -1 67 -1 82 45 -1
+ 80 -1 80 -1 82 45 -1
+ 80 -1 80 -1 82 45 -1
+ 83 -1 67 -1 82 45 -1
+ 80 -1 67 -1 82 45 -1
+ 80 -1 83 -1 82 45 -1
+ 80 -1 80 24 82 45 -1
+ 80 -1 80 -1 82 45 -1
+ 80 -1 67 -1 82 45 -1
+ 67 -1 67 -1 82 45 -1
+ 67 -1 83 -1 82 45 -1
+ 67 -1 80 24 82 45 -1
+ 67 -1 80 -1 82 45 -1
+ 67 -1 67 -1 82 45 -1
+ 67 26 67 -1 82 45 -1
+ 67 26 83 -1 82 45 -1
+ 67 26 80 24 82 45 -1
+ 67 26 80 -1 82 45 -1
+ 67 26 67 -1 82 45 -1
+ 80 -1 83 -1 82 46 -1
+ 80 -1 80 -1 82 46 -1
+ 80 -1 83 -1 82 46 -1
+ 80 -1 80 -1 82 46 -1
+ 80 -1 67 26 82 46 -1
+ 83 -1 67 26 82 46 -1
+ 80 -1 80 -1 82 46 -1
+ 80 -1 83 -1 82 46 -1
+ 80 -1 80 -1 82 46 -1
+ 80 -1 67 26 82 46 -1
+ 80 -1 80 -1 82 46 -1
+ 67 26 83 -1 82 46 -1
+ 67 26 80 -1 82 46 -1
+ 67 26 67 26 82 46 -1
+ 67 26 80 -1 82 46 -1
+ 67 26 83 -1 82 46 -1
+ 83 -1 80 -1 82 47 -1
+ 80 24 67 -1 82 47 -1
+ 80 24 83 -1 82 47 -1
+ 80 24 80 -1 82 47 -1
+ 80 24 80 -1 82 47 -1
+ 80 24 80 -1 82 47 -1
+ 83 -1 80 -1 82 47 -1
+ 67 -1 83 -1 82 47 -1
+ 67 -1 67 -1 82 47 -1
+ 67 -1 80 -1 82 47 -1
+ 67 -1 80 -1 82 47 -1
+ 67 -1 80 -1 82 47 -1
+ 80 -1 83 -1 82 47 -1
+ 80 -1 67 -1 82 47 -1
+ 80 -1 80 -1 82 47 -1
+ 80 -1 80 -1 82 47 -1
+ 80 -1 80 -1 82 47 -1
+ 80 -1 83 -1 82 47 -1
+ 80 -1 67 -1 82 47 -1
+ 80 -1 80 -1 82 47 -1
+ 80 -1 80 -1 82 47 -1
+ 80 -1 80 -1 82 47 -1
+ 67 24 67 27 82 48 -1
+ 83 35 67 27 82 48 -1
+ 83 1 83 113 82 49 -1
+ 67 24 67 27 82 49 -1
+ 67 24 67 27 82 49 -1
+ 83 35 83 114 82 49 -1
+ 83 27 83 115 82 50 -1
+ 67 24 67 27 82 50 -1
+ 67 24 67 27 82 50 -1
+ 83 35 83 116 82 50 -1
+ 83 35 67 28 82 51 -1
+ 67 26 67 28 82 51 -1
+ 83 27 67 28 82 52 -1
+ 83 35 83 117 82 52 -1
+ 67 26 83 118 82 52 -1
+ 67 26 67 28 82 52 -1
+ 83 27 83 119 82 53 -1
+ 67 26 67 26 82 53 -1
+ 67 26 67 26 82 53 -1
+ 67 29 83 120 82 54 -1
+ 67 29 67 30 82 54 -1
+ 83 121 67 31 82 55 -1
+ 67 30 67 31 82 55 -1
+ 83 35 67 31 82 55 -1
+ 83 128 83 122 82 56 -1
+ 83 129 83 123 82 56 -1
+ 83 130 67 31 82 56 -1
+ 83 131 83 35 82 56 -1
+ 67 30 67 31 82 56 -1
+ 67 30 83 124 82 56 -1
+ 67 30 83 125 82 56 -1
+ 67 30 67 31 82 56 -1
+ 83 1 83 126 82 56 -1
+ 83 35 83 127 82 56 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 1 67 -1 82 -1 -1
+ 67 31 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 57 -1
+ 80 27 80 26 82 57 -1
+ 80 27 80 26 82 57 -1
+ 83 -1 83 -1 82 58 -1
+ 80 29 80 28 82 58 -1
+ 80 29 80 28 82 58 -1
+ 83 132 80 30 82 59 -1
+ 80 31 83 -1 82 59 -1
+ 80 31 83 -1 82 59 -1
+ 83 132 83 133 82 60 -1
+ 80 34 80 33 82 60 -1
+ 80 34 80 33 82 60 -1
+ 83 -1 83 -1 82 61 -1
+ 83 1 83 -1 82 61 -1
+ 83 -1 83 1 82 61 -1
+ 83 -1 83 -1 82 61 -1
+ 83 132 83 134 82 62 -1
+ 80 34 80 33 82 62 -1
+ 80 34 80 33 82 62 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 132 80 33 82 -1 -1
+ 80 34 83 -1 82 -1 -1
+ 80 34 83 -1 82 -1 -1
+ 83 -1 80 37 82 63 -1
+ 80 38 83 -1 82 63 -1
+ 80 38 83 -1 82 63 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 32 82 -1 -1
+ 67 33 67 32 82 64 -1
+ 67 33 83 135 82 64 -1
+ 83 132 83 -1 82 64 -1
+ 83 132 83 136 82 65 -1
+ 80 34 80 33 82 65 -1
+ 80 34 80 33 82 65 -1
+ 67 34 67 35 82 66 -1
+ 83 35 67 35 82 66 -1
+ 83 27 67 35 82 67 -1
+ 67 34 83 -1 82 67 -1
+ 67 34 83 137 82 67 -1
+ 83 35 67 35 82 67 -1
+ 67 36 67 37 82 68 -1
+ 83 35 67 37 82 68 -1
+ 83 1 83 -1 82 69 -1
+ 67 36 67 37 82 69 -1
+ 67 36 67 37 82 69 -1
+ 83 35 83 -1 82 69 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 35 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 138 83 56 82 70 -1
+ 67 39 67 40 82 71 -1
+ 83 53 67 40 82 71 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 56 82 72 -1
+ 67 0 82 1 82 0 -1
+ 80 0 82 1 82 2 -1
+ 67 1 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 5 82 1 82 5 -1
+ 80 -1 82 1 82 -1 -1
+ 80 0 82 1 82 6 -1
+ 67 6 82 1 82 7 -1
+ 67 7 82 1 82 8 -1
+ 80 10 82 1 82 9 -1
+ 67 8 82 1 82 11 -1
+ 67 9 82 1 82 13 -1
+ 67 10 82 1 82 14 -1
+ 67 -1 82 1 82 15 -1
+ 80 -1 82 1 82 16 -1
+ 67 -1 82 1 82 17 -1
+ 67 -1 82 1 82 18 -1
+ 80 12 82 1 82 19 -1
+ 80 -1 82 1 82 20 -1
+ 80 13 82 1 82 21 -1
+ 67 11 82 1 82 22 -1
+ 67 12 82 1 82 23 -1
+ 67 13 82 1 82 24 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 25 -1
+ 67 -1 82 1 82 26 -1
+ 80 15 82 1 82 27 -1
+ 80 16 82 1 82 28 -1
+ 67 14 82 1 82 29 -1
+ 80 -1 82 1 82 -1 -1
+ 80 17 82 1 82 30 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 31 -1
+ 80 -1 82 1 82 32 -1
+ 67 5 82 1 82 33 -1
+ 67 5 82 1 82 34 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 5 82 1 82 35 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 15 82 1 82 36 -1
+ 80 19 82 1 82 37 -1
+ 67 16 82 1 82 39 -1
+ 67 18 82 1 82 41 -1
+ 67 20 82 1 82 43 -1
+ 67 25 82 1 82 44 -1
+ 67 -1 82 1 82 45 -1
+ 80 25 82 1 82 46 -1
+ 67 -1 82 1 82 47 -1
+ 67 24 82 1 82 49 -1
+ 67 24 82 1 82 50 -1
+ 67 26 82 1 82 52 -1
+ 67 26 82 1 82 53 -1
+ 67 26 82 1 82 54 -1
+ 67 31 82 1 82 56 -1
+ 67 31 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 57 -1
+ 80 27 82 1 82 58 -1
+ 80 32 82 1 82 59 -1
+ 80 31 82 1 82 60 -1
+ 80 35 82 1 82 61 -1
+ 80 36 82 1 82 62 -1
+ 67 -1 82 1 82 -1 -1
+ 67 31 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 37 82 1 82 63 -1
+ 67 32 82 1 82 64 -1
+ 67 32 82 1 82 65 -1
+ 67 34 82 1 82 67 -1
+ 67 36 82 1 82 69 -1
+ 67 -1 82 1 82 -1 -1
+ 67 38 82 1 82 70 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 41 82 1 82 72 -1
+ 80 11 82 1 82 14 -1
+_complexName.size()	42
+	calcium channel multimer of N type VGCC/calcium channel multimer of P/Q type VGCC/calcium channel multimer of R type VGCC			
+	Noradrenalin loaded synaptic vesicle	clathrin-coated endocytic vesicle	Reactome DB_ID: 374911	
+	Docked Noradrenalin loaded synaptic vesicle	plasma membrane	Reactome DB_ID: 374939	
+	Rab3-RIM complex	plasma membrane	Reactome DB_ID: 210374	
+	SNARE complex	plasma membrane	Reactome DB_ID: 210441	
+	MAOA-FAD complex	mitochondrial outer membrane	Reactome DB_ID: 141332	
+	Serotonin loaded synaptic vesicle	clathrin-sculpted monoamine transport vesicle membrane	Reactome DB_ID: 380903	
+	Docked serotonin loaded synaptic vesicle	plasma membrane	Reactome DB_ID: 380900	
+	GLS dimer/GLS2 dimer			
+	Empty Glutamate Synaptic Vesicle	cytosol	Reactome DB_ID: 264795	
+	Glutamate loaded synaptic vesicle	cytosol	Reactome DB_ID: 210380	
+	Acetylcholine Loaded Synaptic Vesicle	cytosol	Reactome DB_ID: 264786	
+	Docked acetylcholine loaded Synaptic Vesicle	plasma membrane	Reactome DB_ID: 372534	
+	Homodimer of GAD1			
+	Homodimer of 4 aminobutyrate aminotransferase	mitochondrial matrix	Reactome DB_ID: 916847	
+	GLUL decamer	cytosol	Reactome DB_ID: 70604	
+	Acetylcholine Receptors alpha4(3)-beta2(2)/Acetylcholine Receptor (homomeric)/Acetylcholine receptor alpha3-beta2-aplha5/Acetylcholine receptor alpha3-beta4-apha5/Acetylcholine receptor alpha6 beta3 beta4/Acetylcholine receptors alpha2(3)  beta3(2)/acetylcholine receptor alpha6 aplha4 beta3			
+	0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex	plasma membrane	Reactome DB_ID: 629600	
+	Acetylcholine Receptor alpha4(2)-beta2(3) subunits/Acetylcholine receptor alpha3(2)-beta4(3)/Acetylcholine receptor alpha3-beta4			
+	O-Acetylcholine bound to Acetylcholine receptor	plasma membrane	Reactome DB_ID: 629590	
+	Acetylcholine receptor containing alpha7 subunit/Acetylcholine Receptor (homomeric)			
+	O-acteylcholine bound to calcium permeable postsynaptic nicotinic acetylcholine receptors	plasma membrane	Reactome DB_ID: 629592	
+	TARP-PSD95-Mdm2	endocytic vesicle membrane	Reactome DB_ID: 416851	
+	AMPA receptors containing GluR1 (heteromers)/AMPA receptors containing GluR1 (homomers)			
+	AMPA receptors containing GluR1 (heteromers)/GluR1 receptors			
+	CaMKII	endocytic vesicle membrane	Reactome DB_ID: 417004	
+	AMPA receptors containing GluR2 (heteromers)/AMPA receptors containing GluR1 and GluR2/AMPA receptors containing GluR2 (homomers)			
+	Ca permeable AMPA receptor ligand complex	plasma membrane	Reactome DB_ID: 420976	
+	Ca impermeable AMPA receptor ligand complex	plasma membrane	Reactome DB_ID: 420974	
+	NMDA receptor-Mg complex	plasma membrane	Reactome DB_ID: 438039	
+	NMDA receptor complex	plasma membrane	Reactome DB_ID: 419566	
+	NMDA receptor ligand complex	plasma membrane	Reactome DB_ID: 432783	
+	Calmodulin:CaMK IV	nucleoplasm	Reactome DB_ID: 112281	
+	phospho-CaMK IV:Calmodulin	nucleoplasm	Reactome DB_ID: 111904	
+	Edited Kainate receptors	plasma membrane	Reactome DB_ID: 451279	
+	Edited Kainate Receptor-glutamate complex	plasma membrane	Reactome DB_ID: 451304	
+	GRIK 2 homomer/GRIK 3 homomer/GRIK1 homomer/GRIK1 and 2 heterotetramer/GRIK4 heteromer with GRIK1/2/3/GRIK5 heteromer with GRIk1/2/3			
+	Kainate receptor-glutamate complex	plasma membrane	Reactome DB_ID: 451281	
+	2GABRA:2GABRB:GABRG:GABA	plasma membrane	Reactome DB_ID: 975268	
+	GABAB receptor	plasma membrane	Reactome DB_ID: 420748	
+	GABAB receptor:GABA	plasma membrane	Reactome DB_ID: 420698	
+	GABRR pentamer:GABA	plasma membrane	Reactome DB_ID: 975448	
+_physicalEntityName.size()	0
+_proteinName.size()	39
+	SLC18A2	clathrin-sculpted monoamine transport vesicle membrane	Reactome DB_ID: 372544	UniProt:Q05940	SLC18A2
+	RIMS1	plasma membrane	Reactome DB_ID: 210407	UniProt:Q86UR5	RIMS1
+	STX1A	plasma membrane	Reactome DB_ID: 449128	UniProt:Q16623	STX1A
+	MUNC18	cytosol	Reactome DB_ID: 210514	UniProt:P61764-1	STXBP1
+	CPLX1	cytosol	Reactome DB_ID: 210385	UniProt:O14810	CPLX1
+	SNAP25	plasma membrane	Reactome DB_ID: 2029017	UniProt:P60880	SNAP25
+	RAB3A	plasma membrane	Reactome DB_ID: 210461	UniProt:P20336	RAB3A
+	SLC18A2	plasma membrane	Reactome DB_ID: 374907	UniProt:Q05940	SLC18A2
+	SYT1	plasma membrane	Reactome DB_ID: 168786	UniProt:P21579	SYT1
+	SYN3	clathrin-sculpted monoamine transport vesicle membrane			
+	ATA2	plasma membrane	Reactome DB_ID: 352093	UniProt:Q96QD8	SLC38A2
+	UNC13B	cytosol	Reactome DB_ID: 210475	UniProt:O14795	UNC13B
+	CHT	plasma membrane	Reactome DB_ID: 429572	UniProt:Q9GZV3	SLC5A7
+	SLC18A3	clathrin-sculpted acetylcholine transport vesicle membrane	Reactome DB_ID: 264619	UniProt:Q16572	SLC18A3
+	SLC18A3	plasma membrane	Reactome DB_ID: 372513	UniProt:Q16572	SLC18A3
+	SLC6A13	plasma membrane			
+	BGT-1	plasma membrane	Reactome DB_ID: 351969	UniProt:P48065	SLC6A12
+	BCHE	plasma membrane			
+	SLC6A3	plasma membrane	Reactome DB_ID: 379482	UniProt:Q01959	SLC6A3
+	SLC38A1	plasma membrane	Reactome DB_ID: 212663	UniProt:Q9H2H9	SLC38A1
+	4.1N/G	cytosol	Reactome DB_ID: 392241	UniProt:Q9H4G0	EPB41L1
+	MYO6	cytosol	Reactome DB_ID: 3006692	UniProt:Q9UM54	MYO6
+	DLG1	cytosol	Reactome DB_ID: 416332	UniProt:Q12959	DLG1
+	AKAP5	cytosol	Reactome DB_ID: 416331	UniProt:P24588	AKAP5
+	GRIP2	cytosol			
+	NSF	cytosol	Reactome DB_ID: 264471	UniProt:P46459	NSF
+	ERK2	cytosol	Reactome DB_ID: 59282	UniProt:P28482	MAPK1
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+	RPS6KA6	cytosol			
+	RPS6KA3	cytosol			
+	RPS6KA1	nucleoplasm			
+	RPS6KA3	nucleoplasm			
+	PDK1	nucleoplasm	Reactome DB_ID: 445421	UniProt:O15530	PDPK1
+	CREB	nucleoplasm	Reactome DB_ID: 52777	UniProt:P16220	CREB1
+	CREB	nucleoplasm	Reactome DB_ID: 111910	UniProt:P16220	CREB1
+	ADCY1	plasma membrane			
+	PRKACG	nucleoplasm			
+	CAMKK1	cytosol	Reactome DB_ID: 442775	UniProt:Q8N5S9	CAMKK1
+	p-CAMKK1	cytosol	Reactome DB_ID: 444232	UniProt:Q8N5S9	CAMKK1
+_reactionName.size()	73
+	T	Ca2+ influx through voltage gated Ca2+ channels
+	T	Re-acidification of clathrin sculpted monoamine tranport vesicle lumen
+	T	Loading of dopamine into synaptic veiscles
+	D	Noradrenalin synaptic vesicle docking and priming
+	B	Release of noradrenaline  at the synapse
+	T	Metabolism of Noradrenaline
+	T	loading of Serotonin in synaptic vesicles
+	T	Serotonin loaded synaptic vesicle docking and priming
+	B	Release of docked serotonin loaded synaptic vesicle
+	T	L-Glutamine transport into neurons
+	T	Transport of L-Glutamine (cytosol) to mitochondrial matrix
+	T	glutamine + H2O => glutamate + NH4+ [GLS]
+	T	Tranport of L-Glutamate (mitochondrial matrix) to cytosol
+	D	L-Glutamate loading of synaptic vesicle
+	D	Glutamate synaptic vesicle docking and priming
+	B	release of L-Glutamate at the synapse
+	T	L-Glutamate uptake by neurons
+	D	Dopamine synaptic vesicle docking and priming
+	B	Release of docked dopamine loaded synaptic vesicle
+	T	Transport of Choline
+	T	Synthesis of o-acetylcholine
+	T	Loading of acetylcholine in synaptic vesicle
+	D	Acetylcholine synaptic vesicle docking and priming
+	B	Release of acetylcholine at the synapse
+	T	Synthesis of GABA by GAD1
+	D	GABA loaded synaptic vesicle Docking and Priming
+	B	Release of GABA at the synapse
+	T	GAT1-3 mediate Na+/Cl- dependent GABA transport
+	T	SLC6A12 (BGT-1)-mediated uptake of GABA and betaine
+	T	Conversion of GABA to Succinate Semialdehyde
+	T	Acetylcholine clearance from synaptic cleft
+	T	Reuptake of dopamine from the synaptic cleft into neurons
+	T	methylation of Dopamine to form 3-Methoxytyramine
+	T	Oxidation of 3-Methoxytyramine to homovanillic acid
+	T	oxidation of dopamine to 3,4dihydroxyphenylacetic acid (DOPAC)
+	T	Oxidative deamination of 5-Hydroxytryptamine by MAOA
+	T	glutamate + NH4+ + ATP => glutamine + ADP + orthophosphate [GLUL]
+	T	Glutamine transport from astrocytes
+	D	Binding of acetylcholine to highly calcium permeable acetylcholine receptors
+	T	Activation of highly calcium permeable nicotinic acetylcholine receptors
+	D	Binding of acetylcholine to  highly sodium permeable acetylcholine receptors
+	T	Activation of highly sodium permeable nicotinic acetylcholine receptors
+	D	Binding of acetylcholine to  highly calcium permeable postsynaptic nicotinic acetylcholine receptors
+	T	Activation of highly calcium permeable postsynaptic nicotinic acetylcholine receptors
+	T	Trafficking of GluR1-containing  AMPA receptors
+	T	Trafficking of GluR2-containing AMPA receptors to extrasynaptic sites
+	T	Trafficking of GluR2-containing AMPA receptors to synapse
+	T	Endocytosis of Ca impermeable AMPA receptors
+	D	Ca permeable AMPA receptor ligand binding
+	T	Activation of Ca permeable AMPA receptors
+	T	Activation of Ca permeable AMPA receptors
+	D	Ca impermeable AMPA receptor ligand binding
+	T	Activation of Ca impermeable AMPA receptors
+	T	Membrane depolarization upon activation of Ca impermeable AMPA receptors
+	B	Unblocking of NMDA receptor
+	D	Glutamate binding  to NMDA receptor
+	T	Activation of  NMDA Receptor
+	T	Activation of MAPK
+	T	Phosphorylation by MAPK/ERK
+	T	Phophorylation by PDK1
+	T	Phosphorylation of CREB by ribosomal protein S6 kinase
+	T	Activation of Adenylate Cyclase
+	T	Phosphorylation of CREB by PKA
+	T	Activation of CaMKK
+	T	CaMK IV autophosphorylation
+	T	Phosphorylation of CREB by CaMKIV
+	D	Edited Kainate Receptor binds glutamate
+	T	Activation of Edited Kainate receptors
+	D	kainate receptor binds glutamate
+	T	Activation of Ca-permeable Kainate receptors
+	T	2GABRA:2GABRB:GABRG:GABA transports extracellular Cl- to cytosol
+	D	GABAB heterodimeric receptor binds GABA
+	T	GABRR pentamer:GABA transports extracellular Cl- to cytosol
+_smallMoleculeName.size()	139
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	L-Gln	mitochondrial matrix	Reactome DB_ID: 113522	L-Glutamine [ChEBI:18050]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	NH4+	mitochondrial matrix	Reactome DB_ID: 113561	NH4+ [ChEBI:28938]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	NH4+	mitochondrial matrix	Reactome DB_ID: 113561	NH4+ [ChEBI:28938]
+	L-Glu	cytosol	Reactome DB_ID: 29404	L-Glutamate [ChEBI:16015]
+	Glu	extracellular region	Reactome DB_ID: 210382	L-Glutamate [ChEBI:16015]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	clathrin-sculpted monoamine transport vesicle lumen	Reactome DB_ID: 374900	H+ [ChEBI:15378]
+	H+	clathrin-sculpted monoamine transport vesicle lumen	Reactome DB_ID: 374900	H+ [ChEBI:15378]
+	DA	extracellular region	Reactome DB_ID: 380873	4-(2-Aminoethyl)-1,2-benzenediol [ChEBI:18243]
+	Cho	extracellular region	Reactome DB_ID: 264638	ChEBI:15354 Choline
+	Cho	cytosol	Reactome DB_ID: 264618	ChEBI:15354 Choline
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Cho	cytosol	Reactome DB_ID: 264618	ChEBI:15354 Choline
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Cho	cytosol	Reactome DB_ID: 264618	ChEBI:15354 Choline
+	AcCho	cytosol	Reactome DB_ID: 264643	ChEBI:15355 O-acetylcholine
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	CoA-SH	cytosol	Reactome DB_ID: 76194	CoA [ChEBI:15346]
+	Cho	cytosol	Reactome DB_ID: 264618	ChEBI:15354 Choline
+	CoA-SH	cytosol	Reactome DB_ID: 76194	CoA [ChEBI:15346]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	clathrin-sculpted acetylcholine transport vesicle lumen	Reactome DB_ID: 372511	H+ [ChEBI:15378]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	clathrin-sculpted acetylcholine transport vesicle lumen	Reactome DB_ID: 372511	H+ [ChEBI:15378]
+	AcCho	extracellular region	Reactome DB_ID: 372533	ChEBI:15355 O-acetylcholine
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	CO2	cytosol	Reactome DB_ID: 113528	CO2 [ChEBI:16526]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	CO2	cytosol	Reactome DB_ID: 113528	CO2 [ChEBI:16526]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	GABA	clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen	Reactome DB_ID: 428571	4-Aminobutanoate [ChEBI:16865]
+	GABA	clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen	Reactome DB_ID: 428571	4-Aminobutanoate [ChEBI:16865]
+	DA	cytosol	Reactome DB_ID: 159362	4-(2-Aminoethyl)-1,2-benzenediol [ChEBI:18243]
+	DA	clathrin-sculpted monoamine transport vesicle lumen	Reactome DB_ID: 351601	4-(2-Aminoethyl)-1,2-benzenediol [ChEBI:18243]
+	GABA	extracellular region	Reactome DB_ID: 352003	4-Aminobutanoate [ChEBI:16865]
+	Cl-	extracellular region	Reactome DB_ID: 188972	Chloride [ChEBI:17996]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+				
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Cl-	extracellular region	Reactome DB_ID: 188972	Chloride [ChEBI:17996]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	GABA	mitochondrial matrix	Reactome DB_ID: 916850	4-Aminobutanoate [ChEBI:16865]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	GABA	mitochondrial matrix	Reactome DB_ID: 916850	4-Aminobutanoate [ChEBI:16865]
+	SUCCSA	mitochondrial matrix	Reactome DB_ID: 880046	ChEBI:16265 Succinate semialdehyde
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	PXLP	cytosol	Reactome DB_ID: 29390	Pyridoxal phosphate [ChEBI:18405]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	SUCCSA	mitochondrial matrix	Reactome DB_ID: 880046	ChEBI:16265 Succinate semialdehyde
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O2	cytosol	Reactome DB_ID: 29408	H2O2 [ChEBI:16240]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	NH3	cytosol	Reactome DB_ID: 29382	NH3 [ChEBI:16134]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	5HT-N-CH3	cytosol	Reactome DB_ID: 159363	Bufotenine [ChEBI:3210]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	HCYS	cytosol	Reactome DB_ID: 174369	Homocysteine [ChEBI:17230]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	H2O2	cytosol	Reactome DB_ID: 29408	H2O2 [ChEBI:16240]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	H2O2	cytosol	Reactome DB_ID: 29408	H2O2 [ChEBI:16240]
+	HIALD	mitochondrial matrix	Reactome DB_ID: 380598	5-Hydroxyindoleacetaldehyde [ChEBI:2070]
+	HIAA	mitochondrial matrix	Reactome DB_ID: 380593	(5-hydroxyindol-3-yl)acetic acid [ChEBI:27823]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	HIAA	mitochondrial matrix	Reactome DB_ID: 380593	(5-hydroxyindol-3-yl)acetic acid [ChEBI:27823]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	HIALD	mitochondrial matrix	Reactome DB_ID: 380598	5-Hydroxyindoleacetaldehyde [ChEBI:2070]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	HIALD	mitochondrial matrix	Reactome DB_ID: 380598	5-Hydroxyindoleacetaldehyde [ChEBI:2070]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	NH4+	cytosol	Reactome DB_ID: 31633	NH4+ [ChEBI:28938]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Mg2+	extracellular region	Reactome DB_ID: 114632	Magnesium [ChEBI:18420]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Gly	extracellular region	Reactome DB_ID: 266029	Glycine [ChEBI:15428]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	44
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	clathrin-sculpted monoamine transport vesicle membrane
+	clathrin-sculpted glutamate transport vesicle membrane
+	clathrin-sculpted acetylcholine transport vesicle membrane
+	clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane
+	whole

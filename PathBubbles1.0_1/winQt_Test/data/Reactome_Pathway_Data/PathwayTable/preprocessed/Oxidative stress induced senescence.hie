@@ -1,0 +1,236 @@
+edge.size() 105
+ 67 0 80 1 82 0 -1
+ 83 0 80 1 82 0 -1
+ 83 1 80 0 82 0 -1
+ 67 0 80 0 82 0 -1
+ 80 4 80 3 82 1 -1
+ 80 4 83 2 82 1 -1
+ 83 4 83 3 82 1 -1
+ 80 4 80 -1 82 2 -1
+ 67 -1 67 1 82 -1 -1
+ 67 -1 83 5 82 -1 -1
+ 83 -1 83 6 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 4 80 5 82 3 -1
+ 80 6 83 7 82 3 -1
+ 80 6 83 8 82 3 -1
+ 83 4 80 7 82 4 -1
+ 80 8 83 -1 82 4 -1
+ 80 8 83 -1 82 4 -1
+ 80 8 80 -1 82 5 -1
+ 83 -1 83 9 82 -1 -1
+ 80 -1 80 10 82 -1 -1
+ 80 -1 80 10 82 -1 -1
+ 83 -1 80 11 82 -1 -1
+ 80 -1 83 10 82 -1 -1
+ 80 -1 83 11 82 -1 -1
+ 80 -1 67 2 82 -1 -1
+ 80 -1 67 2 82 -1 -1
+ 67 3 67 4 82 6 -1
+ 68 0 67 4 82 6 -1
+ 68 1 80 12 82 7 -1
+ 67 3 67 5 82 8 -1
+ 68 2 67 5 82 8 -1
+ 68 3 80 13 82 9 -1
+ 67 3 67 6 82 10 -1
+ 68 4 67 6 82 10 -1
+ 68 5 80 14 82 11 -1
+ 80 12 67 7 82 12 -1
+ 80 15 67 7 82 12 -1
+ 80 16 67 7 82 12 -1
+ 80 13 67 7 82 12 -1
+ 80 14 67 7 82 12 -1
+ 67 8 83 14 82 13 -1
+ 83 12 83 15 82 13 -1
+ 83 13 67 9 82 13 -1
+ 67 8 67 9 82 13 -1
+ 67 9 67 11 82 14 -1
+ 67 10 67 11 82 14 -1
+ 67 9 83 16 82 -1 -1
+ 67 9 67 11 82 -1 -1
+ 83 -1 67 11 82 -1 -1
+ 67 -1 83 17 82 -1 -1
+ 67 -1 67 11 82 -1 -1
+ 68 6 67 12 82 15 -1
+ 67 2 67 12 82 15 -1
+ 68 7 67 13 82 16 -1
+ 67 9 83 20 82 17 -1
+ 83 18 83 21 82 17 -1
+ 83 19 67 8 82 17 -1
+ 67 9 67 8 82 17 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 14 82 -1 -1
+ 83 -1 67 14 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 82 1 82 1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 0 82 1 82 3 -1
+ 80 9 82 1 82 4 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 7 82 1 82 13 -1
+ 67 -1 82 1 82 -1 -1
+ 67 13 82 1 82 17 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 2 82 1 82 0 -1
+ 67 4 82 1 82 7 -1
+ 67 5 82 1 82 9 -1
+ 67 6 82 1 82 11 -1
+ 67 -1 82 1 82 -1 -1
+ 67 12 82 1 82 16 -1
+ 67 11 82 0 82 18 -1
+ 67 13 82 1 82 18 -1
+ 67 -1 82 0 82 -1 -1
+ 67 -1 82 0 82 -1 -1
+_complexName.size()	15
+	MAP3K5:TXN	cytosol	Reactome DB_ID: 3225859	
+	p38 MAPK:MAPKAPK2/3	nucleoplasm	Reactome DB_ID: 450269	
+	p-2S-cJUN:p-2S,2T-cFOS	nucleoplasm	Reactome DB_ID: 450327	
+	DP-1:E2F1/2/3	nucleoplasm	Reactome DB_ID: 1227905	
+	EED Gene:E2F1/2/3:DP1/2	nucleoplasm	Reactome DB_ID: 3240767	
+	EZH2 Gene:E2F1/2/3:DP1/2	nucleoplasm	Reactome DB_ID: 3240771	
+	SUZ12 Gene:E2F1/2/3:DP1/2	nucleoplasm	Reactome DB_ID: 3240769	
+	PRC2-EZH2	nucleoplasm	Reactome DB_ID: 212285	
+	CDKN2A Gene:Nucleosome	nucleoplasm	Reactome DB_ID: 3222592	
+	CDKN2A Gene:H3K27Me3-Nucleosome	nucleoplasm	Reactome DB_ID: 3222570	
+	PRC1.4	nucleoplasm	Reactome DB_ID: 3229073	
+	CDKN2A Gene:H3K27Me3-Nucleosome:PRC1.4	nucleoplasm	Reactome DB_ID: 3229098	
+	p-2S-cJUN:p-2S,2T-cFOS:KDM6B Gene	nucleoplasm	Reactome DB_ID: 3222535	
+	KDM6B:Fe2+	nucleoplasm	Reactome DB_ID: 3222589	
+	p38 MAPK:MAPKAPK5	nucleoplasm	Reactome DB_ID: 3239002	
+_physicalEntityName.size()	0
+_proteinName.size()	17
+	ASK1	cytosol	Reactome DB_ID: 167709	UniProt:Q99683	MAP3K5
+	ADF	cytosol	Reactome DB_ID: 73668	UniProt:P10599	TXN
+	HGK	cytosol			
+	MKK6	cytosol			
+	p-S207,T211-MKK6	cytosol			
+	SEK1	cytosol	Reactome DB_ID: 168107	UniProt:P45985	MAP2K4
+	p-S257,T261-SEK1	cytosol	Reactome DB_ID: 168170	UniProt:P45985	MAP2K4
+	JNK3	cytosol			
+	p-T221,Y223-JNK3	cytosol			
+	p-S257,T261-SEK1	cytosol			
+	JUN	nucleoplasm	Reactome DB_ID: 450250	UniProt:P05412	JUN
+	FOS	nucleoplasm	Reactome DB_ID: 450216	UniProt:P01100	FOS
+	EED	nucleoplasm	Reactome DB_ID: 212278	UniProt:O75530	EED
+	EZH2	nucleoplasm	Reactome DB_ID: 212298	UniProt:Q15910	EZH2
+	SUZ12	nucleoplasm	Reactome DB_ID: 212217	UniProt:Q15022	SUZ12
+	RBBP4	nucleoplasm	Reactome DB_ID: 212223	UniProt:Q09028	RBBP4
+	RBBP7	nucleoplasm	Reactome DB_ID: 212227	UniProt:Q16576	RBBP7
+_reactionName.size()	19
+	T	ROS oxidize thioredoxin and activate MAP3K5
+	T	MAP3K5 phosphorylates MKK3 and MKK6
+	T	Phosphorylated MKK3/MKK6 migrates to nucleus
+	T	MAP3K5 (ASK1) phosphorylates MAP2K4 (SEK1)
+	T	Phosphorylation of human JNKs by activated MKK4/MKK7
+	T	Activated human JNKs migrate to nucleoplasm
+	D	E2F1/2/3:DP1/2 binds EED gene promoter
+	T	E2F1/2/3 stimulates EED transcription
+	D	E2F1/2/3:DP1/2 binds EZH2 gene promoter
+	T	E2F1/2/3 stimulates EZH2 transcription
+	D	E2F1/2/3:DP1/2 binds SUZ12 gene promoter
+	T	E2F1/2/3 stimulates SUZ12 transcription
+	D	Formation of PRC2-EZH2 complex
+	T	PRC2-EZH2 trimethylates nucleosomes associated with CDKN2A promoter
+	D	PRC1.4 complex binds H3K27Me3 nucleosomes on CDKN2A promoter
+	D	ERK1/2-activated AP1 complex binds KDM6B promoter
+	T	AP-1 complex stimulates KDM6B transcription
+	T	KDM6B demethylates H3K27me3 on p16-INK4A promoter
+	T	Demethylation of H3K27Me3 by KDM6B stimulates p16-INK4A transcription, while binding of PRC1.4 complex to H3K27Me3 represses p16-INK4A transcription
+_smallMoleculeName.size()	22
+	ROS	cytosol	Reactome DB_ID: 1250243	Reactive oxygen species [ChEBI:26523]
+	ROS	cytosol	Reactome DB_ID: 1250243	Reactive oxygen species [ChEBI:26523]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	AdoHcy	nucleoplasm	Reactome DB_ID: 77502	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	AdoMet	nucleoplasm	Reactome DB_ID: 77087	S-Adenosyl-L-methionine [ChEBI:15414]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	8
+	EED Gen	nucleoplasm	Reactome DB_ID: 3240759	ENSEMBL:ENSG00000074266 EED
+	EED Gen	nucleoplasm	Reactome DB_ID: 3240759	ENSEMBL:ENSG00000074266 EED
+	EZH2 Gen	nucleoplasm	Reactome DB_ID: 3240762	ENSEMBL:ENSG00000106462 EZH2
+	EZH2 Gen	nucleoplasm	Reactome DB_ID: 3240762	ENSEMBL:ENSG00000106462 EZH2
+	SUZ12 Gen	nucleoplasm	Reactome DB_ID: 3240760	ENSEMBL:ENSG00000178691 SUZ12
+	SUZ12 Gen	nucleoplasm	Reactome DB_ID: 3240760	ENSEMBL:ENSG00000178691 SUZ12
+	KDM6B Gen	nucleoplasm	Reactome DB_ID: 3222526	ENSEMBL:ENSG00000132510 KDM6B
+	KDM6B Gen	nucleoplasm	Reactome DB_ID: 3222526	ENSEMBL:ENSG00000132510 KDM6B
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

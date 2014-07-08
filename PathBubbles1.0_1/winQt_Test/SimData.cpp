@@ -288,6 +288,15 @@ void SimData::setStatFiveNumbers()
 		//cerr << sorted_cv[i]._cv << endl;
 	}
 	//cerr<< "---------end ----------CV-------------------" << endl;
+	if(size==0)
+	{	
+		_cFiveNumbers[1]=0;
+		_cFiveNumbers[2]=0;
+		_cFiveNumbers[3]=0;
+		_cFiveNumbers[5]=0;
+		_cFiveNumbers[0]=0;
+		return;
+    }
 
 	_cFiveNumbers[1]=sorted_cv[(int)( (float)(size)*0.25)]._cv;
 	_cFiveNumbers[2]=sorted_cv[(int)( (float)(size)*0.5)]._cv;

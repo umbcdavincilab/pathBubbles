@@ -45,7 +45,8 @@ protected:
 	void hoverMoveEvent( QGraphicsSceneHoverEvent *event );	
     void mousePressEvent(QGraphicsSceneMouseEvent *event);
 	//void contextMenuEvent(QGraphicsSceneContextMenuEvent *event);
-	void keyReleaseEvent(QKeyEvent * event );
+	//void keyPressEvent ( QKeyEvent * event ); 
+	//void keyReleaseEvent(QKeyEvent * event );
 private:	
 	QString backupName;
 	QImage m_labelImage;

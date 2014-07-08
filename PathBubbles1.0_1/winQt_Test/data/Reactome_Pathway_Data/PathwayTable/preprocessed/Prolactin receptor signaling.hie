@@ -1,0 +1,116 @@
+edge.size() 35
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 0 67 1 82 1 -1
+ 69 0 67 2 82 2 -1
+ 67 1 67 2 82 2 -1
+ 67 2 67 5 82 3 -1
+ 67 5 67 6 82 4 -1
+ 80 -1 67 6 82 4 -1
+ 83 1 83 0 82 5 -1
+ 67 8 67 7 82 5 -1
+ 67 8 67 7 82 5 -1
+ 83 1 67 9 82 6 -1
+ 67 10 83 -1 82 6 -1
+ 67 10 83 -1 82 6 -1
+ 80 -1 67 11 82 -1 -1
+ 67 10 67 11 82 -1 -1
+ 83 1 67 11 82 7 -1
+ 67 12 83 -1 82 7 -1
+ 67 12 83 -1 82 7 -1
+ 67 10 67 13 82 -1 -1
+ 80 -1 67 13 82 -1 -1
+ 83 1 83 -1 82 8 -1
+ 67 14 67 13 82 8 -1
+ 67 14 67 13 82 8 -1
+ 83 1 83 2 82 9 -1
+ 67 4 67 5 82 9 -1
+ 67 4 67 5 82 9 -1
+ 67 4 67 3 82 -1 -1
+ 67 -1 67 3 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 67 3 67 -1 82 -1 -1
+ 67 11 82 1 82 7 -1
+ 67 13 82 1 82 8 -1
+ 67 3 82 0 82 2 -1
+ 67 6 82 1 82 5 -1
+_complexName.size()	15
+	PRLR:JAK2	plasma membrane	Reactome DB_ID: 1302663	
+	PRLR:JAK2 dimer	plasma membrane	Reactome DB_ID: 1364076	
+	PRLR ligands:PRLR:JAK2 dimer	plasma membrane	Reactome DB_ID: 1671652	
+	PRLR ligands:p(S349)- PRLR:JAK2 dimer:SCF beta-TrCP complex	plasma membrane	Reactome DB_ID: 1369085	
+	PRLR ligands:p(S349)-PRLR:JAK2 dimer	plasma membrane	Reactome DB_ID: 1977946	
+	PRLR ligands:Activated PRLR:JAK2 dimer	plasma membrane	Reactome DB_ID: 976956	
+	PRLR ligands:Activated PRLR:JAK2 dimer:SH2B1 beta	plasma membrane	Reactome DB_ID: 1675475	
+	Growth Hormone: Activated Growth Hormone Receptor-JAK2 dimer/PRLR ligands:Activated PRLR:JAK2 dimer			
+	Growth Hormone: Activated Growth Hormone Receptor- p(Y1007)-JAK2 dimer/PRLR ligands:Activated PRLR:p(Y1007)-JAK2 dimer			
+	PRLR ligands:Activated PRLR:p(Y1007)-JAK2 dimer	plasma membrane	Reactome DB_ID: 1671683	
+	PRLR ligands:p(Y611)-PRLR:p(Y1007)-JAK2 dimer	plasma membrane	Reactome DB_ID: 1369125	
+	PRLR ligands:p(Y611)-PRLR:p(Y1007)-JAK2:STAT5	plasma membrane	Reactome DB_ID: 1369095	
+	PRLR ligands:p(Y611)-PRLR:p(Y1007)-JAK2 dimer:p-STAT5	plasma membrane	Reactome DB_ID: 1671696	
+	PRLR ligands:p(Y611)-PRLR:p(Y1007)-JAK2 dimer:SHP2	plasma membrane	Reactome DB_ID: 1369118	
+	PRLR ligands:p(Y611)-PRLR:p(Y1007)-JAK2 dimer:p-SHP2	plasma membrane	Reactome DB_ID: 1369127	
+_physicalEntityName.size()	1
+	PRL/GH2/PRL/GH2	extracellular region
+_proteinName.size()	2
+	PRLR	plasma membrane	Reactome DB_ID: 976964	UniProt:P16471	PRLR
+	JAK2	cytosol	Reactome DB_ID: 210620	UniProt:O60674	JAK2
+_reactionName.size()	10
+	D	PRLR associates with JAK2
+	T	PRLR:JAK2 dimerizes
+	D	Prolactin receptor ligands bind the prolactin receptor
+	T	PRLR activation
+	D	SH2B binds JAK2
+	T	JAK2 phosphorylation
+	T	Tyrosine phosphorylation of PRLR
+	T	PRLR-bound STAT5 is phosphorylated
+	T	SHP2 is phosphorylated
+	T	PRLR is phosphorylated at Ser-349
+_smallMoleculeName.size()	3
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

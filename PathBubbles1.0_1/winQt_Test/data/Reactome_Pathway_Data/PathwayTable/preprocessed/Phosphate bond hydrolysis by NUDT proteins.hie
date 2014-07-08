@@ -1,0 +1,156 @@
+edge.size() 47
+ 83 2 83 0 82 0 -1
+ 83 3 83 1 82 0 -1
+ 83 2 83 0 82 1 -1
+ 83 3 83 4 82 1 -1
+ 83 6 83 5 82 2 -1
+ 83 2 83 0 82 2 -1
+ 83 6 83 7 82 3 -1
+ 83 2 83 0 82 3 -1
+ 83 8 83 6 82 4 -1
+ 83 0 83 10 82 4 -1
+ 83 9 83 11 82 4 -1
+ 83 12 83 3 82 5 -1
+ 83 0 83 14 82 5 -1
+ 83 13 83 15 82 5 -1
+ 83 16 83 18 82 6 -1
+ 83 0 83 19 82 6 -1
+ 83 17 83 3 82 6 -1
+ 83 20 83 6 82 7 -1
+ 83 0 83 22 82 7 -1
+ 83 21 83 23 82 7 -1
+ 83 27 83 24 82 8 -1
+ 83 28 83 25 82 8 -1
+ 83 29 83 26 82 8 -1
+ 83 29 83 30 82 9 -1
+ 83 33 83 31 82 9 -1
+ 83 34 83 32 82 9 -1
+ 83 0 83 37 82 10 -1
+ 83 35 83 38 82 10 -1
+ 83 36 83 39 82 10 -1
+ 83 -1 83 40 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 67 0 82 1 82 0 -1
+ 80 0 82 1 82 1 -1
+ 80 0 82 1 82 2 -1
+ 80 1 82 1 82 3 -1
+ 80 1 82 1 82 4 -1
+ 67 0 82 1 82 5 -1
+ 67 0 82 1 82 6 -1
+ 80 1 82 1 82 7 -1
+ 67 1 82 1 82 8 -1
+ 67 1 82 1 82 9 -1
+ 67 2 82 1 82 10 -1
+ 67 3 82 1 82 11 -1
+ 83 15 82 1 82 8 -1
+ 83 15 82 1 82 9 -1
+_complexName.size()	4
+	NUDT1p18:Mg2+/NUDT1p21:Mg2+/NUDT1p22:Mg2+/NUDT1p26:Mg2+			
+	NUDT16 dimer	nucleoplasm	Reactome DB_ID: 2509818	
+	NUDT5 dimer	cytosol	Reactome DB_ID: 2393948	
+	NUDT9	mitochondrial matrix	Reactome DB_ID: 2393951	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	MTH2	cytosol	Reactome DB_ID: 2394014	UniProt:Q9NV35	NUDT15
+	MTH3	cytosol	Reactome DB_ID: 2394013	UniProt:Q6ZVK8-1	NUDT18
+_reactionName.size()	12
+	T	NUDT1 hydrolyses 8-oxo-dGTP to 8-oxo-dGMP
+	T	NUDT15 hydrolyses 8-oxo-dGTP to 8-oxo-dGMP
+	T	NUDT15 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP
+	T	NUDT18 hydrolyses 8-oxo-dGDP to 8-oxo-dGMP
+	T	8-oxo-GDP + H2O => 8-oxo-GMP + Pi
+	T	NUDT1 hydrolyses 2-OH-dATP to 2-OH-dAMP
+	T	NUDT1 hydrolyses 2-OH-ATP to 2-OH-AMP
+	T	NUDT18 hydrolyses 8-OH-dADP to 8-OH-dAMP
+	T	dIDP + H2O => dIMP + Pi
+	T	IDP + H2O => IMP + Pi
+	T	Cytosolic NUDT5 hydrolyses ADP-ribose to R5P and AMP
+	T	Mitochondrial NUDT9 hydrolyses ADP-ribose to R5P and AMP
+_smallMoleculeName.size()	41
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	8-oxo-dGMP	cytosol	Reactome DB_ID: 2395817	8-oxo-dGMP [ChEBI:63223]
+	8-oxo-dGTP	cytosol	Reactome DB_ID: 2395852	8-oxo-dGTP [ChEBI:63220]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	IDP	nucleoplasm	Reactome DB_ID: 2509811	IDP [ChEBI:5848]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	IMP	nucleoplasm	Reactome DB_ID: 2509792	IMP [ChEBI:17202]
+	IDP	nucleoplasm	Reactome DB_ID: 2509811	IDP [ChEBI:5848]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ADP-D-ribose	cytosol	Reactome DB_ID: 1131972	ADP-D-ribose [ChEBI:16960]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ADP-D-ribose	cytosol	Reactome DB_ID: 1131972	ADP-D-ribose [ChEBI:16960]
+	R5P	cytosol	Reactome DB_ID: 73578	D-ribose 5-phosphate [ChEBI:17797]
+	R5P	cytosol	Reactome DB_ID: 73578	D-ribose 5-phosphate [ChEBI:17797]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ADP-D-ribose	mitochondrial matrix	Reactome DB_ID: 2393945	ADP-D-ribose [ChEBI:16960]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ADP-D-ribose	mitochondrial matrix	Reactome DB_ID: 2393945	ADP-D-ribose [ChEBI:16960]
+	R5P	mitochondrial matrix	Reactome DB_ID: 2393950	D-ribose 5-phosphate [ChEBI:17797]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	R5P	mitochondrial matrix	Reactome DB_ID: 2393950	D-ribose 5-phosphate [ChEBI:17797]
+	8-oxo-dGTP	cytosol	Reactome DB_ID: 2395852	8-oxo-dGTP [ChEBI:63220]
+	8-oxo-dGTP	cytosol	Reactome DB_ID: 2395852	8-oxo-dGTP [ChEBI:63220]
+	8-oxo-dGDP	cytosol	Reactome DB_ID: 2395883	8-oxo-dGDP [ChEBI:63728]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	8-oxo-dGDP	cytosol	Reactome DB_ID: 2395883	8-oxo-dGDP [ChEBI:63728]
+	8-oxo-dGDP	cytosol	Reactome DB_ID: 2395883	8-oxo-dGDP [ChEBI:63728]
+	8-oxo-GDP	cytosol	Reactome DB_ID: 2395880	8-oxo-GDP [ChEBI:65134]
+	8-oxo-GMP	cytosol	Reactome DB_ID: 2395877	8-oxo-GMP [ChEBI:65135]
+	8-oxo-GDP	cytosol	Reactome DB_ID: 2395880	8-oxo-GDP [ChEBI:65134]
+	8-oxo-GMP	cytosol	Reactome DB_ID: 2395877	8-oxo-GMP [ChEBI:65135]
+	2-hydroxy-dATP	cytosol	Reactome DB_ID: 2395822	2-hydroxy-dATP [ChEBI:63208]
+	2-hydroxy-dATP	cytosol	Reactome DB_ID: 2395822	2-hydroxy-dATP [ChEBI:63208]
+	2-hydroxy-dAMP	cytosol	Reactome DB_ID: 2395855	2-hydroxy-dAMP [ChEBI:63211]
+	2-hydroxy-ATP	cytosol	Reactome DB_ID: 2395868	2-hydroxy-ATP [ChEBI:65119]
+	2-hydroxy-AMP	cytosol	Reactome DB_ID: 2395878	2-hydroxy-AMP [ChEBI:65129]
+	2-hydroxy-AMP	cytosol	Reactome DB_ID: 2395878	2-hydroxy-AMP [ChEBI:65129]
+	2-hydroxy-ATP	cytosol	Reactome DB_ID: 2395868	2-hydroxy-ATP [ChEBI:65119]
+	8-hydroxy-dADP	cytosol	Reactome DB_ID: 2395963	8-hydroxy-dADP [ChEBI:70963]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole
