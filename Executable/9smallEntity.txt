@@ -1,0 +1,17 @@
+?smallEntity       ?smallName      ?smallID                           ?reactomeID               ?smallLocation
+Dna1               SMAD7 gene      ENSEMBL:ENSG00000101665 SMAD7      Reactome DB_ID: 2106587   nucleoplasm
+Dna2               SERPINE1 gene   ENSEMBL:ENSG00000106366 SERPINE1   Reactome DB_ID: 2106592   nucleoplasm
+Dna3               MYC gene        ENSEMBL:ENSG00000136997 MYC        Reactome DB_ID: 2127254   nucleoplasm
+Dna4               CDKN2B gene     ENSEMBL:ENSG00000147883 CDKN2B     Reactome DB_ID: 2187305   nucleoplasm
+Dna5               JUNB gene       ENSEMBL:ENSG00000171223 JUNB       Reactome DB_ID: 2187294   nucleoplasm
+Small Molecule1    ATP             ATP [ChEBI:15422]                  Reactome DB_ID: 113592    cytosol
+Small Molecule10   Pi              Orthophosphate [ChEBI:18367]       Reactome DB_ID: 113550    nucleoplasm
+Small Molecule2    ADP             ADP [ChEBI:16761]                  Reactome DB_ID: 29370     cytosol
+Small Molecule3    H2O             H2O [ChEBI:15377]                  Reactome DB_ID: 29356     cytosol
+Small Molecule4    Pi              Orthophosphate [ChEBI:18367]       Reactome DB_ID: 29372     cytosol
+Small Molecule5    ATP             ATP [ChEBI:15422]                  Reactome DB_ID: 29358     nucleoplasm
+Small Molecule6    ADP             ADP [ChEBI:16761]                  Reactome DB_ID: 113582    nucleoplasm
+Small Molecule7    NAD             NAD+ [ChEBI:15846]                 Reactome DB_ID: 427523    nucleoplasm
+Small Molecule8    Nicotinamide    Nicotinamide [ChEBI:7556]          Reactome DB_ID: 427497    nucleoplasm
+Small Molecule9    H2O             H2O [ChEBI:15377]                  Reactome DB_ID: 113518    nucleoplasm
+

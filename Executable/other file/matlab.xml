@@ -1,0 +1,83 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 62, 46)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(886.655, 393.067)</Position>
+            <Size>(300,150)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(171, 221, 164)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/433.txt</FileName>
+                <Position>(587, 394)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>Matlab</Type>
+            <Position>(587, 394)</Position>
+            <Size>(300,100)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(171, 221, 164)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/433.txt</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+                    <Position>(886.655, 393.067)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(97, 3)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(387, 647)</Position>
+            <Size>(300,100)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/433.txt</FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+                    <Position>(703, 587)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(103, 8)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>Matlab</Type>
+            <Position>(703, 587)</Position>
+            <Size>(300,150)</Size>
+            <BoarderColor>(171, 221, 164)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\</PathPre>
+            <FileName>E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I\downstroke_ratio.m</FileName>
+            <ParentBubble>
+                <FileName>E:/448467660@qq.com/VisBubble1.1/winQt_Test/other file/433.txt</FileName>
+                <Position>(387, 647)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+</Scene>

@@ -1,0 +1,123 @@
+edge.size() 57
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 67 0 82 0 -1
+ 83 0 67 0 82 0 -1
+ 67 1 80 1 82 1 -1
+ 67 1 67 2 82 1 -1
+ 80 1 67 3 82 2 -1
+ 83 0 67 3 82 2 -1
+ 69 -1 67 5 82 3 -1
+ 67 4 67 5 82 3 -1
+ 67 5 67 -1 82 4 -1
+ 67 -1 67 -1 82 5 -1
+ 67 4 67 -1 82 5 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+_complexName.size()	6
+	Alpha1-Microglobulin:heme trimer	extracellular region	Reactome DB_ID: 2512834	
+	IgA:Alpha-1-Microglobulin	extracellular region	Reactome DB_ID: 2203510	
+	IgA	extracellular region	Reactome DB_ID: 1479277	
+	Truncated Alpha1-Microglobulin:heme trimer	extracellular region	Reactome DB_ID: 2512859	
+	SR-AI trimer	plasma membrane	Reactome DB_ID: 2173771	
+	MSR1:Ligand	plasma membrane	Reactome DB_ID: 2173774	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	AMBP	extracellular region	Reactome DB_ID: 2168853	UniProt:P02760	AMBP
+	AMBP	extracellular region	Reactome DB_ID: 2168855	UniProt:P02760	AMBP
+_reactionName.size()	6
+	D	Alpha1-Microglobulin Binds Heme
+	B	Cleavage of Alpha-1-Microglobulin
+	D	Truncated Alpha-1-Microglobulin Binds Heme
+	D	MSR1 (SCARA1, SR-A) Binds Ligands
+	T	Endocytosis of MSR1:Ligand (SCARA1;Ligand, SR-A:Ligand)
+	D	MSR1 (SCARA1) Binds Collagen
+_smallMoleculeName.size()	1
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	endocytic vesicle lumen
+	whole

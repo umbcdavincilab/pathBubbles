@@ -1,0 +1,89 @@
+edge.size() 16
+ 83 0 83 9 82 0 -1
+ 83 1 83 10 82 0 -1
+ 83 2 83 11 82 0 -1
+ 83 3 83 12 82 0 -1
+ 83 4 83 13 82 0 -1
+ 83 5 83 14 82 0 -1
+ 83 6 83 15 82 0 -1
+ 83 7 83 16 82 0 -1
+ 83 8 83 17 82 0 -1
+ 83 18 83 19 82 1 -1
+ 83 -1 83 19 82 -1 -1
+ 83 -1 83 19 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 -1 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	1
+	HTR3:5HT	plasma membrane	Reactome DB_ID: 975348	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	2
+	T	HTR3:5HT transports Na+,K+, and Ca2+
+	T	2GABRA:2GABRB:GABRG:GABA transports extracellular Cl- to cytosol
+_smallMoleculeName.size()	20
+	K+	extracellular region	Reactome DB_ID: 74126	potassium(1+) [ChEBI:29103]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	K+	extracellular region	Reactome DB_ID: 74126	potassium(1+) [ChEBI:29103]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	K+	cytosol	Reactome DB_ID: 29804	potassium(1+) [ChEBI:29103]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	K+	cytosol	Reactome DB_ID: 29804	potassium(1+) [ChEBI:29103]
+	K+	extracellular region	Reactome DB_ID: 74126	potassium(1+) [ChEBI:29103]
+	K+	cytosol	Reactome DB_ID: 29804	potassium(1+) [ChEBI:29103]
+	Cl-	extracellular region	Reactome DB_ID: 188972	Chloride [ChEBI:17996]
+	Cl-	cytosol	Reactome DB_ID: 352022	Chloride [ChEBI:17996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

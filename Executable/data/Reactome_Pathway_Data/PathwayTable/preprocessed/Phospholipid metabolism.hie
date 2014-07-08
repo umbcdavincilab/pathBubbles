@@ -1,0 +1,999 @@
+edge.size() 478
+ 83 4 83 0 82 0 -1
+ 83 5 83 1 82 0 -1
+ 83 6 83 2 82 0 -1
+ 83 7 83 3 82 0 -1
+ 83 8 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 8 83 -1 82 1 -1
+ 83 9 83 7 82 1 -1
+ 83 8 83 9 82 2 -1
+ 83 11 83 10 82 2 -1
+ 83 13 83 11 82 3 -1
+ 83 9 83 12 82 3 -1
+ 83 13 83 11 82 4 -1
+ 83 9 83 14 82 4 -1
+ 83 8 83 15 82 5 -1
+ 83 16 83 7 82 5 -1
+ 83 8 83 16 82 6 -1
+ 83 18 83 17 82 6 -1
+ 83 19 83 21 82 7 -1
+ 83 18 83 22 82 7 -1
+ 83 20 83 16 82 7 -1
+ 83 24 83 23 82 8 -1
+ 83 11 83 -1 82 8 -1
+ 83 26 83 25 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 13 83 -1 82 10 -1
+ 83 27 83 -1 82 10 -1
+ 83 8 83 27 82 11 -1
+ 83 -1 83 28 82 11 -1
+ 83 29 83 31 82 12 -1
+ 83 27 83 32 82 12 -1
+ 83 30 83 13 82 12 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 27 82 13 -1
+ 83 -1 83 33 82 14 -1
+ 83 -1 83 27 82 14 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 35 83 34 82 15 -1
+ 83 36 83 -1 82 15 -1
+ 83 38 83 37 82 16 -1
+ 83 34 83 36 82 16 -1
+ 83 39 83 40 82 17 -1
+ 83 36 83 41 82 17 -1
+ 83 -1 83 42 82 17 -1
+ 83 38 83 11 82 18 -1
+ 83 27 83 43 82 18 -1
+ 83 45 83 44 82 19 -1
+ 83 46 83 27 82 19 -1
+ 83 47 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 45 82 -1 -1
+ 83 13 83 45 82 20 -1
+ 83 49 83 48 82 20 -1
+ 83 13 83 45 82 21 -1
+ 83 49 83 50 82 21 -1
+ 83 45 83 49 82 22 -1
+ 83 8 83 51 82 22 -1
+ 83 45 83 54 82 23 -1
+ 83 52 83 55 82 23 -1
+ 83 53 83 13 82 23 -1
+ 83 45 83 58 82 24 -1
+ 83 56 83 59 82 24 -1
+ 83 57 83 13 82 24 -1
+ 83 45 83 60 82 25 -1
+ 83 8 83 61 82 25 -1
+ 83 26 83 -1 82 26 -1
+ 83 -1 83 -1 82 26 -1
+ 83 -1 83 -1 82 26 -1
+ 83 49 83 64 82 27 -1
+ 83 62 83 65 82 27 -1
+ 83 63 83 13 82 27 -1
+ 83 69 83 66 82 28 -1
+ 83 70 83 67 82 28 -1
+ 83 13 83 68 82 28 -1
+ 83 34 83 71 82 29 -1
+ 83 7 83 72 82 29 -1
+ 83 -1 83 23 82 30 -1
+ 83 45 83 74 82 30 -1
+ 83 73 83 75 82 30 -1
+ 83 76 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 76 83 24 82 32 -1
+ 83 35 83 24 82 33 -1
+ 83 78 83 77 82 33 -1
+ 83 38 83 79 82 34 -1
+ 83 24 83 78 82 34 -1
+ 83 24 83 82 82 35 -1
+ 83 80 83 83 82 35 -1
+ 83 81 83 8 82 35 -1
+ 83 84 83 86 82 36 -1
+ 83 78 83 87 82 36 -1
+ 83 85 83 42 82 36 -1
+ 83 46 83 88 82 37 -1
+ 83 23 83 27 82 37 -1
+ 83 46 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 11 67 -1 82 -1 -1
+ 67 -1 83 89 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 12 82 -1 -1
+ 83 90 67 11 82 38 -1
+ 67 12 67 11 82 38 -1
+ 67 12 83 23 82 38 -1
+ 83 23 83 92 82 39 -1
+ 83 -1 83 93 82 39 -1
+ 83 91 83 13 82 39 -1
+ 83 23 83 96 82 40 -1
+ 83 94 83 97 82 40 -1
+ 83 95 83 13 82 40 -1
+ 83 23 83 98 82 41 -1
+ 83 8 83 99 82 41 -1
+ 83 13 83 23 82 42 -1
+ 83 101 83 100 82 42 -1
+ 83 13 83 23 82 43 -1
+ 83 101 83 102 82 43 -1
+ 83 23 83 101 82 44 -1
+ 83 8 83 103 82 44 -1
+ 83 26 83 -1 82 45 -1
+ 83 -1 83 -1 82 45 -1
+ 83 26 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 13 83 104 82 46 -1
+ 83 106 83 105 82 46 -1
+ 83 13 83 107 82 47 -1
+ 83 106 83 108 82 47 -1
+ 83 13 83 101 82 48 -1
+ 83 106 83 109 82 48 -1
+ 83 13 83 101 82 49 -1
+ 83 106 83 110 82 49 -1
+ 83 24 83 106 82 50 -1
+ 83 7 83 111 82 50 -1
+ 83 24 83 23 82 51 -1
+ 83 47 83 112 82 51 -1
+ 83 34 83 45 82 52 -1
+ 83 47 83 113 82 52 -1
+ 83 47 83 -1 82 53 -1
+ 83 114 83 116 82 53 -1
+ 83 115 83 13 82 53 -1
+ 83 47 83 119 82 54 -1
+ 83 117 83 120 82 54 -1
+ 83 118 83 13 82 54 -1
+ 83 8 83 -1 82 55 -1
+ 83 47 83 121 82 55 -1
+ 83 47 83 122 82 56 -1
+ 83 -1 83 -1 82 56 -1
+ 83 -1 83 13 82 56 -1
+ 83 8 83 123 82 57 -1
+ 83 47 83 124 82 57 -1
+ 83 -1 83 -1 82 58 -1
+ 83 -1 83 -1 82 58 -1
+ 83 26 83 -1 82 58 -1
+ 83 42 83 125 82 59 -1
+ 83 126 83 11 82 59 -1
+ 83 90 83 -1 82 60 -1
+ 83 46 83 126 82 60 -1
+ 83 90 83 129 82 61 -1
+ 83 127 83 130 82 61 -1
+ 83 128 83 13 82 61 -1
+ 83 90 83 133 82 62 -1
+ 83 131 83 -1 82 62 -1
+ 83 132 83 13 82 62 -1
+ 83 90 83 134 82 63 -1
+ 83 8 83 135 82 63 -1
+ 83 90 83 138 82 64 -1
+ 83 136 83 139 82 64 -1
+ 83 137 83 13 82 64 -1
+ 83 90 83 140 82 65 -1
+ 83 8 83 141 82 65 -1
+ 83 142 83 145 82 66 -1
+ 83 143 83 146 82 66 -1
+ 83 144 83 26 82 66 -1
+ 83 23 83 24 82 67 -1
+ 83 -1 83 147 82 67 -1
+ 83 18 83 148 82 68 -1
+ 83 148 83 149 82 69 -1
+ 83 -1 83 -1 82 69 -1
+ 83 -1 83 -1 82 69 -1
+ 83 -1 83 -1 82 70 -1
+ 83 149 83 -1 82 70 -1
+ 83 -1 83 150 82 70 -1
+ 83 -1 83 -1 82 71 -1
+ 83 150 83 -1 82 71 -1
+ 83 -1 83 151 82 71 -1
+ 83 13 83 147 82 72 -1
+ 83 153 83 152 82 72 -1
+ 83 13 83 147 82 73 -1
+ 83 153 83 154 82 73 -1
+ 83 147 83 155 82 74 -1
+ 83 8 83 153 82 74 -1
+ 83 147 83 158 82 75 -1
+ 83 156 83 159 82 75 -1
+ 83 157 83 13 82 75 -1
+ 83 147 83 160 82 76 -1
+ 83 8 83 161 82 76 -1
+ 83 -1 83 -1 82 77 -1
+ 83 151 83 -1 82 77 -1
+ 83 -1 83 162 82 77 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 151 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 151 83 -1 82 -1 -1
+ 83 -1 83 162 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 151 83 -1 82 -1 -1
+ 83 26 83 -1 82 78 -1
+ 83 -1 83 -1 82 78 -1
+ 83 -1 83 163 82 78 -1
+ 83 151 83 -1 82 -1 -1
+ 83 149 83 -1 82 -1 -1
+ 83 166 83 164 82 79 -1
+ 83 162 83 165 82 79 -1
+ 83 -1 83 167 82 80 -1
+ 83 166 83 168 82 80 -1
+ 83 -1 83 164 82 80 -1
+ 83 -1 83 169 82 81 -1
+ 83 164 83 170 82 81 -1
+ 83 -1 83 166 82 81 -1
+ 83 166 83 171 82 82 -1
+ 83 -1 83 172 82 82 -1
+ 83 166 83 173 82 83 -1
+ 83 -1 83 164 82 83 -1
+ 83 164 83 166 82 84 -1
+ 83 -1 83 174 82 84 -1
+ 83 166 83 175 82 85 -1
+ 83 175 83 176 82 86 -1
+ 83 -1 83 -1 82 86 -1
+ 83 -1 83 8 82 86 -1
+ 83 -1 83 164 82 -1 -1
+ 83 -1 83 -1 82 87 -1
+ 83 166 83 -1 82 87 -1
+ 83 -1 83 162 82 87 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 175 83 -1 82 88 -1
+ 83 8 83 -1 82 88 -1
+ 83 147 83 177 82 89 -1
+ 83 177 83 178 82 90 -1
+ 83 90 83 181 82 91 -1
+ 83 179 83 182 82 91 -1
+ 83 180 83 35 82 91 -1
+ 83 38 83 -1 82 92 -1
+ 83 90 83 -1 82 92 -1
+ 83 35 83 89 82 93 -1
+ 83 184 83 183 82 93 -1
+ 67 -1 67 17 82 -1 -1
+ 80 -1 67 17 82 -1 -1
+ 83 35 83 89 82 94 -1
+ 83 184 83 185 82 94 -1
+ 83 184 83 38 82 95 -1
+ 83 35 83 89 82 96 -1
+ 83 187 83 186 82 96 -1
+ 83 38 83 187 82 97 -1
+ 83 89 83 188 82 97 -1
+ 83 35 83 187 82 98 -1
+ 83 190 83 189 82 98 -1
+ 83 38 83 190 82 99 -1
+ 83 187 83 191 82 99 -1
+ 83 35 83 184 82 100 -1
+ 83 193 83 192 82 100 -1
+ 83 38 83 194 82 101 -1
+ 83 184 83 193 82 101 -1
+ 83 38 83 195 82 102 -1
+ 83 184 83 196 82 102 -1
+ 83 184 83 197 82 103 -1
+ 83 35 83 198 82 104 -1
+ 83 199 83 197 82 104 -1
+ 83 38 83 199 82 105 -1
+ 83 197 83 200 82 105 -1
+ 83 35 83 199 82 106 -1
+ 83 202 83 201 82 106 -1
+ 83 38 83 203 82 107 -1
+ 83 199 83 202 82 107 -1
+ 83 35 83 204 82 108 -1
+ 83 202 83 205 82 108 -1
+ 83 38 83 206 82 109 -1
+ 83 205 83 202 82 109 -1
+ 83 35 83 207 82 110 -1
+ 83 205 83 197 82 110 -1
+ 83 38 83 208 82 111 -1
+ 83 197 83 205 82 111 -1
+ 83 35 83 209 82 112 -1
+ 83 205 83 210 82 112 -1
+ 83 38 83 211 82 113 -1
+ 83 210 83 205 82 113 -1
+ 83 38 83 212 82 114 -1
+ 83 142 83 210 82 114 -1
+ 83 35 83 142 82 115 -1
+ 83 214 83 213 82 115 -1
+ 83 35 83 215 82 116 -1
+ 83 216 83 210 82 116 -1
+ 83 38 83 217 82 117 -1
+ 83 210 83 216 82 117 -1
+ 83 38 83 218 82 118 -1
+ 83 214 83 216 82 118 -1
+ 83 35 83 214 82 119 -1
+ 83 199 83 219 82 119 -1
+ 83 35 83 142 82 120 -1
+ 83 197 83 220 82 120 -1
+ 83 38 83 197 82 121 -1
+ 83 142 83 221 82 121 -1
+ 83 205 83 222 82 122 -1
+ 83 38 83 222 82 123 -1
+ 83 224 83 223 82 123 -1
+ 83 224 83 227 82 124 -1
+ 83 225 83 228 82 124 -1
+ 83 226 83 35 82 124 -1
+ 83 38 83 229 82 125 -1
+ 83 224 83 230 82 125 -1
+ 83 38 83 231 82 126 -1
+ 83 234 83 232 82 126 -1
+ 83 235 83 233 82 126 -1
+ 83 224 83 236 82 127 -1
+ 83 35 83 237 82 127 -1
+ 83 38 83 224 82 128 -1
+ 83 236 83 238 82 128 -1
+ 83 35 83 236 82 129 -1
+ 83 240 83 239 82 129 -1
+ 83 35 83 241 82 130 -1
+ 83 222 83 240 82 130 -1
+ 83 -1 83 190 82 -1 -1
+ 83 242 83 243 82 131 -1
+ 83 35 83 244 82 132 -1
+ 83 243 83 -1 82 132 -1
+ 83 38 83 243 82 133 -1
+ 83 244 83 -1 82 133 -1
+ 83 38 83 243 82 134 -1
+ 83 246 83 245 82 134 -1
+ 83 35 83 247 82 135 -1
+ 83 246 83 -1 82 135 -1
+ 83 35 83 247 82 136 -1
+ 83 244 83 248 82 136 -1
+ 83 38 83 244 82 137 -1
+ 83 247 83 249 82 137 -1
+ 83 243 83 190 82 138 -1
+ 67 0 82 1 82 0 -1
+ 80 -1 82 1 82 -1 -1
+ 80 2 82 1 82 1 -1
+ 80 3 82 1 82 2 -1
+ 80 0 82 1 82 3 -1
+ 67 1 82 1 82 4 -1
+ 80 17 82 1 82 5 -1
+ 80 18 82 1 82 6 -1
+ 80 0 82 1 82 7 -1
+ 80 19 82 1 82 8 -1
+ 67 2 82 1 82 9 -1
+ 80 20 82 1 82 10 -1
+ 80 1 82 1 82 11 -1
+ 80 20 82 1 82 12 -1
+ 80 20 82 1 82 13 -1
+ 80 20 82 1 82 14 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 15 -1
+ 67 3 82 1 82 16 -1
+ 67 4 82 1 82 17 -1
+ 67 5 82 1 82 18 -1
+ 67 6 82 1 82 19 -1
+ 67 -1 82 1 82 -1 -1
+ 80 2 82 1 82 20 -1
+ 80 3 82 1 82 21 -1
+ 80 21 82 1 82 22 -1
+ 80 4 82 1 82 23 -1
+ 80 22 82 1 82 24 -1
+ 80 21 82 1 82 25 -1
+ 67 8 82 1 82 26 -1
+ 80 22 82 1 82 27 -1
+ 80 22 82 1 82 28 -1
+ 80 23 82 1 82 29 -1
+ 80 24 82 1 82 30 -1
+ 80 25 82 1 82 31 -1
+ 80 26 82 1 82 32 -1
+ 67 9 82 1 82 33 -1
+ 67 3 82 1 82 34 -1
+ 80 27 82 1 82 35 -1
+ 67 10 82 1 82 36 -1
+ 67 7 82 1 82 37 -1
+ 67 -1 82 1 82 -1 -1
+ 80 5 82 1 82 39 -1
+ 80 6 82 1 82 40 -1
+ 80 28 82 1 82 41 -1
+ 80 7 82 1 82 42 -1
+ 80 22 82 1 82 43 -1
+ 80 28 82 1 82 44 -1
+ 67 8 82 1 82 45 -1
+ 80 -1 82 1 82 -1 -1
+ 80 8 82 1 82 46 -1
+ 80 22 82 1 82 47 -1
+ 80 8 82 1 82 48 -1
+ 80 22 82 1 82 49 -1
+ 80 23 82 1 82 50 -1
+ 80 29 82 1 82 51 -1
+ 80 30 82 1 82 52 -1
+ 80 9 82 1 82 53 -1
+ 67 1 82 1 82 54 -1
+ 80 31 82 1 82 55 -1
+ 80 10 82 1 82 56 -1
+ 80 31 82 1 82 57 -1
+ 67 2 82 1 82 58 -1
+ 67 13 82 1 82 59 -1
+ 67 14 82 1 82 60 -1
+ 80 11 82 1 82 61 -1
+ 80 12 82 1 82 62 -1
+ 80 32 82 1 82 63 -1
+ 80 33 82 1 82 64 -1
+ 80 32 82 1 82 65 -1
+ 67 2 82 1 82 66 -1
+ 80 34 82 1 82 67 -1
+ 80 -1 82 1 82 69 -1
+ 80 -1 82 1 82 70 -1
+ 80 -1 82 1 82 71 -1
+ 80 0 82 1 82 72 -1
+ 67 1 82 1 82 73 -1
+ 80 35 82 1 82 74 -1
+ 80 36 82 1 82 75 -1
+ 80 35 82 1 82 76 -1
+ 80 -1 82 1 82 77 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 8 82 1 82 78 -1
+ 80 -1 82 1 82 -1 -1
+ 80 37 82 1 82 79 -1
+ 80 38 82 1 82 80 -1
+ 80 38 82 1 82 81 -1
+ 80 38 82 1 82 82 -1
+ 80 38 82 1 82 83 -1
+ 67 15 82 1 82 84 -1
+ 80 10 82 1 82 86 -1
+ 67 16 82 1 82 87 -1
+ 80 10 82 1 82 88 -1
+ 80 39 82 1 82 91 -1
+ 80 40 82 1 82 92 -1
+ 80 41 82 1 82 93 -1
+ 67 17 82 1 82 94 -1
+ 80 42 82 1 82 95 -1
+ 67 18 82 1 82 96 -1
+ 80 42 82 1 82 97 -1
+ 67 20 82 1 82 98 -1
+ 67 20 82 1 82 99 -1
+ 80 13 82 1 82 100 -1
+ 80 43 82 1 82 101 -1
+ 80 44 82 1 82 102 -1
+ 80 45 82 1 82 104 -1
+ 80 14 82 1 82 105 -1
+ 67 21 82 1 82 106 -1
+ 67 22 82 1 82 107 -1
+ 80 45 82 1 82 108 -1
+ 80 46 82 1 82 109 -1
+ 80 15 82 1 82 110 -1
+ 67 22 82 1 82 111 -1
+ 80 16 82 1 82 112 -1
+ 80 47 82 1 82 113 -1
+ 80 48 82 1 82 114 -1
+ 80 49 82 1 82 115 -1
+ 80 49 82 1 82 116 -1
+ 80 50 82 1 82 117 -1
+ 80 48 82 1 82 118 -1
+ 67 23 82 1 82 119 -1
+ 80 51 82 1 82 120 -1
+ 80 50 82 1 82 121 -1
+ 80 47 82 1 82 123 -1
+ 67 24 82 1 82 124 -1
+ 67 24 82 1 82 125 -1
+ 80 52 82 1 82 126 -1
+ 67 18 82 1 82 127 -1
+ 80 52 82 1 82 128 -1
+ 80 51 82 1 82 129 -1
+ 67 19 82 1 82 130 -1
+ 67 25 82 1 82 132 -1
+ 67 25 82 1 82 133 -1
+ 80 53 82 1 82 134 -1
+ 67 25 82 1 82 135 -1
+ 67 18 82 1 82 136 -1
+ 80 53 82 1 82 137 -1
+_complexName.size()	26
+	GPD1 dimer/GPD1L dimer			
+	PLA2G2A:Ca2+	endoplasmic reticulum membrane	Reactome DB_ID: 1500630	
+	PLA2G1B:Ca2+/PLA2G2A:Ca2+/PLA2G2D:Ca2+/PLA2G2E:Ca2+/PLA2G2F:Ca2+/PLA2G5:Ca2+/PLA2G10:Ca2+/PLA2G12A:Ca2+			
+	PHOSPHO1:Mg2+	cytosol	Reactome DB_ID: 1500633	
+	PCYT2 dimer	endoplasmic reticulum membrane	Reactome DB_ID: 1500642	
+	LPIN1:Mg2+/LPIN2:Mg2+/LPIN3:Mg2+			
+	CEPT1:Mg2+/Mn2+/EPT1:Mg2+/Mn2+			
+	CEPT1:Mg2+/Mn2+	endoplasmic reticulum membrane	Reactome DB_ID: 1500587	
+	PLA2G1B:Ca2+/PLA2G2A:Ca2+/PLA2G2D:Ca2+/PLA2G2E:Ca2+/PLA2G2F:Ca2+/PLA2G3:Ca2+/PLA2G5:Ca2+/PLA2G10:Ca2+/PLA2G12A:Ca2+			
+	CHKA:CHKA/CHKB:CHKB/CHKA:CHKB			
+	PCYT1A dimer/PCYT1B dimer			
+	PI:PITPNB	endoplasmic reticulum membrane	Reactome DB_ID: 1524117	
+	PC:PITPNB	endoplasmic reticulum membrane	Reactome DB_ID: 1524110	
+	CDS1:Mg2+	endoplasmic reticulum membrane	Reactome DB_ID: 1500651	
+	CDIPT:Mg2+/Mn2+	endoplasmic reticulum membrane	Reactome DB_ID: 1500647	
+	HADH octamer	mitochondrial inner membrane	Reactome DB_ID: 1524100	
+	PLA2G4A:Ca2+	mitochondrial inner membrane	Reactome DB_ID: 1524095	
+	ARF1/3:GTP:PI4KB	Golgi membrane	Reactome DB_ID: 1806287	
+	PIK3C3:Mn2+:PIK3R4:Mn2+/PIK3C2A:Ca2+/Mg2+			
+	PIK3C2A:Ca2+/Mg2+	cytosol	Reactome DB_ID: 1604655	
+	PIKFYVE:VAC14:FIG4	Golgi membrane	Reactome DB_ID: 1806269	
+	PIK3CA:PIK3R1/PIK3CA:PIK3R2/PIK3CA:PIK3R3/PIK3CB:PIK3R1/PIK3CB:PIK3R2/PIK3CB:PIK3R3/PIK3CD:PIK3R1/PIK3CD:PIK3R2/PIK3CD:PIK3R3/PIK3CG:PIK3R5/PIK3CG:PIK3R6			
+	PTEN:Mg2+	cytosol	Reactome DB_ID: 199426	
+	PIP4K2A:PIP4K2A/PIP4K2A:PIP4K2B/PIP4K2B:PIP4K2B			
+	PIKFYVE:VAC14:FIG4	early endosome membrane	Reactome DB_ID: 1806169	
+	PIKFYVE:VAC14:FIG4	late endosome membrane	Reactome DB_ID: 1806187	
+_physicalEntityName.size()	0
+_proteinName.size()	54
+	GPD1	cytosol	Reactome DB_ID: 55875	UniProt:P21695	GPD1
+	GPD1L	cytosol	Reactome DB_ID: 1498784	UniProt:Q8N335	GPD1L
+	GPAT4	endoplasmic reticulum membrane	Reactome DB_ID: 549099	UniProt:Q86UL3	AGPAT6
+	LPCAT1	endoplasmic reticulum membrane			
+	AGPAT1	endoplasmic reticulum membrane	Reactome DB_ID: 61803	UniProt:Q99943	AGPAT1
+	AGPAT2	endoplasmic reticulum membrane	Reactome DB_ID: 61805	UniProt:O15120	AGPAT2
+	AGPAT3	endoplasmic reticulum membrane	Reactome DB_ID: 61807	UniProt:Q9NRZ7	AGPAT3
+	AGPAT4	endoplasmic reticulum membrane	Reactome DB_ID: 61809	UniProt:Q9NRZ5	AGPAT4
+	AGPAT5	endoplasmic reticulum membrane	Reactome DB_ID: 61811	UniProt:Q9NUQ2	AGPAT5
+	LPCAT4	endoplasmic reticulum membrane	Reactome DB_ID: 1498768	UniProt:Q643R3	LPCAT4
+	LCLAT1	endoplasmic reticulum membrane	Reactome DB_ID: 1498783	UniProt:Q6UWP7	LCLAT1
+	GPAT3	endoplasmic reticulum membrane	Reactome DB_ID: 549109	UniProt:Q53EU6	AGPAT9
+	LPCAT1	endoplasmic reticulum membrane	Reactome DB_ID: 1498772	UniProt:Q8NF37	LPCAT1
+	cPLA2	cytosol	Reactome DB_ID: 378502	UniProt:P47712	PLA2G4A
+	PLA2G4B	cytosol	Reactome DB_ID: 535541	UniProt:P0C869	PLA2G4B
+	PLA2G4D	cytosol	Reactome DB_ID: 1498792	UniProt:Q86XP0	PLA2G4D
+	PLA2G2F	cytosol	Reactome DB_ID: 1498796	UniProt:Q9BZM2	PLA2G2F
+	GPAT2	mitochondrial outer membrane			
+	AGPAT5	mitochondrial outer membrane	Reactome DB_ID: 1500585	UniProt:Q9NUQ2	AGPAT5
+	PLD2	endoplasmic reticulum membrane			
+	PNPLA3	endoplasmic reticulum membrane			
+	LPCAT4	endoplasmic reticulum membrane			
+	PLA2G4C	endoplasmic reticulum membrane	Reactome DB_ID: 1498799	UniProt:Q9UP65	PLA2G4C
+	GDE5	cytosol	Reactome DB_ID: 1498747	UniProt:Q9NPB8	GPCPD1
+	PEMT	endoplasmic reticulum membrane	Reactome DB_ID: 1498767	UniProt:Q9UBM1	PEMT
+	BCHE	plasma membrane			
+	CTL5	plasma membrane			
+	CHAT	cytosol	Reactome DB_ID: 264616	UniProt:P28329	CHAT
+	MBOAT2	endoplasmic reticulum membrane			
+	PTDSS1	endoplasmic reticulum membrane	Reactome DB_ID: 1498806	UniProt:P48651	PTDSS1
+	PSS2	endoplasmic reticulum membrane	Reactome DB_ID: 1498817	UniProt:Q9BVG9	PTDSS2
+	MBOAT1	endoplasmic reticulum membrane			
+	LPIAT	endoplasmic reticulum membrane	Reactome DB_ID: 1498778	UniProt:Q96N66	MBOAT7
+	PLA2G4E	cytosol			
+	PLD6	endoplasmic reticulum membrane			
+	LPGAT1	endoplasmic reticulum membrane			
+	PLA2G4F	cytosol			
+	iPLA2	mitochondrial inner membrane	Reactome DB_ID: 1524076	UniProt:O60733	PLA2G6
+	TAZ	mitochondrial inner membrane	Reactome DB_ID: 1299435	UniProt:Q16635	TAZ
+	PI4K2B	cytosol			
+	SACM1L	endoplasmic reticulum membrane	Reactome DB_ID: 1604637	UniProt:Q9NTJ5	SACM1L
+	PI4K2B	cytosol			
+	SACM1L	Golgi membrane	Reactome DB_ID: 1806242	UniProt:Q9NTJ5	SACM1L
+	TPTE	Golgi membrane			
+	INPP5E	cytosol			
+	PIP5K1C	cytosol			
+	SHIP2	cytosol			
+	INPP4B	cytosol			
+	SYNJ2	cytosol			
+	STM7	cytosol			
+	SYNJ2	cytosol			
+	PI4K2B	cytosol			
+	MTMR4	cytosol			
+	MTMR7	cytosol			
+_reactionName.size()	139
+	T	DHAP is converted to G3P by GPD1/GPD1L
+	T	G3P is acylated to 1-acyl LPA by AGPAT6
+	T	1-acyl LPA is acylated to PA by AGPAT (LPAAT)
+	T	PA is hydrolysed to 1-acyl LPA by PLA2[1]
+	T	PA is hydrolysed to 1-acyl LPA by PLA2G2A
+	T	G3P is acylated to 1-acyl LPA by GPAM/GPAT2 (OM)
+	T	1-acyl LPA is acylated to PA by AGPAT5 (OM)
+	T	PA is hydrolyzed to 1-acyl LPA by PLA2[1] (OM)
+	T	PC is hydrolyzed to PA and choline by PLD1/2
+	T	PA is hydrolyzed to 1-acyl LPA by PLA2[15]
+	T	TAG is hydrolyzed to DAG by PNPLA2/3
+	T	DAG is acylated to TAG by DGAT1/2
+	T	DAG is hydrolyzed to 2-MAG by PNPLA2/3
+	B	2-MAG is transacylated to DAG by PNPLA2/3
+	T	2-MAG and DAG are transacylated to TAG by PNPLA2/3
+	T	ETA is phosphorylated to PETA by CHK/ETNK
+	T	PETA is dephosphorylated to ETA by PHOSPHO1
+	T	PETA and CTP are condensed to CDP-ETA by PCY2
+	T	PA is dephosphorylated to DAG by LPIN
+	T	CDP-ETA and DAG are converted to PE by CEPT1/EPT1
+	T	PE is hydrolyzed to 1-acyl LPE by PLA2[2]
+	T	PE is hydrolyzed to 1-acyl LPE by PLA2[3]
+	T	1-acyl LPE is acylated to PE by LPEAT
+	T	PE is hydrolyzed to 2-acyl LPE by PLA2[4]
+	T	PE is hydrolyzed to 2-acyl LPE by PLA2G4C
+	T	2-acyl LPE is acylated to PE by LPEAT
+	T	PE is hydrolyzed to 1-acyl LPE by PLA2[16]
+	T	1-acyl LPE is hydrolyzed to GPETA by PLA2G4C
+	T	2-acyl LPE is hydrolyzed to GPETA by PLA2G4C
+	T	GPETA is hydrolyzed to ETA and G3P by GPCPD1
+	T	PE is methylated to PC by PEMT
+	T	Acetylcholine clearance from synaptic cleft
+	T	CTL1-5 can mediate the uptake of choline
+	T	Cho is phosphorylated to PCho by CHK dimer
+	T	PCho is dephosphorylated to Cho by PHOSPHO1
+	T	Synthesis of o-acetylcholine
+	T	PCho and CTP are condensed to CDP-Cho by PCYT1 dimer
+	T	CDP-Cho and DAG are converted to PC by CEPT1 at the ER membrane
+	T	PC is exchanged with PI by PITPNB
+	T	PC is hydrolyzed to 1-acyl LPC by PLA2[5]
+	T	PC is hydrolyzed to 1-acyl LPC by PLA2[6]
+	T	1-acyl LPC is acylated to PC by LPCAT
+	T	PC is hydrolysed to 2-acyl LPC by PLA2[7]
+	T	PC is hydrolyzed to 2-acyl LPC by PLA2G4C
+	T	2-acyl LPC is acylated to PC by LPCAT
+	T	PC is hydrolyzed to 1-acyl LPC by PLA2[16]
+	T	1-acyl LPC is hydrolyzed to GPCho by PLA2[8]
+	T	1-acyl LPC is hydrolyzed to GPCho by PLA2G4C
+	T	2-acyl LPC is hydrolyzed to GPCho by PLA2[8]
+	T	2-acyl LPC is hydrolyzed to GPCho by PLA2G4C
+	T	GPCho is hydrolyzed to Cho and G3P by GPCPD1
+	T	PC is converted to PS by PTDSS1
+	T	PE is converted to PS by PTDSS2
+	T	PS is hydrolyzed to 1-acyl LPS by PLA2[9]
+	T	PS is hydrolyzed to 1-acyl LPS by PLA2G2A
+	T	1-acyl LPS is acylated to PS by LPSAT
+	T	PS is hydrolyzed to 2-acyl LPS by PLA2[10]
+	T	2-acyl LPS is acylated to PS by LPSAT
+	T	PS is hydrolyzed to 1-acyl LPS by PLA2[15]
+	T	PA is converted to CDP-DAG by CDS1
+	T	CDP-DAG is converted to PI by CDIPT
+	T	PI is hydrolyzed to 1-acyl LPI by PLA2[11]
+	T	PI is hydrolyzed to 1-acyl LPI by PLA2[12]
+	T	1-acyl LPI is acylated to PI by MBOAT7
+	T	PI is hydrolyzed to 2-acyl LPI by PLA2[13]
+	T	2-acyl LPI is acylated to PI by MBOAT7
+	T	PI is hydrolyzed to 1-acyl LPI by PLA2[15]
+	T	PC is transphosphatidylated to PG by PLD1-4/6
+	T	PA transports from the outer to the inner mitochondrial membrane
+	T	PA is converted to CDP-DAG by CDS2
+	T	CDP-DAG is converted to PGP by PGS1
+	T	PTPMT1 dephosphorylates PGP to PG
+	T	PG is hydrolyzed to 1-acyl LPG by PLA2[1]
+	T	PG is hydrolyzed to 1-acyl LPG by PLA2G2A
+	T	1-acyl LPG is acylated to PG by LPGAT
+	T	PG is hydrolyzed to 2-acyl LPG by PLA2[14]
+	T	2-acyl LPG is acylated to PG by LPGAT
+	T	PG is hydrolyzed to 1-acyl LPG by PLA2G4B (IM)
+	T	PG is hydrolyzed to 1-acyl LPG by PLA2[16]
+	T	CL is hydrolyzed to MLCL by PLA2G6 (IM)
+	T	MLCL and PC are converted to CL and 1-acyl LPC by TAZ (IM) (Reversible)
+	T	CL and 1-acyl LPC are converted to MLCL and PC by TAZ (IM) (Reversible)
+	T	MLCL and PE are converted to CL and 1-acyl LPE by TAZ (IM) (Reversible)
+	T	CL and 1-acyl LPE are converted to MLCL and PE by TAZ (IM) (Reversible)
+	T	MLCL is acylated to CL by HADH (IM)
+	T	MLCL transports from the IM to the ER
+	T	MLCL is acylated to CL by LCLAT1 (ER)
+	T	MLCL is hydrolyzed to DLCL by PLA2G4A (IM)
+	T	DLCL is acylated to MLCL by LCLAT1 (ER)
+	T	PG transports from the ER membrane to the late endosome membrane
+	T	PG is converted to BMP
+	T	PI is phosphorylated to PI4P by PI4KA/2B at the ER membrane
+	T	PI4P is dephosphorylated to PI by SACM1L at the ER membrane
+	T	PI is phosphorylated to PI4P by PI4KA/2A/2B at the Golgi membrane
+	T	PI is phosphorylated to PI4P by PI4KB at the Golgi membrane
+	B	PI4P is dephosphorylated to PI by SACM1L at the Golgi membrane
+	T	PI is phosphorylated to PI3P by PIK3C2A/3 at the Golgi membrane
+	T	PI3P is dephosphorylated to PI by SACM1L at the Golgi membrane
+	T	PI3P is phosphorylated to PI(3,5)P2 by PIKFYVE at the Golgi membrane
+	T	PI(3,5)P2 is dephosphorylated to PI3P by FIG4 at the Golgi membrane
+	T	PI4P is phosphorylated to PI(3,4)P2 by PIK3C2A/G at the Golgi membrane
+	T	PI(3,4)P2 is dephosphorylated to PI4P by TPTE2 at the Golgi membrane
+	T	PI(4,5)P2 is dephosphorylated to PI4P by OCRL/INPP5E at the Golgi membrane
+	T	PI4P transports from the Golgi membrane to the plasma membrane
+	T	PI4P is phosphorylated to PI(4,5)P2 by PIP5K1A-C at the plasma membrane
+	T	PI(4,5)P2 is dephosphorylated to PI4P by SYNJ/INPP5[1] at the plasma membrane
+	T	PI(4,5)P2 is phosphorylated to PI(3,4,5)P3 by PIK3C[1] at the plasma membrane
+	T	PI(3,4,5)P3 is dephosphorylated to PI (4,5)P2 by PTEN at the plasma membrane
+	T	PI(3,4)P2 is phosphorylated to PI(3,4,5)P3 by PIP5K1A-C at the plasma membrane
+	T	PI(3,4,5)P3 is dephosphorylated to PI(3,4)P2 by INPP5[2] at the plasma membrane
+	T	PI4P is phosphorylated to PI(3,4)P2 by PI3K3C[2] at the plasma membrane
+	T	PI(3,4)P2 is dephosphorylated to PI4P by PTEN at the plasma membrane
+	T	PI3P is phosphorylated to PI(3,4)P2 by PIP4K2/5K1 at the plasma membrane
+	T	PI(3,4)P2 is dephosphorylated to PI3P by INPP4A/B at the plasma membrane
+	T	PI3P is dephosphorylated to PI by SYNJ/MTM[1] at the plasma membrane
+	T	PI is phosphorylated to PI5P by PIP5K1A/B at the plasma membrane
+	T	PI3P is phosphorylated to PI(3,5)P2 by PIP5K1A/B at the plasma membrane
+	T	PI(3,5)P2 is dephosphorylated to PI3P by SYNJ at the plasma membrane
+	T	PI(3,5)P2 is dephosphorylated to PI5P by SYNJ/MTM[1] at the plasma membrane
+	T	PI5P is phosphorylated to PI(4,5)P2 by PIP4K2A/B at the plasma membrane
+	T	PI is phosphorylated to PI4P by PI4K2A/B at the plasma membrane
+	T	PI4P is dephosphorylated to PI by SYNJ at the plasma membrane
+	T	PI(3,4)P2 is transported from the plasma membrane to the early endosome membrane
+	T	PI(3,4)P2 is dephosphorylated to PI3P by INPP4A/B at the early endosome membrane
+	T	PI3P is phosphorylated to PI(3,5)P2 by PIKFYVE at the early endosome membrane
+	T	PI(3,5)P2 is dephosphorylated to PI3P by FIG4 at the early endosome membrane
+	T	PI(3,5)P2 is dephosphorylated to PI5P by MTM[2] at the early endosome membrane
+	T	PI is phosphorylated to PI3P by PIK3C2A/3 at the early endosome membrane
+	T	PI3P is dephosphorylated to PI by MTM[2] at the early endosome membrane
+	T	PI is phosphorylated to PI4P by PI4K2A/B at the early endosome membrane
+	T	PI4P is phosphorylated to PI(3,4)P2 by PIK3C2A at the early endosome membrane
+	T	Presence of PI(3,5)P2 stimulates the maturation of the early endosome into the late endosome
+	T	PI3P is phosphorylated to PI(3,5)P2 by PIKFYVE at the late endosome membrane
+	T	PI(3,5)P2 is dephosphorylated to PI3P by FIG4 at the late endosome membrane
+	T	PI(3,5)P2 is dephosphorylated to PI5P by MTM[3] at the late endosome membrane
+	T	PI is phosphorylated to PI5P by PIKFYVE at the late endosome membrane
+	T	PI is phosphorylated to PI3P by PIK3C2A/3 at the late endosome membrane
+	T	PI3P is dephosphorylated to PI by MTM[3] at the late endosome membrane
+	T	PI(3,5)P2 transports from the late endosome membrane to the Golgi membrane
+_smallMoleculeName.size()	250
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	NADH	cytosol	Reactome DB_ID: 73473	NADH [ChEBI:16908]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	DHAP	cytosol	Reactome DB_ID: 75970	Dihydroxyacetone phosphate [ChEBI:16108]
+	G3P	cytosol	Reactome DB_ID: 76114	sn-Glycerol 3-phosphate [ChEBI:15978]
+	NADH	cytosol	Reactome DB_ID: 73473	NADH [ChEBI:16908]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	PA	endoplasmic reticulum membrane	Reactome DB_ID: 426755	Phosphatidic acid [ChEBI:16337]
+	CL	endoplasmic reticulum membrane	Reactome DB_ID: 1524081	cardiolipin [ChEBI:28494]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	CL	endoplasmic reticulum membrane	Reactome DB_ID: 1524081	cardiolipin [ChEBI:28494]
+	CL	mitochondrial inner membrane	Reactome DB_ID: 1524072	cardiolipin [ChEBI:28494]
+	DLCL	mitochondrial inner membrane	Reactome DB_ID: 1498753	2,2&apos;-dilyso cardiolipin [ChEBI:60431]
+	DLCL	mitochondrial inner membrane	Reactome DB_ID: 1498753	2,2&apos;-dilyso cardiolipin [ChEBI:60431]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	DLCL	endoplasmic reticulum membrane	Reactome DB_ID: 1524080	2,2&apos;-dilyso cardiolipin [ChEBI:60431]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	PG	endoplasmic reticulum membrane	Reactome DB_ID: 1483256	phosphatidylglycerol [ChEBI:17517]
+	PG	late endosome membrane	Reactome DB_ID: 1524139	phosphatidylglycerol [ChEBI:17517]
+	BMP	late endosome membrane	Reactome DB_ID: 1498732	lysobisphosphatidic acid [ChEBI:60815]
+	PI	endoplasmic reticulum membrane	Reactome DB_ID: 426639	ChEBI:16749 PI
+	PI4P	endoplasmic reticulum membrane	Reactome DB_ID: 1806234	ChEBI:17526 1-phosphatidyl-1D-myo-inositol 4-phosphates
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	PI4P	endoplasmic reticulum membrane	Reactome DB_ID: 1806234	ChEBI:17526 1-phosphatidyl-1D-myo-inositol 4-phosphates
+	PI4P	endoplasmic reticulum membrane	Reactome DB_ID: 1806234	ChEBI:17526 1-phosphatidyl-1D-myo-inositol 4-phosphates
+	PA	plasma membrane	Reactome DB_ID: 1602448	Phosphatidic acid [ChEBI:16337]
+	1-acyl LPA	plasma membrane	Reactome DB_ID: 1602447	ChEBI:16975 1-acyl-sn-glycerol 3-phosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PI4P	Golgi membrane	Reactome DB_ID: 1806217	ChEBI:17526 1-phosphatidyl-1D-myo-inositol 4-phosphates
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PI3P	Golgi membrane	Reactome DB_ID: 1806159	1-phosphatidyl-1D-myo-inositol 3-phosphate [ChEBI:17283]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	TAG	endoplasmic reticulum membrane	Reactome DB_ID: 1500594	ChEBI:17855 triacylglycerol
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PIP2	Golgi membrane	Reactome DB_ID: 1806165	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PIP2	Golgi membrane	Reactome DB_ID: 1806165	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PI(3,4)P2	plasma membrane	Reactome DB_ID: 202247	ChEBI:16152 1-phosphatidyl-1D-myo-inositol 3,4-bisphosphates
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PI3P	plasma membrane	Reactome DB_ID: 1806276	1-phosphatidyl-1D-myo-inositol 3-phosphate [ChEBI:17283]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PI(3,5)P2	plasma membrane	Reactome DB_ID: 1806224	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PI(3,4)P2	early endosome membrane	Reactome DB_ID: 1806238	ChEBI:16152 1-phosphatidyl-1D-myo-inositol 3,4-bisphosphates
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PI(3,5)P2	early endosome membrane	Reactome DB_ID: 1806205	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PI(3,5)P2	early endosome membrane	Reactome DB_ID: 1806205	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	PI(3,5)P2	early endosome membrane	Reactome DB_ID: 1806205	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PI5P	early endosome membrane	Reactome DB_ID: 1806259	ChEBI:16500 1-phosphatidyl-1D-myo-inositol 5-phosphate
+	PI(3,5)P2	early endosome membrane	Reactome DB_ID: 1806205	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	PI5P	early endosome membrane	Reactome DB_ID: 1806259	ChEBI:16500 1-phosphatidyl-1D-myo-inositol 5-phosphate
+	PI	early endosome membrane	Reactome DB_ID: 1806199	ChEBI:16749 PI
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	2-MAG	endoplasmic reticulum membrane	Reactome DB_ID: 1498728	2-monoglyceride [ChEBI:17389]
+	Glycerol	cytosol	Reactome DB_ID: 76116	Glycerol [ChEBI:17754]
+	PI(3,5)P2	early endosome membrane	Reactome DB_ID: 1806205	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	PI(3,5)P2	late endosome membrane	Reactome DB_ID: 1806289	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate [ChEBI:16851]
+	PI3P	late endosome membrane	Reactome DB_ID: 1806198	1-phosphatidyl-1D-myo-inositol 3-phosphate [ChEBI:17283]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PETA	cytosol	Reactome DB_ID: 428686	Ethanolamine phosphate [ChEBI:4881]
+	DHAP	cytosol	Reactome DB_ID: 75970	Dihydroxyacetone phosphate [ChEBI:16108]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	GO3P	cytosol	Reactome DB_ID: 75973	ChEBI:17197 O-alkylglycerone phosphates
+	CDP-ETA	cytosol	Reactome DB_ID: 1500603	CDPethanolamine [ChEBI:3270]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	CDP-ETA	cytosol	Reactome DB_ID: 1500603	CDPethanolamine [ChEBI:3270]
+	CMP	cytosol	Reactome DB_ID: 109395	CMP [ChEBI:17361]
+	CDP-ETA	cytosol	Reactome DB_ID: 1500603	CDPethanolamine [ChEBI:3270]
+	PS	mitochondrial inner membrane	Reactome DB_ID: 1500644	ChEBI:18303 phosphatidyl-L-serine
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	PE	mitochondrial inner membrane	Reactome DB_ID: 1524083	ChEBI:16038 phosphatidylethanolamine
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	PE	plasma membrane	Reactome DB_ID: 1602375	ChEBI:16038 phosphatidylethanolamine
+	1-acyl LPE	plasma membrane	Reactome DB_ID: 1602372	1-acyl-sn-glycero-3-phosphoethanolamine [ChEBI:29017]
+	PE	plasma membrane	Reactome DB_ID: 1602375	ChEBI:16038 phosphatidylethanolamine
+	1-acyl LPE	plasma membrane	Reactome DB_ID: 1602372	1-acyl-sn-glycero-3-phosphoethanolamine [ChEBI:29017]
+	GPETA	cytosol	Reactome DB_ID: 1524023	sn-Glycero-3-phosphoethanolamine [ChEBI:10647]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	GPETA	cytosol	Reactome DB_ID: 1524023	sn-Glycero-3-phosphoethanolamine [ChEBI:10647]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	GPETA	cytosol	Reactome DB_ID: 1524023	sn-Glycero-3-phosphoethanolamine [ChEBI:10647]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	2-acyl LPE	endoplasmic reticulum membrane	Reactome DB_ID: 1498729	2-acyl-sn-glycero-3-phosphoethanolamine [ChEBI:28936]
+	GPETA	cytosol	Reactome DB_ID: 1524023	sn-Glycero-3-phosphoethanolamine [ChEBI:10647]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	GPETA	cytosol	Reactome DB_ID: 1524023	sn-Glycero-3-phosphoethanolamine [ChEBI:10647]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	AdoHcy	cytosol	Reactome DB_ID: 71285	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	Cho	extracellular region	Reactome DB_ID: 264638	ChEBI:15354 Choline
+	AcCho	extracellular region	Reactome DB_ID: 372533	ChEBI:15355 O-acetylcholine
+	AcCho	extracellular region	Reactome DB_ID: 372533	ChEBI:15355 O-acetylcholine
+	acetate	extracellular region	Reactome DB_ID: 1524044	acetate [ChEBI:30089]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	CDP-Cho	cytosol	Reactome DB_ID: 1524060	CDPcholine [ChEBI:3268]
+	CTP	cytosol	Reactome DB_ID: 110614	CTP [ChEBI:17677]
+	CDP-Cho	cytosol	Reactome DB_ID: 1524060	CDPcholine [ChEBI:3268]
+	CDP-Cho	cytosol	Reactome DB_ID: 1524060	CDPcholine [ChEBI:3268]
+	DAG	Golgi membrane	Reactome DB_ID: 1524057	ChEBI:17815 1,2-diacyl-sn-glycerol
+	CDP-Cho	cytosol	Reactome DB_ID: 1524060	CDPcholine [ChEBI:3268]
+	1-acyl LPC	endoplasmic reticulum membrane	Reactome DB_ID: 1524028	NA
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	1-acyl LPC	endoplasmic reticulum membrane	Reactome DB_ID: 1524028	NA
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	GPCho	cytosol	Reactome DB_ID: 1498750	sn-Glycero-3-phosphocholine [ChEBI:10646]
+	1-acyl LPC	endoplasmic reticulum membrane	Reactome DB_ID: 1524028	NA
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	1-acyl LPS	endoplasmic reticulum membrane	Reactome DB_ID: 1498724	1-acyl-sn-glycero-3-phosphoserine [ChEBI:52603]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	2-acyl LPS	endoplasmic reticulum membrane	Reactome DB_ID: 1498722	2-acyl-sn-glycero-3-phosphoserine [ChEBI:37646]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	2-acyl LPS	endoplasmic reticulum membrane	Reactome DB_ID: 1498722	2-acyl-sn-glycero-3-phosphoserine [ChEBI:37646]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	2-acyl LPS	endoplasmic reticulum membrane	Reactome DB_ID: 1498722	2-acyl-sn-glycero-3-phosphoserine [ChEBI:37646]
+	PS	plasma membrane	Reactome DB_ID: 1602370	ChEBI:18303 phosphatidyl-L-serine
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	1-acyl LPA	mitochondrial outer membrane	Reactome DB_ID: 1500580	ChEBI:16975 1-acyl-sn-glycerol 3-phosphate
+	CTP	cytosol	Reactome DB_ID: 110614	CTP [ChEBI:17677]
+	CTP	cytosol	Reactome DB_ID: 110614	CTP [ChEBI:17677]
+	Ins	cytosol	Reactome DB_ID: 426910	ChEBI:17268 Inositol
+	1-acyl LPI	endoplasmic reticulum membrane	Reactome DB_ID: 1498733	1-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:28914]
+	1-acyl LPI	endoplasmic reticulum membrane	Reactome DB_ID: 1498733	1-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:28914]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	1-acyl LPI	endoplasmic reticulum membrane	Reactome DB_ID: 1498733	1-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:28914]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	1-acyl LPI	endoplasmic reticulum membrane	Reactome DB_ID: 1498733	1-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:28914]
+	2-acyl LPI	endoplasmic reticulum membrane	Reactome DB_ID: 1498737	2-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:62746]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	1-acyl LPI	plasma membrane	Reactome DB_ID: 1602420	1-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:28914]
+	1-acyl LPI	plasma membrane	Reactome DB_ID: 1602420	1-acyl-sn-glycero-3-phospho-D-myo-inositol [ChEBI:28914]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	PA	mitochondrial inner membrane	Reactome DB_ID: 1524101	Phosphatidic acid [ChEBI:16337]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	CDP-DAG	mitochondrial inner membrane	Reactome DB_ID: 1524064	ChEBI:17962 CDP-DAG
+	CTP	mitochondrial matrix	Reactome DB_ID: 110577	CTP [ChEBI:17677]
+	PPi	mitochondrial matrix	Reactome DB_ID: 159450	PPi [ChEBI:29888]
+	CMP	mitochondrial matrix	Reactome DB_ID: 1524067	CMP [ChEBI:17361]
+	CMP	mitochondrial matrix	Reactome DB_ID: 1524067	CMP [ChEBI:17361]
+	G3P	mitochondrial matrix	Reactome DB_ID: 188458	sn-Glycerol 3-phosphate [ChEBI:15978]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	PG	mitochondrial inner membrane	Reactome DB_ID: 1524042	phosphatidylglycerol [ChEBI:17517]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	acyl-CoA	cytosol	Reactome DB_ID: 1500578	acyl-CoA [ChEBI:2455]
+	2-acyl LPG	endoplasmic reticulum membrane	Reactome DB_ID: 1498730	2-acyl-sn-glycero-3-phosphoglycerol [ChEBI:27923]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	1-acyl LPG	mitochondrial inner membrane	Reactome DB_ID: 1524027	1-acyl-sn-glycero-3-phosphoglycerol [ChEBI:62747]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	1-acyl LPG	mitochondrial inner membrane	Reactome DB_ID: 1524027	1-acyl-sn-glycero-3-phosphoglycerol [ChEBI:62747]
+	CoA	mitochondrial matrix	Reactome DB_ID: 29374	CoA [ChEBI:15346]
+	acyl-CoA	mitochondrial matrix	Reactome DB_ID: 1524038	acyl-CoA [ChEBI:2455]
+	acyl-CoA	mitochondrial matrix	Reactome DB_ID: 1524038	acyl-CoA [ChEBI:2455]
+	1-acyl LPG	mitochondrial inner membrane	Reactome DB_ID: 1524027	1-acyl-sn-glycero-3-phosphoglycerol [ChEBI:62747]
+	LCFA(-)	mitochondrial outer membrane	Reactome DB_ID: 1524103	long-chain fatty acid anion [ChEBI:57560]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	2-acyl LPG	mitochondrial inner membrane	Reactome DB_ID: 1524047	2-acyl-sn-glycero-3-phosphoglycerol [ChEBI:27923]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	acyl-CoA	mitochondrial matrix	Reactome DB_ID: 1524038	acyl-CoA [ChEBI:2455]
+	2-acyl LPG	mitochondrial inner membrane	Reactome DB_ID: 1524047	2-acyl-sn-glycero-3-phosphoglycerol [ChEBI:27923]
+	acyl-CoA	mitochondrial matrix	Reactome DB_ID: 1524038	acyl-CoA [ChEBI:2455]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	1-acyl LPG	plasma membrane	Reactome DB_ID: 1602415	1-acyl-sn-glycero-3-phosphoglycerol [ChEBI:62747]
+	PG	plasma membrane	Reactome DB_ID: 1602402	phosphatidylglycerol [ChEBI:17517]
+	CMP	mitochondrial matrix	Reactome DB_ID: 1524067	CMP [ChEBI:17361]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	1-acyl LPC	mitochondrial inner membrane	Reactome DB_ID: 1524079	NA
+	PC	mitochondrial inner membrane	Reactome DB_ID: 1524075	1,2-diacyl-sn-glycero-3-phosphocholine [ChEBI:16110]
+	1-acyl LPC	mitochondrial inner membrane	Reactome DB_ID: 1524079	NA
+	1-acyl LPE	mitochondrial inner membrane	Reactome DB_ID: 1524089	1-acyl-sn-glycero-3-phosphoethanolamine [ChEBI:29017]
+	acyl-CoA	mitochondrial matrix	Reactome DB_ID: 1524038	acyl-CoA [ChEBI:2455]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	42
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	late endosome membrane
+	peroxisomal membrane
+	whole

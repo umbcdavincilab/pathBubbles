@@ -1,0 +1,121 @@
+edge.size() 30
+ 83 0 83 1 82 0 -1
+ 67 0 67 1 82 1 -1
+ 83 7 83 2 82 2 -1
+ 83 8 83 3 82 2 -1
+ 83 9 83 4 82 2 -1
+ 83 10 83 5 82 2 -1
+ 83 11 83 6 82 2 -1
+ 83 -1 83 -1 82 3 -1
+ 80 0 67 1 82 4 -1
+ 83 -1 67 1 82 4 -1
+ 67 2 83 12 82 5 -1
+ 67 2 67 1 82 5 -1
+ 83 14 67 1 82 5 -1
+ 83 15 83 13 82 5 -1
+ 83 9 67 1 82 5 -1
+ 67 3 67 4 82 6 -1
+ 83 16 67 4 82 7 -1
+ 80 3 83 -1 82 7 -1
+ 80 3 83 -1 82 7 -1
+ 83 16 83 19 82 8 -1
+ 83 17 83 20 82 8 -1
+ 83 9 83 21 82 8 -1
+ 83 18 83 0 82 8 -1
+ 80 -1 82 1 82 0 -1
+ 80 -1 82 1 82 1 -1
+ 80 0 82 1 82 2 -1
+ 80 -1 82 1 82 3 -1
+ 80 1 82 1 82 5 -1
+ 80 2 82 1 82 6 -1
+ 80 4 82 1 82 8 -1
+_complexName.size()	5
+	RLBP1:atROL	cytosol	Reactome DB_ID: 2465956	
+	RLBP1:11cROL	cytosol	Reactome DB_ID: 2454078	
+	RLBP1:11cRAL	cytosol	Reactome DB_ID: 2454060	
+	OPN1LW:11cRAL/OPN1MW:11cRAL/OPN1SW:11cRAL			
+	OPN1LW:atRAL/OPN1MW:atRAL/OPN1SW:atRAL			
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	RLBP1	cytosol	Reactome DB_ID: 74928	UniProt:P12271	RLBP1
+	RLBP1	cytosol	Reactome DB_ID: 2984237	UniProt:P12271	RLBP1
+	OPN1LW	photoreceptor outer segment membrane	Reactome DB_ID: 419769	UniProt:P04000	OPN1LW
+	OPN1SW	photoreceptor outer segment membrane			
+	DHRS3	photoreceptor outer segment membrane	Reactome DB_ID: 2980986	UniProt:O75911	DHRS3
+_reactionName.size()	9
+	T	RBP3 regulates atROL taken up by Muller cells
+	T	An atROL isomerase isomerises atROL to 11cROL
+	T	A REH hydrolyses 11cRE to 11cROL
+	T	11cROL translocates from Muller cells to cone photoreceptor cells
+	D	RLBP1 binds atROL
+	T	11cRDH oxidises 11cROL to 11cRAL
+	T	Photons induce isomerisation of 11cRAL to atRAL
+	T	atRAL is hydrolysed from R*
+	T	atRAL is reduced to atROL
+_smallMoleculeName.size()	22
+	atROL	cytosol	Reactome DB_ID: 2473607	all-trans-Retinol [ChEBI:17336]
+	atROL	cytosol	Reactome DB_ID: 2473617	all-trans-Retinol [ChEBI:17336]
+	11cRPALM	lipid particle	Reactome DB_ID: 2465964	11-cis-Retinyl palmitate [ChEBI:729]
+	11cROL	cytosol	Reactome DB_ID: 2473606	11-cis-Retinol [ChEBI:16302]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	11cROL	cytosol	Reactome DB_ID: 2473606	11-cis-Retinol [ChEBI:16302]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	11cRPALM	lipid particle	Reactome DB_ID: 2465964	11-cis-Retinyl palmitate [ChEBI:729]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PALM	early endosome	Reactome DB_ID: 76168	Palmitate [ChEBI:15756]
+	11cRPALM	lipid particle	Reactome DB_ID: 2465964	11-cis-Retinyl palmitate [ChEBI:729]
+	PALM	early endosome	Reactome DB_ID: 76168	Palmitate [ChEBI:15756]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

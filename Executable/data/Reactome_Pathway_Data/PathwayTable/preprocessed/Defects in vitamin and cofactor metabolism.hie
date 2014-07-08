@@ -1,0 +1,693 @@
+edge.size() 375
+ 83 -1 83 -1 82 -1 -1
+ 83 2 83 0 82 0 -1
+ 83 3 83 1 82 0 -1
+ 83 2 67 1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 1 83 4 82 1 -1
+ 67 1 67 -1 82 1 -1
+ 67 1 83 5 82 1 -1
+ 83 7 83 6 82 1 -1
+ 83 -1 83 2 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 8 82 -1 -1
+ 83 9 83 8 82 2 -1
+ 83 10 83 -1 82 2 -1
+ 83 9 83 13 82 3 -1
+ 83 11 83 14 82 3 -1
+ 83 12 83 15 82 3 -1
+ 83 16 83 -1 82 4 -1
+ 83 17 83 -1 82 4 -1
+ 83 -1 83 9 82 4 -1
+ 83 18 83 19 82 5 -1
+ 83 15 83 19 82 6 -1
+ 83 20 83 -1 82 6 -1
+ 83 -1 83 21 82 7 -1
+ 83 20 83 22 82 7 -1
+ 83 -1 83 23 82 7 -1
+ 83 10 83 24 82 8 -1
+ 83 20 83 17 82 8 -1
+ 83 17 83 -1 82 9 -1
+ 83 20 83 -1 82 9 -1
+ 83 3 83 25 82 10 -1
+ 83 27 83 26 82 10 -1
+ 83 15 83 28 82 11 -1
+ 83 29 83 27 82 11 -1
+ 83 15 83 -1 82 12 -1
+ 83 29 83 27 82 12 -1
+ 83 10 83 29 82 13 -1
+ 83 23 83 -1 82 13 -1
+ 83 30 83 -1 82 13 -1
+ 83 30 83 -1 82 14 -1
+ 83 34 83 31 82 15 -1
+ 83 35 83 32 82 15 -1
+ 83 23 83 33 82 15 -1
+ 83 15 83 36 82 16 -1
+ 83 38 83 37 82 16 -1
+ 83 38 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 38 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 15 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 15 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 15 83 39 82 19 -1
+ 83 40 83 -1 82 19 -1
+ 83 -1 83 41 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 17 83 -1 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 41 83 -1 82 21 -1
+ 83 -1 83 40 82 21 -1
+ 83 41 83 -1 82 22 -1
+ 83 -1 83 -1 82 22 -1
+ 83 -1 83 17 82 22 -1
+ 83 -1 83 -1 82 22 -1
+ 80 9 67 14 82 23 -1
+ 67 13 67 14 82 23 -1
+ 67 13 69 0 82 23 -1
+ 80 9 69 0 82 23 -1
+ 67 14 83 42 82 24 -1
+ 83 42 67 0 82 25 -1
+ 80 0 67 0 82 25 -1
+ 67 0 67 -1 82 26 -1
+ 67 -1 67 -1 82 26 -1
+ 67 -1 67 15 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 15 67 16 82 27 -1
+ 67 16 83 43 82 28 -1
+ 83 43 83 44 82 29 -1
+ 83 45 83 -1 82 30 -1
+ 67 17 83 4 82 30 -1
+ 67 17 80 10 82 30 -1
+ 67 17 83 44 82 30 -1
+ 67 17 80 10 82 30 -1
+ 83 -1 83 45 82 31 -1
+ 83 4 67 17 82 31 -1
+ 80 10 67 17 82 31 -1
+ 83 -1 67 17 82 31 -1
+ 80 10 67 17 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 80 10 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 67 17 67 18 82 32 -1
+ 80 11 67 18 82 32 -1
+ 67 18 83 -1 82 33 -1
+ 67 18 67 19 82 33 -1
+ 83 -1 67 21 82 34 -1
+ 67 20 67 21 82 34 -1
+ 83 45 83 -1 82 35 -1
+ 67 22 83 4 82 35 -1
+ 67 22 83 -1 82 35 -1
+ 67 22 67 21 82 35 -1
+ 67 22 67 21 82 35 -1
+ 83 47 83 -1 82 35 -1
+ 83 48 83 -1 82 35 -1
+ 83 49 67 21 82 35 -1
+ 83 -1 83 46 82 35 -1
+ 67 22 67 23 82 36 -1
+ 83 -1 67 23 82 36 -1
+ 67 22 83 -1 82 36 -1
+ 83 -1 83 50 82 37 -1
+ 67 23 67 22 82 37 -1
+ 67 23 67 22 82 37 -1
+ 67 18 83 -1 82 38 -1
+ 67 18 67 19 82 38 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 51 83 54 82 41 -1
+ 83 44 83 55 82 41 -1
+ 83 17 83 56 82 41 -1
+ 83 52 83 15 82 41 -1
+ 83 53 83 42 82 41 -1
+ 83 42 67 24 82 42 -1
+ 80 13 67 24 82 42 -1
+ 83 42 67 14 82 43 -1
+ 80 9 67 14 82 43 -1
+ 67 24 67 25 82 -1 -1
+ 80 -1 67 25 82 -1 -1
+ 67 25 67 -1 82 44 -1
+ 67 25 80 -1 82 44 -1
+ 67 -1 67 26 82 -1 -1
+ 67 26 80 14 82 45 -1
+ 67 26 83 43 82 45 -1
+ 83 3 83 -1 82 46 -1
+ 83 57 83 -1 82 46 -1
+ 83 10 83 58 82 47 -1
+ 83 23 83 57 82 47 -1
+ 67 28 67 27 82 47 -1
+ 67 28 67 27 82 47 -1
+ 67 28 83 59 82 47 -1
+ 83 10 83 60 82 48 -1
+ 83 23 83 57 82 48 -1
+ 67 30 67 29 82 48 -1
+ 67 30 67 29 82 48 -1
+ 67 30 83 61 82 48 -1
+ 67 32 83 62 82 49 -1
+ 67 32 83 57 82 49 -1
+ 67 32 67 31 82 49 -1
+ 83 10 67 31 82 49 -1
+ 83 23 83 63 82 49 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 34 67 33 82 50 -1
+ 67 34 83 64 82 50 -1
+ 67 34 83 57 82 50 -1
+ 83 10 83 65 82 50 -1
+ 83 23 67 33 82 50 -1
+ 67 -1 83 -1 82 51 -1
+ 67 -1 83 57 82 51 -1
+ 67 -1 67 -1 82 51 -1
+ 83 10 67 -1 82 51 -1
+ 83 23 83 -1 82 51 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 34 83 66 82 52 -1
+ 67 -1 83 66 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 66 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 17 82 -1 -1
+ 83 -1 83 67 82 53 -1
+ 83 23 83 4 82 53 -1
+ 83 69 83 68 82 53 -1
+ 83 70 83 74 82 54 -1
+ 83 71 83 75 82 54 -1
+ 83 72 83 76 82 54 -1
+ 83 73 83 77 82 54 -1
+ 83 23 83 -1 82 55 -1
+ 83 78 83 69 82 55 -1
+ 83 23 83 -1 82 56 -1
+ 83 78 83 69 82 56 -1
+ 83 -1 83 79 82 57 -1
+ 83 -1 83 -1 82 57 -1
+ 83 -1 83 78 82 57 -1
+ 83 -1 83 17 82 57 -1
+ 83 10 83 80 82 57 -1
+ 83 23 83 81 82 57 -1
+ 83 7 83 82 82 57 -1
+ 83 15 83 -1 82 58 -1
+ 83 45 83 7 82 58 -1
+ 83 83 83 85 82 59 -1
+ 83 17 83 86 82 59 -1
+ 83 84 83 87 82 59 -1
+ 83 23 83 88 82 60 -1
+ 83 69 83 89 82 60 -1
+ 83 23 83 4 82 61 -1
+ 83 69 83 90 82 61 -1
+ 83 -1 83 91 82 -1 -1
+ 83 91 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 62 -1
+ 83 4 83 -1 82 62 -1
+ 83 91 83 -1 82 62 -1
+ 83 -1 83 45 82 62 -1
+ 83 50 83 92 82 63 -1
+ 83 45 83 93 82 63 -1
+ 83 50 83 -1 82 64 -1
+ 83 94 83 -1 82 64 -1
+ 83 95 83 -1 82 64 -1
+ 83 96 83 -1 82 64 -1
+ 83 97 83 -1 82 64 -1
+ 83 98 83 -1 82 64 -1
+ 83 99 83 15 82 64 -1
+ 83 100 83 -1 82 65 -1
+ 83 101 83 -1 82 65 -1
+ 83 102 83 -1 82 65 -1
+ 83 15 83 -1 82 65 -1
+ 83 -1 83 -1 82 65 -1
+ 83 50 83 103 82 66 -1
+ 83 103 83 50 82 67 -1
+ 83 103 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 15 83 -1 82 -1 -1
+ 83 -1 83 104 82 -1 -1
+ 83 -1 83 105 82 68 -1
+ 83 4 83 -1 82 68 -1
+ 83 104 83 -1 82 68 -1
+ 83 -1 83 45 82 68 -1
+ 83 106 83 -1 82 69 -1
+ 83 107 83 -1 82 69 -1
+ 83 -1 83 108 82 69 -1
+ 83 -1 83 109 82 70 -1
+ 83 45 83 110 82 70 -1
+ 83 111 83 113 82 71 -1
+ 83 108 83 114 82 71 -1
+ 83 112 83 107 82 71 -1
+ 83 -1 83 -1 82 72 -1
+ 83 45 83 -1 82 72 -1
+ 83 -1 83 4 82 72 -1
+ 83 -1 83 104 82 72 -1
+ 83 -1 83 104 82 -1 -1
+ 83 -1 83 -1 82 73 -1
+ 83 23 83 -1 82 73 -1
+ 83 -1 83 17 82 73 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 83 -1 82 73 -1
+ 67 44 67 43 82 74 -1
+ 67 44 83 -1 82 74 -1
+ 83 -1 83 -1 82 74 -1
+ 80 22 67 44 82 75 -1
+ 80 22 80 21 82 75 -1
+ 80 22 83 -1 82 75 -1
+ 83 10 83 -1 82 75 -1
+ 83 23 80 21 82 75 -1
+ 67 46 67 44 82 75 -1
+ 67 46 83 -1 82 75 -1
+ 67 46 80 21 82 75 -1
+ 67 47 67 48 82 76 -1
+ 83 -1 67 48 82 76 -1
+ 83 17 67 48 82 76 -1
+ 67 47 83 4 82 76 -1
+ 67 47 83 -1 82 76 -1
+ 83 10 83 -1 82 -1 -1
+ 83 23 83 -1 82 -1 -1
+ 83 115 83 -1 82 -1 -1
+ 83 -1 83 -1 82 77 -1
+ 83 115 83 -1 82 77 -1
+ 83 -1 83 -1 82 77 -1
+ 80 -1 82 1 82 -1 -1
+ 80 2 82 1 82 0 -1
+ 67 1 82 1 82 -1 -1
+ 67 2 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 3 82 1 82 2 -1
+ 80 0 82 1 82 3 -1
+ 67 4 82 1 82 4 -1
+ 80 3 82 1 82 5 -1
+ 67 5 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+ 67 6 82 1 82 8 -1
+ 67 7 82 1 82 9 -1
+ 80 5 82 1 82 10 -1
+ 80 6 82 1 82 11 -1
+ 80 7 82 1 82 12 -1
+ 67 8 82 1 82 13 -1
+ 67 9 82 1 82 14 -1
+ 80 8 82 1 82 15 -1
+ 80 8 82 1 82 16 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 10 82 1 82 17 -1
+ 67 10 82 1 82 18 -1
+ 67 10 82 1 82 19 -1
+ 67 11 82 1 82 20 -1
+ 67 11 82 1 82 21 -1
+ 67 12 82 1 82 22 -1
+ 80 1 82 1 82 24 -1
+ 80 -1 82 1 82 29 -1
+ 80 10 82 1 82 30 -1
+ 80 10 82 1 82 31 -1
+ 67 21 82 1 82 35 -1
+ 67 22 82 1 82 36 -1
+ 67 23 82 1 82 37 -1
+ 80 -1 82 1 82 39 -1
+ 67 -1 82 1 82 40 -1
+ 67 -1 82 1 82 -1 -1
+ 80 12 82 1 82 41 -1
+ 80 -1 82 1 82 -1 -1
+ 80 5 82 1 82 46 -1
+ 80 15 82 1 82 47 -1
+ 80 15 82 1 82 48 -1
+ 80 15 82 1 82 49 -1
+ 80 15 82 1 82 50 -1
+ 80 15 82 1 82 51 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 52 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 16 82 1 82 53 -1
+ 67 35 82 1 82 54 -1
+ 67 36 82 1 82 55 -1
+ 67 37 82 1 82 56 -1
+ 67 38 82 1 82 57 -1
+ 67 39 82 1 82 58 -1
+ 80 2 82 1 82 59 -1
+ 80 17 82 1 82 60 -1
+ 67 40 82 1 82 61 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 18 82 1 82 62 -1
+ 80 18 82 1 82 63 -1
+ 80 19 82 1 82 64 -1
+ 80 19 82 1 82 65 -1
+ 80 20 82 1 82 66 -1
+ 80 20 82 1 82 67 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 68 -1
+ 67 -1 82 1 82 69 -1
+ 67 41 82 1 82 70 -1
+ 67 -1 82 1 82 71 -1
+ 67 -1 82 1 82 72 -1
+ 67 -1 82 1 82 -1 -1
+ 67 42 82 1 82 73 -1
+ 67 45 82 1 82 74 -1
+ 67 44 82 1 82 75 -1
+ 67 47 82 1 82 76 -1
+ 67 -1 82 1 82 -1 -1
+ 67 49 82 1 82 77 -1
+ 83 15 82 0 82 5 -1
+ 83 16 82 0 82 5 -1
+ 83 -1 82 1 82 61 -1
+_complexName.size()	50
+	GIF:Cbl	extracellular region	Reactome DB_ID: 3000147	
+	CYB5A:heme	mitochondrial outer membrane	Reactome DB_ID: 198808	
+	CYB5R3:FAD	mitochondrial outer membrane	Reactome DB_ID: 198850	
+	2xTPK1:Mg2+	cytosol	Reactome DB_ID: 196971	
+	THTPA:Mg2+	cytosol	Reactome DB_ID: 964948	
+	RFK:Mg2+	cytosol	Reactome DB_ID: 196954	
+	2xENPP1	plasma membrane	Reactome DB_ID: 196965	
+	2xTRAP	cytosol	Reactome DB_ID: 196946	
+	2xPPCS	cytosol	Reactome DB_ID: 196775	
+	3xPPCDC:3xFMN	cytosol	Reactome DB_ID: 196828	
+	2xPDXK:2xZn2+	cytosol	Reactome DB_ID: 965005	
+	2xPNPO:2xFMN	cytosol	Reactome DB_ID: 964943	
+	2xAOX1:cofactors	cytosol	Reactome DB_ID: 3204316	
+	Food proteins:Cbl	extracellular region	Reactome DB_ID: 3132775	
+	TCN1:Cbl	extracellular region	Reactome DB_ID: 3132765	
+	GIF:Cbl	endosome	Reactome DB_ID: 3000295	
+	GIF:Cbl	lysosomal lumen	Reactome DB_ID: 3000280	
+	MMACHC:cob(II)alamin	cytosol	Reactome DB_ID: 3095903	
+	MMACHC:MMADHC:B12r	cytosol	Reactome DB_ID: 3149533	
+	MMACHC:MMADHC	cytosol	Reactome DB_ID: 3149532	
+	MTRR:MTR	cytosol	Reactome DB_ID: 3204322	
+	MTRR:MTR(cob(II)alamin)	cytosol	Reactome DB_ID: 3149544	
+	MTRR:MTR(MeCbl)	cytosol	Reactome DB_ID: 3149551	
+	MTRR:MTR(cob(I)alamin)	cytosol	Reactome DB_ID: 3149516	
+	TCII:Cbl	extracellular region	Reactome DB_ID: 3000123	
+	TCII:Cbl:CD320	endosome membrane	Reactome DB_ID: 3000089	
+	TCII:Cbl	lysosomal lumen	Reactome DB_ID: 3000242	
+	6x(PCCA:PCCB)	cytosol	Reactome DB_ID: 2993809	
+	6x(Btn-PCCA:PCCB)	cytosol	Reactome DB_ID: 3323122	
+	4x(PC:Mn2+)	cytosol	Reactome DB_ID: 2993798	
+	4x(Btn-PC:Mn2+)	cytosol	Reactome DB_ID: 3323188	
+	6xMCCC1:6xMCCC2	cytosol	Reactome DB_ID: 3323185	
+	6x(Btn-MCCC1:MCCC2)	cytosol	Reactome DB_ID: 3323135	
+	ACACA:2Mn2+	cytosol	Reactome DB_ID: 2993826	
+	Btn-ACACA:2Mn2+	cytosol	Reactome DB_ID: 2993815	
+	NMNAT1 hexamer	nucleoplasm	Reactome DB_ID: 200489	
+	NMNAT2 (Mg2+)	cytosol	Reactome DB_ID: 197266	
+	4xNMNAT3:4xMg2+	cytosol	Reactome DB_ID: 200487	
+	NADSYN1 hexamer	cytosol	Reactome DB_ID: 197192	
+	4xNADK:Zn2+	cytosol	Reactome DB_ID: 197222	
+	2xNAPRT1	cytosol	Reactome DB_ID: 389377	
+	2xMTHFR	cytosol	Reactome DB_ID: 200713	
+	holo-MOCS1	cytosol	Reactome DB_ID: 947498	
+	MOCS3:Zn2+ (red.)	cytosol	Reactome DB_ID: 947543	
+	MOCS3-S-S(1-):Zn2+	cytosol	Reactome DB_ID: 947584	
+	2xNFS1:2xPXLP	cytosol	Reactome DB_ID: 947509	
+	MOCS3:Zn2+ (ox.)	cytosol	Reactome DB_ID: 947568	
+	2xMOCS2-CO-S(1-):2xMOCS2B	cytosol	Reactome DB_ID: 947582	
+	MOCS2 tetramer	cytosol	Reactome DB_ID: 947569	
+	MOCOS:PXLP	cytosol	Reactome DB_ID: 947511	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	23
+	GIF	extracellular region	Reactome DB_ID: 2980918	UniProt:P27352	GIF
+	CUBN	plasma membrane	Reactome DB_ID: 264843	UniProt:O60494	CUBN
+	SVCT2	plasma membrane			
+	SLC52A3	plasma membrane	Reactome DB_ID: 3165247	UniProt:Q9NQ40	SLC52A3
+	FLAD1	cytosol	Reactome DB_ID: 196980	UniProt:Q8NFF5	FLAD1
+	SMVT	plasma membrane	Reactome DB_ID: 199221	UniProt:Q9Y289	SLC5A6
+	PANK2	mitochondrial intermembrane space	Reactome DB_ID: 196803	UniProt:Q9BZ23	PANK2
+	PANK4	cytosol			
+	COASY	mitochondrial outer membrane	Reactome DB_ID: 196735	UniProt:Q13057	COASY
+	TCN1	extracellular region	Reactome DB_ID: 2980920	UniProt:P20061	TCN1
+	MMACHC	cytosol	Reactome DB_ID: 2980949	UniProt:Q9Y4U1	MMACHC
+	MMADHC	cytosol	Reactome DB_ID: 3149529	UniProt:Q9H3L0	MMADHC
+	ABCC1	plasma membrane	Reactome DB_ID: 266068	UniProt:P33527	ABCC1
+	TCN2	extracellular region	Reactome DB_ID: 2980925	UniProt:P20062	TCN2
+	TCII	lysosomal lumen	Reactome DB_ID: 3000262	UniProt:P20062	TCN2
+	HLCS	cytosol	Reactome DB_ID: 2993867	UniProt:P50747	HLCS
+	QPRT	cytosol	Reactome DB_ID: 197212	UniProt:Q15274	QPRT
+	NAMPT	cytosol	Reactome DB_ID: 197188	UniProt:P43490	NAMPT
+	DHFRL1	cytosol			
+	FPGS-2	cytosol	Reactome DB_ID: 197968	UniProt:Q05932-2	FPGS
+	SLC25A32	mitochondrial inner membrane	Reactome DB_ID: 200645	UniProt:Q9H2D1	SLC25A32
+	MOCS2	cytosol	Reactome DB_ID: 947542	UniProt:O96033	MOCS2
+	SOG-MOCS2	cytosol	Reactome DB_ID: 947517	UniProt:O96033	MOCS2
+_reactionName.size()	78
+	T	Ascorbate transport across the plasma membrane
+	T	CYB5R3:FAD reduces CYB5A:ferriheme to CYB5A:heme
+	T	Thiamin is pyrophosphorylated
+	T	ThDP + ATP <-> ThTP + ADP
+	T	THTPA:Mg2+ hydrolyzes ThTP to TDP
+	T	SLC52A3 transports extracellular RIB to cytosol
+	T	RFK:Mg2+ phosphorylates RIB
+	T	FLAD1 phosphorylates FMN
+	T	2xENPP1 hydrolyzes FAD to FMN
+	T	2xTRAP hydrolyzes FMN to RIB
+	T	SLC5A6 cotransports extracellular PanK and 2Na+ to cytosol
+	T	PANK2 phosphorylates PanK
+	T	PANK1/3/4 phosphorylate PanK
+	T	2xPPCS ligates PPanK with Cys
+	B	3xPPCDC:3FMN decarboxylates PPC
+	T	Adenylation of phosphopantetheine
+	T	COASY phosphorylates DP-CoA
+	T	2xPDXK:2xZn2+ phosphorylates PXL
+	T	Pyridoxamine is phosphorylated
+	T	Pyridoxine is phosphorylated
+	T	2xPNPO:2xFMN oxidizes PXAP to PXLP
+	T	2xPNPO:2xFMN oxidizes PDXP to PXLP
+	T	AOX1 oxidises PXL to PDXate
+	T	TCN1 binds Cbl
+	T	Pancreatic proteases degrade TCN1:Cbl
+	D	GIF binds Cbl
+	D	CUBN:AMN binds GIF:Cbl
+	T	Endosomal GIF:Cbl translocates to lysosome
+	T	GIF:Cbl is degraded to release Cbl
+	T	LMBRD1 transports lysosomal Cbl to cytosol
+	T	MMACHC reduces Cbl
+	T	MMACHC decyanates CNCbl
+	D	MMACHC:cob(II)alamin binds MMADHC
+	B	cob(II)alamin dissociates from MMACHC:MMADHC
+	D	cob(II)alamin binds to MTRR:MTR
+	T	MTRR reduces cob(II)alamin to meCbl
+	T	Methionine is reformed
+	T	MTR transfers CH3 group from MTHF to cob(I)alamin
+	B	MMADHC targets cytosolic cob(II)alamin for entry to mitochondria
+	T	Unknown reductase reduces cob(II)alamin to cob(I)alamin
+	T	MMAB transfers adenosyl group from ATP to cob(I)alamin
+	T	ABCC1 transports cytosolic Cbl to extracellular region
+	D	TCII binds Cbl in the circulation
+	D	TCN1 binds Cbl in the circulation
+	B	CD320:TCII:Cbl dissociates into CD320 and TCII:Cbl
+	B	TCII:Cbl is degraded to release Cbl
+	T	SLC5A6 cotransports extracellular Btn and 2xNa+ to cytosol
+	T	HLCS biotinylates PCCA:PCCB
+	T	HLCS biotinylates PC:Mn2+
+	T	HLCS biotinylates MCCC1:MCCC2
+	T	HLCS biotinylates ACACA
+	T	HLCS biotinylates ACACB
+	T	An unknown protease degrades ACACA
+	T	A phospho-ribosyl group is added to quinolinate
+	T	Nicotinate D-ribonucleotide + ATP => deamino-NAD+ + pyrophosphate [NMNAT1]
+	T	Nicotinate D-ribonucleotide + ATP => deamino-NAD+ + pyrophosphate [NMNAT2]
+	T	Nicotinate D-ribonucleotide + ATP => deamino-NAD+ + pyrophosphate [NMNAT3]
+	T	Amidation of deamino-NAD+ to NAD+
+	T	NAD+ is phosphorylated to NADP+
+	T	Deamination of nicotinamide to nicotinate
+	T	Condensation of nicotinamide to nicotinamide D-ribonucleotide (NMN)
+	T	A phosphoribosyl group is added to nicotinate to form nicotinate mononucleotide (NaMN)
+	T	Folate is reduced to dihydrofolate (DHF)
+	T	DHF is reduced to tetrahydrofolate (THF)
+	T	Conversion of cytosolic THF to THF-polyglutamate
+	T	Conversion of cytosolic 5-methyltetrahydrofolate (5-methylTHF) to 5-methylTHF-polyglutamate
+	T	Cytosolic tetrahydrofolate import across the inner mitochondrial membrane
+	T	Mitochondrial tetrahydrofolate export across the inner mitochondrial membrane
+	T	5,10-methenylTHF polyglutamate + NADPH + H+ <=> 5,10-methyleneTHF polyglutamate + NADP+
+	T	Tetrahydrofolate polyglutamate (THF polyglutamate) + serine <=> 5,10-methyleneTHF polyglutamate + glycine
+	T	5,10-methyleneTHF polyglutamate + NADPH + H+ => 5-methylTHF polyglutamate + NADP+
+	T	5,10-methyleneTHF polyglutamate + glycine <=> tetrahydrofolate polyglutamate (THF polyglutamate) + serine
+	T	5,10-methyleneTHF polyglutamate + NADP+ <=> 5,10-methenylTHF polyglutamate + NADPH + H+
+	T	Cyclisation of GTP to precursor Z
+	T	NFS1 transfers sulfur from cysteine onto MOCS3
+	T	Transfer of sulfur from MOCS3-S-S onto MOCS2A
+	T	Sulfhydrylation and ring cleavage of precursor Z
+	T	Exchange of oxygen with sulfur in MoCo
+_smallMoleculeName.size()	116
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	L-Met	cytosol	Reactome DB_ID: 174390	L-Methionine [ChEBI:16643]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	Precursor Z	cytosol	Reactome DB_ID: 947537	ChEBI:59648 Precursor Z(1-)
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	dADE	cytosol	Reactome DB_ID: 947703	5'-Deoxyadenosine [ChEBI:1960]
+	L-Ala	cytosol	Reactome DB_ID: 29432	L-Alanine [ChEBI:16977]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	MPT	cytosol	Reactome DB_ID: 947496	ChEBI:58698 molybdopterin(3-)
+	MoO4(2-)	cytosol	Reactome DB_ID: 947561	ChEBI:36264 molybdate(2-)
+	MoCo	cytosol	Reactome DB_ID: 947539	molybdopterin cofactor [ChEBI:25372]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	sulfurated MoCo	cytosol	Reactome DB_ID: 947575	ChEBI:60102 sulfurated MoCo
+	Cbl	extracellular region	Reactome DB_ID: 3000125	cob(III)alamin [ChEBI:28911]
+	Cbl	lysosomal lumen	Reactome DB_ID: 3000239	cob(III)alamin [ChEBI:28911]
+	RIB	extracellular region	Reactome DB_ID: 3165253	Riboflavin [ChEBI:8843]
+	RIB	cytosol	Reactome DB_ID: 196931	Riboflavin [ChEBI:8843]
+	Cbl	cytosol	Reactome DB_ID: 3000241	cob(III)alamin [ChEBI:28911]
+	AdoMet	cytosol	Reactome DB_ID: 71284	S-Adenosyl-L-methionine [ChEBI:15414]
+	HCYS	cytosol	Reactome DB_ID: 174369	Homocysteine [ChEBI:17230]
+	B12s	mitochondrial matrix	Reactome DB_ID: 3159260	Cob(I)alamin [ChEBI:3784]
+	L-MM-CoA	mitochondrial matrix	Reactome DB_ID: 71009	(R)-2-Methyl-3-oxopropanoyl-CoA [ChEBI:15465]
+	FAD	cytosol	Reactome DB_ID: 29386	FAD [ChEBI:16238]
+	FAD	cytosol	Reactome DB_ID: 29386	FAD [ChEBI:16238]
+	FAD	cytosol	Reactome DB_ID: 29386	FAD [ChEBI:16238]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	PanK	extracellular region	Reactome DB_ID: 199192	Pantothenate [ChEBI:7916]
+	PanK	extracellular region	Reactome DB_ID: 199192	Pantothenate [ChEBI:7916]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPANT	cytosol	Reactome DB_ID: 196767	Pantetheine 4'-phosphate [ChEBI:16858]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	DP-CoA	cytosol	Reactome DB_ID: 196778	Dephospho-CoA [ChEBI:4436]
+	PXA	cytosol	Reactome DB_ID: 964945	Pyridoxamine [ChEBI:8669]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PDX	cytosol	Reactome DB_ID: 965053	Pyridoxine [ChEBI:8671]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	VitC	extracellular region	Reactome DB_ID: 198836	Ascorbate [ChEBI:2868]
+	VitC	extracellular region	Reactome DB_ID: 198836	Ascorbate [ChEBI:2868]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	PDXate	cytosol	Reactome DB_ID: 3204324	4-Pyridoxate [ChEBI:1928]
+	SAM	cytosol	Reactome DB_ID: 1132227	S-Adenosyl-L-methionine [ChEBI:15414]
+	SAM	cytosol	Reactome DB_ID: 1132227	S-Adenosyl-L-methionine [ChEBI:15414]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	AdoHcy	cytosol	Reactome DB_ID: 71285	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	SAM	cytosol	Reactome DB_ID: 1132227	S-Adenosyl-L-methionine [ChEBI:15414]
+	AdoHcy	cytosol	Reactome DB_ID: 71285	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	THF	cytosol	Reactome DB_ID: 111355	Tetrahydrofolate [ChEBI:15635]
+	B12r	mitochondrial matrix	Reactome DB_ID: 3149564	Cob(II)alamin [ChEBI:3786]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	H+	mitochondrial matrix	Reactome DB_ID: 113529	H+ [ChEBI:15378]
+	PPP	mitochondrial matrix	Reactome DB_ID: 3159274	triphosphate ion [ChEBI:15266]
+	AdoCbl	mitochondrial matrix	Reactome DB_ID: 3159297	Cobamide coenzyme [ChEBI:18408]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	GSH	cytosol	Reactome DB_ID: 29450	Glutathione [ChEBI:16856]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	BCTN	mitochondrial matrix	Reactome DB_ID: 3065953	biocytin [ChEBI:27870]
+	Btn	mitochondrial matrix	Reactome DB_ID: 29582	Biotin [ChEBI:15956]
+	L-Lys	mitochondrial matrix	Reactome DB_ID: 29444	L-Lysine [ChEBI:18019]
+	THMN	extracellular region	Reactome DB_ID: 199622	Thiamin [ChEBI:9530]
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	Nicotinate D-ribonucleotide	cytosol	Reactome DB_ID: 197220	Nicotinate D-ribonucleotide [ChEBI:7561]
+	QUIN	cytosol	Reactome DB_ID: 197238	ChEBI:46828 quinolinate(1-)
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	DA-NAD+	nucleoplasm	Reactome DB_ID: 200499	Deamino-NAD+ [ChEBI:4340]
+	Nicotinate D-ribonucleotide	nucleoplasm	Reactome DB_ID: 200492	Nicotinate D-ribonucleotide [ChEBI:7561]
+	DA-NAD+	nucleoplasm	Reactome DB_ID: 200499	Deamino-NAD+ [ChEBI:4340]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	DA-NAD+	cytosol	Reactome DB_ID: 197256	Deamino-NAD+ [ChEBI:4340]
+	L-Glu	cytosol	Reactome DB_ID: 29404	L-Glutamate [ChEBI:16015]
+	L-Glu	cytosol	Reactome DB_ID: 29404	L-Glutamate [ChEBI:16015]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	L-Gln	cytosol	Reactome DB_ID: 29472	L-Glutamine [ChEBI:18050]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	PRPP	cytosol	Reactome DB_ID: 73566	5-phospho-alpha-D-ribose 1-diphosphate [ChEBI:17111]
+	FOLA	extracellular region	Reactome DB_ID: 200716	Folic acid [ChEBI:5140]
+	MTHF	extracellular region	Reactome DB_ID: 200709	5-Methyltetrahydrofolate [ChEBI:15641]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	THF	mitochondrial matrix	Reactome DB_ID: 200671	Tetrahydrofolate [ChEBI:15635]
+	ThTP	cytosol	Reactome DB_ID: 964965	Thiamin triphosphate [ChEBI:9534]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	ADP	mitochondrial matrix	Reactome DB_ID: 113581	ADP [ChEBI:16761]
+	Glu	mitochondrial matrix	Reactome DB_ID: 113552	L-Glutamate [ChEBI:16015]
+	THFPG	mitochondrial matrix	Reactome DB_ID: 200679	Tetrahydrofolyl-[Glu](n) [ChEBI:9484]
+	THFPG	mitochondrial matrix	Reactome DB_ID: 200679	Tetrahydrofolyl-[Glu](n) [ChEBI:9484]
+	Pi	mitochondrial matrix	Reactome DB_ID: 113548	Orthophosphate [ChEBI:18367]
+	5,10-MetTHFPG	cytosol	Reactome DB_ID: 200739	5,10-methylenetetrahydrofolate polyglutamate macromolecule [ChEBI:60473]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

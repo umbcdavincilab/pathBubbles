@@ -1,0 +1,187 @@
+edge.size() 88
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 83 -1 83 0 82 2 -1
+ 83 3 83 1 82 2 -1
+ 83 4 83 2 82 2 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 5 83 6 82 3 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 6 83 5 82 4 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 7 83 8 82 5 -1
+ 83 8 83 7 82 6 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 10 82 7 -1
+ 83 9 83 11 82 7 -1
+ 83 -1 83 12 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 13 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 13 83 14 82 9 -1
+ 83 16 83 15 82 9 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 17 83 18 82 10 -1
+ 83 15 83 16 82 11 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 19 83 21 82 12 -1
+ 83 15 83 22 82 12 -1
+ 83 20 83 23 82 12 -1
+ 83 13 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 1 80 6 82 15 -1
+ 67 1 83 -1 82 15 -1
+ 67 -1 80 6 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 80 6 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 82 1 82 0 -1
+ 80 -1 82 1 82 1 -1
+ 80 -1 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 80 0 82 1 82 3 -1
+ 80 -1 82 1 82 -1 -1
+ 80 0 82 1 82 4 -1
+ 80 -1 82 1 82 -1 -1
+ 80 1 82 1 82 5 -1
+ 80 1 82 1 82 6 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 7 -1
+ 80 2 82 1 82 8 -1
+ 80 3 82 1 82 9 -1
+ 80 -1 82 1 82 -1 -1
+ 80 4 82 1 82 10 -1
+ 80 4 82 1 82 11 -1
+ 80 -1 82 1 82 -1 -1
+ 67 0 82 1 82 12 -1
+ 80 5 82 1 82 13 -1
+ 80 5 82 1 82 14 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 15 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	2
+	6xSLC35D1	endoplasmic reticulum membrane	Reactome DB_ID: 174388	
+	albumin:bile salt and acid (OATP-A) complex	extracellular region	Reactome DB_ID: 194110	
+_physicalEntityName.size()	0
+_proteinName.size()	7
+	ENT2	plasma membrane			
+	SLC29A3	lysosomal membrane	Reactome DB_ID: 727733	UniProt:Q9BZD2	SLC29A3
+	SLC35A2	Golgi membrane	Reactome DB_ID: 735686	UniProt:P78381	SLC35A2
+	SLC35A3	Golgi membrane	Reactome DB_ID: 741452	UniProt:Q9Y2D2	SLC35A3
+	YEA4	Golgi membrane	Reactome DB_ID: 742365	UniProt:Q969S0	SLC35B4
+	HFRC	Golgi membrane	Reactome DB_ID: 744235	UniProt:Q76EJ3	SLC35D2
+	ALB	extracellular region	Reactome DB_ID: 194115	UniProt:P02768	ALB
+_reactionName.size()	16
+	T	Na+-dependent multivitamin transporter
+	T	Concentrative transport (import) of a nucleoside and a sodium ions by solute carrier family 28 (sodium-coupled nucleoside transporter), member 1
+	T	Concentrative transport (import) of a nucleoside and two sodium ions by solute carrier family 28 (sodium-coupled nucleoside transporter), member 3
+	T	Equilibrative transport (export) of nucleosides and free bases by solute carrier family 29 (nucleoside transporters), member 1
+	T	Equilibrative transport (import) of nucleosides and free bases by solute carrier family 29 (nucleoside transporters), member 1
+	T	Equilibrative transport (export) of nucleosides and adenine by solute carrier family 29 (nucleoside transporters), member 3
+	T	Equilibrative transport (import) of nucleosides and adenine by solute carrier family 29 (nucleoside transporters), member 3
+	T	SLC35A1 exchanges CMP-Neu5Ac for CMP
+	T	SLC35A2 mediates the antiport of UDP-Gal and UDP-GalNAc in exchange for UMP
+	T	SLC35A3 mediates the antiport of UDP-GlcNAc in exchange for UMP
+	T	SLC35B4 mediates the transport of UDP-xylose into the Golgi lumen
+	T	SLC35B4 mediates the transport of UDP-N-acetylglucosamine into the Golgi lumen
+	T	UDP-glucuronate transport from the cytosol to ER lumen
+	T	SLC35D2 exchanges UDP-sugars for UMP
+	T	SLC35D2 mediates the antiport of GDP-mannose in exchange for GMP
+	B	Transport (influx) of bile salts and acids by OATP-A
+_smallMoleculeName.size()	24
+	CMP	Golgi lumen	Reactome DB_ID: 727810	CMP [ChEBI:17361]
+	CMP	cytosol	Reactome DB_ID: 109395	CMP [ChEBI:17361]
+	CMP-SA	cytosol	Reactome DB_ID: 727803	ChEBI:59434 CMP-sialic acid
+	CMP-SA	cytosol	Reactome DB_ID: 727803	ChEBI:59434 CMP-sialic acid
+	CMP-Neu5Ac	Golgi lumen	Reactome DB_ID: 727815	CMP-N-acetylneuraminate [ChEBI:3278]
+				
+				
+	UDP-GlcNAc	cytosol	Reactome DB_ID: 162756	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+				
+				
+				
+				
+	UDP-GlcNAc	endoplasmic reticulum lumen	Reactome DB_ID: 3499326	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+				
+	UMP	Golgi lumen	Reactome DB_ID: 735698	UMP [ChEBI:16695]
+				
+	GDP-Man	cytosol	Reactome DB_ID: 162860	GDP-alpha-D-mannose [ChEBI:15820]
+	GDP-Man	Golgi lumen	Reactome DB_ID: 744233	GDP-alpha-D-mannose [ChEBI:15820]
+	GMP	Golgi lumen	Reactome DB_ID: 744239	GMP [ChEBI:17345]
+	GMP	cytosol	Reactome DB_ID: 113578	GMP [ChEBI:17345]
+	GDP-Man	cytosol	Reactome DB_ID: 162860	GDP-alpha-D-mannose [ChEBI:15820]
+	GMP	cytosol	Reactome DB_ID: 113578	GMP [ChEBI:17345]
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

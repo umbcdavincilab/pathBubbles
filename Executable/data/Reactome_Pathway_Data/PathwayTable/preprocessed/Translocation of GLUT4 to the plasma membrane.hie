@@ -1,0 +1,176 @@
+edge.size() 73
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 0 83 -1 82 -1 -1
+ 67 -1 67 -1 82 0 -1
+ 67 0 67 -1 82 0 -1
+ 83 0 80 1 82 1 -1
+ 80 2 83 1 82 1 -1
+ 80 2 83 2 82 1 -1
+ 67 0 67 2 82 2 -1
+ 80 2 67 2 82 2 -1
+ 67 4 83 3 82 3 -1
+ 67 4 67 3 82 3 -1
+ 83 4 67 3 82 3 -1
+ 67 4 67 3 82 4 -1
+ 67 6 67 5 82 5 -1
+ 67 6 83 5 82 5 -1
+ 83 0 83 6 82 5 -1
+ 83 4 67 7 82 6 -1
+ 67 8 83 7 82 6 -1
+ 67 8 83 8 82 6 -1
+ 67 8 67 10 82 7 -1
+ 67 9 67 10 82 7 -1
+ 69 0 67 10 82 7 -1
+ 67 8 67 7 82 8 -1
+ 67 8 83 9 82 8 -1
+ 83 0 80 3 82 9 -1
+ 67 11 83 10 82 9 -1
+ 67 11 69 0 82 9 -1
+ 67 11 69 0 82 9 -1
+ 67 -1 67 12 82 10 -1
+ 67 10 67 12 82 10 -1
+ 80 7 80 -1 82 11 -1
+ 80 7 67 -1 82 11 -1
+ 80 7 83 11 82 11 -1
+ 80 7 80 6 82 11 -1
+ 80 7 67 14 82 11 -1
+ 80 -1 67 14 82 11 -1
+ 80 -1 80 6 82 11 -1
+ 80 -1 83 12 82 11 -1
+ 80 -1 67 -1 82 11 -1
+ 80 -1 80 -1 82 11 -1
+ 83 0 67 14 82 11 -1
+ 80 8 80 6 82 11 -1
+ 80 8 83 13 82 11 -1
+ 80 8 67 -1 82 11 -1
+ 80 8 80 -1 82 11 -1
+ 80 8 67 14 82 11 -1
+ 67 15 80 6 82 11 -1
+ 67 15 83 14 82 11 -1
+ 67 15 67 -1 82 11 -1
+ 67 15 80 -1 82 11 -1
+ 67 15 67 14 82 11 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 1 82 1 82 1 -1
+ 67 4 82 1 82 4 -1
+ 80 -1 82 1 82 5 -1
+ 67 8 82 1 82 8 -1
+ 80 -1 82 1 82 9 -1
+ 80 4 82 1 82 10 -1
+ 80 5 82 1 82 10 -1
+ 67 11 82 1 82 10 -1
+ 67 10 82 1 82 10 -1
+ 80 1 82 1 82 4 -1
+ 80 0 82 1 82 4 -1
+ 67 5 82 1 82 8 -1
+ 67 13 82 1 82 10 -1
+ 67 -1 82 1 82 10 -1
+ 67 4 82 1 82 10 -1
+ 67 -1 82 1 82 10 -1
+_complexName.size()	16
+	14-3-3 eta dimer/14-3-3 gamma dimer/14-3-3 sigma dimer/14-3-3 theta dimer/14-3-3zeta dimer/YWHAB dimer/YWHAE dimer			
+	AMPK-alpha2:AMPK-beta:AMPK-gamma:AMP	cytosol	Reactome DB_ID: 1454683	
+	p-S237-TBC1D1:14-3-3	cytosol	Reactome DB_ID: 1454696	
+	RAB8A/10/13/14:GDP	cytoplasmic vesicle membrane	Reactome DB_ID: 1445130	
+	RAB8A/10/13/14:GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1445137	
+	RGC1:RGC2	cytosol	Reactome DB_ID: 1458509	
+	RGC1:phospho-RGC2	cytosol	Reactome DB_ID: 1458472	
+	RALA:GDP	cytoplasmic vesicle membrane	Reactome DB_ID: 1458466	
+	RALA:GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1458506	
+	MYO1C:CALM1	cytosol	Reactome DB_ID: 2316345	
+	RALA:GTP:MYO1C:Calmodulin:F-actin	cytoplasmic vesicle membrane	Reactome DB_ID: 2316344	
+	p-S1652-MYO5A:F-actin	cytosol	Reactome DB_ID: 2316339	
+	RALA:GTP:MYO1C:Exocyst	cytoplasmic vesicle membrane	Reactome DB_ID: 2316343	
+	RAB11A:GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1458542	
+	STX4:STXBP3 (MUNC18C)	plasma membrane	Reactome DB_ID: 2263479	
+	VAMP2:STX4:SNAP23	plasma membrane	Reactome DB_ID: 1449628	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	9
+	AS160	cytoplasmic vesicle membrane	Reactome DB_ID: 1445122	UniProt:O60343	TBC1D4
+	TBC1D1	cytoplasmic vesicle membrane	Reactome DB_ID: 1454718	UniProt:Q86TI0	TBC1D1
+	TBC1D1	cytosol	Reactome DB_ID: 1454673	UniProt:Q86TI0	TBC1D1
+	MYO5A	cytosol	Reactome DB_ID: 1428499	UniProt:Q9Y4I1	MYO5A
+	MYH15	cytosol			
+	MYH13	cytosol			
+	SNAP23	plasma membrane	Reactome DB_ID: 376345	UniProt:O00161	SNAP23
+	STXBP3	plasma membrane	Reactome DB_ID: 2263472	UniProt:O00186	STXBP3
+	GLUT4	plasma membrane	Reactome DB_ID: 70383	UniProt:P14672	SLC2A4
+_reactionName.size()	12
+	D	14-3-3 Binds Phosphorylated AS160 (TBC1D4)
+	T	AMPK-alpha2 Phosphorylates TBC1D1
+	D	14-3-3 Binds Phosphorylated TBC1D1
+	T	RAB8A/10/13/14 Exchange GDP for GTP
+	T	RAB8A/10/13/14 Hydrolyze GTP
+	T	AKT2 Phosphorylates RGC2
+	T	Activation of RALA
+	D	RALA:GTP Activates MYO1C
+	B	RALA Hydrolyzes GTP
+	T	AKT2 Phosphorylates Myosin 5A
+	D	Translocation of GLUT4 Vesicle and Docking at the Plasma Membrane
+	T	Fusion of GLUT4 Vesicle with the Plasma Membrane
+_smallMoleculeName.size()	15
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytoplasmic vesicle membrane	Reactome DB_ID: 1996291	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,166 @@
+edge.size() 88
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 0 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 80 1 67 0 82 1 -1
+ 80 2 67 0 82 1 -1
+ 69 0 67 2 82 2 -1
+ 67 0 67 2 82 2 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 0 83 4 82 3 -1
+ 83 1 83 5 82 3 -1
+ 83 2 83 6 82 3 -1
+ 83 3 83 7 82 3 -1
+ 80 4 67 3 82 4 -1
+ 80 5 67 3 82 4 -1
+ 67 3 67 4 82 5 -1
+ 69 1 67 4 82 5 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 3 82 1 82 3 -1
+ 67 4 82 1 82 6 -1
+_complexName.size()	5
+	CP	cytosol	Reactome DB_ID: 879384	
+	LRRC16A:F-actin capping protein	cytosol	Reactome DB_ID: 994154	
+	F-actin capping protein:f-actin	cytosol	Reactome DB_ID: 994173	
+	NF-E2	nucleoplasm	Reactome DB_ID: 1008229	
+	NF-E2:Promoter region of beta-globin	nucleoplasm	Reactome DB_ID: 1008206	
+_physicalEntityName.size()	2
+		
+		
+_proteinName.size()	6
+	LRRC16A	cytosol	Reactome DB_ID: 994131	UniProt:Q5VZK9	LRRC16A
+	CAPZA2	cytosol			
+	CAPZB	cytosol	Reactome DB_ID: 879409	UniProt:P47756	CAPZB
+	AK3	mitochondrial matrix	Reactome DB_ID: 1008241	UniProt:Q9UIJ7	AK3
+	MAFK	nucleoplasm			
+	NFE2	nucleoplasm	Reactome DB_ID: 1008221	UniProt:Q16621	NFE2
+_reactionName.size()	7
+	D	LRRC16A binds F-actin capping protein
+	D	F-actin capping protein is a heterodimer
+	D	F-actin capping protein binds to the barbed end of elongating F-actin
+	T	Adenylate Kinase 3 is a GTP-AMP phosphotransferase
+	D	NFE2 is a heterodimer
+	D	NFE2 binds the beta globin locus control region
+	B	Expression of globin genes under control of the beta globin control region
+_smallMoleculeName.size()	8
+	GDP	mitochondrial matrix	Reactome DB_ID: 113525	GDP [ChEBI:17552]
+	Single-stranded DNA	nucleoplasm	Reactome DB_ID: 29868	NA
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	I(3,4,5,6)P4	cytosol	Reactome DB_ID: 994149	1D-myo-Inositol 3,4,5,6-tetrakisphosphate [ChEBI:813]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	I(1,3,4,5,6)P5	cytosol	Reactome DB_ID: 994141	1D-myo-Inositol 1,3,4,5,6-pentakisphosphate [ChEBI:807]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

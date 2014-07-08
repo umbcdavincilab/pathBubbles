@@ -1,0 +1,100 @@
+edge.size() 18
+ 83 0 83 1 82 0 -1
+ 83 1 83 8 82 1 -1
+ 83 2 83 9 82 1 -1
+ 83 3 83 10 82 1 -1
+ 83 4 83 11 82 1 -1
+ 83 5 83 12 82 1 -1
+ 83 6 83 13 82 1 -1
+ 83 7 83 0 82 1 -1
+ 83 1 83 20 82 2 -1
+ 83 14 83 21 82 2 -1
+ 83 15 83 22 82 2 -1
+ 83 16 83 23 82 2 -1
+ 83 17 83 24 82 2 -1
+ 83 18 83 25 82 2 -1
+ 83 19 83 0 82 2 -1
+ 80 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 80 1 82 1 82 2 -1
+_complexName.size()	1
+	ABCG2 dimer	plasma membrane	Reactome DB_ID: 917863	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	OCT3	plasma membrane			
+	ABCB1	plasma membrane	Reactome DB_ID: 1457534	UniProt:P08183	ABCB1
+_reactionName.size()	3
+	T	abacavir [extracellular] => abacavir [cytosol]
+	T	ABCG2-mediated abacavir efflux
+	T	ABCB1-mediated abacavir efflux
+_smallMoleculeName.size()	26
+	abacavir	extracellular region	Reactome DB_ID: 2161525	abacavir [ChEBI:421707]
+	abacavir	cytosol	Reactome DB_ID: 2161185	abacavir [ChEBI:421707]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

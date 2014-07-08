@@ -1,0 +1,105 @@
+edge.size() 44
+ 83 0 83 1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 2 83 -1 82 1 -1
+ 83 -1 83 0 82 1 -1
+ 83 2 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 0 83 2 82 2 -1
+ 83 3 83 5 82 2 -1
+ 83 4 83 6 82 2 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 2 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 82 1 82 0 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 0 82 1 82 2 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	0
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	SLC25A21	mitochondrial inner membrane	Reactome DB_ID: 372474	UniProt:Q9BQT8	SLC25A21
+_reactionName.size()	3
+	T	lysine + alpha-ketoglutarate +NADPH + H+ => saccharopine + NADP+ + H2O
+	T	alpha-aminoadipate + alpha-ketoglutarate <=> alpha-ketoadipate + glutamate
+	T	Exchange of cytosolic 2-oxoadipate for mitochondrial 2-oxoglutarate
+_smallMoleculeName.size()	7
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	L-Lys	mitochondrial matrix	Reactome DB_ID: 29444	L-Lysine [ChEBI:18019]
+	2AMA	mitochondrial matrix	Reactome DB_ID: 508531	L-2-Aminoadipate [ChEBI:17082]
+	2-oxoadipate	cytosol	Reactome DB_ID: 113577	2-Oxoadipate [ChEBI:15753]
+	2-oxoadipate	cytosol	Reactome DB_ID: 113577	2-Oxoadipate [ChEBI:15753]
+	2OG	cytosol	Reactome DB_ID: 29406	2-Oxoglutarate [ChEBI:30915]
+	2OG	cytosol	Reactome DB_ID: 29406	2-Oxoglutarate [ChEBI:30915]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,22 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 62, 38)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>PathBubble1</Type>
+            <Position>(331, 459)</Position>
+            <Size>(400,400)</Size>
+            <BoarderColor>(41, 107, 214)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>TGF</FileName>
+            <DescendantBubble/>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition/>
+        </Bubble>
+    </Group>
+</Scene>

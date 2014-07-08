@@ -1,0 +1,65 @@
+edge.size() 6
+ 80 0 67 0 82 0 -1
+ 67 0 67 2 82 1 -1
+ 83 0 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 2 67 3 82 2 -1
+ 80 0 67 3 82 2 -1
+_complexName.size()	4
+	FN1 dimer	extracellular region	Reactome DB_ID: 266103	
+	Integrin alpha5beta1	plasma membrane	Reactome DB_ID: 202730	
+	Integrin alpha5beta1:FN1 dimer	plasma membrane	Reactome DB_ID: 202708	
+	Integrin alpha5beta1:Fibronectin matrix	plasma membrane	Reactome DB_ID: 2327790	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	FN	extracellular region	Reactome DB_ID: 54851	UniProt:P02751	FN1
+_reactionName.size()	3
+	T	FN1 dimerizes
+	D	Integrin alpha5beta1 binds FN1 dimer
+	D	FN1 aggregation
+_smallMoleculeName.size()	1
+	Mn2+	extracellular region	Reactome DB_ID: 266099	Manganese [ChEBI:18291]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

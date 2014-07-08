@@ -1,0 +1,3 @@
+cd('E:\448467660@qq.com\VisBubble1.1\winQt_Test\data\Florida_2007_paper_I');
+[ dr_wrist , dr_wingtip ] = downstroke_ratio( 30 );
+[ f ] = wingbeat_frequency( 30 );

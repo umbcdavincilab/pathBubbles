@@ -1,0 +1,199 @@
+edge.size() 101
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 1 80 0 82 0 -1
+ 67 0 83 0 82 0 -1
+ 67 0 67 -1 82 0 -1
+ 67 0 67 -1 82 0 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 67 -1 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 83 1 83 2 82 2 -1
+ 83 4 83 3 82 2 -1
+ 80 -1 67 2 82 3 -1
+ 83 4 67 2 82 3 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 4 67 -1 82 -1 -1
+ 83 1 83 5 82 4 -1
+ 67 3 67 -1 82 4 -1
+ 67 3 67 -1 82 4 -1
+ 67 2 67 5 82 5 -1
+ 67 3 67 5 82 5 -1
+ 67 2 67 5 82 6 -1
+ 67 2 83 6 82 6 -1
+ 83 1 83 7 82 6 -1
+ 80 3 67 5 82 6 -1
+ 80 3 83 8 82 6 -1
+ 83 1 83 9 82 7 -1
+ 80 5 80 4 82 7 -1
+ 80 5 80 4 82 7 -1
+ 83 1 80 6 82 8 -1
+ 80 7 83 10 82 8 -1
+ 80 7 83 11 82 8 -1
+ 67 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 4 67 -1 82 -1 -1
+ 83 1 67 -1 82 9 -1
+ 67 -1 83 12 82 9 -1
+ 67 -1 83 13 82 9 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 6 67 -1 82 10 -1
+ 67 -1 67 -1 82 10 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 1 67 -1 82 11 -1
+ 67 6 83 14 82 11 -1
+ 67 6 80 2 82 11 -1
+ 67 6 80 2 82 11 -1
+ 67 -1 83 15 82 11 -1
+ 67 -1 67 -1 82 11 -1
+ 67 -1 80 2 82 11 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 16 82 12 -1
+ 67 -1 67 -1 82 12 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 1 80 8 82 13 -1
+ 67 -1 83 17 82 13 -1
+ 67 -1 67 -1 82 13 -1
+ 67 -1 67 -1 82 13 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 2 82 1 82 0 -1
+ 67 1 82 1 82 2 -1
+ 67 4 82 1 82 4 -1
+ 67 5 82 1 82 6 -1
+ 80 3 82 1 82 7 -1
+ 80 5 82 1 82 8 -1
+ 80 1 82 1 82 9 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 2 82 1 82 11 -1
+ 67 6 82 1 82 12 -1
+ 80 8 82 1 82 13 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 0 82 4 -1
+_complexName.size()	7
+	phospho CD28:B7-1/B7-2	plasma membrane	Reactome DB_ID: 388777	
+	CD28:PI3K	plasma membrane	Reactome DB_ID: 388783	
+	PDK1:PIP3	plasma membrane	Reactome DB_ID: 377179	
+	p-S-AKT:PIP3	plasma membrane	Reactome DB_ID: 2317310	
+	TORC2 complex	cytosol	Reactome DB_ID: 198626	
+	p-S-AKT:PDPK1:PIP3	plasma membrane	Reactome DB_ID: 2317313	
+	PP2A	cytosol	Reactome DB_ID: 196206	
+_physicalEntityName.size()	0
+_proteinName.size()	9
+	LCK	cytosol			
+	FYN	cytosol	Reactome DB_ID: 200917	UniProt:P06241	FYN
+	LCK	cytosol			
+	AKT3	cytosol			
+	Cot	cytosol	Reactome DB_ID: 389388	UniProt:P41279	MAP3K8
+	p-S400-Cot	cytosol	Reactome DB_ID: 389738	UniProt:P41279	MAP3K8
+	Nik	cytosol	Reactome DB_ID: 168189	UniProt:Q99558	MAP3K14
+	p-Nik	cytosol	Reactome DB_ID: 168187	UniProt:Q99558	MAP3K14
+	LCK	cytosol			
+_reactionName.size()	14
+	T	Phosphorylation of CD28
+	D	PI3K binds CD28
+	T	CD28 bound PI3K phosphorylates PIP2 to PIP3
+	D	PIP3 recruits PDPK1 to the membrane
+	T	TORC2 (mTOR) phosphorylates AKT at S473
+	D	AKT binds PDPK1
+	T	PDPK1 phosphorylates AKT at T308
+	T	AKT interacts and phosphorylates Cot
+	T	p-S400-Cot phosphorylates NIK
+	T	Activation of Vav1
+	D	PP2A binds CTLA4 homodimer
+	T	Phosphorylation of CTLA-4
+	B	Dephosphorylation of AKT by PP2A
+	T	Phosphorylation of PD-1
+_smallMoleculeName.size()	18
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PIP3	plasma membrane	Reactome DB_ID: 179838	ChEBI:16618 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

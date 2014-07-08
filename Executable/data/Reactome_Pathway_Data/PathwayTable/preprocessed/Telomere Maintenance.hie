@@ -1,0 +1,222 @@
+edge.size() 82
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 83 0 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 83 1 67 3 82 3 -1
+ 83 2 67 3 82 3 -1
+ 67 2 67 3 82 3 -1
+ 83 3 67 3 82 3 -1
+ 83 4 67 3 82 3 -1
+ 67 3 67 4 82 4 -1
+ 83 5 67 5 82 5 -1
+ 67 3 67 5 82 5 -1
+ 83 6 67 5 82 5 -1
+ 83 7 67 5 82 5 -1
+ 83 4 67 5 82 5 -1
+ 67 5 83 8 82 6 -1
+ 67 5 67 0 82 6 -1
+ 83 9 67 8 82 7 -1
+ 67 6 67 8 82 7 -1
+ 67 6 67 9 82 7 -1
+ 83 10 67 9 82 7 -1
+ 83 11 67 10 82 8 -1
+ 67 9 67 10 82 8 -1
+ 83 12 67 10 82 8 -1
+ 83 13 67 10 82 8 -1
+ 83 4 67 10 82 8 -1
+ 67 10 67 12 82 9 -1
+ 67 11 67 12 82 9 -1
+ 67 11 67 7 82 9 -1
+ 67 10 67 7 82 9 -1
+ 67 13 83 16 82 10 -1
+ 67 12 83 17 82 10 -1
+ 83 14 83 18 82 10 -1
+ 83 15 67 14 82 10 -1
+ 67 12 67 14 82 10 -1
+ 67 13 67 14 82 10 -1
+ 67 14 67 15 82 11 -1
+ 67 14 67 11 82 11 -1
+ 67 16 67 17 82 12 -1
+ 67 15 67 17 82 12 -1
+ 67 17 67 18 82 13 -1
+ 83 19 67 18 82 13 -1
+ 83 20 67 18 82 13 -1
+ 83 21 67 18 82 13 -1
+ 83 4 67 18 82 13 -1
+ 67 18 67 19 82 14 -1
+ 67 19 67 21 82 15 -1
+ 67 20 67 21 82 15 -1
+ 80 6 67 22 82 16 -1
+ 67 21 67 22 82 16 -1
+ 67 22 80 6 82 17 -1
+ 67 22 83 22 82 17 -1
+ 67 22 83 23 82 17 -1
+ 67 22 83 24 82 17 -1
+ 67 22 67 23 82 17 -1
+ 67 22 83 25 82 17 -1
+ 67 22 67 20 82 17 -1
+ 67 23 67 24 82 18 -1
+ 67 24 67 25 82 19 -1
+ 67 25 67 13 82 20 -1
+ 67 25 67 16 82 20 -1
+ 67 25 67 26 82 20 -1
+ 80 9 67 29 82 21 -1
+ 67 27 67 29 82 21 -1
+ 67 28 67 29 82 21 -1
+ 67 26 67 29 82 21 -1
+ 80 9 67 30 82 22 -1
+ 67 27 67 30 82 22 -1
+ 67 28 67 30 82 22 -1
+ 67 26 67 30 82 22 -1
+ 67 0 82 1 82 3 -1
+ 67 0 82 1 82 5 -1
+ 67 7 82 1 82 7 -1
+ 67 7 82 1 82 8 -1
+ 67 16 82 1 82 13 -1
+ 80 7 82 1 82 18 -1
+ 80 8 82 1 82 19 -1
+ 80 2 82 1 82 0 -1
+ 80 3 82 1 82 0 -1
+ 80 4 82 1 82 0 -1
+ 80 5 82 1 82 0 -1
+_complexName.size()	31
+	Telomerase RNP	nucleoplasm	Reactome DB_ID: 163101	
+	Telomerase RNP Bound to the Telomeric Chromosome End	nucleoplasm	Reactome DB_ID: 163088	
+	Telomerase RNP Bound and base-paired to the Telomeric Chromosome End	nucleoplasm	Reactome DB_ID: 164683	
+	Telomerase RNP:Telomeric Chromosome End with an Additional single Stranded Telomere repeat	nucleoplasm	Reactome DB_ID: 163098	
+	Telomerase Holoenzyme Base-paired to the Telomeric Chromosome End with an Additional single Stranded Telomere repeat	nucleoplasm	Reactome DB_ID: 164684	
+	Telomerase Holoenzyme:Telomeric RNP End with Two Additional Single Stranded Telomere Repeats	nucleoplasm	Reactome DB_ID: 164619	
+	DNA polymerase alpha:primase:DNA polymerase alpha:G-strand extended telomere end	nucleoplasm	Reactome DB_ID: 174473	
+	primosome	nucleoplasm	Reactome DB_ID: 68507	
+	DNA polymerase epsilon	nucleoplasm	Reactome DB_ID: 68483	
+	RNA primer:G-strand extended telomere end:DNA polymerase alpha:primase complex	nucleoplasm	Reactome DB_ID: 174434	
+	RNA primer-DNA primer:G-strand extended telomere	nucleoplasm	Reactome DB_ID: 174433	
+	RFC Heteropentamer	nucleoplasm	Reactome DB_ID: 68436	
+	RFC Heteropentamer:RNA primer-DNA primer:G-strand extended telomere end	nucleoplasm	Reactome DB_ID: 174454	
+	PCNA homotrimer	nucleoplasm	Reactome DB_ID: 68440	
+	RFC Heteropentamer:RNA primer-DNA primer:G-strand extended telomere end duplex:PCNA homotrimer	nucleoplasm	Reactome DB_ID: 174449	
+	RNA primer-DNA primer:G-strand extended telomere:PCNA 	nucleoplasm	Reactome DB_ID: 174450	
+	DNA Polymerase delta tetramer	nucleoplasm	Reactome DB_ID: 68450	
+	Processive complex loaded on telomere	nucleoplasm	Reactome DB_ID: 174453	
+	Processive complex loaded on telomere:Okazaki fragment complex	nucleoplasm	Reactome DB_ID: 174435	
+	Processive complex loaded on telomere:Okazaki fragment:Flap	nucleoplasm	Reactome DB_ID: 174431	
+	RPA heterotrimer	nucleoplasm	Reactome DB_ID: 68462	
+	Processive complex loaded on telomere:Okazaki fragment:Flap:RPA heterotrimer	nucleoplasm	Reactome DB_ID: 174436	
+	Processive complex loaded on telomere:Okazaki fragment:Flap:RPA heterotrimer:dna2	nucleoplasm	Reactome DB_ID: 174442	
+	Processive complex loaded on telomere:Okazaki fragments:Remaining Flap	nucleoplasm	Reactome DB_ID: 174440	
+	Processive complex loaded on telomere:nicked DNA from adjacent Okazaki fragments	nucleoplasm	Reactome DB_ID: 174432	
+	Processive complex loaded on telomere:ligated C-strand Okazaki fragments	nucleoplasm	Reactome DB_ID: 176394	
+	Extended And Processed Telomere End	nucleoplasm	Reactome DB_ID: 176706	
+	Shelterin complex	nucleoplasm	Reactome DB_ID: 174898	
+	Nucleosome	nucleoplasm	Reactome DB_ID: 181921	
+	Extended And Processed Telomere End and Associated DNA Binding and Packaging Protein Complex	nucleoplasm	Reactome DB_ID: 176703	
+	Extended And Processed Telomere End and Associated DNA Binding and Packaging Protein Complex Folded Into Higher Order Structure	nucleoplasm	Reactome DB_ID: 182751	
+_physicalEntityName.size()	0
+_proteinName.size()	10
+	TERT	nucleoplasm	Reactome DB_ID: 163076	UniProt:O14746	TERT
+	DKC1	nucleoplasm	Reactome DB_ID: 163102	UniProt:O60832	DKC1
+	RUVBL2	nucleoplasm	Reactome DB_ID: 418321	UniProt:Q9Y230	RUVBL2
+	RUVBL1	nucleoplasm	Reactome DB_ID: 418323	UniProt:Q9Y265	RUVBL1
+	TCAB1	nucleoplasm	Reactome DB_ID: 418386	UniProt:Q9BUR4	WRAP53
+	NHP2	nucleoplasm	Reactome DB_ID: 418325	UniProt:Q9NX24	NHP2
+	DNA2	nucleoplasm	Reactome DB_ID: 68465	UniProt:P51530	DNA2
+	MF1	nucleoplasm	Reactome DB_ID: 54745	UniProt:P39748	FEN1
+	LIG1	nucleoplasm	Reactome DB_ID: 53787	UniProt:P18858	LIG1
+	POT1	nucleoplasm	Reactome DB_ID: 174890	UniProt:Q9NUX5	POT1
+_reactionName.size()	23
+	D	Biogenesis And Assembly Of The Telomerase RNP
+	D	Recruitment of Telomerase RNP to the Telomeric Chromosome End
+	T	Alignment Of The RNA Template On The Telomeric Chromosome End
+	D	Elongation Of The Telomeric Chromosome End
+	T	Translocation Of Telomerase RNP And Alignment Of RNA Template (TERC) To Extended Single Stranded Telomeric Chromosome-End
+	D	Elongation of Extended Telomeric Chromosome End
+	B	Disassociation of Telomerase RNP and the Chromosome End
+	T	The primase component of DNA polymerase:primase synthesizes a 6-10 nucleotide RNA primer on the G strand of the telomere
+	D	The polymerase component of DNA polymerase alpha:primase synthesizes a 20-nucleotide primer on the G strand of the telomere
+	T	RFC binding displaces Pol Alpha on the C-strand of the telomere
+	T	Loading of PCNA - Sliding Clamp Formation on the C-strand of the telomere
+	B	RFC dissociates after sliding clamp formation on the C-strand of the telomere
+	D	Formation of Processive Complex on the C-strand of the telomere
+	D	Formation of C-strand Okazaki fragments
+	T	Formation of the Flap Intermediate on the C-strand
+	D	RPA binds to the Flap on the C-strand
+	D	Recruitment of Dna2 endonuclease to the C strand
+	B	Removal of RNA primer and dissociation of RPA and Dna2 from the C-strand
+	T	Removal of remaining Flap from the C-strand
+	T	Joining of adjacent Okazaki fragments of the C-strand
+	B	Disassociation of Processive Complex and Completed Telomere End
+	D	Incorporation Of Extended And Processed Telomere End Into Associated Protein Structure
+	D	Incorporation Of Extended And Processed Telomere End Into Higher Order T-Loop And Associated Protein Structure
+_smallMoleculeName.size()	26
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	dGTP	nucleoplasm	Reactome DB_ID: 29892	dGTP [ChEBI:16497]
+	dATP	nucleoplasm	Reactome DB_ID: 29604	dATP [ChEBI:16284]
+	TTP	nucleoplasm	Reactome DB_ID: 30187	dTTP [ChEBI:18077]
+	dCTP	nucleoplasm	Reactome DB_ID: 30185	dCTP [ChEBI:16311]
+	AMP	nucleoplasm	Reactome DB_ID: 164121	adenosine 5'-monophosphate [ChEBI:16027]
+	UMP	nucleoplasm	Reactome DB_ID: 418075	UMP [ChEBI:16695]
+	CMP	nucleoplasm	Reactome DB_ID: 418076	CMP [ChEBI:17361]
+	GMP	nucleoplasm	Reactome DB_ID: 29626	GMP [ChEBI:17345]
+	G-strand chromosome end - Telomeric	nucleoplasm	Reactome DB_ID: 163089	polynucleotide [ChEBI:15986]
+	dGTP	nucleoplasm	Reactome DB_ID: 29892	dGTP [ChEBI:16497]
+	dATP	nucleoplasm	Reactome DB_ID: 29604	dATP [ChEBI:16284]
+	TTP	nucleoplasm	Reactome DB_ID: 30187	dTTP [ChEBI:18077]
+	dGTP	nucleoplasm	Reactome DB_ID: 29892	dGTP [ChEBI:16497]
+	dATP	nucleoplasm	Reactome DB_ID: 29604	dATP [ChEBI:16284]
+	TTP	nucleoplasm	Reactome DB_ID: 30187	dTTP [ChEBI:18077]
+	NNNNNNNNNNNTTAGGGTTATTAGGGTTATTAGGGTTA - 3' (in human)	nucleoplasm	Reactome DB_ID: 163085	polynucleotide [ChEBI:15986]
+				
+				
+	dGTP	nucleoplasm	Reactome DB_ID: 29892	dGTP [ChEBI:16497]
+	dATP	nucleoplasm	Reactome DB_ID: 29604	dATP [ChEBI:16284]
+	TTP	nucleoplasm	Reactome DB_ID: 30187	dTTP [ChEBI:18077]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

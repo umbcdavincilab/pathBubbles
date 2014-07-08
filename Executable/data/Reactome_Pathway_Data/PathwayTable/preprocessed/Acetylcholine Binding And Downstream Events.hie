@@ -1,0 +1,88 @@
+edge.size() 21
+ 67 0 67 1 82 0 -1
+ 83 0 67 1 82 0 -1
+ 83 1 67 0 82 1 -1
+ 67 0 67 0 82 1 -1
+ 67 0 83 2 82 1 -1
+ 83 1 83 2 82 1 -1
+ 67 2 67 3 82 2 -1
+ 83 0 67 3 82 2 -1
+ 67 2 83 4 82 3 -1
+ 83 3 83 4 82 3 -1
+ 83 3 67 2 82 3 -1
+ 67 2 67 2 82 3 -1
+ 67 4 67 5 82 4 -1
+ 83 0 67 5 82 4 -1
+ 67 4 67 4 82 5 -1
+ 83 1 67 4 82 5 -1
+ 83 1 83 2 82 5 -1
+ 67 4 83 2 82 5 -1
+ 67 0 82 1 82 1 -1
+ 67 2 82 1 82 3 -1
+ 67 4 82 1 82 5 -1
+_complexName.size()	6
+	Acetylcholine Receptors alpha4(3)-beta2(2)/Acetylcholine Receptor (homomeric)/Acetylcholine receptor alpha3-beta2-aplha5/Acetylcholine receptor alpha3-beta4-apha5/Acetylcholine receptor alpha6 beta3 beta4/Acetylcholine receptors alpha2(3)  beta3(2)/acetylcholine receptor alpha6 aplha4 beta3			
+	0-acteylcholine bound to calcium permeable nictonic acteylcholine receptor complex	plasma membrane	Reactome DB_ID: 629600	
+	Acetylcholine Receptor alpha4(2)-beta2(3) subunits/Acetylcholine receptor alpha3(2)-beta4(3)/Acetylcholine receptor alpha3-beta4			
+	O-Acetylcholine bound to Acetylcholine receptor	plasma membrane	Reactome DB_ID: 629590	
+	Acetylcholine receptor containing alpha7 subunit/Acetylcholine Receptor (homomeric)			
+	O-acteylcholine bound to calcium permeable postsynaptic nicotinic acetylcholine receptors	plasma membrane	Reactome DB_ID: 629592	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	6
+	D	Binding of acetylcholine to highly calcium permeable acetylcholine receptors
+	T	Activation of highly calcium permeable nicotinic acetylcholine receptors
+	D	Binding of acetylcholine to  highly sodium permeable acetylcholine receptors
+	T	Activation of highly sodium permeable nicotinic acetylcholine receptors
+	D	Binding of acetylcholine to  highly calcium permeable postsynaptic nicotinic acetylcholine receptors
+	T	Activation of highly calcium permeable postsynaptic nicotinic acetylcholine receptors
+_smallMoleculeName.size()	5
+	AcCho	extracellular region	Reactome DB_ID: 372533	ChEBI:15355 O-acetylcholine
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

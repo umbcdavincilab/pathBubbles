@@ -1,0 +1,251 @@
+edge.size() 108
+ 83 1 83 0 82 0 -1
+ 67 1 67 0 82 0 -1
+ 67 1 67 0 82 0 -1
+ 80 2 80 3 82 1 -1
+ 83 1 80 4 82 2 -1
+ 80 5 83 2 82 2 -1
+ 80 5 83 3 82 2 -1
+ 67 2 80 5 82 3 -1
+ 67 2 67 1 82 3 -1
+ 80 5 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 68 0 67 3 82 4 -1
+ 67 1 67 3 82 4 -1
+ 68 1 80 6 82 5 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 1 83 4 82 6 -1
+ 80 8 80 7 82 6 -1
+ 80 8 80 7 82 6 -1
+ 83 1 83 5 82 7 -1
+ 80 8 80 7 82 7 -1
+ 80 8 80 7 82 7 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 80 11 83 6 82 8 -1
+ 80 11 80 10 82 8 -1
+ 83 1 80 10 82 8 -1
+ 83 1 83 7 82 9 -1
+ 80 8 80 7 82 9 -1
+ 80 8 80 7 82 9 -1
+ 80 11 83 8 82 10 -1
+ 80 11 80 10 82 10 -1
+ 83 1 80 10 82 10 -1
+ 80 12 83 9 82 11 -1
+ 80 12 80 9 82 11 -1
+ 83 1 80 9 82 11 -1
+ 83 1 80 13 82 12 -1
+ 80 14 83 10 82 12 -1
+ 80 14 83 11 82 12 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 16 83 12 82 13 -1
+ 80 16 80 15 82 13 -1
+ 83 1 80 15 82 13 -1
+ 83 1 67 -1 82 -1 -1
+ 67 5 83 -1 82 -1 -1
+ 67 5 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 6 67 7 82 14 -1
+ 69 0 67 7 82 14 -1
+ 67 4 67 8 82 15 -1
+ 67 7 67 8 82 15 -1
+ 67 9 67 10 82 16 -1
+ 67 7 67 10 82 16 -1
+ 67 11 67 -1 82 -1 -1
+ 67 10 67 -1 82 -1 -1
+ 67 12 67 13 82 17 -1
+ 80 17 67 13 82 17 -1
+ 67 14 83 13 82 18 -1
+ 67 14 67 13 82 18 -1
+ 83 1 67 13 82 18 -1
+ 83 1 80 13 82 19 -1
+ 80 14 83 14 82 19 -1
+ 80 14 83 15 82 19 -1
+ 80 18 67 15 82 20 -1
+ 69 1 67 15 82 20 -1
+ 80 19 67 16 82 21 -1
+ 67 15 67 16 82 21 -1
+ 67 16 67 17 82 22 -1
+ 67 17 80 20 82 23 -1
+ 67 17 67 15 82 23 -1
+ 80 20 67 18 82 24 -1
+ 80 21 67 18 82 24 -1
+ 80 20 67 19 82 25 -1
+ 80 22 67 19 82 25 -1
+ 80 21 67 19 82 25 -1
+ 80 23 67 19 82 25 -1
+ 67 19 67 21 82 26 -1
+ 67 20 67 21 82 26 -1
+ 80 1 82 1 82 0 -1
+ 80 1 82 1 82 1 -1
+ 80 1 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 0 82 1 82 6 -1
+ 80 9 82 1 82 7 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 1 82 1 82 8 -1
+ 80 10 82 1 82 9 -1
+ 67 4 82 1 82 10 -1
+ 80 1 82 1 82 11 -1
+ 80 0 82 1 82 12 -1
+ 80 10 82 1 82 13 -1
+ 80 15 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 10 82 1 82 -1 -1
+ 67 4 82 1 82 18 -1
+ 80 11 82 1 82 19 -1
+ 67 3 82 1 82 5 -1
+_complexName.size()	22
+	TP53 Tetramer	nucleoplasm	Reactome DB_ID: 3209194	
+	p-S15-TP53 Tetramer	nucleoplasm	Reactome DB_ID: 349474	
+	p-S387-RFWD2:p-S15-TP53	nucleoplasm	Reactome DB_ID: 349420	
+	p-15-TP53 Tetramer:CDKN1A Gene	nucleoplasm	Reactome DB_ID: 3786257	
+	ATR-ATRIP	nucleoplasm	Reactome DB_ID: 176269	
+	CCNB1:p-T14,Y15,T161-CDK1	nucleoplasm	Reactome DB_ID: 170065	
+	RPA heterotrimer	nucleoplasm	Reactome DB_ID: 68462	
+	RPA-ssDNA complex	nucleoplasm	Reactome DB_ID: 176293	
+	ATR-ATRIP-RPA-ssDNA signaling complex	nucleoplasm	Reactome DB_ID: 176281	
+	Rad17-RFC complex	nucleoplasm	Reactome DB_ID: 176353	
+	Rad17-RFC complex bound to DNA	nucleoplasm	Reactome DB_ID: 176204	
+	9-1-1 complex	nucleoplasm	Reactome DB_ID: 176312	
+	Cdc45:CDK:DDK:Mcm10:pre-replicative complex	nucleoplasm	Reactome DB_ID: 68564	
+	claspin bound to DNA replication fork	nucleoplasm	Reactome DB_ID: 176229	
+	Activated claspin bound to DNA replication fork	nucleoplasm	Reactome DB_ID: 176182	
+	Mad1:kinetochore complex	cytosol	Reactome DB_ID: 141441	
+	Kinetochore:Mad1:MAD2 Complex	cytosol	Reactome DB_ID: 141427	
+	Kinetochore:Mad1:MAD2* Complex	cytosol	Reactome DB_ID: 141432	
+	MAD2*CDC20 complex	cytosol	Reactome DB_ID: 141408	
+	hBUBR1:hBUB3:MAD2*:CDC20 complex	cytosol	Reactome DB_ID: 141440	
+	phosphorylated anaphase promoting complex (APC/C)	cytosol	Reactome DB_ID: 174191	
+	MCC:APC/C complex	cytosol	Reactome DB_ID: 141410	
+_physicalEntityName.size()	2
+		
+		
+_proteinName.size()	24
+	TP53	nucleoplasm	Reactome DB_ID: 69488	UniProt:P04637	TP53
+	p-S1981-ATM	nucleoplasm	Reactome DB_ID: 75145	UniProt:Q13315	ATM
+	MDM2	nucleoplasm	Reactome DB_ID: 69486	UniProt:Q00987	MDM2
+	Hdm2	nucleoplasm	Reactome DB_ID: 69490	UniProt:Q00987	MDM2
+	COP1	nucleoplasm	Reactome DB_ID: 349454	UniProt:Q8NHY2	RFWD2
+	p-S387-RFWD2	nucleoplasm	Reactome DB_ID: 349450	UniProt:Q8NHY2	RFWD2
+	p21	nucleoplasm	Reactome DB_ID: 182585	UniProt:P38936	CDKN1A
+	CDC25A	nucleoplasm	Reactome DB_ID: 143487	UniProt:P30304	CDC25A
+	p-S123-CDC25A	nucleoplasm	Reactome DB_ID: 143488	UniProt:P30304	CDC25A
+	Chk2	nucleoplasm	Reactome DB_ID: 113824	UniProt:O96017-12	CHEK2
+	Chk1	nucleoplasm	Reactome DB_ID: 113826	UniProt:O14757	CHEK1
+	phospho-Chk1	nucleoplasm	Reactome DB_ID: 113838	UniProt:O14757	CHEK1
+	Cds1	nucleoplasm	Reactome DB_ID: 113825	UniProt:O96017-12	CHEK2
+	CDC25C	nucleoplasm	Reactome DB_ID: 69741	UniProt:P30307	CDC25C
+	p-S216-CDC25C	nucleoplasm	Reactome DB_ID: 156496	UniProt:P30307	CDC25C
+	WEE1	nucleoplasm	Reactome DB_ID: 69253	UniProt:P30291	WEE1
+	p-WEE1	nucleoplasm	Reactome DB_ID: 156491	UniProt:P30291	WEE1
+	CLSPN	nucleoplasm	Reactome DB_ID: 176282	UniProt:Q9HAW4	CLSPN
+	MAD1L1	cytosol	Reactome DB_ID: 141433	UniProt:Q9Y6D9	MAD1L1
+	MAD2L1	cytosol	Reactome DB_ID: 141400	UniProt:Q13257	MAD2L1
+	Activated MAD2L1	cytosol	Reactome DB_ID: 141447	UniProt:Q13257	MAD2L1
+	CDC20	cytosol	Reactome DB_ID: 141412	UniProt:Q12834	CDC20
+	BUB3	cytosol	Reactome DB_ID: 141416	UniProt:O43684	BUB3
+	BUB1B	cytosol	Reactome DB_ID: 141436	UniProt:O60566	BUB1B
+_reactionName.size()	27
+	T	Phosphorylation of p53 at ser-15 by ATM kinase
+	T	Phosphorylation of MDM2 at serine-395 by ATM kinase
+	T	Phosphorylation of COP1 at Ser-387  by ATM
+	B	Dissociation of the COP1-p53 complex
+	D	TP53 binds CDKN1A promoter
+	T	Transcriptional activation of p21 by p53 after DNA damage
+	T	Phosphorylation of Cdc25A at Ser-123 in response to DNA damage
+	T	Phosphorylation of Cdc25A at Ser-123 by Chk2
+	T	Phosphorylation and activation of Chk1 by ATM
+	T	Phosphorylation of Cdc25A at Ser-123 by Chk1
+	T	Recruitment and activation of Chk1
+	T	Phosphorylation and activation of CHK2 by ATM
+	T	Phosphorylation of Cdc25C at Ser216
+	T	Phosphorylation of Wee1 kinase by Chk1
+	D	Stalling of DNA replication fork and RPA binding
+	D	Binding of ATR-ATRIP to the RPA-ssDNA complex
+	D	Recruitment of Rad17-RFC complex to DNA
+	D	Loading of claspin onto DNA during replication origin firing
+	T	Activation of claspin
+	T	Phosphorylation of Cdc25C at Ser 216 by Chk1
+	D	Mad1 binds kinetochore
+	D	MAD2 associates with the Mad1 kinetochore complex
+	T	MAD2 converted  to an inhibitory state via interaction with Mad1
+	B	Release of activated MAD2 from kinetochores
+	D	Inactivation of APC/C via CDC20 sequestration
+	D	Formation of the MCC complex
+	D	Binding of the MCC complex to the APC/C complex
+_smallMoleculeName.size()	16
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	2
+	p21 Gen	nucleoplasm	Reactome DB_ID: 3786256	ENSEMBL:ENSG00000124762 CDKN1A
+	p21 Gen	nucleoplasm	Reactome DB_ID: 3786256	ENSEMBL:ENSG00000124762 CDKN1A
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,219 @@
+edge.size() 105
+ 80 0 67 0 82 0 -1
+ 69 0 67 0 82 0 -1
+ 67 1 83 2 82 1 -1
+ 83 0 83 3 82 1 -1
+ 83 1 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 3 67 4 82 2 -1
+ 69 0 67 4 82 2 -1
+ 67 4 69 1 82 3 -1
+ 67 4 67 5 82 3 -1
+ 80 1 67 9 82 4 -1
+ 69 1 67 9 82 4 -1
+ 80 2 67 9 82 4 -1
+ 67 7 67 9 82 4 -1
+ 80 3 67 9 82 4 -1
+ 80 4 67 9 82 4 -1
+ 67 8 67 9 82 4 -1
+ 80 5 67 9 82 4 -1
+ 80 6 67 9 82 4 -1
+ 67 9 67 10 82 5 -1
+ 69 0 67 10 82 5 -1
+ 80 9 67 12 82 6 -1
+ 80 10 67 12 82 6 -1
+ 80 11 67 12 82 6 -1
+ 80 12 67 12 82 6 -1
+ 67 10 67 12 82 6 -1
+ 67 10 80 4 82 6 -1
+ 80 12 80 4 82 6 -1
+ 80 11 80 4 82 6 -1
+ 80 10 80 4 82 6 -1
+ 80 9 80 4 82 6 -1
+ 67 10 80 5 82 6 -1
+ 80 12 80 5 82 6 -1
+ 80 11 80 5 82 6 -1
+ 80 10 80 5 82 6 -1
+ 80 9 80 5 82 6 -1
+ 80 13 80 1 82 7 -1
+ 80 14 80 1 82 7 -1
+ 67 12 80 1 82 7 -1
+ 80 15 80 1 82 7 -1
+ 80 15 80 9 82 7 -1
+ 67 12 80 9 82 7 -1
+ 80 14 80 9 82 7 -1
+ 80 13 80 9 82 7 -1
+ 80 15 80 2 82 7 -1
+ 67 12 80 2 82 7 -1
+ 80 14 80 2 82 7 -1
+ 80 13 80 2 82 7 -1
+ 80 15 67 13 82 7 -1
+ 67 12 67 13 82 7 -1
+ 80 14 67 13 82 7 -1
+ 80 13 67 13 82 7 -1
+ 80 15 80 10 82 7 -1
+ 67 12 80 10 82 7 -1
+ 80 14 80 10 82 7 -1
+ 80 13 80 10 82 7 -1
+ 80 15 80 11 82 7 -1
+ 67 12 80 11 82 7 -1
+ 80 14 80 11 82 7 -1
+ 80 13 80 11 82 7 -1
+ 80 15 80 12 82 7 -1
+ 67 12 80 12 82 7 -1
+ 80 14 80 12 82 7 -1
+ 80 13 80 12 82 7 -1
+ 80 15 67 8 82 7 -1
+ 67 12 67 8 82 7 -1
+ 80 14 67 8 82 7 -1
+ 80 13 67 8 82 7 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 14 82 8 -1
+ 67 -1 67 14 82 8 -1
+ 80 16 67 14 82 8 -1
+ 80 17 67 14 82 8 -1
+ 80 18 67 14 82 8 -1
+ 80 19 67 14 82 8 -1
+ 80 20 67 14 82 8 -1
+ 80 21 67 14 82 8 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 3 67 16 82 9 -1
+ 67 15 67 16 82 9 -1
+ 67 16 67 17 82 10 -1
+ 80 22 67 17 82 10 -1
+ 83 4 83 6 82 11 -1
+ 67 15 83 7 82 11 -1
+ 67 15 67 18 82 11 -1
+ 83 5 67 18 82 11 -1
+ 67 0 82 1 82 1 -1
+ 67 3 82 1 82 2 -1
+ 67 6 82 1 82 3 -1
+ 67 6 82 1 82 3 -1
+ 67 9 82 1 82 5 -1
+ 67 17 82 1 82 11 -1
+ 80 7 82 1 82 4 -1
+ 80 8 82 1 82 4 -1
+ 67 11 82 1 82 5 -1
+_complexName.size()	19
+	PRDM9:DNA Complex	nucleoplasm	Reactome DB_ID: 912415	
+	Nucleosome with Histone H3 Dimethylated at Lysine-4	nucleoplasm	Reactome DB_ID: 1214200	
+	Nucleosome with Histone H3 Trimethylated at Lysine-4	nucleoplasm	Reactome DB_ID: 1214169	
+	SPO11 Dimer	nucleoplasm	Reactome DB_ID: 912393	
+	SPO11 Covalently Attached to Double-strand Break	nucleoplasm	Reactome DB_ID: 912365	
+	SPO11 Covalently Attached to Oligonucleotide	nucleoplasm	Reactome DB_ID: 912381	
+	MRN:CtIP Complex	nucleoplasm	Reactome DB_ID: 981776	
+	Nucleosome containing Histone H2A.x	nucleoplasm	Reactome DB_ID: 975775	
+	RPA heterotrimer	nucleoplasm	Reactome DB_ID: 68462	
+	Meiotic Single-stranded DNA Complex	nucleoplasm	Reactome DB_ID: 912507	
+	Meiotic D-loop Complex	nucleoplasm	Reactome DB_ID: 912484	
+	HOP2(TBPIP):MND1 Complex	nucleoplasm	Reactome DB_ID: 913509	
+	Meiotic Holliday Junction	nucleoplasm	Reactome DB_ID: 912428	
+	Cleaved Meiotic Holliday Junction	nucleoplasm	Reactome DB_ID: 913201	
+	Telomere Bouquet	nuclear envelope	Reactome DB_ID: 912372	
+	Unsynapsed Chromatin	nucleoplasm	Reactome DB_ID: 975778	
+	Synaptonemal:BRCA1 Complex	nucleoplasm	Reactome DB_ID: 912476	
+	Synaptonemal:BRCA1:ATR Complex	nucleoplasm	Reactome DB_ID: 912463	
+	Unsynapsed Chromatin containing gamma-H2A.x	nucleoplasm	Reactome DB_ID: 975781	
+_physicalEntityName.size()	2
+		
+		
+_proteinName.size()	23
+	PRDM9	nucleoplasm	Reactome DB_ID: 912345	UniProt:Q9NQV7	PRDM9
+	CDK4	nucleoplasm	Reactome DB_ID: 113843	UniProt:P11802	CDK4
+	BRCA2	nucleoplasm	Reactome DB_ID: 50951	UniProt:P51587	BRCA2
+	BRCA1	nucleoplasm	Reactome DB_ID: 50949	UniProt:P38398	BRCA1
+	RAD51	nucleoplasm	Reactome DB_ID: 62637	UniProt:Q06609	RAD51
+	DMC1	nucleoplasm	Reactome DB_ID: 912490	UniProt:Q14565	DMC1
+	ATM	nucleoplasm	Reactome DB_ID: 69484	UniProt:Q13315	ATM
+	TEX15	nucleoplasm	Reactome DB_ID: 914159	UniProt:Q9BXT5	TEX15
+	RAD51C	nucleoplasm	Reactome DB_ID: 217039	UniProt:O43502	RAD51C
+	TOP3A	nucleoplasm	Reactome DB_ID: 912452	UniProt:Q13472	TOP3A
+	BLM	nucleoplasm	Reactome DB_ID: 174881	UniProt:P54132	BLM
+	MSH5	nucleoplasm	Reactome DB_ID: 912435	UniProt:O43196	MSH5
+	MSH4	nucleoplasm	Reactome DB_ID: 912455	UniProt:O15457	MSH4
+	CDK2	nucleoplasm	Reactome DB_ID: 68365	UniProt:P24941	CDK2
+	MLH3	nucleoplasm	Reactome DB_ID: 912478	UniProt:Q9UHC1	MLH3
+	MLH1	nucleoplasm	Reactome DB_ID: 912495	UniProt:P40692	MLH1
+	LMNA-2	nuclear envelope	Reactome DB_ID: 912378	UniProt:P02545-2	LMNA
+	SYNE2	nuclear envelope	Reactome DB_ID: 912404	UniProt:Q8WXH0	SYNE2
+	SYNE1	nuclear envelope	Reactome DB_ID: 912352	UniProt:Q8NF91	SYNE1
+	SUN2	nuclear envelope	Reactome DB_ID: 912382	UniProt:Q9UH99	SUN2
+	LMNB1	nuclear envelope	Reactome DB_ID: 912402	UniProt:P20700	LMNB1
+	SUN1	nuclear envelope	Reactome DB_ID: 912371	UniProt:O94901	SUN1
+	ATR	nucleoplasm	Reactome DB_ID: 912443	UniProt:Q13535	ATR
+_reactionName.size()	12
+	D	PRDM9 Binds Recombination Hotspot Motifs in DNA
+	T	Trimethylation of Histone H3 by PRDM9
+	D	Formation of Double-strand Break in DNA by SPO11
+	B	Removal of SPO11 and Resection of 5' Ends of DNA
+	D	Formation of Early Recombination Nodule
+	D	Meiotic Strand Invasion
+	T	Formation of Meiotic Holliday Junction
+	T	Resolution of Meiotic Holliday Junction
+	D	Formation of the telomere bouquet
+	D	Recruitment of BRCA1 to Unsynapsed Regions
+	D	Recruitment of ATR Kinase to Unsynapsed Regions
+	T	ATR Phosphorylates Histone H2A.X at Unsynapsed Regions
+_smallMoleculeName.size()	8
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	AdoHcy	nucleoplasm	Reactome DB_ID: 77502	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	AdoMet	nucleoplasm	Reactome DB_ID: 77087	S-Adenosyl-L-methionine [ChEBI:15414]
+	AdoHcy	nucleoplasm	Reactome DB_ID: 77502	S-Adenosyl-L-homocysteine [ChEBI:16680]
+	AdoMet	nucleoplasm	Reactome DB_ID: 77087	S-Adenosyl-L-methionine [ChEBI:15414]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,76 @@
+edge.size() 16
+ 83 0 83 1 82 0 -1
+ 83 1 83 0 82 1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 2 83 3 82 2 -1
+ 83 3 83 2 82 3 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 2 -1
+ 67 -1 82 1 82 3 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	1
+	Lens fiber major intrinsic protein (AQP0) tetramer/AQP1 tetramer/p-S256-AQP2/AQP3 tetramer/AQP4 tetramer/AQP5 tetramer/AQP7 tetramer/Aquaporin-8 tetramer/AQP9 tetramer/AQP10 tetramer/AQP11 tetramer			
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	4
+	T	Passive Transport of Water into Cells by Aquaporins
+	T	Passive Transport of Water out of Cells by Aquaporins
+	T	Passive Transport of Glycerol into Cells by Aquaporins
+	T	Passive Transport of Glycerol out of Cells by Aquaporins
+_smallMoleculeName.size()	4
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Br-	transport vesicle	Reactome DB_ID: 879856	Bromide [ChEBI:3178]
+	Cl-	transport vesicle	Reactome DB_ID: 879867	Chloride [ChEBI:17996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	transport vesicle membrane
+	whole

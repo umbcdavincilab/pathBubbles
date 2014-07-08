@@ -1,0 +1,100 @@
+edge.size() 22
+ 67 0 67 2 82 0 -1
+ 67 1 67 2 82 0 -1
+ 67 2 67 -1 82 1 -1
+ 83 0 83 9 82 2 -1
+ 83 1 83 10 82 2 -1
+ 83 2 83 11 82 2 -1
+ 83 3 83 12 82 2 -1
+ 83 4 83 13 82 2 -1
+ 83 5 83 14 82 2 -1
+ 83 6 83 15 82 2 -1
+ 83 7 83 16 82 2 -1
+ 83 8 83 17 82 2 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 4 82 3 -1
+ 67 4 80 -1 82 4 -1
+ 67 4 67 1 82 4 -1
+ 67 3 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	5
+	holoTF	extracellular region	Reactome DB_ID: 917889	
+	TFRC dimer	plasma membrane	Reactome DB_ID: 917784	
+	holoTF:TFRC	plasma membrane	Reactome DB_ID: 917834	
+	V-ATPase	endosome membrane	Reactome DB_ID: 912600	
+	TF:TFRC	plasma membrane	Reactome DB_ID: 917833	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	5
+	D	Loaded transferrin binds to TfR1
+	T	Separation of endosome from the plasma membrane
+	T	Acidification of Tf:TfR1 containing endosome
+	T	Recycling of Tf endosome to plasma membrane
+	B	apo-Transferrin dissociates from the receptor complex
+_smallMoleculeName.size()	18
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

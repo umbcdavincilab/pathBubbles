@@ -1,0 +1,193 @@
+edge.size() 79
+ 83 0 83 1 82 0 -1
+ 83 0 83 1 82 1 -1
+ 80 1 67 -1 82 2 -1
+ 83 2 67 -1 82 2 -1
+ 67 1 67 -1 82 2 -1
+ 67 1 83 5 82 2 -1
+ 83 3 83 6 82 2 -1
+ 80 1 83 7 82 2 -1
+ 67 1 83 8 82 2 -1
+ 83 4 83 9 82 2 -1
+ 80 1 83 10 82 2 -1
+ 83 -1 83 -1 82 3 -1
+ 83 11 83 12 82 4 -1
+ 83 1 83 0 82 5 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 -1 82 6 -1
+ 83 -1 83 13 82 7 -1
+ 83 16 83 14 82 7 -1
+ 83 17 83 15 82 7 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 18 83 12 82 9 -1
+ 83 19 83 21 82 10 -1
+ 83 1 83 22 82 10 -1
+ 83 20 83 23 82 10 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 25 83 24 82 11 -1
+ 83 1 83 0 82 11 -1
+ 83 26 83 27 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 25 82 13 -1
+ 83 0 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 28 83 12 82 14 -1
+ 83 0 83 1 82 15 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+ 67 2 82 1 82 2 -1
+ 80 -1 82 1 82 3 -1
+ 80 3 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 6 -1
+ 80 4 82 1 82 7 -1
+ 67 4 82 1 82 8 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 5 82 1 82 9 -1
+ 80 6 82 1 82 10 -1
+ 80 -1 82 1 82 -1 -1
+ 80 7 82 1 82 11 -1
+ 80 -1 82 1 82 12 -1
+ 80 -1 82 1 82 13 -1
+ 80 -1 82 1 82 14 -1
+ 80 8 82 1 82 15 -1
+ 80 0 82 0 82 0 -1
+ 83 3 82 0 82 0 -1
+ 83 4 82 0 82 0 -1
+ 83 4 82 0 82 1 -1
+ 80 2 82 1 82 2 -1
+ 83 10 82 1 82 3 -1
+ 83 -1 82 1 82 4 -1
+ 83 11 82 0 82 5 -1
+ 83 10 82 1 82 -1 -1
+ 83 10 82 1 82 -1 -1
+ 80 5 82 0 82 9 -1
+ 83 10 82 1 82 9 -1
+ 83 5 82 1 82 9 -1
+_complexName.size()	6
+	ASIC1 trimer:H+/ASIC2 trimer:H+/ASIC3 trimer:H+/ASIC5 trimer:H+			
+	SCNN channels	plasma membrane	Reactome DB_ID: 2672342	
+	RAF1:SGK:TSC22D3:WPP	cytosol	Reactome DB_ID: 2682342	
+	NALCN:UNC79:UNC80	plasma membrane	Reactome DB_ID: 2730669	
+	CLCN7:OSTM1	lysosomal membrane	Reactome DB_ID: 2730964	
+	RYR tetramer:CASQ polymer:TRDN:junctin	sarcoplasmic reticulum membrane	Reactome DB_ID: 2855167	
+_physicalEntityName.size()	0
+_proteinName.size()	9
+	ASIC4	plasma membrane	Reactome DB_ID: 2671913	UniProt:Q96FT7	ASIC4
+	UBC(609-684)	cytosol			
+	WNK4	cytosol			
+	TPCN2	lysosomal membrane			
+	CLCN6	endosome membrane			
+	CLIC2	cytosol	Reactome DB_ID: 2684963	UniProt:O15247	CLIC2
+	SLC17A3	endoplasmic reticulum membrane	Reactome DB_ID: 2872467	UniProt:O00476	SLC17A3
+	SLC9C2	plasma membrane			
+	TRPM5	plasma membrane			
+_reactionName.size()	16
+	T	ASICs transport extracellular Na+ to cytosol
+	T	SCNN channels transport extracellular Na+ to cytosol
+	T	RAF1:SGK:TSC22D3:WPP ubiquitinates SCNN channels
+	T	ANOs transport cytosolic Cl- to extracellular region
+	T	TPCN1/2 transport lysosomal Ca2+ to cytosol 
+	T	UNC79:UNC80:NALCN transports cytosolic Na+ to extracellular region
+	T	CLCN3 exchanges Cl- for H+
+	T	CLCN4/5/6 exchange Cl- for H+
+	T	CLCN7:OSTM1 exchanges Cl- for H+
+	T	RYR tetramers transport sarcoplasmic Ca2+ to cytosol
+	T	SLC17A3-1 cotransports extracellular Na+ and Pi to cytosol
+	T	SLC9B1/C2 exchange Na+ for H+
+	T	SLC9B2 exchanges Na+, Li+ for H+
+	T	SLC9C1 exchanges Na+ for H+
+	T	TRPs transport extracellular Ca2+ to cytosol
+	T	TRPM4,5 transport extracellular Na+ to cytosol
+_smallMoleculeName.size()	29
+	Na+	extracellular region	Reactome DB_ID: 74113	Sodium [ChEBI:29101]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	Cl-	cytosol	Reactome DB_ID: 352022	Chloride [ChEBI:17996]
+	Cl-	lysosomal lumen	Reactome DB_ID: 2730999	Chloride [ChEBI:17996]
+	Cl-	lysosomal lumen	Reactome DB_ID: 2730999	Chloride [ChEBI:17996]
+	H+	lysosomal lumen	Reactome DB_ID: 428040	H+ [ChEBI:15378]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	lysosomal lumen	Reactome DB_ID: 428040	H+ [ChEBI:15378]
+	Cl-	extracellular region	Reactome DB_ID: 188972	Chloride [ChEBI:17996]
+	HCO3-	cytosol	Reactome DB_ID: 111627	HCO3- [ChEBI:17544]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Urate	extracellular region	Reactome DB_ID: 429056	Urate [ChEBI:17775]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	extracellular region	Reactome DB_ID: 351626	H+ [ChEBI:15378]
+				
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	H+	sperm flagellum	Reactome DB_ID: 2872447	H+ [ChEBI:15378]
+	Na+	sperm flagellum	Reactome DB_ID: 2872443	Sodium [ChEBI:29101]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	Ca2+	lysosomal lumen	Reactome DB_ID: 1606834	Calcium [ChEBI:29108]
+	H+	late endosome lumen	Reactome DB_ID: 425999	H+ [ChEBI:15378]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	44
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	late endosome membrane
+	sarcoplasmic reticulum membrane
+	sarcoplasmic reticulum lumen
+	cilium membrane
+	whole

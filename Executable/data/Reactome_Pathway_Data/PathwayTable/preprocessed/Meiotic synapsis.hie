@@ -1,0 +1,100 @@
+edge.size() 29
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 0 82 0 -1
+ 67 -1 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 80 2 67 0 82 0 -1
+ 80 3 67 0 82 0 -1
+ 80 4 67 0 82 0 -1
+ 80 5 67 0 82 0 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 6 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 2 67 3 82 2 -1
+ 80 7 67 3 82 2 -1
+ 83 0 83 2 82 3 -1
+ 67 1 83 3 82 3 -1
+ 67 1 67 4 82 3 -1
+ 83 1 67 4 82 3 -1
+ 67 3 82 1 82 3 -1
+_complexName.size()	5
+	Telomere Bouquet	nuclear envelope	Reactome DB_ID: 912372	
+	Unsynapsed Chromatin	nucleoplasm	Reactome DB_ID: 975778	
+	Synaptonemal:BRCA1 Complex	nucleoplasm	Reactome DB_ID: 912476	
+	Synaptonemal:BRCA1:ATR Complex	nucleoplasm	Reactome DB_ID: 912463	
+	Unsynapsed Chromatin containing gamma-H2A.x	nucleoplasm	Reactome DB_ID: 975781	
+_physicalEntityName.size()	0
+_proteinName.size()	8
+	LMNA-2	nuclear envelope	Reactome DB_ID: 912378	UniProt:P02545-2	LMNA
+	SYNE2	nuclear envelope	Reactome DB_ID: 912404	UniProt:Q8WXH0	SYNE2
+	SYNE1	nuclear envelope	Reactome DB_ID: 912352	UniProt:Q8NF91	SYNE1
+	SUN2	nuclear envelope	Reactome DB_ID: 912382	UniProt:Q9UH99	SUN2
+	LMNB1	nuclear envelope	Reactome DB_ID: 912402	UniProt:P20700	LMNB1
+	SUN1	nuclear envelope	Reactome DB_ID: 912371	UniProt:O94901	SUN1
+	BRCA1	nucleoplasm	Reactome DB_ID: 50949	UniProt:P38398	BRCA1
+	ATR	nucleoplasm	Reactome DB_ID: 912443	UniProt:Q13535	ATR
+_reactionName.size()	4
+	D	Formation of the telomere bouquet
+	D	Recruitment of BRCA1 to Unsynapsed Regions
+	D	Recruitment of ATR Kinase to Unsynapsed Regions
+	T	ATR Phosphorylates Histone H2A.X at Unsynapsed Regions
+_smallMoleculeName.size()	4
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,142 @@
+edge.size() 48
+ 80 -1 67 0 82 -1 -1
+ 80 0 67 0 82 -1 -1
+ 67 0 80 -1 82 0 -1
+ 67 0 80 0 82 0 -1
+ 80 1 67 1 82 1 -1
+ 69 0 67 1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 80 0 67 2 82 2 -1
+ 67 2 67 1 82 3 -1
+ 67 2 67 3 82 3 -1
+ 69 0 69 1 82 4 -1
+ 67 1 67 4 82 5 -1
+ 67 4 67 5 82 6 -1
+ 80 0 67 5 82 6 -1
+ 67 5 67 4 82 7 -1
+ 67 5 67 3 82 7 -1
+ 80 2 67 6 82 8 -1
+ 67 4 67 6 82 8 -1
+ 67 1 67 7 82 9 -1
+ 80 2 67 7 82 9 -1
+ 67 3 67 8 82 10 -1
+ 80 4 67 8 82 10 -1
+ 80 -1 67 9 82 11 -1
+ 80 5 67 9 82 11 -1
+ 80 0 67 10 82 12 -1
+ 80 6 67 10 82 12 -1
+ 67 10 80 6 82 13 -1
+ 67 10 67 3 82 13 -1
+ 67 9 67 11 82 14 -1
+ 67 10 80 6 82 15 -1
+ 67 10 67 3 82 15 -1
+ 80 2 67 12 82 16 -1
+ 67 11 67 12 82 16 -1
+ 80 -1 67 13 82 17 -1
+ 67 11 67 13 82 17 -1
+ 67 2 82 1 82 3 -1
+ 67 3 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 67 5 82 1 82 7 -1
+ 80 3 82 1 82 8 -1
+ 80 3 82 1 82 9 -1
+ 80 4 82 1 82 10 -1
+ 67 9 82 1 82 13 -1
+ 67 3 82 1 82 14 -1
+ 67 11 82 1 82 15 -1
+ 80 7 82 1 82 16 -1
+ 80 8 82 1 82 17 -1
+ 83 0 82 1 82 12 -1
+_complexName.size()	14
+	histidine-rich glycoprotein:plasminogen	extracellular region	Reactome DB_ID: 158703	
+	fibrin multimer, crosslinked:tissue plasminogen activator (one-chain)	extracellular region	Reactome DB_ID: 158764	
+	fibrin multimer, crosslinked:tissue plasminogen activator (one-chain):plasminogen	extracellular region	Reactome DB_ID: 158777	
+	Plasmin	extracellular region	Reactome DB_ID: 158770	
+	fibrin multimer, crosslinked:tissue plasminogen activator (two-chain)	extracellular region	Reactome DB_ID: 158745	
+	fibrin multimer, crosslinked:tissue plasminogen activator (two-chain):plasminogen	extracellular region	Reactome DB_ID: 158786	
+	fibrin multimer, crosslinked:tissue plasminogen activator (two-chain):plasminogen activator inhibitor 1	extracellular region	Reactome DB_ID: 158789	
+	fibrin multimer, crosslinked:tissue plasminogen activator (one-chain):plasminogen activator inhibitor 1	extracellular region	Reactome DB_ID: 158791	
+	alpha-2-antiplasmin:plasmin	extracellular region	Reactome DB_ID: 158878	
+	urokinase plasminogen activator (one-chain):uPAR	plasma membrane	Reactome DB_ID: 158926	
+	plasminogen:histidine-rich glycoprotein	plasma membrane	Reactome DB_ID: 158961	
+	urokinase plasminogen activator (two-chain):uPAR	plasma membrane	Reactome DB_ID: 158969	
+	PAI-1:urokinase plasminogen activator (two-chain):uPAR	plasma membrane	Reactome DB_ID: 159013	
+	PAI-2:urokinase plasminogen activator (two-chain):uPAR	plasma membrane	Reactome DB_ID: 159009	
+_physicalEntityName.size()	2
+		
+		
+_proteinName.size()	9
+	PLG	extracellular region	Reactome DB_ID: 158701	UniProt:P00747	PLG
+	PLAT	extracellular region	Reactome DB_ID: 158754	UniProt:P00750	PLAT
+	PAI1	extracellular region	Reactome DB_ID: 158797	UniProt:P05121	SERPINE1
+	SERPINE2	extracellular region			
+	SERPINF2	extracellular region	Reactome DB_ID: 141760	UniProt:P08697	SERPINF2
+	uPAR	plasma membrane	Reactome DB_ID: 158946	UniProt:Q03405	PLAUR
+	HRG	plasma membrane	Reactome DB_ID: 158927	UniProt:P04196	HRG
+	SERPINE2	plasma membrane			
+	SERPINB8	plasma membrane			
+_reactionName.size()	18
+	B	histidine-rich glycoprotein:plasminogen <-> histidine-rich glycoprotein + plasminogen
+	D	crosslinked fibrin multimer + tissue plasminogen activator (one-chain) -> crosslinked fibrin multimer:tissue plasminogen activator (one-chain)
+	D	crosslinked fibrin multimer:tissue plasminogen activator (one-chain) + plasminogen -> crosslinked fibrin multimer:tissue plasminogen activator (one-chain):plasminogen
+	B	crosslinked fibrin multimer:tissue plasminogen activator (one-chain):plasminogen -> crosslinked fibrin multimer:tissue plasminogen activator (one-chain) + plasmin
+	T	fibrin multimer, crosslinked -> fibrin digestion products (plasmin)
+	T	crosslinked fibrin multimer:tissue plasminogen activator (one-chain) -> crosslinked fibrin multimer:tissue plasminogen activator (two-chain)
+	D	crosslinked fibrin multimer:tissue plasminogen activator (two-chain) + plasminogen -> crosslinked fibrin multimer:tissue plasminogen activator (two-chain):plasminogen
+	B	crosslinked fibrin multimer:tissue plasminogen activator (two-chain):plasminogen -> crosslinked fibrin multimer:tissue plasminogen activator (two-chain) + plasmin
+	D	fibrin multimer, crosslinked:tissue plasminogen activator (two-chain) + plasminogen activator inhibitor 1 -> fibrin multimer, crosslinked:tissue plasminogen activator (two-chain):plasminogen activator inhibitor 1
+	D	fibrin multimer, crosslinked:tissue plasminogen activator (one-chain) + plasminogen activator inhibitor 1 -> fibrin multimer, crosslinked:tissue plasminogen activator (one-chain):plasminogen activator inhibitor 1
+	D	alpha-2-antiplasmin + plasmin -> alpha-2-antiplasmin:plasmin
+	D	urokinase plasminogen activator + urokinase plasminogen activator receptor (uPAR) -> urokinase plasminogen activator:uPAR
+	D	plasminogen + histidine-rich glycoprotein -> plasminogen:histidine-rich glycoprotein
+	B	plasminogen:histidine-rich glycoprotein -> plasmin + histidine-rich glycoprotein (uPA [one-chain] catalyst)
+	T	urokinase plasminogen activator (one-chain):uPAR -> urokinase plasminogen activator (two-chain):uPAR
+	B	plasminogen:histidine-rich glycoprotein -> plasmin + histidine-rich glycoprotein (uPA [two-chain] catalyst)
+	D	urokinase plasminogen activator (two-chain):uPAR + plasminogen activator inhibitor 1 (PAI-1) -> PAI-1:urokinase plasminogen activator (two-chain):uPAR
+	D	urokinase plasminogen activator (two-chain):uPAR + plasminogen activator inhibitor 2 (PAI-2) -> PAI-2:urokinase plasminogen activator (two-chain):uPAR
+_smallMoleculeName.size()	1
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

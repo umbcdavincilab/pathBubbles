@@ -1,0 +1,431 @@
+edge.size() 160
+ 83 2 83 0 82 0 -1
+ 83 3 83 -1 82 0 -1
+ 83 4 83 1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 -1 83 -1 82 0 -1
+ 83 5 83 -1 82 0 -1
+ 83 6 83 -1 82 0 -1
+ 83 12 83 7 82 1 -1
+ 83 13 83 8 82 1 -1
+ 83 14 83 9 82 1 -1
+ 83 15 83 10 82 1 -1
+ 83 16 83 11 82 1 -1
+ 83 17 83 27 82 2 -1
+ 83 18 83 28 82 2 -1
+ 83 16 83 -1 82 2 -1
+ 83 19 83 29 82 2 -1
+ 83 20 83 30 82 2 -1
+ 83 21 83 31 82 2 -1
+ 83 22 83 32 82 2 -1
+ 83 23 83 33 82 2 -1
+ 83 24 83 34 82 2 -1
+ 83 25 83 15 82 2 -1
+ 83 26 83 35 82 2 -1
+ 83 43 83 36 82 3 -1
+ 83 44 83 37 82 3 -1
+ 83 45 83 38 82 3 -1
+ 83 46 83 39 82 3 -1
+ 83 47 83 40 82 3 -1
+ 83 48 83 41 82 3 -1
+ 83 15 83 42 82 3 -1
+ 83 60 83 49 82 4 -1
+ 83 61 83 50 82 4 -1
+ 83 62 83 51 82 4 -1
+ 83 63 83 52 82 4 -1
+ 83 64 83 53 82 4 -1
+ 83 65 83 54 82 4 -1
+ 83 66 83 55 82 4 -1
+ 83 67 83 56 82 4 -1
+ 83 68 83 57 82 4 -1
+ 83 15 83 58 82 4 -1
+ 83 35 83 59 82 4 -1
+ 83 80 83 69 82 5 -1
+ 83 81 83 70 82 5 -1
+ 83 82 83 71 82 5 -1
+ 83 83 83 72 82 5 -1
+ 83 84 83 73 82 5 -1
+ 83 85 83 74 82 5 -1
+ 83 86 83 75 82 5 -1
+ 83 87 83 76 82 5 -1
+ 83 88 83 77 82 5 -1
+ 83 15 83 78 82 5 -1
+ 83 35 83 79 82 5 -1
+ 83 96 83 89 82 6 -1
+ 83 97 83 90 82 6 -1
+ 83 98 83 91 82 6 -1
+ 83 99 83 92 82 6 -1
+ 83 100 83 93 82 6 -1
+ 83 101 83 94 82 6 -1
+ 83 15 83 95 82 6 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 103 83 102 82 7 -1
+ 83 103 83 104 82 8 -1
+ 83 104 83 106 82 9 -1
+ 83 105 83 107 82 9 -1
+ 83 104 83 108 82 10 -1
+ 83 105 83 109 82 10 -1
+ 83 -1 83 108 82 11 -1
+ 83 105 83 -1 82 11 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 6 83 -1 82 -1 -1
+ 83 115 83 -1 82 12 -1
+ 83 116 83 110 82 12 -1
+ 83 117 83 111 82 12 -1
+ 83 118 83 -1 82 12 -1
+ 83 119 83 112 82 12 -1
+ 83 120 83 113 82 12 -1
+ 83 15 83 114 82 12 -1
+ 83 132 83 121 82 13 -1
+ 83 133 83 122 82 13 -1
+ 83 134 83 123 82 13 -1
+ 83 135 83 124 82 13 -1
+ 83 136 83 125 82 13 -1
+ 83 137 83 126 82 13 -1
+ 83 15 83 127 82 13 -1
+ 83 138 83 128 82 13 -1
+ 83 139 83 129 82 13 -1
+ 83 140 83 130 82 13 -1
+ 83 35 83 131 82 13 -1
+ 83 148 83 141 82 14 -1
+ 83 149 83 142 82 14 -1
+ 83 150 83 143 82 14 -1
+ 83 151 83 144 82 14 -1
+ 83 152 83 145 82 14 -1
+ 83 153 83 146 82 14 -1
+ 83 15 83 147 82 14 -1
+ 83 162 83 154 82 15 -1
+ 83 163 83 155 82 15 -1
+ 83 164 83 156 82 15 -1
+ 83 15 83 157 82 15 -1
+ 83 165 83 158 82 15 -1
+ 83 166 83 159 82 15 -1
+ 83 167 83 160 82 15 -1
+ 83 35 83 161 82 15 -1
+ 83 176 83 168 82 16 -1
+ 83 177 83 169 82 16 -1
+ 83 178 83 170 82 16 -1
+ 83 179 83 171 82 16 -1
+ 83 180 83 172 82 16 -1
+ 83 181 83 173 82 16 -1
+ 83 15 83 174 82 16 -1
+ 83 35 83 175 82 16 -1
+ 83 189 83 182 82 17 -1
+ 83 190 83 183 82 17 -1
+ 83 191 83 184 82 17 -1
+ 83 192 83 185 82 17 -1
+ 83 -1 83 186 82 17 -1
+ 83 -1 83 187 82 17 -1
+ 83 15 83 188 82 17 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 82 1 82 0 -1
+ 80 0 82 1 82 1 -1
+ 80 1 82 1 82 2 -1
+ 80 2 82 1 82 3 -1
+ 80 3 82 1 82 4 -1
+ 80 4 82 1 82 5 -1
+ 80 0 82 1 82 6 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 0 82 1 82 7 -1
+ 67 0 82 1 82 8 -1
+ 80 5 82 1 82 9 -1
+ 80 6 82 1 82 10 -1
+ 80 7 82 1 82 11 -1
+ 67 -1 82 1 82 -1 -1
+ 80 0 82 1 82 12 -1
+ 80 1 82 1 82 13 -1
+ 80 2 82 1 82 14 -1
+ 80 3 82 1 82 15 -1
+ 80 4 82 1 82 16 -1
+ 80 0 82 1 82 17 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	1
+	HSD17B4 dimer	peroxisomal matrix	Reactome DB_ID: 389999	
+_physicalEntityName.size()	0
+_proteinName.size()	8
+	FADS2	endoplasmic reticulum membrane	Reactome DB_ID: 2046069	UniProt:O95864	FADS2
+	ELOVL5	endoplasmic reticulum membrane	Reactome DB_ID: 548679	UniProt:Q9NYP7	ELOVL5
+	FADS1	endoplasmic reticulum membrane	Reactome DB_ID: 400122	UniProt:O60427	FADS1
+	ELOVL5	endoplasmic reticulum membrane			
+	ELOVL2	endoplasmic reticulum membrane	Reactome DB_ID: 548677	UniProt:Q9NXB9	ELOVL2
+	SCP2	peroxisomal matrix	Reactome DB_ID: 2046067	UniProt:P22307	SCP2
+	ACAA1	peroxisomal matrix	Reactome DB_ID: 390238	UniProt:P09110	ACAA1
+	ACOT8	peroxisomal matrix	Reactome DB_ID: 193426	UniProt:O14734	ACOT8
+_reactionName.size()	18
+	T	Activation of alpha-linolenic acid to alpha-linolenoyl-CoA
+	T	Desaturation of alpha-linoleoyl-CoA to Stearidonoyl-CoA
+	T	Elongation of stearidonoyl-CoA to eicosatetraenoyl-CoA
+	T	Desaturation of eicosatetraenoyl-CoA to eicosapentaenoyl-CoA
+	T	Elongation of eicosapentaenoyl-CoA to docosapentaenoyl-CoA
+	T	Elongation of docosapentaenoyl-CoA to tetracosapentaenoyl-CoA
+	T	Desaturation of tetracosapentaenoyl-CoA to tetracosahexaenoyl-CoA
+	D	Hydration of delta2-tetracosaheptaenoyl-CoA to 3-hydroxy tetracosahexaenoyl-CoA
+	T	Dehydrogenation of 3-hydroxy tetracosahexaenoyl-CoA
+	T	Formation of DHA-CoA catalysed by sterol carrier protein X (SCPx)
+	T	Formation of DHA-CoA catalysed by 3-ketoacyl-CoA thiolase
+	T	Conversion of DHA-CoA to docosahexaenoic acid (DHA)
+	T	Desaturation of Linoleoyl-CoA to gamma-linolenoyl-CoA
+	T	Elongation of gamma-lenolenoyl-CoA to dihomo-gamma-lenolenoyl-CoA
+	T	Desaturation of dihomo-gamma-lenolenoyl-CoA to arachidonoyl-CoA
+	T	Elongation of arachidonyl-CoA to docosatetraenoyl-CoA
+	T	Elongation of docosatetraenoyl-CoA to tetracosatetraenoyl-CoA
+	T	Desaturation of tetracosatetraenoyl-CoA to tetracosapentaenoyl-CoA
+_smallMoleculeName.size()	193
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	ALA	endoplasmic reticulum lumen	Reactome DB_ID: 2046056	alpha-Linolenic acid [ChEBI:10298]
+	ALA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046062	alpha-linolenoyl-CoA [ChEBI:51985]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	ALA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046062	alpha-linolenoyl-CoA [ChEBI:51985]
+	ALA	endoplasmic reticulum lumen	Reactome DB_ID: 2046056	alpha-Linolenic acid [ChEBI:10298]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	1-3-hydroxy-THA-CoA	peroxisomal matrix	Reactome DB_ID: 2066766	CHEBI:65130
+	delta2-THA-CoA	peroxisomal matrix	Reactome DB_ID: 2066767	CHEBI:65139
+	1-3-oxo-THA-CoA	peroxisomal matrix	Reactome DB_ID: 2066762	CHEBI:65131
+	propionyl CoA	peroxisomal matrix	Reactome DB_ID: 192314	ChEBI:15539 Propionyl-CoA
+	Ac-CoA	peroxisomal matrix	Reactome DB_ID: 353123	Acetyl-CoA [ChEBI:15351]
+	DHA	peroxisomal matrix	Reactome DB_ID: 2066763	Docosahexaenoic acid [ChEBI:4673]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	DHA	endoplasmic reticulum lumen	Reactome DB_ID: 2066770	Docosahexaenoic acid [ChEBI:4673]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	LA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046063	Linoleoyl-CoA [ChEBI:15530]
+	LA	endoplasmic reticulum lumen	Reactome DB_ID: 2046044	Linoleate [ChEBI:6479]
+	LA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046063	Linoleoyl-CoA [ChEBI:15530]
+	ATP	endoplasmic reticulum membrane	Reactome DB_ID: 211579	ATP [ChEBI:15422]
+	LA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046063	Linoleoyl-CoA [ChEBI:15530]
+	ATP	endoplasmic reticulum membrane	Reactome DB_ID: 211579	ATP [ChEBI:15422]
+	AMP	endoplasmic reticulum membrane	Reactome DB_ID: 2046064	adenosine 5'-monophosphate [ChEBI:16027]
+	LA	endoplasmic reticulum lumen	Reactome DB_ID: 2046044	Linoleate [ChEBI:6479]
+	AMP	endoplasmic reticulum membrane	Reactome DB_ID: 2046064	adenosine 5'-monophosphate [ChEBI:16027]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	AMP	endoplasmic reticulum membrane	Reactome DB_ID: 2046064	adenosine 5'-monophosphate [ChEBI:16027]
+	LA	endoplasmic reticulum lumen	Reactome DB_ID: 2046044	Linoleate [ChEBI:6479]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	LA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046063	Linoleoyl-CoA [ChEBI:15530]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	LA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046063	Linoleoyl-CoA [ChEBI:15530]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	LA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046063	Linoleoyl-CoA [ChEBI:15530]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	DGL-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046045	8,11,14-Eicosatrienoyl-CoA [ChEBI:2300]
+	GLA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046042	gamma-Linolenoyl-CoA [ChEBI:10574]
+	CO2	endoplasmic reticulum lumen	Reactome DB_ID: 159751	CO2 [ChEBI:16526]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	AA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046053	Arachidonyl-CoA [ChEBI:2800]
+	DGL-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046045	8,11,14-Eicosatrienoyl-CoA [ChEBI:2300]
+	AA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046053	Arachidonyl-CoA [ChEBI:2800]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	AA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046053	Arachidonyl-CoA [ChEBI:2800]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	DGL-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046045	8,11,14-Eicosatrienoyl-CoA [ChEBI:2300]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	DGL-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046045	8,11,14-Eicosatrienoyl-CoA [ChEBI:2300]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	ALA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046062	alpha-linolenoyl-CoA [ChEBI:51985]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	SDA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046052	CHEBI:63545
+	ALA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046062	alpha-linolenoyl-CoA [ChEBI:51985]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	AA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046053	Arachidonyl-CoA [ChEBI:2800]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	AA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046053	Arachidonyl-CoA [ChEBI:2800]
+	DTA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046060	CHEBI:63544
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	DTA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046060	CHEBI:63544
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	DTA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046060	CHEBI:63544
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	DTA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046060	CHEBI:63544
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TTA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046048	CHEBI:63548
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	TPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046050	CHEBI:63546
+	TPA-CoA	peroxisomal matrix	Reactome DB_ID: 2046055	CHEBI:63546
+	DPA	peroxisomal matrix	Reactome DB_ID: 2066764	CHEBI:65136
+	DPA	endoplasmic reticulum lumen	Reactome DB_ID: 2066768	CHEBI:65136
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	ETA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046051	CHEBI:63542
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	ETA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046051	CHEBI:63542
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	ETA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046051	CHEBI:63542
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	ETA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046051	CHEBI:63542
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	ETA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046051	CHEBI:63542
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	EPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046059	CHEBI:63539
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TPN	endoplasmic reticulum lumen	Reactome DB_ID: 113564	NADP+ [ChEBI:18009]
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	TPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046065	CHEBI:63543
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046065	CHEBI:63543
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	DPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046057	CHEBI:63541
+	Malonyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046066	Malonyl-CoA [ChEBI:15531]
+	TPNH	endoplasmic reticulum lumen	Reactome DB_ID: 113601	NADPH [ChEBI:16474]
+	TPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046065	CHEBI:63543
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	NAD	endoplasmic reticulum lumen	Reactome DB_ID: 194653	NAD+ [ChEBI:15846]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	THA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046054	CHEBI:63540
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	THA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046054	CHEBI:63540
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	NADH	endoplasmic reticulum lumen	Reactome DB_ID: 194697	NADH [ChEBI:16908]
+	TPA-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 2046065	CHEBI:63543
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	peroxisomal membrane
+	whole

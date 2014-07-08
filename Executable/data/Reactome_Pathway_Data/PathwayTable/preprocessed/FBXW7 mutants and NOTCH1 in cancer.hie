@@ -1,0 +1,212 @@
+edge.size() 103
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 1 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 67 0 67 2 82 0 -1
+ 80 1 67 2 82 0 -1
+ 80 2 67 3 82 1 -1
+ 80 3 67 3 82 1 -1
+ 80 4 67 3 82 1 -1
+ 80 5 67 3 82 1 -1
+ 67 1 67 3 82 1 -1
+ 68 0 67 4 82 2 -1
+ 67 3 67 4 82 2 -1
+ 68 1 80 6 82 3 -1
+ 80 7 67 5 82 4 -1
+ 80 6 67 5 82 4 -1
+ 67 3 67 6 82 5 -1
+ 68 2 67 6 82 5 -1
+ 68 3 80 8 82 6 -1
+ 68 4 67 7 82 7 -1
+ 67 3 67 7 82 7 -1
+ 68 5 80 9 82 8 -1
+ 68 6 67 -1 82 9 -1
+ 67 3 67 -1 82 9 -1
+ 68 -1 80 -1 82 -1 -1
+ 67 3 67 9 82 10 -1
+ 67 8 67 9 82 10 -1
+ 67 9 80 2 82 11 -1
+ 83 0 80 2 82 11 -1
+ 83 1 80 3 82 11 -1
+ 67 9 80 3 82 11 -1
+ 83 2 83 8 82 11 -1
+ 67 9 83 9 82 11 -1
+ 83 3 80 4 82 11 -1
+ 67 9 80 4 82 11 -1
+ 83 4 67 10 82 11 -1
+ 67 9 67 10 82 11 -1
+ 83 5 80 5 82 11 -1
+ 67 9 80 5 82 11 -1
+ 83 6 80 0 82 11 -1
+ 67 9 80 0 82 11 -1
+ 83 7 67 8 82 11 -1
+ 67 9 67 8 82 11 -1
+ 80 0 67 12 82 12 -1
+ 67 11 67 12 82 12 -1
+ 67 12 67 13 82 13 -1
+ 80 10 67 13 82 13 -1
+ 80 10 67 11 82 13 -1
+ 67 12 67 11 82 13 -1
+ 80 1 67 14 82 14 -1
+ 80 11 67 14 82 14 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 9 82 1 82 11 -1
+ 67 12 82 1 82 13 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 4 82 1 82 3 -1
+ 67 6 82 1 82 6 -1
+ 67 7 82 1 82 8 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	15
+	CSL NCOR corepressor complex	nucleoplasm	Reactome DB_ID: 350052	
+	NICD1:RBPJ:SNW1	nucleoplasm	Reactome DB_ID: 1604460	
+	NCOR:HDAC:TBL1	nucleoplasm	Reactome DB_ID: 1911465	
+	NOTCH1 Coactivator Complex	nucleoplasm	Reactome DB_ID: 1604462	
+	NOTCH1 Coactivator Complex:HES1 Gene	nucleoplasm	Reactome DB_ID: 4396364	
+	HES1:TLE	nucleoplasm	Reactome DB_ID: 1911448	
+	NOTCH1 Coactivator Complex:MYC Gene	nucleoplasm	Reactome DB_ID: 4396374	
+	NOTCH1 Coactivator Complex:HES5 Gene	nucleoplasm	Reactome DB_ID: 4396377	
+	CDK8:CCNC	nucleoplasm	Reactome DB_ID: 1604465	
+	NOTCH1 Coactivator Complex:CDK8:CCNC	nucleoplasm	Reactome DB_ID: 1604463	
+	RBPJ:SNW1	nucleoplasm	Reactome DB_ID: 1911412	
+	FBXW7:SKP1:CUL1:RBX1	nucleoplasm	Reactome DB_ID: 1604469	
+	p-NICD1:FBXW7:SKP1:CUL1:RBX1	nucleoplasm	Reactome DB_ID: 1604468	
+	Ub-p-NICD1	nucleoplasm	Reactome DB_ID: 1852621	
+	NICD1:HIF1A	nucleoplasm	Reactome DB_ID: 1911469	
+_physicalEntityName.size()	0
+_proteinName.size()	12
+	p-NICD1	nucleoplasm	Reactome DB_ID: 1604444	UniProt:P46531	NOTCH1
+	NICD1	nucleoplasm	Reactome DB_ID: 157939	UniProt:P46531	NOTCH1
+	p300	nucleoplasm	Reactome DB_ID: 381325	UniProt:Q09472	EP300
+	MAMLD1	nucleoplasm			
+	KAT3A	nucleoplasm	Reactome DB_ID: 193545	UniProt:Q92793	CREBBP
+	GCN5	nucleoplasm			
+	HES1	nucleoplasm	Reactome DB_ID: 210825	UniProt:Q14469	HES1
+	TLE4	nucleoplasm			
+	MYC	nucleoplasm	Reactome DB_ID: 188379	UniProt:P01106	MYC
+	HES5	nucleoplasm	Reactome DB_ID: 1606739	UniProt:Q5TA89	HES5
+	UBC(609-684)	nucleoplasm			
+	HIF1A	nucleoplasm	Reactome DB_ID: 1234135	UniProt:Q16665	HIF1A
+_reactionName.size()	15
+	T	NICD1 displaces co-repressor complex from RBPJ (CSL)
+	D	NICD1 in complex with RBPJ (CSL) recruits MAML
+	D	NOTCH1 Coactivator Complex binds HES1 promoter
+	T	NOTCH1 stimulates HES1 transcription
+	D	HES1 binds TLE
+	D	NOTCH1 Coactivator Complex binds MYC promoter
+	T	NOTCH1 stimulates MYC transcription
+	D	NOTCH1 Coactivator Complex binds HES5 promoter
+	T	NOTCH1 stimulates HES5 transcription
+	D	NOTCH1 Coactivator Complex binds promoters of HEY genes
+	D	MAML in complex with NICD1 recruits CDK8
+	T	NICD1 is phosphorylated by CDK8
+	D	Phosphorylated NICD1 binds FBXW7
+	T	Ubiquitination of NICD1 by FBWX7
+	D	NICD1 binds HIF1A
+_smallMoleculeName.size()	10
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	7
+	HES1 Gen	nucleoplasm	Reactome DB_ID: 2197548	ENSEMBL:ENSG00000114315 HES1
+	HES1 Gen	nucleoplasm	Reactome DB_ID: 2197548	ENSEMBL:ENSG00000114315 HES1
+	MYC Gen	nucleoplasm	Reactome DB_ID: 2127254	ENSEMBL:ENSG00000136997 MYC
+	MYC Gen	nucleoplasm	Reactome DB_ID: 2127254	ENSEMBL:ENSG00000136997 MYC
+	HES5 Gen	nucleoplasm	Reactome DB_ID: 2197557	ENSEMBL:ENSG00000197921 HES5
+	HES5 Gen	nucleoplasm	Reactome DB_ID: 2197557	ENSEMBL:ENSG00000197921 HES5
+				
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

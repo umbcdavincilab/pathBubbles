@@ -1,0 +1,66 @@
+edge.size() 6
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 80 0 67 1 82 1 -1
+ 80 2 67 1 82 1 -1
+ 80 2 67 3 82 2 -1
+ 67 2 67 3 82 2 -1
+_complexName.size()	4
+	CERBERUS:NODAL	extracellular region	Reactome DB_ID: 1181341	
+	LEFTY:NODAL	extracellular region	Reactome DB_ID: 1181340	
+	ALK4:ActRII:EGF-CFC/ALK7:ActRIIB:EGF-CFC			
+	LEFTY:EGF-CFC:NODAL Receptor	plasma membrane	Reactome DB_ID: 1181346	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	NODAL	extracellular region	Reactome DB_ID: 1181118	UniProt:Q96S42	NODAL
+	CER1	extracellular region	Reactome DB_ID: 201831	UniProt:O95813	CER1
+	LEFTY2	extracellular region			
+_reactionName.size()	3
+	D	CERBERUS Binds NODAL
+	D	LEFTY Binds NODAL
+	D	LEFTY Binds the EGF-CFC Coreceptor in the NODAL Receptor
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

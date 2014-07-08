@@ -1,0 +1,117 @@
+edge.size() 29
+ 83 -1 83 0 82 0 -1
+ 83 0 83 1 82 1 -1
+ 83 6 83 2 82 1 -1
+ 83 7 83 3 82 1 -1
+ 83 8 83 4 82 1 -1
+ 83 9 83 5 82 1 -1
+ 83 0 83 1 82 2 -1
+ 83 10 83 12 82 2 -1
+ 83 11 83 13 82 2 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 17 83 0 82 3 -1
+ 83 18 83 14 82 3 -1
+ 83 19 83 15 82 3 -1
+ 83 20 83 16 82 3 -1
+ 83 0 83 21 82 4 -1
+ 83 9 83 17 82 4 -1
+ 83 9 83 0 82 5 -1
+ 83 25 83 22 82 5 -1
+ 83 26 83 23 82 5 -1
+ 83 27 83 24 82 5 -1
+ 67 0 82 1 82 1 -1
+ 67 1 82 1 82 2 -1
+ 67 -1 82 1 82 -1 -1
+ 80 0 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 2 82 1 82 5 -1
+_complexName.size()	3
+	DAO dimer	peroxisomal matrix	Reactome DB_ID: 389849	
+	AGXT dimer	peroxisomal matrix	Reactome DB_ID: 389671	
+	HAO1 tetramer	peroxisomal matrix	Reactome DB_ID: 389845	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	GRHPR	peroxisomal matrix	Reactome DB_ID: 389851	UniProt:Q9UBQ7	GRHPR
+_reactionName.size()	6
+	T	Synthesis of glyoxylate from hydroxyproline
+	T	glycine + O2 => glyoxylate + H2O2 + NH4+
+	T	glyoxylate + alanine => glycine + pyruvate [peroxisome]
+	T	glyoxylate + NADPH + H+ => glycolate + NADP+
+	T	glycolate + O2 => glyoxylate + H2O2
+	T	Conversion of glyoxylate to oxalate
+_smallMoleculeName.size()	28
+	Glyoxylate	peroxisomal matrix	Reactome DB_ID: 389678	Glyoxylate [ChEBI:5509]
+	Gly	peroxisomal matrix	Reactome DB_ID: 193446	Glycine [ChEBI:15428]
+	O2	peroxisomal matrix	Reactome DB_ID: 113535	Oxygen [ChEBI:15379]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	NH4+	peroxisomal matrix	Reactome DB_ID: 389843	NH4+ [ChEBI:28938]
+	NH4+	peroxisomal matrix	Reactome DB_ID: 389843	NH4+ [ChEBI:28938]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	H2O2	peroxisomal matrix	Reactome DB_ID: 113575	H2O2 [ChEBI:16240]
+	O2	peroxisomal matrix	Reactome DB_ID: 113535	Oxygen [ChEBI:15379]
+	L-Ala	peroxisomal matrix	Reactome DB_ID: 389664	L-Alanine [ChEBI:16977]
+	L-Ala	peroxisomal matrix	Reactome DB_ID: 389664	L-Alanine [ChEBI:16977]
+	PYR	peroxisomal matrix	Reactome DB_ID: 389680	Pyruvate [ChEBI:32816]
+	PYR	peroxisomal matrix	Reactome DB_ID: 389680	Pyruvate [ChEBI:32816]
+	Glycolate	peroxisomal matrix	Reactome DB_ID: 389822	Glycolate [ChEBI:5475]
+	TPNH	peroxisomal matrix	Reactome DB_ID: 113602	NADPH [ChEBI:16474]
+	H+	peroxisomal matrix	Reactome DB_ID: 193465	H+ [ChEBI:15378]
+	TPN	peroxisomal matrix	Reactome DB_ID: 389556	NADP+ [ChEBI:18009]
+	TPNH	peroxisomal matrix	Reactome DB_ID: 113602	NADPH [ChEBI:16474]
+	TPN	peroxisomal matrix	Reactome DB_ID: 389556	NADP+ [ChEBI:18009]
+	TPN	peroxisomal matrix	Reactome DB_ID: 389556	NADP+ [ChEBI:18009]
+	O2	peroxisomal matrix	Reactome DB_ID: 113535	Oxygen [ChEBI:15379]
+	O2	peroxisomal matrix	Reactome DB_ID: 113535	Oxygen [ChEBI:15379]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	H2O	peroxisomal matrix	Reactome DB_ID: 141343	H2O [ChEBI:15377]
+	O2	peroxisomal matrix	Reactome DB_ID: 113535	Oxygen [ChEBI:15379]
+	OX	peroxisomal matrix	Reactome DB_ID: 389819	Oxalate [ChEBI:7811]
+	OX	peroxisomal matrix	Reactome DB_ID: 389819	Oxalate [ChEBI:7811]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

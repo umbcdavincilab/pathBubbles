@@ -1,0 +1,562 @@
+edge.size() 300
+ 80 -1 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 67 1 67 2 82 1 -1
+ 80 -1 67 3 82 2 -1
+ 67 2 67 3 82 2 -1
+ 67 3 67 4 82 3 -1
+ 67 4 67 5 82 4 -1
+ 67 5 67 6 82 5 -1
+ 67 6 67 7 82 6 -1
+ 67 7 67 -1 82 7 -1
+ 67 7 67 -1 82 7 -1
+ 67 -1 67 10 82 -1 -1
+ 67 -1 80 5 82 -1 -1
+ 67 -1 80 7 82 -1 -1
+ 67 10 69 0 82 8 -1
+ 67 10 67 11 82 8 -1
+ 80 4 67 11 82 9 -1
+ 80 1 67 11 82 9 -1
+ 67 12 67 11 82 9 -1
+ 69 1 67 13 82 10 -1
+ 67 12 67 13 82 10 -1
+ 67 13 67 14 82 11 -1
+ 83 0 67 14 82 11 -1
+ 83 1 83 2 82 11 -1
+ 67 13 83 3 82 11 -1
+ 67 14 67 15 82 12 -1
+ 67 15 67 16 82 13 -1
+ 67 16 67 17 82 14 -1
+ 67 17 67 18 82 15 -1
+ 67 18 67 19 82 16 -1
+ 67 19 67 20 82 17 -1
+ 67 20 67 21 82 18 -1
+ 67 21 67 22 82 19 -1
+ 67 22 67 23 82 20 -1
+ 67 23 67 24 82 21 -1
+ 67 24 67 25 82 22 -1
+ 80 8 80 0 82 23 -1
+ 80 9 80 0 82 23 -1
+ 80 10 80 0 82 23 -1
+ 67 25 80 0 82 23 -1
+ 67 25 67 9 82 23 -1
+ 80 10 67 9 82 23 -1
+ 80 9 67 9 82 23 -1
+ 80 8 67 9 82 23 -1
+ 67 25 67 26 82 23 -1
+ 80 10 67 26 82 23 -1
+ 80 9 67 26 82 23 -1
+ 80 8 67 26 82 23 -1
+ 67 26 67 27 82 24 -1
+ 67 27 67 28 82 25 -1
+ 67 28 67 -1 82 26 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 7 67 29 82 27 -1
+ 83 8 83 4 82 27 -1
+ 83 9 83 5 82 27 -1
+ 67 35 67 29 82 27 -1
+ 67 35 83 6 82 27 -1
+ 67 35 67 29 82 28 -1
+ 83 10 67 36 82 29 -1
+ 67 35 67 36 82 29 -1
+ 67 36 67 37 82 30 -1
+ 67 37 67 38 82 31 -1
+ 67 37 83 11 82 31 -1
+ 67 38 67 30 82 32 -1
+ 67 38 67 32 82 32 -1
+ 67 38 69 2 82 32 -1
+ 67 38 80 11 82 32 -1
+ 67 38 67 33 82 32 -1
+ 67 38 67 31 82 32 -1
+ 67 38 67 34 82 32 -1
+ 83 10 83 11 82 33 -1
+ 67 38 67 39 82 33 -1
+ 67 38 67 39 82 33 -1
+ 83 10 80 11 82 34 -1
+ 67 39 80 11 82 34 -1
+ 67 39 83 11 82 34 -1
+ 67 39 67 40 82 34 -1
+ 67 41 67 30 82 35 -1
+ 67 41 67 32 82 35 -1
+ 67 41 69 3 82 35 -1
+ 67 41 80 11 82 35 -1
+ 67 41 67 33 82 35 -1
+ 67 41 67 31 82 35 -1
+ 67 41 67 34 82 35 -1
+ 83 10 67 42 82 36 -1
+ 67 40 67 42 82 36 -1
+ 67 40 67 30 82 36 -1
+ 67 40 67 30 82 36 -1
+ 67 40 67 32 82 36 -1
+ 67 40 67 32 82 36 -1
+ 67 43 67 30 82 37 -1
+ 67 43 67 33 82 37 -1
+ 67 43 69 4 82 37 -1
+ 67 43 67 34 82 37 -1
+ 67 42 67 44 82 38 -1
+ 83 10 67 44 82 38 -1
+ 67 42 83 11 82 38 -1
+ 83 10 83 11 82 39 -1
+ 67 44 67 45 82 39 -1
+ 67 44 67 45 82 39 -1
+ 67 45 67 46 82 40 -1
+ 67 46 67 47 82 41 -1
+ 80 12 67 48 82 42 -1
+ 67 47 67 48 82 42 -1
+ 67 48 67 49 82 43 -1
+ 67 49 67 50 82 44 -1
+ 80 13 67 50 82 44 -1
+ 80 14 67 50 82 44 -1
+ 67 -1 67 51 82 -1 -1
+ 80 -1 67 51 82 -1 -1
+ 67 34 67 51 82 -1 -1
+ 67 34 67 34 82 -1 -1
+ 80 -1 67 34 82 -1 -1
+ 67 -1 67 34 82 -1 -1
+ 67 51 67 53 82 45 -1
+ 67 52 67 53 82 45 -1
+ 83 10 83 10 82 46 -1
+ 67 55 67 53 82 46 -1
+ 67 55 67 54 82 46 -1
+ 67 55 67 54 82 46 -1
+ 67 55 67 56 82 47 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 57 82 -1 -1
+ 80 -1 67 57 82 -1 -1
+ 67 55 67 58 82 48 -1
+ 67 57 67 58 82 48 -1
+ 67 57 67 -1 82 48 -1
+ 67 55 67 -1 82 48 -1
+ 83 7 83 12 82 49 -1
+ 67 59 67 58 82 49 -1
+ 67 59 67 58 82 49 -1
+ 83 7 83 13 82 -1 -1
+ 67 -1 67 59 82 -1 -1
+ 67 -1 67 59 82 -1 -1
+ 80 -1 67 60 82 50 -1
+ 67 -1 67 60 82 50 -1
+ 67 -1 67 60 82 50 -1
+ 80 -1 67 60 82 50 -1
+ 67 34 67 60 82 50 -1
+ 67 -1 67 60 82 50 -1
+ 83 10 67 61 82 51 -1
+ 67 60 67 61 82 51 -1
+ 67 60 67 34 82 51 -1
+ 83 10 83 10 82 52 -1
+ 67 61 67 62 82 52 -1
+ 67 61 67 62 82 52 -1
+ 67 62 67 63 82 53 -1
+ 83 10 67 64 82 54 -1
+ 67 55 67 64 82 54 -1
+ 67 64 67 65 82 55 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 55 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 55 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 34 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 66 67 61 82 56 -1
+ 67 66 67 67 82 57 -1
+ 67 61 67 66 82 58 -1
+ 67 61 67 68 82 59 -1
+ 67 68 67 61 82 60 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 69 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 69 67 71 82 61 -1
+ 80 16 67 71 82 61 -1
+ 80 15 67 71 82 62 -1
+ 80 16 67 71 82 62 -1
+ 80 2 67 71 82 62 -1
+ 69 5 67 71 82 62 -1
+ 67 70 67 71 82 62 -1
+ 67 70 67 72 82 63 -1
+ 67 70 83 14 82 63 -1
+ 83 17 80 18 82 64 -1
+ 80 5 83 15 82 64 -1
+ 80 5 83 16 82 64 -1
+ 83 17 80 20 82 65 -1
+ 80 21 83 18 82 65 -1
+ 80 21 83 19 82 65 -1
+ 80 21 67 73 82 66 -1
+ 80 23 67 73 82 66 -1
+ 67 73 67 74 82 67 -1
+ 67 74 67 76 82 68 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 77 82 -1 -1
+ 67 77 67 -1 82 69 -1
+ 67 -1 67 78 82 -1 -1
+ 80 25 80 -1 82 70 -1
+ 80 -1 80 26 82 -1 -1
+ 80 26 67 79 82 71 -1
+ 80 0 67 79 82 71 -1
+ 67 76 67 79 82 71 -1
+ 80 5 67 79 82 71 -1
+ 80 27 67 79 82 71 -1
+ 80 6 67 79 82 71 -1
+ 67 8 67 79 82 71 -1
+ 69 1 67 79 82 71 -1
+ 80 2 67 79 82 71 -1
+ 67 78 67 79 82 71 -1
+ 80 3 67 79 82 71 -1
+ 67 -1 67 80 82 -1 -1
+ 80 -1 67 80 82 -1 -1
+ 67 -1 67 80 82 -1 -1
+ 80 -1 67 80 82 -1 -1
+ 67 75 67 80 82 -1 -1
+ 67 79 67 81 82 72 -1
+ 67 81 67 0 82 73 -1
+ 67 13 82 1 82 11 -1
+ 67 14 82 1 82 12 -1
+ 67 9 82 1 82 13 -1
+ 67 17 82 1 82 15 -1
+ 67 18 82 1 82 16 -1
+ 67 19 82 1 82 17 -1
+ 67 20 82 1 82 18 -1
+ 67 21 82 1 82 19 -1
+ 67 23 82 1 82 21 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 34 82 1 82 27 -1
+ 67 33 82 1 82 33 -1
+ 67 34 82 1 82 33 -1
+ 67 33 82 1 82 34 -1
+ 67 34 82 1 82 34 -1
+ 67 33 82 1 82 36 -1
+ 67 33 82 1 82 38 -1
+ 67 33 82 1 82 39 -1
+ 67 34 82 1 82 41 -1
+ 80 -1 82 1 82 -1 -1
+ 67 57 82 1 82 48 -1
+ 67 58 82 1 82 49 -1
+ 67 59 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 69 82 1 82 63 -1
+ 80 19 82 1 82 64 -1
+ 80 22 82 1 82 65 -1
+ 67 75 82 1 82 67 -1
+ 67 75 82 1 82 68 -1
+ 80 24 82 1 82 69 -1
+ 80 28 82 1 82 73 -1
+ 80 -1 82 1 82 22 -1
+ 80 -1 82 1 82 22 -1
+ 80 17 82 1 82 63 -1
+ 80 16 82 1 82 63 -1
+ 67 80 82 1 82 72 -1
+_complexName.size()	82
+	Mature HIV virion	extracellular region	Reactome DB_ID: 175514	
+	Virion with CD4 bound to gp120	extracellular region	Reactome DB_ID: 173650	
+	Virion with exposed coreceptor binding sites	extracellular region	Reactome DB_ID: 173648	
+	Virion with CD4:gp120 bound to CCR5/CXCR4	extracellular region	Reactome DB_ID: 173663	
+	Virion with gp41 exposed 	extracellular region	Reactome DB_ID: 173665	
+	Virion with fusogenically activated gp41	extracellular region	Reactome DB_ID: 173639	
+	Virion with gp41 fusion peptide in insertion complex	extracellular region	Reactome DB_ID: 173656	
+	Virion with gp41 forming hairpin structure	extracellular region	Reactome DB_ID: 173649	
+	HIV-1 RNA homodimer	cytosol	Reactome DB_ID: 174985	
+	RT	cytosol	Reactome DB_ID: 173772	
+	Encapsidated viral core	cytosol	Reactome DB_ID: 188943	
+	uncoated viral complex	cytosol	Reactome DB_ID: 173653	
+	RTC  (Reverse Transcription Complex) with RNA template	cytosol	Reactome DB_ID: 173814	
+	RTC with tRNA primer:RNA template	cytosol	Reactome DB_ID: 173801	
+	RTC with minus sssDNA:tRNA primer:RNA template	cytosol	Reactome DB_ID: 173774	
+	RTC with nicked minus sssDNA:tRNA primer:RNA template	cytosol	Reactome DB_ID: 182804	
+	RTC with degraded RNA template and minus sssDNA	cytosol	Reactome DB_ID: 173773	
+	RTC with minus sssDNA transferred to 3'-end of viral RNA template	cytosol	Reactome DB_ID: 173779	
+	RTC with minus strand DNA synthesis initiated from 3'-end	cytosol	Reactome DB_ID: 173786	
+	RTC with extensive RNase-H digestion	cytosol	Reactome DB_ID: 173789	
+	RTC with extending minus strand DNA	cytosol	Reactome DB_ID: 173764	
+	RTC with extending second-strand DNA	cytosol	Reactome DB_ID: 182880	
+	RTC without viral RNA template	cytosol	Reactome DB_ID: 173824	
+	RTC with annealed complementary PBS seqments in +sssDNA and -strand DNA	cytosol	Reactome DB_ID: 173792	
+	RTC with duplex DNA containing discontinuous plus strand flap	cytosol	Reactome DB_ID: 188560	
+	RTC with integration competent viral DNA	cytosol	Reactome DB_ID: 175254	
+	PIC (PreIntegration Complex)	cytosol	Reactome DB_ID: 175143	
+	viral DNA bound with Integrase in PIC	cytosol	Reactome DB_ID: 177532	
+	IN bound to sticky 3' ends of viral DNA in PIC	cytosol	Reactome DB_ID: 177526	
+	HIV-1 closed pre-initiation complex	nucleoplasm	Reactome DB_ID: 167125	
+	TFIIE	nucleoplasm	Reactome DB_ID: 109633	
+	TFIID	nucleoplasm	Reactome DB_ID: 109626	
+	TFIIA	nucleoplasm	Reactome DB_ID: 109629	
+	RNA Polymerase II (unphosphorylated):TFIIF complex	nucleoplasm	Reactome DB_ID: 71307	
+	TFIIH	nucleoplasm	Reactome DB_ID: 109634	
+	HIV-1 open pre-initiation complex	nucleoplasm	Reactome DB_ID: 167137	
+	HIV-1 initiation complex	nucleoplasm	Reactome DB_ID: 167129	
+	HIV-1 initiation complex with phosphodiester-PPi intermediate	nucleoplasm	Reactome DB_ID: 167106	
+	HIV-1 transcription complex	nucleoplasm	Reactome DB_ID: 167101	
+	HIV-1 transcription complex containing 3 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 167119	
+	HIV-1 transcription complex containing 4 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 167124	
+	HIV-1 Promoter Escape Complex	nucleoplasm	Reactome DB_ID: 167472	
+	HIV-1 transcription complex containing 9 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 167100	
+	HIV-1 transcription complex containing 4-9 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 167471	
+	HIV-1 transcription complex containing 11 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 167132	
+	HIV-1 transcription complex containing transcript to +30	nucleoplasm	Reactome DB_ID: 167120	
+	HIV-1 transcription complex containing extruded transcript to +30	nucleoplasm	Reactome DB_ID: 167102	
+	HIV-1 transcription complex with (ser5) phosphorylated CTD containing extruded transcript to +30	nucleoplasm	Reactome DB_ID: 167127	
+	RNA Pol II with phosphorylated CTD: CE complex	nucleoplasm	Reactome DB_ID: 167107	
+	RNA Pol II with phosphorylated CTD: CE complex with activated GT	nucleoplasm	Reactome DB_ID: 167123	
+	CE:Pol II CTD:Spt5 complex	nucleoplasm	Reactome DB_ID: 167139	
+	RNA Pol II (hypophosphorylated):capped pre-mRNA complex	nucleoplasm	Reactome DB_ID: 167086	
+	DSIF complex	nucleoplasm	Reactome DB_ID: 112420	
+	RNA Pol II (hypophosphorylated) complex bound to DSIF protein	nucleoplasm	Reactome DB_ID: 167070	
+	NELF complex	nucleoplasm	Reactome DB_ID: 112432	
+	DSIF:NELF:early elongation complex	nucleoplasm	Reactome DB_ID: 167078	
+	Aborted HIV-1 early elongation complex	nucleoplasm	Reactome DB_ID: 167467	
+	Tat:P-TEFb(Cyclin T1:Cdk9) complex	nucleoplasm	Reactome DB_ID: 167237	
+	Tat-containing early elongation complex with hyperphosphorylated Pol II CTD	nucleoplasm	Reactome DB_ID: 167182	
+	Tat-containing early elongation complex with hyperphosphorylated Pol II CTD and phospho-NELF	nucleoplasm	Reactome DB_ID: 170707	
+	HIV-1 elongation complex containing Tat	nucleoplasm	Reactome DB_ID: 167185	
+	HIV-1 Tat-containing processive elongation complex	nucleoplasm	Reactome DB_ID: 167184	
+	Tat-containing elongation complex prior to separation	nucleoplasm	Reactome DB_ID: 167193	
+	P-TEFb(Cyclin T1:Cdk9)-containing elongation complex with separated and uncleaved transcript	nucleoplasm	Reactome DB_ID: 167199	
+	DSIF:NELF:early elongation complex after limited nucleotide addition	nucleoplasm	Reactome DB_ID: 170726	
+	Early elongation complex with separated aborted transcript	nucleoplasm	Reactome DB_ID: 170736	
+	HIV-1 Tat-containing arrested processive elongation complex	nucleoplasm	Reactome DB_ID: 167091	
+	HIV-1 Tat-containing aborted elongation complex after arrest	nucleoplasm	Reactome DB_ID: 167460	
+	HIV-1 Tat-containing paused processive elongation complex	nucleoplasm	Reactome DB_ID: 167071	
+	Rev multimer-bound HIV-1 mRNA:Crm1:Ran:GTP	cytosol	Reactome DB_ID: 165552	
+	Ran:GTP	cytosol	Reactome DB_ID: 180686	
+	RanBP1:Ran-GTP:CRM1:Rev-bound mRNA complex	cytosol	Reactome DB_ID: 180718	
+	Ran GTPase:GDP	cytosol	Reactome DB_ID: 165549	
+	monoubiquitinated N-myristoyl GAG (P04591) protein	cytosol	Reactome DB_ID: 184369	
+	monoubiquitinated N-myristoyl GAG (P04591) protein	endosome membrane	Reactome DB_ID: 184475	
+	ESCRT-I	endosome membrane	Reactome DB_ID: 184398	
+	monoubiquitinated N-myristoyl GAG (P04591) protein	plasma membrane	Reactome DB_ID: 3149449	
+	Trimeric ENV precursor	Golgi membrane	Reactome DB_ID: 3149446	
+	Trimeric gp120:gp41 oligomer	plasma membrane	Reactome DB_ID: 189840	
+	Assembling HIV virion	plasma membrane	Reactome DB_ID: 3149451	
+	Virion Budding Complex	plasma membrane	Reactome DB_ID: 3211408	
+	Immature HIV virion	extracellular region	Reactome DB_ID: 3139025	
+_physicalEntityName.size()	6
+		
+		
+		
+		
+		
+		
+_proteinName.size()	29
+	PPIA	cytosol	Reactome DB_ID: 173123	UniProt:P62937	PPIA
+	NC (P04585) protein	cytosol			
+	REV (P04618) protein	cytosol	Reactome DB_ID: 173267	UniProt:P04618	rev
+	VIF (P69723) protein	cytosol	Reactome DB_ID: 173256	UniProt:P69723	vif
+	PR (Protease) (P04585) protein	cytosol	Reactome DB_ID: 175182	UniProt:P04585	gag-pol
+	myristoylated Nef Protein (UniProt:P04601)	cytosol	Reactome DB_ID: 167605	UniProt:P04601	nef
+	VPR (P69726) protein	cytosol	Reactome DB_ID: 173193	UniProt:P69726	vpr
+	MA (P04585) protein	cytosol			
+	BANF1	cytosol	Reactome DB_ID: 175371	UniProt:O75531	BANF1
+	HMGA1	cytosol	Reactome DB_ID: 3004619	UniProt:P17096	HMGA1
+	PSIP1	cytosol	Reactome DB_ID: 3008840	UniProt:O75475	PSIP1
+	GTF2B	nucleoplasm	Reactome DB_ID: 65888	UniProt:Q00403	GTF2B
+	HCE	nucleoplasm	Reactome DB_ID: 72081	UniProt:O60942	RNGTT
+	RNMT	nucleoplasm	Reactome DB_ID: 77060	UniProt:O43148	RNMT
+	SUPT5H	nucleoplasm	Reactome DB_ID: 3009372	UniProt:O00267	SUPT5H
+	XPO1	cytosol	Reactome DB_ID: 165539	UniProt:O14980	XPO1
+	RANBP1	nuclear envelope	Reactome DB_ID: 167651	UniProt:P43487	RANBP1
+	RANGAP1	nuclear envelope	Reactome DB_ID: 167661	UniProt:P46060	RANGAP1
+	Nef Protein (UniProt:P04601)	cytosol	Reactome DB_ID: 165575	UniProt:P04601	nef
+	NMT 1	cytosol	Reactome DB_ID: 60306	UniProt:P30419	NMT1
+	GAG Polyprotein (P04591)	cytosol	Reactome DB_ID: 184393	UniProt:P04591	gag
+	N-myristoyl GAG (P04591) protein	cytosol	Reactome DB_ID: 184427	UniProt:P04591	gag
+	NMT2	cytosol	Reactome DB_ID: 184377	UniProt:O60551	NMT2
+	UBC(609-684)	cytosol			
+	FURIN	Golgi membrane	Reactome DB_ID: 157049	UniProt:P09958	FURIN
+	VPU (P05919)	endoplasmic reticulum membrane	Reactome DB_ID: 180550	UniProt:P05919	vpu
+	VPU (P05919)	plasma membrane	Reactome DB_ID: 3149423	UniProt:P05919	vpu
+	GAG-POL Polyprotein (P04585)	plasma membrane	Reactome DB_ID: 3076336	UniProt:P04585	gag-pol
+	GAG-POL Polyprotein (P04585)	extracellular region	Reactome DB_ID: 3139031	UniProt:P04585	gag-pol
+_reactionName.size()	74
+	D	Binding of gp120 of ENV oligomer to the host CD4
+	T	Conformational change in gp120 of Env oligomer
+	D	CD4:gp120  binds to chemokine co-receptor CCR5/CXCR4
+	T	Conformational changes in gp120 exposes gp41
+	T	Fusogenic activation of gp41
+	T	Insertion of gp41 fusion peptide into the target membrane
+	T	N and C terminal heptad repeat helices of gp41 form six-helix bundle
+	B	Fusion of viral membrane with host cell membrane
+	B	Disassembly of viral capsid
+	B	Formation of RTC (Reverse Transcription Complex)
+	D	Annealing of 3'-end of unwound transfer RNA primer with genomic RNA
+	T	Synthesis of minus strand strong stop DNA (-sssDNA)
+	T	RNase H-mediated cleavage of the RNA strand of the -sssDNA:RNA duplex
+	T	RNase H-mediated degradation of the RNA strand of the -sssDNA:RNA duplex
+	T	First strand transfer mediated by Repeated (R) sequence
+	T	Minus strand DNA synthesis resumes
+	T	RNase H-mediated cleavage of the template strand
+	T	RNase H-mediated degradation of the template strand
+	T	 
+	T	RNase H-mediated digestion of tRNA, 3'PPT and cPPT RNA primers
+	T	Second strand transfer by annealing complementary PBS sequences
+	T	Synthesis of full-length duplex viral DNA with a discontinuous plus strand
+	T	Removal of plus-strand flap and gap closure complete synthesis of linear duplex viral DNA
+	T	Formation of Pre-Integration Complex (PIC)
+	T	Integrase binds viral DNA ends
+	T	Terminal (3' end) cleavage of viral DNA
+	T	Import of PIC to the Host Nucleus
+	T	HIV Promoter Opening: First Transition
+	T	Fall Back to Closed Pre-initiation Complex
+	D	NTP binds active site of RNA Polymerase II in HIV-1 open pre-initiation complex
+	T	Nucleophillic attack by 3'-hydroxyl oxygen of nascent HIV-1 transcript on the Alpha phosphate of NTP
+	B	Newly formed phosphodiester bond stabilized and PPi released
+	B	Abortive HIV-1 initiation after formation of the first phosphodiester bond
+	T	Addition of the third nucleotide on the nascent HIV-1 transcript
+	T	Addition of the fourth nucleotide on the nascent HIV-1 transcript: Second Transition
+	B	Abortive HIV-1 Initiation Before Second Transition
+	T	Addition of nucleotides 5 through 9 on the growing HIV-1 transcript
+	B	Abortive HIV-1 Initiation After Second Transition
+	T	Addition of nucleotides 10 and 11 on the growing HIV-1 transcript: Third Transition
+	T	Addition of nucleotides between position +11 and +30 on HIV-1 transcript
+	T	Extrusion of 5'-end of 30 nt long HIV-1 transcript through the pore in Pol II complex
+	T	Phosphorylation (Ser5) of RNA pol II CTD
+	D	RNA Polymerase II CTD (phosphorylated) binds to CE
+	T	Activation of GT
+	D	SPT5 subunit of Pol II binds the RNA triphosphatase (RTP)
+	D	DSIF complex binds to RNA Pol II (hypophosphorylated)
+	T	Formation of DSIF:NELF:HIV-1 early elongation complex
+	T	Abortive termination of HIV-1 early transcription elongation by DSIF:NELF
+	T	Hyperphosphorylation (Ser2) of RNA Pol II CTD by the P-TEFb(Cyclin T1:Cdk9) complex
+	T	Phosphorylation of  NEFL by the P-TEFb(Cyclin T1:Cdk9) complex
+	D	Recruitment of elongation factors to form HIV-1 elongation complex
+	T	Addition of nucleotides leads to HIV-1 transcript elongation
+	T	Pol II elongation complex moves on the HIV-1 template as transcript elongates
+	T	Separation of elongating HIV-1 transcript from template
+	D	Limited elongation of the HIV-1 transcript
+	T	Separation of abortive HIV-1 transcript from template
+	T	TFIIS-mediated recovery of elongation from arrest
+	T	Abortive  termination of HIV-1 elongation after arrest (Tat-containing elongation complex)
+	T	7-14 nt. Backtracking of Pol II complex on the HIV-1 template leading to elongation arrest
+	T	2-4 nt.backtracking of Pol II complex on the HIV-1 template leading to elongation pausing
+	T	Resumption of elongation of HIV-1 transcript after recovery from pausing
+	D	Association of RanBP1 with Ran-GTP:CRM1:Rev:mRNA complex
+	B	Release of the HIV mRNA and Crm1 from Rev in the cytoplasm
+	B	Hydrolysis of Ran:GTP to Ran:GDP
+	T	Myristoylation of Nef
+	T	N-myristoylation of GAG polyprotein by NMT2
+	D	Monoubiquitination of N-myristoyl GAG polyprotein
+	T	Monoubiquitinated N-myristoyl GAG polyprotein is targeted to the late endosomal vesicle membrane by the ESCRT-I complex
+	T	Transport of GAG to the Plasma Membrane
+	T	Cleavage of the viral Env gp160 precursor polyprotein
+	T	Transport of VPU to Golgi apparatus
+	D	Packaging of HIV virion on the host cell plasma membrane
+	T	HIV Virion Budding
+	T	Maturation of HIV Virion
+_smallMoleculeName.size()	20
+				
+				
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+				
+	PPi	nucleoplasm	Reactome DB_ID: 113541	PPi [ChEBI:29888]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	CoA-SH	cytosol	Reactome DB_ID: 76194	CoA [ChEBI:15346]
+	MYS-CoA	cytosol	Reactome DB_ID: 184174	Tetradecanoyl-CoA [ChEBI:15532]
+	MYS-CoA	cytosol	Reactome DB_ID: 184174	Tetradecanoyl-CoA [ChEBI:15532]
+	MYS-CoA	cytosol	Reactome DB_ID: 184174	Tetradecanoyl-CoA [ChEBI:15532]
+	MYS-CoA	cytosol	Reactome DB_ID: 184174	Tetradecanoyl-CoA [ChEBI:15532]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	viral envelope
+	whole

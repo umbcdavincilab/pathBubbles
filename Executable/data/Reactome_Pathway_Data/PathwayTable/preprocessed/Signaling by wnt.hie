@@ -1,0 +1,180 @@
+edge.size() 61
+ 80 0 80 1 82 0 -1
+ 80 1 83 2 82 1 -1
+ 83 0 83 3 82 1 -1
+ 83 1 80 2 82 1 -1
+ 80 1 80 2 82 1 -1
+ 80 2 80 4 82 2 -1
+ 80 5 67 0 82 3 -1
+ 80 4 67 0 82 3 -1
+ 67 0 67 1 82 4 -1
+ 67 1 80 6 82 5 -1
+ 67 1 80 -1 82 5 -1
+ 80 6 80 7 82 6 -1
+ 80 -1 67 2 82 7 -1
+ 67 -1 67 2 82 7 -1
+ 80 7 67 2 82 7 -1
+ 67 2 67 3 82 8 -1
+ 67 3 80 5 82 9 -1
+ 67 3 80 -1 82 9 -1
+ 67 3 67 -1 82 9 -1
+ 80 8 67 5 82 10 -1
+ 67 4 67 5 82 10 -1
+ 80 9 67 5 82 10 -1
+ 80 10 67 5 82 10 -1
+ 80 11 67 5 82 10 -1
+ 80 12 67 5 82 10 -1
+ 80 13 67 6 82 11 -1
+ 67 5 67 6 82 11 -1
+ 83 6 67 6 82 12 -1
+ 67 7 83 4 82 12 -1
+ 67 7 83 5 82 12 -1
+ 83 6 67 7 82 13 -1
+ 67 8 83 7 82 13 -1
+ 67 8 83 8 82 13 -1
+ 67 10 67 8 82 14 -1
+ 67 10 83 9 82 14 -1
+ 83 6 83 10 82 14 -1
+ 83 6 67 10 82 15 -1
+ 67 11 83 11 82 15 -1
+ 67 11 83 12 82 15 -1
+ 67 12 83 13 82 16 -1
+ 67 12 67 11 82 16 -1
+ 83 6 67 11 82 16 -1
+ 67 12 67 13 82 17 -1
+ 67 13 67 15 82 18 -1
+ 67 14 67 15 82 18 -1
+ 80 14 67 16 82 19 -1
+ 67 15 67 16 82 19 -1
+ 67 16 80 14 82 20 -1
+ 67 16 67 17 82 20 -1
+ 67 16 67 14 82 20 -1
+ 80 3 82 1 82 1 -1
+ 67 6 82 1 82 12 -1
+ 67 7 82 1 82 13 -1
+ 67 8 82 1 82 14 -1
+ 67 10 82 1 82 15 -1
+ 67 11 82 1 82 16 -1
+ 67 18 82 1 82 20 -1
+ 80 -1 82 1 82 2 -1
+ 67 9 82 0 82 13 -1
+ 67 9 82 0 82 14 -1
+ 67 9 82 0 82 15 -1
+_complexName.size()	19
+	WLS:WNT	Golgi membrane	Reactome DB_ID: 3247841	
+	WLS:WNT	plasma membrane	Reactome DB_ID: 3247838	
+	WLS:retromer	early endosome membrane	Reactome DB_ID: 3247845	
+	WLS:retromer	Golgi membrane	Reactome DB_ID: 3247842	
+	PP2A	cytosol	Reactome DB_ID: 196206	
+	destruction complex	cytosol	Reactome DB_ID: 195250	
+	beta-catenin:destruction complex	cytosol	Reactome DB_ID: 195301	
+	pS45-beta-catenin:destruction complex	cytosol	Reactome DB_ID: 195277	
+	p-T41,S45-beta-catenin:Axin:GSK3:CK1alpha:APC:PP2A:FAM123B complex	cytosol	Reactome DB_ID: 195313	
+	FRAT1/FRAT2:GSK3beta Complex	cytosol	Reactome DB_ID: 1226052	
+	p-S37,T41,S45-beta-catenin:Axin,GSK3:CK1alpha:APC:PP2A:FAM123B complex	cytosol	Reactome DB_ID: 195305	
+	p-S33,S37,T41,S45-beta-catenin:Axin:GSK3:CK1alpha:APC:PP2A:FAM123B complex	cytosol	Reactome DB_ID: 195282	
+	p-S33,S37,T41,S45-beta-catenin:Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A:FAM123B complex	cytosol	Reactome DB_ID: 195297	
+	p-S33,S37,T41,S45-beta-catenin:Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A:FAM123B complex	cytosol	Reactome DB_ID: 195322	
+	SCF-beta-TrCP1 complex	cytosol	Reactome DB_ID: 174155	
+	SCF-beta-TrCP1 complex associated with phosphorylated beta-catenin	cytosol	Reactome DB_ID: 195311	
+	ubiquitinated phospho-beta-catenin:SCF:beta-TrCP1 complex	cytosol	Reactome DB_ID: 195303	
+	Axin:CK1alpha:GSK3B:phospho-APC (20 aa repeat region):PP2A:FAM123B complex	cytosol	Reactome DB_ID: 196222	
+	26S proteasome	cytosol	Reactome DB_ID: 68819	
+_physicalEntityName.size()	0
+_proteinName.size()	15
+	WNT16	endoplasmic reticulum lumen			
+	N4GlycoAsn-WNT16	endoplasmic reticulum lumen			
+	N4GlycoAsn-PalmS WNT16	endoplasmic reticulum lumen			
+	PORCN	endoplasmic reticulum membrane	Reactome DB_ID: 3238209	UniProt:Q9H237	PORCN
+	N4GlycoAsn-PalmS WNT16	Golgi lumen			
+	WLS	Golgi membrane	Reactome DB_ID: 3247747	UniProt:Q5T9L3	WLS
+	WLS	plasma membrane	Reactome DB_ID: 3247746	UniProt:Q5T9L3	WLS
+	WLS	early endosome membrane	Reactome DB_ID: 3247745	UniProt:Q5T9L3	WLS
+	GSK3B	cytosol	Reactome DB_ID: 2997551	UniProt:P49841	GSK3B
+	APC	cytosol	Reactome DB_ID: 2976015	UniProt:P25054	APC
+	WTX	cytosol	Reactome DB_ID: 1504189	UniProt:Q5JTC6	AMER1
+	CSNK1A1	cytosol	Reactome DB_ID: 195263	UniProt:P48729	CSNK1A1
+	AXIN1	cytosol	Reactome DB_ID: 195249	UniProt:O15169	AXIN1
+	CTNNB1-1	cytosol			
+	UBC(609-684)	cytosol			
+_reactionName.size()	21
+	T	N-linked glycosylation of WNTs
+	T	PORCN palmitoleoylates N-glycosyl WNTs
+	T	WNT ligands traffic to the Golgi
+	D	WLS binds WNT ligands in the Golgi
+	T	WNT ligands traffic to the plasma membrane
+	B	secretion of WNT ligands
+	T	WLS is endocytosed to the early endosome
+	D	Retromer associates with WLS
+	T	Retromer recycles WLS to the Golgi
+	B	WLS dissociates from retromer
+	D	Assembly of the destruction complex
+	D	Association of beta-catenin with the destruction complex
+	T	Phosphorylation of beta-catenin at Ser45 by CK1 alpha
+	T	Phosphorylation of phospho-(Ser45 ) at Thr 41 by GSK-3
+	T	Phosphoryation of phospho- (Ser45, Thr41) beta-catenin  at Ser37 by GSK-3
+	T	Phosphorylation of phospho-(Ser45,Thr41,Ser37) at Ser33 by GSK-3
+	T	Phosphorylation of APC component of the destruction complex
+	T	Dissociation of beta-catenin from Axin and association of beta catenin with phospho-(20 aa) APC in the detruction complex
+	D	Association of beta-catenin with  the SCF-beta-TrCP1 ubiquitin ligase complex
+	D	Multi-ubiquitination of phospho-beta-catenin by SCF-beta-TrCP1
+	B	Degradation of ubiquitinated -beta catenin by the proteasome
+_smallMoleculeName.size()	14
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+	palmitoleoyl-CoA	endoplasmic reticulum lumen	Reactome DB_ID: 3238096	palmitoleoyl-CoA [ChEBI:53152]
+	CoA-SH	endoplasmic reticulum lumen	Reactome DB_ID: 162743	CoA [ChEBI:15346]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

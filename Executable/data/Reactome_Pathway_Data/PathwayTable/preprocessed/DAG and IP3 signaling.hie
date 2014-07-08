@@ -1,0 +1,148 @@
+edge.size() 50
+ 83 -1 83 1 82 -1 -1
+ 83 0 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 1 67 1 82 0 -1
+ 67 0 67 1 82 0 -1
+ 83 2 83 3 82 1 -1
+ 83 3 67 2 82 2 -1
+ 80 0 67 2 82 2 -1
+ 83 4 83 6 82 3 -1
+ 83 5 83 7 82 3 -1
+ 67 5 80 1 82 4 -1
+ 83 6 80 1 82 4 -1
+ 67 5 67 6 82 4 -1
+ 80 1 80 2 82 -1 -1
+ 83 9 83 8 82 5 -1
+ 80 4 80 3 82 5 -1
+ 80 4 80 3 82 5 -1
+ 80 4 67 7 82 6 -1
+ 67 2 67 8 82 7 -1
+ 80 5 67 8 82 7 -1
+ 67 8 67 9 82 8 -1
+ 67 10 67 9 82 9 -1
+ 67 10 83 10 82 9 -1
+ 83 9 83 11 82 9 -1
+ 83 9 83 12 82 10 -1
+ 80 4 80 3 82 10 -1
+ 80 4 80 3 82 10 -1
+ 67 11 67 12 82 11 -1
+ 83 6 83 13 82 12 -1
+ 83 0 83 14 82 12 -1
+ 80 -1 67 -1 82 13 -1
+ 80 0 67 -1 82 13 -1
+ 83 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 1 82 1 82 1 -1
+ 67 3 82 1 82 3 -1
+ 80 2 82 1 82 5 -1
+ 67 9 82 1 82 9 -1
+ 67 10 82 1 82 10 -1
+ 67 12 82 1 82 12 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 0 82 -1 -1
+ 67 4 82 1 82 1 -1
+ 67 2 82 1 82 11 -1
+_complexName.size()	13
+	IP3 receptor homotetramer	endoplasmic reticulum membrane	Reactome DB_ID: 169686	
+	IP3 receptor:IP3 complex	endoplasmic reticulum membrane	Reactome DB_ID: 169696	
+	Ca(4)CaM	cytosol	Reactome DB_ID: 74294	
+	Adenylate cyclase (Mg2+ cofactor)	plasma membrane	Reactome DB_ID: 170665	
+	active Calmodulin	cytosol	Reactome DB_ID: 194447	
+	PKA tetramer	cytosol	Reactome DB_ID: 111922	
+	cAMP:PKA regulatory subunit	cytosol	Reactome DB_ID: 111923	
+	phospho-CREB dimer	nucleoplasm	Reactome DB_ID: 111911	
+	Calmodulin:CaMK IV	cytosol	Reactome DB_ID: 111900	
+	Calmodulin:CaMK IV	nucleoplasm	Reactome DB_ID: 112281	
+	phospho-CaMK IV:Calmodulin	nucleoplasm	Reactome DB_ID: 111904	
+	Cam-PDE 1A homodimer/Cam-PDE 1B homodimer/Cam-PDE 1C homodimer			
+	active Cam-PDE 1	cytosol	Reactome DB_ID: 111953	
+_physicalEntityName.size()	0
+_proteinName.size()	6
+	CALM1	cytosol	Reactome DB_ID: 71519	UniProt:P62158	CALM1
+	PRKACG	cytosol			
+	PRKACG	nucleoplasm			
+	CREB	nucleoplasm	Reactome DB_ID: 52777	UniProt:P16220	CREB1
+	CREB	nucleoplasm	Reactome DB_ID: 111910	UniProt:P16220	CREB1
+	CAMK4	cytosol	Reactome DB_ID: 57900	UniProt:Q16566	CAMK4
+_reactionName.size()	14
+	D	IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel
+	T	Release of calcium from intracellular stores by IP3 receptor activation
+	D	Calcium binds calmodulin
+	B	Adenylate cyclase produces cAMP
+	T	cAMP induces dissociation of inactive PKA tetramers
+	T	PKA phosphorylates CREB
+	T	Dimerisation of CREB
+	D	Calmodulin binds CaMK IV
+	T	CamKIV enters the nucleus
+	T	CaMK IV autophosphorylation
+	T	CaMK IV phosphorylates CREB
+	T	Calmodulin activates Cam-PDE 1
+	D	cAMP hydrolysis by Cam-PDE 1
+	D	Inhibition of GRK2 by calmodulin
+_smallMoleculeName.size()	15
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	DAG	plasma membrane	Reactome DB_ID: 112275	diacylglycerols [ChEBI:18035]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	cAMP	cytosol	Reactome DB_ID: 30389	3',5'-Cyclic AMP [ChEBI:17489]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Ca2+	endoplasmic reticulum lumen	Reactome DB_ID: 111875	Calcium [ChEBI:29108]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

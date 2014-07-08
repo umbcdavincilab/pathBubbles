@@ -1,0 +1,70 @@
+edge.size() 13
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 0 80 1 82 0 -1
+ 80 0 83 0 82 0 -1
+ 80 2 80 1 82 1 -1
+ 80 2 83 0 82 1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	1
+	PP2A-ABdeltaC complex	nucleoplasm	Reactome DB_ID: 165970	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	p-S568-MLXIPL	nucleoplasm	Reactome DB_ID: 163687	UniProt:Q9NP71	MLXIPL
+	MLXIPL	nucleoplasm	Reactome DB_ID: 163683	UniProt:Q9NP71	MLXIPL
+	p-T666-MLXIPL	nucleoplasm	Reactome DB_ID: 164349	UniProt:Q9NP71	MLXIPL
+_reactionName.size()	2
+	B	Dephosphorylation of pChREBP (Ser 568) by PP2A
+	B	Dephosphorylation of pChREBP (Thr 666) by PP2A
+_smallMoleculeName.size()	1
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

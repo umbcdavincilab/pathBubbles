@@ -1,0 +1,88 @@
+edge.size() 22
+ 80 0 80 1 82 0 -1
+ 83 0 80 1 82 0 -1
+ 83 1 83 2 82 0 -1
+ 80 0 83 3 82 0 -1
+ 80 1 67 0 82 1 -1
+ 80 2 67 0 82 1 -1
+ 83 -1 67 -1 82 -1 -1
+ 80 3 67 -1 82 -1 -1
+ 67 2 83 4 82 2 -1
+ 67 2 67 1 82 2 -1
+ 83 5 67 1 82 2 -1
+ 67 2 83 -1 82 -1 -1
+ 67 2 67 1 82 -1 -1
+ 83 5 67 1 82 -1 -1
+ 67 2 67 1 82 -1 -1
+ 67 2 83 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 82 1 82 0 -1
+ 80 3 82 1 82 2 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	3
+	p(S7)-Rap1 GTPase-activating protein 2:14-3-3beta, zeta	cytosol	Reactome DB_ID: 913992	
+	Rap1-GDP	plasma membrane	Reactome DB_ID: 354074	
+	Rap1-GTP	plasma membrane	Reactome DB_ID: 354126	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	GARNL4	cytosol	Reactome DB_ID: 392491	UniProt:Q684P5	RAP1GAP2
+	GARNL4	cytosol	Reactome DB_ID: 913989	UniProt:Q684P5	RAP1GAP2
+	YWHAZ	cytosol			
+	RAPGEF4	plasma membrane			
+_reactionName.size()	3
+	T	PKA/PKG phosphorylate Rap1GAP2
+	D	14-3-3 proteins beta and zeta bind and inhibit Rap1Gap2
+	T	Activation of Rap1 by membrane-associated GEFs
+_smallMoleculeName.size()	6
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

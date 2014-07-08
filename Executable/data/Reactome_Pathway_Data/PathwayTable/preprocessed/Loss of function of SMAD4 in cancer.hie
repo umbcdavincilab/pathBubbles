@@ -1,0 +1,437 @@
+edge.size() 225
+ 67 0 67 1 82 0 -1
+ 67 1 67 2 82 1 -1
+ 67 2 67 -1 82 2 -1
+ 80 -1 67 -1 82 2 -1
+ 67 -1 67 3 82 -1 -1
+ 67 -1 67 3 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 4 67 3 82 3 -1
+ 67 4 83 0 82 3 -1
+ 83 2 83 1 82 3 -1
+ 67 4 67 -1 82 4 -1
+ 80 1 67 -1 82 4 -1
+ 80 4 67 -1 82 4 -1
+ 83 2 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 5 -1
+ 67 -1 80 0 82 5 -1
+ 80 5 67 5 82 6 -1
+ 80 0 67 5 82 6 -1
+ 67 4 67 -1 82 7 -1
+ 80 6 67 -1 82 7 -1
+ 67 4 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 8 -1
+ 80 6 67 -1 82 8 -1
+ 67 4 67 -1 82 9 -1
+ 80 6 67 -1 82 9 -1
+ 80 -1 67 -1 82 9 -1
+ 67 6 67 7 82 10 -1
+ 80 4 67 7 82 10 -1
+ 67 -1 67 7 82 10 -1
+ 67 7 83 4 82 11 -1
+ 83 3 67 8 82 11 -1
+ 67 7 67 8 82 11 -1
+ 67 7 80 6 82 11 -1
+ 67 7 80 6 82 11 -1
+ 67 7 67 6 82 11 -1
+ 80 7 67 9 82 12 -1
+ 80 8 67 9 82 12 -1
+ 67 9 67 -1 82 -1 -1
+ 80 7 67 10 82 13 -1
+ 80 10 67 10 82 13 -1
+ 80 11 67 11 82 14 -1
+ 67 10 67 11 82 14 -1
+ 67 11 67 -1 82 -1 -1
+ 67 11 80 -1 82 -1 -1
+ 80 7 67 12 82 15 -1
+ 80 12 67 12 82 15 -1
+ 67 12 67 -1 82 16 -1
+ 67 4 67 13 82 17 -1
+ 67 -1 67 13 82 17 -1
+ 80 14 80 13 82 18 -1
+ 67 13 80 13 82 18 -1
+ 67 13 67 14 82 18 -1
+ 80 14 67 14 82 18 -1
+ 80 -1 67 15 82 19 -1
+ 67 14 67 15 82 19 -1
+ 67 15 80 14 82 20 -1
+ 83 3 80 14 82 20 -1
+ 67 15 67 16 82 20 -1
+ 67 15 67 16 82 20 -1
+ 80 9 67 17 82 21 -1
+ 80 2 67 17 82 21 -1
+ 80 14 80 9 82 22 -1
+ 67 17 80 9 82 22 -1
+ 67 17 67 18 82 22 -1
+ 80 14 67 18 82 22 -1
+ 80 15 67 19 82 23 -1
+ 80 3 67 19 82 23 -1
+ 80 14 67 20 82 24 -1
+ 67 19 67 20 82 24 -1
+ 67 19 80 15 82 24 -1
+ 80 14 80 15 82 24 -1
+ 80 0 67 -1 82 25 -1
+ 80 -1 67 -1 82 25 -1
+ 80 1 67 -1 82 26 -1
+ 80 -1 67 -1 82 26 -1
+ 80 0 67 -1 82 27 -1
+ 80 -1 67 -1 82 27 -1
+ 67 -1 83 4 82 28 -1
+ 83 3 80 1 82 28 -1
+ 67 -1 80 1 82 28 -1
+ 67 -1 80 -1 82 28 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 21 67 22 82 29 -1
+ 67 -1 67 22 82 29 -1
+ 67 22 80 -1 82 30 -1
+ 67 -1 80 -1 82 30 -1
+ 67 -1 67 23 82 30 -1
+ 67 22 67 23 82 30 -1
+ 83 2 83 5 82 31 -1
+ 67 24 67 23 82 31 -1
+ 67 24 67 23 82 31 -1
+ 67 24 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 32 -1
+ 80 14 67 -1 82 32 -1
+ 67 5 67 25 82 33 -1
+ 83 6 83 8 82 34 -1
+ 67 25 83 9 82 34 -1
+ 67 25 67 26 82 34 -1
+ 83 7 67 26 82 34 -1
+ 67 5 67 28 82 35 -1
+ 80 18 67 28 82 35 -1
+ 67 28 67 29 82 36 -1
+ 68 0 80 7 82 37 -1
+ 68 1 80 -1 82 38 -1
+ 80 7 67 31 82 39 -1
+ 80 19 67 31 82 39 -1
+ 67 31 67 32 82 40 -1
+ 80 20 67 32 82 40 -1
+ 80 20 80 19 82 40 -1
+ 67 31 80 19 82 40 -1
+ 67 33 67 34 82 41 -1
+ 67 25 67 34 82 41 -1
+ 68 2 80 21 82 42 -1
+ 67 25 67 35 82 43 -1
+ 80 22 67 35 82 43 -1
+ 68 -1 80 -1 82 -1 -1
+ 67 25 67 36 82 44 -1
+ 80 23 67 36 82 44 -1
+ 68 3 80 24 82 45 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 25 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 37 82 -1 -1
+ 80 -1 67 37 82 -1 -1
+ 67 37 80 -1 82 46 -1
+ 80 20 80 -1 82 46 -1
+ 80 20 67 38 82 46 -1
+ 67 37 67 38 82 46 -1
+ 80 20 67 25 82 46 -1
+ 67 37 67 25 82 46 -1
+ 80 20 80 -1 82 46 -1
+ 67 37 80 -1 82 46 -1
+ 80 25 67 39 82 47 -1
+ 67 25 67 39 82 47 -1
+ 67 39 80 25 82 48 -1
+ 80 20 80 25 82 48 -1
+ 80 20 67 40 82 48 -1
+ 67 39 67 40 82 48 -1
+ 80 20 80 17 82 48 -1
+ 67 39 80 17 82 48 -1
+ 67 40 67 41 82 -1 -1
+ 80 26 67 42 82 49 -1
+ 67 41 67 42 82 49 -1
+ 83 3 80 14 82 50 -1
+ 67 42 80 14 82 50 -1
+ 67 42 80 5 82 50 -1
+ 67 42 80 5 82 50 -1
+ 80 12 67 43 82 51 -1
+ 67 26 67 43 82 51 -1
+ 80 20 67 44 82 52 -1
+ 67 43 67 44 82 52 -1
+ 67 43 80 12 82 52 -1
+ 80 20 80 12 82 52 -1
+ 80 8 67 45 82 -1 -1
+ 67 26 67 45 82 -1 -1
+ 67 45 80 8 82 53 -1
+ 80 20 80 8 82 53 -1
+ 80 20 80 16 82 53 -1
+ 67 45 80 16 82 53 -1
+ 80 20 67 46 82 53 -1
+ 67 45 67 46 82 53 -1
+ 67 25 67 30 82 -1 -1
+ 80 -1 67 30 82 -1 -1
+ 80 -1 67 30 82 -1 -1
+ 67 25 67 47 82 54 -1
+ 80 27 67 47 82 54 -1
+ 67 47 83 13 82 55 -1
+ 83 10 83 14 82 55 -1
+ 83 11 80 27 82 55 -1
+ 67 47 80 27 82 55 -1
+ 83 12 67 48 82 55 -1
+ 67 47 67 48 82 55 -1
+ 67 25 67 49 82 -1 -1
+ 80 -1 67 49 82 -1 -1
+ 67 49 83 19 82 56 -1
+ 83 15 83 20 82 56 -1
+ 83 16 80 28 82 56 -1
+ 67 49 80 28 82 56 -1
+ 83 17 80 16 82 56 -1
+ 67 49 80 16 82 56 -1
+ 83 18 80 -1 82 56 -1
+ 67 49 80 -1 82 56 -1
+ 80 28 80 1 82 57 -1
+ 80 -1 82 1 82 0 -1
+ 67 2 82 1 82 2 -1
+ 67 -1 82 1 82 -1 -1
+ 67 3 82 1 82 3 -1
+ 80 4 82 1 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 9 -1
+ 67 7 82 1 82 11 -1
+ 67 11 82 1 82 -1 -1
+ 67 13 82 1 82 18 -1
+ 67 15 82 1 82 20 -1
+ 67 17 82 1 82 22 -1
+ 67 19 82 1 82 24 -1
+ 67 -1 82 1 82 28 -1
+ 67 -1 82 1 82 -1 -1
+ 67 27 82 1 82 34 -1
+ 67 31 82 1 82 40 -1
+ 67 37 82 1 82 46 -1
+ 67 39 82 1 82 48 -1
+ 67 42 82 1 82 50 -1
+ 67 45 82 1 82 53 -1
+ 67 47 82 1 82 55 -1
+ 67 49 82 1 82 56 -1
+ 67 29 82 1 82 37 -1
+ 80 7 82 0 82 38 -1
+ 67 30 82 0 82 38 -1
+ 67 29 82 1 82 38 -1
+ 67 34 82 0 82 42 -1
+ 67 35 82 1 82 -1 -1
+ 67 25 82 1 82 45 -1
+_complexName.size()	50
+	Pre-TGFB1 complex	Golgi lumen	Reactome DB_ID: 171260	
+	Large latent complex of TGFB1	Golgi lumen	Reactome DB_ID: 177102	
+	Dimeric TGFB1	extracellular region	Reactome DB_ID: 170852	
+	TGFB1:TGFBR2:TGFBR1	plasma membrane	Reactome DB_ID: 170840	
+	TGFB1:TGFBR2:p-TGFBR1	plasma membrane	Reactome DB_ID: 170841	
+	p-2S-SMAD2/3:SMAD4	cytosol	Reactome DB_ID: 171175	
+	GADD34:PP1	cytosol	Reactome DB_ID: 2162158	
+	TGFB1:p-TGFBR:I-SMAD7:GADD34:PP1:SARA	early endosome membrane	Reactome DB_ID: 2167884	
+	TGFB1:TGFBR2:TGFBR1	early endosome membrane	Reactome DB_ID: 2167873	
+	SMAD7:SMURF2	nucleoplasm	Reactome DB_ID: 2167870	
+	SMAD7:SMURF1	nucleoplasm	Reactome DB_ID: 2167913	
+	SMAD7:SMURF1:XPO1	nucleoplasm	Reactome DB_ID: 2167923	
+	SMAD7:NEDD4L	nucleoplasm	Reactome DB_ID: 2176418	
+	TGFB1:TGFBR2:p-TGFBR1:SMAD7:SMURF/NEDD4L	plasma membrane	Reactome DB_ID: 2169025	
+	TGFB1:TGFBR2:Ub-p-TGFBR1:Ub-SMAD7	plasma membrane	Reactome DB_ID: 2169047	
+	TGFB1:TGFBR2:Ub-p-TGFBR1:Ub-SMAD7:UCHL5/USP15	plasma membrane	Reactome DB_ID: 2179287	
+	TGFB1:TGFBR2:p-TGFBR1:Ub-SMAD7	plasma membrane	Reactome DB_ID: 2179328	
+	SMAD2:SMURF2	cytosol	Reactome DB_ID: 2176457	
+	Ub-SMAD2	cytosol	Reactome DB_ID: 2176443	
+	SMAD3:STUB1	cytosol	Reactome DB_ID: 2187365	
+	Ub-SMAD3	cytosol	Reactome DB_ID: 2187371	
+	Tight Junction Complex:PARD6A:RHOA	cell junction	Reactome DB_ID: 2134514	
+	Tight Junction Complex:TGFBR1:PARD6A:RHOA	cell junction	Reactome DB_ID: 2134509	
+	Tight Junction Complex:TGFB1:TGFBR2:TGFBR1:PARD6A:RHOA	cell junction	Reactome DB_ID: 2134522	
+	Tight Junction Complex:TGFB1:TGFBR2:p-TGFBR1:p-PARD6A:RHOA	cell junction	Reactome DB_ID: 2134534	
+	p-2S-SMAD2/3:SMAD4	nucleoplasm	Reactome DB_ID: 173511	
+	p-T,2S-SMAD2/3:SMAD4	nucleoplasm	Reactome DB_ID: 2176487	
+	CDK8:CCNC/P-TEFb complex			
+	WWTR1:p-2S-SMAD2/3:SMAD4	cytosol	Reactome DB_ID: 2031357	
+	WWTR1:p-2S-SMAD2/3:SMAD4	nucleoplasm	Reactome DB_ID: 2106580	
+	p-2S-SMAD2/3:SMAD4:TGIF:HDAC1	nucleoplasm	Reactome DB_ID: 2186606	
+	SMAD7:RNF111	nucleoplasm	Reactome DB_ID: 2186769	
+	Ub-SMAD7	nucleoplasm	Reactome DB_ID: 2186778	
+	RBL1:E2F4/5:DP1/2	nucleoplasm	Reactome DB_ID: 2127252	
+	p-SMAD2/3:SMAD4:RBL1:E2F4/5:DP1/2	nucleoplasm	Reactome DB_ID: 2127250	
+	p-2S-SMAD2/3:SMAD4:SP1	nucleoplasm	Reactome DB_ID: 2187302	
+	p-2S-SMAD2/3:SMAD4:MEN1	nucleoplasm	Reactome DB_ID: 2186642	
+	p-2S-SMAD2/3:SMAD4:SKI/SKIL:NCOR:RNF111/SMURF2	nucleoplasm	Reactome DB_ID: 2186744	
+	Ub-SKI/Ub-SKIL	nucleoplasm	Reactome DB_ID: 2186733	
+	p-SMAD2/3:SMAD4:TRIM33	nucleoplasm	Reactome DB_ID: 870446	
+	Ub-SMAD4	nucleoplasm	Reactome DB_ID: 870463	
+	Ub-SMAD4	cytosol	Reactome DB_ID: 870482	
+	Ub-SMAD4:USP9X	cytosol	Reactome DB_ID: 870520	
+	p-T-2S-SMAD2/3:SMAD4:NEDDL4	nucleoplasm	Reactome DB_ID: 2176495	
+	Ub-p-T-2S-SMAD2/3:SMAD4	nucleoplasm	Reactome DB_ID: 2176504	
+	p-T-2S-SMAD2/3:SMAD4:SMURF2	nucleoplasm	Reactome DB_ID: 2179277	
+	Ub-p-T-2S-SMAD2/3	nucleoplasm	Reactome DB_ID: 2179273	
+	p-2S-SMAD2/3:SMAD4:PARP1	nucleoplasm	Reactome DB_ID: 2187322	
+	PAR-SMAD2/3:PAR-SMAD4	nucleoplasm	Reactome DB_ID: 2187328	
+	p-2S-SMAD2/3:SMAD4:PPM1A	nucleoplasm	Reactome DB_ID: 2187392	
+_physicalEntityName.size()	0
+_proteinName.size()	29
+	p-2S-SMAD3	cytosol			
+	SMAD3	cytosol			
+	SMAD2	cytosol	Reactome DB_ID: 3006353	UniProt:Q15796	SMAD2
+	SMAD3	cytosol	Reactome DB_ID: 170855	UniProt:P84022	SMAD3
+	SARA	early endosome membrane	Reactome DB_ID: 206180	UniProt:O95405-1	ZFYVE9
+	SMAD4	cytosol	Reactome DB_ID: 170862	UniProt:Q13485	SMAD4
+	SMAD7	cytosol	Reactome DB_ID: 173478	UniProt:O15105	SMAD7
+	SMAD7	nucleoplasm	Reactome DB_ID: 178197	UniProt:O15105	SMAD7
+	SMURF2	nucleoplasm	Reactome DB_ID: 178202	UniProt:Q9HAU4	SMURF2
+	SMURF2	cytosol	Reactome DB_ID: 173537	UniProt:Q9HAU4	SMURF2
+	SMURF1	nucleoplasm	Reactome DB_ID: 3004548	UniProt:Q9HCE7	SMURF1
+	XPO1	nucleoplasm	Reactome DB_ID: 165529	UniProt:O14980	XPO1
+	NEDD4L	nucleoplasm	Reactome DB_ID: 2176420	UniProt:Q96PU5	NEDD4L
+	NEDD4L	cytosol			
+	UBC(609-684)	cytosol			
+	STUB1	cytosol	Reactome DB_ID: 975970	UniProt:Q9UNE7	STUB1
+	SMAD4	nucleoplasm	Reactome DB_ID: 177103	UniProt:Q13485	SMAD4
+	p-2S-SMAD3	nucleoplasm			
+	TAZ	cytosol	Reactome DB_ID: 1629773	UniProt:Q9GZV5	WWTR1
+	RNF111	nucleoplasm	Reactome DB_ID: 2186765	UniProt:Q6ZNA4	RNF111
+	UBC(609-684)	nucleoplasm			
+	MYC	nucleoplasm	Reactome DB_ID: 188379	UniProt:P01106	MYC
+	SP1	nucleoplasm	Reactome DB_ID: 1592223	UniProt:P08047	SP1
+	MEN1	nucleoplasm	Reactome DB_ID: 2186626	UniProt:O00255	MEN1
+	JUNB	nucleoplasm	Reactome DB_ID: 2186795	UniProt:P17275	JUNB
+	TRIM33	nucleoplasm	Reactome DB_ID: 870522	UniProt:Q9UPN9	TRIM33
+	FAM	cytosol	Reactome DB_ID: 870499	UniProt:Q93008	USP9X
+	PARP1	nucleoplasm	Reactome DB_ID: 201568	UniProt:P09874	PARP1
+	SMAD2	nucleoplasm			
+_reactionName.size()	58
+	T	Latent TGF-beta-1 is cleaved by furin
+	T	Secretion and activation of the latent large complex of TGF-beta-1
+	D	Dimeric TGFB1 binds to TGFBR2 homodimer
+	T	TGFBR2 phosphorylates TGFBR1
+	D	An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3
+	B	Phosphorylated SMAD2/3 dissociates from TGFBR
+	D	Phosphorylated SMAD2 and SMAD3 form a complex with SMAD4
+	D	I-SMAD competes with SMAD2/3 for type I receptor (TGFBR1)
+	D	STRAP stabilizes interaction of activated TGF-beta receptor complex with SMAD7
+	D	BAMBI interferes with the interaction of type I receptor with type II receptor
+	D	SMAD7 recruits GADD34:PP1 to phosphorylated TGFBR
+	T	PP1 dephosphorylates TGFBR1
+	D	SMAD7 binds to SMURF2
+	D	SMAD7 binds to SMURF1
+	D	SMAD7:SMURF1 complex binds XPO1 (CRM1)
+	D	NEDD4L ubiquitin ligase binds SMAD7
+	T	SMAD7:NEDD4L complex translocates to the cytosol
+	D	SMAD7:SMURF complex binds to phosphorylated TGFBR1
+	T	SMURFs/NEDD4L ubiquitinate phosphorylated TGFBR1 and SMAD7
+	D	UCHL5 binds SMAD7 in complex with ubiquitinated TGFBR1
+	T	UCHL5 or USP15 deubiquitinates TGFBR1
+	D	SMURF2 binds SMAD2
+	T	SMURF2 ubiquitinates SMAD2
+	D	SMAD3 binds STUB1 (CHIP)
+	T	STUB1 (CHIP) ubiquitinates SMAD3
+	D	PMEPA1 sequesters phosphorylated SMAD2/3
+	D	PMEPA1 sequesters unphosphorylated SMAD2/3
+	D	MTMR4 binds phosphorylated SMAD2/3
+	T	MTMR4 dephosphorylates SMAD2/3
+	D	TGFBR1 is recruited to tight junctions by PARD6A
+	T	TGFBR2 is recruited to tight junctions after TGF-beta stimulation
+	T	TGFBR2 phosphorylates TGFBR1 and PARD6A
+	D	SMURF1 ubiquitinates RHOA
+	T	The SMAD2/3:SMAD4 complex transfers to the nucleus
+	T	Phosphorylation of SMAD2 and SMAD3 linker regions by CDK8 or CDK9
+	D	WWTR1 binds SMAD2/3:SMAD4 heterotrimer
+	T	WWTR1:SMAD translocates to the nucleus
+	T	WWTR1:SMAD stimulates transcription of SMAD7
+	T	WWTR1:SMAD stimulates transcription of SERPINE1 while TGIF:SMAD and SMAD7 inhibit it
+	D	RNF111 binds SMAD7
+	T	RNF111 ubiquitinates SMAD7
+	D	SMAD2/3:SMAD4 heterotrimer forms a complex with RBL1, E2F4/5 and DP1/2
+	T	MYC trancscription is negatively regulated by SMAD2/3:SMAD4:RBL1:E2F4/5:DP1/2 complex
+	D	SMAD2/3:SMAD4 heterotrimer binds SP1
+	D	MEN1 binds SMAD2/3:SMAD4 heterotrimer
+	T	SMAD2/3:SMAD4 complex positively regulates JUNB transcription
+	T	Ubiquitination of SKI/SKIL by RNF111/SMURF2
+	D	TRIM33 (Ectodermin) binds SMAD heterotrimer in the nucleus
+	T	TRIM33 monoubiquitinates SMAD4
+	D	USP9X (FAM) binds to ubiquitinated SMAD4
+	T	USP9X (FAM) deubiquitinates SMAD4
+	D	NEDD4L binds phosphorylated linker region of SMAD2/3
+	T	NEDD4L ubiquitinates SMAD2/3
+	T	SMURF2 monoubiquitinates SMAD3
+	D	PARP1 binds SMAD2/3:SMAD4 heterotrimer
+	T	PARP1 ADP-ribosylates SMAD3 and SMAD4
+	T	PPM1A dephosphorylates nuclear SMAD2/3
+	T	Dephosphorylated SMAD2/3 translocates to the cytosol
+_smallMoleculeName.size()	21
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	NAM	nucleoplasm	Reactome DB_ID: 427497	Nicotinamide [ChEBI:7556]
+	NAD	nucleoplasm	Reactome DB_ID: 427523	NAD+ [ChEBI:15846]
+	NAM	nucleoplasm	Reactome DB_ID: 427497	Nicotinamide [ChEBI:7556]
+	NAD	nucleoplasm	Reactome DB_ID: 427523	NAD+ [ChEBI:15846]
+	NAD	nucleoplasm	Reactome DB_ID: 427523	NAD+ [ChEBI:15846]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	H2O	nucleoplasm	Reactome DB_ID: 113518	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	4
+	SMAD7 	nucleoplasm	Reactome DB_ID: 2106587	ENSEMBL:ENSG00000101665 SMAD7
+	SERPINE1 	nucleoplasm	Reactome DB_ID: 2106592	ENSEMBL:ENSG00000106366 SERPINE1
+	MYC Gen	nucleoplasm	Reactome DB_ID: 2127254	ENSEMBL:ENSG00000136997 MYC
+	JUNB 	nucleoplasm	Reactome DB_ID: 2187294	ENSEMBL:ENSG00000171223 JUNB
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

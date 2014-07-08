@@ -1,0 +1,160 @@
+edge.size() 65
+ 67 1 67 0 82 0 -1
+ 67 1 83 0 82 0 -1
+ 83 2 83 1 82 0 -1
+ 67 1 67 2 82 1 -1
+ 80 0 67 2 82 1 -1
+ 83 2 67 2 82 2 -1
+ 67 3 83 3 82 2 -1
+ 67 3 83 4 82 2 -1
+ 67 3 67 1 82 3 -1
+ 67 3 80 1 82 3 -1
+ 80 2 67 4 82 4 -1
+ 80 1 67 4 82 4 -1
+ 67 4 67 5 82 5 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 2 83 -1 82 6 -1
+ 80 -1 80 -1 82 6 -1
+ 80 -1 80 -1 82 6 -1
+ 80 5 80 0 82 7 -1
+ 80 5 83 -1 82 7 -1
+ 80 5 80 4 82 7 -1
+ 83 2 80 4 82 7 -1
+ 80 0 83 -1 82 7 -1
+ 80 0 80 0 82 7 -1
+ 80 0 80 4 82 7 -1
+ 80 5 80 5 82 -1 -1
+ 80 -1 80 5 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 5 80 -1 82 -1 -1
+ 80 5 67 6 82 8 -1
+ 80 6 67 6 82 8 -1
+ 83 5 83 6 82 9 -1
+ 80 2 67 7 82 10 -1
+ 83 7 67 7 82 10 -1
+ 83 5 67 8 82 11 -1
+ 80 2 67 8 82 11 -1
+ 67 2 67 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 83 2 83 5 82 12 -1
+ 83 7 83 8 82 12 -1
+ 80 7 67 -1 82 13 -1
+ 80 8 67 -1 82 13 -1
+ 83 7 67 -1 82 13 -1
+ 67 -1 67 10 82 -1 -1
+ 80 -1 67 10 82 -1 -1
+ 67 11 67 10 82 14 -1
+ 67 11 83 -1 82 14 -1
+ 83 2 83 -1 82 14 -1
+ 67 0 82 1 82 0 -1
+ 67 2 82 1 82 2 -1
+ 67 4 82 1 82 5 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 3 82 1 82 6 -1
+ 80 -1 82 1 82 9 -1
+ 67 9 82 1 82 12 -1
+ 67 10 82 1 82 14 -1
+_complexName.size()	12
+	GPVI:FceRI gamma:FYN:LYN:Collagen type I	plasma membrane	Reactome DB_ID: 434812	
+	GPVI:phosphorylated Fc Epsilon R1 gamma:FYN:LYN:Collagen type I	plasma membrane	Reactome DB_ID: 434822	
+	GPVI:phosphorylated Fc Epsilon R1 gamma:FYN:LYN:Collagen type I:SYK	plasma membrane	Reactome DB_ID: 434911	
+	GPVI:phosphorylated Fc Epsilon R1 gamma:FYN:LYN:Collagen type I:p-SYK(Y348)	plasma membrane	Reactome DB_ID: 453171	
+	p-SYK(Y348):Vav family	cytosol	Reactome DB_ID: 437941	
+	p-SYK(Y348):p-Vav family	cytosol	Reactome DB_ID: 437934	
+	p-SLP-76:VAV	cytosol	Reactome DB_ID: 430155	
+	VAV family:PIP3	cytosol	Reactome DB_ID: 434635	
+	VAV family:PIP2	cytosol	Reactome DB_ID: 434632	
+	PI3K beta/PI3K gamma/PI3K alpha			
+	PIP3:PDK1:AKT:PKC zeta	plasma membrane	Reactome DB_ID: 437191	
+	PIP3:PDK1:AKT:p(T410)-PKC zeta	plasma membrane	Reactome DB_ID: 437184	
+_physicalEntityName.size()	0
+_proteinName.size()	9
+	SYK	cytosol	Reactome DB_ID: 58268	UniProt:P43405	SYK
+	p-Y348-SYK	cytosol	Reactome DB_ID: 437953	UniProt:P43405	SYK
+	VAV3	cytosol			
+	LCK	cytosol			
+	LCP2	cytosol	Reactome DB_ID: 202306	UniProt:Q13094	LCP2
+	p-SLP-76	cytosol	Reactome DB_ID: 202175	UniProt:Q13094	LCP2
+	VAV3	cytosol			
+	PDK1	cytosol	Reactome DB_ID: 202210	UniProt:O15530	PDPK1
+	AKT2	cytosol			
+_reactionName.size()	15
+	T	Fyn/Lyn-mediated phosphorylation of FcR1 gamma
+	D	Binding of Syk tyrosine kinase
+	T	Syk autophosphorylates
+	B	Syk is released
+	D	Syk binds Vav
+	T	Syk phosphorylates Vav
+	T	Syk/Lck phosphorylate LAT
+	T	Syk activation leads to SLP-76 activation
+	D	p-SLP-76 binds VAV
+	B	PLC gamma 2-mediated PIP2 hydrolysis
+	D	PIP3 stimulates Vav
+	D	PIP2 inhibits Vav
+	T	PI3K alpha, beta, gamma convert PIP2 to PIP3
+	D	PIP3 recruits PDK1 and AKT to the membrane
+	T	PDK1 activates PKC zeta
+_smallMoleculeName.size()	9
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

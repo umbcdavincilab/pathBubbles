@@ -1,0 +1,155 @@
+edge.size() 62
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 0 67 1 82 1 -1
+ 67 1 67 2 82 2 -1
+ 80 2 67 2 82 2 -1
+ 67 2 67 3 82 3 -1
+ 80 3 67 3 82 3 -1
+ 80 5 67 4 82 4 -1
+ 67 2 67 4 82 4 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 6 67 -1 82 5 -1
+ 80 7 67 -1 82 5 -1
+ 80 8 67 -1 82 5 -1
+ 67 -1 67 -1 82 5 -1
+ 67 -1 67 5 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 5 67 6 82 6 -1
+ 80 2 67 6 82 6 -1
+ 67 6 67 7 82 7 -1
+ 80 3 67 7 82 7 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 8 82 8 -1
+ 80 2 67 8 82 8 -1
+ 80 3 67 -1 82 9 -1
+ 67 8 67 -1 82 9 -1
+ 80 5 67 9 82 10 -1
+ 67 8 67 9 82 10 -1
+ 67 3 67 10 82 11 -1
+ 80 3 67 10 82 11 -1
+ 67 -1 67 -1 82 12 -1
+ 80 3 67 -1 82 12 -1
+ 67 7 67 11 82 13 -1
+ 80 3 67 11 82 13 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 7 67 12 82 14 -1
+ 80 11 67 12 82 14 -1
+ 67 -1 67 -1 82 15 -1
+ 80 11 67 -1 82 15 -1
+ 67 3 67 -1 82 16 -1
+ 80 11 67 -1 82 16 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 17 -1
+ 80 10 67 -1 82 17 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 4 82 0 82 3 -1
+ 80 4 82 0 82 5 -1
+ 80 9 82 0 82 8 -1
+ 80 4 82 0 82 9 -1
+ 80 10 82 0 82 11 -1
+ 80 10 82 0 82 12 -1
+ 80 10 82 0 82 13 -1
+ 80 -1 82 0 82 -1 -1
+_complexName.size()	13
+	FASL:FAS Receptor monomer	plasma membrane	Reactome DB_ID: 76564	
+	FASL:FAS Receptor Trimer	plasma membrane	Reactome DB_ID: 76195	
+	FASL:FAS Receptor Trimer:FADD	plasma membrane	Reactome DB_ID: 43124	
+	FASL:FAS Receptor Trimer:FADD:pro-Caspase-8 DISC	plasma membrane	Reactome DB_ID: 75114	
+	FASL:FAS Receptor Trimer:FADD:pro-Caspase-10	plasma membrane	Reactome DB_ID: 141315	
+	TRAF2:TRADD:RIPK1	cytosol	Reactome DB_ID: 140935	
+	TRADD:TRAF2:RIP1:FADD	cytosol	Reactome DB_ID: 140977	
+	TRADD:TRAF2:RIP1:FADD:procaspase-8 	cytosol	Reactome DB_ID: 140976	
+	TRAIL:TRAIL receptor-2:FADD	plasma membrane	Reactome DB_ID: 141137	
+	TRAIL:TRAIL receptor-2 Trimer:FADD:Caspase-10 precursor complex	plasma membrane	Reactome DB_ID: 141304	
+	FASL:FAS receptor trimer:FADD:procaspase-8-dimer 	plasma membrane	Reactome DB_ID: 2671811	
+	TRAF2:TRADD:RIP1:FADD:procaspase-8-dimer	cytosol	Reactome DB_ID: 2671812	
+	TRADD:TRAF2:RIP1:FADD:procaspase-8:FLIP(L)	cytosol	Reactome DB_ID: 3465532	
+_physicalEntityName.size()	0
+_proteinName.size()	12
+	FASL	extracellular region	Reactome DB_ID: 66212	UniProt:P48023	FASLG
+	FAS	plasma membrane	Reactome DB_ID: 66248	UniProt:P25445	FAS
+	FADD	cytosol	Reactome DB_ID: 54639	UniProt:Q13158	FADD
+	MACH	cytosol	Reactome DB_ID: 57031	UniProt:Q14790	CASP8
+	E6	cytosol	Reactome DB_ID: 2671794	UniProt:P03126	E6
+	FLICE2	plasma membrane	Reactome DB_ID: 57035	UniProt:Q92851	CASP10
+	RIPK1	cytosol	Reactome DB_ID: 168651	UniProt:Q13546	RIPK1
+	TRADD	cytosol	Reactome DB_ID: 66376	UniProt:Q15628	TRADD
+	TRAF2	cytosol	Reactome DB_ID: 66370	UniProt:Q12933	TRAF2
+	MRIT	cytosol	Reactome DB_ID: 51925	UniProt:O15519	CFLAR
+	CLARP2	cytosol	Reactome DB_ID: 3465357	UniProt:O15519-2	CFLAR
+	CLARP1	cytosol	Reactome DB_ID: 3371356	UniProt:O15519-1	CFLAR
+_reactionName.size()	18
+	D	FASL binds FAS Receptor
+	T	Trimerization of the FASL:FAS receptor complex
+	D	FasL:Fas binds FADD
+	D	FASL:FAS Receptor Trimer:FADD complex binds pro-Caspase-8
+	D	FASL:FAS Receptor Trimer:FADD complex binds pro-Caspase-10
+	D	TNF:TNF-R1 binds TRADD, TRAF2 and RIP 
+	D	TRADD:TRAF2:RIP1 complex binds FADD
+	D	TRADD:TRAF2:RIP1:FADD complex binds Pro-Caspase 8  
+	D	TRAIL:TRAIL receptor-2 Trimer Binds FADD
+	D	TRAIL:TRAIL-Receptor2 Trimer:FADD complex binds Caspase-8
+	D	TRAIL:TRAIL-Receptor2 Trimer:FADD complex binds Caspase-10
+	D	FAS-mediated dimerization of procaspase-8
+	D	TRAIL-mediated dimerization of procaspase-8
+	D	TNF-mediated dimerization of procaspase-8
+	D	FLIP(L) and procaspase-8 form heterodimer in TNF signaling
+	D	FLIP(L) and procaspase-8 form heterodimer in TRAIL signaling
+	D	FLIP(L) and procaspase-8 form heterodimer in FasL/CD95 signaling
+	D	FLIP(S) and procaspase-8 form heterodimer
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

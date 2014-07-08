@@ -1,0 +1,123 @@
+edge.size() 46
+ 69 0 69 1 82 0 -1
+ 67 1 67 2 82 1 -1
+ 69 1 67 2 82 1 -1
+ 67 2 67 3 82 2 -1
+ 67 2 69 2 82 2 -1
+ 80 0 67 4 82 3 -1
+ 69 2 67 4 82 3 -1
+ 80 1 67 4 82 3 -1
+ 80 2 67 4 82 3 -1
+ 67 4 80 0 82 4 -1
+ 80 3 80 0 82 4 -1
+ 80 3 80 1 82 4 -1
+ 67 4 80 1 82 4 -1
+ 80 3 80 2 82 4 -1
+ 67 4 80 2 82 4 -1
+ 80 3 67 5 82 4 -1
+ 67 4 67 5 82 4 -1
+ 67 5 67 6 82 5 -1
+ 80 0 67 7 82 6 -1
+ 80 1 67 7 82 6 -1
+ 69 3 67 7 82 6 -1
+ 80 2 67 7 82 6 -1
+ 67 7 80 0 82 7 -1
+ 80 3 80 0 82 7 -1
+ 80 3 80 1 82 7 -1
+ 67 7 80 1 82 7 -1
+ 80 3 67 8 82 7 -1
+ 67 7 67 8 82 7 -1
+ 80 3 80 2 82 7 -1
+ 67 7 80 2 82 7 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 8 67 9 82 8 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+ 67 2 82 1 82 2 -1
+ 80 2 82 1 82 3 -1
+ 80 2 82 1 82 6 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	10
+	DGCR8:Drosha	nucleoplasm	Reactome DB_ID: 203817	
+	Ran:GTP:Exportin-5	nucleoplasm	Reactome DB_ID: 203870	
+	pre-miRNA:Ran:GTP:Exportin-5	nucleoplasm	Reactome DB_ID: 209660	
+	Ran:GTP:Exportin-5	cytosol	Reactome DB_ID: 209672	
+	Dicer:TRBP:duplex miRNA	cytosol	Reactome DB_ID: 629638	
+	AGO1:duplex miRNA/AGO2:duplex miRNA/AGO3:duplex miRNA/AGO4:duplex miRNA			
+	AGO1:miRNA/AGO2:miRNA/AGO3:miRNA/AGO4:miRNA			
+	DICER:TRBP:duplex siRNA	cytosol	Reactome DB_ID: 629637	
+	AGO1:duplex siRNA/AGO2:duplex siRNA/AGO3:duplex siRNA/AGO4:duplex siRNA			
+	AGO1:siRNA/AGO2:siRNA/AGO3:siRNA/AGO4:siRNA			
+_physicalEntityName.size()	4
+		
+		
+		
+		
+_proteinName.size()	4
+	PACT	cytosol	Reactome DB_ID: 2399897	UniProt:O75569	PRKRA
+	TRBP	cytosol	Reactome DB_ID: 203864	UniProt:Q15633	TARBP2
+	DICER1	cytosol	Reactome DB_ID: 203820	UniProt:Q9UPY3	DICER1
+	AGO4	cytosol			
+_reactionName.size()	9
+	T	Microprocessor complex cleaves pri-miRNA to pre-miRNA
+	D	Exportin-5 recognizes 3' overhang of pre-miRNA 
+	B	Exportin complex translocates pre-miRNA to cytosol
+	D	Dicer cleaves pre-miRNA to yield duplex miRNA
+	T	Duplex miRNA is loaded into Argonaute
+	T	Removal of miRNA passenger strand
+	D	Dicer cleaves double-stranded RNA to yield double-stranded siRNA
+	T	Duplex siRNA is loaded into Argonaute
+	T	Removal of siRNA passenger strand
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

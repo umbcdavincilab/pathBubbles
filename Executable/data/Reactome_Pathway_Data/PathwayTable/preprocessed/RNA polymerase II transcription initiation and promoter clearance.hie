@@ -1,0 +1,121 @@
+edge.size() 38
+ 83 0 83 3 82 0 -1
+ 67 0 83 4 82 0 -1
+ 67 0 83 5 82 0 -1
+ 83 1 83 6 82 0 -1
+ 67 0 67 5 82 0 -1
+ 83 2 67 5 82 0 -1
+ 67 5 67 6 82 1 -1
+ 83 7 67 6 82 1 -1
+ 67 6 67 7 82 2 -1
+ 67 7 67 8 82 3 -1
+ 67 7 83 8 82 3 -1
+ 67 8 83 8 82 4 -1
+ 83 7 67 9 82 4 -1
+ 67 8 67 9 82 4 -1
+ 83 7 80 0 82 5 -1
+ 67 9 80 0 82 5 -1
+ 67 9 67 10 82 5 -1
+ 67 9 67 10 82 5 -1
+ 83 7 67 11 82 6 -1
+ 67 10 67 11 82 6 -1
+ 67 10 67 1 82 6 -1
+ 67 10 67 1 82 6 -1
+ 67 10 67 2 82 6 -1
+ 67 10 67 2 82 6 -1
+ 67 11 67 12 82 7 -1
+ 83 7 67 12 82 7 -1
+ 67 11 83 8 82 7 -1
+ 67 12 67 13 82 8 -1
+ 83 7 67 13 82 8 -1
+ 67 12 83 8 82 8 -1
+ 67 4 82 1 82 0 -1
+ 67 3 82 1 82 4 -1
+ 67 4 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 67 4 82 1 82 5 -1
+ 67 3 82 1 82 6 -1
+ 67 3 82 1 82 7 -1
+ 67 3 82 1 82 8 -1
+_complexName.size()	14
+	pol II closed pre-initiation complex	nucleoplasm	Reactome DB_ID: 109635	
+	TFIIE	nucleoplasm	Reactome DB_ID: 109633	
+	TFIID	nucleoplasm	Reactome DB_ID: 109626	
+	RNA Polymerase II (unphosphorylated):TFIIF complex	nucleoplasm	Reactome DB_ID: 71307	
+	TFIIH	nucleoplasm	Reactome DB_ID: 109634	
+	pol II open pre-initiation complex	nucleoplasm	Reactome DB_ID: 109876	
+	Pol II initiation complex	nucleoplasm	Reactome DB_ID: 83551	
+	Pol II Initiation complex with phosphodiester-PPi intermediate	nucleoplasm	Reactome DB_ID: 83601	
+	pol II transcription complex	nucleoplasm	Reactome DB_ID: 109878	
+	pol II transcription complex containing 3 Nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75878	
+	pol II transcription complex containing 4 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75881	
+	pol II transcription complex containing 9 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75882	
+	pol II transcription complex containing 11 nucleotide long transcript	nucleoplasm	Reactome DB_ID: 75902	
+	Pol II transcription complex containing transcript to +30	nucleoplasm	Reactome DB_ID: 111261	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	GTF2B	nucleoplasm	Reactome DB_ID: 65888	UniProt:Q00403	GTF2B
+_reactionName.size()	9
+	T	RNA Polymerase II Promoter Opening: First Transition
+	D	NTP Binds Active Site of RNA Polymerase II
+	T	Nucleophillic Attack by 3'-hydroxyl Oxygen of nascent transcript on the Alpha Phosphate of NTP
+	B	Newly Formed Phosphodiester Bond Stabilized and PPi Released
+	T	Addition of the third nucleotide on the nascent transcript
+	T	Addition of the fourth nucleotide on the Nascent Transcript: Second Transition
+	T	Addition of Nucleotides 5 through 9 on the growing Transcript
+	T	Addition of nucleotides 10 and 11 on the growing transcript: Third Transition
+	T	Addition of nucleotides between position +11 and +30
+_smallMoleculeName.size()	9
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Pi	nucleoplasm	Reactome DB_ID: 113550	Orthophosphate [ChEBI:18367]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+				
+	PPi	nucleoplasm	Reactome DB_ID: 113541	PPi [ChEBI:29888]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

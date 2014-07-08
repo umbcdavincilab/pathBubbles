@@ -1,0 +1,669 @@
+edge.size() 328
+ 83 7 83 0 82 0 -1
+ 83 8 83 1 82 0 -1
+ 83 9 83 2 82 0 -1
+ 83 -1 83 3 82 0 -1
+ 83 10 83 4 82 0 -1
+ 83 11 83 5 82 0 -1
+ 83 12 83 6 82 0 -1
+ 83 20 83 13 82 1 -1
+ 83 21 83 14 82 1 -1
+ 83 22 83 15 82 1 -1
+ 83 23 83 16 82 1 -1
+ 83 24 83 17 82 1 -1
+ 83 25 83 18 82 1 -1
+ 83 -1 83 19 82 1 -1
+ 83 33 83 26 82 2 -1
+ 83 34 83 27 82 2 -1
+ 83 35 83 28 82 2 -1
+ 83 36 83 29 82 2 -1
+ 83 37 83 30 82 2 -1
+ 83 38 83 31 82 2 -1
+ 83 -1 83 32 82 2 -1
+ 83 46 83 39 82 3 -1
+ 83 47 83 40 82 3 -1
+ 83 48 83 41 82 3 -1
+ 83 -1 83 42 82 3 -1
+ 83 49 83 43 82 3 -1
+ 83 50 83 44 82 3 -1
+ 83 51 83 45 82 3 -1
+ 83 59 83 52 82 4 -1
+ 83 60 83 53 82 4 -1
+ 83 61 83 54 82 4 -1
+ 83 -1 83 55 82 4 -1
+ 83 62 83 56 82 4 -1
+ 83 63 83 57 82 4 -1
+ 83 64 83 58 82 4 -1
+ 83 72 83 65 82 5 -1
+ 83 73 83 66 82 5 -1
+ 83 74 83 67 82 5 -1
+ 83 75 83 68 82 5 -1
+ 83 76 83 69 82 5 -1
+ 83 77 83 70 82 5 -1
+ 83 -1 83 71 82 5 -1
+ 83 85 83 78 82 6 -1
+ 83 86 83 79 82 6 -1
+ 83 87 83 80 82 6 -1
+ 83 -1 83 81 82 6 -1
+ 83 88 83 82 82 6 -1
+ 83 89 83 83 82 6 -1
+ 83 90 83 84 82 6 -1
+ 83 98 83 91 82 7 -1
+ 83 99 83 92 82 7 -1
+ 83 100 83 93 82 7 -1
+ 83 101 83 94 82 7 -1
+ 83 102 83 95 82 7 -1
+ 83 103 83 96 82 7 -1
+ 83 -1 83 97 82 7 -1
+ 83 -1 83 104 82 8 -1
+ 83 105 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 10 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 13 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 16 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 17 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 18 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 19 -1
+ 83 -1 83 -1 82 20 -1
+ 83 106 83 -1 82 20 -1
+ 83 114 83 107 82 21 -1
+ 83 115 83 108 82 21 -1
+ 83 116 83 109 82 21 -1
+ 83 117 83 110 82 21 -1
+ 83 118 83 111 82 21 -1
+ 83 119 83 112 82 21 -1
+ 83 -1 83 113 82 21 -1
+ 83 127 83 120 82 22 -1
+ 83 128 83 121 82 22 -1
+ 83 129 83 122 82 22 -1
+ 83 130 83 123 82 22 -1
+ 83 131 83 124 82 22 -1
+ 83 132 83 125 82 22 -1
+ 83 -1 83 126 82 22 -1
+ 83 140 83 133 82 23 -1
+ 83 141 83 134 82 23 -1
+ 83 142 83 135 82 23 -1
+ 83 143 83 136 82 23 -1
+ 83 144 83 137 82 23 -1
+ 83 145 83 138 82 23 -1
+ 83 -1 83 139 82 23 -1
+ 83 153 83 146 82 24 -1
+ 83 154 83 147 82 24 -1
+ 83 155 83 148 82 24 -1
+ 83 156 83 149 82 24 -1
+ 83 157 83 150 82 24 -1
+ 83 158 83 151 82 24 -1
+ 83 -1 83 152 82 24 -1
+ 83 166 83 159 82 25 -1
+ 83 167 83 160 82 25 -1
+ 83 168 83 161 82 25 -1
+ 83 169 83 162 82 25 -1
+ 83 170 83 163 82 25 -1
+ 83 171 83 164 82 25 -1
+ 83 -1 83 165 82 25 -1
+ 83 179 83 172 82 26 -1
+ 83 180 83 173 82 26 -1
+ 83 181 83 174 82 26 -1
+ 83 182 83 175 82 26 -1
+ 83 183 83 176 82 26 -1
+ 83 184 83 177 82 26 -1
+ 83 -1 83 178 82 26 -1
+ 83 192 83 185 82 27 -1
+ 83 193 83 186 82 27 -1
+ 83 194 83 187 82 27 -1
+ 83 195 83 188 82 27 -1
+ 83 196 83 189 82 27 -1
+ 83 197 83 190 82 27 -1
+ 83 -1 83 191 82 27 -1
+ 83 205 83 198 82 28 -1
+ 83 206 83 199 82 28 -1
+ 83 207 83 200 82 28 -1
+ 83 -1 83 201 82 28 -1
+ 83 208 83 202 82 28 -1
+ 83 209 83 203 82 28 -1
+ 83 210 83 204 82 28 -1
+ 83 213 83 211 82 29 -1
+ 83 214 83 212 82 29 -1
+ 83 -1 83 -1 82 29 -1
+ 83 -1 83 -1 82 29 -1
+ 83 -1 83 -1 82 29 -1
+ 83 -1 83 -1 82 29 -1
+ 83 -1 83 -1 82 29 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 30 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 31 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 32 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 33 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 34 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 35 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 36 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 37 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 38 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 39 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 41 -1
+ 83 -1 83 -1 82 41 -1
+ 80 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 80 1 82 1 82 2 -1
+ 67 0 82 1 82 3 -1
+ 67 1 82 1 82 4 -1
+ 67 0 82 1 82 5 -1
+ 67 0 82 1 82 6 -1
+ 67 2 82 1 82 7 -1
+ 80 2 82 1 82 8 -1
+ 67 0 82 1 82 9 -1
+ 67 0 82 1 82 10 -1
+ 67 0 82 1 82 11 -1
+ 67 0 82 1 82 12 -1
+ 67 3 82 1 82 13 -1
+ 67 0 82 1 82 14 -1
+ 67 4 82 1 82 15 -1
+ 67 5 82 1 82 16 -1
+ 67 6 82 1 82 17 -1
+ 67 7 82 1 82 18 -1
+ 80 3 82 1 82 19 -1
+ 67 8 82 1 82 20 -1
+ 80 4 82 1 82 21 -1
+ 80 5 82 1 82 22 -1
+ 80 6 82 1 82 23 -1
+ 67 9 82 1 82 24 -1
+ 80 7 82 1 82 25 -1
+ 80 8 82 1 82 26 -1
+ 80 9 82 1 82 27 -1
+ 67 10 82 1 82 28 -1
+ 80 10 82 1 82 29 -1
+ 80 11 82 1 82 30 -1
+ 80 12 82 1 82 31 -1
+ 67 11 82 1 82 32 -1
+ 80 13 82 1 82 33 -1
+ 80 14 82 1 82 34 -1
+ 80 15 82 1 82 35 -1
+ 67 12 82 1 82 36 -1
+ 80 16 82 1 82 37 -1
+ 80 17 82 1 82 38 -1
+ 67 13 82 1 82 39 -1
+ 80 18 82 1 82 40 -1
+ 67 14 82 1 82 41 -1
+ 83 56 82 1 82 20 -1
+ 83 105 82 1 82 41 -1
+_complexName.size()	15
+	aminoacyl-tRNA synthetase multienzyme complex	cytosol	Reactome DB_ID: 379688	
+	CARS dimer	cytosol	Reactome DB_ID: 379858	
+	GARS dimer	cytosol	Reactome DB_ID: 379600	
+	FARS A2B2 tetramer	cytosol	Reactome DB_ID: 379637	
+	SARS dimer	cytosol	Reactome DB_ID: 379557	
+	TARS dimer	cytosol	Reactome DB_ID: 379624	
+	WARS dimer	cytosol	Reactome DB_ID: 379684	
+	YARS dimer	cytosol	Reactome DB_ID: 379566	
+	PPA1 dimer	cytosol	Reactome DB_ID: 71726	
+	DARS2 dimer	mitochondrial matrix	Reactome DB_ID: 379573	
+	GARS dimer	mitochondrial matrix	Reactome DB_ID: 379593	
+	KARS dimer	mitochondrial matrix	Reactome DB_ID: 379687	
+	SARS2 dimer	mitochondrial matrix	Reactome DB_ID: 379672	
+	YARS2 dimer	mitochondrial matrix	Reactome DB_ID: 379656	
+	PPA2 dimer	mitochondrial matrix	Reactome DB_ID: 449923	
+_physicalEntityName.size()	0
+_proteinName.size()	19
+	AARS	cytosol	Reactome DB_ID: 379666	UniProt:P49588	AARS
+	NARS	cytosol	Reactome DB_ID: 379625	UniProt:O43776	NARS
+	HARS	cytosol	Reactome DB_ID: 379554	UniProt:P12081	HARS
+	VARS	cytosol	Reactome DB_ID: 379648	UniProt:P26640	VARS
+	AARS2	mitochondrial matrix	Reactome DB_ID: 379653	UniProt:Q5JTZ9	AARS2
+	RARS2	mitochondrial matrix	Reactome DB_ID: 379589	UniProt:Q5T160	RARS2
+	NARS2	mitochondrial matrix	Reactome DB_ID: 379585	UniProt:Q96I59	NARS2
+	CARS2	mitochondrial matrix	Reactome DB_ID: 379632	UniProt:Q9HA77	CARS2
+	EARS2	mitochondrial matrix	Reactome DB_ID: 379623	UniProt:Q5JPH6	EARS2
+	QARS	mitochondrial matrix	Reactome DB_ID: 379592	UniProt:P47897	QARS
+	HARS2	mitochondrial matrix	Reactome DB_ID: 379581	UniProt:P49590	HARS2
+	IARS2	mitochondrial matrix	Reactome DB_ID: 379571	UniProt:Q9NSE4	IARS2
+	LARS2	mitochondrial matrix	Reactome DB_ID: 379635	UniProt:Q15031	LARS2
+	MARS2	mitochondrial matrix	Reactome DB_ID: 379555	UniProt:Q96GW9	MARS2
+	FARS2	mitochondrial matrix	Reactome DB_ID: 379565	UniProt:O95363	FARS2
+	PARS2	mitochondrial matrix	Reactome DB_ID: 379686	UniProt:Q7L3T8	PARS2
+	TARS2	mitochondrial matrix	Reactome DB_ID: 379590	UniProt:Q9BW92	TARS2
+	WARS2	mitochondrial matrix	Reactome DB_ID: 379678	UniProt:Q9UGM6	WARS2
+	VARS2	mitochondrial matrix	Reactome DB_ID: 379626	UniProt:Q5ST30	VARS2
+_reactionName.size()	42
+	T	alanine + tRNA(Ala) + ATP => Ala-tRNA(Ala) + AMP + pyrophosphate
+	T	arginine + tRNA(Arg) + ATP => Arg-tRNA(Arg) + AMP + pyrophosphate
+	T	asparagine + tRNA(Asn) + ATP => Asn-tRNA(Asn) + AMP + pyrophosphate
+	T	aspartate + tRNA(Asp) + ATP => Asp-tRNA(Asp) + AMP + pyrophosphate
+	T	cysteine + tRNA(Cys) + ATP => Cys-tRNA(Cys) + AMP + pyrophosphate
+	T	glutamate + tRNA(Glu) + ATP => Glu-tRNA(Glu) + AMP + pyrophosphate
+	T	glutamine + tRNA(Gln) + ATP => Gln-tRNA(Gln) + AMP + pyrophosphate
+	T	glycine + tRNA(Gly) + ATP => Gly-tRNA(Gly) + AMP + pyrophosphate
+	T	histidine + tRNA(His) + ATP => His-tRNA(His) + AMP + pyrophosphate
+	T	isoleucine + tRNA(Ile) + ATP => Ile-tRNA(Ile) + AMP + pyrophosphate
+	T	leucine + tRNA(Leu) + ATP => Leu-tRNA(Leu) + AMP + pyrophosphate
+	T	lysine + tRNA(Lys) + ATP => Lys-tRNA(Lys) + AMP + pyrophosphate
+	T	methionine + tRNA(Met) + ATP => Met-tRNA(Met) + AMP + pyrophosphate
+	T	phenylalanine + tRNA(Phe) + ATP => Phe-tRNA(Phe) + AMP + pyrophosphate
+	T	proline + tRNA(Pro) + ATP => Pro-tRNA(Pro) + AMP + pyrophosphate
+	T	serine + tRNA(Ser) + ATP => Ser-tRNA(Ser) + AMP + pyrophosphate
+	T	threonine + tRNA(Thr) + ATP => Thr-tRNA(Thr) + AMP + pyrophosphate
+	T	tryptophan + tRNA(Trp) + ATP => Trp-tRNA(Trp) + AMP + pyrophosphate
+	T	tyrosine + tRNA(Tyr) + ATP =>Tyr-tRNA(Tyr) + AMP + pyrophosphate
+	T	valine + tRNA(Val) + ATP => Val-tRNA(Val) + AMP + pyrophosphate
+	D	pyrophosphate + H2O => 2 orthophosphate [cytosolic]
+	T	alanine + tRNA(Ala) + ATP => Ala-tRNA(Ala) + AMP + pyrophosphate
+	T	arginine + tRNA(Arg) + ATP => Arg-tRNA(Arg) + AMP + pyrophosphate
+	T	asparagine + tRNA(Asn) + ATP => Asn-tRNA(Asn) + AMP + pyrophosphate
+	T	aspartate + tRNA(Asp) + ATP => Asp-tRNA(Asp) + AMP + pyrophosphate
+	T	cysteine + tRNA(Cys) + ATP => Cys-tRNA(Cys) + AMP + pyrophosphate
+	T	glutamate + tRNA(Glu) + ATP => Glu-tRNA(Glu) + AMP + pyrophosphate
+	T	glutamine + tRNA(Glu) + ATP => Glu-tRNA(Glu) + AMP + pyrophosphate
+	T	glycine + tRNA(Gly) + ATP => Gly-tRNA(Gly) + AMP + pyrophosphate
+	T	histidine + tRNA(His) + ATP => His-tRNA(His) + AMP + pyrophosphate
+	T	isoleucine + tRNA(Ile) + ATP => Ile-tRNA(Ile) + AMP + pyrophosphate
+	T	leucine + tRNA(Leu) + ATP => Leu-tRNA(Leu) + AMP + pyrophosphate
+	T	lysine + tRNA(Lys) + ATP => Lys-tRNA(Lys) + AMP + pyrophosphate
+	T	methionine + tRNA(Met) + ATP => Met-tRNA(Met) + AMP + pyrophosphate
+	T	phenylalanine + tRNA(Phe) + ATP => Phe-tRNA(Phe) + AMP + pyrophosphate
+	T	proline + tRNA(Pro) + ATP => Pro-tRNA(Pro) + AMP + pyrophosphate
+	T	serine + tRNA(Ser) + ATP => Ser-tRNA(Ser) + AMP + pyrophosphate
+	T	threonine + tRNA(Thr) + ATP => Thr-tRNA(Thr) + AMP + pyrophosphate
+	T	tryptophan + tRNA(Trp) + ATP => Trp-tRNA(Trp) + AMP + pyrophosphate
+	T	tyrosine + tRNA(Tyr) + ATP => Tyr-tRNA(Tyr) + AMP + pyrophosphate
+	T	valine + tRNA(Val) + ATP => Val-tRNA(Val) + AMP + pyrophosphate
+	D	pyrophosphate + H2O => 2 orthophosphate [mitochondrial]
+_smallMoleculeName.size()	215
+	tRNA(Ala)	cytosol	Reactome DB_ID: 379731	ChEBI:17732 Ala-tRNA(Ala)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Ala	cytosol	Reactome DB_ID: 29432	L-Alanine [ChEBI:16977]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Ala	cytosol	Reactome DB_ID: 29432	L-Alanine [ChEBI:16977]
+	tRNA(Ala)	cytosol	Reactome DB_ID: 379731	ChEBI:17732 Ala-tRNA(Ala)
+	L-Ala	cytosol	Reactome DB_ID: 29432	L-Alanine [ChEBI:16977]
+	Ala-tRNA(Ala)	cytosol	Reactome DB_ID: 379700	ChEBI:17732 Ala-tRNA(Ala)
+	Ala-tRNA(Ala)	cytosol	Reactome DB_ID: 379700	ChEBI:17732 Ala-tRNA(Ala)
+	tRNA(Ala)	cytosol	Reactome DB_ID: 379731	ChEBI:17732 Ala-tRNA(Ala)
+	Ala-tRNA(Ala)	cytosol	Reactome DB_ID: 379700	ChEBI:17732 Ala-tRNA(Ala)
+	tRNA(Ile)	cytosol	Reactome DB_ID: 379739	ChEBI:29174 tRNA(Ile)
+	Ile-tRNA(Ile)	cytosol	Reactome DB_ID: 379787	ChEBI:29160 Ile-tRNA(Ile)
+	L-Ile	cytosol	Reactome DB_ID: 30102	L-Isoleucine [ChEBI:17191]
+	Ile-tRNA(Ile)	cytosol	Reactome DB_ID: 379787	ChEBI:29160 Ile-tRNA(Ile)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Ile-tRNA(Ile)	cytosol	Reactome DB_ID: 379787	ChEBI:29160 Ile-tRNA(Ile)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Ile)	cytosol	Reactome DB_ID: 379739	ChEBI:29174 tRNA(Ile)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	L-Ile	cytosol	Reactome DB_ID: 30102	L-Isoleucine [ChEBI:17191]
+	tRNA(Ile)	cytosol	Reactome DB_ID: 379739	ChEBI:29174 tRNA(Ile)
+	tRNA(Leu)	cytosol	Reactome DB_ID: 379771	ChEBI:29169 tRNA(Leu)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Leu	cytosol	Reactome DB_ID: 29588	L-Leucine [ChEBI:15603]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Leu	cytosol	Reactome DB_ID: 29588	L-Leucine [ChEBI:15603]
+	Leu-tRNA(Leu)	cytosol	Reactome DB_ID: 379757	ChEBI:16624 Leu-tRNA(Leu)
+	tRNA(Leu)	cytosol	Reactome DB_ID: 379771	ChEBI:29169 tRNA(Leu)
+	Leu-tRNA(Leu)	cytosol	Reactome DB_ID: 379757	ChEBI:16624 Leu-tRNA(Leu)
+	L-Leu	cytosol	Reactome DB_ID: 29588	L-Leucine [ChEBI:15603]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	tRNA(Leu)	cytosol	Reactome DB_ID: 379771	ChEBI:29169 tRNA(Leu)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Lys	cytosol	Reactome DB_ID: 351979	L-Lysine [ChEBI:18019]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Lys)	cytosol	Reactome DB_ID: 379776	ChEBI:29185 tRNA(Lys)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Lys)	cytosol	Reactome DB_ID: 379776	ChEBI:29185 tRNA(Lys)
+	tRNA(Lys)	cytosol	Reactome DB_ID: 379776	ChEBI:29185 tRNA(Lys)
+	Lys-tRNA(Lys)	cytosol	Reactome DB_ID: 379736	ChEBI:16047 Lys-tRNA(Lys)
+	L-Lys	cytosol	Reactome DB_ID: 351979	L-Lysine [ChEBI:18019]
+	Lys-tRNA(Lys)	cytosol	Reactome DB_ID: 379736	ChEBI:16047 Lys-tRNA(Lys)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Lys-tRNA(Lys)	cytosol	Reactome DB_ID: 379736	ChEBI:16047 Lys-tRNA(Lys)
+	tRNA(Met)	cytosol	Reactome DB_ID: 379742	ChEBI:29173 tRNA(Met)
+	Met-tRNA(Met)	cytosol	Reactome DB_ID: 379794	ChEBI:16635 Met-tRNA(Met)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Met-tRNA(Met)	cytosol	Reactome DB_ID: 379794	ChEBI:16635 Met-tRNA(Met)
+	L-Met	cytosol	Reactome DB_ID: 174390	L-Methionine [ChEBI:16643]
+	Met-tRNA(Met)	cytosol	Reactome DB_ID: 379794	ChEBI:16635 Met-tRNA(Met)
+	L-Met	cytosol	Reactome DB_ID: 174390	L-Methionine [ChEBI:16643]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Met)	cytosol	Reactome DB_ID: 379742	ChEBI:29173 tRNA(Met)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Met	cytosol	Reactome DB_ID: 174390	L-Methionine [ChEBI:16643]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	tRNA(Met)	cytosol	Reactome DB_ID: 379742	ChEBI:29173 tRNA(Met)
+	tRNA(Phe)	cytosol	Reactome DB_ID: 379767	ChEBI:29184 tRNA(Phe)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Phe	cytosol	Reactome DB_ID: 29502	L-Phenylalanine [ChEBI:17295]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Phe	cytosol	Reactome DB_ID: 29502	L-Phenylalanine [ChEBI:17295]
+	Phe-tRNA(Phe)	cytosol	Reactome DB_ID: 379792	ChEBI:29153 Phe-tRNA(Phe)
+	tRNA(Phe)	cytosol	Reactome DB_ID: 379767	ChEBI:29184 tRNA(Phe)
+	Phe-tRNA(Phe)	cytosol	Reactome DB_ID: 379792	ChEBI:29153 Phe-tRNA(Phe)
+	L-Phe	cytosol	Reactome DB_ID: 29502	L-Phenylalanine [ChEBI:17295]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	tRNA(Phe)	cytosol	Reactome DB_ID: 379767	ChEBI:29184 tRNA(Phe)
+	tRNA(Pro)	cytosol	Reactome DB_ID: 379768	ChEBI:29177 tRNA(Pro)
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Pro	cytosol	Reactome DB_ID: 113538	L-Proline [ChEBI:17203]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Pro	cytosol	Reactome DB_ID: 113538	L-Proline [ChEBI:17203]
+	Pro-tRNA(Pro)	cytosol	Reactome DB_ID: 379746	ChEBI:29154 Pro-tRNA(Pro)
+	tRNA(Pro)	cytosol	Reactome DB_ID: 379768	ChEBI:29177 tRNA(Pro)
+	Pro-tRNA(Pro)	cytosol	Reactome DB_ID: 379746	ChEBI:29154 Pro-tRNA(Pro)
+	L-Pro	cytosol	Reactome DB_ID: 113538	L-Proline [ChEBI:17203]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	tRNA(Pro)	cytosol	Reactome DB_ID: 379768	ChEBI:29177 tRNA(Pro)
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	Ser-tRNA(Ser)	cytosol	Reactome DB_ID: 379738	ChEBI:29162 Ser-tRNA(Ser)
+	tRNA(Ser)	cytosol	Reactome DB_ID: 379762	ChEBI:29179 tRNA(Ser)
+	Ser-tRNA(Ser)	cytosol	Reactome DB_ID: 379738	ChEBI:29162 Ser-tRNA(Ser)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Ser-tRNA(Ser)	cytosol	Reactome DB_ID: 379738	ChEBI:29162 Ser-tRNA(Ser)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	tRNA(Ser)	cytosol	Reactome DB_ID: 379762	ChEBI:29179 tRNA(Ser)
+	L-Ser	cytosol	Reactome DB_ID: 200736	L-Serine [ChEBI:6301]
+	L-Thr	cytosol	Reactome DB_ID: 351990	L-Threonine [ChEBI:6308]
+	L-Thr	cytosol	Reactome DB_ID: 351990	L-Threonine [ChEBI:6308]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Gln)	mitochondrial matrix	Reactome DB_ID: 379740	ChEBI:29168 tRNA(Gln)
+	Gly	mitochondrial matrix	Reactome DB_ID: 159549	Glycine [ChEBI:15428]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Gly)	mitochondrial matrix	Reactome DB_ID: 379770	ChEBI:29176 tRNA(Gly)
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	Gly	mitochondrial matrix	Reactome DB_ID: 159549	Glycine [ChEBI:15428]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Gly-tRNA(Gly)	mitochondrial matrix	Reactome DB_ID: 379781	ChEBI:29156 Gly-tRNA(Gly)
+	tRNA(Gly)	mitochondrial matrix	Reactome DB_ID: 379770	ChEBI:29176 tRNA(Gly)
+	Gly-tRNA(Gly)	mitochondrial matrix	Reactome DB_ID: 379781	ChEBI:29156 Gly-tRNA(Gly)
+	Gly	mitochondrial matrix	Reactome DB_ID: 159549	Glycine [ChEBI:15428]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Asn-tRNA(Asn)	cytosol	Reactome DB_ID: 379728	ChEBI:29265 Asn-tRNA(Asn)
+	tRNA(Asn)	cytosol	Reactome DB_ID: 379722	ChEBI:29172 tRNA(Asn)
+	Asn-tRNA(Asn)	cytosol	Reactome DB_ID: 379728	ChEBI:29265 Asn-tRNA(Asn)
+	L-Asn	cytosol	Reactome DB_ID: 29642	L-Asparagine [ChEBI:17196]
+	Asn-tRNA(Asn)	cytosol	Reactome DB_ID: 379728	ChEBI:29265 Asn-tRNA(Asn)
+	L-Asn	cytosol	Reactome DB_ID: 29642	L-Asparagine [ChEBI:17196]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Asn	cytosol	Reactome DB_ID: 29642	L-Asparagine [ChEBI:17196]
+	tRNA(Asn)	cytosol	Reactome DB_ID: 379722	ChEBI:29172 tRNA(Asn)
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	L-His	mitochondrial matrix	Reactome DB_ID: 379695	L-Histidine [ChEBI:15971]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(His)	mitochondrial matrix	Reactome DB_ID: 379752	ChEBI:29178 tRNA(His)
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	His-tRNA(His)	mitochondrial matrix	Reactome DB_ID: 379764	ChEBI:29155 His-tRNA(His)
+	L-His	mitochondrial matrix	Reactome DB_ID: 379695	L-Histidine [ChEBI:15971]
+	His-tRNA(His)	mitochondrial matrix	Reactome DB_ID: 379764	ChEBI:29155 His-tRNA(His)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	tRNA(His)	mitochondrial matrix	Reactome DB_ID: 379752	ChEBI:29178 tRNA(His)
+	L-His	mitochondrial matrix	Reactome DB_ID: 379695	L-Histidine [ChEBI:15971]
+	L-Ile	mitochondrial matrix	Reactome DB_ID: 113537	L-Isoleucine [ChEBI:17191]
+	Ile-tRNA(Ile)	mitochondrial matrix	Reactome DB_ID: 379769	ChEBI:29160 Ile-tRNA(Ile)
+	tRNA(Ile)	mitochondrial matrix	Reactome DB_ID: 379750	ChEBI:29174 tRNA(Ile)
+	Ile-tRNA(Ile)	mitochondrial matrix	Reactome DB_ID: 379769	ChEBI:29160 Ile-tRNA(Ile)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Ile-tRNA(Ile)	mitochondrial matrix	Reactome DB_ID: 379769	ChEBI:29160 Ile-tRNA(Ile)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	L-Ile	mitochondrial matrix	Reactome DB_ID: 113537	L-Isoleucine [ChEBI:17191]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	tRNA(Ile)	mitochondrial matrix	Reactome DB_ID: 379750	ChEBI:29174 tRNA(Ile)
+	L-Ile	mitochondrial matrix	Reactome DB_ID: 113537	L-Isoleucine [ChEBI:17191]
+	tRNA(Leu)	mitochondrial matrix	Reactome DB_ID: 379788	ChEBI:29169 tRNA(Leu)
+	Leu-tRNA(Leu)	mitochondrial matrix	Reactome DB_ID: 379773	ChEBI:16624 Leu-tRNA(Leu)
+	L-Leu	mitochondrial matrix	Reactome DB_ID: 113580	L-Leucine [ChEBI:15603]
+	Leu-tRNA(Leu)	mitochondrial matrix	Reactome DB_ID: 379773	ChEBI:16624 Leu-tRNA(Leu)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Leu-tRNA(Leu)	mitochondrial matrix	Reactome DB_ID: 379773	ChEBI:16624 Leu-tRNA(Leu)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Leu)	mitochondrial matrix	Reactome DB_ID: 379788	ChEBI:29169 tRNA(Leu)
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	L-Leu	mitochondrial matrix	Reactome DB_ID: 113580	L-Leucine [ChEBI:15603]
+	tRNA(Leu)	mitochondrial matrix	Reactome DB_ID: 379788	ChEBI:29169 tRNA(Leu)
+	tRNA(Lys)	mitochondrial matrix	Reactome DB_ID: 379747	ChEBI:29185 tRNA(Lys)
+	Lys-tRNA(Lys)	mitochondrial matrix	Reactome DB_ID: 379795	ChEBI:16047 Lys-tRNA(Lys)
+	L-Lys	mitochondrial matrix	Reactome DB_ID: 29444	L-Lysine [ChEBI:18019]
+	Lys-tRNA(Lys)	mitochondrial matrix	Reactome DB_ID: 379795	ChEBI:16047 Lys-tRNA(Lys)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Lys-tRNA(Lys)	mitochondrial matrix	Reactome DB_ID: 379795	ChEBI:16047 Lys-tRNA(Lys)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Lys)	mitochondrial matrix	Reactome DB_ID: 379747	ChEBI:29185 tRNA(Lys)
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	L-Lys	mitochondrial matrix	Reactome DB_ID: 29444	L-Lysine [ChEBI:18019]
+	tRNA(Lys)	mitochondrial matrix	Reactome DB_ID: 379747	ChEBI:29185 tRNA(Lys)
+	L-Met	mitochondrial matrix	Reactome DB_ID: 379705	L-Methionine [ChEBI:16643]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Met)	mitochondrial matrix	Reactome DB_ID: 379741	ChEBI:29173 tRNA(Met)
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Met-tRNA(Met)	mitochondrial matrix	Reactome DB_ID: 379780	ChEBI:16635 Met-tRNA(Met)
+	L-Met	mitochondrial matrix	Reactome DB_ID: 379705	L-Methionine [ChEBI:16643]
+	Met-tRNA(Met)	mitochondrial matrix	Reactome DB_ID: 379780	ChEBI:16635 Met-tRNA(Met)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	tRNA(Met)	mitochondrial matrix	Reactome DB_ID: 379741	ChEBI:29173 tRNA(Met)
+	L-Met	mitochondrial matrix	Reactome DB_ID: 379705	L-Methionine [ChEBI:16643]
+	L-Phe	mitochondrial matrix	Reactome DB_ID: 379701	L-Phenylalanine [ChEBI:17295]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	tRNA(Phe)	mitochondrial matrix	Reactome DB_ID: 379760	ChEBI:29184 tRNA(Phe)
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	Phe-tRNA(Phe)	mitochondrial matrix	Reactome DB_ID: 379789	ChEBI:29153 Phe-tRNA(Phe)
+	L-Phe	mitochondrial matrix	Reactome DB_ID: 379701	L-Phenylalanine [ChEBI:17295]
+	Phe-tRNA(Phe)	mitochondrial matrix	Reactome DB_ID: 379789	ChEBI:29153 Phe-tRNA(Phe)
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	tRNA(Phe)	mitochondrial matrix	Reactome DB_ID: 379760	ChEBI:29184 tRNA(Phe)
+	L-Phe	mitochondrial matrix	Reactome DB_ID: 379701	L-Phenylalanine [ChEBI:17295]
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+	AMP	mitochondrial matrix	Reactome DB_ID: 159448	adenosine 5'-monophosphate [ChEBI:16027]
+	Pro-tRNA(Pro)	mitochondrial matrix	Reactome DB_ID: 379745	ChEBI:29154 Pro-tRNA(Pro)
+	L-Pro	mitochondrial matrix	Reactome DB_ID: 379717	L-Proline [ChEBI:17203]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,524 @@
+edge.size() 274
+ 83 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 0 67 0 82 0 -1
+ 69 -1 67 0 82 0 -1
+ 80 3 67 0 82 0 -1
+ 80 4 67 1 82 1 -1
+ 67 0 67 1 82 1 -1
+ 67 1 67 1 82 2 -1
+ 67 1 69 0 82 2 -1
+ 69 0 69 1 82 -1 -1
+ 69 1 69 2 82 3 -1
+ 69 3 83 0 82 4 -1
+ 69 3 69 2 82 4 -1
+ 83 -1 69 2 82 4 -1
+ 83 -1 69 3 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 1 83 -1 82 -1 -1
+ 83 -1 83 2 82 5 -1
+ 83 1 83 3 82 5 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 4 83 -1 82 -1 -1
+ 83 5 83 7 82 6 -1
+ 83 4 83 8 82 6 -1
+ 83 6 83 9 82 6 -1
+ 83 7 83 12 82 7 -1
+ 83 10 83 13 82 7 -1
+ 83 11 83 14 82 7 -1
+ 83 14 83 15 82 8 -1
+ 83 16 83 18 82 9 -1
+ 83 17 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 83 -1 83 -1 82 9 -1
+ 80 10 80 9 82 10 -1
+ 80 10 83 19 82 10 -1
+ 83 21 83 20 82 10 -1
+ 80 11 80 10 82 11 -1
+ 80 11 83 22 82 11 -1
+ 83 21 83 23 82 11 -1
+ 83 21 80 11 82 12 -1
+ 80 12 83 24 82 12 -1
+ 80 12 83 25 82 12 -1
+ 80 13 83 26 82 13 -1
+ 80 13 80 12 82 13 -1
+ 83 21 80 12 82 13 -1
+ 80 13 80 14 82 14 -1
+ 83 27 80 14 82 14 -1
+ 83 28 83 29 82 14 -1
+ 80 13 83 30 82 14 -1
+ 80 14 80 15 82 15 -1
+ 83 15 80 15 82 15 -1
+ 80 14 83 31 82 15 -1
+ 80 15 80 17 82 16 -1
+ 83 15 80 17 82 16 -1
+ 80 15 83 31 82 16 -1
+ 80 17 80 18 82 17 -1
+ 80 18 80 -1 82 18 -1
+ 83 32 80 -1 82 19 -1
+ 80 -1 83 -1 82 19 -1
+ 80 -1 83 -1 82 19 -1
+ 83 33 83 32 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 -1 83 -1 82 21 -1
+ 83 -1 83 -1 82 21 -1
+ 83 33 83 -1 82 22 -1
+ 83 -1 83 -1 82 22 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 22 83 34 82 23 -1
+ 80 22 80 21 82 23 -1
+ 83 21 80 21 82 23 -1
+ 80 23 80 22 82 24 -1
+ 80 23 83 35 82 24 -1
+ 83 21 83 36 82 24 -1
+ 80 24 80 23 82 25 -1
+ 80 24 83 37 82 25 -1
+ 83 21 83 38 82 25 -1
+ 80 25 80 24 82 26 -1
+ 80 25 83 39 82 26 -1
+ 83 21 83 40 82 26 -1
+ 83 21 80 26 82 27 -1
+ 80 27 83 41 82 27 -1
+ 80 27 83 42 82 27 -1
+ 80 28 83 43 82 28 -1
+ 80 28 80 27 82 28 -1
+ 83 21 80 27 82 28 -1
+ 80 29 80 28 82 29 -1
+ 80 29 83 44 82 29 -1
+ 83 21 83 45 82 29 -1
+ 80 30 83 46 82 30 -1
+ 80 30 80 29 82 30 -1
+ 83 21 80 29 82 30 -1
+ 80 30 83 49 82 31 -1
+ 83 47 83 50 82 31 -1
+ 83 48 80 31 82 31 -1
+ 80 30 80 31 82 31 -1
+ 80 31 80 32 82 32 -1
+ 83 15 80 32 82 32 -1
+ 80 31 83 31 82 32 -1
+ 80 32 80 33 82 33 -1
+ 80 33 83 31 82 34 -1
+ 83 15 80 34 82 34 -1
+ 80 33 80 34 82 34 -1
+ 83 15 80 35 82 35 -1
+ 80 34 80 35 82 35 -1
+ 80 34 83 31 82 35 -1
+ 83 15 80 35 82 36 -1
+ 80 34 80 35 82 36 -1
+ 80 34 83 31 82 36 -1
+ 80 35 80 37 82 37 -1
+ 80 37 83 31 82 38 -1
+ 83 15 80 38 82 38 -1
+ 80 37 80 38 82 38 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 -1 80 39 82 -1 -1
+ 83 -1 83 51 82 39 -1
+ 80 40 80 39 82 39 -1
+ 80 40 80 39 82 39 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 -1 83 -1 82 40 -1
+ 83 33 83 52 82 41 -1
+ 83 -1 83 -1 82 41 -1
+ 83 -1 83 55 82 42 -1
+ 83 53 83 56 82 42 -1
+ 83 54 83 57 82 42 -1
+ 83 -1 83 -1 82 43 -1
+ 83 -1 83 -1 82 43 -1
+ 83 1 83 -1 82 43 -1
+ 83 33 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 33 83 58 82 44 -1
+ 83 -1 83 -1 82 44 -1
+ 83 57 83 -1 82 45 -1
+ 83 -1 83 59 82 45 -1
+ 83 -1 83 -1 82 46 -1
+ 83 1 83 -1 82 46 -1
+ 83 -1 83 -1 82 47 -1
+ 83 60 83 -1 82 47 -1
+ 83 61 83 -1 82 48 -1
+ 83 60 83 63 82 48 -1
+ 83 62 83 64 82 48 -1
+ 80 45 83 65 82 49 -1
+ 80 45 80 44 82 49 -1
+ 83 21 80 44 82 49 -1
+ 80 46 83 66 82 50 -1
+ 80 46 80 45 82 50 -1
+ 83 21 80 45 82 50 -1
+ 80 47 80 46 82 51 -1
+ 80 47 83 67 82 51 -1
+ 83 21 83 68 82 51 -1
+ 80 47 80 48 82 52 -1
+ 83 15 80 48 82 52 -1
+ 80 47 83 31 82 52 -1
+ 80 48 80 49 82 53 -1
+ 83 15 80 49 82 53 -1
+ 80 48 83 31 82 53 -1
+ 80 47 80 50 82 54 -1
+ 83 15 80 50 82 54 -1
+ 80 47 83 31 82 54 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 48 80 51 82 55 -1
+ 80 51 80 52 82 56 -1
+ 83 15 80 52 82 56 -1
+ 80 51 83 31 82 56 -1
+ 80 52 83 31 82 57 -1
+ 83 15 80 53 82 57 -1
+ 80 52 80 53 82 57 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 4 82 -1 -1
+ 69 -1 69 4 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 83 -1 80 54 82 58 -1
+ 80 55 83 -1 82 58 -1
+ 80 55 83 -1 82 58 -1
+ 83 -1 69 4 82 59 -1
+ 80 55 83 -1 82 59 -1
+ 80 55 83 -1 82 59 -1
+ 83 33 83 -1 82 60 -1
+ 83 -1 83 -1 82 60 -1
+ 83 33 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 61 -1
+ 83 -1 83 -1 82 61 -1
+ 83 -1 83 -1 82 61 -1
+ 83 -1 83 33 82 62 -1
+ 83 -1 83 -1 82 62 -1
+ 83 69 83 -1 82 62 -1
+ 83 -1 83 -1 82 63 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 1 82 1 82 2 -1
+ 80 5 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 67 2 82 1 82 5 -1
+ 80 -1 82 1 82 -1 -1
+ 80 7 82 1 82 6 -1
+ 80 7 82 1 82 7 -1
+ 80 8 82 1 82 8 -1
+ 80 -1 82 1 82 9 -1
+ 67 -1 82 1 82 10 -1
+ 80 -1 82 1 82 11 -1
+ 67 -1 82 1 82 12 -1
+ 67 -1 82 1 82 13 -1
+ 80 -1 82 1 82 14 -1
+ 80 16 82 1 82 15 -1
+ 80 -1 82 1 82 16 -1
+ 80 1 82 1 82 19 -1
+ 80 2 82 1 82 20 -1
+ 80 19 82 1 82 21 -1
+ 80 20 82 1 82 22 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 23 -1
+ 80 -1 82 1 82 24 -1
+ 80 -1 82 1 82 25 -1
+ 67 -1 82 1 82 26 -1
+ 67 -1 82 1 82 27 -1
+ 67 -1 82 1 82 28 -1
+ 67 -1 82 1 82 29 -1
+ 67 -1 82 1 82 30 -1
+ 80 -1 82 1 82 31 -1
+ 80 -1 82 1 82 32 -1
+ 80 -1 82 1 82 33 -1
+ 80 -1 82 1 82 34 -1
+ 80 -1 82 1 82 35 -1
+ 80 36 82 1 82 36 -1
+ 80 -1 82 1 82 37 -1
+ 80 -1 82 1 82 38 -1
+ 67 3 82 1 82 39 -1
+ 80 -1 82 1 82 -1 -1
+ 80 41 82 1 82 40 -1
+ 80 42 82 1 82 41 -1
+ 80 3 82 1 82 42 -1
+ 80 43 82 1 82 43 -1
+ 67 -1 82 1 82 -1 -1
+ 80 41 82 1 82 -1 -1
+ 80 42 82 1 82 44 -1
+ 80 3 82 1 82 45 -1
+ 80 43 82 1 82 46 -1
+ 67 2 82 1 82 47 -1
+ 80 19 82 1 82 48 -1
+ 80 -1 82 1 82 49 -1
+ 80 -1 82 1 82 50 -1
+ 80 -1 82 1 82 51 -1
+ 80 -1 82 1 82 52 -1
+ 80 -1 82 1 82 53 -1
+ 80 -1 82 1 82 54 -1
+ 80 -1 82 1 82 55 -1
+ 80 -1 82 1 82 56 -1
+ 80 -1 82 1 82 57 -1
+ 80 6 82 1 82 58 -1
+ 80 6 82 1 82 59 -1
+ 67 4 82 1 82 60 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 41 82 1 82 61 -1
+ 67 4 82 1 82 62 -1
+ 80 5 82 1 82 63 -1
+ 83 -1 82 0 82 47 -1
+_complexName.size()	5
+	HA:HAR:HYAL2	plasma membrane	Reactome DB_ID: 2160889	
+	HA:HAR:HYAL2:SLC9A1	plasma membrane	Reactome DB_ID: 2160891	
+	GUSB tetramer	lysosomal lumen	Reactome DB_ID: 1678867	
+	HPSE dimer	lysosomal lumen	Reactome DB_ID: 1666976	
+	ARSB:Ca2+	lysosomal lumen	Reactome DB_ID: 1606792	
+_physicalEntityName.size()	5
+		
+		
+		
+		
+	VCAN/VCAN/VCAN/VCAN/VCAN/VCAN	lysosomal lumen
+_proteinName.size()	56
+	HARE	plasma membrane			
+	CD44	plasma membrane	Reactome DB_ID: 1031688	UniProt:P16070	CD44
+	HMMR	plasma membrane	Reactome DB_ID: 2160885	UniProt:O75330	HMMR
+	HYAL2	plasma membrane	Reactome DB_ID: 2160919	UniProt:Q12891	HYAL2
+	NHE1	plasma membrane	Reactome DB_ID: 426006	UniProt:P19634	SLC9A1
+	HYAL3	lysosomal lumen			
+	HEXB	lysosomal lumen	Reactome DB_ID: 1605605	UniProt:P07686	HEXB
+	PAPSS2	cytosol			
+	PAPST2	Golgi membrane			
+	PRELP	Golgi lumen			
+	PRELP	Golgi lumen			
+	PRELP	Golgi lumen			
+	PRELP	Golgi lumen			
+	PRELP	Golgi lumen			
+	PRELP	Golgi lumen			
+	PRELP	Golgi lumen			
+	CHST6	Golgi membrane			
+	PRELP	Golgi lumen			
+	PRELP	extracellular region			
+	GLB1L	lysosomal lumen			
+	GNS	lysosomal lumen	Reactome DB_ID: 1638063	UniProt:P15586	GNS
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	HS3ST5	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	Golgi lumen			
+	SDC4	lysosomal lumen			
+	SDC4	lysosomal lumen			
+	IDUA	lysosomal lumen	Reactome DB_ID: 1678661	UniProt:P35475	IDUA
+	SGSH	lysosomal lumen	Reactome DB_ID: 1678689	UniProt:P51688	SGSH
+	NAGLU	lysosomal lumen	Reactome DB_ID: 1678772	UniProt:P54802	NAGLU
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	Golgi lumen			
+	VCAN	lysosomal lumen			
+	VCAN	lysosomal lumen			
+_reactionName.size()	64
+	D	Receptor-mediated uptake of HA
+	D	HYAL2 interacts with NHE1 to create an acidic environment
+	B	Hyaluronidase 2 (HYAL2) hydrolyses HA into 20kDa fragments
+	T	Hyaluronidase 1 (HYAL1) hydrolyses HA from 20kDa to 800Da fragments
+	T	Beta-glucuronidase (GUSB) hydrolyses glucuronate from HA tetrasaccharides
+	T	Beta-glucuronidase (GUSB) hydrolyses glucuronate from the HA disaccharides
+	T	Activation of inorganic sulfate forms APS
+	T	adenylyl sulfate (APS) + ATP => PAPS + ADP
+	T	SLC35B2,3 transport cytosolic PAPS to Golgi lumen
+	T	SLC35D2 exchanges UDP-sugars for UMP
+	T	B4GALTs add galactose to the N-glycan precursor
+	T	B3GNT1,2,3,4,7 add GlcNAc to form Keratan-PG
+	T	B4GALTs add another galactose to the chain
+	T	B4GALTs can add galactose to a branch of keratan
+	T	The keratan chain can be capped by N-acetylneuraminic acid
+	T	Sulfation of GlcNAc residues on Keratan-PG forms KSPG
+	T	Further sulfation on galactose residues produces KSPG
+	T	KSPG is secreted from the cell
+	T	Extracellular KSPG translocates to the lysosome for degradation
+	T	Keratan sulfate is cleaved from its proteoglycan by an unknown galactosidase
+	T	N-acetylgalactosamine-6-sulfatase (GALNS) hydrolyses the sulfate groups of galactose 6-sulfate units of keratan sulfate
+	T	Beta-galactosidase (GLB1) can cleave galactose from a glycosaminoglycan
+	T	N-acetylglucosamine 6-sulfatase (GNS) hydrolyses 6-sulfate groups of the N-acetyl-D-glucosamine 6-sulfate units of keratan sulfate
+	T	GXYLTs transfer Xyl to core protein
+	T	B4GALT7 transfers Gal group to tetrasaccharide linker
+	T	B3GALT6 transfers Gal to the tetrasaccharide linker
+	T	B3GATs transfer GlcA to tetrasaccharide linker
+	T	The addition of GlcNAc to the terminal glucuronate residue creates heparan
+	T	Glucuronate is added to the heparan chain
+	T	Another GlcNAc addition extends the heparan chain
+	T	Another GlcA addition extends the heparan chain
+	T	NDST1-4 N-deacetylates GlcNAc residues in heparan
+	T	NDST1-4 can sulfate a glucosamine residue in heparan to form heparan sulfate (HS)
+	T	GLCE epimerises GlcA to IdoA
+	T	HS2ST1 sulfates IdoA at C2 in heparan sulfate
+	T	HS3STs sulfate GlcN at C3 in heparan sulfate
+	T	HS3ST1 sulfates GlcN at C3 in heparan sulfate
+	T	GLCE epimerises more GlcA to IdoA as sulfate content rises
+	T	HS6STs sulfate GlcN at C6 in heparan sulfate/heparin
+	T	Heparanase (HPSE) cleaves heparan sulfate from its proteoglycan (lysosome)
+	T	Alpha-L-iduronidase (IDUA) hydrolyses the unsulfated alpha-L-iduronosidic linkage in heparan sulfate
+	T	N-sulphoglucosamine sulphohydrolase (SGSH) hydrolyses sulfate from the N-sulphoglucosamine residue of heparan sulfate
+	T	HGSNAT acetylates the terminal N-glucosamine in heparan sulfate
+	T	Alpha-N-acetylglucosaminidase (NAGLU) hydrolyses N-acetyl-D-glucosamine residues from heparan sulfate
+	T	N-sulphoglucosamine sulphohydrolase (SGSH) hydrolyses another sulfate from the N-sulphoglucosamine residue of heparan sulfate
+	T	HGSNAT acetylates another terminal N-glucosamine in heparan
+	T	Alpha-N-acetylglucosaminidase (NAGLU) hydrolyses another N-acetyl-D-glucosamine residue from heparan
+	T	Beta-glucuronidase (GUSB) hydrolyses glucuronate from the linker chain
+	T	Beta-galactosidase (GLB1) can cleave galactose from the linker chain
+	T	The addition of GalNAc to the terminal glucuronate residue forms chondroitin
+	T	A glucuronate moiety is added to chondroitin
+	T	GalNAc is added to chondroitin
+	T	Chondroitin can be sulfated on position 4 of GalNAc by CHST9, 11, 12 and 13
+	T	Chondroitin 4-sulfate (C4S) can be further sulfated on position 6 by CHST15
+	T	Chondroitin can be sulfated on position 6 of GalNAc by CHST3,7
+	T	Dermatan-sulfate epimerase (DSE) converts chondroitin sulfate (CS) to dermatan sulfate (DS)
+	T	Dermatan sulfate can be further sulfated on position 2 of iduronate
+	T	CHST14 transfers SO4(2-) to DS
+	T	DS is cleaved from its proteoglycan
+	T	CS is cleaved from its proteoglycan
+	T	Arylsulfatase B (ARSB) hydrolyses sulfate groups from GalNAc 4-sulfate units of DS
+	T	Alpha-L-iduronidase (IDUA) hydrolyses the unsulfated alpha-L-iduronosidic linkage in DS
+	T	Arylsulfatase B (ARSB) hydrolyses sulfate groups from GalNAc 4-sulfate units of CS
+	D	Hyaluronidase 1 (HYAL1) hydrolyses 1-4 linkages between GalNAc and D-glucuronate residues in CS.
+_smallMoleculeName.size()	70
+	GlcA-b1,3-GlcNAc	lysosomal lumen	Reactome DB_ID: 2162224	beta-D-GlcpA-(1->3)-D-GlcpNAc [ChEBI:64024]
+	GlcNAc	cytosol	Reactome DB_ID: 2162231	N-Acetyl-D-glucosamine [ChEBI:7123]
+	GlcA	cytosol	Reactome DB_ID: 2162232	D-Glucuronate [ChEBI:4178]
+	GlcA	cytosol	Reactome DB_ID: 2162232	D-Glucuronate [ChEBI:4178]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PAPS	cytosol	Reactome DB_ID: 158471	3'-Phosphoadenylyl sulfate [ChEBI:17980]
+	PAPS	Golgi lumen	Reactome DB_ID: 741440	3'-Phosphoadenylyl sulfate [ChEBI:17980]
+				
+	UMP	cytosol	Reactome DB_ID: 109402	UMP [ChEBI:16695]
+	UMP	Golgi lumen	Reactome DB_ID: 735698	UMP [ChEBI:16695]
+	UMP	cytosol	Reactome DB_ID: 109402	UMP [ChEBI:16695]
+	UMP	Golgi lumen	Reactome DB_ID: 735698	UMP [ChEBI:16695]
+				
+				
+				
+	UDP	Golgi lumen	Reactome DB_ID: 205687	uridine 5'-diphosphate [ChEBI:17659]
+	UDP-Gal	Golgi lumen	Reactome DB_ID: 735682	UDP-D-galactose [ChEBI:18307]
+	UDP-Gal	Golgi lumen	Reactome DB_ID: 735682	UDP-D-galactose [ChEBI:18307]
+	UDP-Gal	Golgi lumen	Reactome DB_ID: 735682	UDP-D-galactose [ChEBI:18307]
+	CMP-Neu5Ac	Golgi lumen	Reactome DB_ID: 727815	CMP-N-acetylneuraminate [ChEBI:3278]
+	CMP-Neu5Ac	Golgi lumen	Reactome DB_ID: 727815	CMP-N-acetylneuraminate [ChEBI:3278]
+	CMP	Golgi lumen	Reactome DB_ID: 727810	CMP [ChEBI:17361]
+	CMP	Golgi lumen	Reactome DB_ID: 727810	CMP [ChEBI:17361]
+	PAP	Golgi lumen	Reactome DB_ID: 742343	Adenosine 3',5'-bisphosphate [ChEBI:17985]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	SO4(2-)	lysosomal lumen	Reactome DB_ID: 1606845	Sulfate [ChEBI:16189]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	Gal	lysosomal lumen	Reactome DB_ID: 1605637	alpha-D-Galactose [ChEBI:10231]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-GlcNAc	Golgi lumen	Reactome DB_ID: 914003	UDP-N-acetyl-D-glucosamine [ChEBI:16264]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	CH3COO-	Golgi lumen	Reactome DB_ID: 2022890	Acetate [ChEBI:15366]
+	CH3COO-	Golgi lumen	Reactome DB_ID: 2022890	Acetate [ChEBI:15366]
+	H2O	Golgi lumen	Reactome DB_ID: 2022884	H2O [ChEBI:15377]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	Heparan sulfate chain	extracellular region	Reactome DB_ID: 2090023	beta-D-IdoA-(1->4)-alpha-D-GlcNS6S-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group [ChEBI:63666]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	Heparan sulfate chain	extracellular region	Reactome DB_ID: 2090023	beta-D-IdoA-(1->4)-alpha-D-GlcNS6S-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group [ChEBI:63666]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	Heparan sulfate chain(5)	lysosomal lumen	Reactome DB_ID: 2090080	beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group [ChEBI:63808]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	Heparan sulfate chain(5)	lysosomal lumen	Reactome DB_ID: 2090080	beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group [ChEBI:63808]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	Heparan sulfate chain(4)	lysosomal lumen	Reactome DB_ID: 2090069	alpha-D-GlcNAc-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group [ChEBI:63807]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	UDP-GalNAc	Golgi lumen	Reactome DB_ID: 735700	UDP-N-acetyl-D-galactosamine [ChEBI:9820]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	UDP-GlcA	Golgi lumen	Reactome DB_ID: 1889970	UDPglucuronate [ChEBI:17200]
+	UDP-GalNAc	Golgi lumen	Reactome DB_ID: 735700	UDP-N-acetyl-D-galactosamine [ChEBI:9820]
+	UDP-GalNAc	Golgi lumen	Reactome DB_ID: 735700	UDP-N-acetyl-D-galactosamine [ChEBI:9820]
+	ChEBI:63519 chain	lysosomal lumen	Reactome DB_ID: 2065231	beta-D-GalNAc4S-(1->4)-beta-D-IdoA2S-(1->3)-beta-D-GalNAc4S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group [ChEBI:63519]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+	H2O	lysosomal lumen	Reactome DB_ID: 1605715	H2O [ChEBI:15377]
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

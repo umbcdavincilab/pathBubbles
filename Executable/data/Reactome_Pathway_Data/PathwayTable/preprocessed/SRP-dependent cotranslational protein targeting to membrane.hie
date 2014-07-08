@@ -1,0 +1,80 @@
+edge.size() 14
+ 67 0 67 1 82 0 -1
+ 67 2 67 3 82 1 -1
+ 67 1 67 3 82 1 -1
+ 67 3 67 5 82 2 -1
+ 67 4 67 5 82 2 -1
+ 67 5 67 2 82 3 -1
+ 67 6 67 2 82 3 -1
+ 67 6 67 7 82 3 -1
+ 67 5 67 7 82 3 -1
+ 67 6 67 4 82 3 -1
+ 67 5 67 4 82 3 -1
+ 67 7 67 8 82 4 -1
+ 67 7 69 0 82 4 -1
+ 67 9 82 1 82 4 -1
+_complexName.size()	10
+	80S ribosome	cytosol	Reactome DB_ID: 72500	
+	ribosome:mRNA:polypeptide+signal	cytosol	Reactome DB_ID: 1799327	
+	Signal Recognition Particle	cytosol	Reactome DB_ID: 264932	
+	SRP:polypeptide+signal:ribosome	cytosol	Reactome DB_ID: 1799337	
+	SRP receptor	endoplasmic reticulum membrane	Reactome DB_ID: 265092	
+	SRP receptor:SRP:ribosome:polypeptide+signal	endoplasmic reticulum membrane	Reactome DB_ID: 1799323	
+	Translocon:TRAP	endoplasmic reticulum membrane	Reactome DB_ID: 264969	
+	polypeptide+signal:Translocon	endoplasmic reticulum membrane	Reactome DB_ID: 1799322	
+	cleaved polypeptide:Translocon	endoplasmic reticulum membrane	Reactome DB_ID: 1799324	
+	Signal Peptidase	endoplasmic reticulum membrane	Reactome DB_ID: 264960	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	0
+_reactionName.size()	5
+	T	Synthesis of nascent polypeptide containing signal sequence
+	D	Association of a nascent polypeptide:mRNA:ribosome complex with a signal recognition particle (SRP)
+	D	The SRP receptor binds the SRP:nascent peptide:ribosome complex
+	T	Translocation of signal-containing nascent peptide to Endoplasmic Reticulum
+	B	Signal peptide cleavage from ribosome-associated nascent protein
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

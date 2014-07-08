@@ -1,0 +1,143 @@
+edge.size() 66
+ 67 1 83 0 82 0 -1
+ 67 1 67 0 82 0 -1
+ 83 1 67 0 82 0 -1
+ 67 1 83 2 82 1 -1
+ 67 1 67 0 82 1 -1
+ 83 1 67 0 82 1 -1
+ 83 -1 67 2 82 2 -1
+ 67 1 67 2 82 2 -1
+ 80 -1 67 2 82 2 -1
+ 67 2 67 3 82 3 -1
+ 80 -1 67 3 82 3 -1
+ 67 3 67 5 82 4 -1
+ 67 4 67 5 82 4 -1
+ 83 3 67 6 82 5 -1
+ 69 0 67 6 82 5 -1
+ 67 5 67 6 82 5 -1
+ 67 6 67 7 82 6 -1
+ 67 4 67 7 82 6 -1
+ 67 7 67 8 82 7 -1
+ 67 7 80 -1 82 7 -1
+ 67 8 83 4 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 -1 67 9 82 8 -1
+ 67 8 67 9 82 8 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 9 82 -1 -1
+ 67 -1 67 9 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 5 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 5 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 80 0 82 1 82 0 -1
+ 80 1 82 1 82 1 -1
+ 80 -1 82 1 82 8 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	10
+	Rap1-GDP	plasma membrane	Reactome DB_ID: 354074	
+	Rap1-GTP	plasma membrane	Reactome DB_ID: 354126	
+	Rap1-GTP:PIP2:RIAM	plasma membrane	Reactome DB_ID: 354110	
+	Talin:RIAM complex	plasma membrane	Reactome DB_ID: 354176	
+	Integrin alphaIIb beta3:p(Y530)-SRC:CSK	plasma membrane	Reactome DB_ID: 377608	
+	Integrin alphaIIb beta3:p(Y530)-SRC:CSK:Talin:RIAM complex	plasma membrane	Reactome DB_ID: 354130	
+	Focal complex	plasma membrane	Reactome DB_ID: 354137	
+	Talin:RIAM complex:ECM ligands: 2X(Integrin alphaIIb beta3:p(Y530)-SRC:CSK)	plasma membrane	Reactome DB_ID: 377619	
+	Talin:RIAM complex:ECM ligands: 2X(Integrin alphaIIb beta3:Inactive (p-Y530)-SRC)	plasma membrane	Reactome DB_ID: 377616	
+	Talin:RIAM complex:ECM ligands: 2X(Integrin alphaIIb beta3:SRC)	plasma membrane	Reactome DB_ID: 377620	
+_physicalEntityName.size()	1
+	FN/VWF/FN/VWF	extracellular region
+_proteinName.size()	2
+	RasGRP	cytosol			
+	RAPGEF4	plasma membrane			
+_reactionName.size()	9
+	T	Activation of Rap1 by cytosolic GEFs
+	T	Activation of Rap1 by membrane-associated GEFs
+	D	Translocation of RIAM to plasma membrane
+	D	Activation of Talin
+	D	Integrin alphaIIb beta3 activation
+	D	Interaction of integrin alphaIIb beta3 with Fibrinogen
+	D	Clustering of Integrin alphaIIb beta3 complexes
+	B	Release of CSK from SRC
+	T	Dephosphorylation of inactive SRC by PTPB1
+_smallMoleculeName.size()	5
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

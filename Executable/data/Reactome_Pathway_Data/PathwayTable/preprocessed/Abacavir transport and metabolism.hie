@@ -1,0 +1,161 @@
+edge.size() 42
+ 83 0 83 1 82 0 -1
+ 83 6 83 1 82 1 -1
+ 83 7 83 2 82 1 -1
+ 83 8 83 3 82 1 -1
+ 83 9 83 4 82 1 -1
+ 83 0 83 5 82 1 -1
+ 83 14 83 1 82 2 -1
+ 83 15 83 10 82 2 -1
+ 83 16 83 11 82 2 -1
+ 83 9 83 12 82 2 -1
+ 83 0 83 13 82 2 -1
+ 83 1 83 19 82 3 -1
+ 83 17 83 20 82 3 -1
+ 83 18 83 21 82 3 -1
+ 83 1 83 25 82 4 -1
+ 83 22 83 26 82 4 -1
+ 83 23 83 27 82 4 -1
+ 83 24 83 28 82 4 -1
+ 83 1 83 31 82 5 -1
+ 83 29 83 32 82 5 -1
+ 83 30 83 33 82 5 -1
+ 83 34 83 36 82 6 -1
+ 83 31 83 37 82 6 -1
+ 83 35 83 38 82 6 -1
+ 83 38 83 39 82 7 -1
+ 83 42 83 40 82 7 -1
+ 83 43 83 41 82 7 -1
+ 83 9 83 38 82 8 -1
+ 83 45 83 44 82 8 -1
+ 83 46 83 48 82 9 -1
+ 83 45 83 49 82 9 -1
+ 83 47 83 9 82 9 -1
+ 80 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 80 2 82 1 82 2 -1
+ 80 0 82 1 82 3 -1
+ 67 1 82 1 82 4 -1
+ 80 1 82 1 82 5 -1
+ 67 2 82 1 82 6 -1
+ 67 3 82 1 82 7 -1
+ 80 3 82 1 82 8 -1
+ 80 4 82 1 82 9 -1
+_complexName.size()	4
+	ABCG2 dimer	plasma membrane	Reactome DB_ID: 917863	
+	ADH1A dimer	cytosol	Reactome DB_ID: 71693	
+	ADAL:Zn	cytosol	Reactome DB_ID: 2161178	
+	NT5C2 tetramer	cytosol	Reactome DB_ID: 109318	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	OCT3	plasma membrane			
+	OCT1	plasma membrane	Reactome DB_ID: 549126	UniProt:O15245	SLC22A1
+	ABCB1	plasma membrane	Reactome DB_ID: 1457534	UniProt:P08183	ABCB1
+	GUK1	cytosol	Reactome DB_ID: 58048	UniProt:Q16774	GUK1
+	PCK1	cytosol	Reactome DB_ID: 70495	UniProt:P35558	PCK1
+_reactionName.size()	10
+	T	abacavir [extracellular] => abacavir [cytosol]
+	T	ABCG2-mediated abacavir efflux
+	T	ABCB1-mediated abacavir efflux
+	T	Glucuronidation of abacavir
+	T	Oxidation of abacavir to abacavir 5'-carboxylate
+	T	Phosphorylation of abacavir
+	T	Deamination of abacavir monophosphate to form carbovir monophosphate
+	T	Conversion of carbovir to carbovir monophosphate
+	T	Phosphorylation of carbovir monophosphate
+	T	Phosphorylation of carbovir diphosphate
+_smallMoleculeName.size()	50
+	abacavir	extracellular region	Reactome DB_ID: 2161525	abacavir [ChEBI:421707]
+	abacavir	cytosol	Reactome DB_ID: 2161185	abacavir [ChEBI:421707]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	xenobiotic	cytosol	Reactome DB_ID: 2162091	carbovir triphosphate [ChEBI:64174]
+	xenobiotic	cytosol	Reactome DB_ID: 2162075	carbovir diphosphate [ChEBI:64172]
+	xenobiotic	cytosol	Reactome DB_ID: 2162091	carbovir triphosphate [ChEBI:64174]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	UDP-GlcA	cytosol	Reactome DB_ID: 158601	UDPglucuronate [ChEBI:17200]
+	UDP	cytosol	Reactome DB_ID: 110096	uridine 5'-diphosphate [ChEBI:17659]
+	UDP-GlcA	cytosol	Reactome DB_ID: 158601	UDPglucuronate [ChEBI:17200]
+	xenobiotic	cytosol	Reactome DB_ID: 2162068	abacavir 5'-glucuronide [ChEBI:64189]
+	xenobiotic	cytosol	Reactome DB_ID: 2162068	abacavir 5'-glucuronide [ChEBI:64189]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	xenobiotic	cytosol	Reactome DB_ID: 2162081	abacavir 5'-carboxylic acid [ChEBI:64192]
+	xenobiotic	cytosol	Reactome DB_ID: 2162081	abacavir 5'-carboxylic acid [ChEBI:64192]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	NADH	cytosol	Reactome DB_ID: 73473	NADH [ChEBI:16908]
+	NADH	cytosol	Reactome DB_ID: 73473	NADH [ChEBI:16908]
+	xenobiotic	cytosol	Reactome DB_ID: 2161194	abacavir monophosphate [ChEBI:64112]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	AMP	cytosol	Reactome DB_ID: 76577	adenosine 5'-monophosphate [ChEBI:16027]
+	Ade-Rib	cytosol	Reactome DB_ID: 83909	adenosine [ChEBI:16335]
+	Ade-Rib	cytosol	Reactome DB_ID: 83909	adenosine [ChEBI:16335]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	xenobiotic	cytosol	Reactome DB_ID: 2161175	cyclopropylamine [ChEBI:34660]
+	xenobiotic	cytosol	Reactome DB_ID: 2161175	cyclopropylamine [ChEBI:34660]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	IMP	cytosol	Reactome DB_ID: 29602	IMP [ChEBI:17202]
+	carbovir	cytosol	Reactome DB_ID: 2161514	(-)-carbovir [ChEBI:421843]
+	Ino	cytosol	Reactome DB_ID: 83927	inosine [ChEBI:17596]
+	IMP	cytosol	Reactome DB_ID: 29602	IMP [ChEBI:17202]
+	Ino	cytosol	Reactome DB_ID: 83927	inosine [ChEBI:17596]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

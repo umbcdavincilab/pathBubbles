@@ -1,0 +1,107 @@
+edge.size() 26
+ 83 0 67 2 82 0 -1
+ 67 0 67 2 82 0 -1
+ 67 2 67 3 82 1 -1
+ 83 1 67 3 82 1 -1
+ 67 3 83 2 82 2 -1
+ 67 3 67 4 82 2 -1
+ 67 4 83 3 82 3 -1
+ 67 4 67 2 82 3 -1
+ 83 0 67 5 82 4 -1
+ 80 0 67 5 82 4 -1
+ 67 5 67 6 82 5 -1
+ 80 1 67 6 82 5 -1
+ 83 1 83 3 82 6 -1
+ 80 2 80 3 82 6 -1
+ 80 2 80 3 82 6 -1
+ 67 7 67 8 82 7 -1
+ 83 0 67 8 82 7 -1
+ 67 9 83 3 82 8 -1
+ 67 9 67 8 82 8 -1
+ 67 8 67 10 82 9 -1
+ 83 1 67 10 82 9 -1
+ 67 10 83 2 82 10 -1
+ 67 10 67 9 82 10 -1
+ 67 1 82 1 82 2 -1
+ 67 6 82 1 82 6 -1
+ 67 11 82 1 82 10 -1
+_complexName.size()	12
+	Inactive Sarcomere Protein Complex	cytosol	Reactome DB_ID: 390590	
+	Myosin Complex	cytosol	Reactome DB_ID: 390575	
+	Calcium Bound Sarcomere Protein Complex	cytosol	Reactome DB_ID: 390592	
+	ATP:Calcium Bound Sarcomere Protein Complex	cytosol	Reactome DB_ID: 390596	
+	ADP:Calcium Bound Sarcomere Protein Complex	cytosol	Reactome DB_ID: 390591	
+	Ca(4)CaM	cytosol	Reactome DB_ID: 74294	
+	MLCK:Calcium:Calmodulin	cytosol	Reactome DB_ID: 445764	
+	Inactive Myosin Actin Contractile Complex	plasma membrane	Reactome DB_ID: 445703	
+	Calcium Bound Myosin Actin Complex	plasma membrane	Reactome DB_ID: 445702	
+	ADP:Calcium Bound Myosin Actin Complex	plasma membrane	Reactome DB_ID: 445697	
+	ATP:Calcium Bound Myosin Actin Complex	plasma membrane	Reactome DB_ID: 445701	
+	ATP Bound Smooth Muscle Myosin Complex	cytosol	Reactome DB_ID: 445789	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	CALM1	cytosol	Reactome DB_ID: 71519	UniProt:P62158	CALM1
+	MYLK	cytosol	Reactome DB_ID: 445807	UniProt:Q15746	MYLK
+	MYL9	cytosol			
+	MYL9	cytosol			
+_reactionName.size()	11
+	D	Calcium Binds Troponin-C
+	D	Myosin Binds ATP
+	B	ATP Hydrolysis By Myosin
+	B	Release Of ADP From Myosin
+	D	Calcium binds calmodulin
+	D	MLCK Active Calmodulin Binding
+	T	Phosphorylation of Smooth Muscle Myosin Light Chains
+	D	Calcium Binds Caldesmon
+	B	Release Of ADP From Myosin
+	D	Myosin Binds ATP
+	B	ATP Hydrolysis By Myosin
+_smallMoleculeName.size()	4
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

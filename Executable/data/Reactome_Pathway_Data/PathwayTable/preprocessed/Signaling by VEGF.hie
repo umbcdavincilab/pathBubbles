@@ -1,0 +1,70 @@
+edge.size() 11
+ 80 0 67 0 82 0 -1
+ 67 -1 67 1 82 1 -1
+ 80 1 67 1 82 1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 2 67 2 82 2 -1
+ 80 1 67 2 82 2 -1
+_complexName.size()	3
+	VEGF dimer	extracellular region	Reactome DB_ID: 195376	
+	 	plasma membrane	Reactome DB_ID: 195396	
+	NRP2:VEGFR1 dimer	plasma membrane	Reactome DB_ID: 195427	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	PGF	extracellular region			
+	FLT1	plasma membrane	Reactome DB_ID: 3004464	UniProt:P17948	FLT1
+	NRP2	plasma membrane	Reactome DB_ID: 549042	UniProt:O60462	NRP2
+_reactionName.size()	3
+	T	Homodimerization of VEGF proteins
+	D	VEGF-A,B,PLGF bind to VEGFR1 leading to receptor dimerization
+	D	NRP-2 associates with VEGFR1 forming complexes on  cell surface
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

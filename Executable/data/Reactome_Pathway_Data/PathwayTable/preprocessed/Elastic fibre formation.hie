@@ -1,0 +1,117 @@
+edge.size() 34
+ 80 0 80 1 82 0 -1
+ 80 0 80 2 82 0 -1
+ 67 0 67 1 82 1 -1
+ 69 -1 67 1 82 1 -1
+ 80 2 69 0 82 2 -1
+ 80 3 67 2 82 3 -1
+ 69 0 67 2 82 3 -1
+ 80 4 67 3 82 4 -1
+ 67 2 67 4 82 5 -1
+ 67 3 67 4 82 5 -1
+ 80 5 67 4 82 5 -1
+ 67 4 67 5 82 6 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 6 67 7 82 7 -1
+ 67 5 67 7 82 7 -1
+ 69 1 67 8 82 8 -1
+ 67 7 67 8 82 8 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 0 67 9 82 9 -1
+ 80 7 67 9 82 9 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 8 67 10 82 10 -1
+ 67 8 67 10 82 10 -1
+ 80 -1 82 1 82 0 -1
+ 67 6 82 1 82 6 -1
+_complexName.size()	11
+	Integrin alphaVbeta3/Integrin alphaVbeta6/Integrin alpha5beta1			
+	Fibrilin-1:Fibrilin-binding integrins	plasma membrane	Reactome DB_ID: 2396200	
+	Fibrilins:MFAP2,MFAP5	extracellular region	Reactome DB_ID: 2396329	
+	Tropoelastin aggregate	extracellular region	Reactome DB_ID: 2161342	
+	Fibrillins:MFAP2,MFAP5:Tropoelastin aggregate	extracellular region	Reactome DB_ID: 2161254	
+	Elastic fibre	extracellular region	Reactome DB_ID: 2161360	
+	Lysyl oxidases:Cu2+	extracellular region	Reactome DB_ID: 2022132	
+	Elastic fibre:Fibulins	extracellular region	Reactome DB_ID: 2395337	
+	Elastic fibre:Fibulins:Emilins	extracellular region	Reactome DB_ID: 2396077	
+	Fibrillins:BMP2,4,7,10,GF5	extracellular region	Reactome DB_ID: 2396217	
+	Elastic fibre with associated proteins	extracellular region	Reactome DB_ID: 2161325	
+_physicalEntityName.size()	2
+	FBN3/FBN2/FBN3/FBN3/FBN2/FBN3	extracellular region
+	FBN3/FBN3/FBN1/FBN3/FBN3/FBN1	extracellular region
+_proteinName.size()	9
+	FBN3	extracellular region			
+	FBN3	extracellular region			
+	FBN3	extracellular region			
+	MFAP5	extracellular region			
+	ELN	extracellular region	Reactome DB_ID: 1454880	UniProt:P15502	ELN
+	FBLN5	extracellular region	Reactome DB_ID: 2161278	UniProt:Q9UBX5	FBLN5
+	FBLN4	extracellular region			
+	GDF5	extracellular region			
+	MFAP1	extracellular region			
+_reactionName.size()	11
+	B	Fibrillin C-terminal processing
+	D	Fibrillin-1 binds integrins
+	T	Fibrillin microfibril assembly
+	D	MFAP2, MFAP5 bind microfibrils
+	T	Tropoelastin forms aggregate globules
+	D	Tropoelastin associates with microfibrils
+	T	Elastin cross-linking by lysyl oxidase
+	D	Fibulin binds elastic fibres
+	D	Emilin is found in elastic fibres
+	D	Fibrillins bind BMPs
+	D	Elastic fibres bind associated proteins
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

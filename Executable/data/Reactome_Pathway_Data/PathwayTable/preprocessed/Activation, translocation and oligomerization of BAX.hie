@@ -1,0 +1,65 @@
+edge.size() 6
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 0 80 0 82 1 -1
+ 67 0 80 2 82 1 -1
+ 80 2 80 3 82 -1 -1
+ 80 3 67 1 82 2 -1
+_complexName.size()	2
+	tBID bound to inactive BAX	cytosol	Reactome DB_ID: 168850	
+	Activated BAX	mitochondrial outer membrane	Reactome DB_ID: 114269	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	BID	cytosol	Reactome DB_ID: 139953	UniProt:P55957	BID
+	BAX	cytosol	Reactome DB_ID: 139916	UniProt:Q07812	BAX
+	BAX activated	cytosol	Reactome DB_ID: 139907	UniProt:Q07812	BAX
+	BAX	mitochondrial outer membrane	Reactome DB_ID: 139949	UniProt:Q07812	BAX
+_reactionName.size()	3
+	D	tBID binds to inactive BAX protein
+	B	tBID activates BAX protein
+	T	Oligomerization of BAX at the mitochondrial membrane
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

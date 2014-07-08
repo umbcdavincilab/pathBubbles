@@ -1,0 +1,129 @@
+edge.size() 33
+ 83 7 83 0 82 0 -1
+ 83 8 69 0 82 0 -1
+ 83 9 83 1 82 0 -1
+ 83 10 83 2 82 0 -1
+ 83 11 69 0 82 0 -1
+ 83 12 83 3 82 0 -1
+ 83 13 83 4 82 0 -1
+ 69 1 69 0 82 0 -1
+ 69 1 83 5 82 0 -1
+ 69 1 83 6 82 0 -1
+ 83 20 83 14 82 1 -1
+ 83 21 83 15 82 1 -1
+ 83 22 69 2 82 1 -1
+ 83 23 69 2 82 1 -1
+ 83 24 83 16 82 1 -1
+ 83 25 83 17 82 1 -1
+ 83 13 69 2 82 1 -1
+ 69 1 83 18 82 1 -1
+ 69 1 83 19 82 1 -1
+ 69 1 69 2 82 1 -1
+ 83 32 83 26 82 2 -1
+ 83 33 83 27 82 2 -1
+ 83 34 69 3 82 2 -1
+ 83 13 69 3 82 2 -1
+ 69 1 83 28 82 2 -1
+ 69 1 83 29 82 2 -1
+ 69 1 69 3 82 2 -1
+ 83 35 83 30 82 2 -1
+ 83 36 83 31 82 2 -1
+ 83 37 69 3 82 2 -1
+ 80 0 82 1 82 0 -1
+ 80 0 82 1 82 1 -1
+ 80 0 82 1 82 2 -1
+_complexName.size()	0
+_physicalEntityName.size()	4
+		
+		
+		
+		
+_proteinName.size()	1
+	ALKBH2	nucleoplasm	Reactome DB_ID: 113676	UniProt:Q6NS38	ALKBH2
+_reactionName.size()	3
+	T	Oxidative demethylation of 1-MeA damaged DNA By ABH2
+	T	Oxidative demethylation of 3-MeC damaged DNA By ABH2
+	T	Oxidative demethylation of 1-EtA damaged DNA By ABH2
+_smallMoleculeName.size()	38
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	CO2	nucleoplasm	Reactome DB_ID: 159942	CO2 [ChEBI:16526]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	CH3CHO	nucleoplasm	Reactome DB_ID: 113681	Acetaldehyde [ChEBI:15343]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	CH3CHO	nucleoplasm	Reactome DB_ID: 113681	Acetaldehyde [ChEBI:15343]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	CH3CHO	nucleoplasm	Reactome DB_ID: 113681	Acetaldehyde [ChEBI:15343]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

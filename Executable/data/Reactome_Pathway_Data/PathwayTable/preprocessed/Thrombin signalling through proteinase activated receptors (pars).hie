@@ -1,0 +1,99 @@
+edge.size() 35
+ 80 -1 80 -1 82 0 -1
+ 80 -1 80 1 82 0 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 1 -1
+ 67 -1 67 -1 82 1 -1
+ 83 -1 67 -1 82 1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 67 1 82 2 -1
+ 80 2 67 1 82 2 -1
+ 80 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 2 82 3 -1
+ 67 1 67 2 82 3 -1
+ 80 -1 67 2 82 3 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 2 67 3 82 4 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 3 67 4 82 5 -1
+ 67 0 82 1 82 0 -1
+ 80 -1 82 1 82 1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 3 82 1 82 5 -1
+_complexName.size()	5
+	Activated thrombin (factor IIa)	extracellular region	Reactome DB_ID: 156786	
+	Activated PAR1:Beta-arrestin-1	plasma membrane	Reactome DB_ID: 418080	
+	Activated PAR1:Beta-arrestin-1:Src:ERK	plasma membrane	Reactome DB_ID: 418103	
+	Activated PAR1:Beta-arrestin-1:Activated Src:ERK	plasma membrane	Reactome DB_ID: 418144	
+	Activated PAR1:Beta-arrestin-1:Activated Src:Activated ERK	plasma membrane	Reactome DB_ID: 418210	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	F2R	plasma membrane	Reactome DB_ID: 114531	UniProt:P25116	F2R
+	F2RL3(18-47)	extracellular region			
+	ARRB1	cytosol	Reactome DB_ID: 264470	UniProt:P49407	ARRB1
+_reactionName.size()	6
+	B	Thrombin-mediated activation of Proteinase-activated receptors
+	T	Gq activation by PAR
+	D	Activated PAR1 binds Beta-arrestin-1
+	D	Beta-arrestin-1 acts as scaffold for a PAR1 signalling complex
+	T	Activation of beta-arrestin-1-bound Src kinase
+	T	Activated Src activates ERK
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,125 @@
+edge.size() 36
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 0 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 80 -1 67 3 82 2 -1
+ 67 2 67 3 82 2 -1
+ 67 3 67 4 82 3 -1
+ 67 -1 67 4 82 3 -1
+ 80 -1 67 5 82 4 -1
+ 67 4 67 5 82 4 -1
+ 80 -1 67 6 82 5 -1
+ 67 5 67 6 82 5 -1
+ 67 6 67 7 82 6 -1
+ 80 -1 67 7 82 6 -1
+ 67 7 83 2 82 7 -1
+ 83 0 83 3 82 7 -1
+ 83 1 67 8 82 7 -1
+ 67 7 67 8 82 7 -1
+ 67 8 67 6 82 8 -1
+ 67 8 80 3 82 8 -1
+ 83 6 80 4 82 9 -1
+ 80 5 83 4 82 9 -1
+ 80 5 83 5 82 9 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 83 6 80 3 82 10 -1
+ 67 9 83 7 82 10 -1
+ 67 9 80 6 82 10 -1
+ 67 9 80 6 82 10 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 0 67 11 82 11 -1
+ 67 10 67 11 82 11 -1
+ 80 2 82 1 82 7 -1
+ 80 3 82 1 82 9 -1
+ 80 3 82 1 82 10 -1
+_complexName.size()	12
+	CDO:BOC	plasma membrane	Reactome DB_ID: 375094	
+	Trans-cadherin homodimers	plasma membrane	Reactome DB_ID: 448888	
+	CDO:BOC:Trans-cadherin homodimer:catenin	plasma membrane	Reactome DB_ID: 375092	
+	Cadherin-catenin:CDO:BOC:Bnip2	plasma membrane	Reactome DB_ID: 376008	
+	Cadherin-catenin:CDO:BOC:Bnip2:CDC42-GTP	plasma membrane	Reactome DB_ID: 448875	
+	Cadherin-catenin:JLP:CDO:BOC:Bnip2-Cdc42	plasma membrane	Reactome DB_ID: 376011	
+	ABL1:JLP:CDO complex	plasma membrane	Reactome DB_ID: 449191	
+	p38 alpha/beta/gamma:ABL1:JLP:CDO complex	plasma membrane	Reactome DB_ID: 448887	
+	pp38 alpha/beta/gamma:ABL1:JLP:CDO complex	plasma membrane	Reactome DB_ID: 448881	
+	phospho p38:phospho MEF2	nucleoplasm	Reactome DB_ID: 448874	
+	Netrin-3:Neogenin	plasma membrane	Reactome DB_ID: 448880	
+	CDO:BOC:Neogenin:Netrin-3	plasma membrane	Reactome DB_ID: 375091	
+_physicalEntityName.size()	0
+_proteinName.size()	7
+	CDO	plasma membrane	Reactome DB_ID: 197892	UniProt:Q4KMG0	CDON
+	BOC-1	plasma membrane	Reactome DB_ID: 197785	UniProt:Q9BWV1-1	BOC
+	p-S207,T211-MKK6	cytosol	Reactome DB_ID: 206255	UniProt:P52564	MAP2K6
+	MAPK12	nucleoplasm			
+	TCF3	nucleoplasm	Reactome DB_ID: 3209896	UniProt:P15923	TCF3
+	TCF3	nucleoplasm	Reactome DB_ID: 3209894	UniProt:P15923	TCF3
+	MEF2D	nucleoplasm			
+_reactionName.size()	12
+	D	CDO binds BOC
+	D	CDO binds promyogenic cadherins
+	D	Bnip2 interacts with CDO complex
+	D	Interaction of Bnip-2 with Cdc42
+	D	JLP interacts with CDO complex
+	D	Interaction of ABL1 with CDO complex
+	D	Interaction of p38 MAPK with JLP
+	T	Activation of p38 alpha/beta MAPK
+	B	Nuclear translocation of p38 MAPK
+	T	Phosphorylation of E proteins by p38 MAPK
+	T	Phosphorylation of MEF2 proteins by p38
+	D	Neogenin:Netrin-3 binds CDO complex
+_smallMoleculeName.size()	8
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

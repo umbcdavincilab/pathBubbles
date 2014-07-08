@@ -1,0 +1,96 @@
+edge.size() 22
+ 83 2 80 0 82 0 -1
+ 80 1 83 0 82 0 -1
+ 80 1 83 1 82 0 -1
+ 83 2 80 0 82 1 -1
+ 80 3 83 3 82 1 -1
+ 80 3 83 4 82 1 -1
+ 69 0 67 0 82 2 -1
+ 80 1 67 0 82 2 -1
+ 69 1 67 1 82 3 -1
+ 80 3 67 1 82 3 -1
+ 80 0 67 2 82 4 -1
+ 69 2 67 2 82 4 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 3 82 5 -1
+ 67 -1 80 5 82 5 -1
+ 80 2 82 1 82 0 -1
+ 80 4 82 1 82 1 -1
+_complexName.size()	4
+	HuR with phosphoserine221 and phosphoserine158:mRNA Complex	nucleoplasm	Reactome DB_ID: 517672	
+	HuR with phosphoserine221 and phosphoserine318:mRNA Complex	nucleoplasm	Reactome DB_ID: 517751	
+	HuR with Unknown Phosphorylation: mRNA Complex	nucleoplasm	Reactome DB_ID: 450395	
+	HuR with Unknown Phosphorylation: mRNA Complex/HuR with phosphoserine221 and phosphoserine158:mRNA Complex/HuR with phosphoserine221 and phosphoserine318:mRNA Complex			
+_physicalEntityName.size()	3
+		
+		
+		
+_proteinName.size()	6
+	HuR	nucleoplasm	Reactome DB_ID: 450601	UniProt:Q15717	ELAVL1
+	HuR	nucleoplasm	Reactome DB_ID: 450576	UniProt:Q15717	ELAVL1
+	PRKCA	nucleoplasm	Reactome DB_ID: 450530	UniProt:P17252	PRKCA
+	HuR	nucleoplasm	Reactome DB_ID: 450532	UniProt:Q15717	ELAVL1
+	nPKC-delta	nucleoplasm	Reactome DB_ID: 450606	UniProt:Q05655	PRKCD
+	TNFSF13	cytosol	Reactome DB_ID: 450619	UniProt:O75888	TNFSF13
+_reactionName.size()	6
+	T	Phosphorylation of HuR by PKCalpha
+	T	Phosphorylation of HuR by PKCdelta
+	D	Phosphorylated HuR (Ser221, Ser158) Binds mRNA
+	D	Phosphorylated HuR (Ser221, Ser318) Binds mRNA
+	D	HuR Binds mRNAs in the Nucleus
+	B	Export of HuR:mRNA Complex from the Nucleus to the Cytoplasm
+_smallMoleculeName.size()	5
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

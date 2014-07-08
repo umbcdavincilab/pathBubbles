@@ -1,0 +1,74 @@
+edge.size() 11
+ 67 0 67 3 82 0 -1
+ 83 0 67 3 82 0 -1
+ 83 1 67 2 82 0 -1
+ 67 0 67 2 82 0 -1
+ 67 3 67 4 82 1 -1
+ 83 2 67 4 82 1 -1
+ 83 3 67 4 82 1 -1
+ 83 4 67 4 82 1 -1
+ 83 5 67 4 82 1 -1
+ 67 1 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+_complexName.size()	5
+	DNA polymerase alpha:primase:DNA polymerase alpha:origin complex	nucleoplasm	Reactome DB_ID: 68510	
+	primosome	nucleoplasm	Reactome DB_ID: 68507	
+	DNA polymerase epsilon	nucleoplasm	Reactome DB_ID: 68483	
+	RNA primer:origin duplex:DNA polymerase alpha:primase complex	nucleoplasm	Reactome DB_ID: 68423	
+	RNA primer-DNA primer:origin duplex	nucleoplasm	Reactome DB_ID: 68425	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	2
+	T	The primase component of DNA polymerase:primase synthesizes a 6-10 nucleotide RNA primer at the origin
+	D	The polymerase component of DNA polymerase alpha:primase synthesizes a 20-nucleotide primer at the origin
+_smallMoleculeName.size()	6
+				
+				
+	dGTP	nucleoplasm	Reactome DB_ID: 29892	dGTP [ChEBI:16497]
+	dATP	nucleoplasm	Reactome DB_ID: 29604	dATP [ChEBI:16284]
+	TTP	nucleoplasm	Reactome DB_ID: 30187	dTTP [ChEBI:18077]
+	dCTP	nucleoplasm	Reactome DB_ID: 30185	dCTP [ChEBI:16311]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

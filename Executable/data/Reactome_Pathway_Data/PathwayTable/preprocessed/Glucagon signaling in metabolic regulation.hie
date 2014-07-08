@@ -1,0 +1,97 @@
+edge.size() 19
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 83 0 67 2 82 1 -1
+ 67 1 67 2 82 1 -1
+ 67 1 67 3 82 1 -1
+ 83 1 67 3 82 1 -1
+ 67 1 83 3 82 1 -1
+ 83 2 83 4 82 1 -1
+ 80 2 67 4 82 2 -1
+ 67 3 67 4 82 2 -1
+ 67 3 67 6 82 3 -1
+ 67 5 67 6 82 3 -1
+ 83 5 83 7 82 4 -1
+ 83 6 83 8 82 4 -1
+ 67 7 80 3 82 5 -1
+ 83 7 80 3 82 5 -1
+ 67 7 67 8 82 5 -1
+ 67 0 82 1 82 1 -1
+ 67 6 82 1 82 4 -1
+_complexName.size()	9
+	Glucagon:GCGR	plasma membrane	Reactome DB_ID: 163627	
+	G-protein with G(s) alpha:GDP	plasma membrane	Reactome DB_ID: 164384	
+	G-beta:G-gamma dimer	plasma membrane	Reactome DB_ID: 164386	
+	G-protein alpha (s):GTP	plasma membrane	Reactome DB_ID: 164358	
+	Activated Adenylate Cyclase	plasma membrane	Reactome DB_ID: 422306	
+	Adenylate cyclase (Mg2+ cofactor)	plasma membrane	Reactome DB_ID: 170665	
+	Gs-activated adenylate cyclase	plasma membrane	Reactome DB_ID: 163622	
+	PKA tetramer	cytosol	Reactome DB_ID: 111922	
+	cAMP:PKA regulatory subunit	cytosol	Reactome DB_ID: 111923	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	Glucagon	extracellular region	Reactome DB_ID: 163626	UniProt:P01275	GCG
+	GCGR	plasma membrane	Reactome DB_ID: 163618	UniProt:P47871	GCGR
+	ADCY8	plasma membrane			
+	PRKACG	cytosol			
+_reactionName.size()	6
+	D	Glucagon binds to Glucagon receptor
+	T	Glucagon:GCGR mediates GTP-GDP exchange
+	D	Activation of Adenylyl Cyclase by G(s):GTP
+	D	G alpha (s) activates adenylate cyclase
+	B	Activated Adenylate cyclase catalyses cAMP synthesis
+	T	cAMP induces dissociation of inactive PKA tetramers
+_smallMoleculeName.size()	9
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	cAMP	cytosol	Reactome DB_ID: 30389	3',5'-Cyclic AMP [ChEBI:17489]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PPi	cytosol	Reactome DB_ID: 111294	PPi [ChEBI:29888]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,83 @@
+edge.size() 24
+ 67 0 67 2 82 0 -1
+ 67 1 67 2 82 0 -1
+ 67 2 67 -1 82 1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 0 80 1 82 2 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 3 82 1 82 2 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	4
+	Gangliosides:Synaptotagmin	plasma membrane	Reactome DB_ID: 168789	
+	BoNT	extracellular region	Reactome DB_ID: 181486	
+	BoNT bound to membrane receptor	plasma membrane	Reactome DB_ID: 181532	
+	BoNT Light chain Type B	cytosol	Reactome DB_ID: 190016	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	VAMP2	endocytic vesicle membrane	Reactome DB_ID: 181517	UniProt:P63027	VAMP2
+	VAMP2(1-76)	endocytic vesicle membrane	Reactome DB_ID: 194802	UniProt:P63027	VAMP2
+_reactionName.size()	3
+	D	Binding of BoNT toxins to gut epithelial membrane
+	T	Transcytosis and internalization of BoNT
+	T	BoNT Light Chain Type  B cleaves VAMP-2
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

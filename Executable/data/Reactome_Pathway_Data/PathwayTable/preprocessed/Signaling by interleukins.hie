@@ -1,0 +1,590 @@
+edge.size() 345
+ 80 0 80 1 82 0 -1
+ 80 0 80 2 82 0 -1
+ 80 0 80 3 82 0 -1
+ 80 0 80 4 82 0 -1
+ 80 1 67 0 82 1 -1
+ 80 2 67 0 82 1 -1
+ 67 0 67 1 82 2 -1
+ 80 5 80 6 82 3 -1
+ 80 5 80 7 82 3 -1
+ 80 7 80 -1 82 4 -1
+ 80 -1 67 3 82 5 -1
+ 80 9 67 3 82 5 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 10 67 4 82 6 -1
+ 67 3 67 4 82 6 -1
+ 67 4 67 5 82 7 -1
+ 67 -1 67 5 82 7 -1
+ 67 5 67 6 82 8 -1
+ 80 -1 67 6 82 8 -1
+ 80 -1 67 7 82 9 -1
+ 67 6 67 7 82 9 -1
+ 83 1 83 0 82 10 -1
+ 67 8 67 7 82 10 -1
+ 67 8 67 7 82 10 -1
+ 80 -1 67 9 82 -1 -1
+ 67 8 67 9 82 -1 -1
+ 83 1 83 -1 82 11 -1
+ 67 10 67 9 82 11 -1
+ 67 10 67 9 82 11 -1
+ 83 1 83 -1 82 12 -1
+ 67 11 67 10 82 12 -1
+ 67 11 67 10 82 12 -1
+ 80 -1 80 -1 82 -1 -1
+ 67 8 80 -1 82 -1 -1
+ 80 11 67 -1 82 13 -1
+ 67 11 67 -1 82 13 -1
+ 80 11 67 13 82 14 -1
+ 67 12 67 13 82 14 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 5 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 11 67 14 82 15 -1
+ 67 -1 67 14 82 15 -1
+ 67 14 67 15 82 16 -1
+ 67 15 67 15 82 16 -1
+ 69 0 67 15 82 16 -1
+ 69 0 67 16 82 16 -1
+ 67 15 67 16 82 16 -1
+ 67 14 67 16 82 16 -1
+ 67 -1 67 17 82 17 -1
+ 67 16 67 17 82 17 -1
+ 67 17 67 -1 82 18 -1
+ 80 12 67 18 82 19 -1
+ 80 13 67 18 82 19 -1
+ 83 1 67 18 82 20 -1
+ 67 19 83 -1 82 20 -1
+ 67 19 83 -1 82 20 -1
+ 67 20 80 14 82 21 -1
+ 67 15 80 14 82 21 -1
+ 69 0 80 14 82 21 -1
+ 69 0 80 15 82 21 -1
+ 67 15 80 15 82 21 -1
+ 67 20 80 15 82 21 -1
+ 69 0 67 15 82 21 -1
+ 67 15 67 15 82 21 -1
+ 67 20 67 15 82 21 -1
+ 80 15 67 -1 82 22 -1
+ 67 21 67 -1 82 22 -1
+ 83 1 83 -1 82 23 -1
+ 67 22 67 21 82 23 -1
+ 67 22 67 21 82 23 -1
+ 83 1 83 -1 82 24 -1
+ 80 17 80 16 82 24 -1
+ 80 17 80 16 82 24 -1
+ 83 1 80 18 82 25 -1
+ 80 19 83 -1 82 25 -1
+ 80 19 83 -1 82 25 -1
+ 80 19 67 24 82 26 -1
+ 67 -1 67 24 82 26 -1
+ 67 24 80 -1 82 27 -1
+ 67 24 67 -1 82 27 -1
+ 80 18 67 -1 82 28 -1
+ 80 20 67 -1 82 28 -1
+ 80 21 67 -1 82 28 -1
+ 80 22 83 -1 82 29 -1
+ 80 22 80 -1 82 29 -1
+ 83 1 80 -1 82 29 -1
+ 80 -1 67 25 82 -1 -1
+ 80 -1 67 25 82 -1 -1
+ 80 -1 67 26 82 -1 -1
+ 80 -1 67 26 82 -1 -1
+ 80 -1 67 27 82 30 -1
+ 80 24 67 27 82 30 -1
+ 67 25 67 28 82 31 -1
+ 67 27 67 28 82 31 -1
+ 67 28 67 29 82 32 -1
+ 67 26 67 29 82 32 -1
+ 83 1 83 -1 82 33 -1
+ 67 30 67 29 82 33 -1
+ 67 30 67 29 82 33 -1
+ 83 1 83 -1 82 34 -1
+ 67 31 67 30 82 34 -1
+ 67 31 67 30 82 34 -1
+ 67 31 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 32 82 -1 -1
+ 67 31 67 32 82 -1 -1
+ 67 -1 83 -1 82 35 -1
+ 67 -1 67 -1 82 35 -1
+ 83 1 67 -1 82 35 -1
+ 69 -1 69 1 82 -1 -1
+ 67 -1 69 1 82 -1 -1
+ 69 2 83 -1 82 36 -1
+ 69 2 69 1 82 36 -1
+ 83 1 69 1 82 36 -1
+ 69 2 69 -1 82 37 -1
+ 67 33 69 -1 82 37 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 38 -1
+ 80 26 67 -1 82 38 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 83 2 82 39 -1
+ 67 -1 67 -1 82 39 -1
+ 83 1 67 -1 82 39 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 23 83 -1 82 40 -1
+ 80 23 67 -1 82 40 -1
+ 67 -1 67 -1 82 40 -1
+ 67 -1 83 -1 82 40 -1
+ 83 1 67 -1 82 40 -1
+ 67 -1 67 -1 82 41 -1
+ 67 -1 83 -1 82 41 -1
+ 83 1 83 -1 82 41 -1
+ 80 27 67 -1 82 41 -1
+ 80 27 83 -1 82 41 -1
+ 83 1 80 28 82 42 -1
+ 80 29 83 -1 82 42 -1
+ 80 29 83 -1 82 42 -1
+ 80 23 67 34 82 43 -1
+ 80 31 67 34 82 43 -1
+ 67 35 67 34 82 44 -1
+ 67 35 83 -1 82 44 -1
+ 83 1 83 -1 82 44 -1
+ 67 35 80 23 82 45 -1
+ 67 35 80 32 82 45 -1
+ 80 32 67 36 82 46 -1
+ 67 36 67 -1 82 47 -1
+ 80 27 67 40 82 48 -1
+ 80 35 67 40 82 48 -1
+ 83 1 67 40 82 49 -1
+ 67 41 83 -1 82 49 -1
+ 67 41 83 -1 82 49 -1
+ 67 41 80 27 82 50 -1
+ 67 41 80 36 82 50 -1
+ 80 36 67 42 82 51 -1
+ 67 42 67 -1 82 52 -1
+ 67 43 67 32 82 53 -1
+ 67 43 83 -1 82 53 -1
+ 83 1 83 -1 82 53 -1
+ 67 43 80 -1 82 -1 -1
+ 67 43 67 31 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 30 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 44 67 45 82 54 -1
+ 83 1 67 45 82 55 -1
+ 67 46 83 -1 82 55 -1
+ 67 46 83 -1 82 55 -1
+ 80 -1 67 47 82 -1 -1
+ 67 46 67 47 82 -1 -1
+ 67 48 83 -1 82 56 -1
+ 67 48 67 47 82 56 -1
+ 83 1 67 47 82 56 -1
+ 67 48 80 -1 82 -1 -1
+ 67 48 67 46 82 -1 -1
+ 83 1 67 45 82 57 -1
+ 67 49 83 -1 82 57 -1
+ 67 49 83 -1 82 57 -1
+ 67 49 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 37 67 51 82 58 -1
+ 80 26 67 51 82 58 -1
+ 80 38 67 51 82 58 -1
+ 67 33 67 51 82 58 -1
+ 83 1 67 51 82 59 -1
+ 67 52 83 -1 82 59 -1
+ 67 52 83 -1 82 59 -1
+ 67 52 67 53 82 60 -1
+ 69 3 67 53 82 60 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 49 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 26 67 54 82 61 -1
+ 80 39 67 54 82 61 -1
+ 67 45 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 62 -1
+ 67 33 67 -1 82 62 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 33 67 39 82 63 -1
+ 80 34 67 39 82 63 -1
+ 80 40 67 55 82 64 -1
+ 67 39 67 55 82 64 -1
+ 80 33 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 39 67 -1 82 65 -1
+ 67 -1 67 -1 82 65 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 56 67 57 82 66 -1
+ 83 1 83 -1 82 67 -1
+ 67 58 67 57 82 67 -1
+ 67 58 67 57 82 67 -1
+ 83 1 83 -1 82 68 -1
+ 67 38 67 58 82 68 -1
+ 67 38 67 58 82 68 -1
+ 67 38 67 59 82 -1 -1
+ 80 -1 67 59 82 -1 -1
+ 83 1 83 -1 82 69 -1
+ 67 60 67 59 82 69 -1
+ 67 60 67 59 82 69 -1
+ 67 62 67 60 82 70 -1
+ 67 62 83 -1 82 70 -1
+ 83 1 83 -1 82 70 -1
+ 67 60 67 38 82 -1 -1
+ 67 60 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 38 67 63 82 71 -1
+ 80 39 67 63 82 71 -1
+ 83 1 83 -1 82 72 -1
+ 67 37 67 63 82 72 -1
+ 67 37 67 63 82 72 -1
+ 80 -1 67 61 82 -1 -1
+ 67 38 67 61 82 -1 -1
+ 80 37 67 -1 82 73 -1
+ 67 63 67 -1 82 73 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 64 82 -1 -1
+ 80 -1 67 64 82 -1 -1
+ 80 -1 67 65 82 74 -1
+ 67 64 67 65 82 74 -1
+ 67 26 67 66 82 75 -1
+ 67 65 67 66 82 75 -1
+ 83 1 83 -1 82 -1 -1
+ 67 67 67 66 82 -1 -1
+ 67 67 67 66 82 -1 -1
+ 83 1 83 -1 82 76 -1
+ 80 42 80 41 82 76 -1
+ 80 42 80 41 82 76 -1
+ 67 67 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 1 82 1 82 3 -1
+ 67 9 82 1 82 11 -1
+ 67 10 82 1 82 12 -1
+ 67 14 82 1 82 16 -1
+ 80 13 82 1 82 20 -1
+ 67 20 82 1 82 21 -1
+ 67 23 82 1 82 23 -1
+ 67 -1 82 1 82 24 -1
+ 67 22 82 1 82 25 -1
+ 67 -1 82 1 82 27 -1
+ 80 21 82 1 82 29 -1
+ 67 29 82 1 82 33 -1
+ 67 30 82 1 82 34 -1
+ 80 25 82 1 82 35 -1
+ 67 -1 82 1 82 -1 -1
+ 80 5 82 1 82 39 -1
+ 67 -1 82 1 82 40 -1
+ 67 -1 82 1 82 41 -1
+ 80 30 82 1 82 42 -1
+ 67 34 82 1 82 44 -1
+ 67 40 82 1 82 49 -1
+ 67 32 82 1 82 53 -1
+ 67 -1 82 1 82 -1 -1
+ 67 45 82 1 82 55 -1
+ 67 47 82 1 82 56 -1
+ 67 50 82 1 82 57 -1
+ 67 51 82 1 82 59 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 59 82 1 82 69 -1
+ 67 63 82 1 82 72 -1
+ 67 66 82 1 82 -1 -1
+ 67 2 82 1 82 3 -1
+ 80 8 82 0 82 14 -1
+ 80 -1 82 0 82 -1 -1
+ 80 29 82 0 82 44 -1
+ 67 55 82 0 82 65 -1
+ 67 61 82 0 82 69 -1
+_complexName.size()	68
+	Caspase-1 p10/p20 dimer	cytosol	Reactome DB_ID: 448695	
+	Caspase-1 active tetramer	cytosol	Reactome DB_ID: 448691	
+	NFkB Complex	nucleoplasm	Reactome DB_ID: 177673	
+	Interleukin-1 receptor type 1:Interleukin-1	plasma membrane	Reactome DB_ID: 445755	
+	IL1R1:IL1:IL1RAP	plasma membrane	Reactome DB_ID: 445758	
+	IL1:IL1R1:IL1RAP:MYD88 homodimer	plasma membrane	Reactome DB_ID: 450120	
+	IL1 receptor complex	plasma membrane	Reactome DB_ID: 446637	
+	IL1 receptor complex:TOLLIP	plasma membrane	Reactome DB_ID: 446888	
+	IL1 receptor complex - activated IRAK4:TOLLIP	plasma membrane	Reactome DB_ID: 446643	
+	IL1 receptor complex-activated IRAK4:TOLLIP:IRAK1	plasma membrane	Reactome DB_ID: 446693	
+	IL1 receptor complex- activated IRAK4:TOLLIP:p-IRAK1	plasma membrane	Reactome DB_ID: 446689	
+	IL1 receptor complex- activated IRAK4:TOLLIP:hp-IRAK1	plasma membrane	Reactome DB_ID: 446696	
+	p62:MEKK3	cytosol	Reactome DB_ID: 507714	
+	p62:MEKK3:TRAF6	cytosol	Reactome DB_ID: 507716	
+	hp-IRAK1:oligo-TRAF6	cytosol	Reactome DB_ID: 450159	
+	TRIKA1	cytosol	Reactome DB_ID: 202463	
+	hp-IRAK1:K6 poly-Ub oligo-TRAF6	cytosol	Reactome DB_ID: 450144	
+	hp-IRAK1:K6-poly-Ub oligo-TRAF6:TAK1 complex	cytosol	Reactome DB_ID: 450185	
+	hp-IRAK1: Pellino-1,2,3/IRAK4: Pellino-1,2,3			
+	hp-IRAK1: p-Pellino-1,2,(3)/IRAK4: p-Pellino-1,2,3			
+	hp-IRAK1: p-Pellino-1,2,(3)	cytosol	Reactome DB_ID: 451411	
+	IKK complex	cytosol	Reactome DB_ID: 168113	
+	Activated IKK Complex	cytosol	Reactome DB_ID: 177663	
+	hp-IRAK1:K6-poly-Ub oligo-TRAF6:Activated TAK1 complex/PAMP:NOD oligomer:K63-polyUb-RIP2:NEMO:activated TAK1 complex/pUb-TRAF6:TAB1:TAB2/TAB3:free polyubiquitin chain : phospho-TAK1/p-IRAK2:K63-linked pUb oligo-TRAF6:free K63-linked pUb:p-TAK1complex			
+	SCF betaTrCP complex:p-NFKB p105	cytosol	Reactome DB_ID: 451614	
+	IL2RB:JAK1	plasma membrane	Reactome DB_ID: 451905	
+	IL2RG:JAK3	plasma membrane	Reactome DB_ID: 451911	
+	IL2:IL2RA	plasma membrane	Reactome DB_ID: 538993	
+	IL2:IL2RA:IL2RB:JAK1	plasma membrane	Reactome DB_ID: 450065	
+	IL2:IL2R trimer:JAK1:JAK3	plasma membrane	Reactome DB_ID: 450080	
+	IL2:IL2R trimer:p-JAK1:JAK3	plasma membrane	Reactome DB_ID: 451920	
+	IL2:IL2R trimer p-(Y338,392,510) beta subunit:p-JAK1:JAK3	plasma membrane	Reactome DB_ID: 452119	
+	IL2:IL2R trimer p-(Y338,392,510) beta subunit:p-JAK1:JAK3:STAT5	plasma membrane	Reactome DB_ID: 452107	
+	PI3K alpha/PI3K beta/PI3K delta			
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1:MEK1	cytosol	Reactome DB_ID: 109843	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	IL6:Tyrosine phosphorylated hexameric IL-6 receptor:Activated JAKs:p-SHP2	plasma membrane	Reactome DB_ID: 1112753	
+	Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs	plasma membrane	Reactome DB_ID: 1112594	
+	IL6:sIL6R	extracellular region	Reactome DB_ID: 1067687	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2:MEK2	cytosol	Reactome DB_ID: 109854	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+	IL2:IL2R trimer p-(Y338,Y392, Y510) beta subunit:p-JAK1:JAK3:p-STAT5	plasma membrane	Reactome DB_ID: 507943	
+	IL3:IL3RA:IL3RB:JAK2/GM-CSF:GM-CSF receptor alpha subunit:Common beta chain:JAK2/IL5 homodimer:IL5RA:Common beta chain:JAK2			
+	High affinity IL-3 receptor complex dimer, inactive JAK2/High affinity GM-CSF receptor complex dimer, inactive JAK2/High affinity IL-5 receptor complex dimer, inactive JAK2			
+	IL3:IL3R active complex, p-Y1007-JAK2/High affinity GM-CSF receptor complex dimer, activated JAK2/High affinity IL-5 receptor complex dimer, p-JAK2			
+	IL3:IL3R active complex, activated JAK2:STAT5/High affinity GM-CSF receptor complex dimer, activated JAK2:STAT5/High affinity IL-5 receptor complex dimer, activated JAK2:STAT5			
+	IL3:IL3R active complex, activated JAK2:p-STAT5/High affinity GM-CSF receptor complex dimer, activated JAK2:p-STAT5/High affinity IL-5 receptor complex dimer, activated JAK2:p-STAT5			
+	IL3:IL3R active complex, JAK2:p-Y593,Y629-IL3RB/High affinity GM-CSF receptor complex dimer, inactive JAK2, p(Y593, 628)- Bc/High affinity IL-5 receptor complex dimer, inactive JAK2, p(Y593, 628)-Bc			
+	IL3:IL3R active complex, p-Y1007-JAK2/IL3:IL3RA:IL3RB:JAK2/GM-CSF:GM-CSF receptor alpha subunit:Common beta chain:JAK2/GM-CSF:GM-CSF receptor alpha subunit:Common beta chain:p-JAK2/IL5 homodimer:IL5RA:Common beta chain:JAK2/IL5 homodimer:IL5RA:Common beta chain:p-JAK2			
+	FYN-like kinases:CBL:GRB2:p85-containing Class 1A PI3Ks	cytosol	Reactome DB_ID: 912623	
+	FYN-like kinases:p(Y731)-CBL:GRB2:p85-containing Class 1A PI3Ks	cytosol	Reactome DB_ID: 912647	
+	FYN-like kinases:p(Y731)-CBL:GRB2:Ubiquitinated p85-containing Class 1A PI3Ks	cytosol	Reactome DB_ID: 912799	
+	SHP2:GRB2	cytosol	Reactome DB_ID: 914028	
+	IL6:sIL6R:sgp130	extracellular region	Reactome DB_ID: 1067674	
+	IL6:IL6RA:IL6RB:JAKs/IL6:sIL6R:IL6RB:JAKs			
+	IL6 receptor hexamer:JAKs	plasma membrane	Reactome DB_ID: 1112588	
+	IL6 receptor hexamer:Activated JAKs	plasma membrane	Reactome DB_ID: 1112515	
+	Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs:STAT1/3	plasma membrane	Reactome DB_ID: 1112576	
+	Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs:Tyrosine phosphorylated STAT1/3	plasma membrane	Reactome DB_ID: 1112524	
+	Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs:SOCS3	plasma membrane	Reactome DB_ID: 1112718	
+	Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs:Tyrosine/serine phosphorylated STAT1/3	plasma membrane	Reactome DB_ID: 1112759	
+	Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs:SHP2	plasma membrane	Reactome DB_ID: 1112758	
+	IL7RA:JAK1	plasma membrane	Reactome DB_ID: 1264843	
+	IL7:IL7RA:JAK1	plasma membrane	Reactome DB_ID: 449983	
+	IL7:IL7RA:JAK1:IL2RG:JAK3	plasma membrane	Reactome DB_ID: 449967	
+	IL7:p(Y449)-IL7RA:JAK1:IL2RG:JAK3	plasma membrane	Reactome DB_ID: 1295546	
+_physicalEntityName.size()	4
+		
+		
+		
+		
+_proteinName.size()	43
+	CASP1	cytosol	Reactome DB_ID: 448692	UniProt:P29466	CASP1
+	CASP1	cytosol	Reactome DB_ID: 448704	UniProt:P29466	CASP1
+	CASP1	cytosol	Reactome DB_ID: 448686	UniProt:P29466	CASP1
+	CASP1	cytosol	Reactome DB_ID: 448680	UniProt:P29466	CASP1
+	CASP1	cytosol	Reactome DB_ID: 448674	UniProt:P29466	CASP1
+	IL1A	cytosol			
+	IL1A	cytosol			
+	IL1A	cytosol			
+	IL1B	cytosol	Reactome DB_ID: 449046	UniProt:P01584	IL1B
+	IL1R1	plasma membrane	Reactome DB_ID: 197595	UniProt:P14778	IL1R1
+	mIL1RAP	plasma membrane	Reactome DB_ID: 445745	UniProt:Q9NPH3-1	IL1RAP
+	TRAF6	cytosol	Reactome DB_ID: 166366	UniProt:Q9Y4K3	TRAF6
+	PELI3	cytosol			
+	IRAK4	cytosol			
+	PELI3	cytosol			
+	K63polyUb-hp-IRAK1	cytosol	Reactome DB_ID: 451565	UniProt:P51617	IRAK1
+	MKK6	cytosol	Reactome DB_ID: 167998	UniProt:P52564	MAP2K6
+	p-S207,T211-MKK6	cytosol	Reactome DB_ID: 206255	UniProt:P52564	MAP2K6
+	NFKB1	cytosol	Reactome DB_ID: 451607	UniProt:P19838	NFKB1
+	p-NFkB p105	cytosol	Reactome DB_ID: 451611	UniProt:P19838	NFKB1
+	TNIP2	cytosol	Reactome DB_ID: 451661	UniProt:Q8NFZ5	TNIP2
+	Cot	cytosol	Reactome DB_ID: 389388	UniProt:P41279	MAP3K8
+	p-S257,T261-SEK1	cytosol			
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	IL2RA	plasma membrane	Reactome DB_ID: 450046	UniProt:P01589	IL2RA
+	LCK	cytosol			
+	Ash-L	cytosol	Reactome DB_ID: 74686	UniProt:P62993-1	GRB2
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	p-S218,222-MEK1	cytosol			
+	p-T286,292-MEK1	cytosol			
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERK1	cytosol	Reactome DB_ID: 59284	UniProt:P27361	MAPK3
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	IL6	extracellular region	Reactome DB_ID: 447100	UniProt:P05231	IL6
+	sIL6R	extracellular region	Reactome DB_ID: 1067661	UniProt:P08887-2	IL6R
+	ERK2	cytosol	Reactome DB_ID: 59282	UniProt:P28482	MAPK1
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+	CBL	cytosol	Reactome DB_ID: 112199	UniProt:P22681	CBL
+	YES1	cytosol			
+	SHP2	cytosol	Reactome DB_ID: 162563	UniProt:Q06124	PTPN11
+	sgp130	extracellular region	Reactome DB_ID: 1067653	UniProt:P40189-2	IL6ST
+					
+					
+_reactionName.size()	77
+	B	Caspase-1 precursor is cleaved releasing p10 and p20 subunits
+	D	Formation of caspase-1 p10/p20 dimer
+	T	Caspase-1 active tetramer formation
+	B	Interleukin-1 family precursors are cleaved by caspase-1
+	T	Interleukin-1 family are secreted
+	D	Interleukin-1 receptor type 1 binds Interleukin 1
+	D	Interleukin-1 receptor type 1: Interleukin 1 binds Interleukin-1 receptor accessory protein, membrane associated isoform
+	D	IL1R1:IL1:IL1RAP binds MYD88 homodimer
+	D	IL1R1:IL1:IL1RAP:MYD88 homodimer binds IRAK4
+	D	The Interleukin 1 receptor complex binds Tollip
+	T	IRAK4 is activated by autophosphorylation
+	T	IRAK4 phosphorylates IRAK1
+	T	IRAK4-activated IRAK1 autophosphorylates
+	D	Hyperphosphorylated IRAK1 associates with TRAF6
+	D	p62:MEKK3 binds to TRAF6
+	D	IRAK1 induces oligomerisation of TRAF6
+	T	TRAF6 auto-ubiquitinates with Lys63-linked polyubiquitin chains
+	D	Polyubiquitinated TRAF6 interacts with TAK1 complex
+	T	TAK1 is activated within the TAK1 complex
+	D	IRAK1 and 4  interact with Pellino1,2 and 3
+	T	IRAK1 and 4 can phosphorylate Pellino-1 and 2.
+	T	Pellino ubiquitinates IRAK1
+	D	NEMO binds polyubiquitinated IRAK1
+	T	Activated TAK1 mediates phosphorylation of the IKK Complex
+	T	TAK1 phosphorylates MKK6
+	T	The IKKB complex phosphorylates NFkB p105
+	D	The SCF betaTrCP complex binds p-NFkB p105
+	B	Beta-TrCP ubiquitinates then dissociates from p-NFKB p105
+	D	NFKB p105, TPL2 (COT) and ABIN2 form a stable complex
+	T	TPL2 phosphorylates MEK1, SEK1
+	D	Interleukin-2 receptor alpha binds interleukin-2
+	D	Interleukin-2 receptor alpha:IL2 binds Interleukin-2 receptor beta
+	D	Interleukin-2: IL2 receptor alpha:beta binds IL2 receptor gamma subunit
+	T	Within the IL-2R complex JAK3 phosphorylates JAK1
+	T	JAK1 phosphorylates Y338, Y392 and Y510 of IL2RB
+	T	SHC1 bound to IL2 receptor is phosphorylated
+	T	SHC1 mediates cytokine-induced phosphorylation of GAB2
+	D	Gab2 binds the p85 subunit of Class 1A PI3 kinases
+	D	The SHC1:SHIP1 complex is stabilized by GRB2
+	T	Stabilisation of RAF by further phosphorylation
+	T	RAF1  phosphorylates MEK1
+	T	RAF1 phosphorylates MEK2
+	T	Inactivation of MEK1 by p34cdc2
+	D	MEK1 binds ERK-1
+	T	MEK1 phosphorylates ERK-1
+	B	Dissociation of phospho-ERK-1:MEK1
+	T	Dimerisation of phospho-ERK-1
+	T	Nuclear translocation of phospho-ERK-1 dimer
+	D	MEK2 binds ERK-2
+	T	MEK2 phosphorylates ERK-2
+	B	Dissociation of phospho-ERK-2:MEK2
+	T	Dimerisation of phospho-ERK-2
+	T	Nuclear translocation of phospho-ERK-2 dimer
+	T	Recruited STAT5 is phosphorylated
+	T	The receptor is activated
+	T	JAK2 is phosphorylated, activated
+	T	Activation of STAT5a/b by JAK2
+	T	Tyrosine kinases phosphorylate the receptor
+	D	CBL, GRB2, FYN and PI3K p85 subunit are constitutively associated
+	T	CBL is tyrosine phosphorylated
+	D	CBL ubiquitinates PI3K
+	D	SHP2 can recruit GRB2
+	D	14-3-3 zeta binding allows recruitment of PI3K
+	D	Interleukin-6 binds to soluble IL-6 receptor
+	D	IL6:sIL6R binds sgp130
+	D	IL6:sIL6R binds to JAKs:IL6RB (gp130)
+	T	Assembly of a hexameric IL-6 receptor
+	T	JAK activation
+	T	Phosphorylation of gp130
+	T	Tyrosine phosphorylation of STATs by IL6 receptor
+	T	Serine phosphorylation of STATs
+	D	SHP2 binds gp130 phosphotyrosine-759
+	T	SHP2 is phosphorylated
+	D	SHP2 binds c-Cbl upon IL-6 stimulation
+	D	Interleukin-7 binds IL7RA:JAK1
+	D	Interleukin-7:IL7RA:JAK1 binds Gc:JAK3
+	T	p(Y449)-IL7RA mediates STAT5 activation
+_smallMoleculeName.size()	3
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

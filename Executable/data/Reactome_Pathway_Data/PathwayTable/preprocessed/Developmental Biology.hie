@@ -1,0 +1,1349 @@
+edge.size() 652
+ 83 1 67 0 82 0 -1
+ 67 2 83 0 82 0 -1
+ 67 2 67 1 82 0 -1
+ 67 2 67 1 82 0 -1
+ 67 3 67 -1 82 1 -1
+ 67 2 67 -1 82 1 -1
+ 67 4 67 5 82 2 -1
+ 67 2 67 5 82 2 -1
+ 67 6 83 2 82 3 -1
+ 67 6 67 7 82 3 -1
+ 67 5 67 8 82 4 -1
+ 80 1 67 8 82 4 -1
+ 67 9 83 2 82 5 -1
+ 67 9 67 10 82 5 -1
+ 83 1 67 0 82 6 -1
+ 67 12 83 3 82 6 -1
+ 67 12 67 11 82 6 -1
+ 67 12 67 11 82 6 -1
+ 67 -1 67 13 82 7 -1
+ 80 5 67 13 82 7 -1
+ 67 15 83 4 82 8 -1
+ 67 15 67 14 82 8 -1
+ 83 5 67 14 82 8 -1
+ 80 6 67 -1 82 9 -1
+ 67 15 67 -1 82 9 -1
+ 67 17 83 6 82 10 -1
+ 67 17 67 16 82 10 -1
+ 83 1 67 16 82 10 -1
+ 83 1 83 7 82 11 -1
+ 80 9 80 7 82 11 -1
+ 80 9 80 7 82 11 -1
+ 80 11 67 -1 82 12 -1
+ 80 12 67 -1 82 12 -1
+ 67 -1 67 -1 82 12 -1
+ 67 -1 80 12 82 13 -1
+ 67 -1 80 12 82 13 -1
+ 67 -1 67 -1 82 13 -1
+ 67 -1 67 -1 82 13 -1
+ 83 1 80 14 82 14 -1
+ 67 -1 83 -1 82 14 -1
+ 67 -1 67 -1 82 14 -1
+ 67 -1 67 -1 82 14 -1
+ 67 3 83 8 82 15 -1
+ 67 3 67 18 82 15 -1
+ 83 5 67 18 82 15 -1
+ 67 -1 67 -1 82 16 -1
+ 67 3 67 -1 82 16 -1
+ 67 4 67 19 82 17 -1
+ 67 -1 67 19 82 17 -1
+ 67 6 83 2 82 18 -1
+ 67 6 67 7 82 18 -1
+ 67 20 67 21 82 19 -1
+ 80 12 67 21 82 19 -1
+ 80 12 80 15 82 19 -1
+ 67 20 80 15 82 19 -1
+ 67 22 80 16 82 20 -1
+ 67 -1 80 16 82 20 -1
+ 67 -1 67 23 82 20 -1
+ 67 22 67 23 82 20 -1
+ 67 24 83 9 82 21 -1
+ 67 24 67 23 82 21 -1
+ 83 1 67 23 82 21 -1
+ 83 1 83 10 82 22 -1
+ 80 10 80 8 82 22 -1
+ 80 10 80 8 82 22 -1
+ 80 18 67 25 82 23 -1
+ 80 10 67 25 82 23 -1
+ 80 18 83 11 82 24 -1
+ 80 18 67 25 82 24 -1
+ 83 1 67 25 82 24 -1
+ 67 26 83 12 82 24 -1
+ 67 26 67 25 82 24 -1
+ 83 1 80 19 82 25 -1
+ 67 27 83 13 82 25 -1
+ 67 27 67 26 82 25 -1
+ 67 27 67 26 82 25 -1
+ 67 -1 67 29 82 26 -1
+ 67 28 67 29 82 26 -1
+ 67 -1 67 30 82 27 -1
+ 67 -1 83 14 82 27 -1
+ 67 -1 67 29 82 27 -1
+ 83 1 67 29 82 27 -1
+ 83 1 67 -1 82 28 -1
+ 67 -1 67 31 82 28 -1
+ 67 -1 83 15 82 28 -1
+ 67 -1 83 16 82 28 -1
+ 83 1 83 17 82 29 -1
+ 67 -1 67 -1 82 29 -1
+ 67 -1 67 -1 82 29 -1
+ 83 1 67 31 82 30 -1
+ 67 -1 67 -1 82 30 -1
+ 67 -1 83 18 82 30 -1
+ 67 -1 83 19 82 30 -1
+ 80 21 67 32 82 31 -1
+ 80 -1 67 32 82 31 -1
+ 80 21 67 33 82 32 -1
+ 80 22 67 33 82 32 -1
+ 80 0 67 34 82 33 -1
+ 80 23 67 34 82 33 -1
+ 80 0 67 35 82 34 -1
+ 80 24 67 35 82 34 -1
+ 80 25 67 36 82 35 -1
+ 80 26 67 36 82 35 -1
+ 80 27 67 37 82 36 -1
+ 80 28 67 37 82 36 -1
+ 67 38 67 39 82 37 -1
+ 80 29 67 39 82 37 -1
+ 80 30 67 40 82 38 -1
+ 80 31 67 40 82 38 -1
+ 67 41 67 42 82 39 -1
+ 80 30 67 42 82 39 -1
+ 80 32 67 43 82 40 -1
+ 67 43 67 44 82 41 -1
+ 67 45 67 46 82 42 -1
+ 67 43 67 46 82 42 -1
+ 67 44 67 -1 82 43 -1
+ 80 34 67 -1 82 43 -1
+ 83 2 67 48 82 44 -1
+ 67 -1 80 -1 82 44 -1
+ 67 -1 67 -1 82 44 -1
+ 67 -1 67 -1 82 44 -1
+ 67 -1 83 20 82 45 -1
+ 67 -1 67 -1 82 45 -1
+ 83 1 67 -1 82 45 -1
+ 83 1 67 -1 82 46 -1
+ 67 -1 83 -1 82 46 -1
+ 67 -1 80 35 82 46 -1
+ 67 -1 80 35 82 46 -1
+ 83 1 67 -1 82 47 -1
+ 67 -1 83 21 82 47 -1
+ 67 -1 83 22 82 47 -1
+ 67 -1 67 -1 82 48 -1
+ 80 37 67 -1 82 48 -1
+ 67 -1 67 49 82 49 -1
+ 80 38 67 49 82 49 -1
+ 67 51 83 23 82 50 -1
+ 67 51 67 50 82 50 -1
+ 83 5 67 50 82 50 -1
+ 80 39 67 52 82 51 -1
+ 80 40 67 52 82 51 -1
+ 67 52 67 -1 82 52 -1
+ 67 51 67 -1 82 52 -1
+ 67 51 80 39 82 52 -1
+ 67 52 80 39 82 52 -1
+ 67 -1 67 53 82 53 -1
+ 80 39 67 53 82 53 -1
+ 67 54 83 24 82 54 -1
+ 67 54 67 53 82 54 -1
+ 83 1 67 53 82 54 -1
+ 80 40 67 -1 82 55 -1
+ 67 -1 67 -1 82 55 -1
+ 80 41 67 -1 82 56 -1
+ 67 54 67 -1 82 56 -1
+ 80 42 83 25 82 57 -1
+ 80 42 67 -1 82 57 -1
+ 67 54 67 -1 82 57 -1
+ 67 54 83 26 82 57 -1
+ 83 1 67 -1 82 57 -1
+ 67 54 67 -1 82 58 -1
+ 67 54 83 27 82 58 -1
+ 83 1 83 28 82 58 -1
+ 80 43 67 -1 82 58 -1
+ 80 43 83 29 82 58 -1
+ 83 1 80 44 82 59 -1
+ 80 45 83 30 82 59 -1
+ 80 45 83 31 82 59 -1
+ 80 42 67 55 82 60 -1
+ 80 47 67 55 82 60 -1
+ 67 56 67 55 82 61 -1
+ 67 56 83 32 82 61 -1
+ 83 1 83 33 82 61 -1
+ 67 56 80 42 82 62 -1
+ 67 56 80 48 82 62 -1
+ 80 48 67 57 82 63 -1
+ 67 57 67 -1 82 64 -1
+ 80 43 67 58 82 65 -1
+ 80 49 67 58 82 65 -1
+ 83 1 67 58 82 66 -1
+ 67 59 83 34 82 66 -1
+ 67 59 83 35 82 66 -1
+ 67 59 80 43 82 67 -1
+ 67 59 80 50 82 67 -1
+ 80 50 67 60 82 68 -1
+ 67 60 67 -1 82 69 -1
+ 83 37 83 36 82 70 -1
+ 80 52 80 51 82 70 -1
+ 80 52 80 51 82 70 -1
+ 83 37 83 38 82 71 -1
+ 80 54 80 53 82 71 -1
+ 80 54 80 53 82 71 -1
+ 80 55 67 62 82 72 -1
+ 80 32 67 62 82 72 -1
+ 67 62 67 63 82 73 -1
+ 80 -1 67 63 82 73 -1
+ 80 56 67 64 82 74 -1
+ 80 32 67 64 82 74 -1
+ 69 -1 67 65 82 75 -1
+ 80 32 67 65 82 75 -1
+ 80 57 67 66 82 76 -1
+ 80 32 67 66 82 76 -1
+ 80 -1 67 67 82 77 -1
+ 80 32 67 67 82 77 -1
+ 80 58 67 68 82 78 -1
+ 80 32 67 68 82 78 -1
+ 83 39 67 47 82 79 -1
+ 80 32 67 47 82 79 -1
+ 69 0 67 69 82 80 -1
+ 80 59 67 69 82 80 -1
+ 67 44 67 70 82 81 -1
+ 69 1 67 70 82 81 -1
+ 80 -1 67 71 82 82 -1
+ 80 61 67 71 82 82 -1
+ 67 71 67 72 82 83 -1
+ 80 61 67 72 82 83 -1
+ 67 72 67 73 82 84 -1
+ 80 35 67 73 82 84 -1
+ 83 1 83 40 82 85 -1
+ 67 74 67 73 82 85 -1
+ 67 74 67 73 82 85 -1
+ 67 74 67 75 82 86 -1
+ 80 62 67 75 82 86 -1
+ 83 1 67 75 82 87 -1
+ 67 76 83 41 82 87 -1
+ 67 76 83 42 82 87 -1
+ 80 63 67 -1 82 88 -1
+ 67 76 67 -1 82 88 -1
+ 67 -1 67 -1 82 89 -1
+ 80 64 67 -1 82 89 -1
+ 67 -1 67 -1 82 90 -1
+ 67 -1 83 43 82 90 -1
+ 67 -1 67 77 82 90 -1
+ 83 5 67 77 82 90 -1
+ 67 -1 67 -1 82 91 -1
+ 67 -1 83 44 82 91 -1
+ 67 -1 67 18 82 91 -1
+ 83 5 67 18 82 91 -1
+ 80 65 67 -1 82 92 -1
+ 67 -1 67 -1 82 92 -1
+ 83 45 67 -1 82 92 -1
+ 67 -1 67 -1 82 93 -1
+ 80 66 67 -1 82 93 -1
+ 80 67 67 79 82 94 -1
+ 80 -1 67 79 82 94 -1
+ 67 79 67 80 82 95 -1
+ 80 61 67 80 82 95 -1
+ 83 1 67 -1 82 96 -1
+ 67 -1 83 46 82 96 -1
+ 67 -1 83 47 82 96 -1
+ 67 -1 67 -1 82 97 -1
+ 80 68 67 -1 82 97 -1
+ 67 81 67 82 82 98 -1
+ 80 61 67 82 82 98 -1
+ 67 71 67 -1 82 99 -1
+ 80 71 67 -1 82 99 -1
+ 67 71 67 -1 82 100 -1
+ 80 72 67 -1 82 100 -1
+ 83 45 67 83 82 101 -1
+ 80 73 67 83 82 101 -1
+ 83 1 67 83 82 102 -1
+ 67 84 83 48 82 102 -1
+ 67 84 83 49 82 102 -1
+ 67 84 67 85 82 103 -1
+ 80 61 67 85 82 103 -1
+ 80 75 67 86 82 104 -1
+ 80 76 67 86 82 104 -1
+ 80 77 67 87 82 105 -1
+ 80 -1 67 87 82 105 -1
+ 80 78 67 88 82 106 -1
+ 80 77 67 88 82 106 -1
+ 80 79 67 -1 82 107 -1
+ 80 -1 67 -1 82 107 -1
+ 80 -1 67 -1 82 108 -1
+ 80 80 67 -1 82 108 -1
+ 67 72 67 89 82 109 -1
+ 80 81 67 89 82 109 -1
+ 67 90 83 45 82 110 -1
+ 67 90 83 50 82 110 -1
+ 67 90 67 89 82 110 -1
+ 67 90 80 82 82 110 -1
+ 83 1 80 82 82 110 -1
+ 67 89 67 89 82 110 -1
+ 67 89 83 51 82 110 -1
+ 67 89 80 82 82 110 -1
+ 67 89 67 89 82 110 -1
+ 83 45 83 54 82 111 -1
+ 83 52 83 55 82 111 -1
+ 83 53 83 56 82 111 -1
+ 83 57 67 92 82 112 -1
+ 67 91 67 92 82 112 -1
+ 83 56 67 92 82 112 -1
+ 67 91 83 60 82 112 -1
+ 83 58 83 61 82 112 -1
+ 67 91 83 62 82 112 -1
+ 83 59 83 56 82 112 -1
+ 80 69 80 -1 82 113 -1
+ 80 69 80 83 82 113 -1
+ 80 84 67 93 82 114 -1
+ 80 85 67 93 82 114 -1
+ 80 69 67 95 82 115 -1
+ 67 94 67 95 82 115 -1
+ 67 95 67 96 82 116 -1
+ 80 70 67 96 82 116 -1
+ 80 86 67 -1 82 117 -1
+ 67 96 67 -1 82 117 -1
+ 80 87 67 -1 82 118 -1
+ 67 -1 67 -1 82 118 -1
+ 80 88 67 -1 82 119 -1
+ 67 96 67 -1 82 119 -1
+ 67 78 83 2 82 120 -1
+ 67 78 67 77 82 120 -1
+ 80 89 67 -1 82 121 -1
+ 67 96 67 -1 82 121 -1
+ 67 3 83 2 82 122 -1
+ 67 3 67 18 82 122 -1
+ 80 90 67 -1 82 123 -1
+ 67 96 67 -1 82 123 -1
+ 67 -1 67 -1 82 124 -1
+ 80 91 67 -1 82 124 -1
+ 67 -1 67 -1 82 125 -1
+ 80 92 67 -1 82 125 -1
+ 67 3 83 63 82 126 -1
+ 67 3 67 18 82 126 -1
+ 83 5 67 18 82 126 -1
+ 67 96 67 97 82 127 -1
+ 80 93 67 97 82 127 -1
+ 83 1 67 97 82 128 -1
+ 67 98 83 64 82 128 -1
+ 67 98 83 65 82 128 -1
+ 80 95 67 -1 82 129 -1
+ 67 97 67 -1 82 129 -1
+ 67 97 67 -1 82 130 -1
+ 80 96 67 -1 82 130 -1
+ 83 1 83 66 82 131 -1
+ 80 98 80 97 82 131 -1
+ 80 98 80 97 82 131 -1
+ 67 99 67 100 82 132 -1
+ 80 98 67 100 82 132 -1
+ 80 97 67 101 82 133 -1
+ 67 100 67 101 82 133 -1
+ 69 2 67 -1 82 134 -1
+ 67 101 67 -1 82 134 -1
+ 69 2 67 -1 82 135 -1
+ 80 99 67 -1 82 135 -1
+ 80 98 67 -1 82 135 -1
+ 67 -1 83 2 82 136 -1
+ 67 -1 67 99 82 136 -1
+ 67 -1 69 2 82 136 -1
+ 67 -1 80 97 82 136 -1
+ 67 102 67 103 82 137 -1
+ 80 97 67 103 82 137 -1
+ 83 2 80 100 82 138 -1
+ 67 -1 83 67 82 138 -1
+ 67 -1 67 103 82 138 -1
+ 67 -1 67 103 82 138 -1
+ 83 5 83 68 82 138 -1
+ 67 104 67 -1 82 139 -1
+ 80 97 67 -1 82 139 -1
+ 67 -1 67 105 82 140 -1
+ 83 1 80 102 82 141 -1
+ 67 -1 83 69 82 141 -1
+ 67 -1 67 105 82 141 -1
+ 67 -1 67 105 82 141 -1
+ 67 -1 83 70 82 142 -1
+ 67 -1 80 50 82 142 -1
+ 67 -1 67 105 82 142 -1
+ 83 1 67 105 82 142 -1
+ 67 106 67 107 82 143 -1
+ 69 3 67 107 82 143 -1
+ 67 105 67 107 82 143 -1
+ 67 107 80 100 82 144 -1
+ 67 107 67 102 82 144 -1
+ 67 107 67 106 82 144 -1
+ 67 107 69 3 82 144 -1
+ 67 107 80 97 82 144 -1
+ 67 108 67 -1 82 145 -1
+ 80 103 67 -1 82 145 -1
+ 67 109 67 -1 82 146 -1
+ 67 -1 67 -1 82 146 -1
+ 67 110 67 112 82 147 -1
+ 69 4 67 112 82 147 -1
+ 67 -1 67 -1 82 148 -1
+ 67 -1 83 71 82 148 -1
+ 83 1 83 72 82 148 -1
+ 80 103 67 -1 82 148 -1
+ 80 103 83 73 82 148 -1
+ 80 97 67 113 82 149 -1
+ 80 32 67 113 82 149 -1
+ 80 33 67 114 82 150 -1
+ 67 108 67 114 82 150 -1
+ 80 107 67 115 82 151 -1
+ 80 97 67 115 82 151 -1
+ 80 11 67 116 82 152 -1
+ 80 97 67 116 82 152 -1
+ 67 117 67 118 82 153 -1
+ 80 97 67 118 82 153 -1
+ 83 1 80 108 82 154 -1
+ 80 109 83 74 82 154 -1
+ 80 109 83 75 82 154 -1
+ 67 3 83 76 82 155 -1
+ 67 3 67 18 82 155 -1
+ 83 5 67 18 82 155 -1
+ 80 17 83 77 82 156 -1
+ 80 17 67 119 82 156 -1
+ 80 17 67 3 82 156 -1
+ 83 1 67 3 82 156 -1
+ 67 120 67 119 82 156 -1
+ 67 120 83 78 82 156 -1
+ 67 120 67 3 82 156 -1
+ 83 1 83 79 82 157 -1
+ 67 -1 67 121 82 157 -1
+ 67 -1 80 97 82 157 -1
+ 67 -1 80 97 82 157 -1
+ 80 56 67 122 82 158 -1
+ 80 97 67 122 82 158 -1
+ 67 -1 67 124 82 159 -1
+ 67 123 67 124 82 159 -1
+ 80 58 67 125 82 160 -1
+ 80 97 67 125 82 160 -1
+ 80 110 67 126 82 161 -1
+ 80 97 67 126 82 161 -1
+ 80 111 67 127 82 162 -1
+ 80 97 67 127 82 162 -1
+ 80 112 67 -1 82 163 -1
+ 80 97 67 -1 82 163 -1
+ 80 113 67 128 82 164 -1
+ 80 97 67 128 82 164 -1
+ 83 1 80 114 82 165 -1
+ 67 129 83 80 82 165 -1
+ 67 129 80 97 82 165 -1
+ 67 129 80 97 82 165 -1
+ 80 104 67 -1 82 166 -1
+ 80 115 67 -1 82 166 -1
+ 83 1 67 -1 82 167 -1
+ 80 116 67 -1 82 167 -1
+ 80 115 67 -1 82 167 -1
+ 80 11 67 130 82 168 -1
+ 80 115 67 130 82 168 -1
+ 67 131 67 132 82 169 -1
+ 80 115 67 132 82 169 -1
+ 80 117 67 133 82 170 -1
+ 80 115 67 133 82 170 -1
+ 80 104 67 134 82 171 -1
+ 80 105 67 134 82 171 -1
+ 80 105 67 135 82 172 -1
+ 67 134 67 135 82 172 -1
+ 80 105 67 111 82 173 -1
+ 80 106 67 111 82 173 -1
+ 83 1 67 135 82 174 -1
+ 80 104 83 81 82 174 -1
+ 80 104 83 82 82 174 -1
+ 67 -1 67 135 82 174 -1
+ 67 -1 83 83 82 174 -1
+ 80 118 67 -1 82 175 -1
+ 67 -1 67 -1 82 175 -1
+ 80 119 67 -1 82 176 -1
+ 80 105 67 -1 82 176 -1
+ 80 105 67 137 82 177 -1
+ 67 136 67 137 82 177 -1
+ 80 104 67 -1 82 178 -1
+ 80 106 67 -1 82 178 -1
+ 80 58 67 138 82 179 -1
+ 80 106 67 138 82 179 -1
+ 80 120 67 139 82 180 -1
+ 80 106 67 139 82 180 -1
+ 80 121 67 140 82 181 -1
+ 80 106 67 140 82 181 -1
+ 80 122 67 141 82 182 -1
+ 80 123 67 141 82 182 -1
+ 67 141 67 143 82 183 -1
+ 67 142 67 143 82 183 -1
+ 80 124 67 -1 82 184 -1
+ 67 143 67 -1 82 184 -1
+ 67 -1 67 -1 82 185 -1
+ 67 78 67 -1 82 185 -1
+ 80 125 67 -1 82 186 -1
+ 67 -1 67 -1 82 186 -1
+ 80 94 67 144 82 187 -1
+ 67 -1 67 144 82 187 -1
+ 67 144 67 -1 82 188 -1
+ 80 126 67 -1 82 188 -1
+ 83 1 67 -1 82 189 -1
+ 67 145 83 84 82 189 -1
+ 67 145 83 85 82 189 -1
+ 67 145 67 144 82 190 -1
+ 67 145 80 128 82 190 -1
+ 83 37 80 129 82 191 -1
+ 80 130 83 86 82 191 -1
+ 80 130 83 87 82 191 -1
+ 80 131 67 146 82 192 -1
+ 80 132 67 146 82 192 -1
+ 83 37 80 128 82 193 -1
+ 67 147 83 88 82 193 -1
+ 67 147 80 133 82 193 -1
+ 67 147 80 133 82 193 -1
+ 80 134 67 148 82 194 -1
+ 67 146 67 148 82 194 -1
+ 67 141 67 150 82 195 -1
+ 67 149 67 150 82 195 -1
+ 83 37 83 89 82 196 -1
+ 80 136 80 135 82 196 -1
+ 80 136 80 135 82 196 -1
+ 80 136 80 138 82 197 -1
+ 80 139 80 140 82 198 -1
+ 67 151 67 152 82 199 -1
+ 67 -1 67 152 82 199 -1
+ 67 154 83 90 82 200 -1
+ 67 154 67 153 82 200 -1
+ 83 1 67 153 82 200 -1
+ 83 1 83 91 82 201 -1
+ 67 156 67 155 82 201 -1
+ 67 156 67 155 82 201 -1
+ 83 1 80 142 82 202 -1
+ 80 143 83 92 82 202 -1
+ 80 143 83 93 82 202 -1
+ 80 144 67 157 82 203 -1
+ 80 143 67 157 82 203 -1
+ 67 157 67 158 82 204 -1
+ 80 145 67 159 82 205 -1
+ 67 158 67 159 82 205 -1
+ 69 5 67 159 82 205 -1
+ 80 146 67 161 82 206 -1
+ 69 6 67 161 82 206 -1
+ 67 158 67 161 82 206 -1
+ 80 140 67 162 82 207 -1
+ 80 147 67 162 82 207 -1
+ 80 140 67 163 82 208 -1
+ 80 148 67 163 82 208 -1
+ 80 148 67 164 82 209 -1
+ 67 151 67 164 82 209 -1
+ 80 149 67 165 82 210 -1
+ 80 150 67 165 82 210 -1
+ 67 165 67 166 82 211 -1
+ 80 151 67 166 82 211 -1
+ 80 152 67 166 82 211 -1
+ 80 153 67 166 82 211 -1
+ 80 154 80 151 82 212 -1
+ 80 155 80 151 82 212 -1
+ 80 156 80 151 82 212 -1
+ 80 157 80 151 82 212 -1
+ 80 158 80 151 82 212 -1
+ 80 159 80 151 82 212 -1
+ 67 166 80 151 82 212 -1
+ 67 167 80 151 82 212 -1
+ 80 161 80 151 82 212 -1
+ 67 168 80 151 82 212 -1
+ 67 168 67 169 82 212 -1
+ 80 161 67 169 82 212 -1
+ 67 167 67 169 82 212 -1
+ 67 166 67 169 82 212 -1
+ 80 159 67 169 82 212 -1
+ 80 158 67 169 82 212 -1
+ 80 157 67 169 82 212 -1
+ 80 156 67 169 82 212 -1
+ 80 155 67 169 82 212 -1
+ 80 154 67 169 82 212 -1
+ 67 168 80 160 82 212 -1
+ 80 161 80 160 82 212 -1
+ 67 167 80 160 82 212 -1
+ 67 166 80 160 82 212 -1
+ 80 159 80 160 82 212 -1
+ 80 158 80 160 82 212 -1
+ 80 157 80 160 82 212 -1
+ 80 156 80 160 82 212 -1
+ 80 155 80 160 82 212 -1
+ 80 154 80 160 82 212 -1
+ 67 168 80 152 82 212 -1
+ 80 161 80 152 82 212 -1
+ 67 167 80 152 82 212 -1
+ 67 166 80 152 82 212 -1
+ 80 159 80 152 82 212 -1
+ 80 158 80 152 82 212 -1
+ 80 157 80 152 82 212 -1
+ 80 156 80 152 82 212 -1
+ 80 155 80 152 82 212 -1
+ 80 154 80 152 82 212 -1
+ 67 168 80 153 82 212 -1
+ 80 161 80 153 82 212 -1
+ 67 167 80 153 82 212 -1
+ 67 166 80 153 82 212 -1
+ 80 159 80 153 82 212 -1
+ 80 158 80 153 82 212 -1
+ 80 157 80 153 82 212 -1
+ 80 156 80 153 82 212 -1
+ 80 155 80 153 82 212 -1
+ 80 154 80 153 82 212 -1
+ 67 1 82 1 82 0 -1
+ 67 5 82 1 82 3 -1
+ 67 8 82 1 82 5 -1
+ 67 11 82 1 82 6 -1
+ 67 13 82 1 82 8 -1
+ 67 -1 82 1 82 10 -1
+ 67 -1 82 1 82 11 -1
+ 67 -1 82 1 82 14 -1
+ 80 12 82 1 82 15 -1
+ 67 19 82 1 82 18 -1
+ 67 23 82 1 82 21 -1
+ 67 24 82 1 82 22 -1
+ 67 25 82 1 82 24 -1
+ 67 26 82 1 82 25 -1
+ 67 29 82 1 82 27 -1
+ 67 -1 82 1 82 28 -1
+ 80 20 82 1 82 29 -1
+ 67 -1 82 1 82 30 -1
+ 80 -1 82 1 82 44 -1
+ 80 13 82 1 82 45 -1
+ 80 35 82 1 82 46 -1
+ 80 36 82 1 82 47 -1
+ 67 49 82 1 82 50 -1
+ 80 0 82 1 82 54 -1
+ 67 -1 82 1 82 57 -1
+ 67 -1 82 1 82 58 -1
+ 80 46 82 1 82 59 -1
+ 67 55 82 1 82 61 -1
+ 67 58 82 1 82 66 -1
+ 67 61 82 1 82 70 -1
+ 80 52 82 1 82 71 -1
+ 80 60 82 1 82 80 -1
+ 67 73 82 1 82 85 -1
+ 67 75 82 1 82 87 -1
+ 67 -1 82 1 82 90 -1
+ 67 -1 82 1 82 91 -1
+ 80 36 82 1 82 96 -1
+ 80 74 82 1 82 102 -1
+ 67 90 82 1 82 111 -1
+ 80 2 82 1 82 113 -1
+ 67 -1 82 1 82 120 -1
+ 67 -1 82 1 82 122 -1
+ 67 -1 82 1 82 126 -1
+ 67 97 82 1 82 128 -1
+ 80 36 82 1 82 131 -1
+ 80 3 82 1 82 136 -1
+ 80 101 82 1 82 138 -1
+ 80 102 82 1 82 141 -1
+ 80 50 82 1 82 142 -1
+ 80 4 82 1 82 148 -1
+ 80 4 82 1 82 154 -1
+ 80 109 82 1 82 155 -1
+ 80 17 82 1 82 156 -1
+ 67 121 82 1 82 157 -1
+ 80 114 82 1 82 165 -1
+ 80 4 82 1 82 174 -1
+ 80 127 82 1 82 189 -1
+ 80 128 82 1 82 191 -1
+ 80 128 82 1 82 193 -1
+ 80 137 82 1 82 196 -1
+ 80 141 82 1 82 198 -1
+ 67 153 82 1 82 200 -1
+ 67 155 82 1 82 201 -1
+ 67 -1 82 1 82 202 -1
+ 67 47 82 0 82 42 -1
+ 80 45 82 0 82 61 -1
+ 67 160 82 0 82 205 -1
+_complexName.size()	170
+	SEMA4D dimer	plasma membrane	Reactome DB_ID: 373690	
+	Plexin-B1:Met	plasma membrane	Reactome DB_ID: 419634	
+	Sema4D:pPlexin-B1:Met	plasma membrane	Reactome DB_ID: 419621	
+	RAC1-GTP	cytosol	Reactome DB_ID: 442641	
+	Rnd1-GTP	cytosol	Reactome DB_ID: 421104	
+	Sema4D:pPlexin-B1:Met:Rnd1	plasma membrane	Reactome DB_ID: 416587	
+	R-Ras-GTP	plasma membrane	Reactome DB_ID: 399865	
+	R-Ras-GDP	plasma membrane	Reactome DB_ID: 399866	
+	Sema4D:Plexin-B1:p190RhoGAP:Rac:Rnd1	plasma membrane	Reactome DB_ID: 416601	
+	RhoA (Mg cofactor):GTP	plasma membrane	Reactome DB_ID: 194545	
+	RhoA (Mg cofactor):GDP	plasma membrane	Reactome DB_ID: 194489	
+	Plexin-B1:ErbB2	plasma membrane	Reactome DB_ID: 419629	
+	SEMA4D:pPlexin-B1:ErbB2 complex	plasma membrane	Reactome DB_ID: 373695	
+	Sema4D:Plexin-B1:Rac-Rnd1:LARG/PDZ-RhoGEF	plasma membrane	Reactome DB_ID: 416580	
+	RhoA,B,C:GDP	plasma membrane	Reactome DB_ID: 419164	
+	RhoA/B/C:GTP	plasma membrane	Reactome DB_ID: 419161	
+	Smooth muscle/non-muscle myosin II	cytosol	Reactome DB_ID: 419194	
+	Phospho-activated smooth muscle/non-muscle myosin 2	cytosol	Reactome DB_ID: 419195	
+	RAC1-GDP	cytosol	Reactome DB_ID: 445010	
+	Sema3A:Nrp-1:pPlexinA:Fyn:Fes:Rac-1-GTP:Rnd1	plasma membrane	Reactome DB_ID: 399877	
+	PIP5K1gamma:Talin-1	cytosol	Reactome DB_ID: 398218	
+	FARP2:PIP5KIgamma	cytosol	Reactome DB_ID: 399839	
+	PAK homodimer	cytosol	Reactome DB_ID: 399856	
+	Sema3A:Nrp-1:PlexinA:Rac1-GTP:PAK	plasma membrane	Reactome DB_ID: 399876	
+	Sema3A:Nrp-1:PlexinA:Rac1-GTP:pPAK	plasma membrane	Reactome DB_ID: 399874	
+	pLIMK dimer:HSP-90	cytosol	Reactome DB_ID: 419632	
+	Active LIMK1	cytosol	Reactome DB_ID: 419630	
+	pCofilin: Active LIMK-1	cytosol	Reactome DB_ID: 399878	
+	NRP1:PlexinA1-4:FYN	plasma membrane	Reactome DB_ID: 399846	
+	Sema3A:Nrp-1:PlexinA:Fyn	plasma membrane	Reactome DB_ID: 399869	
+	Cdk5:p35	cytosol	Reactome DB_ID: 421107	
+	CRMP's tetramers	cytosol	Reactome DB_ID: 399843	
+	SEMA3A:PLXND1	plasma membrane	Reactome DB_ID: 209639	
+	SEMA4A:PLXND1	plasma membrane	Reactome DB_ID: 416694	
+	SEMA4D:PTPRC	plasma membrane	Reactome DB_ID: 373689	
+	SEMA4D:CD72	plasma membrane	Reactome DB_ID: 373697	
+	SEMA5A:PLXNB3	plasma membrane	Reactome DB_ID: 416696	
+	SEMA6A:PLXNA2,PLXNA4	plasma membrane	Reactome DB_ID: 416728	
+	PLXNA1:TREM2:DAP12	plasma membrane	Reactome DB_ID: 416707	
+	SEMA6D:PLXNA1:TREM2:DAP12	plasma membrane	Reactome DB_ID: 416720	
+	SEMA7A:PLXNC1	plasma membrane	Reactome DB_ID: 434928	
+	Integrin alpha1beta1	plasma membrane	Reactome DB_ID: 215982	
+	SEMA7A:Integrin alpha1beta1	plasma membrane	Reactome DB_ID: 434927	
+	NCAM1 cis-homodimer	plasma membrane	Reactome DB_ID: 190988	
+	NCAM1:NCAM1 trans-homotetramer	plasma membrane	Reactome DB_ID: 375103	
+	FGFR1c homodimer	plasma membrane	Reactome DB_ID: 190222	
+	NCAM1:FGFR-1	plasma membrane	Reactome DB_ID: 419028	
+	NCAM-1:ATP	plasma membrane	Reactome DB_ID: 375093	
+	Spectrin heterodimer	cytosol	Reactome DB_ID: 391839	
+	Grb2:Sos:pFAK bound to NCAM1:pFyn	plasma membrane	Reactome DB_ID: 392045	
+	p21 RAS:GDP	plasma membrane	Reactome DB_ID: 109796	
+	p21 RAS:GTP	plasma membrane	Reactome DB_ID: 109783	
+	p-Raf1(S259,S621):14-3-3 protein beta/alpha	cytosol	Reactome DB_ID: 109787	
+	RAS:RAF:14-3-3	plasma membrane	Reactome DB_ID: 109789	
+	Activated RAF1 complex	plasma membrane	Reactome DB_ID: 109793	
+	MEK1:ERK-1	cytosol	Reactome DB_ID: 109838	
+	phospho-ERK-1:MEK1	cytosol	Reactome DB_ID: 109843	
+	phospho-ERK-1 dimer	cytosol	Reactome DB_ID: 109844	
+	MEK2:ERK-2	cytosol	Reactome DB_ID: 109849	
+	phospho-ERK-2:MEK2	cytosol	Reactome DB_ID: 109854	
+	phospho-ERK-2 dimer	cytosol	Reactome DB_ID: 109855	
+	phospho-ERK-1 dimer/phospho-ERK-2 dimer			
+	NCAM1:GFRalpha-1	plasma membrane	Reactome DB_ID: 375101	
+	NCAM1:GFRalpha-1:GDNF	plasma membrane	Reactome DB_ID: 375111	
+	NCAM-1:Neurocan	plasma membrane	Reactome DB_ID: 375100	
+	NCAM-1:Collagen complex	plasma membrane	Reactome DB_ID: 375098	
+	NCAM-1:Major prion protein	plasma membrane	Reactome DB_ID: 375105	
+	NCAM-1:Agrin	plasma membrane	Reactome DB_ID: 375096	
+	NCAM1-Contactin-2	plasma membrane	Reactome DB_ID: 375108	
+	Polysialylated NCAM	Golgi membrane	Reactome DB_ID: 422441	
+	NCAM1:T- and L-type VDCC	plasma membrane	Reactome DB_ID: 525828	
+	DCC:Netrin-1	plasma membrane	Reactome DB_ID: 373667	
+	Netrin:DCC oligomer	plasma membrane	Reactome DB_ID: 373678	
+	PTK2:DCC oligomer:Netrin	plasma membrane	Reactome DB_ID: 373662	
+	Nterin-1:DCC oligomer:pPTK2	plasma membrane	Reactome DB_ID: 418822	
+	Netrin1:DCC oligomer:pPTK2:Fyn/src	plasma membrane	Reactome DB_ID: 418815	
+	Netrin-1:pDCC dimer:pFAK:Src/Fyn	plasma membrane	Reactome DB_ID: 374551	
+	CDC42:GDP	cytosol	Reactome DB_ID: 418830	
+	CDC42:GTP	cytosol	Reactome DB_ID: 182921	
+	UNC-5:Netrin-1 complex	plasma membrane	Reactome DB_ID: 373660	
+	DCC bound to UNC-5:Netrin-1	plasma membrane	Reactome DB_ID: 373654	
+	Robo:Slit	plasma membrane	Reactome DB_ID: 204367	
+	DCC:Robo:Slit	plasma membrane	Reactome DB_ID: 373666	
+	Ezrin:PIP2	plasma membrane	Reactome DB_ID: 374570	
+	pEzrin:PIP2	plasma membrane	Reactome DB_ID: 374558	
+	DCC:Ezrin complex	plasma membrane	Reactome DB_ID: 374565	
+	DCC&UNC5A:Netrin-4	plasma membrane	Reactome DB_ID: 593689	
+	Netrin-1:Neogenin	plasma membrane	Reactome DB_ID: 374592	
+	Neogenin:RGD	plasma membrane	Reactome DB_ID: 374583	
+	Netrin:DCC:PITP	plasma membrane	Reactome DB_ID: 418843	
+	pPLCgamma:PIP2	plasma membrane	Reactome DB_ID: 622379	
+	TRPC channels	plasma membrane	Reactome DB_ID: 622392	
+	Activated TRP channels	plasma membrane	Reactome DB_ID: 622374	
+	Robo1/Robo2:Robo3A.1	plasma membrane	Reactome DB_ID: 428496	
+	Glypican-1:HSPG	plasma membrane	Reactome DB_ID: 428493	
+	Slit2:Glypican-1	plasma membrane	Reactome DB_ID: 428489	
+	Robo1:Slit2:Glypican-1	plasma membrane	Reactome DB_ID: 390371	
+	Abl:Robo1:Slit2:Glypican-1	plasma membrane	Reactome DB_ID: 428873	
+	Abl:pRobo1:slit2:Glypican-1	plasma membrane	Reactome DB_ID: 376027	
+	ERM:PIP2	plasma membrane	Reactome DB_ID: 443660	
+	pL1:Ezrin	plasma membrane	Reactome DB_ID: 374575	
+	L1 trans-homodimer	plasma membrane	Reactome DB_ID: 191438	
+	Clathrin-coated vesicle	plasma membrane	Reactome DB_ID: 177505	
+	L1:clathrin-coated vesicle	plasma membrane	Reactome DB_ID: 555064	
+	CRMP-2:NUMB:alpha adaptin	plasma membrane	Reactome DB_ID: 443669	
+	L1:AP-2 Clathrin complex	endosome	Reactome DB_ID: 392746	
+	KIF4 dimer	cytosol	Reactome DB_ID: 445013	
+	AP2 clathrin:L1:KIF4:microtubule	cytosol	Reactome DB_ID: 445022	
+	L1 homodimer	plasma membrane	Reactome DB_ID: 446623	
+	spectrin based actin	cytosol	Reactome DB_ID: 392744	
+	Neurofascin:NrCAM:Ankyrin:spectrin based actin	plasma membrane	Reactome DB_ID: 443650	
+	Neurofascin:NrCAM complex	plasma membrane	Reactome DB_ID: 373686	
+	Neurofascin:NrCAM:Ankyrin:spectrin based actin:Na+/K+ channel	plasma membrane	Reactome DB_ID: 373687	
+	L1:NCAM1 complex	plasma membrane	Reactome DB_ID: 374576	
+	L1:FGFR1	plasma membrane	Reactome DB_ID: 443643	
+	L1-EGFR trans-heterodimer	plasma membrane	Reactome DB_ID: 445016	
+	L1:NRP1	plasma membrane	Reactome DB_ID: 374580	
+	Integrin alphaVbeta1/Integrin alphaVbeta3/Integrin alpha5beta1/Integrin alpha2bbeta3/Integrin alpha9beta1			
+	L1:Integrin complex	plasma membrane	Reactome DB_ID: 374579	
+	PAK1 dimer	cytosol	Reactome DB_ID: 445002	
+	pPAK1:Rac1-GTP	cytosol	Reactome DB_ID: 445001	
+	CK2	cytosol	Reactome DB_ID: 201711	
+	L1:Neurocan	plasma membrane	Reactome DB_ID: 443646	
+	L1:HNK-1	plasma membrane	Reactome DB_ID: 443641	
+	L1:Laminin	plasma membrane	Reactome DB_ID: 443666	
+	L1:Axonin-1	plasma membrane	Reactome DB_ID: 374577	
+	L1:CNTN1	plasma membrane	Reactome DB_ID: 443653	
+	L1:ALCAM	plasma membrane	Reactome DB_ID: 443658	
+	L1:HSA	plasma membrane	Reactome DB_ID: 443648	
+	Tyr phos L1:EPHB2	plasma membrane	Reactome DB_ID: 443816	
+	CHL1:NRP1	plasma membrane	Reactome DB_ID: 445017	
+	Integrin alpha2beta1/Integrin alpha1beta1/Integrin alpha10beta1			
+	CHL1:alpha1beta1/alpha2beta1 integrins	plasma membrane	Reactome DB_ID: 445009	
+	CHL1:CNTN6	plasma membrane	Reactome DB_ID: 443670	
+	Neurofascin:Ankyrin-G complex	plasma membrane	Reactome DB_ID: 373676	
+	Trans neurofascin dimer:ankyrin-G	plasma membrane	Reactome DB_ID: 443672	
+	Contactin1:CASPR complex	plasma membrane	Reactome DB_ID: 373655	
+	Neurofascin:CNTN1:CASPR complex	plasma membrane	Reactome DB_ID: 373682	
+	NrCAM:Axonin-1	plasma membrane	Reactome DB_ID: 445006	
+	NrCAM:SAP members	plasma membrane	Reactome DB_ID: 376023	
+	NRP2:NrCAM	plasma membrane	Reactome DB_ID: 549047	
+	CDO:BOC	plasma membrane	Reactome DB_ID: 375094	
+	Trans-cadherin homodimers	plasma membrane	Reactome DB_ID: 448888	
+	CDO:BOC:Trans-cadherin homodimer:catenin	plasma membrane	Reactome DB_ID: 375092	
+	ABL1:JLP:CDO complex	plasma membrane	Reactome DB_ID: 449191	
+	pp38 alpha/beta/gamma:ABL1:JLP:CDO complex	plasma membrane	Reactome DB_ID: 448881	
+	Myod:phospho-E heterodimers	nucleoplasm	Reactome DB_ID: 448886	
+	phospho p38:phospho MEF2	nucleoplasm	Reactome DB_ID: 448874	
+	MyoD:phospho-E:phospho MEF2	nucleoplasm	Reactome DB_ID: 448877	
+	Netrin-3:Neogenin	plasma membrane	Reactome DB_ID: 448880	
+	CDO:BOC:Neogenin:Netrin-3	plasma membrane	Reactome DB_ID: 375091	
+	ALK4:ActRII:EGF-CFC/ALK7:ActRIIB:EGF-CFC			
+	NODAL Ligand:NODAL Receptor	plasma membrane	Reactome DB_ID: 1181133	
+	NODAL:ACVR1B:ACVR2:EGF-CFC	plasma membrane	Reactome DB_ID: 1225875	
+	NODAL:p-ACVR1B:ACVR2:EGF-CFC	plasma membrane	Reactome DB_ID: 1225883	
+	NODAL:ACVR1C:ACVR2B:EGF-CFC	plasma membrane	Reactome DB_ID: 1225912	
+	NODAL:p-ACVR1C:ACVR2B:EGF-CFC	plasma membrane	Reactome DB_ID: 1225915	
+	p-2S-SMAD2/3:SMAD4	cytosol	Reactome DB_ID: 171175	
+	p-2S-SMAD2/3:SMAD4	nucleoplasm	Reactome DB_ID: 173511	
+	SMAD2/3:SMAD4:FOXH1:Activin Response Element	nucleoplasm	Reactome DB_ID: 1225870	
+	FOXH1:DRAP1	nucleoplasm	Reactome DB_ID: 1226031	
+	SMAD2/3:SMAD4:FOXO3:FoxO3a-binding Element	nucleoplasm	Reactome DB_ID: 1535906	
+	CERBERUS:NODAL	extracellular region	Reactome DB_ID: 1181341	
+	LEFTY:NODAL	extracellular region	Reactome DB_ID: 1181340	
+	LEFTY:EGF-CFC:NODAL Receptor	plasma membrane	Reactome DB_ID: 1181346	
+	ARF6 Complex	nucleoplasm	Reactome DB_ID: 381281	
+	PPARG:RXRA:Corepressor Complex	nucleoplasm	Reactome DB_ID: 381226	
+	FABP4:Ligands of PPARG	nucleoplasm	Reactome DB_ID: 2026090	
+	Mediator Complex (consensus)	nucleoplasm	Reactome DB_ID: 556786	
+	PPARG:Fatty Acid:RXRA:Mediator:Coactivator Complex	nucleoplasm	Reactome DB_ID: 381367	
+_physicalEntityName.size()	7
+		
+	CACNB4/CACNA1I/CACNB4/CACNA1I	plasma membrane
+		
+		
+	KCNQ3/KCNQ3	plasma membrane
+		
+		
+_proteinName.size()	162
+	SEMA4D	plasma membrane	Reactome DB_ID: 197744	UniProt:Q92854	SEMA4D
+	ARHGAP35	cytosol	Reactome DB_ID: 195118	UniProt:Q9NRY4	ARHGAP35
+	RHOA	plasma membrane	Reactome DB_ID: 194510	UniProt:P61586	RHOA
+	CDC42	cytosol			
+	RHOA	cytosol	Reactome DB_ID: 194866	UniProt:P61586	RHOA
+	LARG	cytosol			
+	ROCK2	cytosol			
+	LIMK2	cytosol			
+	LIMK1	cytosol	Reactome DB_ID: 397785	UniProt:P53667	LIMK1
+	LIMK2	cytosol			
+	p-T508-LIMK1	cytosol	Reactome DB_ID: 399816	UniProt:P53667	LIMK1
+	NRP1	plasma membrane	Reactome DB_ID: 3008773	UniProt:O14786	NRP1
+	FARP2	cytosol	Reactome DB_ID: 396935	UniProt:O94887	FARP2
+	FYN	cytosol	Reactome DB_ID: 200917	UniProt:P06241	FYN
+	FES	cytosol	Reactome DB_ID: 396937	UniProt:P07332	FES
+	TLN1	cytosol	Reactome DB_ID: 350713	UniProt:Q9Y490	TLN1
+	PAK2	cytosol			
+	PAK1	cytosol	Reactome DB_ID: 162629	UniProt:Q13153	PAK1
+	HSP90AB1	cytosol			
+	CFL1	cytosol	Reactome DB_ID: 350751	UniProt:P23528	CFL1
+	GSK3B	cytosol	Reactome DB_ID: 2997551	UniProt:P49841	GSK3B
+	PLXND1	plasma membrane	Reactome DB_ID: 209637	UniProt:Q9Y4D7	PLXND1
+	SEMA4A	plasma membrane	Reactome DB_ID: 198232	UniProt:Q9H3S1	SEMA4A
+	PTPRC	plasma membrane	Reactome DB_ID: 197931	UniProt:P08575	PTPRC
+	CD72	plasma membrane	Reactome DB_ID: 198121	UniProt:P21854	CD72
+	SEMA5A	plasma membrane	Reactome DB_ID: 198222	UniProt:Q13591	SEMA5A
+	PLXNB3	plasma membrane	Reactome DB_ID: 416675	UniProt:Q9ULL4	PLXNB3
+	SEMA6A	plasma membrane	Reactome DB_ID: 416714	UniProt:Q9H2E6	SEMA6A
+	PLXNA4	plasma membrane			
+	SEMA6D	plasma membrane	Reactome DB_ID: 416706	UniProt:Q8NFY4	SEMA6D
+	SEMA7A	plasma membrane	Reactome DB_ID: 198229	UniProt:O75326	SEMA7A
+	PLXNC1	plasma membrane	Reactome DB_ID: 434899	UniProt:O60486	PLXNC1
+	NCAM1	plasma membrane	Reactome DB_ID: 190987	UniProt:P13591	NCAM1
+	FGFR1c	plasma membrane	Reactome DB_ID: 189897	UniProt:P11362-1	FGFR1
+	pFyn-Y531	cytosol	Reactome DB_ID: 391819	UniProt:P06241	FYN
+	FAK	cytosol	Reactome DB_ID: 201621	UniProt:Q05397	PTK2
+	SRC1	cytosol	Reactome DB_ID: 354153	UniProt:P12931-1	SRC
+	Ash-L	cytosol	Reactome DB_ID: 74686	UniProt:P62993-1	GRB2
+	SOS1	cytosol	Reactome DB_ID: 64847	UniProt:Q07889	SOS1
+	YWHAB	cytosol	Reactome DB_ID: 48888	UniProt:P31946	YWHAB
+	cRaf	cytosol	Reactome DB_ID: 109786	UniProt:P04049	RAF1
+	MEK2	cytosol			
+	p-S218,222-MEK1	cytosol	Reactome DB_ID: 109837	UniProt:Q02750	MAP2K1
+	p-S,T-MEK2	cytosol	Reactome DB_ID: 109848	UniProt:P36507	MAP2K2
+	p-S218,222-MEK1	cytosol			
+	p-T286,292-MEK1	cytosol			
+	p-T161-CDK1	cytosol	Reactome DB_ID: 157415	UniProt:P06493	CDK1
+	ERK1	cytosol	Reactome DB_ID: 59284	UniProt:P27361	MAPK3
+	ERT2	cytosol	Reactome DB_ID: 109842	UniProt:P27361	MAPK3
+	ERK2	cytosol	Reactome DB_ID: 59282	UniProt:P28482	MAPK1
+	phospho-ERK-2	cytosol	Reactome DB_ID: 109853	UniProt:P28482	MAPK1
+	MSK1	nucleoplasm	Reactome DB_ID: 198657	UniProt:O75582	RPS6KA5
+	RPS6KA5	nucleoplasm	Reactome DB_ID: 198683	UniProt:O75582	RPS6KA5
+	CREB	nucleoplasm	Reactome DB_ID: 52777	UniProt:P16220	CREB1
+	CREB	nucleoplasm	Reactome DB_ID: 111910	UniProt:P16220	CREB1
+	GFRA4	plasma membrane			
+	NCAN	plasma membrane	Reactome DB_ID: 374591	UniProt:O14594	NCAN
+	PRNP	plasma membrane	Reactome DB_ID: 375060	UniProt:P04156	PRNP
+	TAG1	plasma membrane	Reactome DB_ID: 373618	UniProt:Q02246	CNTN2
+	Glycosylated NCAM1	Golgi membrane	Reactome DB_ID: 422430	UniProt:P13591	NCAM1
+	ST8SIA2	Golgi membrane			
+	DCC	plasma membrane	Reactome DB_ID: 197560	UniProt:P43146	DCC
+	SRC1	cytosol			
+	NCK1	cytosol	Reactome DB_ID: 197954	UniProt:P16333	NCK1
+	TRIO	cytosol			
+	WASL	cytosol	Reactome DB_ID: 201873	UniProt:O00401	WASL
+	ABLIM3	cytosol			
+	UNC5D	plasma membrane			
+	SHP2	cytosol	Reactome DB_ID: 162563	UniProt:Q06124	PTPN11
+	SLIT2	plasma membrane	Reactome DB_ID: 375997	UniProt:O94813	SLIT2
+	ROBO1	plasma membrane	Reactome DB_ID: 204361	UniProt:Q9Y6N7	ROBO1
+	SIAH1	cytosol	Reactome DB_ID: 374563	UniProt:Q8IUQ4	SIAH1
+	SIAH2	cytosol	Reactome DB_ID: 374566	UniProt:O43255	SIAH2
+	Ezrin	cytosol	Reactome DB_ID: 374572	UniProt:P15311	EZR
+	p-Y90,T538,S676,S695-PRKCQ	plasma membrane	Reactome DB_ID: 202152	UniProt:Q04759	PRKCQ
+	UNC5A	plasma membrane			
+	NTN4	plasma membrane	Reactome DB_ID: 561258	UniProt:Q9HB63	NTN4
+	NEO1	plasma membrane	Reactome DB_ID: 197623	UniProt:Q92859	NEO1
+	HFE2	plasma membrane			
+	MYO10	cytosol	Reactome DB_ID: 593679	UniProt:Q9HD67	MYO10
+	AGAP2	cytosol	Reactome DB_ID: 622355	UniProt:Q99490	AGAP2
+	PITPNA	cytosol	Reactome DB_ID: 418391	UniProt:Q00169	PITPNA
+	PLC1	plasma membrane	Reactome DB_ID: 167682	UniProt:P19174	PLCG1
+	Slit2-N	plasma membrane	Reactome DB_ID: 426409	UniProt:O94813	SLIT2
+	ROBO3-1	plasma membrane	Reactome DB_ID: 426410	UniProt:Q96MS0-1	ROBO3
+	ROBO2	plasma membrane			
+	VASP	cytosol			
+	PFN2	cytosol			
+	SRGAP3	cytosol			
+	ARHGAP39	cytosol	Reactome DB_ID: 200631	UniProt:Q9C0H5	ARHGAP39
+	NCK2	cytosol			
+	PAK2	cytosol			
+	SOS2	cytosol			
+	ABL2	cytosol			
+	ABL1	cytosol	Reactome DB_ID: 375987	UniProt:P00519	ABL1
+	CLASP2	cytosol			
+	CAP2	cytosol			
+	L1	plasma membrane	Reactome DB_ID: 191465	UniProt:P32004	L1CAM
+	pL1 (Y1176)	plasma membrane	Reactome DB_ID: 444985	UniProt:P32004	L1CAM
+	KIAA1598	cytosol	Reactome DB_ID: 443599	UniProt:A0MZ66	KIAA1598
+	SH3GL2	plasma membrane	Reactome DB_ID: 177495	UniProt:Q99962	SH3GL2
+	DNM2	plasma membrane			
+	MSK1	cytosol			
+	ANK3	cytosol			
+	ANK1	cytosol	Reactome DB_ID: 373619	UniProt:P16157	ANK1
+	NFASC	plasma membrane	Reactome DB_ID: 197844	UniProt:O94856	NFASC
+	NRCAM	plasma membrane	Reactome DB_ID: 197758	UniProt:Q92823	NRCAM
+	EGFR	plasma membrane	Reactome DB_ID: 179837	UniProt:P00533	EGFR
+	VAV2	cytosol	Reactome DB_ID: 195012	UniProt:P52735	VAV2
+	p-Y172-VAV2	cytosol	Reactome DB_ID: 442307	UniProt:P52735	VAV2
+	CNTN1	plasma membrane	Reactome DB_ID: 373622	UniProt:Q12860	CNTN1
+	ALCAM	plasma membrane	Reactome DB_ID: 197750	UniProt:Q13740	ALCAM
+	RANBP9	cytosol	Reactome DB_ID: 374586	UniProt:Q96S59	RANBP9
+	CD24_HUMAN	plasma membrane	Reactome DB_ID: 430062	UniProt:P25063	CD24
+	EPHB2	plasma membrane	Reactome DB_ID: 443809	UniProt:P29323	EPHB2
+	CHL1	plasma membrane	Reactome DB_ID: 443615	UniProt:O00533	CHL1
+	HSPA8	cytosol	Reactome DB_ID: 264476	UniProt:P11142	HSPA8
+	NB-3	plasma membrane	Reactome DB_ID: 443593	UniProt:Q9UQ52	CNTN6
+	DCX	cytosol	Reactome DB_ID: 430060	UniProt:O43602	DCX
+	SDCBP	cytosol	Reactome DB_ID: 373639	UniProt:O00560	SDCBP
+	DLG3	plasma membrane			
+	NRP2	plasma membrane	Reactome DB_ID: 549042	UniProt:O60462	NRP2
+	CDO	plasma membrane	Reactome DB_ID: 197892	UniProt:Q4KMG0	CDON
+	BOC-1	plasma membrane	Reactome DB_ID: 197785	UniProt:Q9BWV1-1	BOC
+	BNIP2	cytosol	Reactome DB_ID: 200792	UniProt:Q12982	BNIP2
+	JLP	cytosol	Reactome DB_ID: 375975	UniProt:O60271	SPAG9
+	MAPK12	cytosol			
+	p-S207,T211-MKK6	cytosol	Reactome DB_ID: 206255	UniProt:P52564	MAP2K6
+	MAPK12	nucleoplasm			
+	TCF3	nucleoplasm	Reactome DB_ID: 3209896	UniProt:P15923	TCF3
+	TCF3	nucleoplasm	Reactome DB_ID: 3209894	UniProt:P15923	TCF3
+	MYF6	nucleoplasm			
+	TCF12	nucleoplasm			
+	MEF2D	nucleoplasm			
+	MEF2D	nucleoplasm			
+	FOXO1	nucleoplasm	Reactome DB_ID: 199300	UniProt:Q12778	FOXO1
+	FOXO1A	nucleoplasm	Reactome DB_ID: 199306	UniProt:Q12778	FOXO1
+	AKT3	nucleoplasm			
+	FOXO1A	cytosol	Reactome DB_ID: 211158	UniProt:Q12778	FOXO1
+	NODAL	extracellular region	Reactome DB_ID: 1181114	UniProt:Q96S42	NODAL
+	NODAL	extracellular region	Reactome DB_ID: 1181118	UniProt:Q96S42	NODAL
+	PCSK6	extracellular region			
+	SMAD3	cytosol			
+	p-2S-SMAD3	cytosol			
+	SMAD4	cytosol	Reactome DB_ID: 170862	UniProt:Q13485	SMAD4
+	FOXH1	nucleoplasm	Reactome DB_ID: 1225914	UniProt:O75593	FOXH1
+	FOXO3	nucleoplasm	Reactome DB_ID: 199305	UniProt:O43524	FOXO3
+	CER1	extracellular region	Reactome DB_ID: 201831	UniProt:O95813	CER1
+	LEFTY2	extracellular region			
+	PPARG	nucleoplasm	Reactome DB_ID: 446172	UniProt:P37231	PPARG
+	RXRA	nucleoplasm	Reactome DB_ID: 381319	UniProt:P19793	RXRA
+	NCOR2	nucleoplasm	Reactome DB_ID: 442469	UniProt:Q9Y618	NCOR2
+	NCOR1	nucleoplasm	Reactome DB_ID: 442501	UniProt:O75376	NCOR1
+	HDAC3	nucleoplasm	Reactome DB_ID: 442464	UniProt:O15379	HDAC3
+	p300	nucleoplasm	Reactome DB_ID: 381325	UniProt:Q09472	EP300
+	PPARGC1A	nucleoplasm	Reactome DB_ID: 442481	UniProt:Q9UBK2	PPARGC1A
+	HELZ2	nucleoplasm	Reactome DB_ID: 442499	UniProt:Q9BYK8	HELZ2
+	NCOA3	nucleoplasm	Reactome DB_ID: 442488	UniProt:Q9Y6Q9	NCOA3
+	KAT3A	nucleoplasm	Reactome DB_ID: 193545	UniProt:Q92793	CREBBP
+	NCOA1	nucleoplasm	Reactome DB_ID: 442496	UniProt:Q15788	NCOA1
+	FABP4	nucleoplasm	Reactome DB_ID: 2026072	UniProt:P15090	FABP4
+	NCOA2	nucleoplasm	Reactome DB_ID: 376398	UniProt:Q15596	NCOA2
+_reactionName.size()	213
+	T	SEMA4D interacts with Plexin-B1:Met
+	D	Active Rac1 interacts with Plexin-B1:Sema4D
+	D	Rnd1 interacts with Plexin-B1:Sema4D
+	B	Inactivation of R-Ras by Sema4D-Plexin-B1 GAP activity
+	D	p190RhoGAP binds Plexin-B1
+	B	Inactivation of Rho-GTP by p190RhoGAP
+	T	SEMA4D interacts with Plexin-B1:ErbB2
+	D	LARG and PDZ-RhoGEF binds to Plexin-B1
+	T	Activation of Rho by LARG and PDZ-RhoGEF
+	D	ROCK activation by Rho
+	T	Myosin regulatory light chain phosphorylation by ROCK
+	T	LIM kinase phosphorylation by ROCK
+	D	Plexin-A1-4 binds NRP1
+	T	Sema3A binds Nrp-1 bound to PlexinA
+	T	Phosphorylation of Plexin-A
+	T	Activation of Rac1 by FARP2
+	D	Rac1 binds PlexinA
+	D	Recruitment of Rnd1 to Plexin A
+	B	Inactivation of R-Ras by Sema3A-Plexin-A GAP activity
+	T	Inhibition of integrin activation by sequestering PIP5KIgamma
+	T	Activation of PAK by Rac1
+	T	Autophosphorylation of PAK
+	T	Phosphorylation of LIMK-1 by PAK
+	D	Dimerization of LIMK1 by Hsp90
+	T	Transphosphorylation of pLIMK1
+	T	Phosphorylation of cofilin by LIMK-1
+	D	Activation of Fyn
+	T	Recruitment and activation of Cdk5
+	T	Phosphorylation of CRMPs by Cdk5
+	T	Phosphorylation of CRMPs by GSK3beta
+	T	Tyrosine phosphorylation of CRMPs by Fes
+	D	SEMA3E binds to PLXND1
+	D	SEMA4A binds to PLXND1
+	D	SEMA4D interacts with CD45
+	D	SEMA4D interacts with CD72
+	D	SEMA5A binds to PLXNB3
+	D	SEMA6A binds to PLXNA2 and PLXNA4
+	D	SEMA6D binds to PLXNA1:TREM2:DAP12
+	D	SEMA7A binds to PLXNC1
+	D	SEMA7A binds to integrin alpha1beta1
+	T	NCAM1 cis-homophilic interaction
+	T	NCAM1 trans-homophilic interaction
+	D	NCAM1 binds FGFR-1
+	D	Fyn binds NCAM1
+	T	Dephosphorylation of NCAM1 bound pFyn
+	T	Autophosphorylation of NCAM1 bound Fyn
+	T	Recruitment of FAK to NCAM1:Fyn in lipid rafts
+	T	Phosphorylation of FAK by Src kinase
+	D	Recruitment of Grb2 to pFAK:NCAM1
+	D	SOS binds Grb2 bound to pFAK:NCAM1
+	T	NCAM1:pFAK:Grb2:Sos-mediated nucleotide exchange of Ras
+	D	p-RAF binds 14-3-3 beta/alpha
+	T	Transient dissociation of 14-3-3 upon Ras binding
+	D	Stabilisation of RAS:RAF by 14-3-3
+	T	Stabilisation of RAF by further phosphorylation
+	D	Phosphorylated human RAF1 binds to RAS:GTP complex
+	D	Activated RAF1 complex binds MEK
+	T	RAF1  phosphorylates MEK1
+	T	RAF1 phosphorylates MEK2
+	T	Inactivation of MEK1 by p34cdc2
+	D	MEK1 binds ERK-1
+	T	MEK1 phosphorylates ERK-1
+	B	Dissociation of phospho-ERK-1:MEK1
+	T	Dimerisation of phospho-ERK-1
+	T	Nuclear translocation of phospho-ERK-1 dimer
+	D	MEK2 binds ERK-2
+	T	MEK2 phosphorylates ERK-2
+	B	Dissociation of phospho-ERK-2:MEK2
+	T	Dimerisation of phospho-ERK-2
+	T	Nuclear translocation of phospho-ERK-2 dimer
+	T	ERK1/2 phosphorylates MSK1
+	T	MSK1 activates CREB
+	D	Interaction of NCAM1 with GFRalpha-1
+	D	Interaction of NCAM1:GFRalpha-1 with GDNF
+	D	Interaction of NCAM1 with Neurocan
+	D	Interaction of NCAM1 with collagens
+	D	Interaction of NCAM1 with Major prion protein (PrP)
+	D	Interaction of NCAM1 with agrin
+	D	Interaction of NCAM1 with contactin-2
+	D	NCAM1 binds to ATP
+	D	Polysialylation of NCAM1
+	D	NCAM1 interacts with T- and L-type VDCC
+	D	DCC interaction with Netrin-1
+	D	Netrin-1 induced DCC clustering
+	D	FADK1 interaction with DCC
+	T	Phosphorylation of FADK1
+	D	Recruitment of Src and Fyn to DCC:FADK1
+	T	Phosphorylation of DCC by Fyn
+	D	DCC interacting NCK-1
+	D	RhoGTPase GEF's recruited to DCC
+	T	Activation of Cdc42
+	T	Activation of Rac1
+	D	Recruitment and activation of N-WASP by Cdc42
+	D	Recruitment of ABLIM to the plasma membrane
+	D	UNC-5 binds Netrin-1
+	D	DCC heterodimerizes with UNC-5:Netrin-1
+	T	Phosphorylation of Unc5C
+	D	Shp2 binds pUnc5C
+	D	DCC interaction with ROBO-1
+	D	DCC interaction with SIAH1
+	D	DCC interaction with SIAH2
+	D	Translocation of Ezrin to plasma membrane
+	T	Phosphorylation and activation of Ezrin
+	D	DCC interaction with Ezrin
+	D	Netrin-4 binds DCC/UNC5A
+	D	Neogenin binds Netrin-1
+	D	Neogenin binds repulsive guidance molecules (RGDs)
+	D	Myosin-X binds DCC/Neogenin
+	D	PIKE-L interaction with UNC5B
+	D	PITPalpha binds DCC
+	T	Phosphorylation of PLCgamma by Netrin-1
+	T	PIP2 hydrolysis
+	T	Activation of TRPC channels by Netrin-1
+	B	Proteolytic processing of Slit
+	D	Robo3 antagonizes Robo1/Robo2 to allow floor plate crossing
+	D	Glypican-1 binds Slit2
+	D	Robo1 binds Slit2
+	D	Ena/VASP binds Robo1:Slit2 complex
+	D	Recruitment of Profilin by Ena/Vasp proteins
+	D	SrGAP binds Robo1:Slit2
+	B	Inactivation of Cdc42
+	D	KIAA1688/Vilse binds Robo1:Slit2
+	B	Inactivation of Rac1
+	D	Nck binds Robo1:Slit2
+	D	Recruitment of PAK to Nck
+	D	Recruitment of Sos to plasma membrane
+	T	Activation of Rac by Sos
+	D	Interaction of Abl with Robo1:Slit2
+	T	Phosphorylation of Rob1 by Abl kinase
+	D	Activation of CLASP
+	D	Recruitment of CAP to Abl
+	T	Phosphorylation of L1 by SRC
+	D	L1 binds ERM family members
+	D	L1 trans-homophilic interaction
+	D	Linkage of L1 with treadmilling F-actin
+	D	Shootin-1 links L1 and retrograde actin flow
+	B	Dephosphorylation of pL1 (Y1176)
+	D	L1 binds to AP-2 Clathrin complex
+	T	Formation of clathrin coated vesicle
+	D	Interaction of NUMB with L1
+	T	Transport of L1 into endosomes
+	T	Phosphorylation of L1 by p90rsk
+	T	Phosphorylation of L1 by ERK
+	D	Transport of L1 from C-domain to P-domain
+	B	Reinsertion of L1 into the plasma membrane
+	D	L1 dimer binds Ankyrin
+	D	L1 linked to actin cytoskeleton by ankyrin
+	D	Ankyrins link voltage-gated sodium and potassium channels to spectrin and L1
+	T	Phosphorylation of Y1229 in L1
+	D	L1 and NCAM1 engaged in cis-interaction
+	D	L1-FGFR cis-heterodimerization
+	D	L1-EGFR trans-heterodimerization
+	D	L1 binds NRP1
+	D	L1 interaction with Integrins
+	T	Phosphorylation of VAV2
+	T	Activation of Rac1 by VAV2
+	T	Interaction of PAK1 with Rac1-GTP
+	T	Phosphorylation of L1 by CK-II
+	D	Interaction of L1 with Neurocan
+	D	Interaction of L1 with Laminin-1
+	D	Cis-heterodimerization of L1 and Axonin-1
+	D	Cis-heterodimerization of L1 and Contactin-1/F3/F11
+	D	Cis-heterodimerization of L1 and DM-GRASP/ALCAM/BEN
+	D	L1 binds RanBPM
+	D	Heat-Stable Antigen binds L1
+	T	Phosphorylation of L1 by EPHB2
+	D	CHL1 interacts with Ankyrin-G
+	D	CHL1 interacts with HSP7C
+	D	CHL1 interacts with NRP1
+	D	CHL1 interacts with beta1 integrins
+	D	CHL1 interacts with contactin-6
+	D	Neurofascin binds Ankyrin-G
+	D	Trans-homodimerization of Neurofascin
+	D	Neurofascin and NrCAM heterodimerization
+	T	Phosphorylation of Neurofascin
+	D	Doublecortin binds phosphorylated neurofascin
+	D	Neurofascin interacts with syntenin-1
+	D	Neurofascin binds contactin-1:CASPR complex
+	D	NrCAM binds Ankyrin-G
+	D	NrCAM binds axonin-1
+	D	NrCAM binds synapse-associated proteins
+	D	NrCAM binds Neuropilin-2
+	D	CDO binds BOC
+	D	CDO binds promyogenic cadherins
+	D	Bnip2 interacts with CDO complex
+	D	Interaction of Bnip-2 with Cdc42
+	D	JLP interacts with CDO complex
+	D	Interaction of ABL1 with CDO complex
+	D	Interaction of p38 MAPK with JLP
+	T	Activation of p38 alpha/beta MAPK
+	B	Nuclear translocation of p38 MAPK
+	T	Phosphorylation of E proteins by p38 MAPK
+	D	Heterodimerization of E proteins with Myod
+	T	Phosphorylation of MEF2 proteins by p38
+	D	Interaction of MyoD:E protein with MEF2
+	D	Neogenin:Netrin-3 binds CDO complex
+	T	AKT phosphorylates FOXO1A
+	T	Phosphorylated FOXO1A is excluded from the nucleus
+	T	Cleavage of NODAL Proprotein
+	D	The NODAL Receptor Binds NODAL Ligands
+	T	Type II Activin Receptor (ActRII/ACVR2) Phosphorylates Type I Activin Receptor (ActRIB/ACVR1B) in Response to NODAL
+	T	Type II Activin Receptor (ActRIIB/ACVR2B) Phosphorylates Type I Activin Receptor (ActRIC/ACVR1C) in Response to NODAL
+	T	Phosphorylation of R-SMAD2/3 by NODAL Receptor
+	D	Phosphorylated SMAD2 and SMAD3 form a complex with SMAD4
+	T	The SMAD2/3:SMAD4 complex transfers to the nucleus
+	D	Phospho R-SMAD(SMAD2/3):CO-SMAD(SMAD4):FOXH1 Binds Activin Response Element
+	D	Phospho R-SMAD(SMAD2/3):CO-SMAD(SMAD4):FOXO3 Binds FoxO3a-binding Elements
+	D	CERBERUS Binds NODAL
+	D	LEFTY Binds NODAL
+	D	LEFTY Binds the EGF-CFC Coreceptor in the NODAL Receptor
+	D	Formation of PPARG:RXRA Heterodimer (ARF6 Complex)
+	D	PPARG:RXRA Heterodimer binds to PPARG corepressors
+	T	PPARG:RXRA Heterodimer Binds to Fatty Acid-like Ligands
+_smallMoleculeName.size()	94
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	DAG	plasma membrane	Reactome DB_ID: 112275	diacylglycerols [ChEBI:18035]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	extracellular region	Reactome DB_ID: 114570	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	lipid particle
+	whole

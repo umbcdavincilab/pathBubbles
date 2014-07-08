@@ -1,0 +1,395 @@
+edge.size() 185
+ 83 4 83 0 82 0 -1
+ 83 5 83 1 82 0 -1
+ 83 6 83 2 82 0 -1
+ 83 7 83 3 82 0 -1
+ 83 8 83 10 82 1 -1
+ 83 7 83 11 82 1 -1
+ 83 9 83 12 82 1 -1
+ 83 13 83 15 82 2 -1
+ 83 12 83 16 82 2 -1
+ 83 14 83 7 82 2 -1
+ 83 -1 83 -1 82 3 -1
+ 83 7 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 -1 83 -1 82 3 -1
+ 83 20 83 17 82 4 -1
+ 83 21 83 18 82 4 -1
+ 83 22 83 19 82 4 -1
+ 83 23 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 24 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 67 3 83 -1 82 6 -1
+ 83 25 67 4 82 6 -1
+ 67 3 67 4 82 6 -1
+ 67 4 83 26 82 7 -1
+ 83 -1 67 3 82 7 -1
+ 67 4 67 3 82 7 -1
+ 83 27 83 -1 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 27 83 -1 82 9 -1
+ 83 -1 83 27 82 10 -1
+ 83 -1 83 29 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 -1 83 -1 82 11 -1
+ 83 28 83 -1 82 11 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 -1 83 -1 82 12 -1
+ 83 37 83 30 82 13 -1
+ 83 38 83 31 82 13 -1
+ 83 39 83 32 82 13 -1
+ 83 40 83 33 82 13 -1
+ 83 41 83 34 82 13 -1
+ 83 42 83 35 82 13 -1
+ 83 22 83 36 82 13 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 -1 82 14 -1
+ 83 -1 83 43 82 14 -1
+ 83 26 83 -1 82 15 -1
+ 83 43 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 15 -1
+ 83 -1 83 -1 82 16 -1
+ 83 26 83 -1 82 16 -1
+ 83 43 83 -1 82 16 -1
+ 83 44 83 45 82 17 -1
+ 83 46 83 -1 82 18 -1
+ 83 46 83 -1 82 19 -1
+ 83 -1 83 -1 82 20 -1
+ 83 46 83 -1 82 20 -1
+ 83 -1 83 -1 82 20 -1
+ 83 47 83 48 82 20 -1
+ 83 49 83 -1 82 21 -1
+ 83 50 83 -1 82 21 -1
+ 83 51 83 22 82 21 -1
+ 83 46 83 -1 82 21 -1
+ 83 -1 83 -1 82 22 -1
+ 83 -1 83 -1 82 22 -1
+ 83 -1 83 -1 82 22 -1
+ 83 -1 83 -1 82 23 -1
+ 83 52 83 53 82 23 -1
+ 83 -1 83 54 82 24 -1
+ 83 52 83 55 82 24 -1
+ 83 -1 83 56 82 24 -1
+ 83 57 83 59 82 25 -1
+ 83 56 83 60 82 25 -1
+ 83 58 83 52 82 25 -1
+ 83 61 83 67 82 26 -1
+ 83 62 83 68 82 26 -1
+ 83 22 83 69 82 26 -1
+ 83 63 83 70 82 26 -1
+ 83 64 83 71 82 26 -1
+ 83 65 83 72 82 26 -1
+ 83 66 83 73 82 26 -1
+ 67 13 67 17 82 27 -1
+ 67 13 83 74 82 27 -1
+ 83 73 83 75 82 27 -1
+ 83 -1 67 -1 82 28 -1
+ 67 -1 67 -1 82 28 -1
+ 67 -1 83 -1 82 28 -1
+ 83 73 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 22 83 80 82 29 -1
+ 83 76 83 81 82 29 -1
+ 67 18 83 82 82 29 -1
+ 83 73 83 83 82 29 -1
+ 67 18 67 19 82 29 -1
+ 83 77 67 19 82 29 -1
+ 67 18 67 19 82 29 -1
+ 83 78 67 19 82 29 -1
+ 67 18 83 84 82 29 -1
+ 83 79 83 85 82 29 -1
+ 83 86 83 89 82 30 -1
+ 67 19 83 90 82 30 -1
+ 83 22 83 91 82 30 -1
+ 67 19 83 -1 82 30 -1
+ 83 87 67 18 82 30 -1
+ 67 19 67 18 82 30 -1
+ 83 88 67 18 82 30 -1
+ 67 22 67 23 82 31 -1
+ 83 -1 67 23 82 31 -1
+ 83 26 67 23 82 31 -1
+ 67 23 67 24 82 32 -1
+ 67 23 83 -1 82 32 -1
+ 67 22 83 92 82 33 -1
+ 67 22 67 24 82 33 -1
+ 83 22 67 24 82 33 -1
+ 83 25 83 93 82 33 -1
+ 67 25 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 25 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 94 83 22 82 34 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+ 67 1 82 1 82 2 -1
+ 67 0 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 3 82 1 82 5 -1
+ 80 0 82 1 82 6 -1
+ 67 5 82 1 82 7 -1
+ 67 6 82 1 82 8 -1
+ 80 1 82 1 82 9 -1
+ 80 1 82 1 82 10 -1
+ 67 7 82 1 82 11 -1
+ 67 8 82 1 82 12 -1
+ 67 9 82 1 82 13 -1
+ 67 10 82 1 82 14 -1
+ 67 11 82 1 82 15 -1
+ 67 12 82 1 82 16 -1
+ 67 13 82 1 82 17 -1
+ 67 14 82 1 82 18 -1
+ 67 14 82 1 82 19 -1
+ 67 15 82 1 82 20 -1
+ 67 15 82 1 82 21 -1
+ 80 -1 82 1 82 22 -1
+ 80 2 82 1 82 23 -1
+ 80 3 82 1 82 24 -1
+ 80 3 82 1 82 25 -1
+ 67 16 82 1 82 26 -1
+ 67 17 82 1 82 27 -1
+ 67 -1 82 1 82 28 -1
+ 80 -1 82 1 82 -1 -1
+ 67 20 82 1 82 29 -1
+ 67 21 82 1 82 30 -1
+ 67 23 82 1 82 32 -1
+ 67 24 82 1 82 33 -1
+ 67 -1 82 1 82 -1 -1
+ 67 25 82 1 82 34 -1
+ 83 6 82 0 82 6 -1
+ 83 12 82 1 82 6 -1
+ 83 11 82 1 82 6 -1
+ 83 -1 82 1 82 7 -1
+ 83 16 82 1 82 11 -1
+ 83 -1 82 1 82 23 -1
+ 83 17 82 1 82 23 -1
+ 83 -1 82 1 82 23 -1
+ 83 28 82 1 82 34 -1
+ 83 29 82 0 82 34 -1
+_complexName.size()	26
+	lactate dehydrogenase A2B2 complex/lactate dehydrogenase A3B complex/lactate dehydrogenase A4 complex/lactate dehydrogenase AB3 complex/lactate dehydrogenase B4 complex			
+	Basigin bound to MCTs	plasma membrane	Reactome DB_ID: 204396	
+	MPC1:MPC2	mitochondrial inner membrane	Reactome DB_ID: 2512902	
+	pyruvate dehydrogenase complex	mitochondrial matrix	Reactome DB_ID: 70070	
+	phosphorylated pyruvate dehydrogenase complex	mitochondrial matrix	Reactome DB_ID: 210342	
+	PDP1 complex/PDP2 complex			
+	Citrate Synthase Holoenzyme	mitochondrial matrix	Reactome DB_ID: 70973	
+	IDH3 complex	mitochondrial matrix	Reactome DB_ID: 70965	
+	IDH2 dimer	mitochondrial matrix	Reactome DB_ID: 450982	
+	NNT dimer	mitochondrial inner membrane	Reactome DB_ID: 451008	
+	alpha-ketoglutarate dehydrogenase complex	mitochondrial matrix	Reactome DB_ID: 69996	
+	Succinyl-CoA synthetase heterodimer (GDP-forming)	mitochondrial matrix	Reactome DB_ID: 156627	
+	Succinyl-CoA synthetase heterodimer (ADP-forming)	mitochondrial matrix	Reactome DB_ID: 156625	
+	Succinate dehydrogenase complex (oxidised)	mitochondrial inner membrane	Reactome DB_ID: 70990	
+	FH tetramer	mitochondrial matrix	Reactome DB_ID: 451041	
+	malate dehydrogenase 2 dimer	mitochondrial matrix	Reactome DB_ID: 198511	
+	Complex I - NADH:Ubiquinone oxidoreductase	mitochondrial inner membrane	Reactome DB_ID: 163924	
+	Succinate dehydrogenase complex (reduced)	mitochondrial inner membrane	Reactome DB_ID: 165631	
+	Cytochrome c-Fe3+	mitochondrial inner membrane	Reactome DB_ID: 352607	
+	Cytochrome c-Fe2+	mitochondrial inner membrane	Reactome DB_ID: 352609	
+	Complex III	mitochondrial inner membrane	Reactome DB_ID: 164317	
+	Complex IV	mitochondrial inner membrane	Reactome DB_ID: 164316	
+	ATPase complex	mitochondrial inner membrane	Reactome DB_ID: 74186	
+	ATPase-ADP and Pi complex	mitochondrial inner membrane	Reactome DB_ID: 164838	
+	ATPase-ATP complex	mitochondrial inner membrane	Reactome DB_ID: 164835	
+	UCP dimer	mitochondrial inner membrane	Reactome DB_ID: 166389	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	PDK4	mitochondrial matrix			
+	ACO2	mitochondrial matrix	Reactome DB_ID: 70968	UniProt:Q99798	ACO2
+	D2HGDH	mitochondrial matrix	Reactome DB_ID: 880006	UniProt:Q8N465	D2HGDH
+	ADHFE1	mitochondrial matrix	Reactome DB_ID: 880020	UniProt:Q8IWW8	ADHFE1
+_reactionName.size()	35
+	T	Pyruvate + NADH + H+ <=> (S)-Lactate + NAD+
+	T	lactate + H+ [cytosol] <=> lactate + H+ [extracellular]
+	T	lactate + H+ [extracellular] <=> lactate + H+ [cytosol]
+	T	(S)-Lactate + NAD+ <=> Pyruvate + NADH + H+
+	T	PYR + H+ (cytosol) => PYR + H+ (mitochondrial matrix)
+	T	pyruvate + CoASH + NAD+ => acetylCoA + CO2 + NADH + H+
+	T	Inactivation of PDC by phosphorylation of PDC E1 alpha component
+	T	Activation of PDC by dephosphorylation of phospho-E1 alpha component
+	T	Acetyl-CoA + H2O + Oxaloacetate => Citrate + CoA
+	T	citrate <=> isocitrate
+	T	isocitrate <=> citrate
+	T	isocitrate + NAD+ => alpha-ketoglutarate + CO2 + NADH + H+ [IDH3]
+	T	isocitrate + NADP+ => alpha-ketoglutarate + CO2 + NADPH + H+ [IDH2]
+	T	NADPH + NAD+ + H+ [cytosol] => NADP+ + NADH + H+ [mitochondrial matrix]
+	T	alpha-ketoglutarate + CoASH + NAD+ => succinyl-CoA + CO2 + NADH + H+
+	T	GDP + Orthophosphate + Succinyl-CoA <=> GTP + Succinate + CoA
+	T	ADP + Orthophosphate + Succinyl-CoA <=> ATP + Succinate + CoA
+	T	Succinate <=> Fumarate (with FAD redox reaction on enzyme)
+	D	Fumarate + H2O <=> (S)-Malate
+	B	(S)-Malate <=> Fumarate + H2O
+	T	(S)-Malate + NAD+ <=> Oxaloacetate + NADH + H+
+	T	Oxaloacetate + NADH + H+ <=> (S)-Malate + NAD+
+	T	(S)-2-hydroxyglutarate + FAD => 2-oxoglutarate + FADH2
+	T	(R)-2-hydroxyglutarate + FAD => 2-oxoglutarate + FADH2
+	T	(R)-2-hydroxyglutarate + succinate semialdehyde <=> 2-oxoglutarate + 4-hydroxybutyrate
+	T	2-oxoglutarate + 4-hydroxybutyrate <=> (R)-2-hydroxyglutarate + succinate semialdehyde
+	T	NADH enters the respiratory chain at Complex I
+	T	Transfer of electrons through the succinate dehydrogenase complex
+	T	Reducing equivalents from beta-oxidation of fatty acids transfer to ETF
+	T	Electron transfer from ubiquinol to cytochrome c of complex III
+	T	Electron transfer from reduced cytochrome c to molecular oxygen
+	D	ADP and Pi bind to ATPase
+	B	ATP is synthesized from ADP and Pi by ATPase
+	T	Enzyme-bound ATP is released
+	T	Protons are translocated from the intermembrane space to the matrix
+_smallMoleculeName.size()	95
+	PYR	cytosol	Reactome DB_ID: 29398	Pyruvate [ChEBI:32816]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	LACT	cytosol	Reactome DB_ID: 29708	(S)-Lactate [ChEBI:422]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	PYR	cytosol	Reactome DB_ID: 29398	Pyruvate [ChEBI:32816]
+	CIT	mitochondrial matrix	Reactome DB_ID: 29654	Citric acid [ChEBI:30769]
+	ISCIT	mitochondrial matrix	Reactome DB_ID: 29938	(1R,2S)-1-Hydroxypropane-1,2,3-tricarboxylate [ChEBI:151]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	TPN	mitochondrial matrix	Reactome DB_ID: 113563	NADP+ [ChEBI:18009]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	TPNH	mitochondrial matrix	Reactome DB_ID: 113600	NADPH [ChEBI:16474]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	TPN	mitochondrial matrix	Reactome DB_ID: 113563	NADP+ [ChEBI:18009]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	SUCC-CoA	mitochondrial matrix	Reactome DB_ID: 70958	Succinyl-CoA [ChEBI:15380]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	ATP	mitochondrial matrix	Reactome DB_ID: 113593	ATP [ChEBI:15422]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	FUMA	mitochondrial matrix	Reactome DB_ID: 113588	ChEBI:18012 Fumaric acid
+	H2O	mitochondrial matrix	Reactome DB_ID: 113521	H2O [ChEBI:15377]
+	MAL	mitochondrial matrix	Reactome DB_ID: 113544	(S)-Malate [ChEBI:30797]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	LACT	extracellular region	Reactome DB_ID: 373863	(S)-Lactate [ChEBI:422]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	OA	mitochondrial matrix	Reactome DB_ID: 113587	Oxaloacetate [ChEBI:30744]
+	OA	mitochondrial matrix	Reactome DB_ID: 113587	Oxaloacetate [ChEBI:30744]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	2HG	mitochondrial matrix	Reactome DB_ID: 880013	ChEBI:32797 (S)-2-Hydroxyglutarate
+	SUCCSA	mitochondrial matrix	Reactome DB_ID: 880046	ChEBI:16265 Succinate semialdehyde
+	SUCCSA	mitochondrial matrix	Reactome DB_ID: 880046	ChEBI:16265 Succinate semialdehyde
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	Q	mitochondrial inner membrane	Reactome DB_ID: 73663	Ubiquinone [ChEBI:16389]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	FA anion \"head-in\"	mitochondrial inner membrane	Reactome DB_ID: 166213	fatty acid anion [ChEBI:28868]
+	FA anion \"head-out\"	mitochondrial inner membrane	Reactome DB_ID: 166216	fatty acid anion [ChEBI:28868]
+	Fatty Acid \"head-out\"	mitochondrial inner membrane	Reactome DB_ID: 166217	ChEBI:35366 Fatty Acids
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	NAD	cytosol	Reactome DB_ID: 29360	NAD+ [ChEBI:15846]
+	Fatty Acid \"head-in\"	mitochondrial inner membrane	Reactome DB_ID: 166226	ChEBI:35366 Fatty Acids
+	H+	mitochondrial intermembrane space	Reactome DB_ID: 163953	H+ [ChEBI:15378]
+	PYR	cytosol	Reactome DB_ID: 29398	Pyruvate [ChEBI:32816]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	NAD	mitochondrial matrix	Reactome DB_ID: 113526	NAD+ [ChEBI:15846]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	PYR	mitochondrial matrix	Reactome DB_ID: 113557	Pyruvate [ChEBI:32816]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	NADH	mitochondrial matrix	Reactome DB_ID: 29362	NADH [ChEBI:16908]
+	OA	mitochondrial matrix	Reactome DB_ID: 113587	Oxaloacetate [ChEBI:30744]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

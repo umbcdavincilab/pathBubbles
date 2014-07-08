@@ -1,0 +1,224 @@
+edge.size() 70
+ 83 7 83 0 82 0 -1
+ 83 8 83 1 82 0 -1
+ 83 9 83 2 82 0 -1
+ 83 10 83 3 82 0 -1
+ 83 11 83 4 82 0 -1
+ 83 12 83 5 82 0 -1
+ 83 13 83 6 82 0 -1
+ 83 21 83 14 82 1 -1
+ 83 22 83 15 82 1 -1
+ 83 23 83 16 82 1 -1
+ 83 10 83 17 82 1 -1
+ 83 24 83 18 82 1 -1
+ 83 25 83 19 82 1 -1
+ 83 26 83 20 82 1 -1
+ 83 27 83 -1 82 -1 -1
+ 83 28 83 30 82 2 -1
+ 83 27 83 31 82 2 -1
+ 83 29 83 32 82 2 -1
+ 83 33 83 35 82 3 -1
+ 83 27 83 36 82 3 -1
+ 83 34 83 30 82 3 -1
+ 83 37 83 43 82 4 -1
+ 83 27 83 44 82 4 -1
+ 83 38 83 45 82 4 -1
+ 83 39 83 10 82 4 -1
+ 83 40 83 46 82 4 -1
+ 83 41 83 47 82 4 -1
+ 83 42 83 48 82 4 -1
+ 83 57 83 -1 82 5 -1
+ 83 58 83 49 82 5 -1
+ 83 59 83 50 82 5 -1
+ 83 60 83 51 82 5 -1
+ 83 10 83 52 82 5 -1
+ 83 61 83 53 82 5 -1
+ 83 62 83 54 82 5 -1
+ 83 63 83 55 82 5 -1
+ 83 64 83 56 82 5 -1
+ 83 -1 83 -1 82 5 -1
+ 83 -1 83 65 82 6 -1
+ 83 -1 83 30 82 6 -1
+ 83 69 83 -1 82 6 -1
+ 83 70 83 66 82 6 -1
+ 83 71 83 -1 82 6 -1
+ 83 72 83 67 82 6 -1
+ 83 73 83 -1 82 6 -1
+ 83 74 83 -1 82 6 -1
+ 83 10 83 -1 82 6 -1
+ 83 -1 83 68 82 6 -1
+ 83 75 83 77 82 7 -1
+ 83 -1 83 78 82 7 -1
+ 83 76 83 -1 82 7 -1
+ 83 -1 83 79 82 7 -1
+ 83 -1 83 80 82 7 -1
+ 83 -1 83 -1 82 7 -1
+ 83 -1 83 10 82 7 -1
+ 83 -1 83 81 82 8 -1
+ 83 86 83 82 82 8 -1
+ 83 87 83 83 82 8 -1
+ 83 10 83 84 82 8 -1
+ 83 75 83 85 82 8 -1
+ 80 0 82 1 82 0 -1
+ 80 1 82 1 82 1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 2 -1
+ 80 2 82 1 82 3 -1
+ 67 0 82 1 82 4 -1
+ 67 1 82 1 82 5 -1
+ 67 2 82 1 82 6 -1
+ 80 3 82 1 82 7 -1
+ 80 3 82 1 82 8 -1
+_complexName.size()	3
+	ATP2C1/2:Mg2+	Golgi membrane	Reactome DB_ID: 936921	
+	ATP1A:ATP1B:FXYD	plasma membrane	Reactome DB_ID: 936770	
+	ATP4A/12A:ATP4B	plasma membrane	Reactome DB_ID: 937301	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	ATP7A	plasma membrane	Reactome DB_ID: 936841	UniProt:Q04656	ATP7A
+	ATP7B	Golgi membrane	Reactome DB_ID: 936912	UniProt:P35670	ATP7B
+	ATP2A3	endoplasmic reticulum membrane			
+	ATP8A2	plasma membrane			
+_reactionName.size()	9
+	T	ATP7A transports cytosolic Cu2+ to extracellular region
+	T	ATP7B transports cytosolic Cu2+ to Golgi lumen
+	T	Sequestration of Ca2+ to dense tubular network lumen
+	T	ATP2A1-3 transport cytosolic Ca2+ to ER lumen
+	T	ATP2C1/2:Mg2+ transport cytosolic Ca2+ to Golgi lumen
+	T	ATP1A:ATP1B:FXYD exchanges Na+ for K+
+	T	ATP4A/12A:ATP4B exchanges K+ for H+
+	T	P-type ATPase type IV subfamily transporters may mediate phospholipid transfer
+	T	P-type ATPases type IV transport internal-facing APLs to external side of the plasma membrane
+_smallMoleculeName.size()	88
+	Cu2+	cytosol	Reactome DB_ID: 209799	copper(2+) [ChEBI:29036]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Cu2+	cytosol	Reactome DB_ID: 209799	copper(2+) [ChEBI:29036]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Cu2+	extracellular region	Reactome DB_ID: 437295	copper(2+) [ChEBI:29036]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Cu2+	extracellular region	Reactome DB_ID: 437295	copper(2+) [ChEBI:29036]
+	Cu2+	cytosol	Reactome DB_ID: 209799	copper(2+) [ChEBI:29036]
+	Cu2+	extracellular region	Reactome DB_ID: 437295	copper(2+) [ChEBI:29036]
+				
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+				
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+				
+	Cu2+	cytosol	Reactome DB_ID: 209799	copper(2+) [ChEBI:29036]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Cu2+	cytosol	Reactome DB_ID: 209799	copper(2+) [ChEBI:29036]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Cu2+	Golgi lumen	Reactome DB_ID: 936901	copper(2+) [ChEBI:29036]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Cu2+	Golgi lumen	Reactome DB_ID: 936901	copper(2+) [ChEBI:29036]
+	Cu2+	cytosol	Reactome DB_ID: 209799	copper(2+) [ChEBI:29036]
+	Cu2+	Golgi lumen	Reactome DB_ID: 936901	copper(2+) [ChEBI:29036]
+	Ca2+	cytosol	Reactome DB_ID: 74016	Calcium [ChEBI:29108]
+	Ca2+	extracellular region	Reactome DB_ID: 74112	Calcium [ChEBI:29108]
+	H+	platelet dense tubular network lumen	Reactome DB_ID: 427899	H+ [ChEBI:15378]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	Ca2+	platelet dense tubular network lumen	Reactome DB_ID: 139827	Calcium [ChEBI:29108]
+	H+	platelet dense tubular network lumen	Reactome DB_ID: 427899	H+ [ChEBI:15378]
+	Ca2+	platelet dense tubular network lumen	Reactome DB_ID: 139827	Calcium [ChEBI:29108]
+	H+	endoplasmic reticulum lumen	Reactome DB_ID: 156540	H+ [ChEBI:15378]
+	Ca2+	endoplasmic reticulum lumen	Reactome DB_ID: 111875	Calcium [ChEBI:29108]
+	Ca2+	endoplasmic reticulum lumen	Reactome DB_ID: 111875	Calcium [ChEBI:29108]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Na+	cytosol	Reactome DB_ID: 83910	Sodium [ChEBI:29101]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

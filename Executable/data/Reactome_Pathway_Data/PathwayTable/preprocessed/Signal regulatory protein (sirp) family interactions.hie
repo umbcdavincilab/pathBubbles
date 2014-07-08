@@ -1,0 +1,94 @@
+edge.size() 23
+ 80 0 67 0 82 0 -1
+ 80 1 67 0 82 0 -1
+ 67 0 67 1 82 1 -1
+ 83 0 67 1 82 1 -1
+ 83 1 83 2 82 1 -1
+ 67 0 83 3 82 1 -1
+ 67 1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 1 67 2 82 2 -1
+ 80 -1 67 2 82 2 -1
+ 67 2 67 3 82 3 -1
+ 80 -1 67 3 82 3 -1
+ 67 1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 0 67 4 82 4 -1
+ 69 0 67 4 82 4 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 1 67 5 82 5 -1
+ 80 3 67 5 82 5 -1
+ 80 2 82 1 82 1 -1
+_complexName.size()	6
+	SIRPA:CD47	plasma membrane	Reactome DB_ID: 391111	
+	pSIRP alpha:CD47	plasma membrane	Reactome DB_ID: 391115	
+	pSIRP alpha:CD47:SCAP2	plasma membrane	Reactome DB_ID: 391118	
+	pSIRP alpha:CD47:SCAP2:FYB	plasma membrane	Reactome DB_ID: 391116	
+	SIRPA:SP-A/SP-D	plasma membrane	Reactome DB_ID: 391109	
+	SIRP gamma:CD47	plasma membrane	Reactome DB_ID: 391166	
+_physicalEntityName.size()	1
+	IAP/phosphorylated SIRP-A/IAP/phosphorylated SIRP-A	plasma membrane
+_proteinName.size()	4
+	SIRPA	plasma membrane	Reactome DB_ID: 3209922	UniProt:P78324	SIRPA
+	IAP	plasma membrane	Reactome DB_ID: 197736	UniProt:Q08722	CD47
+	FAK	cytosol			
+	SIRPG	plasma membrane	Reactome DB_ID: 197571	UniProt:Q9P1W8	SIRPG
+_reactionName.size()	6
+	D	SIRP alpha binds CD47
+	T	Phosphorylation of ITIM in SIRP alpha
+	D	Recruitment of SCAP2 to pSIRP alpha
+	D	Recruitment of FYB to pSIRP alpha
+	D	SP-A/SP-D binds SIRP alpha
+	D	SIRP gamma binds CD47
+_smallMoleculeName.size()	4
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

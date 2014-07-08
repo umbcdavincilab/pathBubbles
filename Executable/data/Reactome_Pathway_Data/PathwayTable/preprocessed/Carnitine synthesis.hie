@@ -1,0 +1,99 @@
+edge.size() 29
+ 83 0 83 9 82 0 -1
+ 83 1 83 10 82 0 -1
+ 83 2 83 11 82 0 -1
+ 83 3 83 12 82 0 -1
+ 83 4 83 13 82 0 -1
+ 83 5 83 14 82 0 -1
+ 83 6 83 15 82 0 -1
+ 83 7 83 16 82 0 -1
+ 83 8 83 17 82 0 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+_complexName.size()	1
+	TMLHE dimer	mitochondrial matrix	Reactome DB_ID: 71098	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	1
+	T	trimethyllysine + alpha-ketoglutarate + O2 => beta-hydroxy-trimethyllysine + succinate + CO2
+_smallMoleculeName.size()	18
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	N6,N6,N6-Trimethyl-L-lysine	mitochondrial matrix	Reactome DB_ID: 35139	N6,N6,N6-Trimethyl-L-lysine [ChEBI:17311]
+	SUCCA	mitochondrial matrix	Reactome DB_ID: 113536	Succinate [ChEBI:15741]
+	N6,N6,N6-Trimethyl-L-lysine	mitochondrial matrix	Reactome DB_ID: 35139	N6,N6,N6-Trimethyl-L-lysine [ChEBI:17311]
+	3-Hydroxy-N6,N6,N6-trimethyl-L-lysine	mitochondrial matrix	Reactome DB_ID: 113546	3-Hydroxy-N6,N6,N6-trimethyl-L-lysine [ChEBI:15786]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	3-Hydroxy-N6,N6,N6-trimethyl-L-lysine	mitochondrial matrix	Reactome DB_ID: 113546	3-Hydroxy-N6,N6,N6-trimethyl-L-lysine [ChEBI:15786]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	3-Hydroxy-N6,N6,N6-trimethyl-L-lysine	mitochondrial matrix	Reactome DB_ID: 113546	3-Hydroxy-N6,N6,N6-trimethyl-L-lysine [ChEBI:15786]
+	N6,N6,N6-Trimethyl-L-lysine	mitochondrial matrix	Reactome DB_ID: 35139	N6,N6,N6-Trimethyl-L-lysine [ChEBI:17311]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	O2	mitochondrial matrix	Reactome DB_ID: 113533	Oxygen [ChEBI:15379]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+	2OG	mitochondrial matrix	Reactome DB_ID: 113594	2-Oxoglutarate [ChEBI:30915]
+	CO2	mitochondrial matrix	Reactome DB_ID: 29376	CO2 [ChEBI:16526]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

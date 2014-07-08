@@ -1,0 +1,79 @@
+edge.size() 13
+ 80 0 67 0 82 0 -1
+ 83 0 67 0 82 0 -1
+ 67 1 67 3 82 1 -1
+ 67 0 67 3 82 1 -1
+ 83 1 83 3 82 2 -1
+ 67 3 83 4 82 2 -1
+ 67 3 67 4 82 2 -1
+ 83 2 67 4 82 2 -1
+ 67 4 80 0 82 3 -1
+ 67 4 67 5 82 3 -1
+ 67 4 83 0 82 3 -1
+ 67 4 67 2 82 3 -1
+ 67 3 82 1 82 2 -1
+_complexName.size()	6
+	IP receptor:Prostacyclin	plasma membrane	Reactome DB_ID: 391929	
+	Heterotrimeric G-protein Gs (inactive)	plasma membrane	Reactome DB_ID: 391179	
+	G-protein beta-gamma complex	plasma membrane	Reactome DB_ID: 167434	
+	Prostacyclin:prostacyclin receptor:Gs (inactive)	plasma membrane	Reactome DB_ID: 392864	
+	Prostacyclin:prostacyclin receptor:G-protein Gs (active)	plasma membrane	Reactome DB_ID: 392865	
+	G-protein alpha (s):GTP	plasma membrane	Reactome DB_ID: 164358	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	PTGIR	plasma membrane	Reactome DB_ID: 391834	UniProt:P43119	PTGIR
+_reactionName.size()	4
+	D	Prostacyclin binds the Prostacyclin receptor PTGIR
+	D	Activated prostacyclin receptor binds G-protein Gs
+	T	Gs activation by prostacyclin receptor
+	B	Dissociation of the Prostacyclin receptor:Gs complex
+_smallMoleculeName.size()	5
+	PGI2	extracellular region	Reactome DB_ID: 391926	(5Z,13E)-(15S)-6,9alpha-Epoxy-11alpha,15-dihydroxyprosta-5,13-dienoate [ChEBI:15552]
+	GTP	plasma membrane	Reactome DB_ID: 113572	GTP [ChEBI:15996]
+	GDP	plasma membrane	Reactome DB_ID: 114549	GDP [ChEBI:17552]
+	GDP	plasma membrane	Reactome DB_ID: 114549	GDP [ChEBI:17552]
+	GTP	plasma membrane	Reactome DB_ID: 113572	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,148 @@
+edge.size() 55
+ 83 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 1 67 3 82 1 -1
+ 67 0 67 3 82 1 -1
+ 67 4 83 1 82 2 -1
+ 67 4 67 3 82 2 -1
+ 83 2 67 3 82 2 -1
+ 67 4 83 0 82 3 -1
+ 67 4 67 5 82 3 -1
+ 67 4 80 0 82 3 -1
+ 67 4 67 2 82 3 -1
+ 83 0 67 6 82 -1 -1
+ 80 -1 67 6 82 -1 -1
+ 67 7 67 8 82 4 -1
+ 67 6 67 8 82 4 -1
+ 83 2 83 3 82 5 -1
+ 67 9 67 8 82 5 -1
+ 67 9 67 8 82 5 -1
+ 67 9 83 0 82 6 -1
+ 67 9 80 -1 82 6 -1
+ 67 9 67 10 82 6 -1
+ 67 9 67 2 82 6 -1
+ 80 1 80 2 82 7 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 80 3 80 -1 82 8 -1
+ 80 3 83 4 82 8 -1
+ 83 -1 83 -1 82 8 -1
+ 83 5 67 11 82 9 -1
+ 80 4 67 11 82 9 -1
+ 67 7 67 12 82 10 -1
+ 67 11 67 12 82 10 -1
+ 67 11 67 14 82 11 -1
+ 67 13 67 14 82 11 -1
+ 67 15 83 6 82 12 -1
+ 67 15 67 12 82 12 -1
+ 83 2 67 12 82 12 -1
+ 67 16 83 -1 82 -1 -1
+ 67 16 67 14 82 -1 -1
+ 83 2 67 14 82 -1 -1
+ 67 15 83 5 82 13 -1
+ 67 15 80 4 82 13 -1
+ 67 15 67 10 82 13 -1
+ 67 15 67 2 82 13 -1
+ 67 16 83 5 82 -1 -1
+ 67 16 80 4 82 -1 -1
+ 67 16 67 -1 82 -1 -1
+ 67 16 67 2 82 -1 -1
+ 67 3 82 1 82 2 -1
+ 67 8 82 1 82 5 -1
+ 67 10 82 1 82 -1 -1
+ 80 -1 82 1 82 8 -1
+ 67 12 82 1 82 12 -1
+ 67 14 82 1 82 -1 -1
+_complexName.size()	17
+	ADP:P2Y purinoceptor 12	plasma membrane	Reactome DB_ID: 392179	
+	Heterotrimeric G-protein Gi (inactive)	plasma membrane	Reactome DB_ID: 392165	
+	G-protein beta-gamma complex	plasma membrane	Reactome DB_ID: 167434	
+	ADP:P2Y purinoceptor 12:G-protein Gi (inactive)	plasma membrane	Reactome DB_ID: 392184	
+	ADP:P2Y purinoceptor 12:G-protein Gi (active)	plasma membrane	Reactome DB_ID: 392194	
+	G-protein alpha (i): GTP	plasma membrane	Reactome DB_ID: 392161	
+	ADP:P2Y purinoceptor 1	plasma membrane	Reactome DB_ID: 418583	
+	Heterotrimeric G-protein Gq/11 (inactive)	plasma membrane	Reactome DB_ID: 114557	
+	ADP:P2Y purinoceptor 1:G-protein Gq (inactive)	plasma membrane	Reactome DB_ID: 418578	
+	ADP:P2Y purinoceptor 1:G-protein Gq (active)	plasma membrane	Reactome DB_ID: 418575	
+	G-protein alpha (q/11): GTP	plasma membrane	Reactome DB_ID: 114534	
+	TP receptor:Thromboxane A2	plasma membrane	Reactome DB_ID: 391925	
+	TP receptor:Thromboxane A2:G-protein Gq (inactive)	plasma membrane	Reactome DB_ID: 428764	
+	Heterotrimeric G-protein G13 (inactive)	plasma membrane	Reactome DB_ID: 398072	
+	TP receptor:Thromboxane A2:G-protein G13 (inactive)	plasma membrane	Reactome DB_ID: 428905	
+	TP receptor:Thromboxane A2:G-protein Gq (active)	plasma membrane	Reactome DB_ID: 428904	
+	TP receptor:Thromboxane A2:G-protein G13 (active)	plasma membrane	Reactome DB_ID: 428907	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	P2RY12	plasma membrane	Reactome DB_ID: 391959	UniProt:Q9H244	P2RY12
+	SRC1	cytosol	Reactome DB_ID: 354153	UniProt:P12931-1	SRC
+	p-Y419-SRC-1	cytosol	Reactome DB_ID: 377592	UniProt:P12931-1	SRC
+	phospho-cPLA2	endoplasmic reticulum membrane	Reactome DB_ID: 111859	UniProt:P47712	PLA2G4A
+	TBXA2R	plasma membrane	Reactome DB_ID: 391837	UniProt:P21731	TBXA2R
+_reactionName.size()	14
+	D	ADP binds to P2Y purinoceptor 12
+	D	Activated P2Y purinoceptor 12 binds G-protein Gi
+	T	Gi activation by P2Y purinoceptor 12
+	B	Dissociation of the P2Y purinoceptor 12:Gi complex
+	D	Activated P2Y purinoceptor 1 binds G-protein Gq
+	T	Gq activation by P2Y purinoceptor 1
+	B	Dissociation of the P2Y purinoceptor 1:Gq complex
+	T	Src activation following P2Y purinoceptor activation
+	T	Phosphorylation of cPLA2 by MAPK p38 alpha
+	D	TP receptor can bind thromboxane
+	D	Activated TP receptor binds G-proten Gq
+	D	Activated TP receptor binds G-protein  G13
+	T	Gq activation by TP receptor
+	B	Dissociation of the TP:Gq complex
+_smallMoleculeName.size()	7
+	ADP	extracellular region	Reactome DB_ID: 114564	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

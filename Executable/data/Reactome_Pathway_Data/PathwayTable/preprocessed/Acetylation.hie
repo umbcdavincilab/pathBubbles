@@ -1,0 +1,85 @@
+edge.size() 16
+ 80 1 83 0 82 0 -1
+ 80 1 80 0 82 0 -1
+ 83 1 80 0 82 0 -1
+ 83 1 83 2 82 1 -1
+ 80 3 80 2 82 1 -1
+ 80 3 80 2 82 1 -1
+ 80 1 80 0 82 2 -1
+ 83 3 80 0 82 2 -1
+ 83 4 83 5 82 2 -1
+ 80 1 83 6 82 2 -1
+ 80 3 80 2 82 3 -1
+ 83 7 80 2 82 3 -1
+ 83 8 83 9 82 3 -1
+ 80 3 83 10 82 3 -1
+ 80 1 82 1 82 2 -1
+ 80 3 82 1 82 3 -1
+_complexName.size()	0
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	NAT1	cytosol	Reactome DB_ID: 174956	UniProt:P18440	NAT1
+	AcC-NAT1	cytosol	Reactome DB_ID: 174972	UniProt:P18440	NAT1
+	NAT2	cytosol	Reactome DB_ID: 158692	UniProt:P11245	NAT2
+	AcC-NAT2	cytosol	Reactome DB_ID: 158833	UniProt:P11245	NAT2
+_reactionName.size()	4
+	T	The acetyl group from acetyl-CoA is transferred to the NAT1
+	T	The acetyl group from acetyl-CoA is transferred to the NAT2
+	T	NAT1 acetylation
+	T	NAT2 acetylation
+_smallMoleculeName.size()	11
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+	Ac-CoA	cytosol	Reactome DB_ID: 76183	Acetyl-CoA [ChEBI:15351]
+				
+				
+				
+				
+				
+				
+				
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

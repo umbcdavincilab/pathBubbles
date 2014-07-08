@@ -1,0 +1,201 @@
+?biochemicalReaction     ?left              ?right
+Biochemical Reaction1    Complex1           Complex2
+Biochemical Reaction10   Complex9           Complex15
+Biochemical Reaction10   Protein23          Complex15
+Biochemical Reaction11   Complex9           Complex16
+Biochemical Reaction11   Protein24          Complex16
+Biochemical Reaction12   Complex8           Complex17
+Biochemical Reaction12   Protein24          Complex17
+Biochemical Reaction13   Complex16          Complex18
+Biochemical Reaction13   Protein23          Complex18
+Biochemical Reaction14   Complex19          Complex20
+Biochemical Reaction14   Complex15          Complex20
+Biochemical Reaction14   Protein10          Complex20
+Biochemical Reaction15   Complex20          Complex19
+Biochemical Reaction15   Complex20          Complex21
+Biochemical Reaction15   Complex20          Small Molecule4
+Biochemical Reaction15   Complex20          Protein23
+Biochemical Reaction15   Complex20          Protein10
+Biochemical Reaction15   Small Molecule3    Complex19
+Biochemical Reaction15   Small Molecule3    Complex21
+Biochemical Reaction15   Small Molecule3    Small Molecule4
+Biochemical Reaction15   Small Molecule3    Protein23
+Biochemical Reaction15   Small Molecule3    Protein10
+Biochemical Reaction16   Protein31          Complex22
+Biochemical Reaction16   Protein30          Complex22
+Biochemical Reaction17   Complex22          Complex23
+Biochemical Reaction18   Protein31          Complex24
+Biochemical Reaction18   Protein33          Complex24
+Biochemical Reaction19   Complex24          Complex25
+Biochemical Reaction19   Protein36          Complex25
+Biochemical Reaction2    Complex2           Complex3
+Biochemical Reaction20   Complex25          Protein40
+Biochemical Reaction20   Complex25          Complex26
+Biochemical Reaction21   Protein41          Complex27
+Biochemical Reaction21   Protein31          Complex27
+Biochemical Reaction22   Complex27          Complex28
+Biochemical Reaction23   Complex29          Complex30
+Biochemical Reaction23   Complex9           Complex30
+Biochemical Reaction24   Protein43          Physical Entity2
+Biochemical Reaction24   Protein43          Complex31
+Biochemical Reaction24   Complex30          Physical Entity2
+Biochemical Reaction24   Complex30          Complex31
+Biochemical Reaction25   Protein58          Complex32
+Biochemical Reaction25   Complex31          Complex32
+Biochemical Reaction26   Complex32          Protein43
+Biochemical Reaction26   Complex32          Protein58
+Biochemical Reaction26   Complex32          Complex33
+Biochemical Reaction26   Small Molecule3    Protein43
+Biochemical Reaction26   Small Molecule3    Protein58
+Biochemical Reaction26   Small Molecule3    Complex33
+Biochemical Reaction27   Protein32          Complex34
+Biochemical Reaction27   Protein15          Complex34
+Biochemical Reaction28   Protein43          Protein32
+Biochemical Reaction28   Protein43          Complex35
+Biochemical Reaction28   Complex34          Protein32
+Biochemical Reaction28   Complex34          Complex35
+Biochemical Reaction29   Protein61          Complex36
+Biochemical Reaction29   Protein14          Complex36
+Biochemical Reaction3    Complex4           Complex5
+Biochemical Reaction3    Complex3           Complex5
+Biochemical Reaction30   Protein43          Protein61
+Biochemical Reaction30   Protein43          Complex37
+Biochemical Reaction30   Complex36          Protein61
+Biochemical Reaction30   Complex36          Complex37
+Biochemical Reaction31   Protein62          Complex38
+Biochemical Reaction31   Protein18          Complex38
+Biochemical Reaction32   Protein63          Complex39
+Biochemical Reaction32   Physical Entity1   Complex39
+Biochemical Reaction33   Protein64          Complex40
+Biochemical Reaction33   Protein18          Complex40
+Biochemical Reaction34   Complex40          Protein64
+Biochemical Reaction34   Complex40          Physical Entity1
+Biochemical Reaction34   Complex40          Small Molecule4
+Biochemical Reaction34   Small Molecule3    Protein64
+Biochemical Reaction34   Small Molecule3    Physical Entity1
+Biochemical Reaction34   Small Molecule3    Small Molecule4
+Biochemical Reaction35   Complex6           Complex43
+Biochemical Reaction35   Complex41          Complex43
+Biochemical Reaction36   Complex5           Complex44
+Biochemical Reaction36   Complex5           Protein8
+Biochemical Reaction36   Complex43          Complex44
+Biochemical Reaction36   Complex43          Protein8
+Biochemical Reaction37   Small Molecule1    Small Molecule2
+Biochemical Reaction37   Small Molecule1    Complex45
+Biochemical Reaction37   Complex44          Small Molecule2
+Biochemical Reaction37   Complex44          Complex45
+Biochemical Reaction38   Protein37          Complex48
+Biochemical Reaction38   Complex45          Complex48
+Biochemical Reaction39   Protein43          Complex49
+Biochemical Reaction39   Complex48          Complex49
+Biochemical Reaction4    Complex5           Complex8
+Biochemical Reaction4    Complex5           Protein8
+Biochemical Reaction4    Complex6           Complex8
+Biochemical Reaction4    Complex6           Protein8
+Biochemical Reaction41   Complex14          Complex50
+Biochemical Reaction42   Complex50          Complex51
+Biochemical Reaction42   Complex50          Small Molecule6
+Biochemical Reaction42   Small Molecule5    Complex51
+Biochemical Reaction42   Small Molecule5    Small Molecule6
+Biochemical Reaction43   Complex14          Complex55
+Biochemical Reaction43   Protein87          Complex55
+Biochemical Reaction44   Complex55          Complex56
+Biochemical Reaction45   Dna1               Protein31
+Biochemical Reaction46   Dna2               Protein89
+Biochemical Reaction47   Protein31          Complex58
+Biochemical Reaction47   Protein94          Complex58
+Biochemical Reaction48   Complex58          Complex59
+Biochemical Reaction48   Complex58          Protein94
+Biochemical Reaction48   Protein95          Complex59
+Biochemical Reaction48   Protein95          Protein94
+Biochemical Reaction49   Complex50          Complex61
+Biochemical Reaction49   Complex60          Complex61
+Biochemical Reaction5    Small Molecule1    Small Molecule2
+Biochemical Reaction5    Small Molecule1    Complex9
+Biochemical Reaction5    Complex8           Small Molecule2
+Biochemical Reaction5    Complex8           Complex9
+Biochemical Reaction50   Dna3               Protein117
+Biochemical Reaction51   Complex50          Complex62
+Biochemical Reaction51   Protein118         Complex62
+Biochemical Reaction52   Dna4               Protein119
+Biochemical Reaction53   Complex50          Complex63
+Biochemical Reaction53   Protein120         Complex63
+Biochemical Reaction54   Dna5               Protein121
+Biochemical Reaction55   Protein122         Complex64
+Biochemical Reaction55   Complex50          Complex64
+Biochemical Reaction55   Physical Entity4   Complex64
+Biochemical Reaction56   Protein131         Complex65
+Biochemical Reaction56   Complex64          Complex65
+Biochemical Reaction57   Complex65          Complex50
+Biochemical Reaction57   Complex65          Protein131
+Biochemical Reaction57   Complex65          Complex66
+Biochemical Reaction57   Complex65          Physical Entity4
+Biochemical Reaction57   Protein95          Complex50
+Biochemical Reaction57   Protein95          Protein131
+Biochemical Reaction57   Protein95          Complex66
+Biochemical Reaction57   Protein95          Physical Entity4
+Biochemical Reaction58   Complex50          Complex67
+Biochemical Reaction58   Protein132         Complex67
+Biochemical Reaction59   Complex67          Protein74
+Biochemical Reaction59   Complex67          Complex68
+Biochemical Reaction59   Complex67          Protein132
+Biochemical Reaction59   Protein95          Protein74
+Biochemical Reaction59   Protein95          Complex68
+Biochemical Reaction59   Protein95          Protein132
+Biochemical Reaction6    Physical Entity1   Complex11
+Biochemical Reaction6    Complex9           Complex11
+Biochemical Reaction6    Protein10          Complex11
+Biochemical Reaction60   Complex68          Complex69
+Biochemical Reaction61   Complex69          Complex70
+Biochemical Reaction61   Protein133         Complex70
+Biochemical Reaction62   Complex70          Protein43
+Biochemical Reaction62   Complex70          Protein133
+Biochemical Reaction62   Complex70          Protein22
+Biochemical Reaction62   Small Molecule3    Protein43
+Biochemical Reaction62   Small Molecule3    Protein133
+Biochemical Reaction62   Small Molecule3    Protein22
+Biochemical Reaction63   Protein41          Complex71
+Biochemical Reaction63   Complex51          Complex71
+Biochemical Reaction64   Complex71          Protein41
+Biochemical Reaction64   Complex71          Complex72
+Biochemical Reaction64   Protein95          Protein41
+Biochemical Reaction64   Protein95          Complex72
+Biochemical Reaction65   Complex51          Complex73
+Biochemical Reaction65   Protein30          Complex73
+Biochemical Reaction66   Complex73          Protein73
+Biochemical Reaction66   Complex73          Protein30
+Biochemical Reaction66   Complex73          Complex74
+Biochemical Reaction66   Protein95          Protein73
+Biochemical Reaction66   Protein95          Protein30
+Biochemical Reaction66   Protein95          Complex74
+Biochemical Reaction67   Complex50          Complex57
+Biochemical Reaction67   Protein90          Complex57
+Biochemical Reaction67   Protein93          Complex57
+Biochemical Reaction68   Complex50          Complex75
+Biochemical Reaction68   Protein134         Complex75
+Biochemical Reaction69   Small Molecule7    Protein134
+Biochemical Reaction69   Small Molecule7    Complex76
+Biochemical Reaction69   Small Molecule7    Small Molecule8
+Biochemical Reaction69   Complex75          Protein134
+Biochemical Reaction69   Complex75          Complex76
+Biochemical Reaction69   Complex75          Small Molecule8
+Biochemical Reaction7    Small Molecule1    Small Molecule2
+Biochemical Reaction7    Small Molecule1    Complex12
+Biochemical Reaction7    Complex11          Small Molecule2
+Biochemical Reaction7    Complex11          Complex12
+Biochemical Reaction70   Complex50          Complex77
+Biochemical Reaction70   Protein138         Complex77
+Biochemical Reaction71   Complex77          Protein73
+Biochemical Reaction71   Complex77          Small Molecule10
+Biochemical Reaction71   Complex77          Protein138
+Biochemical Reaction71   Complex77          Physical Entity5
+Biochemical Reaction71   Small Molecule9    Protein73
+Biochemical Reaction71   Small Molecule9    Small Molecule10
+Biochemical Reaction71   Small Molecule9    Protein138
+Biochemical Reaction71   Small Molecule9    Physical Entity5
+Biochemical Reaction72   Physical Entity5   Physical Entity1
+Biochemical Reaction8    Complex12          Complex13
+Biochemical Reaction8    Complex12          Protein18
+Biochemical Reaction9    Protein22          Complex14
+Biochemical Reaction9    Protein18          Complex14
+

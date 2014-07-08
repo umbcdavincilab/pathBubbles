@@ -1,0 +1,158 @@
+edge.size() 87
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 69 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 69 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 69 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 69 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 67 -1 82 0 -1
+ 67 -1 80 -1 82 0 -1
+ 67 -1 69 -1 82 0 -1
+ 67 -1 67 1 82 -1 -1
+ 80 3 80 0 82 1 -1
+ 67 1 80 0 82 1 -1
+ 67 1 67 2 82 1 -1
+ 80 3 67 2 82 1 -1
+ 67 1 80 1 82 1 -1
+ 80 3 80 1 82 1 -1
+ 67 1 80 2 82 1 -1
+ 80 3 80 2 82 1 -1
+ 80 -1 67 -1 82 2 -1
+ 80 -1 67 -1 82 2 -1
+ 67 -1 67 -1 82 2 -1
+ 67 -1 80 -1 82 2 -1
+ 80 -1 80 -1 82 2 -1
+ 80 -1 80 -1 82 2 -1
+ 67 -1 80 -1 82 2 -1
+ 80 -1 80 -1 82 2 -1
+ 80 -1 80 -1 82 2 -1
+ 67 -1 67 3 82 -1 -1
+ 67 3 80 0 82 3 -1
+ 80 3 80 0 82 3 -1
+ 80 3 67 4 82 3 -1
+ 67 3 67 4 82 3 -1
+ 80 3 80 2 82 3 -1
+ 67 3 80 2 82 3 -1
+ 67 -1 67 -1 82 4 -1
+ 80 -1 67 -1 82 4 -1
+ 80 -1 67 -1 82 4 -1
+ 80 -1 67 -1 82 4 -1
+ 80 -1 67 -1 82 4 -1
+ 67 -1 67 -1 82 4 -1
+ 67 -1 67 5 82 -1 -1
+ 67 5 80 0 82 5 -1
+ 80 3 80 0 82 5 -1
+ 80 3 67 6 82 5 -1
+ 67 5 67 6 82 5 -1
+ 80 3 80 2 82 5 -1
+ 67 5 80 2 82 5 -1
+ 67 -1 67 -1 82 6 -1
+ 80 -1 67 -1 82 6 -1
+ 80 -1 67 -1 82 6 -1
+ 80 -1 67 -1 82 6 -1
+ 80 -1 67 -1 82 6 -1
+ 67 -1 67 -1 82 6 -1
+ 80 -1 67 -1 82 6 -1
+ 80 -1 67 -1 82 6 -1
+ 67 -1 67 -1 82 6 -1
+ 67 -1 67 7 82 -1 -1
+ 80 3 80 0 82 7 -1
+ 67 7 80 0 82 7 -1
+ 67 7 67 8 82 7 -1
+ 80 3 67 8 82 7 -1
+ 67 7 80 2 82 7 -1
+ 80 3 80 2 82 7 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 -1 -1
+ 67 0 82 1 82 1 -1
+ 67 0 82 1 82 2 -1
+ 67 0 82 1 82 -1 -1
+ 67 0 82 1 82 3 -1
+ 67 0 82 1 82 4 -1
+ 67 0 82 1 82 -1 -1
+ 67 0 82 1 82 5 -1
+ 67 0 82 1 82 6 -1
+ 67 0 82 1 82 -1 -1
+ 67 0 82 1 82 7 -1
+_complexName.size()	9
+	Nuclear Pore Complex (NPC)	nuclear envelope	Reactome DB_ID: 157689	
+	Export Receptor bound mature mRNA Complex	cytosol	Reactome DB_ID: 159259	
+	Mature mRNP Complex	cytosol	Reactome DB_ID: 159329	
+	Mature intronless transcript derived Histone mRNA:SLBP:TAP:Aly/Ref complex	cytosol	Reactome DB_ID: 159045	
+	Mature intronless transcript derived Histone mRNA:SLBP:eIF4E Complex	cytosol	Reactome DB_ID: 141614	
+	Mature Intronless Transcript Derived Histone mRNA:TAP:Aly/Ref Complex	cytosol	Reactome DB_ID: 158480	
+	Mature SLBP independent Histone mRNA:eIF4E complex	cytosol	Reactome DB_ID: 158501	
+	Mature intronless derived mRNA:TAP:Aly/Ref complex	cytosol	Reactome DB_ID: 158442	
+	Mature Intronless Transcript Derived mRNA:eIF4E Complex	cytosol	Reactome DB_ID: 113818	
+_physicalEntityName.size()	0
+_proteinName.size()	4
+	TAP	cytosol	Reactome DB_ID: 156481	UniProt:Q9UBU9	NXF1
+	SRRM1	cytosol	Reactome DB_ID: 159255	UniProt:Q8IYB3	SRRM1
+	ALYREF	cytosol	Reactome DB_ID: 158482	UniProt:Q86V81	ALYREF
+	EIF4E	cytosol	Reactome DB_ID: 72578	UniProt:P06730	EIF4E
+_reactionName.size()	8
+	B	Docking of the TAP:EJC Complex with the NPC
+	T	Release from the NPC and Disassembly of the mRNP
+	T	Docking of Mature Replication Dependent Histone mRNA with the NPC
+	T	Release of the Mature intronless transcript derived Histone mRNA:SLBP:eIF4E Complex
+	T	Docking of Mature Histone mRNA complex:TAP at the NPC
+	T	Release of the SLBP independent Histone mRNA from the NPC
+	T	Docking of the Mature intronless derived transcript derived mRNA, TAP and Aly/Ref at the NPC
+	T	Release of the Mature intronless derived mRNA, TAP, and Aly/Ref from the NPC
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

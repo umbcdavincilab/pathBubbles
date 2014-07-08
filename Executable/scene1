@@ -1,0 +1,217 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(2, 0, 94, 55)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>PathBubble1</Type>
+            <Position>(550, 671)</Position>
+            <Size>(620,649)</Size>
+            <BoarderColor>(41, 107, 214)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName></FileName>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>iterms/FURIN.txt</FileName>
+                    <Position>(1101, 383)</Position>
+                </Descendant>
+                <Descendant descID="1">
+                    <FileName>TGFB1:p-TGFBR:I-SMAD7:GADD34:PP1:SARA</FileName>
+                    <Position>(1000, 120)</Position>
+                </Descendant>
+                <Descendant descID="2">
+                    <FileName>SMAD7:SMURF/NEDD4L</FileName>
+                    <Position>(1050, 120)</Position>
+                </Descendant>
+                <Descendant descID="1">
+                    <FileName></FileName>
+                    <Position>(1052, 877)</Position>
+                </Descendant>
+                <Descendant descID="2">
+                    <FileName></FileName>
+                    <Position>(1073, 637)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <TextBubblePosition>
+                <Position posID="1">
+                    <ConPoint>(-245.622, -230.805)</ConPoint>
+                </Position>
+            </TextBubblePosition>
+            <ReactionBubblePosition>
+                <Position posID="1">
+                    <ConPoint>(61.1023, 22.7617)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(158.357, -105.055)</ConPoint>
+                </Position>
+            </ReactionBubblePosition>
+            <GroupBubblePosition>
+                <Position posID="1">
+                    <ConPoint>(154, 215.5)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(-49, 134)</ConPoint>
+                </Position>
+            </GroupBubblePosition>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="1">
+            <Type>TextBubble2</Type>
+            <Position>(1101, 383)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(235, 44, 169)</BoarderColor>
+            <HighlightColor>(37, 142, 81)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>iterms/FURIN.txt</FileName>
+            <ParentBubble>
+                <FileName></FileName>
+                <Position>(550, 671)</Position>
+            </ParentBubble>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>iterms/FURIN&amp;mature.txt</FileName>
+                    <Position>(1398, 336)</Position>
+                </Descendant>
+                <Descendant descID="2">
+                    <FileName>iterms/FURIN&amp;cleaved.txt</FileName>
+                    <Position>(1381, 613)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <ConnectPosition>
+                <Position posID="1">
+                    <ConPoint>(-80, -93)</ConPoint>
+                </Position>
+                <Position posID="2">
+                    <ConPoint>(-98, -80)</ConPoint>
+                </Position>
+            </ConnectPosition>
+        </Bubble>
+    </Group>
+    <Group groupID="3">
+        <Bubble bubbleID="1">
+            <Type>TextBubble2</Type>
+            <Position>(1398, 336)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(3, 33, 187)</BoarderColor>
+            <HighlightColor>(3, 33, 187)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>iterms/FURIN&amp;mature.txt</FileName>
+            <ParentBubble>
+                <FileName>iterms/FURIN.txt</FileName>
+                <Position>(1101, 383)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="4">
+        <Bubble bubbleID="1">
+            <Type>TextBubble2</Type>
+            <Position>(1381, 613)</Position>
+            <Size>(260,260)</Size>
+            <BoarderColor>(236, 190, 212)</BoarderColor>
+            <HighlightColor>(37, 142, 81)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>iterms/FURIN&amp;cleaved.txt</FileName>
+            <ParentBubble>
+                <FileName>iterms/FURIN.txt</FileName>
+                <Position>(1101, 383)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="5">
+        <Bubble bubbleID="1">
+            <Type>GroupBubble4</Type>
+            <Position>(1052, 877)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(69, 77, 153)</BoarderColor>
+            <HighlightColor>(37, 142, 81)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName></FileName>
+            <ParentBubble>
+                <FileName></FileName>
+                <Position>(550, 671)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="6">
+        <Bubble bubbleID="1">
+            <Type>GroupBubble4</Type>
+            <Position>(1073, 637)</Position>
+            <Size>(200,200)</Size>
+            <BoarderColor>(37, 142, 81)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName></FileName>
+            <ParentBubble>
+                <FileName></FileName>
+                <Position>(550, 671)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="7">
+        <Bubble bubbleID="1">
+            <Type>ReactionBubble3</Type>
+            <Position>(1050, 120)</Position>
+            <Size>(50,50)</Size>
+            <BoarderColor>(92, 51, 236)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>SMAD7:SMURF/NEDD4L</FileName>
+            <ParentBubble>
+                <FileName></FileName>
+                <Position>(550, 671)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+        <Bubble bubbleID="2">
+            <Type>ReactionBubble3</Type>
+            <Position>(1000, 120)</Position>
+            <Size>(50,50)</Size>
+            <BoarderColor>(92, 51, 236)</BoarderColor>
+            <HighlightColor>(92, 51, 236)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>TGFB1:p-TGFBR:I-SMAD7:GADD34:PP1:SARA</FileName>
+            <ParentBubble>
+                <FileName></FileName>
+                <Position>(550, 671)</Position>
+            </ParentBubble>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="8">
+        <Bubble bubbleID="1">
+            <Type>ReactionBubble3</Type>
+            <Position>(1031, 169)</Position>
+            <Size>(50,50)</Size>
+            <BoarderColor>(63, 84, 22)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>???</FileName>
+            <DescendantBubble/>
+            <ConnectPosition/>
+        </Bubble>
+    </Group>
+    <Group groupID="9">
+        <Bubble bubbleID="1">
+            <Type>Web</Type>
+            <Position>(1695, 636)</Position>
+            <Size>(298,298)</Size>
+            <BoarderColor>(204, 143, 96)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <Path></Path>
+        </Bubble>
+    </Group>
+</Scene>

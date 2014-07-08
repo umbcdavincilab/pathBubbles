@@ -1,0 +1,1649 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Pathway>
+    <complexBlock Num="77">
+        <complex j="1">
+            <Name>Pre-TGFB1 complex</Name>
+            <Position>(0.0509054, 0.219655, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="2">
+            <Name>Large latent complex of TGFB1</Name>
+            <Position>(0.121494, 0.219643, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="3">
+            <Name>Dimeric TGFB1</Name>
+            <Position>(0.215611, 0.0151098, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="4">
+            <Name>TGFBR2 homodimer</Name>
+            <Position>(0.215611, 0.0832917, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="5">
+            <Name>Dimeric TGFB1:TGFBR2 homodimer</Name>
+            <Position>(0.305807, 0.0756909, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="6">
+            <Name>TGFBR1:FKBP1A</Name>
+            <Position>(0.325415, 0.136322, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="7">
+            <Name>TGFBR1 homodimer</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="8">
+            <Name>TGFB1:TGFBR2:TGFBR1</Name>
+            <Position>(0.384239, 0.121158, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="9">
+            <Name>Reactome DB_ID: 170841  </Name>
+            <Position>(0.478356, 0.128734, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="10">
+            <Name>p-TGFBR1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="11">
+            <Name>TGFB1:p-TGFBR:SARA:SMAD2/3</Name>
+            <Position>(0.41169, 0.454491, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="12">
+            <Name>TGFB1:p-TGFBR:SARA:p-2S-SMAD2/3</Name>
+            <Position>(0.41169, 0.605994, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="13">
+            <Name>TGFB1:p-TGFBR:SARA</Name>
+            <Position>(0.474435, 0.606006, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="14">
+            <Name>p-2S-SMAD2/3:SMAD4</Name>
+            <Position>(0.427376, 0.765097, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="15">
+            <Name>TGFB1:p-TGFBR:I-SMAD7</Name>
+            <Position>(0.670513, 0.151461, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="16">
+            <Name>TGFB1:p-TGFBR:STRAP</Name>
+            <Position>(0.568552, 0.136309, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="17">
+            <Name>TGFBR:STRAP</Name>
+            <Position>(0.568552, 0.0984432, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="18">
+            <Name>TGFB1:p-TGFBR:STRAP:SMAD7</Name>
+            <Position>(0.650905, 0.0984307, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="19">
+            <Name>GADD34:PP1</Name>
+            <Position>(0.890121, 0.492383, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="20">
+            <Name>TGFB1:p-TGFBR:I-SMAD7:GADD34:PP1:SARA</Name>
+            <Position>(0.568552, 0.515072, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="21">
+            <Name>TGFB1:TGFBR2:TGFBR1</Name>
+            <Position>(0.568552, 0.643885, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="22">
+            <Name>SMAD7:SMURF2</Name>
+            <Position>(0.71365, 0.833292, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="23">
+            <Name>SMAD7:SMURF2</Name>
+            <Position>(0.792082, 0.492383, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="24">
+            <Name>SMAD7:SMURF1</Name>
+            <Position>(0.71365, 0.878746, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="25">
+            <Name>SMAD7:SMURF1:XPO1</Name>
+            <Position>(0.799925, 0.878746, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="26">
+            <Name>SMAD7:SMURF1</Name>
+            <Position>(0.843062, 0.492383, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="27">
+            <Name>SMAD7:NEDD4L</Name>
+            <Position>(0.71365, 0.924201, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="28">
+            <Name>SMAD7:NEDD4L</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="29">
+            <Name>SMAD7:SMURF/NEDD4L</Name>
+            <Position>(0.735989, 0.420537, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="30">
+            <Name>TGFB1:TGFBR2:p-TGFBR1:SMAD7:SMURF/NEDD4L</Name>
+            <Position>(0.792082, 0.136284, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="31">
+            <Name>TGFB1:TGFBR2:Ub-p-TGFBR1:Ub-SMAD7</Name>
+            <Position>(0.894043, 0.136297, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="32">
+            <Name>TGFB1:TGFBR2:Ub-p-TGFBR1:Ub-SMAD7:UCHL5/USP15</Name>
+            <Position>(0.968552, 0.158999, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="33">
+            <Name>TGFB1:TGFBR2:p-TGFBR1:Ub-SMAD7</Name>
+            <Position>(0.725415, 0.136297, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="34">
+            <Name>SMAD2:SMURF2</Name>
+            <Position>(0.521494, 0.295413, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="35">
+            <Name>Ub-SMAD2</Name>
+            <Position>(0.58816, 0.295425, 0.06, 0.0233333)</Position>
+        </complex>
+        <complex j="36">
+            <Name>SMAD3:STUB1</Name>
+            <Position>(0.521494, 0.401473, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="37">
+            <Name>Ub-SMAD3</Name>
+            <Position>(0.58816, 0.401486, 0.06, 0.0233333)</Position>
+        </complex>
+        <complex j="38">
+            <Name>p-2S-SMAD2/3:PMEPA1</Name>
+            <Position>(0.501886, 0.674188, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="39">
+            <Name>SMAD2/3:PMEPA1</Name>
+            <Position>(0.521494, 0.189352, 0.06, 0.0333333)</Position>
+        </complex>
+        <complex j="40">
+            <Name>p-2S-SMAD2/3:MTMR4</Name>
+            <Position>(0.33718, 0.590855, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="41">
+            <Name>Tight Junction Complex:PARD6A:RHOA</Name>
+            <Position>(0.18816, 0.234769, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="42">
+            <Name>PARD3:PARD6A:PRKCZ</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="43">
+            <Name>Tight Junction Complex:TGFBR1:PARD6A:RHOA</Name>
+            <Position>(0.040124, 0.367847, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="44">
+            <Name>Tight Junction Complex:TGFB1:TGFBR2:TGFBR1:PARD6A:RHOA</Name>
+            <Position>(0.0174654, 0.532526, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="45">
+            <Name>Tight Junction Complex:TGFB1:TGFBR2:p-TGFBR1:p-PARD6A:RHOA</Name>
+            <Position>(0.18816, 0.537762, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="46">
+            <Name>Tight Junction Complex:p-PARD6A:RHOA</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="47">
+            <Name>PARD3:p-PARD6A:PRKCZ</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="48">
+            <Name>Tight Junction Complex:TGFB1:TGFBR2:p-TGFBR1:p-PARD6A:RHOA:SMURF1</Name>
+            <Position>(0.18816, 0.636234, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="49">
+            <Name>Tight Junction Complex:TGFB1:TGFBR2:p-TGFBR1:p-PARD6A:Ub-RHOA:SMURF1</Name>
+            <Position>(0.18816, 0.734707, 0.06, 0.04)</Position>
+        </complex>
+        <complex j="50">
+            <Name>p-2S-SMAD2/3:SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="51">
+            <Name>p-T,2S-SMAD2/3:SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="52">
+            <Name>P-TEFb complex/CDK8:CCNC</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="53">
+            <Name>CDK8:CCNC</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="54">
+            <Name>P-TEFb complex</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="55">
+            <Name>WWTR1:p-2S-SMAD2/3:SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="56">
+            <Name>WWTR1:p-2S-SMAD2/3:SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="57">
+            <Name>p-2S-SMAD2/3:SMAD4:TGIF:HDAC1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="58">
+            <Name>SMAD7:RNF111</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="59">
+            <Name>Ub-SMAD7</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="60">
+            <Name>RBL1:E2F4/5:DP1/2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="61">
+            <Name>p-SMAD2/3:SMAD4:RBL1:E2F4/5:DP1/2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="62">
+            <Name>p-2S-SMAD2/3:SMAD4:SP1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="63">
+            <Name>p-2S-SMAD2/3:SMAD4:MEN1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="64">
+            <Name>p-2S-SMAD2/3:SMAD4:SKI/SKIL:NCOR</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="65">
+            <Name>p-2S-SMAD2/3:SMAD4:SKI/SKIL:NCOR:RNF111/SMURF2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="66">
+            <Name>Ub-SKI/Ub-SKIL</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="67">
+            <Name>p-SMAD2/3:SMAD4:TRIM33</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="68">
+            <Name>Ub-SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="69">
+            <Name>Ub-SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="70">
+            <Name>Ub-SMAD4:USP9X</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="71">
+            <Name>p-T-2S-SMAD2/3:SMAD4:NEDDL4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="72">
+            <Name>Ub-p-T-2S-SMAD2/3:SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="73">
+            <Name>p-T-2S-SMAD2/3:SMAD4:SMURF2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="74">
+            <Name>Ub-p-T-2S-SMAD2/3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="75">
+            <Name>p-2S-SMAD2/3:SMAD4:PARP1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="76">
+            <Name>PAR-SMAD2/3:PAR-SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+        <complex j="77">
+            <Name>p-2S-SMAD2/3:SMAD4:PPM1A</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </complex>
+    </complexBlock>
+    <proteinBlock Num="145">
+        <protein j="1">
+            <Name>TGF-beta 1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="2">
+            <Name>TGF-beta 1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="3">
+            <Name>TGF-beta 1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="4">
+            <Name>FURIN</Name>
+            <Position>(0.0838361, 0.132701, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="5">
+            <Name>TGF-beta-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="6">
+            <Name>TGF-beta II receptor</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="7">
+            <Name>TGF-beta I receptor</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="8">
+            <Name>FKBP1A</Name>
+            <Position>(0.358564, 0.336865, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="9">
+            <Name>Phospho-TGF-beta I receptor</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="10">
+            <Name>SARA-2/SARA-3/SARA</Name>
+            <Position>(0.473224, 0.47203, 0.04, 0.04)</Position>
+        </protein>
+        <protein j="11">
+            <Name>SARA</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="12">
+            <Name>SARA-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="13">
+            <Name>SARA-3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="14">
+            <Name>SMAD3</Name>
+            <Position>(0.491171, 0.337817, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="15">
+            <Name></Name>
+            <Position>(0.481027, 0.285793, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="16">
+            <Name>SMAD2 isoform 1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="17">
+            <Name>SMAD2 isoform 2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="18">
+            <Name></Name>
+            <Position>(0.382314, 0.711132, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="19">
+            <Name>Phospho-SMAD 2-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="20">
+            <Name>Phospho-SMAD 2-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="21">
+            <Name>Phospho-SMAD 3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="22">
+            <Name>SMAD4</Name>
+            <Position>(0.358124, 0.764664, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="23">
+            <Name>SMAD7</Name>
+            <Position>(0.608612, 0.293322, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="24">
+            <Name>STRAP</Name>
+            <Position>(0.543064, 0.214903, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="25">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="26">
+            <Name>PP1CA</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="27">
+            <Name>PP1CB</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="28">
+            <Name>PP1CC</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="29">
+            <Name>GADD34</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="30">
+            <Name>SMURF2</Name>
+            <Position>(0.652311, 0.797847, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="31">
+            <Name>SMAD7</Name>
+            <Position>(0.611733, 0.829521, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="32">
+            <Name>SMURF2</Name>
+            <Position>(0.504437, 0.231482, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="33">
+            <Name></Name>
+            <Position>(0.640996, 0.891374, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="34">
+            <Name>SMURF1-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="35">
+            <Name>SMURF1-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="36">
+            <Name>XPO1</Name>
+            <Position>(0.751413, 0.861208, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="37">
+            <Name></Name>
+            <Position>(0.230539, 0.571615, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="38">
+            <Name>SMURF1-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="39">
+            <Name>SMURF1-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="40">
+            <Name>XPO1</Name>
+            <Position>(0.818522, 0.60706, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="41">
+            <Name>NEDD4L</Name>
+            <Position>(0.595346, 0.930577, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="42">
+            <Name>NEDD4L</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="43">
+            <Name></Name>
+            <Position>(0.538382, 0.339337, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="44">
+            <Name>ubiquitin (RPS27A)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="45">
+            <Name>ubiquitin (UBA52)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="46">
+            <Name>ubiquitin (UBB 1)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="47">
+            <Name>ubiquitin (UBB 2)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="48">
+            <Name>ubiquitin (UBB 3)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="49">
+            <Name>ubiquitin (UBC 1)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="50">
+            <Name>ubiquitin (UBC 2)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="51">
+            <Name>ubiquitin (UBC 3)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="52">
+            <Name>ubiquitin (UBC 4)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="53">
+            <Name>ubiquitin (UBC 5)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="54">
+            <Name>ubiquitin (UBC 6)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="55">
+            <Name>ubiquitin (UBC 7)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="56">
+            <Name>ubiquitin (UBC 8)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="57">
+            <Name>ubiquitin (UBC 9)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="58">
+            <Name></Name>
+            <Position>(0.912552, 0.23074, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="59">
+            <Name>UCHL5</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="60">
+            <Name>USP15</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="61">
+            <Name>STUB1</Name>
+            <Position>(0.474784, 0.395898, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="62">
+            <Name>STAG1</Name>
+            <Position>(0.460348, 0.640996, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="63">
+            <Name>STAG1</Name>
+            <Position>(0.482978, 0.180966, 0.04, 0.0233333)</Position>
+        </protein>
+        <protein j="64">
+            <Name>MTMR4</Name>
+            <Position>(0.338616, 0.637967, 0.04, 0.0333333)</Position>
+        </protein>
+        <protein j="65">
+            <Name>ARHGEF18</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="66">
+            <Name>CGN</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="67">
+            <Name>F11R</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="68">
+            <Name>RHOA</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="69">
+            <Name>PARD6A</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="70">
+            <Name>PRKCZ</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="71">
+            <Name>PARD3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="72">
+            <Name>p-PARD6A</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="73">
+            <Name>SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="74">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="75">
+            <Name>Phospho-SMAD 2-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="76">
+            <Name>Phospho-SMAD 2-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="77">
+            <Name>Phospho-SMAD 3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="78">
+            <Name>p-T179, S423, S425-SMAD 3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="79">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="80">
+            <Name>p-T220, S465, S467-SMAD2-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="81">
+            <Name>p-T190, S435, S437-SMAD 2-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="82">
+            <Name>CycC</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="83">
+            <Name>CDK8</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="84">
+            <Name>Cyclin T2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="85">
+            <Name>CycT1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="86">
+            <Name>C-2K</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="87">
+            <Name>TAZ</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="88">
+            <Name>TAZ</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="89">
+            <Name>PAI</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="90">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="91">
+            <Name>TGIF</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="92">
+            <Name>TGIF2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="93">
+            <Name>HDAC1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="94">
+            <Name>RNF111</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="95">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="96">
+            <Name>ubiquitin (RPS27A)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="97">
+            <Name>ubiquitin (UBA52)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="98">
+            <Name>ubiquitin (UBB 1)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="99">
+            <Name>Reactome DB_ID: 939870</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="100">
+            <Name>ubiquitin (UBB 3)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="101">
+            <Name>ubiquitin (UBC 1)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="102">
+            <Name>ubiquitin (UBC 2)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="103">
+            <Name>ubiquitin (UBC 3)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="104">
+            <Name>ubiquitin (UBC 4)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="105">
+            <Name>ubiquitin (UBC 5)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="106">
+            <Name>ubiquitin (UBC 6)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="107">
+            <Name>ubiquitin (UBC 7)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="108">
+            <Name>ubiquitin (UBC 8)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="109">
+            <Name>ubiquitin (UBC 9)</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="110">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="111">
+            <Name>DP-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="112">
+            <Name>DP2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="113">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="114">
+            <Name>E2F4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="115">
+            <Name>E2F5</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="116">
+            <Name>RBL1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="117">
+            <Name>MYC</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="118">
+            <Name>SP1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="119">
+            <Name>MTS2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="120">
+            <Name>MEN1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="121">
+            <Name>JUNB</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="122">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="123">
+            <Name>SKI</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="124">
+            <Name>SNO</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="125">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="126">
+            <Name>NCOR1-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="127">
+            <Name>NCOR1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="128">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="129">
+            <Name>NCOR2-1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="130">
+            <Name>NCOR2-2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="131">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="132">
+            <Name>TRIM33</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="133">
+            <Name>FAM</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="134">
+            <Name>PARP1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="135">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="136">
+            <Name>PAR,p-2S-SMAD3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="137">
+            <Name>PAR-SMAD4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="138">
+            <Name>PPM1A</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="139">
+            <Name>SMAD3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="140">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="141">
+            <Name>SMAD2 isoform 2</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="142">
+            <Name>SMAD2 isoform 1</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="143">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="144">
+            <Name>UbcH5/Ubc4</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+        <protein j="145">
+            <Name>UBCH5c</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </protein>
+    </proteinBlock>
+    <physicalEntityBlock Num="10">
+        <physicalEntity j="1">
+            <Name>SMAD3</Name>
+            <Position>(0.456786, 0.366487, 0.08, 0.0233333)</Position>
+        </physicalEntity>
+        <physicalEntity j="2">
+            <Name>NEDD4L/SMURF2</Name>
+            <Position>(0.85944, 0.211874, 0.08, 0.0333333)</Position>
+        </physicalEntity>
+        <physicalEntity j="3">
+            <Name>p-T179, S423, S425-SMAD 3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="4">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="5">
+            <Name>SMAD3</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="6">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="7">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="8">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="9">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+        <physicalEntity j="10">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </physicalEntity>
+    </physicalEntityBlock>
+    <smallMoleculeBlock Num="10">
+        <smallMolecule j="1">
+            <Name>ATP</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="2">
+            <Name>ADP</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="3">
+            <Name>H2O</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="4">
+            <Name>Pi</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="5">
+            <Name>ATP</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="6">
+            <Name>ADP</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="7">
+            <Name>NAD</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="8">
+            <Name>Nicotinamide</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="9">
+            <Name>Reactome DB_ID: 113518</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+        <smallMolecule j="10">
+            <Name>Pi</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </smallMolecule>
+    </smallMoleculeBlock>
+    <DnaBlock Num="5">
+        <Dna j="1">
+            <Name>SMAD7 gene</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </Dna>
+        <Dna j="2">
+            <Name>SERPINE1 gene</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </Dna>
+        <Dna j="3">
+            <Name>MYC gene</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </Dna>
+        <Dna j="4">
+            <Name>CDKN2B gene</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </Dna>
+        <Dna j="5">
+            <Name>JUNB gene</Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </Dna>
+    </DnaBlock>
+    <reactionBlock Num="72">
+        <reaction j="1">
+            <Name></Name>
+            <Position>(0.1162, 0.237982, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="2">
+            <Name></Name>
+            <Position>(0.198552, 0.13571, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="3">
+            <Name></Name>
+            <Position>(0.290709, 0.0807792, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="4">
+            <Name></Name>
+            <Position>(0.371384, 0.153086, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="5">
+            <Name></Name>
+            <Position>(0.461298, 0.144946, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="6">
+            <Name></Name>
+            <Position>(0.470573, 0.407065, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="7">
+            <Name></Name>
+            <Position>(0.44169, 0.550243, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="8">
+            <Name></Name>
+            <Position>(0.447532, 0.650198, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="9">
+            <Name></Name>
+            <Position>(0.425813, 0.763703, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="10">
+            <Name></Name>
+            <Position>(0.634499, 0.200411, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="11">
+            <Name></Name>
+            <Position>(0.567131, 0.171981, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="12">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="13">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="14">
+            <Name></Name>
+            <Position>(0.651586, 0.46296, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="15">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="16">
+            <Name></Name>
+            <Position>(0.697836, 0.840154, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="17">
+            <Name></Name>
+            <Position>(0.782866, 0.679504, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="18">
+            <Name></Name>
+            <Position>(0.695007, 0.885013, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="19">
+            <Name></Name>
+            <Position>(0.793728, 0.889778, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="20">
+            <Name></Name>
+            <Position>(0.842859, 0.72965, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="21">
+            <Name></Name>
+            <Position>(0.683595, 0.918791, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="22">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="23">
+            <Name></Name>
+            <Position>(0.834235, 0.317327, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="24">
+            <Name></Name>
+            <Position>(0.800986, 0.223031, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="25">
+            <Name></Name>
+            <Position>(0.963425, 0.189176, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="26">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="27">
+            <Name></Name>
+            <Position>(0.532113, 0.292442, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="28">
+            <Name></Name>
+            <Position>(0.563118, 0.304581, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="29">
+            <Name></Name>
+            <Position>(0.527236, 0.399582, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="30">
+            <Name></Name>
+            <Position>(0.555705, 0.397465, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="31">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="32">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="33">
+            <Name></Name>
+            <Position>(0.373822, 0.649786, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="34">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="35">
+            <Name></Name>
+            <Position>(0.252474, 0.274779, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="36">
+            <Name></Name>
+            <Position>(0.288051, 0.27511, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="37">
+            <Name></Name>
+            <Position>(0.21816, 0.497162, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="38">
+            <Name></Name>
+            <Position>(0.226255, 0.613378, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="39">
+            <Name></Name>
+            <Position>(0.303216, 0.629163, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="40">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="41">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="42">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="43">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="44">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="45">
+            <Name></Name>
+            <Position>(0.631733, 0.846188, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="46">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="47">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="48">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="49">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="50">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="51">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="52">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="53">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="54">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="55">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="56">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="57">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="58">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="59">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="60">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="61">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="62">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="63">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="64">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="65">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="66">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="67">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="68">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="69">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="70">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="71">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+        <reaction j="72">
+            <Name></Name>
+            <Position>(-1, -1, 0, 0)</Position>
+        </reaction>
+    </reactionBlock>
+    <edgeBlock Num="89">
+        <edge j="0">
+            <Name></Name>
+            <Position>(67, 1, 82, 1, 67, 2, 2)</Position>
+        </edge>
+        <edge j="1">
+            <Name></Name>
+            <Position>(80, 4, 82, 1, 82, 1, 2)</Position>
+        </edge>
+        <edge j="2">
+            <Name></Name>
+            <Position>(67, 2, 82, 2, 67, 3, 2)</Position>
+        </edge>
+        <edge j="3">
+            <Name></Name>
+            <Position>(67, 4, 82, 3, 67, 5, 2)</Position>
+        </edge>
+        <edge j="4">
+            <Name></Name>
+            <Position>(67, 3, 82, 3, 67, 5, 2)</Position>
+        </edge>
+        <edge j="5">
+            <Name></Name>
+            <Position>(67, 3, 82, 3, 82, 3, 2)</Position>
+        </edge>
+        <edge j="6">
+            <Name></Name>
+            <Position>(67, 5, 82, 4, 67, 8, 2)</Position>
+        </edge>
+        <edge j="7">
+            <Name></Name>
+            <Position>(67, 5, 82, 4, 80, 8, 2)</Position>
+        </edge>
+        <edge j="8">
+            <Name></Name>
+            <Position>(67, 6, 82, 4, 67, 8, 2)</Position>
+        </edge>
+        <edge j="9">
+            <Name></Name>
+            <Position>(67, 6, 82, 4, 80, 8, 2)</Position>
+        </edge>
+        <edge j="10">
+            <Name></Name>
+            <Position>(67, 5, 82, 4, 82, 4, 2)</Position>
+        </edge>
+        <edge j="11">
+            <Name></Name>
+            <Position>(83, 1, 82, 5, 83, 2, 2)</Position>
+        </edge>
+        <edge j="12">
+            <Name></Name>
+            <Position>(83, 1, 82, 5, 67, 9, 2)</Position>
+        </edge>
+        <edge j="13">
+            <Name></Name>
+            <Position>(67, 8, 82, 5, 83, 2, 2)</Position>
+        </edge>
+        <edge j="14">
+            <Name></Name>
+            <Position>(67, 8, 82, 5, 67, 9, 2)</Position>
+        </edge>
+        <edge j="15">
+            <Name></Name>
+            <Position>(67, 8, 82, 5, 82, 5, 2)</Position>
+        </edge>
+        <edge j="16">
+            <Name></Name>
+            <Position>(69, 1, 82, 6, 67, 11, 2)</Position>
+        </edge>
+        <edge j="17">
+            <Name></Name>
+            <Position>(67, 9, 82, 6, 67, 11, 2)</Position>
+        </edge>
+        <edge j="18">
+            <Name></Name>
+            <Position>(80, 10, 82, 6, 67, 11, 2)</Position>
+        </edge>
+        <edge j="19">
+            <Name></Name>
+            <Position>(80, 10, 82, 6, 82, 6, 2)</Position>
+        </edge>
+        <edge j="20">
+            <Name></Name>
+            <Position>(83, 1, 82, 7, 83, 2, 2)</Position>
+        </edge>
+        <edge j="21">
+            <Name></Name>
+            <Position>(83, 1, 82, 7, 67, 12, 2)</Position>
+        </edge>
+        <edge j="22">
+            <Name></Name>
+            <Position>(67, 11, 82, 7, 83, 2, 2)</Position>
+        </edge>
+        <edge j="23">
+            <Name></Name>
+            <Position>(67, 11, 82, 7, 67, 12, 2)</Position>
+        </edge>
+        <edge j="24">
+            <Name></Name>
+            <Position>(67, 11, 82, 7, 82, 7, 2)</Position>
+        </edge>
+        <edge j="25">
+            <Name></Name>
+            <Position>(67, 12, 82, 8, 67, 13, 2)</Position>
+        </edge>
+        <edge j="26">
+            <Name></Name>
+            <Position>(67, 12, 82, 8, 80, 18, 2)</Position>
+        </edge>
+        <edge j="27">
+            <Name></Name>
+            <Position>(80, 64, 82, 33, 67, 40, 3)</Position>
+        </edge>
+        <edge j="28">
+            <Name></Name>
+            <Position>(80, 18, 82, 33, 67, 40, 3)</Position>
+        </edge>
+        <edge j="29">
+            <Name></Name>
+            <Position>(80, 22, 82, 9, 67, 14, 2)</Position>
+        </edge>
+        <edge j="30">
+            <Name></Name>
+            <Position>(80, 18, 82, 9, 67, 14, 2)</Position>
+        </edge>
+        <edge j="31">
+            <Name></Name>
+            <Position>(80, 18, 82, 9, 67, 14, 2)</Position>
+        </edge>
+        <edge j="32">
+            <Name></Name>
+            <Position>(68, 1, 82, 45, 80, 31, 6)</Position>
+        </edge>
+        <edge j="33">
+            <Name></Name>
+            <Position>(67, 9, 82, 10, 67, 15, 3)</Position>
+        </edge>
+        <edge j="34">
+            <Name></Name>
+            <Position>(80, 23, 82, 10, 67, 15, 3)</Position>
+        </edge>
+        <edge j="35">
+            <Name></Name>
+            <Position>(67, 19, 82, 14, 67, 20, 3)</Position>
+        </edge>
+        <edge j="36">
+            <Name></Name>
+            <Position>(67, 15, 82, 14, 67, 20, 3)</Position>
+        </edge>
+        <edge j="37">
+            <Name></Name>
+            <Position>(80, 10, 82, 14, 67, 20, 3)</Position>
+        </edge>
+        <edge j="38">
+            <Name></Name>
+            <Position>(80, 31, 82, 16, 67, 22, 3)</Position>
+        </edge>
+        <edge j="39">
+            <Name></Name>
+            <Position>(80, 30, 82, 16, 67, 22, 3)</Position>
+        </edge>
+        <edge j="40">
+            <Name></Name>
+            <Position>(67, 22, 82, 17, 67, 23, 3)</Position>
+        </edge>
+        <edge j="41">
+            <Name></Name>
+            <Position>(67, 29, 82, 23, 67, 30, 3)</Position>
+        </edge>
+        <edge j="42">
+            <Name></Name>
+            <Position>(67, 9, 82, 23, 67, 30, 3)</Position>
+        </edge>
+        <edge j="43">
+            <Name></Name>
+            <Position>(80, 43, 82, 24, 69, 2, 3)</Position>
+        </edge>
+        <edge j="44">
+            <Name></Name>
+            <Position>(80, 43, 82, 24, 67, 31, 3)</Position>
+        </edge>
+        <edge j="45">
+            <Name></Name>
+            <Position>(67, 30, 82, 24, 69, 2, 3)</Position>
+        </edge>
+        <edge j="46">
+            <Name></Name>
+            <Position>(67, 30, 82, 24, 67, 31, 3)</Position>
+        </edge>
+        <edge j="47">
+            <Name></Name>
+            <Position>(67, 30, 82, 24, 82, 24, 3)</Position>
+        </edge>
+        <edge j="48">
+            <Name></Name>
+            <Position>(80, 58, 82, 25, 67, 32, 3)</Position>
+        </edge>
+        <edge j="49">
+            <Name></Name>
+            <Position>(67, 31, 82, 25, 67, 32, 3)</Position>
+        </edge>
+        <edge j="50">
+            <Name></Name>
+            <Position>(80, 31, 82, 18, 67, 24, 3)</Position>
+        </edge>
+        <edge j="51">
+            <Name></Name>
+            <Position>(80, 33, 82, 18, 67, 24, 3)</Position>
+        </edge>
+        <edge j="52">
+            <Name></Name>
+            <Position>(67, 24, 82, 19, 67, 25, 3)</Position>
+        </edge>
+        <edge j="53">
+            <Name></Name>
+            <Position>(80, 36, 82, 19, 67, 25, 3)</Position>
+        </edge>
+        <edge j="54">
+            <Name></Name>
+            <Position>(67, 25, 82, 20, 80, 40, 3)</Position>
+        </edge>
+        <edge j="55">
+            <Name></Name>
+            <Position>(67, 25, 82, 20, 67, 26, 3)</Position>
+        </edge>
+        <edge j="56">
+            <Name></Name>
+            <Position>(67, 25, 82, 20, 82, 20, 3)</Position>
+        </edge>
+        <edge j="57">
+            <Name></Name>
+            <Position>(80, 41, 82, 21, 67, 27, 3)</Position>
+        </edge>
+        <edge j="58">
+            <Name></Name>
+            <Position>(80, 31, 82, 21, 67, 27, 3)</Position>
+        </edge>
+        <edge j="59">
+            <Name></Name>
+            <Position>(67, 9, 82, 11, 67, 16, 3)</Position>
+        </edge>
+        <edge j="60">
+            <Name></Name>
+            <Position>(80, 24, 82, 11, 67, 16, 3)</Position>
+        </edge>
+        <edge j="61">
+            <Name></Name>
+            <Position>(67, 5, 82, 36, 67, 44, 4)</Position>
+        </edge>
+        <edge j="62">
+            <Name></Name>
+            <Position>(67, 5, 82, 36, 80, 8, 4)</Position>
+        </edge>
+        <edge j="63">
+            <Name></Name>
+            <Position>(67, 43, 82, 36, 67, 44, 4)</Position>
+        </edge>
+        <edge j="64">
+            <Name></Name>
+            <Position>(67, 43, 82, 36, 80, 8, 4)</Position>
+        </edge>
+        <edge j="65">
+            <Name></Name>
+            <Position>(83, 1, 82, 37, 83, 2, 4)</Position>
+        </edge>
+        <edge j="66">
+            <Name></Name>
+            <Position>(83, 1, 82, 37, 67, 45, 4)</Position>
+        </edge>
+        <edge j="67">
+            <Name></Name>
+            <Position>(67, 44, 82, 37, 83, 2, 4)</Position>
+        </edge>
+        <edge j="68">
+            <Name></Name>
+            <Position>(67, 44, 82, 37, 67, 45, 4)</Position>
+        </edge>
+        <edge j="69">
+            <Name></Name>
+            <Position>(80, 37, 82, 38, 67, 48, 4)</Position>
+        </edge>
+        <edge j="70">
+            <Name></Name>
+            <Position>(67, 45, 82, 38, 67, 48, 4)</Position>
+        </edge>
+        <edge j="71">
+            <Name></Name>
+            <Position>(80, 43, 82, 39, 67, 49, 4)</Position>
+        </edge>
+        <edge j="72">
+            <Name></Name>
+            <Position>(67, 48, 82, 39, 67, 49, 4)</Position>
+        </edge>
+        <edge j="73">
+            <Name></Name>
+            <Position>(80, 32, 82, 27, 67, 34, 3)</Position>
+        </edge>
+        <edge j="74">
+            <Name></Name>
+            <Position>(80, 15, 82, 27, 67, 34, 3)</Position>
+        </edge>
+        <edge j="75">
+            <Name></Name>
+            <Position>(80, 43, 82, 28, 80, 32, 3)</Position>
+        </edge>
+        <edge j="76">
+            <Name></Name>
+            <Position>(80, 43, 82, 28, 67, 35, 3)</Position>
+        </edge>
+        <edge j="77">
+            <Name></Name>
+            <Position>(67, 34, 82, 28, 80, 32, 3)</Position>
+        </edge>
+        <edge j="78">
+            <Name></Name>
+            <Position>(67, 34, 82, 28, 67, 35, 3)</Position>
+        </edge>
+        <edge j="79">
+            <Name></Name>
+            <Position>(67, 34, 82, 28, 82, 28, 3)</Position>
+        </edge>
+        <edge j="80">
+            <Name></Name>
+            <Position>(80, 61, 82, 29, 67, 36, 3)</Position>
+        </edge>
+        <edge j="81">
+            <Name></Name>
+            <Position>(80, 14, 82, 29, 67, 36, 3)</Position>
+        </edge>
+        <edge j="82">
+            <Name></Name>
+            <Position>(80, 43, 82, 30, 80, 61, 3)</Position>
+        </edge>
+        <edge j="83">
+            <Name></Name>
+            <Position>(80, 43, 82, 30, 67, 37, 3)</Position>
+        </edge>
+        <edge j="84">
+            <Name></Name>
+            <Position>(67, 36, 82, 30, 80, 61, 3)</Position>
+        </edge>
+        <edge j="85">
+            <Name></Name>
+            <Position>(67, 36, 82, 30, 67, 37, 3)</Position>
+        </edge>
+        <edge j="86">
+            <Name></Name>
+            <Position>(67, 36, 82, 30, 82, 30, 3)</Position>
+        </edge>
+        <edge j="87">
+            <Name></Name>
+            <Position>(67, 6, 82, 35, 67, 43, 4)</Position>
+        </edge>
+        <edge j="88">
+            <Name></Name>
+            <Position>(67, 41, 82, 35, 67, 43, 4)</Position>
+        </edge>
+    </edgeBlock>
+</Pathway>

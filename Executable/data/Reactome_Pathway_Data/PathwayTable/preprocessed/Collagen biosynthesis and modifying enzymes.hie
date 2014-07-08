@@ -1,0 +1,113 @@
+edge.size() 52
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 0 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 0 83 -1 82 -1 -1
+ 67 -1 83 1 82 0 -1
+ 67 -1 67 -1 82 0 -1
+ 67 -1 83 2 82 0 -1
+ 83 6 83 3 82 0 -1
+ 83 7 67 -1 82 0 -1
+ 83 8 83 4 82 0 -1
+ 83 0 83 5 82 0 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 69 -1 82 -1 -1
+ 67 -1 80 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 69 -1 69 -1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 80 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 67 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+_complexName.size()	1
+	PLOD1:Fe2+ dimer/PLOD2:Fe2+ dimer/PLOD3:Fe2+ dimer			
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	1
+	T	Procollagen lysyl hydrolases convert lysine to 5-hydroxylysine
+_smallMoleculeName.size()	9
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	SUCCA	endoplasmic reticulum lumen	Reactome DB_ID: 1650769	Succinate [ChEBI:15741]
+	O2	endoplasmic reticulum lumen	Reactome DB_ID: 113534	Oxygen [ChEBI:15379]
+	2OG	endoplasmic reticulum lumen	Reactome DB_ID: 1650779	2-Oxoglutarate [ChEBI:30915]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

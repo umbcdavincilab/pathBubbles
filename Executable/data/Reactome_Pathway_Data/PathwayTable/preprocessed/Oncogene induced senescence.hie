@@ -1,0 +1,113 @@
+edge.size() 36
+ 83 2 80 0 82 0 -1
+ 80 2 83 0 82 0 -1
+ 80 2 83 1 82 0 -1
+ 68 0 67 1 82 1 -1
+ 80 2 67 1 82 1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 3 67 2 82 3 -1
+ 68 1 67 2 82 3 -1
+ 68 2 80 1 82 4 -1
+ 80 4 80 3 82 5 -1
+ 80 4 83 3 82 5 -1
+ 83 2 83 4 82 5 -1
+ 80 4 80 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 68 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 3 67 4 82 6 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 5 -1
+ 67 -1 82 1 82 -1 -1
+ 67 1 82 1 82 2 -1
+ 67 2 82 0 82 4 -1
+ 67 -1 82 1 82 -1 -1
+ 67 4 82 0 82 7 -1
+ 67 4 82 0 82 8 -1
+_complexName.size()	5
+	phospho-ERK-1 dimer/phospho-ERK-2 dimer			
+	p-T38-ETS1/ p-T72-ETS2:CDKN2A Gene	nucleoplasm	Reactome DB_ID: 3200029	
+	ERF:ETS2 Gene	nucleoplasm	Reactome DB_ID: 3209182	
+	miR-24 Nonendonucleolytic RISC	cytosol	Reactome DB_ID: 3209134	
+	p16-INK4a/p14-ARF mRNA: miR-24 Nonendonucleolytic RISC	cytosol	Reactome DB_ID: 3209131	
+_physicalEntityName.size()	0
+_proteinName.size()	5
+	ETS2	nucleoplasm			
+	ETS2	nucleoplasm	Reactome DB_ID: 1629811	UniProt:P15036	ETS2
+	p-T72-ETS2	nucleoplasm			
+	ERF	nucleoplasm	Reactome DB_ID: 2534321	UniProt:P50548	ERF
+	p-T526-ERF	nucleoplasm	Reactome DB_ID: 3209166	UniProt:P50548	ERF
+_reactionName.size()	9
+	T	MAPKs phosphorylate ETS1 and ETS2
+	D	Phosphorylated ETS1/ETS2 binds p16-INK4A promoter
+	T	p-T38-ETS1/p-T72-ETS2 stimulates transcription of p16-INK4A mRNA
+	D	ERF binds ETS2 promoter
+	T	ERF inhibits ETS2 expression
+	T	Activated ERKs phosphorylate ERF
+	T	miR-24 binds p16-INK4a and p14-ARF mRNAs
+	T	Translation of p14-ARF mRNA is inhibited by miR-24
+	T	Translation of p16-INK4a mRNA is inhibited by miR-24
+_smallMoleculeName.size()	5
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+_DnaName.size()	3
+	CDKN2A Gen	nucleoplasm	Reactome DB_ID: 3200017	ENSEMBL:ENSG00000147889 CDKN2A
+	CDKN2A Gen	nucleoplasm	Reactome DB_ID: 3200017	ENSEMBL:ENSG00000147889 CDKN2A
+	CDKN2A Gen	nucleoplasm	Reactome DB_ID: 3200017	ENSEMBL:ENSG00000147889 CDKN2A
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

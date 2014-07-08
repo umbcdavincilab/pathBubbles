@@ -1,0 +1,171 @@
+edge.size() 75
+ 67 0 67 -1 82 0 -1
+ 67 1 67 -1 82 0 -1
+ 69 -1 67 -1 82 0 -1
+ 80 0 67 -1 82 1 -1
+ 67 -1 67 -1 82 1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 0 67 2 82 2 -1
+ 67 3 83 -1 82 2 -1
+ 67 3 83 -1 82 2 -1
+ 80 -1 67 4 82 3 -1
+ 67 0 67 4 82 3 -1
+ 67 1 67 4 82 3 -1
+ 67 4 67 5 82 4 -1
+ 83 0 67 5 82 5 -1
+ 67 6 83 -1 82 5 -1
+ 67 6 83 -1 82 5 -1
+ 69 0 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 69 0 67 7 82 -1 -1
+ 80 -1 67 7 82 -1 -1
+ 67 8 67 7 82 6 -1
+ 67 8 83 1 82 6 -1
+ 83 0 83 -1 82 6 -1
+ 67 8 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 -1 67 -1 82 -1 -1
+ 67 -1 67 9 82 7 -1
+ 69 0 67 9 82 7 -1
+ 80 -1 67 10 82 8 -1
+ 67 9 67 10 82 8 -1
+ 83 0 83 2 82 9 -1
+ 83 5 83 3 82 9 -1
+ 83 6 83 4 82 9 -1
+ 69 0 67 11 82 10 -1
+ 80 1 67 11 82 10 -1
+ 83 0 83 7 82 11 -1
+ 67 12 67 11 82 11 -1
+ 67 12 67 11 82 11 -1
+ 67 12 80 2 82 12 -1
+ 67 12 69 0 82 12 -1
+ 67 3 67 13 82 13 -1
+ 80 3 67 13 82 13 -1
+ 83 0 67 13 82 14 -1
+ 67 14 83 -1 82 14 -1
+ 67 14 83 -1 82 14 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 14 67 -1 82 -1 -1
+ 67 1 67 15 82 15 -1
+ 83 8 67 15 82 15 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 67 2 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 2 82 1 82 2 -1
+ 67 5 82 1 82 5 -1
+ 67 -1 82 1 82 -1 -1
+ 67 7 82 1 82 6 -1
+ 67 -1 82 1 82 -1 -1
+ 67 10 82 1 82 9 -1
+ 67 11 82 1 82 11 -1
+ 67 13 82 1 82 14 -1
+ 67 14 82 1 82 -1 -1
+ 67 13 82 0 82 -1 -1
+_complexName.size()	16
+	CDC37	cytosol	Reactome DB_ID: 1225828	
+	HSP90	cytosol	Reactome DB_ID: 1221657	
+	EGF:Ligand-responsive EGFR mutants dimer/Ligand-responsive EGFR mutants dimer			
+	Dimers of EGF:Ligand-responsive p-6Y-EGFR mutants/Dimers of ligand-responsive p-6Y-EGFR mutants			
+	EGFRvIIImut:HSP90:CDC37	plasma membrane	Reactome DB_ID: 1248004	
+	EGFRvIII mutant dimer	plasma membrane	Reactome DB_ID: 1248010	
+	p-5Y-EGFRvIII mutant dimer	plasma membrane	Reactome DB_ID: 1248654	
+	p-EGFR mutants:SHC1	plasma membrane	Reactome DB_ID: 1225858	
+	p-EGFR mutants:p-Y349,350-SHC1	plasma membrane	Reactome DB_ID: 1225854	
+	p-EGFR mutants:GRB2:GAB1:PIK3R1	plasma membrane	Reactome DB_ID: 1226015	
+	p-EGFR mutants:GRB2:GAB1:PI3K	plasma membrane	Reactome DB_ID: 1226013	
+	p-EGFR mutants:PLCG1	plasma membrane	Reactome DB_ID: 1247845	
+	p-EGFR mutants:p-Y472,771,783,1254-PLCG1	plasma membrane	Reactome DB_ID: 1247846	
+	Ligand-responsive p-6Y-EGFR mutants:CBL	plasma membrane	Reactome DB_ID: 1225855	
+	Ligand-responsive p-6Y-EGFR mutants:p-Y371-CBL	plasma membrane	Reactome DB_ID: 1225857	
+	HSP90:Benzoquinoid ansamycins	cytosol	Reactome DB_ID: 1218829	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	4
+	EGF	extracellular region	Reactome DB_ID: 179863	UniProt:P01133	EGF
+	PLC1	plasma membrane	Reactome DB_ID: 167682	UniProt:P19174	PLCG1
+	p-PLCG1	plasma membrane	Reactome DB_ID: 167679	UniProt:P19174	PLCG1
+	CBL	plasma membrane	Reactome DB_ID: 112192	UniProt:P22681	CBL
+_reactionName.size()	16
+	D	Binding of ligand-responsive EGFR mutants to chaperoning proteins HSP90 and CDC37
+	D	Binding of EGF to ligand-responsive EGFR mutants
+	T	Trans-autophosphorylation of activated ligand-responsive EGFR mutant dimers
+	D	EGFRvIII mutant binds chaperone proteins HSP90 and CDC37.
+	T	Ligand-independent dimerization of EGFRvIII mutant
+	T	Trans-autophosphorylation of EGFRvIII mutant dimers
+	T	Phosphorylation of SHC1 by p-EGFR mutants
+	D	Binding of GRB2:GAB1:PIK3R1 complex to p-EGFR mutants
+	D	Binding of PI3K p110 subunit alpha (PIK3CA) to complex of GRB2:GAB1:PIK3R1 and p-EGFR mutants
+	T	Conversion of PIP2 to PIP3 by PI3K bound to phosphorylated EGFR mutants
+	D	PLC-gamma 1 binds to p-EGFR mutants
+	T	Phosphorylation of PLC-gamma 1 by p-EGFR mutants
+	B	Dissociation of phosphorylated PLC-gamma 1 from p-EGFR mutants
+	D	Binding of CBL to phosphorylated ligand-responsive EGFR mutants
+	T	Phosphorylation of CBL by ligand-responsive p-6Y-EGFR mutants
+	D	HSP90 is inactivated by binding to benzaquinoid ansamycins
+_smallMoleculeName.size()	9
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	PIP3	plasma membrane	Reactome DB_ID: 179838	ChEBI:16618 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+				
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

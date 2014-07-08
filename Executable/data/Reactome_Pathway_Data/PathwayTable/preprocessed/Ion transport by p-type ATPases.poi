@@ -1,0 +1,766 @@
+_scale 1.1
+dCenter 0 0
+complexPos.size() 3
+ 0.545965 0.185903 0.0166992 0.0156177
+ 0.206428 0.22802 0.0166992 0.0156177
+ 0.338166 0.22802 0.0166992 0.0156177
+proteinPos.size() 4
+ 0.436506 0.227516 0.0834961 0.019152
+ 0.665505 0.227516 0.0834961 0.019152
+ 0.318248 0.355301 0.0834961 0.019152
+ 0.173029 0.1854 0.0834961 0.019152
+smallMoleculePos.size() 88
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+ -1000 -1000 0.8 0.03
+DnaPos.size() 0
+EmptyPos.size() 0
+reactionPos.size() 9
+ 0.591344 0.665413 0.01 0.01
+ 0.548911 0.46398 0.01 0.01
+ -1000 -1000 0.01 0.01
+ 0.671762 0.375438 0.01 0.01
+ 0.473781 0.645463 0.01 0.01
+ 0.351257 0.254414 0.01 0.01
+ 0.38883 0.254414 0.01 0.01
+ 0.257556 0.212297 0.01 0.01
+ 0.256628 0.212297 0.01 0.01
+physicalEntityPos.size() 0
+compartmentPos.size() 41
+ 0.446984 0.525813 0.133891 0.09975
+ 0.400578 0.735813 0.222062 0.09975
+ 0.543391 0.175812 0.306969 0.16625
+ -1000 -1000 0.1 0.1
+ 0.454953 0.455812 0.11875 0.0665
+ -1000 -1000 0.1 0.1
+ -1000 -1000 0.1 0.1
+ -1000 -1000 0.1 0.1
+ -1000 -1000 0.1 0.1
+ -1000 -1000 0.1 0.1
+ 0.184016 0.350812 0.633531 0.09975
+ 0.168391 0.175812 0.35625 0.16625
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ 0.331828 0.630813 0.352688 0.09975
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -0.112376 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -1 0.1 0.1
+ -1000 -0.255233 0.1 0.1
+ANodePos.size() 0
+CompartmentContain.size() 40
+
+
+ 67 0 80 1
+
+ 82 1
+
+
+
+
+
+ 80 2 82 3
+ 67 1 67 2 80 0 80 3 82 5 82 6 82 7 82 8
+
+
+
+
+
+
+
+
+ 82 0 82 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_protein.size() 54
+_protein[i].size() 1
+ 82 0 82 1
+_protein[i].size() 1
+ 82 1 82 1
+_protein[i].size() 1
+ 82 3 82 1
+_protein[i].size() 2
+ 82 7 82 1
+ 82 8 82 1
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_protein[i].size() 0
+_complex.size() 4
+_complex[i].size() 1
+ 82 4 82 1
+_complex[i].size() 1
+ 82 5 82 1
+_complex[i].size() 1
+ 82 6 82 1
+_complex[i].size() 0
+_entity.size() 1
+_entity[i].size() 0
+_smallMolecule.size() 149
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 65 -1
+_smallMolecule[i].size() 1
+ 82 0 77 1
+_smallMolecule[i].size() 1
+ 82 0 77 1
+_smallMolecule[i].size() 1
+ 82 0 77 1
+_smallMolecule[i].size() 7
+ 82 0 77 1
+ 82 1 77 1
+ 82 4 65 -1
+ 82 5 77 1
+ 82 6 77 1
+ 82 7 65 -1
+ 82 8 77 1
+_smallMolecule[i].size() 1
+ 82 0 77 1
+_smallMolecule[i].size() 1
+ 82 0 77 1
+_smallMolecule[i].size() 1
+ 82 0 77 1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 65 -1
+_smallMolecule[i].size() 1
+ 82 1 77 1
+_smallMolecule[i].size() 1
+ 82 1 77 1
+_smallMolecule[i].size() 1
+ 82 1 77 1
+_smallMolecule[i].size() 1
+ 82 1 77 1
+_smallMolecule[i].size() 1
+ 82 1 77 1
+_smallMolecule[i].size() 1
+ 82 1 77 1
+_smallMolecule[i].size() 4
+ 82 -1 77 1
+ 82 2 77 1
+ 82 3 77 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 2 77 1
+_smallMolecule[i].size() 1
+ 82 2 77 1
+_smallMolecule[i].size() 3
+ 82 2 65 -1
+ 82 3 65 -1
+ 82 6 65 -1
+_smallMolecule[i].size() 1
+ 82 2 65 -1
+_smallMolecule[i].size() 1
+ 82 2 65 -1
+_smallMolecule[i].size() 1
+ 82 3 77 1
+_smallMolecule[i].size() 1
+ 82 3 77 1
+_smallMolecule[i].size() 1
+ 82 3 65 -1
+_smallMolecule[i].size() 1
+ 82 3 65 -1
+_smallMolecule[i].size() 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 4 77 1
+_smallMolecule[i].size() 1
+ 82 4 65 -1
+_smallMolecule[i].size() 1
+ 82 4 65 -1
+_smallMolecule[i].size() 1
+ 82 4 65 -1
+_smallMolecule[i].size() 1
+ 82 4 65 -1
+_smallMolecule[i].size() 1
+ 82 4 65 -1
+_smallMolecule[i].size() 1
+ 82 4 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 65 -1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 5 77 1
+_smallMolecule[i].size() 1
+ 82 6 65 -1
+_smallMolecule[i].size() 1
+ 82 6 65 -1
+_smallMolecule[i].size() 1
+ 82 6 65 -1
+_smallMolecule[i].size() 1
+ 82 6 65 -1
+_smallMolecule[i].size() 1
+ 82 6 77 1
+_smallMolecule[i].size() 1
+ 82 6 77 1
+_smallMolecule[i].size() 1
+ 82 6 77 1
+_smallMolecule[i].size() 1
+ 82 6 77 1
+_smallMolecule[i].size() 1
+ 82 6 77 1
+_smallMolecule[i].size() 1
+ 82 6 77 1
+_smallMolecule[i].size() 2
+ 82 7 77 1
+ 82 8 77 1
+_smallMolecule[i].size() 1
+ 82 7 77 1
+_smallMolecule[i].size() 1
+ 82 7 65 -1
+_smallMolecule[i].size() 1
+ 82 7 65 -1
+_smallMolecule[i].size() 1
+ 82 7 65 -1
+_smallMolecule[i].size() 1
+ 82 7 65 -1
+_smallMolecule[i].size() 1
+ 82 8 65 -1
+_smallMolecule[i].size() 1
+ 82 8 65 -1
+_smallMolecule[i].size() 1
+ 82 8 65 -1
+_smallMolecule[i].size() 1
+ 82 8 65 -1
+_smallMolecule[i].size() 1
+ 82 8 65 -1
+_smallMolecule[i].size() 1
+ 82 8 77 1
+_smallMolecule[i].size() 1
+ 82 8 77 1
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_smallMolecule[i].size() 0
+_Dna.size() 2
+_Dna[i].size() 0
+_Dna[i].size() 0
+_reaction.size() 11
+_reaction[i].size() 15
+ 83 7 77 -1
+ 83 0 65 1
+ 83 8 77 -1
+ 83 1 65 1
+ 83 9 77 -1
+ 83 2 65 1
+ 83 10 77 -1
+ 83 3 65 1
+ 83 11 77 -1
+ 83 4 65 1
+ 83 12 77 -1
+ 83 5 65 1
+ 83 13 77 -1
+ 83 6 65 1
+ 80 0 82 -1
+_reaction[i].size() 15
+ 83 21 77 -1
+ 83 14 65 1
+ 83 22 77 -1
+ 83 15 65 1
+ 83 23 77 -1
+ 83 16 65 1
+ 83 10 77 -1
+ 83 17 65 1
+ 83 24 77 -1
+ 83 18 65 1
+ 83 25 77 -1
+ 83 19 65 1
+ 83 26 77 -1
+ 83 20 65 1
+ 80 1 82 -1
+_reaction[i].size() 7
+ 83 28 77 -1
+ 83 30 65 1
+ 83 27 77 -1
+ 83 31 65 1
+ 83 29 77 -1
+ 83 32 65 1
+ 80 -1 82 -1
+_reaction[i].size() 7
+ 83 33 77 -1
+ 83 35 65 1
+ 83 27 77 -1
+ 83 36 65 1
+ 83 34 77 -1
+ 83 30 65 1
+ 80 2 82 -1
+_reaction[i].size() 15
+ 83 37 77 -1
+ 83 43 65 1
+ 83 27 77 -1
+ 83 44 65 1
+ 83 38 77 -1
+ 83 45 65 1
+ 83 39 77 -1
+ 83 10 65 1
+ 83 40 77 -1
+ 83 46 65 1
+ 83 41 77 -1
+ 83 47 65 1
+ 83 42 77 -1
+ 83 48 65 1
+ 67 0 82 -1
+_reaction[i].size() 21
+ 83 57 77 -1
+ 83 -1 65 1
+ 83 58 77 -1
+ 83 49 65 1
+ 83 59 77 -1
+ 83 50 65 1
+ 83 60 77 -1
+ 83 51 65 1
+ 83 10 77 -1
+ 83 52 65 1
+ 83 61 77 -1
+ 83 53 65 1
+ 83 62 77 -1
+ 83 54 65 1
+ 83 63 77 -1
+ 83 55 65 1
+ 83 64 77 -1
+ 83 56 65 1
+ 83 -1 77 -1
+ 83 -1 65 1
+ 67 1 82 -1
+_reaction[i].size() 21
+ 83 -1 77 -1
+ 83 65 65 1
+ 83 -1 77 -1
+ 83 30 65 1
+ 83 69 77 -1
+ 83 -1 65 1
+ 83 70 77 -1
+ 83 66 65 1
+ 83 71 77 -1
+ 83 -1 65 1
+ 83 72 77 -1
+ 83 67 65 1
+ 83 73 77 -1
+ 83 -1 65 1
+ 83 74 77 -1
+ 83 -1 65 1
+ 83 10 77 -1
+ 83 -1 65 1
+ 83 -1 77 -1
+ 83 68 65 1
+ 67 2 82 -1
+_reaction[i].size() 15
+ 83 75 77 -1
+ 83 77 65 1
+ 83 -1 77 -1
+ 83 78 65 1
+ 83 76 77 -1
+ 83 -1 65 1
+ 83 -1 77 -1
+ 83 79 65 1
+ 83 -1 77 -1
+ 83 80 65 1
+ 83 -1 77 -1
+ 83 -1 65 1
+ 83 -1 77 -1
+ 83 10 65 1
+ 80 3 82 -1
+_reaction[i].size() 11
+ 83 -1 77 -1
+ 83 81 65 1
+ 83 86 77 -1
+ 83 82 65 1
+ 83 87 77 -1
+ 83 83 65 1
+ 83 10 77 -1
+ 83 84 65 1
+ 83 75 77 -1
+ 83 85 65 1
+ 80 3 82 -1
+_reaction[i].size() 0
+_reaction[i].size() 0
+_compartment.size() 40
+_compartment[i].size() 24
+ 82 1 65 -1
+ 82 1 65 -1
+ 82 1 65 -1
+ 82 2 77 1
+ 82 2 65 -1
+ 82 2 65 -1
+ 82 5 77 1
+ 82 5 65 -1
+ 82 6 77 1
+ 82 7 77 1
+ 82 8 65 -1
+ 82 8 65 -1
+ 82 8 77 1
+ 82 8 77 1
+ 82 8 77 1
+ 82 8 77 1
+ 82 8 77 1
+ 82 8 65 -1
+ 82 9 65 -1
+ 82 9 77 1
+ 82 9 65 -1
+ 82 9 65 -1
+ 82 9 65 -1
+ 82 10 65 -1
+_compartment[i].size() 3
+ 82 5 65 -1
+ 82 5 77 1
+ 82 7 65 -1
+_compartment[i].size() 2
+ 82 2 82 1
+ 82 6 82 1
+_compartment[i].size() 0
+_compartment[i].size() 4
+ 82 2 65 -1
+ 82 2 77 1
+ 82 2 77 1
+ 82 10 77 1
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 1
+ 82 5 82 1
+_compartment[i].size() 6
+ 82 1 82 1
+ 82 3 82 1
+ 82 7 82 1
+ 82 8 82 1
+ 82 9 82 1
+ 82 10 82 1
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 18
+ 82 1 77 1
+ 82 1 77 1
+ 82 1 77 1
+ 82 6 77 1
+ 82 7 77 1
+ 82 8 77 1
+ 82 8 77 1
+ 82 8 65 -1
+ 82 8 65 -1
+ 82 8 65 -1
+ 82 8 65 -1
+ 82 8 65 -1
+ 82 8 77 1
+ 82 9 77 1
+ 82 9 65 -1
+ 82 9 77 1
+ 82 9 77 1
+ 82 9 77 1
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 3
+ 82 6 65 -1
+ 82 6 65 -1
+ 82 7 65 -1
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 0
+_compartment[i].size() 1
+ 82 4 82 1
+_compartment[i].size() 0
+_Empty.size() 2
+_Empty[i].size() 0
+_Empty[i].size() 0
+_ANode.size() 0

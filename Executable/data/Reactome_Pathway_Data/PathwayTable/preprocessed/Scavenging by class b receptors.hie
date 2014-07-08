@@ -1,0 +1,62 @@
+edge.size() 6
+ 69 0 67 0 82 0 -1
+ 80 0 67 0 82 0 -1
+ 67 0 67 -1 82 1 -1
+ 80 -1 67 -1 82 -1 -1
+ 69 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+_complexName.size()	1
+	Platelet glycoprotein IV:Ligand	plasma membrane	Reactome DB_ID: 2187250	
+_physicalEntityName.size()	1
+		
+_proteinName.size()	1
+	GPIV	plasma membrane	Reactome DB_ID: 51645	UniProt:P16671	CD36
+_reactionName.size()	2
+	D	Platelet glycoprotein IV (CD36) Binds Ligands
+	T	Endocytosis of Platelet glycoprotein IV:Ligand (CD36:Ligand)
+_smallMoleculeName.size()	0
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	41
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	endocytic vesicle lumen
+	whole

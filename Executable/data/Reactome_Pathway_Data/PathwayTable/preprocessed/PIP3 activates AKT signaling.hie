@@ -1,0 +1,206 @@
+edge.size() 82
+ 83 2 83 0 82 0 -1
+ 83 3 83 1 82 0 -1
+ 80 0 67 1 82 1 -1
+ 83 3 67 1 82 1 -1
+ 80 1 67 2 82 2 -1
+ 83 3 67 2 82 2 -1
+ 83 2 83 4 82 3 -1
+ 67 3 67 1 82 3 -1
+ 67 3 67 1 82 3 -1
+ 67 2 67 6 82 4 -1
+ 67 3 67 6 82 4 -1
+ 67 2 67 6 82 5 -1
+ 67 2 83 5 82 5 -1
+ 83 2 83 6 82 5 -1
+ 80 3 67 6 82 5 -1
+ 80 3 83 7 82 5 -1
+ 83 2 83 8 82 6 -1
+ 80 5 80 4 82 6 -1
+ 80 5 80 4 82 6 -1
+ 83 2 83 9 82 7 -1
+ 80 7 80 6 82 7 -1
+ 80 7 80 6 82 7 -1
+ 83 2 80 8 82 8 -1
+ 80 9 83 10 82 8 -1
+ 80 9 83 11 82 8 -1
+ 80 11 83 12 82 9 -1
+ 80 11 80 10 82 9 -1
+ 83 2 80 10 82 9 -1
+ 83 2 80 12 82 10 -1
+ 80 13 83 13 82 10 -1
+ 80 13 83 14 82 10 -1
+ 80 15 80 14 82 11 -1
+ 80 15 83 15 82 11 -1
+ 83 2 83 16 82 11 -1
+ 83 2 80 16 82 12 -1
+ 80 17 83 17 82 12 -1
+ 80 17 83 18 82 12 -1
+ 80 19 80 18 82 13 -1
+ 80 19 83 19 82 13 -1
+ 83 2 83 20 82 13 -1
+ 80 3 80 -1 82 14 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 83 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 80 -1 83 -1 82 -1 -1
+ 80 -1 80 -1 82 -1 -1
+ 83 -1 80 -1 82 -1 -1
+ 83 22 83 21 82 15 -1
+ 83 0 83 3 82 15 -1
+ 80 2 67 5 82 16 -1
+ 67 1 67 5 82 16 -1
+ 83 22 80 3 82 17 -1
+ 80 20 83 23 82 17 -1
+ 80 20 83 24 82 17 -1
+ 83 0 67 -1 82 18 -1
+ 80 1 67 -1 82 18 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 0 82 1 82 0 -1
+ 67 4 82 1 82 3 -1
+ 67 6 82 1 82 5 -1
+ 80 3 82 1 82 6 -1
+ 80 3 82 1 82 7 -1
+ 80 3 82 1 82 8 -1
+ 80 3 82 1 82 9 -1
+ 80 3 82 1 82 10 -1
+ 80 3 82 1 82 11 -1
+ 80 3 82 1 82 12 -1
+ 80 3 82 1 82 13 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 80 -1 82 1 82 -1 -1
+ 67 7 82 1 82 15 -1
+ 67 8 82 1 82 17 -1
+ 67 5 82 0 82 3 -1
+ 67 -1 82 0 82 -1 -1
+_complexName.size()	9
+	Activated FGFR:p-FRS2alpha:GRB2:GAB1:PI3K/Activated FGFR:p-FRS2alpha:p-SHP2:GRB2:GAB1:PI3K/PI3K:p-KIT:sSCF dimer:p-KIT/CD28:PI3K/PDGF:Phospho-PDGF receptor dimer:PI3K/PI3K bound to TRAT/Phospho-IRS1/2:PI3K(p85:p110)/PI3K:GRB2:GAB1:P-ERBB2:P-EGFR/NRG1/2:p-ERBB3:p-ERBB2:PI3K/NRGs/EGFLs:p-ERBB4cyt1:p-ERBB2:PI3K/PI3K:p-ERBB4cyt1/EGF:p-6Y-EGFR:GRB2:GAB1:PIK3/CD19 Signalosome			
+	AKT:PIP3	plasma membrane	Reactome DB_ID: 2317329	
+	PDK1:PIP3	plasma membrane	Reactome DB_ID: 377179	
+	p-S-AKT:PIP3	plasma membrane	Reactome DB_ID: 2317310	
+	TORC2 complex	cytosol	Reactome DB_ID: 198626	
+	AKT:PIP3:THEM4/TRIB3	plasma membrane	Reactome DB_ID: 199453	
+	p-S-AKT:PDPK1:PIP3	plasma membrane	Reactome DB_ID: 2317313	
+	PTEN:Mg2+	cytosol	Reactome DB_ID: 199426	
+	PHLPP (Mn2+ cofactor)	cytosol	Reactome DB_ID: 199450	
+_physicalEntityName.size()	0
+_proteinName.size()	21
+	AKT2	cytosol			
+	PDK1	cytosol	Reactome DB_ID: 202210	UniProt:O15530	PDPK1
+	TRIB3	plasma membrane			
+	AKT3	cytosol			
+	BAD	cytosol	Reactome DB_ID: 50662	UniProt:Q92934	BAD
+	p-S99-BAD	cytosol	Reactome DB_ID: 198335	UniProt:Q92934	BAD
+	GSK3B	cytosol			
+	GSK3B	cytosol			
+	CASP9	cytosol	Reactome DB_ID: 114257	UniProt:P55211	CASP9
+	p-S196-CASP9	cytosol	Reactome DB_ID: 198636	UniProt:P55211	CASP9
+	MDM2	cytosol	Reactome DB_ID: 198644	UniProt:Q00987	MDM2
+	p-MDM2	cytosol	Reactome DB_ID: 198638	UniProt:Q00987	MDM2
+	CHUK	cytosol	Reactome DB_ID: 168104	UniProt:O15111	CHUK
+	p-T23-CHUK	cytosol	Reactome DB_ID: 198615	UniProt:O15111	CHUK
+	glnA	cytosol			
+	glnA	cytosol			
+	TSC2	cytosol	Reactome DB_ID: 2980548	UniProt:P49815	TSC2
+	Phospho-TSC2	cytosol	Reactome DB_ID: 199484	UniProt:P49815	TSC2
+	AKT1S1	cytosol	Reactome DB_ID: 200155	UniProt:Q96B36	AKT1S1
+	AKT1S1	cytosol	Reactome DB_ID: 200163	UniProt:Q96B36	AKT1S1
+	AKT3	cytosol			
+_reactionName.size()	19
+	T	PI3K phosphorylates PIP2 to PIP3
+	D	PIP3 recruits AKT to the membrane
+	D	PIP3 recruits PDPK1 to the membrane
+	T	TORC2 (mTOR) phosphorylates AKT at S473
+	D	AKT binds PDPK1
+	T	PDPK1 phosphorylates AKT at T308
+	T	AKT phosphorylates BAD
+	T	AKT phosphorylates GSK3
+	T	AKT phosphorylates caspase-9
+	T	AKT phosphorylates MDM2
+	T	AKT phosphorylates IKKalpha
+	T	AKT phosphorylates p21Cip1 and p27Kip1
+	T	AKT phosphorylates TSC2, inhibiting it
+	T	AKT phosphorylates AKT1S1 (PRAS40)
+	T	AKT translocates to the nucleus
+	T	PTEN dephosphorylates PIP3
+	D	THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation
+	T	PHLPP dephosphorylates S473 in AKT
+	D	PDPK1 binds PIP2
+_smallMoleculeName.size()	25
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	PIP3	plasma membrane	Reactome DB_ID: 179838	ChEBI:16618 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

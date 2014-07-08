@@ -1,0 +1,71 @@
+edge.size() 7
+ 83 0 83 6 82 0 -1
+ 83 1 83 7 82 0 -1
+ 83 2 83 8 82 0 -1
+ 83 3 83 9 82 0 -1
+ 83 4 83 10 82 0 -1
+ 83 5 83 11 82 0 -1
+ 67 0 82 1 82 0 -1
+_complexName.size()	1
+	IDH1 R132S dimer	cytosol	Reactome DB_ID: 880038	
+_physicalEntityName.size()	0
+_proteinName.size()	0
+_reactionName.size()	1
+	T	2-oxoglutarate + NADPH + H+ => (R)-2-hydroxyglutarate + NADP+ [mutant IDH1]
+_smallMoleculeName.size()	12
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	2OG	cytosol	Reactome DB_ID: 29406	2-Oxoglutarate [ChEBI:30915]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	2OG	cytosol	Reactome DB_ID: 29406	2-Oxoglutarate [ChEBI:30915]
+	2HG	cytosol	Reactome DB_ID: 880042	ChEBI:32796 (R)-2-hydroxyglutaric acid
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	2HG	cytosol	Reactome DB_ID: 880042	ChEBI:32796 (R)-2-hydroxyglutaric acid
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	2HG	cytosol	Reactome DB_ID: 880042	ChEBI:32796 (R)-2-hydroxyglutaric acid
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

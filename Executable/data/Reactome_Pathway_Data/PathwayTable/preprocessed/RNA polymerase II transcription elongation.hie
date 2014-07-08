@@ -1,0 +1,109 @@
+edge.size() 31
+ 67 0 67 3 82 0 -1
+ 80 0 67 3 82 0 -1
+ 67 2 67 3 82 0 -1
+ 67 2 67 2 82 0 -1
+ 80 0 67 2 82 0 -1
+ 67 0 67 2 82 0 -1
+ 67 3 67 5 82 1 -1
+ 67 4 67 5 82 1 -1
+ 67 7 67 6 82 2 -1
+ 67 7 83 0 82 2 -1
+ 67 7 67 5 82 2 -1
+ 83 0 67 5 82 2 -1
+ 67 8 67 1 82 3 -1
+ 67 7 67 1 82 3 -1
+ 67 7 67 9 82 3 -1
+ 67 8 67 9 82 3 -1
+ 67 10 67 12 82 4 -1
+ 80 1 67 12 82 4 -1
+ 67 9 67 12 82 4 -1
+ 67 2 67 12 82 4 -1
+ 67 11 67 12 82 4 -1
+ 80 2 67 12 82 4 -1
+ 83 0 67 13 82 5 -1
+ 67 12 67 13 82 5 -1
+ 67 12 67 2 82 5 -1
+ 67 13 67 14 82 6 -1
+ 83 0 67 14 82 6 -1
+ 67 13 83 0 82 6 -1
+ 67 14 67 15 82 7 -1
+ 80 0 82 1 82 0 -1
+ 67 8 82 1 82 3 -1
+_complexName.size()	16
+	capped pre-mRNA:CBC:RNA Pol II (phosphorylated) complex	nucleoplasm	Reactome DB_ID: 77089	
+	Cap Binding Complex (CBC)	nucleoplasm	Reactome DB_ID: 77088	
+	TFIIH	nucleoplasm	Reactome DB_ID: 109634	
+	RNA Pol II (hypophosphorylated):capped pre-mRNA complex	nucleoplasm	Reactome DB_ID: 113715	
+	DSIF complex	nucleoplasm	Reactome DB_ID: 112420	
+	RNA Pol II (hypophosphorylated) complex bound to DSIF protein	nucleoplasm	Reactome DB_ID: 113406	
+	NELF complex	nucleoplasm	Reactome DB_ID: 112432	
+	DSIF:NELF:early elongation complex	nucleoplasm	Reactome DB_ID: 113408	
+	P-TEFb complex	nucleoplasm	Reactome DB_ID: 112431	
+	Early elongation complex with hyperphosphorylated Pol II CTD	nucleoplasm	Reactome DB_ID: 113426	
+	FACT complex	nucleoplasm	Reactome DB_ID: 112417	
+	Elongin Complex	nucleoplasm	Reactome DB_ID: 112425	
+	Elongation complex	nucleoplasm	Reactome DB_ID: 112433	
+	Processive elongation complex	nucleoplasm	Reactome DB_ID: 113719	
+	Elongation complex prior to separation	nucleoplasm	Reactome DB_ID: 113724	
+	Elongation complex with separated and uncleaved transcript	nucleoplasm	Reactome DB_ID: 113726	
+_physicalEntityName.size()	0
+_proteinName.size()	3
+	CTDP1	nucleoplasm	Reactome DB_ID: 113416	UniProt:Q9Y5B0	CTDP1
+	TCEA1	nucleoplasm	Reactome DB_ID: 65748	UniProt:P23193	TCEA1
+	ELL	nucleoplasm	Reactome DB_ID: 54257	UniProt:P55199	ELL
+_reactionName.size()	8
+	T	Hypophosphorylation of RNA Pol II CTD by FCP1P protein
+	D	DSIF complex binds to RNA Pol II (hypophosphorylated)
+	T	Formation of DSIF:NELF:early elongation complex
+	T	Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex
+	D	Recruitment of elongation factors to form elongation complex
+	T	Addition of nucleotides leads to transcript elongation
+	T	Pol II elongation complex moves on the template as transcript elongates
+	T	Separation of elongating transcript from template
+_smallMoleculeName.size()	1
+				
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

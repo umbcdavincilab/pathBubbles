@@ -1,0 +1,100 @@
+edge.size() 33
+ 80 0 67 -1 82 0 -1
+ 80 -1 67 -1 82 0 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 67 -1 82 1 -1
+ 83 -1 67 -1 82 1 -1
+ 83 -1 83 -1 82 1 -1
+ 67 -1 83 -1 82 1 -1
+ 67 0 67 -1 82 2 -1
+ 67 1 67 -1 82 2 -1
+ 67 0 67 2 82 3 -1
+ 80 -1 67 2 82 3 -1
+ 67 2 67 3 82 4 -1
+ 80 -1 67 3 82 4 -1
+ 83 0 67 5 82 5 -1
+ 67 4 67 5 82 5 -1
+ 67 4 83 2 82 5 -1
+ 83 1 83 3 82 5 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 80 -1 67 -1 82 -1 -1
+ 67 0 67 -1 82 -1 -1
+ 67 -1 82 1 82 1 -1
+ 67 3 82 1 82 5 -1
+_complexName.size()	6
+	pTie2:Ang-1	plasma membrane	Reactome DB_ID: 204783	
+	PI3K	cytosol	Reactome DB_ID: 74693	
+	Grb2 bound to Tie2	plasma membrane	Reactome DB_ID: 204865	
+	SOS-1 bound to Tie2:Grb2	plasma membrane	Reactome DB_ID: 210970	
+	p21 RAS:GDP	plasma membrane	Reactome DB_ID: 109796	
+	p21 RAS:GTP	plasma membrane	Reactome DB_ID: 109783	
+_physicalEntityName.size()	0
+_proteinName.size()	1
+	ANGPT1	extracellular region	Reactome DB_ID: 204854	UniProt:Q15389	ANGPT1
+_reactionName.size()	6
+	D	Interaction of Tie2 with Ang1
+	T	Trans-phosphorylation of Tie2
+	D	Interaction of Tie2 and p85 of PI3K
+	D	Interaction of Tie2 and Grb2
+	D	Interaction of SOS-1 to Tie2 bound  Grb2
+	T	Sos-mediated nucleotide exchange of Ras (Tie2 receptor:Grb2:Sos)
+_smallMoleculeName.size()	4
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+	GTP	cytosol	Reactome DB_ID: 29438	GTP [ChEBI:15996]
+	GDP	cytosol	Reactome DB_ID: 29420	GDP [ChEBI:17552]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

@@ -1,0 +1,165 @@
+edge.size() 46
+ 83 2 83 0 82 0 -1
+ 83 3 83 1 82 0 -1
+ 83 2 83 4 82 1 -1
+ 83 3 83 5 82 1 -1
+ 83 2 83 6 82 2 -1
+ 83 9 83 7 82 2 -1
+ 83 10 83 8 82 2 -1
+ 83 2 83 13 82 3 -1
+ 83 11 83 14 82 3 -1
+ 83 12 83 15 82 3 -1
+ 83 -1 83 16 82 4 -1
+ 83 15 83 17 82 4 -1
+ 83 -1 83 2 82 4 -1
+ 83 18 83 20 82 5 -1
+ 83 15 83 21 82 5 -1
+ 83 19 83 22 82 5 -1
+ 83 23 83 25 82 6 -1
+ 83 15 83 26 82 6 -1
+ 83 24 83 22 82 6 -1
+ 83 27 83 29 82 7 -1
+ 83 22 83 30 82 7 -1
+ 83 28 83 15 82 7 -1
+ 83 31 83 33 82 8 -1
+ 83 22 83 34 82 8 -1
+ 83 32 83 35 82 8 -1
+ 83 35 83 38 82 9 -1
+ 83 36 83 39 82 9 -1
+ 83 37 83 22 82 9 -1
+ 83 35 83 42 82 10 -1
+ 83 40 83 43 82 10 -1
+ 83 41 83 44 82 10 -1
+ 83 44 83 47 82 11 -1
+ 83 45 83 48 82 11 -1
+ 83 46 83 35 82 11 -1
+ 67 0 82 1 82 0 -1
+ 67 1 82 1 82 1 -1
+ 67 2 82 1 82 2 -1
+ 67 3 82 1 82 3 -1
+ 67 4 82 1 82 4 -1
+ 80 0 82 1 82 5 -1
+ 80 1 82 1 82 6 -1
+ 67 5 82 1 82 7 -1
+ 67 5 82 1 82 8 -1
+ 67 5 82 1 82 9 -1
+ 67 5 82 1 82 10 -1
+ 67 5 82 1 82 11 -1
+_complexName.size()	6
+	PLCB1:Ca2+/PLCB2:Ca2+/PLCB3:Ca2+/PLCB4:Ca2+/PLCZ1:Ca2+			
+	PLCD1:Ca2+/PLCE1:Ca2+/PLCD3:Ca2+/PLCG1:Ca2+/PLCG2:Ca2+/PLCH1:Ca2+/PLCH2:Ca2+			
+	PLCD4:Ca2+	endoplasmic reticulum membrane	Reactome DB_ID: 2023869	
+	ITPKA:Ca2+:CALM1/ITPKB:Ca2+:CALM1/ITPKC:Ca2+:CALM1			
+	PTEN:Mg2+	cytosol	Reactome DB_ID: 199426	
+	ITPK1:Mg2+	cytosol	Reactome DB_ID: 1604601	
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	PLCB1	cytosol	Reactome DB_ID: 61693	UniProt:Q9NQ66	PLCB1
+	OCRL	plasma membrane			
+_reactionName.size()	12
+	T	PI(4,5)P2 is hydrolysed to I(1,4,5)P3 and DAG by cytosolic PLC[2] at the plasma membrane
+	T	PI(4,5)P2 is hydrolysed to I(1,4,5)P3 and DAG by tethered PLC[1] at the plasma membrane
+	T	PI(4,5)P2 is hydrolysed to I(1,4,5)P3 and DAG by PLCD4 at the ER membrane
+	T	I(1,4,5)P3 is phosphorylated to I(1,3,4,5)P4 by ITPKA/B/C in the cytosol
+	T	I(1,3,4,5)P4 is dephosphorylated to I(1,4,5)P3 by PTEN in the cytosol
+	T	I(1,3,4,5)P4 is dephosphorylated to I(1,3,4)P3 by INPP5[3]/ITPK1 in the cytosol
+	T	I(1,3,4,5)P4 is dephosphorylated to I(1,3,4)P3 by INPP5B at the plasma membrane
+	T	I(1,3,4)P3 is phosphorylated to I(1,3,4,5)P4 by ITPK1 in the cytosol
+	T	I(1,3,4)P3 is phosphorylated to I(1,3,4,6)P4 by ITPK1 in the cytosol
+	T	I(1,3,4,6)P4 is dephosphorylated to I(1,3,4)P3 by ITPK1 in the cytosol
+	T	I(1,3,4,6)P4 is dephosphorylated to I(3,4,6)P3 by ITPK1 in the cytosol
+	T	I(3,4,6)P3 is phosphorylated to I(1,3,4,6)P4 by ITPK1 in the cytosol
+_smallMoleculeName.size()	49
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	IP3	cytosol	Reactome DB_ID: 114520	IP3 [ChEBI:16595]
+	DAG	plasma membrane	Reactome DB_ID: 2023883	ChEBI:17815 1,2-diacyl-sn-glycerol
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	I(1,3,4,6)P4	cytosol	Reactome DB_ID: 994146	1D-myo-Inositol 1,3,4,6-tetrakisphosphate [ChEBI:809]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	I(1,3,4)P3	cytosol	Reactome DB_ID: 994123	1D-myo-Inositol 1,3,4-trisphosphate [ChEBI:810]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	I(3,4,6)P3	cytosol	Reactome DB_ID: 1629741	1D-myo-Inositol 3,4,6-trisphosphate [ChEBI:62918]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	PIP2	plasma membrane	Reactome DB_ID: 179856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	PIP2	endoplasmic reticulum membrane	Reactome DB_ID: 2023856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	DAG	endoplasmic reticulum membrane	Reactome DB_ID: 1500596	ChEBI:17815 1,2-diacyl-sn-glycerol
+	PIP2	endoplasmic reticulum membrane	Reactome DB_ID: 2023856	ChEBI:18348 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+	DAG	endoplasmic reticulum membrane	Reactome DB_ID: 1500596	ChEBI:17815 1,2-diacyl-sn-glycerol
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	I(1,3,4,5)P4	cytosol	Reactome DB_ID: 994170	1D-myo-Inositol 1,3,4,5-tetrakisphosphate [ChEBI:808]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

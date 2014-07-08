@@ -1,0 +1,173 @@
+edge.size() 54
+ 83 0 83 3 82 0 -1
+ 83 1 83 4 82 0 -1
+ 83 2 83 5 82 0 -1
+ 83 7 83 5 82 1 -1
+ 83 1 83 6 82 1 -1
+ 83 7 83 8 82 2 -1
+ 83 9 83 1 82 2 -1
+ 83 10 83 7 82 3 -1
+ 83 1 83 12 82 3 -1
+ 83 11 83 13 82 3 -1
+ 83 17 83 14 82 4 -1
+ 83 18 83 15 82 4 -1
+ 83 1 83 16 82 4 -1
+ 83 7 83 19 82 5 -1
+ 83 22 83 20 82 5 -1
+ 83 -1 83 21 82 5 -1
+ 83 7 83 9 82 6 -1
+ 83 24 83 23 82 6 -1
+ 83 24 83 27 82 7 -1
+ 83 25 83 28 82 7 -1
+ 83 26 83 9 82 7 -1
+ 83 7 83 9 82 8 -1
+ 83 30 83 29 82 8 -1
+ 83 31 83 34 82 9 -1
+ 83 32 83 35 82 9 -1
+ 83 33 83 9 82 9 -1
+ 83 24 83 7 82 10 -1
+ 83 -1 83 36 82 10 -1
+ 83 -1 83 37 82 10 -1
+ 83 7 83 24 82 11 -1
+ 83 -1 83 38 82 11 -1
+ 83 42 83 39 82 12 -1
+ 83 43 83 40 82 12 -1
+ 83 24 83 41 82 12 -1
+ 83 7 83 44 82 -1 -1
+ 83 -1 83 30 82 -1 -1
+ 83 48 83 45 82 13 -1
+ 83 49 83 46 82 13 -1
+ 83 31 83 47 82 13 -1
+ 67 0 82 1 82 0 -1
+ 67 0 82 1 82 1 -1
+ 80 0 82 1 82 2 -1
+ 80 -1 82 1 82 3 -1
+ 67 1 82 1 82 4 -1
+ 80 -1 82 1 82 5 -1
+ 80 -1 82 1 82 6 -1
+ 67 2 82 1 82 7 -1
+ 80 1 82 1 82 8 -1
+ 67 2 82 1 82 9 -1
+ 80 -1 82 1 82 10 -1
+ 80 1 82 1 82 11 -1
+ 67 2 82 1 82 12 -1
+ 80 -1 82 1 82 -1 -1
+ 67 2 82 1 82 13 -1
+_complexName.size()	3
+	ITPK1:Mg2+	cytosol	Reactome DB_ID: 1604601	
+	NUDT4:Mg2+/Mn2+	cytosol	Reactome DB_ID: 1604660	
+	NUDT3:Mg2+/NUDT4:Mg2+/Mn2+/NUDT10:Mg2+/Mn2+/NUDT11:Mg2+/Mn2+			
+_physicalEntityName.size()	0
+_proteinName.size()	2
+	IPPK	cytosol	Reactome DB_ID: 1604598	UniProt:Q9H8X2	IPPK
+	VIP2	cytosol			
+_reactionName.size()	14
+	T	I(1,3,4,5,6)P5 is dephosphorylated to I(3,4,5,6)P4 by ITPK1 in the cytosol
+	T	I(3,4,5,6)P4 is phosphorylated to I(1,3,4,5,6)P5 by ITPK1 in the cytosol
+	T	I(1,3,4,5,6)P5 is phosphorylated to IP6 by IPPK in the cytosol
+	T	I(1,3,4,5,6)P5 is phosphorylated to 5-PP-IP4 by IP6K1/3 in the cytosol
+	T	PP-IP4 is dephosphorylated to I(1,3,4,5,6)P5 by NUDT4 in the cytosol
+	T	1-PP-IP4 is phosphorylated to 1,5-(PP)2-IP3 by IP6K1/3 in the cytosol
+	T	IP6 is phosphorylated to 5-PP-IP5 by IP6K1/3 in the cytosol
+	T	5-PP-IP5 is dephosphorylated to IP6 by NUDT(1) in the cytosol
+	T	IP6 is phosphorylated to 1-PP-IP5 by PPIP5K1/2 in the cytosol
+	T	1/3 PP-IP5 is dephosphorylated to IP6 by NUDT(1) in the cytosol
+	T	5-PP-IP5 is phosphorylated to 5-PPP-IP5 by IP6K1/3 in the cytosol
+	T	5-PP-IP5 is phosphorylated to 1,5-(PP)2-IP4 by PPIP5K1/2 in the cytosol
+	T	(PP)2-IP4 is dephosphorylated to 5-PP-IP5 by NUDT(1) in the cytosol
+	T	(PP)2-IP4 is dephosphorylated to 1/3-PP-IP5 by NUDT(1) in the cytosol
+_smallMoleculeName.size()	50
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	I(1,3,4,5,6)P5	cytosol	Reactome DB_ID: 994141	1D-myo-Inositol 1,3,4,5,6-pentakisphosphate [ChEBI:807]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	I(3,4,5,6)P4	cytosol	Reactome DB_ID: 994149	1D-myo-Inositol 3,4,5,6-tetrakisphosphate [ChEBI:813]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+				
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	IP6	cytosol	Reactome DB_ID: 1629770	myo-Inositol hexakisphosphate [ChEBI:10603]
+	5-PP-IP5	cytosol	Reactome DB_ID: 1629765	5-PP-InsP5 [ChEBI:2119]
+	ADP	cytosol	Reactome DB_ID: 29370	ADP [ChEBI:16761]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	5-PPP-IP5	cytosol	Reactome DB_ID: 1629759	5-triphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate [ChEBI:62985]
+	5-PPP-IP5	cytosol	Reactome DB_ID: 1629759	5-triphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate [ChEBI:62985]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	1,5-(PP)2-IP4	cytosol	Reactome DB_ID: 1629732	1,5-bisdiphosphoinositol-1D-myo-inositol (2,3,4,6)tetrakisphosphate [ChEBI:62923]
+				
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+				
+	1-PP-IP5	cytosol	Reactome DB_ID: 1629740	1-diphospho-1D-myo-inositol (2,3,4,5,6)pentakisphosphate [ChEBI:62919]
+				
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+				
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	5-PP-IP4	cytosol	Reactome DB_ID: 1629755	5-diphospho-1D-myo-inositol (1,3,4,6)tetrakisphosphate [ChEBI:62928]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	1-PP-IP4	cytosol	Reactome DB_ID: 1629736	1-diphospho-1D-myo-inositol (3,4,5,6)tetrakisphosphate [ChEBI:62926]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	1-PP-IP4	cytosol	Reactome DB_ID: 1629736	1-diphospho-1D-myo-inositol (3,4,5,6)tetrakisphosphate [ChEBI:62926]
+	1,5-(PP)2-IP3	cytosol	Reactome DB_ID: 1629738	1,5-bisdiphosphoinositol-1D-myo-inositol (3,4,6)trisphosphate [ChEBI:62931]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

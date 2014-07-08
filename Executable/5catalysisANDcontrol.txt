@@ -1,0 +1,30 @@
+?catalysisANDcontrol   ?Controller   ?Controlled              ?regulation
+Catalysis1             Protein4      Biochemical Reaction1    ACTIVATION
+Catalysis10            Complex32     Biochemical Reaction26   ACTIVATION
+Catalysis11            Complex34     Biochemical Reaction28   ACTIVATION
+Catalysis12            Complex36     Biochemical Reaction30   ACTIVATION
+Catalysis13            Complex40     Biochemical Reaction34   ACTIVATION
+Catalysis14            Complex52     Biochemical Reaction42   ACTIVATION
+Catalysis15            Complex58     Biochemical Reaction48   ACTIVATION
+Catalysis16            Complex65     Biochemical Reaction57   ACTIVATION
+Catalysis17            Complex67     Biochemical Reaction59   ACTIVATION
+Catalysis18            Complex70     Biochemical Reaction62   ACTIVATION
+Catalysis19            Complex73     Biochemical Reaction66   ACTIVATION
+Catalysis2             Complex3      Biochemical Reaction3    ACTIVATION
+Catalysis20            Complex75     Biochemical Reaction69   ACTIVATION
+Catalysis21            Complex77     Biochemical Reaction71   ACTIVATION
+Catalysis22            Protein143    Degradation7             ACTIVATION
+Catalysis3             Complex5      Biochemical Reaction4    ACTIVATION
+Catalysis4             Complex8      Biochemical Reaction5    ACTIVATION
+Catalysis5             Protein10     Biochemical Reaction6    ACTIVATION
+Catalysis6             Complex11     Biochemical Reaction7    ACTIVATION
+Catalysis7             Complex20     Biochemical Reaction15   ACTIVATION
+Catalysis8             Complex25     Biochemical Reaction20   ACTIVATION
+Catalysis9             Complex30     Biochemical Reaction24   ACTIVATION
+Control1               Complex56     Biochemical Reaction45   ACTIVATION
+Control2               Complex56     Biochemical Reaction46   ACTIVATION
+Control3               Complex57     Biochemical Reaction46   INHIBITION
+Control4               Complex61     Biochemical Reaction50   INHIBITION
+Control5               Complex62     Biochemical Reaction52   ACTIVATION
+Control6               Complex50     Biochemical Reaction54   ACTIVATION
+

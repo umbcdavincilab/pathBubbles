@@ -1,0 +1,203 @@
+edge.size() 65
+ 83 1 83 0 82 0 -1
+ 83 2 83 4 82 1 -1
+ 83 1 83 5 82 1 -1
+ 83 3 83 6 82 1 -1
+ 83 -1 83 -1 82 2 -1
+ 83 6 83 1 82 3 -1
+ 83 0 83 7 82 4 -1
+ 83 9 83 8 82 4 -1
+ 83 0 83 -1 82 5 -1
+ 83 9 83 -1 82 5 -1
+ 83 0 67 3 82 6 -1
+ 80 1 67 3 82 6 -1
+ 83 -1 83 -1 82 -1 -1
+ 83 21 83 10 82 7 -1
+ 83 22 83 11 82 7 -1
+ 83 23 83 12 82 7 -1
+ 83 24 83 13 82 7 -1
+ 83 25 83 14 82 7 -1
+ 83 26 83 15 82 7 -1
+ 83 27 83 16 82 7 -1
+ 83 28 83 17 82 7 -1
+ 83 29 83 18 82 7 -1
+ 83 30 83 19 82 7 -1
+ 83 6 83 20 82 7 -1
+ 83 31 83 32 82 8 -1
+ 83 37 83 33 82 9 -1
+ 83 38 83 30 82 9 -1
+ 83 39 83 34 82 9 -1
+ 83 40 83 35 82 9 -1
+ 83 32 83 36 82 9 -1
+ 67 3 67 -1 82 10 -1
+ 67 -1 67 -1 82 10 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 41 83 47 82 11 -1
+ 83 42 83 48 82 11 -1
+ 83 30 83 49 82 11 -1
+ 83 43 83 40 82 11 -1
+ 83 44 83 50 82 11 -1
+ 83 45 83 51 82 11 -1
+ 83 46 83 52 82 11 -1
+ 67 -1 83 -1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 53 83 -1 82 12 -1
+ 83 53 83 6 82 13 -1
+ 67 -1 67 -1 82 -1 -1
+ 67 -1 80 1 82 -1 -1
+ 67 -1 67 -1 82 -1 -1
+ 83 57 83 54 82 14 -1
+ 83 58 83 55 82 14 -1
+ 83 59 83 6 82 14 -1
+ 83 30 83 56 82 14 -1
+ 67 0 82 1 82 0 -1
+ 80 0 82 1 82 1 -1
+ 67 1 82 1 82 2 -1
+ 67 2 82 1 82 3 -1
+ 67 2 82 1 82 4 -1
+ 67 1 82 1 82 5 -1
+ 80 -1 82 1 82 -1 -1
+ 80 2 82 1 82 7 -1
+ 80 3 82 1 82 8 -1
+ 67 4 82 1 82 9 -1
+ 67 5 82 1 82 11 -1
+ 80 4 82 1 82 12 -1
+ 80 5 82 1 82 13 -1
+ 67 6 82 1 82 14 -1
+_complexName.size()	7
+	CYBRD1:Heme	extracellular region	Reactome DB_ID: 917916	
+	MTP1:HEPH:6Cu2+	plasma membrane	Reactome DB_ID: 904821	
+	MTP1:CP:6Cu2+	plasma membrane	Reactome DB_ID: 904825	
+	holoTF	extracellular region	Reactome DB_ID: 917889	
+	ABCG2 dimer	plasma membrane	Reactome DB_ID: 917863	
+	V-ATPase	endosome membrane	Reactome DB_ID: 912600	
+	Ferritin Complex	cytosol	Reactome DB_ID: 434350	
+_physicalEntityName.size()	0
+_proteinName.size()	6
+	DCT1	plasma membrane	Reactome DB_ID: 435359	UniProt:P49281	SLC11A2
+	TF	extracellular region	Reactome DB_ID: 350754	UniProt:P02787	TF
+	HMOX2	endoplasmic reticulum membrane			
+	FLVCR1	plasma membrane	Reactome DB_ID: 917907	UniProt:Q9Y5Y0	FLVCR1
+	STEAP2	endosome membrane			
+	MCOLN1	endosome membrane	Reactome DB_ID: 917803	UniProt:Q9GZU1	MCOLN1
+_reactionName.size()	15
+	D	Reduction of extracellular Fe3+
+	T	DCT1 (NRAMP2) mediates divalent iron uptake across the apical membrane of enterocytes
+	T	Ferroportin mediates iron influx across the basolateral membrane of enterocytes
+	T	Ferroportin mediates iron efflux on macrophages
+	T	Oxidation of Fe2+ by ceruloplasmin
+	T	Oxidation of Fe2+ by hephaestin
+	D	apo-Transferrin is loaded with two iron ions
+	T	The heme ring is cleaved by heme oxygenase
+	T	Export of heme to the blood by FLVCR
+	T	Export of heme to the blood by ABCG2
+	D	Loaded transferrin binds to TfR1
+	T	Acidification of Tf:TfR1 containing endosome
+	D	Reduction of Fe3+ in the endosome
+	T	Iron diffuses out of the endosome
+	T	Ferritin stores iron
+_smallMoleculeName.size()	60
+	Fe3+	extracellular region	Reactome DB_ID: 917943	iron(3+) [ChEBI:29034]
+	e-	extracellular region	Reactome DB_ID: 917828	electron [ChEBI:10545]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	heme	extracellular region	Reactome DB_ID: 917877	ChEBI:17627 Heme
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	H2O	cytosol	Reactome DB_ID: 29356	H2O [ChEBI:15377]
+	Pi	cytosol	Reactome DB_ID: 29372	Orthophosphate [ChEBI:18367]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+	ATP	cytosol	Reactome DB_ID: 113592	ATP [ChEBI:15422]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	H+	endosome lumen	Reactome DB_ID: 74722	H+ [ChEBI:15378]
+	Fe3+	endosome lumen	Reactome DB_ID: 917966	iron(3+) [ChEBI:29034]
+	Fe2+	endosome lumen	Reactome DB_ID: 917810	iron (ferrous) [ChEBI:18248]
+	e-	endosome membrane	Reactome DB_ID: 917882	electron [ChEBI:10545]
+	Fe2+	cytosol	Reactome DB_ID: 71067	iron (ferrous) [ChEBI:18248]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	Fe3+	cytosol	Reactome DB_ID: 111736	iron(3+) [ChEBI:29034]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	Fe3+	cytosol	Reactome DB_ID: 111736	iron(3+) [ChEBI:29034]
+	Fe3+	cytosol	Reactome DB_ID: 111736	iron(3+) [ChEBI:29034]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	H+	cytosol	Reactome DB_ID: 70106	H+ [ChEBI:15378]
+	Fe3+	extracellular region	Reactome DB_ID: 912516	ChEBI:29034 iron(3+)
+	Fe3+	cytosol	Reactome DB_ID: 912519	ChEBI:29034 iron(3+)
+	H+	extracellular region	Reactome DB_ID: 351626	H+ [ChEBI:15378]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H2O	extracellular region	Reactome DB_ID: 109276	H2O [ChEBI:15377]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	H+	extracellular region	Reactome DB_ID: 351626	H+ [ChEBI:15378]
+	H+	extracellular region	Reactome DB_ID: 351626	H+ [ChEBI:15378]
+	O2	extracellular region	Reactome DB_ID: 352327	Oxygen [ChEBI:15379]
+	FeHM	extracellular region	Reactome DB_ID: 917955	ChEBI:36144 ferriheme
+	FeHM	cytosol	Reactome DB_ID: 917795	ChEBI:36144 ferriheme
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	TPN	cytosol	Reactome DB_ID: 29366	NADP+ [ChEBI:18009]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	BV	cytosol	Reactome DB_ID: 189396	Biliverdin [ChEBI:3102]
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	BV	cytosol	Reactome DB_ID: 189396	Biliverdin [ChEBI:3102]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	BV	cytosol	Reactome DB_ID: 189396	Biliverdin [ChEBI:3102]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	CO	cytosol	Reactome DB_ID: 189385	CO [ChEBI:3282]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+	CO	cytosol	Reactome DB_ID: 189385	CO [ChEBI:3282]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	heme	cytosol	Reactome DB_ID: 71185	ChEBI:17627 Heme
+	O2	cytosol	Reactome DB_ID: 29368	Oxygen [ChEBI:15379]
+	TPNH	cytosol	Reactome DB_ID: 29364	NADPH [ChEBI:16474]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole

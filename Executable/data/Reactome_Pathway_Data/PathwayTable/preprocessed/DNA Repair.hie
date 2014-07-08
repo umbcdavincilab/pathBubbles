@@ -1,0 +1,1032 @@
+edge.size() 611
+ 80 0 67 0 82 0 -1
+ 69 0 67 0 82 0 -1
+ 80 0 67 1 82 1 -1
+ 69 1 67 1 82 1 -1
+ 80 0 67 2 82 2 -1
+ 69 2 67 2 82 2 -1
+ 80 1 67 3 82 3 -1
+ 69 3 67 3 82 3 -1
+ 80 2 67 4 82 4 -1
+ 69 4 67 4 82 4 -1
+ 80 2 67 5 82 5 -1
+ 69 5 67 5 82 5 -1
+ 67 3 83 -1 82 6 -1
+ 67 3 67 6 82 6 -1
+ 67 0 67 7 82 7 -1
+ 67 0 83 0 82 7 -1
+ 67 1 83 1 82 8 -1
+ 67 1 67 7 82 8 -1
+ 67 2 83 -1 82 9 -1
+ 67 2 67 7 82 9 -1
+ 67 4 67 8 82 10 -1
+ 67 4 83 -1 82 10 -1
+ 67 5 83 -1 82 11 -1
+ 67 5 67 8 82 11 -1
+ 69 6 67 9 82 12 -1
+ 80 3 67 9 82 12 -1
+ 80 3 67 10 82 13 -1
+ 69 7 67 10 82 13 -1
+ 69 8 67 11 82 14 -1
+ 80 4 67 11 82 14 -1
+ 69 9 67 12 82 15 -1
+ 80 4 67 12 82 15 -1
+ 69 7 67 13 82 16 -1
+ 80 4 67 13 82 16 -1
+ 69 10 67 14 82 17 -1
+ 80 5 67 14 82 17 -1
+ 69 11 67 15 82 18 -1
+ 80 6 67 15 82 18 -1
+ 69 12 67 16 82 19 -1
+ 80 6 67 16 82 19 -1
+ 69 13 67 17 82 20 -1
+ 80 7 67 17 82 20 -1
+ 69 14 67 18 82 21 -1
+ 80 7 67 18 82 21 -1
+ 69 5 67 19 82 22 -1
+ 80 7 67 19 82 22 -1
+ 69 15 67 20 82 23 -1
+ 80 7 67 20 82 23 -1
+ 67 10 67 21 82 24 -1
+ 67 10 83 -1 82 24 -1
+ 67 9 67 21 82 25 -1
+ 67 9 83 -1 82 25 -1
+ 67 13 67 22 82 26 -1
+ 67 13 83 -1 82 26 -1
+ 67 12 67 22 82 27 -1
+ 67 12 83 -1 82 27 -1
+ 67 14 67 23 82 28 -1
+ 67 14 83 -1 82 28 -1
+ 67 20 67 24 82 29 -1
+ 67 20 69 16 82 29 -1
+ 67 17 67 24 82 30 -1
+ 67 17 69 17 82 30 -1
+ 67 18 83 -1 82 31 -1
+ 67 18 67 24 82 31 -1
+ 67 19 83 -1 82 32 -1
+ 67 19 67 24 82 32 -1
+ 67 16 67 25 82 33 -1
+ 67 16 83 -1 82 33 -1
+ 67 15 67 25 82 34 -1
+ 67 15 83 -1 82 34 -1
+ 67 11 67 22 82 35 -1
+ 67 11 83 -1 82 35 -1
+ 67 21 80 3 82 36 -1
+ 80 8 80 3 82 36 -1
+ 80 8 67 26 82 36 -1
+ 67 21 67 26 82 36 -1
+ 67 22 80 4 82 37 -1
+ 80 8 80 4 82 37 -1
+ 80 8 67 26 82 37 -1
+ 67 22 67 26 82 37 -1
+ 67 23 67 26 82 38 -1
+ 80 8 67 26 82 38 -1
+ 80 8 80 5 82 38 -1
+ 67 23 80 5 82 38 -1
+ 67 24 80 7 82 39 -1
+ 80 8 80 7 82 39 -1
+ 80 8 67 26 82 39 -1
+ 67 24 67 26 82 39 -1
+ 67 25 80 6 82 40 -1
+ 80 8 80 6 82 40 -1
+ 80 8 67 26 82 40 -1
+ 67 25 67 26 82 40 -1
+ 67 8 80 2 82 41 -1
+ 80 8 80 2 82 41 -1
+ 80 8 67 26 82 41 -1
+ 67 8 67 26 82 41 -1
+ 67 6 80 1 82 42 -1
+ 80 8 80 1 82 42 -1
+ 80 8 67 26 82 42 -1
+ 67 6 67 26 82 42 -1
+ 67 7 80 0 82 43 -1
+ 80 8 80 0 82 43 -1
+ 80 8 67 26 82 43 -1
+ 67 7 67 26 82 43 -1
+ 67 26 67 27 82 44 -1
+ 67 27 67 28 82 45 -1
+ 80 9 67 28 82 45 -1
+ 67 28 83 -1 82 46 -1
+ 67 28 67 29 82 46 -1
+ 67 28 80 8 82 46 -1
+ 67 29 67 31 82 47 -1
+ 67 30 67 31 82 47 -1
+ 83 -1 83 -1 82 48 -1
+ 67 32 67 31 82 48 -1
+ 67 32 67 31 82 48 -1
+ 67 32 67 33 82 49 -1
+ 67 33 69 18 82 50 -1
+ 67 33 80 9 82 50 -1
+ 67 33 67 30 82 50 -1
+ 67 34 69 19 82 51 -1
+ 67 34 67 28 82 51 -1
+ 83 -1 67 28 82 51 -1
+ 67 34 80 9 82 52 -1
+ 67 35 80 9 82 52 -1
+ 67 35 67 36 82 52 -1
+ 67 34 67 36 82 52 -1
+ 67 37 83 -1 82 53 -1
+ 67 37 67 36 82 53 -1
+ 83 -1 67 36 82 53 -1
+ 80 11 67 38 82 54 -1
+ 80 8 67 38 82 54 -1
+ 80 8 67 39 82 55 -1
+ 80 12 67 39 82 55 -1
+ 80 13 67 40 82 56 -1
+ 80 12 67 40 82 56 -1
+ 67 37 69 20 82 57 -1
+ 67 37 67 41 82 57 -1
+ 67 41 67 42 82 58 -1
+ 80 14 67 43 82 59 -1
+ 69 21 67 43 82 59 -1
+ 67 43 67 44 82 60 -1
+ 67 44 80 14 82 61 -1
+ 67 44 69 22 82 61 -1
+ 80 15 67 45 82 62 -1
+ 69 21 67 45 82 62 -1
+ 67 45 67 46 82 63 -1
+ 67 46 80 15 82 64 -1
+ 67 46 69 22 82 64 -1
+ 67 47 67 48 82 65 -1
+ 69 21 67 48 82 65 -1
+ 80 16 67 47 82 66 -1
+ 80 17 67 47 82 66 -1
+ 67 48 67 47 82 67 -1
+ 69 19 67 47 82 67 -1
+ 69 19 69 22 82 67 -1
+ 67 48 69 22 82 67 -1
+ 69 23 80 19 82 68 -1
+ 80 18 80 19 82 68 -1
+ 80 18 69 24 82 68 -1
+ 69 23 69 24 82 68 -1
+ 83 8 83 2 82 69 -1
+ 83 9 69 25 82 69 -1
+ 83 10 83 3 82 69 -1
+ 83 11 83 4 82 69 -1
+ 83 12 69 25 82 69 -1
+ 83 13 83 5 82 69 -1
+ 83 -1 83 6 82 69 -1
+ 69 26 69 25 82 69 -1
+ 69 26 83 7 82 69 -1
+ 69 26 83 -1 82 69 -1
+ 83 14 83 -1 82 70 -1
+ 83 15 83 -1 82 70 -1
+ 83 -1 69 27 82 70 -1
+ 83 -1 69 27 82 70 -1
+ 83 -1 83 -1 82 70 -1
+ 83 -1 83 -1 82 70 -1
+ 83 -1 69 27 82 70 -1
+ 69 26 83 -1 82 70 -1
+ 69 26 83 -1 82 70 -1
+ 69 26 69 27 82 70 -1
+ 83 -1 83 -1 82 71 -1
+ 83 -1 83 -1 82 71 -1
+ 83 -1 69 28 82 71 -1
+ 83 -1 69 28 82 71 -1
+ 69 26 83 -1 82 71 -1
+ 69 26 83 -1 82 71 -1
+ 69 26 69 28 82 71 -1
+ 83 -1 83 -1 82 71 -1
+ 83 -1 83 -1 82 72 -1
+ 83 -1 69 25 82 72 -1
+ 83 -1 83 -1 82 72 -1
+ 83 -1 83 -1 82 72 -1
+ 83 -1 69 25 82 72 -1
+ 83 -1 83 -1 82 72 -1
+ 83 -1 83 -1 82 72 -1
+ 69 26 69 25 82 72 -1
+ 69 26 83 -1 82 72 -1
+ 69 26 83 -1 82 72 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 69 27 82 73 -1
+ 83 -1 69 27 82 73 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 83 -1 82 73 -1
+ 83 -1 69 27 82 73 -1
+ 69 26 83 -1 82 73 -1
+ 69 26 83 -1 82 73 -1
+ 69 26 69 27 82 73 -1
+ 83 -1 83 -1 82 74 -1
+ 83 -1 83 -1 82 74 -1
+ 83 -1 69 28 82 74 -1
+ 83 -1 69 28 82 74 -1
+ 69 26 83 -1 82 74 -1
+ 69 26 83 -1 82 74 -1
+ 69 26 69 28 82 74 -1
+ 83 -1 83 -1 82 74 -1
+ 83 -1 83 -1 82 75 -1
+ 67 50 67 49 82 75 -1
+ 67 50 67 49 82 75 -1
+ 67 50 80 22 82 76 -1
+ 83 -1 83 -1 82 77 -1
+ 80 24 80 23 82 77 -1
+ 80 24 80 23 82 77 -1
+ 83 -1 80 25 82 78 -1
+ 80 26 83 -1 82 78 -1
+ 80 26 83 -1 82 78 -1
+ 83 -1 83 -1 82 79 -1
+ 80 29 80 28 82 79 -1
+ 80 29 80 28 82 79 -1
+ 80 30 83 -1 82 80 -1
+ 80 30 80 27 82 80 -1
+ 83 -1 80 27 82 80 -1
+ 67 51 67 52 82 81 -1
+ 80 27 67 52 82 81 -1
+ 80 22 67 54 82 82 -1
+ 67 53 67 54 82 82 -1
+ 80 31 67 55 82 83 -1
+ 67 52 67 55 82 83 -1
+ 67 51 67 56 82 84 -1
+ 80 28 67 56 82 84 -1
+ 80 32 67 57 82 85 -1
+ 80 33 67 57 82 85 -1
+ 67 57 67 58 82 86 -1
+ 80 28 67 58 82 86 -1
+ 67 56 67 59 82 87 -1
+ 67 58 67 59 82 87 -1
+ 80 25 67 60 82 88 -1
+ 67 55 67 60 82 88 -1
+ 69 29 69 30 82 89 -1
+ 69 31 67 62 82 90 -1
+ 67 61 67 62 82 90 -1
+ 80 34 67 63 82 91 -1
+ 80 35 67 63 82 91 -1
+ 67 62 67 64 82 92 -1
+ 80 36 67 64 82 92 -1
+ 67 61 67 65 82 93 -1
+ 80 36 67 65 82 93 -1
+ 69 30 67 66 82 94 -1
+ 80 36 67 66 82 94 -1
+ 80 35 67 67 82 95 -1
+ 67 66 67 67 82 95 -1
+ 67 62 67 68 82 96 -1
+ 80 35 67 68 82 96 -1
+ 69 30 67 69 82 97 -1
+ 80 35 67 69 82 97 -1
+ 69 32 69 33 82 98 -1
+ 69 33 69 34 82 99 -1
+ 69 19 69 34 82 99 -1
+ 69 34 69 35 82 100 -1
+ 69 35 69 36 82 101 -1
+ 69 34 69 37 82 102 -1
+ 69 34 69 38 82 102 -1
+ 69 37 69 39 82 103 -1
+ 67 70 67 71 82 104 -1
+ 69 29 67 71 82 104 -1
+ 80 40 67 72 82 105 -1
+ 67 71 67 72 82 105 -1
+ 83 -1 80 40 82 106 -1
+ 80 41 83 -1 82 106 -1
+ 80 41 83 -1 82 106 -1
+ 67 72 67 73 82 107 -1
+ 67 73 67 74 82 108 -1
+ 67 73 67 74 82 109 -1
+ 67 75 67 76 82 110 -1
+ 67 74 67 76 82 110 -1
+ 67 76 80 43 82 111 -1
+ 67 76 80 40 82 111 -1
+ 67 76 80 38 82 111 -1
+ 67 76 69 40 82 111 -1
+ 67 76 80 44 82 111 -1
+ 67 76 80 39 82 111 -1
+ 80 45 67 77 82 112 -1
+ 80 46 67 77 82 112 -1
+ 67 77 67 78 82 113 -1
+ 69 21 67 78 82 113 -1
+ 67 78 67 80 82 114 -1
+ 80 47 67 80 82 114 -1
+ 80 48 67 80 82 114 -1
+ 67 79 67 80 82 114 -1
+ 80 49 67 80 82 114 -1
+ 67 61 67 80 82 114 -1
+ 80 50 67 80 82 114 -1
+ 67 80 67 81 82 115 -1
+ 80 51 67 82 82 116 -1
+ 80 52 67 82 82 116 -1
+ 67 82 67 83 82 117 -1
+ 67 81 67 83 82 117 -1
+ 67 83 67 84 82 118 -1
+ 67 84 67 77 82 119 -1
+ 67 84 69 41 82 119 -1
+ 67 84 69 42 82 119 -1
+ 67 84 67 82 82 119 -1
+ 67 84 80 47 82 119 -1
+ 67 84 80 48 82 119 -1
+ 67 84 67 79 82 119 -1
+ 67 84 80 49 82 119 -1
+ 67 84 67 61 82 119 -1
+ 67 84 80 50 82 119 -1
+ 69 41 69 41 82 120 -1
+ 67 85 69 41 82 120 -1
+ 67 86 69 41 82 120 -1
+ 69 19 69 41 82 120 -1
+ 67 87 69 41 82 120 -1
+ 67 61 69 41 82 120 -1
+ 67 61 69 43 82 120 -1
+ 67 87 69 43 82 120 -1
+ 69 19 69 43 82 120 -1
+ 67 86 69 43 82 120 -1
+ 67 85 69 43 82 120 -1
+ 69 41 69 43 82 120 -1
+ 67 61 67 85 82 120 -1
+ 67 87 67 85 82 120 -1
+ 69 19 67 85 82 120 -1
+ 67 86 67 85 82 120 -1
+ 67 85 67 85 82 120 -1
+ 69 41 67 85 82 120 -1
+ 67 61 67 86 82 120 -1
+ 67 87 67 86 82 120 -1
+ 69 19 67 86 82 120 -1
+ 67 86 67 86 82 120 -1
+ 67 85 67 86 82 120 -1
+ 69 41 67 86 82 120 -1
+ 67 61 67 87 82 120 -1
+ 67 87 67 87 82 120 -1
+ 69 19 67 87 82 120 -1
+ 67 86 67 87 82 120 -1
+ 67 85 67 87 82 120 -1
+ 69 41 67 87 82 120 -1
+ 67 61 67 61 82 120 -1
+ 67 87 67 61 82 120 -1
+ 69 19 67 61 82 120 -1
+ 67 86 67 61 82 120 -1
+ 67 85 67 61 82 120 -1
+ 69 41 67 61 82 120 -1
+ 69 41 69 41 82 121 -1
+ 67 85 69 41 82 121 -1
+ 67 35 69 41 82 121 -1
+ 69 19 69 41 82 121 -1
+ 67 87 69 41 82 121 -1
+ 67 61 69 41 82 121 -1
+ 67 61 69 43 82 121 -1
+ 67 87 69 43 82 121 -1
+ 69 19 69 43 82 121 -1
+ 67 35 69 43 82 121 -1
+ 67 85 69 43 82 121 -1
+ 69 41 69 43 82 121 -1
+ 67 61 67 85 82 121 -1
+ 67 87 67 85 82 121 -1
+ 69 19 67 85 82 121 -1
+ 67 35 67 85 82 121 -1
+ 67 85 67 85 82 121 -1
+ 69 41 67 85 82 121 -1
+ 67 61 67 35 82 121 -1
+ 67 87 67 35 82 121 -1
+ 69 19 67 35 82 121 -1
+ 67 35 67 35 82 121 -1
+ 67 85 67 35 82 121 -1
+ 69 41 67 35 82 121 -1
+ 67 61 67 87 82 121 -1
+ 67 87 67 87 82 121 -1
+ 69 19 67 87 82 121 -1
+ 67 35 67 87 82 121 -1
+ 67 85 67 87 82 121 -1
+ 69 41 67 87 82 121 -1
+ 67 61 67 61 82 121 -1
+ 67 87 67 61 82 121 -1
+ 69 19 67 61 82 121 -1
+ 67 35 67 61 82 121 -1
+ 67 85 67 61 82 121 -1
+ 69 41 67 61 82 121 -1
+ 69 43 80 11 82 122 -1
+ 69 41 80 11 82 122 -1
+ 80 11 80 11 82 122 -1
+ 80 11 69 44 82 122 -1
+ 69 41 69 44 82 122 -1
+ 69 43 69 44 82 122 -1
+ 69 45 67 89 82 123 -1
+ 67 88 67 89 82 123 -1
+ 67 89 67 90 82 124 -1
+ 80 53 67 90 82 125 -1
+ 67 82 67 90 82 125 -1
+ 67 90 67 90 82 125 -1
+ 80 54 67 90 82 125 -1
+ 80 55 67 90 82 125 -1
+ 67 79 67 90 82 125 -1
+ 80 49 67 90 82 125 -1
+ 80 56 67 90 82 125 -1
+ 80 56 67 91 82 125 -1
+ 80 49 67 91 82 125 -1
+ 67 79 67 91 82 125 -1
+ 80 55 67 91 82 125 -1
+ 80 54 67 91 82 125 -1
+ 67 90 67 91 82 125 -1
+ 67 82 67 91 82 125 -1
+ 80 53 67 91 82 125 -1
+ 67 90 69 45 82 126 -1
+ 67 91 69 45 82 126 -1
+ 67 91 67 92 82 126 -1
+ 67 90 67 92 82 126 -1
+ 67 91 67 91 82 126 -1
+ 67 90 67 91 82 126 -1
+ 69 45 69 46 82 127 -1
+ 67 91 69 46 82 127 -1
+ 67 91 67 91 82 127 -1
+ 69 45 67 91 82 127 -1
+ 69 46 69 42 82 128 -1
+ 67 91 69 42 82 128 -1
+ 67 91 67 91 82 128 -1
+ 69 46 67 91 82 128 -1
+ 67 91 69 47 82 128 -1
+ 69 46 69 47 82 128 -1
+ 67 85 69 43 82 129 -1
+ 67 35 69 43 82 129 -1
+ 69 19 69 43 82 129 -1
+ 67 87 69 43 82 129 -1
+ 67 61 69 43 82 129 -1
+ 69 47 69 43 82 129 -1
+ 69 47 67 85 82 129 -1
+ 67 61 67 85 82 129 -1
+ 67 87 67 85 82 129 -1
+ 69 19 67 85 82 129 -1
+ 67 35 67 85 82 129 -1
+ 67 85 67 85 82 129 -1
+ 69 47 67 35 82 129 -1
+ 67 61 67 35 82 129 -1
+ 67 87 67 35 82 129 -1
+ 69 19 67 35 82 129 -1
+ 67 35 67 35 82 129 -1
+ 67 85 67 35 82 129 -1
+ 69 47 67 87 82 129 -1
+ 67 61 67 87 82 129 -1
+ 67 87 67 87 82 129 -1
+ 69 19 67 87 82 129 -1
+ 67 35 67 87 82 129 -1
+ 67 85 67 87 82 129 -1
+ 69 47 67 61 82 129 -1
+ 67 61 67 61 82 129 -1
+ 67 87 67 61 82 129 -1
+ 69 19 67 61 82 129 -1
+ 67 35 67 61 82 129 -1
+ 67 85 67 61 82 129 -1
+ 69 47 69 47 82 129 -1
+ 67 61 69 47 82 129 -1
+ 67 87 69 47 82 129 -1
+ 69 19 69 47 82 129 -1
+ 67 35 69 47 82 129 -1
+ 67 85 69 47 82 129 -1
+ 67 85 69 43 82 130 -1
+ 67 86 69 43 82 130 -1
+ 69 19 69 43 82 130 -1
+ 67 87 69 43 82 130 -1
+ 67 61 69 43 82 130 -1
+ 69 47 69 43 82 130 -1
+ 69 47 67 85 82 130 -1
+ 67 61 67 85 82 130 -1
+ 67 87 67 85 82 130 -1
+ 69 19 67 85 82 130 -1
+ 67 86 67 85 82 130 -1
+ 67 85 67 85 82 130 -1
+ 69 47 67 86 82 130 -1
+ 67 61 67 86 82 130 -1
+ 67 87 67 86 82 130 -1
+ 69 19 67 86 82 130 -1
+ 67 86 67 86 82 130 -1
+ 67 85 67 86 82 130 -1
+ 69 47 67 87 82 130 -1
+ 67 61 67 87 82 130 -1
+ 67 87 67 87 82 130 -1
+ 69 19 67 87 82 130 -1
+ 67 86 67 87 82 130 -1
+ 67 85 67 87 82 130 -1
+ 69 47 67 61 82 130 -1
+ 67 61 67 61 82 130 -1
+ 67 87 67 61 82 130 -1
+ 69 19 67 61 82 130 -1
+ 67 86 67 61 82 130 -1
+ 67 85 67 61 82 130 -1
+ 69 47 69 47 82 130 -1
+ 67 61 69 47 82 130 -1
+ 67 87 69 47 82 130 -1
+ 69 19 69 47 82 130 -1
+ 67 86 69 47 82 130 -1
+ 67 85 69 47 82 130 -1
+ 69 43 69 48 82 131 -1
+ 80 11 69 48 82 131 -1
+ 69 47 69 48 82 131 -1
+ 69 47 80 11 82 131 -1
+ 80 11 80 11 82 131 -1
+ 69 43 80 11 82 131 -1
+ 69 48 67 93 82 132 -1
+ 67 92 67 93 82 132 -1
+ 67 94 67 95 82 133 -1
+ 80 57 67 95 82 133 -1
+ 80 58 67 95 82 133 -1
+ 80 59 67 95 82 133 -1
+ 80 59 67 94 82 133 -1
+ 80 58 67 94 82 133 -1
+ 80 57 67 94 82 133 -1
+ 67 94 67 94 82 133 -1
+ 80 59 80 58 82 133 -1
+ 80 58 80 58 82 133 -1
+ 80 57 80 58 82 133 -1
+ 67 94 80 58 82 133 -1
+ 80 60 67 94 82 134 -1
+ 67 94 67 94 82 134 -1
+ 80 59 67 94 82 134 -1
+ 80 59 67 96 82 134 -1
+ 67 94 67 96 82 134 -1
+ 80 60 67 96 82 134 -1
+ 67 95 67 97 82 135 -1
+ 67 96 67 97 82 135 -1
+ 69 21 67 97 82 135 -1
+ 80 34 67 98 82 136 -1
+ 80 25 67 98 82 136 -1
+ 80 61 67 98 82 136 -1
+ 67 97 80 59 82 137 -1
+ 67 97 67 99 82 137 -1
+ 80 57 80 62 82 138 -1
+ 83 -1 80 62 82 138 -1
+ 80 60 80 64 82 139 -1
+ 80 1 82 1 82 6 -1
+ 80 0 82 1 82 7 -1
+ 80 0 82 1 82 8 -1
+ 80 0 82 1 82 9 -1
+ 80 2 82 1 82 10 -1
+ 80 2 82 1 82 11 -1
+ 80 4 82 1 82 15 -1
+ 80 3 82 1 82 24 -1
+ 80 3 82 1 82 25 -1
+ 80 4 82 1 82 27 -1
+ 80 5 82 1 82 28 -1
+ 80 7 82 1 82 29 -1
+ 80 7 82 1 82 30 -1
+ 80 7 82 1 82 31 -1
+ 80 7 82 1 82 32 -1
+ 80 6 82 1 82 33 -1
+ 80 6 82 1 82 34 -1
+ 80 4 82 1 82 35 -1
+ 80 8 82 1 82 44 -1
+ 80 9 82 1 82 46 -1
+ 80 9 82 1 82 48 -1
+ 80 10 82 1 82 49 -1
+ 80 9 82 1 82 51 -1
+ 67 35 82 1 82 53 -1
+ 80 12 82 1 82 57 -1
+ 80 11 82 1 82 58 -1
+ 67 43 82 1 82 60 -1
+ 67 44 82 1 82 61 -1
+ 67 45 82 1 82 63 -1
+ 67 46 82 1 82 64 -1
+ 67 48 82 1 82 67 -1
+ 80 18 82 1 82 68 -1
+ 80 20 82 1 82 69 -1
+ 80 20 82 1 82 70 -1
+ 80 20 82 1 82 71 -1
+ 80 21 82 1 82 72 -1
+ 80 21 82 1 82 73 -1
+ 80 21 82 1 82 74 -1
+ 80 22 82 1 82 75 -1
+ 80 22 82 1 82 77 -1
+ 80 22 82 1 82 78 -1
+ 80 22 82 1 82 79 -1
+ 80 22 82 1 82 80 -1
+ 80 11 82 1 82 100 -1
+ 80 40 82 1 82 106 -1
+ 80 42 82 1 82 108 -1
+ 80 41 82 1 82 109 -1
+ 80 43 82 1 82 111 -1
+ 67 80 82 1 82 115 -1
+ 67 83 82 1 82 118 -1
+ 67 84 82 1 82 119 -1
+ 67 86 82 1 82 120 -1
+ 67 35 82 1 82 121 -1
+ 80 11 82 1 82 122 -1
+ 67 91 82 1 82 127 -1
+ 67 91 82 1 82 128 -1
+ 67 35 82 1 82 129 -1
+ 67 86 82 1 82 130 -1
+ 80 11 82 1 82 131 -1
+ 67 94 82 1 82 133 -1
+ 67 94 82 1 82 134 -1
+ 67 100 82 1 82 137 -1
+ 80 63 82 1 82 138 -1
+ 80 63 82 1 82 139 -1
+ 83 4 82 1 82 78 -1
+ 83 4 82 1 82 79 -1
+ 83 4 82 1 82 81 -1
+ 80 27 82 1 82 88 -1
+ 80 37 82 0 82 98 -1
+ 80 60 82 1 82 133 -1
+ 80 57 82 1 82 134 -1
+_complexName.size()	101
+	MPG glycosylase:3-methyladenine complex	nucleoplasm	Reactome DB_ID: 110202	
+	MPG glycosylase:ethenoadenine complex	nucleoplasm	Reactome DB_ID: 110204	
+	MPG glycosylase:hypoxanthine complex	nucleoplasm	Reactome DB_ID: 110206	
+	MYH glycosylase:adenine complex	nucleoplasm	Reactome DB_ID: 110199	
+	hOGG1 glycosylase:8-oxo guanine complex	nucleoplasm	Reactome DB_ID: 110185	
+	hOGG1 glycosylase: formamidopyrimidine complex	nucleoplasm	Reactome DB_ID: 110186	
+	DNA containing an MYH-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110200	
+	DNA containing an MPG-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110207	
+	DNA containing an hOGG1-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110195	
+	UNG2 glycosylase:5-hydroxyuracil complex	nucleoplasm	Reactome DB_ID: 110154	
+	UNG2 glycosylase:uracil complex	nucleoplasm	Reactome DB_ID: 110152	
+	TDG glycosylase:ethenocytosine complex	nucleoplasm	Reactome DB_ID: 110190	
+	TDG glycosylase:thymine complex	nucleoplasm	Reactome DB_ID: 110150	
+	TDG glycosylase:uracil complex	nucleoplasm	Reactome DB_ID: 110155	
+	hSMUG1glycosylase:uracil complex	nucleoplasm	Reactome DB_ID: 110163	
+	MBD4 glycosylase:thymine complex	nucleoplasm	Reactome DB_ID: 110170	
+	MBD4 glycosylase:uracil complex	nucleoplasm	Reactome DB_ID: 110168	
+	hNTH1 glycosylase:cytosine glycol complex	nucleoplasm	Reactome DB_ID: 110179	
+	hNTH1 glycosylase:dihydrouracil complex	nucleoplasm	Reactome DB_ID: 110181	
+	hNTH1 glycosylase: foramidopyrimidine complex	nucleoplasm	Reactome DB_ID: 110183	
+	hNTH1 glycosylase:thymine glycol complex	nucleoplasm	Reactome DB_ID: 110177	
+	DNA containing UNG2-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110188	
+	DNA containing a TDG-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110191	
+	DNA containing an hSMUG1-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110192	
+	DNA containing a hNTH1-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110193	
+	DNA containing an MBD4-bound apurinic/apyrimidinic site	nucleoplasm	Reactome DB_ID: 110194	
+	DNA containing an APE1-bound AP site	nucleoplasm	Reactome DB_ID: 110332	
+	APE1-bound DNA strand break containing an incision 5' to an AP site	nucleoplasm	Reactome DB_ID: 110334	
+	POL Beta: APE1-bound DNA strand break containing incision 5' to AP site 	nucleoplasm	Reactome DB_ID: 110335	
+	POL Beta-bound DNA strand break containing gap left by excised residue	nucleoplasm	Reactome DB_ID: 110337	
+	LIG3:XRRC1 complex 	nucleoplasm	Reactome DB_ID: 110338	
+	LIG3:XRCC1:POL Beta complex at site of base repair	nucleoplasm	Reactome DB_ID: 110339	
+	LIG3:XRCC1:POL Beta:DNA strand break containing replaced unligated residue	nucleoplasm	Reactome DB_ID: 110341	
+	LIG3:XRRC1-bound DNA strand containing the ligated residue	nucleoplasm	Reactome DB_ID: 110343	
+	POL Beta: APE1-bound 5' incised DNA strand break containing first resynthesized base 	nucleoplasm	Reactome DB_ID: 111252	
+	DNA Polymerase delta tetramer	nucleoplasm	Reactome DB_ID: 68450	
+	POL Delta:APE1-bound 5' incised DNA strand break containing first resynthesized nucleotide	nucleoplasm	Reactome DB_ID: 110344	
+	single-stranded DNA flap structure at the site of damaged residue	nucleoplasm	Reactome DB_ID: 110346	
+	APE1:DNA ligase I complex	nucleoplasm	Reactome DB_ID: 110348	
+	APE1:FEN1 complex	nucleoplasm	Reactome DB_ID: 110408	
+	FEN1:PCNA complex	nucleoplasm	Reactome DB_ID: 110407	
+	DNA containing unligated replacement-synthesized patch	nucleoplasm	Reactome DB_ID: 110347	
+	Ligated patch-repaired DNA	nucleoplasm	Reactome DB_ID: 111434	
+	REV1:damaged DNA template complex	nucleoplasm	Reactome DB_ID: 110283	
+	REV1:lesioned DNA template with misinserted bases	nucleoplasm	Reactome DB_ID: 110285	
+	Pol eta:damaged DNA template complex	nucleoplasm	Reactome DB_ID: 110288	
+	Pol eta:lesioned DNA template inserted with correct base complement	nucleoplasm	Reactome DB_ID: 110290	
+	Pol zeta complex	nucleoplasm	Reactome DB_ID: 110279	
+	Pol zeta:damaged DNA template complex	nucleoplasm	Reactome DB_ID: 110280	
+	dimeric ATM kinase	nucleoplasm	Reactome DB_ID: 83538	
+	dimeric phospho-ATM complex	nucleoplasm	Reactome DB_ID: 83894	
+	gamma H2AX-coated DNA double-strand break ends	nucleoplasm	Reactome DB_ID: 110399	
+	gamma H2AX:MDC1/NFBD1 complex at site of DNA double-strand break	nucleoplasm	Reactome DB_ID: 110400	
+	MDC1/NFBD1:gamma-H2AX complex	nucleoplasm	Reactome DB_ID: 83566	
+	ATM associated with DNA double-strand break ends	nucleoplasm	Reactome DB_ID: 110403	
+	53BP1:H2AX complex at site of double-strand break	nucleoplasm	Reactome DB_ID: 110401	
+	gamma-H2AX:NBS1 complex at the site of double-strand break	nucleoplasm	Reactome DB_ID: 75171	
+	RAD50:MRE11 complex	nucleoplasm	Reactome DB_ID: 75161	
+	MRN	nucleoplasm	Reactome DB_ID: 75164	
+	DNA double-strand break ends: MRN complex	nucleoplasm	Reactome DB_ID: 75166	
+	BRCA1:53BP1 complex at site of DNA double-strand break	nucleoplasm	Reactome DB_ID: 110402	
+	RPA heterotrimer	nucleoplasm	Reactome DB_ID: 68462	
+	RPA-coated 3'-ends of DNA double strand break	nucleoplasm	Reactome DB_ID: 75993	
+	RAD51:BRCA2 complex	nucleoplasm	Reactome DB_ID: 83621	
+	heptameric RAD52 complex associated with ssDNA	nucleoplasm	Reactome DB_ID: 83900	
+	RAD52:RPA complex	nucleoplasm	Reactome DB_ID: 83620	
+	RAD52:DNA double-strand break	nucleoplasm	Reactome DB_ID: 109778	
+	RAD51:RAD52:DNA double strand break end  complex	nucleoplasm	Reactome DB_ID: 83619	
+	RAD51:RPA complex	nucleoplasm	Reactome DB_ID: 83618	
+	RAD51:resected ends of DNA double-strand break	nucleoplasm	Reactome DB_ID: 109777	
+	Ku70:Ku80 heterodimer	nucleoplasm	Reactome DB_ID: 75905	
+	Ku:DNA double-strand break ends	nucleoplasm	Reactome DB_ID: 75906	
+	DNA-PK holoenzyme	nucleoplasm	Reactome DB_ID: 75907	
+	DNA-PK synaptic complex	nucleoplasm	Reactome DB_ID: 75908	
+	DNA-PK:DNA synaptic complex with ligatable ends	nucleoplasm	Reactome DB_ID: 76324	
+	XRCC4:DNA ligase IV complex	nucleoplasm	Reactome DB_ID: 75912	
+	DNA-PK:XRCC4:DNA ligase IV:DNA  complex associated with ligatable DNA ends	nucleoplasm	Reactome DB_ID: 75915	
+	XPC:HR23B complex	nucleoplasm	Reactome DB_ID: 109938	
+	XPC:HR23B:damaged DNA complex	nucleoplasm	Reactome DB_ID: 109940	
+	TFIIH	nucleoplasm	Reactome DB_ID: 109634	
+	pre-incision complex in GG-NER	nucleoplasm	Reactome DB_ID: 109941	
+	pre-incision complex with open DNA bubble 	nucleoplasm	Reactome DB_ID: 109945	
+	ERCC1:XPF complex	nucleoplasm	Reactome DB_ID: 109943	
+	incision complex for GG-NER	nucleoplasm	Reactome DB_ID: 109946	
+	Incision complex  with 3'-incised damaged DNA	nucleoplasm	Reactome DB_ID: 109947	
+	PCNA homotrimer	nucleoplasm	Reactome DB_ID: 68440	
+	DNA polymerase epsilon	nucleoplasm	Reactome DB_ID: 68483	
+	RFC Heteropentamer	nucleoplasm	Reactome DB_ID: 68436	
+	RNA Polymerase II holoenzyme complex (hyperphosphorylated)	nucleoplasm	Reactome DB_ID: 109909	
+	Active Pol II  transcription complex with damaged DNA hybrid	nucleoplasm	Reactome DB_ID: 110292	
+	Stalled Pol II complex with damaged DNA hybrid	nucleoplasm	Reactome DB_ID: 110293	
+	Transcription-coupled (TC) repair complex	nucleoplasm	Reactome DB_ID: 110276	
+	Stalled Pol II in TC-NER	nucleoplasm	Reactome DB_ID: 110294	
+	Active Pol II complex with repaired DNA template:mRNA hybrid	nucleoplasm	Reactome DB_ID: 110296	
+	FA core complex	nucleoplasm	Reactome DB_ID: 419526	
+	mono-ubiquitinated FANCD2	nucleoplasm	Reactome DB_ID: 420752	
+	mono-ubiquitinated FANCI	nucleoplasm	Reactome DB_ID: 420753	
+	ub-FANCD- and  ub-FANCI-bound chromatin	nucleoplasm	Reactome DB_ID: 420761	
+	BRCA1:BRCA2:PALB2	nucleoplasm	Reactome DB_ID: 517917	
+	FANCD and ub-FANCI-bound chromatin	nucleoplasm	Reactome DB_ID: 420771	
+	USP1:UAF1	nucleoplasm	Reactome DB_ID: 419551	
+_physicalEntityName.size()	49
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+_proteinName.size()	65
+	MPG	nucleoplasm	Reactome DB_ID: 49155	UniProt:P29372	MPG
+	MUTYH	nucleoplasm	Reactome DB_ID: 110197	UniProt:Q9UIF7	MUTYH
+	OGG1	nucleoplasm	Reactome DB_ID: 60887	UniProt:O15527	OGG1
+	CCNO	nucleoplasm	Reactome DB_ID: 66985	UniProt:P22674	CCNO
+	TDG	nucleoplasm	Reactome DB_ID: 65812	UniProt:Q13569	TDG
+	SMUG1	nucleoplasm	Reactome DB_ID: 110161	UniProt:Q53HV7	SMUG1
+	MBD4	nucleoplasm	Reactome DB_ID: 3006633	UniProt:O95243	MBD4
+	NTHL1	nucleoplasm	Reactome DB_ID: 60537	UniProt:P78549	NTHL1
+	APE1	nucleoplasm	Reactome DB_ID: 50119	UniProt:P27695	APEX1
+	POLB	nucleoplasm	Reactome DB_ID: 53845	UniProt:P06746	POLB
+	LIG3	nucleoplasm	Reactome DB_ID: 53789	UniProt:P49916	LIG3
+	LIG1	nucleoplasm	Reactome DB_ID: 53787	UniProt:P18858	LIG1
+	MF1	nucleoplasm	Reactome DB_ID: 54745	UniProt:P39748	FEN1
+	PCNA	nucleoplasm	Reactome DB_ID: 68439	UniProt:P12004	PCNA
+	REV1	nucleoplasm	Reactome DB_ID: 3006726	UniProt:Q9UBZ9	REV1
+	POLH	nucleoplasm	Reactome DB_ID: 110287	UniProt:Q9Y253	POLH
+	HREV3	nucleoplasm	Reactome DB_ID: 110278	UniProt:Q9UID5	hREV3
+	HREV7	nucleoplasm	Reactome DB_ID: 59092	UniProt:Q9UI95	MAD2L2
+	MGMT	nucleoplasm	Reactome DB_ID: 59222	UniProt:P16455	MGMT
+	MetC-MGMT	nucleoplasm	Reactome DB_ID: 109737	UniProt:P16455	MGMT
+	ALKBH2	nucleoplasm	Reactome DB_ID: 113676	UniProt:Q6NS38	ALKBH2
+	ALKBH3	nucleoplasm	Reactome DB_ID: 113682	UniProt:Q96Q83	ALKBH3
+	p-S1981-ATM	nucleoplasm	Reactome DB_ID: 75145	UniProt:Q13315	ATM
+	H2AFX	nucleoplasm	Reactome DB_ID: 56151	UniProt:P16104	H2AFX
+	H2a/x	nucleoplasm	Reactome DB_ID: 75170	UniProt:P16104	H2AFX
+	BRCA1	nucleoplasm	Reactome DB_ID: 50949	UniProt:P38398	BRCA1
+	phospho-BRCA1	nucleoplasm	Reactome DB_ID: 75234	UniProt:P38398	BRCA1
+	MDC1	nucleoplasm	Reactome DB_ID: 75231	UniProt:Q14676	MDC1
+	NBN	nucleoplasm	Reactome DB_ID: 75163	UniProt:O60934	NBN
+	p-S343-NBN	nucleoplasm	Reactome DB_ID: 75237	UniProt:O60934	NBN
+	p-MDC1	nucleoplasm	Reactome DB_ID: 75236	UniProt:Q14676	MDC1
+	53BP1	nucleoplasm	Reactome DB_ID: 61175	UniProt:Q12888	TP53BP1
+	MRE11A	nucleoplasm	Reactome DB_ID: 59544	UniProt:P49959	MRE11A
+	RAD50	nucleoplasm	Reactome DB_ID: 75160	UniProt:Q92878	RAD50
+	BRCA2	nucleoplasm	Reactome DB_ID: 50951	UniProt:P51587	BRCA2
+	RAD51	nucleoplasm	Reactome DB_ID: 62637	UniProt:Q06609	RAD51
+	RAD52	nucleoplasm	Reactome DB_ID: 62639	UniProt:P43351	RAD52
+	BRIP1	nucleoplasm	Reactome DB_ID: 419540	UniProt:Q9BX63	BRIP1
+	Ku86	nucleoplasm	Reactome DB_ID: 58274	UniProt:P13010	XRCC5
+	Ku70	nucleoplasm	Reactome DB_ID: 58272	UniProt:P12956	XRCC6
+	PRKDC	nucleoplasm	Reactome DB_ID: 62161	UniProt:P78527	PRKDC
+	DNPK1	nucleoplasm	Reactome DB_ID: 76302	UniProt:P78527	PRKDC
+	TDP1	nucleoplasm	Reactome DB_ID: 175593	UniProt:Q9NUW8	TDP1
+	LIG4	nucleoplasm	Reactome DB_ID: 53791	UniProt:P49917	LIG4
+	XRCC4	nucleoplasm	Reactome DB_ID: 75911	UniProt:Q13426	XRCC4
+	XPC	nucleoplasm	Reactome DB_ID: 67441	UniProt:Q01831	XPC
+	P58	nucleoplasm	Reactome DB_ID: 62590	UniProt:P54727	RAD23B
+	DDB1	nucleoplasm	Reactome DB_ID: 53489	UniProt:Q16531	DDB1
+	DDB2	nucleoplasm	Reactome DB_ID: 53491	UniProt:Q92466	DDB2
+	ERCC5	nucleoplasm	Reactome DB_ID: 67447	UniProt:P28715	ERCC5
+	XPA	nucleoplasm	Reactome DB_ID: 67437	UniProt:P23025	XPA
+	ERCC1	nucleoplasm	Reactome DB_ID: 54427	UniProt:P07992	ERCC1
+	ERCC4	nucleoplasm	Reactome DB_ID: 67445	UniProt:Q92889	ERCC4
+	XAB2	nucleoplasm	Reactome DB_ID: 67411	UniProt:Q9HCS7	XAB2
+	ERCC6	nucleoplasm	Reactome DB_ID: 54429	UniProt:Q03468	ERCC6
+	TCEA1	nucleoplasm	Reactome DB_ID: 65748	UniProt:P23193	TCEA1
+	ERCC8	nucleoplasm	Reactome DB_ID: 52835	UniProt:Q13216	ERCC8
+	FANCD2	nucleoplasm	Reactome DB_ID: 419522	UniProt:Q9BXW9	FANCD2
+	UBE2T	nucleoplasm	Reactome DB_ID: 420942	UniProt:Q9NPD8	UBE2T
+	UBC(609-684)	nucleoplasm	Reactome DB_ID: 939868	UniProt:P0CG48	UBC
+	FANCI	nucleoplasm	Reactome DB_ID: 419529	UniProt:Q9NVI1	FANCI
+	PALB2	nucleoplasm	Reactome DB_ID: 419548	UniProt:Q86YC2	PALB2
+	FANCD2	nucleoplasm	Reactome DB_ID: 420754	UniProt:Q9BXW9	FANCD2
+	ATR	nucleoplasm	Reactome DB_ID: 912443	UniProt:Q13535	ATR
+	FANCI	nucleoplasm	Reactome DB_ID: 420755	UniProt:Q9NVI1	FANCI
+_reactionName.size()	140
+	D	MPG glycosylase mediated recognition and binding of 3-methyladenine 
+	D	MPG glycosylase mediated recognition and binding of ethenoadenine 
+	D	MPG glycosylase mediated recognition and binding of hypoxanthine
+	D	MYH glycosylase mediated recognition and binding of an adenine opposite to an 8-oxo guanine
+	D	hOGG1 glycosylase mediated recognition and binding of an 8-oxo guanine opposite to a cytosine
+	D	hOGG1 glycosylase mediated recognition and binding of a formamidopyrimidine
+	B	Cleavage 8-oxo guanine  by MYH glycosylase
+	B	Cleavage of 3-methyladenine by MPG glycosylase 
+	B	Cleavage of ethenoadenine by MPG glycosylase
+	B	Cleavage of hypoxanthine by MPG glycosylase
+	B	Cleavage of 8-oxo guanine by hOGG1 glycosylase
+	B	Cleavage of formamidopyrimidine by hOGG1 glycosylase
+	D	UNG glycosylase mediated recognition and binding of a 5-hydroxyuracil opposite to a guanine
+	D	UNG glycosylase mediated recognition and binding of an uracil opposite to a guanine
+	D	TDG glycosylase mediated recognition and binding of an ethenocytosine
+	D	TDG glycosylase mediated recognition and binding of an thymine opposite to a guanine
+	D	TDG glycosylase mediated recognition and binding of an uracil opposite to a guanine
+	D	hSMUG1 glycosylase mediated recognition and binding of uracil within single-stranded DNA
+	D	MBD4 glycosylase mediated recognition and binding of a thymine opposite to a guanine at CpG sequences
+	D	MBD4 glycosylase mediated recognition and binding of an uracil opposite to a guanine at CpG sequences
+	D	hNTH1 glycosylase mediated recognition and binding of cytosine glycol
+	D	hNTH1 glycosylase mediated recognition and binding of dihydrouracil 
+	D	hNTH1 glycosylase mediated recognition and binding of formamidopyrimidine
+	D	hNTH1 glycosylase mediated recognition and binding of thymine glycol
+	B	Cleavage of uracil by UNG2 glycosylase
+	B	Cleavage of 5-hydroxyluracil by UNG2 glycosylase 
+	B	Cleavage of uracil by TDG glycosylase
+	B	Cleavage of  thymine by TDG glycosylase
+	B	Cleavage of uracil by hSMUG1 glycosylase
+	B	Cleavage of thymine glycol  by hNTH1 glycosylase  
+	B	Cleavage of cytosine glycol by hNTH1 glycosylase
+	B	Cleavage of dihydrouracil by hNTH1 glycosylase
+	B	Cleavage of formamidopyrimidine  by hNTH1 glycosylase 
+	B	Cleavage of uracil by MBD4 glycosylase
+	B	Cleavage of  thymine by MBD4 glycosylase
+	B	Cleavage of ethenocytosine by TDG glycosylase 
+	T	Displacement of UNG2 glycosylase by  APE1 at the AP site
+	T	Displacement of TDG glycosylase by APE1 at the AP site
+	T	Displacement of hSMUG1 glycosylase by APE1 at the AP site
+	T	Displacement of hNTH1 glycosylase by APE1 at the AP site
+	T	Displacement of MBD4 glycosylase by APE1 at the AP site
+	T	Displacement of hOGG1 glycosylase by APE1 at the AP site
+	T	Displacement of MYH glycosylase by APE1 at the AP site
+	T	Displacement of  MPG glycosylase by APE1 at the AP site
+	T	APE1 mediated endonucleolytic cleavage at the 5' side of the base-free deoxyribose residue 
+	D	Recruitment of POL Beta to the AP site
+	B	Excision of  the abasic sugar phosphate (dRP) residue at the strand break 
+	D	Recruitment  of  LIG3:XRRC1 complex to the site of repair by POL Beta
+	T	Resynthesis of excised residue
+	T	DNA ligation via the single-nucleotide replacement pathway
+	B	Dissociation of LIG3:XRCC1 complex from site of BER
+	T	POL Beta mediated incorporation of the first replacement nucleotide
+	T	POL delta associates with AP site displacing POL Beta
+	T	DNA strand displacement synthesis
+	D	Interaction of APE1 with DNA ligase I
+	D	Interaction of APE1 with FEN1
+	D	Interaction between FEN1 and PCNA
+	B	Cleavage of  flap structures
+	T	Ligation of DNA at sites of patch replacement
+	D	Binding of REV1 to lesioned DNA template
+	T	Misinsertion of  bases opposite to the lesion by HREV1
+	B	Elongation by REV1 protein
+	D	Binding of Pol eta to lesioned DNA template
+	T	Insertion of correct bases opposite to the lesion by Pol eta
+	B	Elongation by Pol eta 
+	D	Binding of Pol zeta to lesioned DNA template
+	D	Formation of Pol zeta complex
+	T	Elongation by Pol zeta complex
+	T	MGMT/hAGT mediated DNA Damage Reversal
+	T	Oxidative demethylation of 1-MeA damaged DNA By ABH2
+	T	Oxidative demethylation of 3-MeC damaged DNA By ABH2
+	T	Oxidative demethylation of 1-EtA damaged DNA By ABH2
+	T	Oxidative demethylation of 1-MeA damaged DNA By ABH3
+	T	Oxidative demethylation of 3-MeC damaged DNA By ABH3
+	T	Oxidative demethylation of 1-EtA damaged DNA By ABH3
+	T	Intermolecular autophosphorylation of ATM within dimeric ATM complexes
+	T	Dissociation of dimeric phospho-ATM complexes
+	T	Phosphorylation of histone H2AX at Serine-139 by ATM at the site of DSB
+	T	Phosphorylation of  BRCA1 at multiple sites by ATM
+	T	Phosphorylation of  NBS1 by ATM
+	T	Phosphorylation of MDC1/NFBD1 by ATM (within  2 c-term BRCT domains)
+	D	MDC1/NFBD1 associates with gamma H2AX at nuclear foci
+	D	phospho-ATM (Serine 1981) associates with DNA at the site of double-strand breaks
+	D	53BP1 associates with gamma H2AX at nuclear foci
+	D	Association of gamma-H2AX with NBS1 
+	D	Formation of RAD50:MRE11 complex
+	D	Association of RAD50:MRE11 complex with NBS1 via MRE11 interaction 
+	D	Association of MRN with sites of DSB 
+	D	BRCA1 associates with 53BP1at the site of DNA double-strand break
+	T	Resection of double-strand break ends
+	D	Association of  RPA complexes with ssDNA
+	D	Association of RAD51 with BRCA2
+	D	Formation of RAD52 heptameric ring structure complexes on ssDNA
+	D	Association of RAD52 with the RPA complex
+	D	Association of RAD52 with ssDNA at resected ends of double-strand break 
+	D	Association of RAD51 with RAD52:DNA double-strand break ends
+	D	Association of RAD51 with the RPA complex
+	D	Association of RAD51 with the resected ends of the DNA double-strand break
+	T	Strand exchange/Branch migration
+	D	DNA repair synthesis 
+	T	Ligation of DNA and formation of Holliday structures following repair synthesis
+	T	Cleavage of Holliday junctions
+	B	Dissociation of the extended strands 
+	T	Fill-in DNA synthesis
+	D	Association of Ku heterodimer with ends of DNA double-strand break
+	D	Association of DNA-PKcs with Ku-bound ends of DNA double-strand breaks
+	T	Autophosphorylation of DNA-PKcs
+	T	Synapsis, or interaction between two DNA-PK:DNA complexes at opposing ends of DNA DSB 
+	T	Removal of 3'-phosphoglycolate (PG)  moiety from DSB ends
+	T	Removal of  3'-phosphate moiety from DSB ends
+	D	Association of  the XRCC4:DNA ligase IV complex with the DNA-PK:DNA synaptic complex
+	B	Removal of repair proteins and ligation of the processed ends of the DNA double-strand break
+	D	XPC binds to HR23B forming a heterodimeric complex
+	D	XPC:HR23B complex binds to damaged DNA site with lesion
+	D	Recruitment of repair factors to form preincision complex
+	T	Formation of open bubble structure in DNA by helicases
+	D	Formation of ERCC1-XPF heterodimeric complex
+	D	Binding of ERCC1-XPF to preincision complex 
+	T	3'- incision of DNA by XPG in GG-NER
+	B	5'-incision of DNA by ERCC1-XPF in GG-NER
+	T	Repair synthesis of ~27-30 bases long patch  by DNA Pol Epsilon
+	T	Repair synthesis of patch ~27-30 bases long  by DNA Pol Delta
+	T	Ligation of newly synthesized repair patch to incised DNA in GG-NER
+	D	Formation of active Pol II complex with lesioned DNA template
+	T	RNA Pol II is blocked by the lesion leading to reduced transcription
+	T	Assembly of repair proteins at the site of Pol II blockage
+	T	Displacement of stalled Pol II  from the lesion site 
+	T	3' incision of the lesioned strand of DNA in TC-NER
+	T	5' incision leading to excision of DNA fragment with lesion in TC-NER
+	T	Repair synthesis for gap-filling  by DNA pol delta  in TC-NER
+	T	Repair synthesis for gap-filling by DNA pol epsilon in TC-NER
+	T	Ligation of newly synthesized repair patch to incised DNA in TC-NER
+	D	Resumption of transcription after TC-NER
+	T	Monoubiquitination of FANCD2 by the FA ubiquitin ligase complex
+	T	Monoubiquitination of FANCI by the FA ubiquitin ligase complex
+	D	Translocation of  ub-FANCD2  and  ub-FANCI to chromatin
+	D	Formation of the BRCA1-PALB2-BRCA2 complex
+	B	FANCD2 deubiquitination by USP1/UAF1
+	D	Phosphorylation of FANCD2 by ATR/ATM
+	T	Phosphorylation of FANCI by ATM/ATR
+_smallMoleculeName.size()	16
+	ADP	nucleoplasm	Reactome DB_ID: 113582	ADP [ChEBI:16761]
+	ATP	nucleoplasm	Reactome DB_ID: 29358	ATP [ChEBI:15422]
+	Deoxynucleoside triphosphate	nucleoplasm	Reactome DB_ID: 30555	2'-deoxyribonucleoside triphosphate [ChEBI:16516]
+	Deoxynucleoside triphosphate	nucleoplasm	Reactome DB_ID: 30555	2'-deoxyribonucleoside triphosphate [ChEBI:16516]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	SUCCA	nucleoplasm	Reactome DB_ID: 159939	Succinate [ChEBI:15741]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	O2	nucleoplasm	Reactome DB_ID: 113685	Oxygen [ChEBI:15379]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	CO2	nucleoplasm	Reactome DB_ID: 159942	CO2 [ChEBI:16526]
+	2OG	nucleoplasm	Reactome DB_ID: 113671	2-Oxoglutarate [ChEBI:30915]
+	CH2O	nucleoplasm	Reactome DB_ID: 29478	Formaldehyde [ChEBI:16842]
+_DnaName.size()	0
+_EmptyName.size()	0
+_ANodeName.size()	0
+_compartmentName.size()	40
+	cytosol
+	Golgi lumen
+	Golgi membrane
+	early endosome
+	
+	early endosome membrane
+	mitochondrial inner membrane
+	mitochondrial outer membrane
+	photoreceptor disc membrane
+	lysosomal membrane
+	endoplasmic reticulum membrane
+	plasma membrane
+	endosome membrane
+	Golgi-associated vesicle membrane
+	cytoplasmic vesicle membrane
+	nuclear envelope
+	chromosome, centromeric region
+	chromosome
+	endosome
+	nucleoplasm
+	extracellular region
+	cell junction
+	peroxisomal matrix
+	mitochondrial matrix
+	endosome lumen
+	endocytic vesicle membrane
+	phagocytic vesicle membrane
+	phagocytic vesicle lumen
+	lysosomal lumen
+	photoreceptor outer segment membrane
+	photoreceptor inner segment membrane
+	mitochondrial intermembrane space
+	secretory granule membrane
+	secretory granule lumen
+	endoplasmic reticulum lumen
+	endoplasmic reticulum quality control compartment
+	ER to Golgi transport vesicle membrane
+	clathrin-coated endocytic vesicle
+	platelet dense tubular network membrane
+	whole
